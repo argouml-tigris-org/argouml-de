@@ -48,6 +48,8 @@ etc.
 
     <property name="argo.root.dir" value="../argouml"/>
     <property name="argo.build.dir" value="${argo.root.dir}/build"/>
+	<property name="argo-de.root.dir" value="../argouml-de"/>
+  	<property name="argo-de.www.dir" value="${argo-de.root.dir}/www"/>
 
     <property name="result.jar" value="argouml-i18n-de.jar"/>
   
@@ -98,10 +100,26 @@ etc.
   </target>
 
   <!-- =================================================================== -->
+  <!-- Install the jar file                                                -->
+  <!-- =================================================================== -->
+  <target name="download" depends="install"
+	      description="Copy the ${result.jar} file to the ArgoUML-de www.download-directory.">
+  	<echo>Verzeichnis www in argouml-de: ${argo-de.www.dir}</echo>
+    <copy todir="${argo-de.www.dir}/download">
+      <fileset dir="${build.dir}" includes="${result.jar}"/>
+    </copy>
+  </target>
+	
+  <!-- =================================================================== -->
   <!-- Clean targets                                                       -->
   <!-- =================================================================== -->
   <target name="clean" depends="init"
           description="Clean out all built files.">
     <delete dir="${build.dir}"/>
+  	<delete>
+  		<fileset dir="${argo-de.www.dir}/download">
+  			<include name="argouml-i18n-de.jar"/>
+  		</fileset>
+  	</delete>
   </target>
 </project>
