@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- $Id: qstart-introduction.xml 7471 2005-01-07 13:20:26Z linus $ -->
+<!--
+// Copyright (c) 1996-2005 The Regents of the University of California. All
+// Rights Reserved. Permission to use, copy, modify, and distribute this
+// software and its documentation without fee, and without a written
+// agreement is hereby granted, provided that the above copyright notice
+// and this paragraph appear in all copies.  This software program and
+// documentation are copyrighted by The Regents of the University of
+// California. The software program and documentation are supplied "AS
+// IS", without any accompanying services from The Regents. The Regents
+// does not warrant that the operation of the program will be
+// uninterrupted or error-free. The end-user understands that the program
+// was developed for research purposes and is advised not to rely
+// exclusively on the program for any reason.  IN NO EVENT SHALL THE
+// UNIVERSITY OF CALIFORNIA BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT,
+// SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS,
+// ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF
+// THE UNIVERSITY OF CALIFORNIA HAS BEEN ADVISED OF THE POSSIBILITY OF
+// SUCH DAMAGE. THE UNIVERSITY OF CALIFORNIA SPECIFICALLY DISCLAIMS ANY
+// WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+// MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE
+// PROVIDED HEREUNDER IS ON AN "AS IS" BASIS, AND THE UNIVERSITY OF
+// CALIFORNIA HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT,
+// UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+-->
+
+<!-- 
+
+	[ PLEASE DO NOT REMOVE THIS COMMENT BLOCK!! ]
+	
+	Maintained by Kunle Odutola for the ArgoUML Project
+	http://www.argouml.org/
+	Template version: 0.0.1
+	Template last modified: May 4, 2001
+	
+-->
+<chapter id="introduction">
+	<chapterinfo>
+		<!-- 
+			===========================================================
+		   		Authors 
+			===========================================================	
+		-->
+		<!-- Repeat <author> block (and optional <address> and <email> elements) as needed for each "main" author -->	
+		&author-kunle.odu;
+		&address-kunle.odu;
+	</chapterinfo>	
+	<title>Einleitung</title>
+	<!--
+		===========================================================
+			 Chapter "INTRODUCTION" section 
+		===========================================================
+	-->
+	<sect1>
+		<title>Willkommen zu &argo;</title>
+		<para>
+			&argo; ist schon jetzt eine leistungsfähige, leicht zu verwendende, interaktive 
+			grafische Software-Design-Umgebung, die das Design, die Entwicklung und die 
+			Dokumentation von objektorientierten Software-Anwendungen unterstützt.
+		</para>
+		<para>
+			Wenn Sie mit der Familie von Softwareanwendungen vertraut sind, die Computer Aided Software 
+			Engineering (CASE) Tools genannt werden, sollten Sie mit &argo; sofort zurecht kommen.
+		</para>
+		<para>
+			Die Anwender von &argo; sind Software-Designer &amp; -Architekten, Software-Entwickler, 
+			Geschäftsprozess-Analytiker, System-Analytiker und andere in Analyse, Design und Entwicklung
+			von Softwareanwendungen involvierte Experten.
+		</para>
+		<para>
+			Haupteigenschaften:
+			<itemizedlist>
+				<listitem>
+					<para>
+Offene Standards: XMI, SVG und PGML
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+            durch die ausschliessliche Nutzung von Java 100% plattformunabhängig 
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+            Open Source, was Erweiterungen oder Anpassungen erlaubt.
+					</para>
+				</listitem>
+				<listitem>
+					<para>
+            Kognitive Eigenschaften wie:
+            Reflektion während der Aktionen, passendes Design, 
+            Verständlichkeit und Problemlösung
+					</para>
+				</listitem>
+			</itemizedlist>
+		</para>
+	</sect1>
+	<!--
+		===========================================================
+			 Chapter section template - copy for each major "topic" 
+												  discussed in this chapter
+		===========================================================
+	-->
+	<sect1>
+		<title>Über diese Kurzanleitung...</title>
+		<para>
+			Diese Kurzanleitung - &document-title;  - soll es Ihnen 
+			ermöglichen, schnellstmöglichst mit &argo; arbeiten zu können.
+			Sie enthält Schritt-für-Schritt-Anweisungen zum Installieren und 
+			Starten von &argo;, die Ausführung gemeinsamer Schritte und wie 
+			man mehr über &argo; lernt.	Wenn Sie weitergehende Details 
+			benötigen, sehen Sie bitte unter 
+<ulink url="http://argouml.tigris.org/documentation/defaulthtml/manual/">Anwenderhandbuch
+</ulink> nach.
+		</para>
+	</sect1>
+</chapter>
