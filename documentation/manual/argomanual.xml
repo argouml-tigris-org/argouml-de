@@ -742,200 +742,224 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       </para>
 
       <para>
-        First you will become familiar with the feel of the product and then
-        we will go through an analysis and development process for a test case.
-        Not every nook and cranny of the product will be demonstrated.
-        That degree of detail is given in the reference materials to be
-        found in subsequent parts of this document.
+        Zuerst werden Sie mit dem Aussehen des Produktes vertraut werden und 
+        dann werden wir für einen Testfall durch einen Analyse und 
+        Entwicklungsprozess gehen. Es wird nicht jeder Winkel und jede Ritze 
+        des Produktes demonstriert. Dieser Detailierungsgrad wird im 
+        Referenzmaterial bereitgehalten, den Sie in den nachfolgenden Teilen 
+        dieses Dokumentes finden.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
       </para>
 
       <para>
-        The state of the model at the end of key sections will be available in
-        .zargo files.
-        These are available so that you can play with various aspects not
-        specifically covered in this tutorial and then
-        restore yourself back to the proper state of the model in your work area.
-        These .zargo files will be identified at the end of the sections whose
-        work they represent.
+        Der Zustand des Modelles am Ende der Schlüsselabschnitte wird in den 
+        .zargo-Dateien verfügbar sein.
+        Diese sind verfügbar, damit Sie verschiedene, nicht in diesem 
+        Übungshandbuch speziell behandelten Aspekte durchspielen und 
+        dann zum richtigen Zustand des Modelles in Ihrem Arbeitsbereich 
+        zurückkehren können. Diese .zargo-Dateien werden am Ende der Abschnitte 
+        bekanntgegeben, deren Arbeit sie repräsentieren. 
       </para>
 
       <para>
-        An ATM (automated teller machine) project has been chosen as a case study
-        to demonstrate the various aspects of modeling that ArgoUML offers.
-        In subsequent sections we are going to develop the ATM example into
-        a complete description in UML.
-        The tutorial, however, will only walk you through part of it.
+        
+        Ein ATM (automated teller machine; automatisierte Kasse)-Projekt wurde 
+        als Fallstudie ausgewählt, um die verschiedenen Aspekte der von 
+        ArgoUML offerierten Modellierungen zu demonstrieren. In den 
+        nachfolgenden Abschnitten werden wir eine automatisierte Kasse 
+        vollständig beschrieben in UML entwickeln.
+        Das Übungshandbuch wird Sie allerdings nur durch bestimmte Teile 
+        davon führen.
       </para>
 
       <para>
-        At this point you should create a directory to contain your project.
-        Name the directory anything you feel is consistent with the rest of your
-        file system.
-        You should name the contents and any subdirectories as directed for reasons
-        that will become apparent.
+        An diesem Punkt sollten Sie ein Verzeichnis erzeugen, welches Ihr 
+        Projekt aufnimmt. Benennen Sie das Verzeichnis so, dass es zum Rest 
+        Ihres Dateisystems passt.
+        Sie sollten die Inhalte und die Unterverzeichnisse wie nachfolgend 
+        beschrieben bezeichnen.
       </para>
 
       <para>
-        The case study will be an ATM system.
-        Your company is FlyByNight Industries.
-        You are going to play two roles.
-        That of the Project Manager and that of the Designer Analyst.
+        Die Fallstudie ist ein automatisiertes Kassensystem.
+        Ihre Firma heißt FlyByNight Industries.
+        Sie werden zwei Rollen spielen.
+        Diejenige des Projektmanagers und die des Analytikers.
       </para>
 
       <para>
-        We are not going to build a physical ATM, of course.
-        The product that we will build as a case study will be an ATM simulator
-        to be used for testing the design of a physical ATM.
+        Wir werden natürlich keine physikalisch existierendes automatisches 
+        Kassensystem erzeugen.
+        Das Produkt, das wir als Fallstudie erzeugen werden ist ein 
+        Kassensimulator, der zum Testen und Entwerfen eines physikalisch 
+        vorhandenen Kassensystems verwendet wird.
       </para>
 
       <para>
-        How your company arranges its work into projects is usually determined as
-        much by politics as anything else and is, therefore, out of the scope of
-        this document.
-        We will go into how you structure the project itself once one has been
-        defined.
+        Wie Ihre Firma die Arbeit in Projekten organisiert, ist gewöhnlich mehr 
+        durch politische als durch andere Einflüsse bestimmt, aus diesem Grund 
+        ist dies nicht im Fokus dieses Dokumentes.
+        Wir werden zeigen, wie Sie Ihr Projekt selbst strukturieren können.
       </para>
 
     </chapter>
 
     <chapter id="ch.tut.ooad">
 
-      <title>UML Based OOA&amp;D</title>
+      <title>UML basierte OOA&amp;D</title>
 
       <para>
-        In this chapter, we look at how UML as a notation is used 
-        within OOA&amp;D.
+        In diesem Kapitel sehen wir, wie UML als Notation innerhalb 
+        der OOA&amp;D verwendet wird.
       </para>
 
       <sect1>
 
-        <title>Background to UML</title>
+        <title>Hintergrundinformationen zu UML</title>
 
-        <para><emphasis>Object orientation</emphasis> as a concept has 
-        been around since the 1960&apos;s, and as a design concept 
-        since 1972. However it was in the 1980&apos;s that it started 
-        to develop as a credible alternative to a <emphasis>functional 
-        approach</emphasis> in analysis and design. We can identify a 
-        number of drivers.</para>
-
-        <orderedlist>
-
-          <listitem>
-
-            <para>The emergence of mainstream OO programming languages 
-            like SmallTalk and particularly C++. C++ was a pragmatic OO 
-            language derived from C, widely used because of its 
-            association with Unix.</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para>The development of powerful workstations, and with 
-            them the emergence into the mainstream of windowing 
-            operating user environments. Graphical User Interfaces 
-            (GUI) have an inherent object structure.</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para>A number of very public major project failures, 
-            suggesting that current approaches were not 
-            satisfactory.</para>
-
-          </listitem>
-
-        </orderedlist>
-
-        <para>A number of researchers proposed OOA&amp;D processes, and 
-        with them notations. Those that achieved some success include 
-        Coad-Yourdon, Booch, Rumbaugh OMT, OOSE/Jacobson, 
-        Shlaer-Mellor, ROOM (for real-time design) and the hybrid 
-        Jackson Structured Development.</para>
-
-        <para>During the early 1990&apos;s it became clear that these 
-        approaches had many good ideas, often very similar. A major 
-        stumbling block was the diversity of notation, meaning 
-        engineers tended to be familiar with one OOA&amp;D methodology, 
-        rather than the approach in general.</para>
-
-        <para>UML was conceived as a common notation, that would be in 
-        the interests of all involved. The original standard was driven 
-        by Rational Software (
-        <ulink url="http://www.rational.com">www.rational.com</ulink>, 
-        in which three of the key researchers in the field (Booch, 
-        Jacobson and Rumbaugh were involved). They produced documents 
-        describing UML v0.9 and v0.91 during 1996. The effort was taken 
-        industry wide through the Object Management Group (OMG), 
-        already well known for the CORBA standard. A first proposal, 
-        1.0 was published in early 1997, with an improved version 1.1 
-        approved that autumn.</para>
-
-        <para>ArgoUML is based on UML v1.4, which was adopted by OMG in 
-        March 2000. The current official version is UML v1.5 dated 
-        March 2003, soon to be replaced by a major revision, UML v2.0, 
-        which is in the final stages of standardization and is 
-        expected to be complete in 2006.</para>
-
-      </sect1>
-
-      <sect1>
-
-        <title>UML Based Processes for OOA&amp;D</title>
-
-        <para>
-          It is important to understand that UML is a notation for OOA&amp;D.
-          It does not prescribe any particular process.
-          Whatever process is adopted, it must take the system 
-          being constructed through a number of phases.
+        <para><emphasis>Objektorientierung</emphasis> als Konzept 
+        kam in den 1960&apos;ern auf und als Designkonzept seit 1972. 
+        Erst in den 1980&apos;ern entwickelte sie sich in der 
+        Analyse und Design als ernstzunehmende Alternative zum 
+        <emphasis>funktionalen Ansatz</emphasis>. Dies wurde durch 
+        mehrere Fakten getrieben.
         </para>
 
         <orderedlist>
 
           <listitem>
 
-            <para>Requirements Capture. This is where we identify the 
-            requirements for the system, using the language of the 
-            <emphasis>problem domain</emphasis>. In other words we 
-            describe the problem in the <quote>customer&apos;s</quote> 
-            terms.</para>
+            <para>
+            Das Erscheinen der OO-Programmiersprachen wie SmallTalk 
+            und teilweise C++. C++ war eine pragmatische, von C abgeleitete 
+            OO-Sprache, die wegen ihrer Verknüpfung mit UNIX sehr weit 
+            verbreitet war.
+			</para>
 
           </listitem>
 
           <listitem>
-            <indexterm><primary>Analysis</primary></indexterm> 
 
-            <para>Analysis. We take the requirements and start to 
-            recast them in the language of a putative solution&mdash;the 
-            <emphasis>solution domain</emphasis>. At this stage, 
-            although thinking in terms of a solution, we ensure we keep 
-            things at a high level, away from concrete details of a 
-            specific solution&mdash;what is known as 
-            <emphasis>abstraction</emphasis>.</para>
+            <para>
+            Die Entwicklung leistungsfähiger Workstations und das 
+            Erscheinen von fensterbasierten Anwenderumgebungen. 
+            Grafische Anwenderschnittstellen (GUI) haben eine 
+            eingebaute Objektstruktur.
+			</para>
+
+          </listitem>
+
+          <listitem>
+
+            <para>
+            Eine Vielzahl sehr bekannter Projektfehlschläge, die 
+            nahelegten, dass der aktuelle Ansatz nicht mehr tragfähig
+            war.
+            </para>
+
+          </listitem>
+
+        </orderedlist>
+
+        <para>
+        Einige Forscher schlugen OOA&amp;D-Prozesse vor, und mit ihnen
+        Notationen. Solchen, denen tatsächlich etwas Erfolg beschieden 
+        war, waren Coad-Yourdon, Booch, Rumbaugh OMT, OOSE/Jacobson, 
+        Shlaer-Mellor, ROOM (für Echtzeit-Design) und die hybride 
+        Strukturierte Programmierung von Jackson.
+        </para>
+
+        <para>
+        Während der frühen 1990&apos;er wurde klar, dass diese Ansätze 
+        viele gute, oft sehr einfache Ideen enthielten. Ein Haupt-
+        Stolperstein waren die unterschiedlichen Notationen, was 
+        bedeutete, dass die Ingenieure mehr mit einer OOA&amp;D-Methode 
+        als mit dem generellen Ansatz vertraut waren.
+        </para>
+
+        <para>
+        UML wurde als gemeinsame Notation erdacht, welche die Interessen 
+        aller einschliessen sollte. Der Originalstandard wurde durch 
+        Rational Rose vorangetrieben (
+        <ulink url="http://www.rational.com">www.rational.com</ulink>,
+        in der drei der wichtigsten Forscher arbeiteten (Booch, 
+        Jacobson und Rumbaugh waren involviert). Sie produzierten im Laufe 
+        des Jahres 1996 Dokumente, welche die UML, Version 0.9 und 
+        Version 0.91 beschrieben. Der Aufwand wurde industrieweit durch 
+        die Object Management Group (OMG) fortgesetzt, die bereits durch 
+        den CORBA-Standard sehr bekannt war. Ein erster Vorschlag, 
+        Version 1.0 wurde im Frühjahr 1997 veröffentlicht. Eine verbesserte 
+        Version 1.1 erschien im Herbst.</para>
+
+        <para>
+        ArgoUML basiert auf UML, Version 1.4, die durch die OMG im März 2000 
+        herausgegeben wurde. Die aktuelle offizielle Version ist UML, 
+        Version 1.5 vom März 2003, die in Kürze durch die Revision UML, 
+        Version 2.0 ersetzt werden wird, die sich in den abschliessenden 
+        Standardisierungsschritten befindet und wahrscheinlich in 2006 
+        vollständig sein wird.
+        </para>
+
+      </sect1>
+
+      <sect1>
+
+        <title>UML basierter Prozess für OOA&amp;D</title>
+
+        <para>
+          Es ist wichtig, zu verstehen, dass UML eine Notation für OOA&amp;D 
+          ist. Sie schreibt keinen bestimmten Prozess vor. Welcher Prozess 
+          auch immer angewendet wird, das System wird in mehreren Phasen 
+          konstruiert.
+        </para>
+
+        <orderedlist>
+
+          <listitem>
+
+            <para>Erfassen der Anforderungen. In dieser Phase identifizieren 
+            wir die Anforderungen an das System. Dabei verwenden wir die 
+            Sprache des <emphasis>Problembereiches</emphasis>. Mit anderen 
+            Worten, wir beschreiben das Problem mit den Begrifflichkeiten 
+            des <quote>Kunden</quote>.</para>
+
+          </listitem>
+
+          <listitem>
+            <indexterm><primary>Analyse</primary></indexterm> 
+
+            <para>Analyse. Wir nehmen die Anforderungen und beginnen diese 
+            in die Sprache einer vermeintlichen Lösung umzuformen, den 
+            <emphasis>Lösungsbereich</emphasis>. Zu diesem Zeitpunkt halten 
+            wir die Dinge auf einer hohen Abstraktionsebene, obwohl wir 
+            bereits in den Begrifflichkeiten der Lösung denken&mdash; entfernt 
+            von den konkreten Details einer spezifischen Lösung. Dieser 
+            Vorgang ist als <emphasis>Abstraktion</emphasis> bekannt.
+            </para>
 
           </listitem>
 
           <listitem>
             <indexterm><primary>Design</primary></indexterm>
 
-            <para>Design. We take the specification from the Analysis 
-            phase and construct the solution in full detail. We are 
-            moving from <emphasis>abstraction</emphasis> of the problem 
-            to its <emphasis>realization</emphasis> in concrete 
-            terms.</para>
+            <para>Design. Wir nehmen die Spezifikation aus der Analysephase 
+            und konstruieren die Lösung ganz detailliert. Wir bewegen uns 
+            von der <emphasis>Abstraktion</emphasis> des Problemes hin 
+            zu seiner <emphasis>Realisierung</emphasis> in konkreter Form.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para>Build Phase. We take the actual design and write it 
-            in a real programming language. This includes not just the 
-            programming, but the testing that the program meets the 
-            requirements (<emphasis>verification</emphasis>), testing 
-            that the program actually solves the customer&apos;s 
-            problem (<emphasis>validation</emphasis>) and writing all 
-            user documentation.</para>
+            <para>Build-Phase. Wir nehmen das aktuelle Design und setzen 
+            es in eine reale Programmiersprache um. Das schliesst nicht 
+            nur die Programmierung ein, sondern auch, das Testen, ob 
+            das Programm den Anforderungen (
+            <emphasis>Verifikation</emphasis>) entspricht, testen, ob 
+            das Programm das aktuelle Kundenproblem löst (
+            <emphasis>Validierung</emphasis>) und das Schreiben der 
+            gesamten Anwenderdokumentation.
+            </para>
 
           </listitem>
 
@@ -943,32 +967,35 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="s2.proctypes">
 
-          <title>Types of Process</title>
+          <title>Prozesstypen</title>
 
-          <para>In this section we look at the two main types of 
-          process in use for software engineering. There are others, 
-          but they are less widely used.</para>
+          <para>
+          In diesem Abschnitt sehen wir uns die beiden Hauptprozesstypen 
+          an, die im Software-Engineering verwendet werden. Es gibt noch 
+          weitere, diese werden aber weniger häufig verwendet.
+          </para>
 
-          <para>In recent years there has also been a move to reduce 
-          the effort required in developing software. This has led to 
-          the development of a number of lightweight variants of 
-          processes (often known as <emphasis>agile 
-          computing</emphasis> or <emphasis>extreme 
-          programming</emphasis>) that are suited to very small teams 
-          of engineers.</para>
+          <para>
+          In den letzten Jahren gab es auch eine Bewegung, den für die 
+          Entwicklung von Software notwendigen Aufwand zu reduzieren. 
+          Dies führte in der Entwicklung zu einer Anzahl von verkleinerten 
+          Prozessvarianten (oft als <emphasis>agile computing</emphasis> oder 
+          <emphasis>extreme programming</emphasis> bekannt), die auf sehr 
+          kleine Ingenieurteams zugeschnitten waren.
+          </para>
 
           <sect3>
 
-            <title>The Waterfall Process</title>
+            <title>Der Wasserfall-Prozess</title>
 
-            <para>In this process, each stage of the 
-            process&mdash;requirements, analysis, design and build (code and 
-            test) is completed before the next one starts. This is 
-            illustrated in <xref linkend="fig.waterfallsteps"/>.</para>
+            <para>In diesem Prozess wird jeder Prozessschritt&mdash; 
+            Anforderungen, Analyse, Design und Build (Code und Test) 
+            abgeschlossen, bevor der nächste beginnt. Dies ist in 
+            <xref linkend="fig.waterfallsteps"/> illustriert.</para>
 
             <figure float="1" id="fig.waterfallsteps">
 
-              <title>The Waterfall Process</title>
+              <title>Der Wasserfall-Prozess</title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
