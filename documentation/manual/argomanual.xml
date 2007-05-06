@@ -295,9 +295,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         Ein OO-System wird als <emphasis>Simulation</emphasis> der realen Welt 
         mit Hilfe von Softwarebausteinen entworfen und implementiert. Diese 
         Prämisse ist so leistungsfähig wie einfach. Durch die Anwendung des 
-        OO-<emphasis>Design</emphasis>-Ansatzes kann ein System, ohne dass es 
-        vorher gebaut werden muss, entworfen und getestet (oder korrekter: 
-        simuliert) werden.
+        OO-<emphasis>Design</emphasis>-Ansatzes kann ein System entworfen und 
+        getestet (oder korrekter: simuliert) werden, ohne dass es 
+        vorher gebaut werden muss.
 		</para>
 
         <para>
@@ -311,7 +311,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         </para>
 
         <para>
-        Das letzte Element, das die OOA&amp;D vorantrieb, war seine Eignung 
+        Das letzte Element, das die OOA&amp;D vorantrieb, war seine Eignung, 
         grafische Anwenderschnittstellen zu modellieren. Die Popularität der 
         objektbasierten und objektorientierten grafischen Sprachen, wie Visual 
         Basic und Java reflektieren die Effizienz dieses Ansatzes.
@@ -324,16 +324,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>Die Entwicklung von ArgoUML</title>
 
         <para>
-        Während der 1980&apos;er wurde eine Anzahl von OOA&amp;D-
-        Vorgehensmethoden und Notationen durch unterschiedliche 
-        Forscherteams entwickelt. Es wurde klar, dass es viele 
-        gemeinsame Themen gibt. Während der 1990&apos;er wurde 
-        eine vereinheitlichter Ansatz für die OOA&amp;D-Notation 
-        unter der Schirmherrschaft der 
-        <ulink url="http://www.omg.org">Object Management 
-        Group</ulink> entwickelt. Dieser Standard wurde als Unified 
-        Modeling Language (UML) bekannt, und ist heute die Standardsprache 
-        für die Kommunikation von OO-Konzepten.</para>
+        Während der 1980&apos;er wurden eine Anzahl von OOA&amp;D-
+        Vorgehensmethoden und -Notationen durch unterschiedliche Forscherteams 
+        entwickelt. Es wurde klar, dass es viele gemeinsame Themenbereiche gibt. 
+        Während der 1990&apos;er wurde ein vereinheitlichter Ansatz für die 
+        OOA&amp;D-Notation unter der Schirmherrschaft der 
+        <ulink url="http://www.omg.org">Object Management Group</ulink> 
+        entwickelt. Dieser Standard wurde als Unified Modeling Language (UML) 
+        bekannt, und ist heute die Standardsprache für die Kommunikation von 
+        OO-Konzepten.</para>
 
         <para>
         ArgoUML war als Tool und Umgebung für Analyse und Design 
@@ -377,9 +376,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <listitem>
 
             <para>
-            ArgoUML ist eine 100%ige Java-Anwendung. Dies ermöglicht es 
-            ArgoUML auf allen Plattformen zu laufen, auf denen die 
-            Laufzeitumgebung der Java2-Plattform verfügbar ist.
+            ArgoUML ist eine 100%ige Java-Anwendung. Dadurch kann ArgoUML auf 
+            allen Plattformen laufen, auf denen die Laufzeitumgebung der 
+            Java2-Plattform verfügbar ist.
 			</para>
 
           </listitem>
@@ -389,9 +388,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <para>
             ArgoUML ist ein Open-Source-Projekt. Die Verfügbarkeit des 
             Quellcodes stellt sicher, dass eine neue Generation von 
-            Softwaredesignern und forschern jetzt ein bewährtes Framework 
+            Softwaredesignern und -forschern jetzt ein bewährtes Framework 
             haben, von dem aus, sie die Entwicklung und Evolution von 
-            CASE-Tooltechnologien weitertreiben können.
+            CASE-Tooltechnologien vorantreiben können.
 			</para>
 
           </listitem>
@@ -402,7 +401,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	UML ist die am häufigsten bevorzugte OO-Modellierungssprache 
         	und Java eine der produktivsten OO-Entwicklungsplattformen. 
         	Jason Robbins und der Rest seines Forscherteams an der 
-        	Universität Kalifornien vereinten diese Vorteile mit der 
+        	Universität Kalifornien vereinten diese Vorteile während der 
         	Entwicklung von ArgoUML. Das Ergebnis ist ein solides 
         	Entwicklungstool und eine Umgebung für das OO-Systemdesign. 
         	Darüber hinaus bildet es eine Testumgebung für die Evolution 
@@ -410,10 +409,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         </para>
 
         <para>
-        Eine erste Release von ArgoUML war 1998 verfügbar. Mehr als 
-        100.000 Downloads bis Mitte 2001 zeigte, dass die Ausprägung 
-        dieses Projektes in Bildungs- und kommerziellen Bereichen 
-        populär wurde.
+        Eine erste Release von ArgoUML war 1998 verfügbar. Mehr als 100.000 
+        Downloads bis Mitte 2001 zeigte, dass dieses Projektes in Bildungs- und 
+        kommerziellen Bereichen populär wurde.
 		</para>
 
       </sect2>
@@ -430,23 +428,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <indexterm><primary>Robbins, Jason</primary></indexterm>
           <indexterm><primary>Mailing lists</primary></indexterm>
           <para>
-          Jason Elliot Robbins gründete das Argo-Projekt und erhielt 
-          früh die Projektleitung. Solange Jason im Projekt aktiv 
+          Jason Elliot Robbins gründete das Argo-Projekt und übte die  
+          Projektleitung aus. Solange Jason im Projekt aktiv 
           blieb, hatte er alle Hände voll mit der Projektleitung zu tun.
-          Das Projekt bewegte sich kontinuierlich stark weiter. Es gab 
-          mehr als 300 Mitglieder in der Entwickler-Mailliste (siehe  
+          Das Projekt entwickelte sich kontinuierlich und sehr stark weiter. Es 
+          gab mehr als 300 Mitglieder in der Entwickler-Mailliste (siehe  
           <ulink url="http://argouml.tigris.org/servlets/ProjectMailingListList">
           http://argouml.tigris.org/servlets/ProjectMailingListList</ulink>).
           Mehrere Dutzend von Ihnen bildeten die Kern-Entwicklungsgruppe. 
 		  </para>
 
           <para>
-            Die Entwickler-Mailliste ist der Ort, in dem alle Diskussionen 
-            über die letzten Aktivitäten stattfinden und Entwickler die 
-            Ausrichtung des Projektes diskutieren sollten. Obwohl manchmal 
-            sehr kontrovers, blieben diese Diskussionen immer nett und 
-            freundlich (keine flammenden Kriege oder ähnliches), so dass 
-            Neue nicht zögern und einfach daran teilnehmen sollten. Sie 
+            Die Entwickler-Mailliste ist der Ort, in dem alle Diskussionen über 
+            die letzten Aktivitäten stattfinden und Entwickler die Richtung 
+            diskutieren, die das Projektes nehmen sollte. Obwohl manchmal sehr 
+            kontrovers, blieben diese Diskussionen immer nett und freundlich 
+            (keine &quot;flammenden Kriege&quot; oder ähnliches), so dass neue 
+            Entwickler nicht zögern und einfach daran teilnehmen sollten. Sie 
             werden immer willkommen sein.
           </para>
 
@@ -460,10 +458,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             Wenn Sie lernen wollen, wie das Projekt arbeitet und wie 
             Sie sich einbringen können, rufen Sie die 
           	<ulink url="http://argouml.tigris.org/dev.html">
-          		ArgoUML Web Seite Developer Zone
+          		ArgoUML Web Seite &quot;Developer Zone&quot;
           	</ulink>
-          	auf und lesen die Dokumentation durch. Das Entwicklerkochbuch
-          	wurde speziell zu diesem Zweck geschrieben.
+          	auf und lesen sich die Dokumentation durch. Das Entwicklerkochbuch
+          	wurde speziell für diesem Zweck geschrieben.
           </para>
 
         </sect3>
@@ -487,7 +485,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <indexterm><primary>FAQ</primary></indexterm>
           <para>
-          Bevor Sie diese Liste referenzieren, sollten Sie einen Blick 
+          Bevor Sie eine Frage in dieser Liste stellen, sollten Sie einen Blick 
           auf die von Ewan R. Grantham verwaltete 
           <ulink url="http://argouml.tigris.org/faqs/users.html">
           Anwender-FAQ</ulink> werfen.</para>
@@ -513,9 +511,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>Der Leserkreis</title>
 
         <para>
-        Die aktuelle Fassung dieses Dokumentes ist für erfahrende 
-        Anwender von UML in OOA&amp;D (vielleicht mit anderen Tools) 
-        gedacht, die zu ArgoUML wechseln möchten.
+        Die aktuelle Fassung dieses Dokumentes ist für erfahrende Anwender der 
+        UML in OOA&amp;D (vielleicht mit anderen Tools) gedacht, die zu ArgoUML 
+        wechseln möchten.
 		</para>
 
         <para>
@@ -538,9 +536,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>Anwendungsbereich</title>
 
         <para>
-        Die Intention ist, dass dieses Dokument eine verständliche Einführung 
-        enthält, die Designer in Lage versetzt, ArgoUML bis in seine volle 
-        Ausprägung zu nutzen. Es ist in zwei Teile untergliedert.
+        Die Intention dieses Dokument ist es, eine verständliche Einführung zu
+        geben, die Designer in Lage versetzt, ArgoUML vollständig zu nutzen. 
+        Es ist in zwei Teile untergliedert.
         </para>
 
         <itemizedlist>
@@ -548,7 +546,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <listitem>
 
             <para>
-            Ein Übungshandbuch, das zeigt, wie man mit ArgoUML arbeitet 
+            Ein Übungshandbuch, das zeigt, wie man mit ArgoUML arbeitet. 
             </para>
 
           </listitem>
@@ -569,8 +567,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         </para>
 
         <para>
-        In dieser Anleitung gibt es einige Dinge, die Sie hier nicht finden 
-        werden, weil sie an anderer Stelle beschrieben sind.
+        In dieser Anleitung gibt es einige Themen, die Sie hier nicht finden 
+        werden, weil sie an anderen Stellen beschrieben sind.
         </para>
 
         <itemizedlist>
@@ -606,13 +604,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         </itemizedlist>
 
-        <para>Dies wird beschrieben in   
+        <para>Diese Themen werden in   
         <ulink url="http://argouml-stats.tigris.org/documentation/defaulthtml/cookbook/">
         Das Entwicklerkochbuch</ulink>, 
         <ulink url="http://argouml.tigris.org/faqs/users.html">Die  
         FAQ</ulink>, und 
         <ulink url="http://argouml-stats.tigris.org/documentation/quick-guide-0.22/">
-        Die Kurzanleitung</ulink>.</para>
+        Die Kurzanleitung</ulink> beschrieben.
+        </para>
 
       </sect2>
 
@@ -626,21 +625,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <title>Die Struktur des Übungshandbuches</title>
 
-        <para><xref linkend="ch.tut.uml"/> enthält einen Überblick über 
-        UML-basierte OOA&amp;D einschliesslich einer Anleitung, wie man 
-        ArgoUML installiert und startet.
-        </para>
-
-        <para><xref linkend="ch.tut.reqs"/> bis 
-        <xref linkend="ch.tut.build"/> geht dann durch jeden Teil des 
-        Designprozesses, von der ersten Anforderung bis zum abschliessenden 
-        Projekt-Build und -verteilung.
+        <para>
+        Das <xref linkend="ch.tut.uml"/> enthält einen Überblick über 
+        UML-basierte OOA&amp;D einschliesslich einer Anleitung, wie man ArgoUML 
+        installiert und startet.
         </para>
 
         <para>
-        Für jedes UML-Konzept wird seine Anwendung erläutert. Seine Anwendung 
-        innerhalb von ArgoUML wird dann beschrieben. Zum Schluss wird eine 
-        Fallstudie verwendet, um Beispiele für diese Konzepte zu geben.
+        <xref linkend="ch.tut.reqs"/> bis <xref linkend="ch.tut.build"/> geht 
+        dann durch jeden Teil des Designprozesses. Von der ersten Anforderung 
+        bis zum abschliessenden Projekt-Build und der Verteilung.
+        </para>
+
+        <para>
+        Für jedes UML-Konzept wird dessen Anwendung erläutert. Anschliessend 
+        wird dessen Anwendung innerhalb von ArgoUML beschrieben. Zum Schluss 
+        wird eine Fallstudie verwendet, um Beispiele für diese Konzepte zu geben.
 		</para>
 
       </sect2>
@@ -649,34 +649,41 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <title>Die Struktur des Referenzhandbuches</title>
 
-        <para><xref linkend="ch.ref.ui"/> ist ein Überblick über die Anwender
-        schnittstelle und enthält eine Zusammenfassung der verschiedenen UML-
-        Diagrammtypen in ArgoUML.
+        <para>
+        <xref linkend="ch.ref.ui"/> ist ein Überblick über die 
+        Anwenderschnittstelle und enthält eine Zusammenfassung der 
+        verschiedenen UML-Diagrammtypen von ArgoUML.
         <xref linkend="ch.ref.menu"/> und <xref linkend="ch.ref.navpane"/>
-        beschreiben die Menüzeile und jedes Fenster der Anwenderschnittstelle.</para>
-
-        <para><xref linkend="ch.ref.critics"/> beschreibt Details aller im System 
-        vorhandenen kognitiven Kritiken. Unter Umständen wird ArgoUML direkt auf 
-        dieses Handbuch verweisen, wenn es die Hilfestellung zu einer Kritik gibt.
+        beschreiben die Menüzeile und jedes Fenster der Anwenderschnittstelle.
         </para>
 
-        <para><xref linkend="ch.ref.entities"/> ist ein Überblick über die 
+        <para>
+        <xref linkend="ch.ref.critics"/> beschreibt Details aller im 
+        System vorhandenen kognitiven Kritiken. Unter Umständen wird ArgoUML 
+        direkt auf dieses Handbuch verweisen, wenn es die Hilfestellung zu 
+        einer Kritik gibt.
+        </para>
+
+        <para>
+        <xref linkend="ch.ref.entities"/> ist ein Überblick über die 
         Modellelemente (z.B. die UML-Elemente, die in den Diagrammen verwendet 
         werden können) von ArgoUML. Die folgenden Kapitel (
         <xref linkend="ch.ref.entusecase"/> bis 
         <xref linkend="ch.ref.entbuiltin"/>) beschreiben die Modellelemente, 
-        die in jedem ArgoUML-Diagramm erzeugt werden können und deren 
-        Eigenschaften, genauso wie einige Standard-Modellelemente die im 
-        System enthalten sind.
+        die in jedem ArgoUML-Diagramm erzeugt werden können, deren 
+        Eigenschaften, sowie einige Standard-Modellelemente die im System 
+        enthalten sind.
         </para>
 
-        <para>Ein vollständiges <xref linkend="glossary"/> ist vorhanden. 
+        <para>
+        Es ist ein vollständiges <xref linkend="glossary"/> vorhanden. 
         <xref linkend="app.casestudy"/> enthält das Material, um die 
         im Dokument durchgehend benutzte Fallstudie zu unterstützen. 
         <xref linkend="app.umlres"/> und <xref linkend="app.umlcase"/> 
-        identifizieren Hintergrundinformationen über UML und UML-CASE-Tools. 
-        <xref linkend="app.legal"/> ist eine Kopie der GNU Free 
-        Documentation License.</para>
+        verweisen auf Hintergrundinformationen über UML und UML-CASE-Tools. 
+        <xref linkend="app.legal"/> ist eine Kopie der &quot;GNU Free 
+        Documentation License&quot;.
+        </para>
 
         <para>
         Eine der künftigen Ambitionen ist es, einen vollständigen Index 
@@ -693,15 +700,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <indexterm><primary>Anwender-Feedback</primary></indexterm>
         <indexterm><primary>Überblick</primary><secondary>über das 
         Anwenderhandbuch</secondary></indexterm>
-        <para>Bitte teilen Sie uns mit, was Sie über dieses Anwenderhandbuch denken. 
-        Ihre Kommentare helfen uns, Verbesserungen vorzunehmen.
+        <para>Bitte teilen Sie uns mit, was Sie über dieses Anwenderhandbuch 
+        denken. Ihre Kommentare helfen uns, Verbesserungen vorzunehmen.
         Mailen Sie Ihre Gedanken an <ulink url="mailto:users@argouml.tigris.org">
-        ArgoUML Users Mailing List</ulink>.
-        Sollten Sie ein fehlendes Kapitel hinzufügen wollen, kontaktieren Sie bitte 
-        <ulink url="mailto:dev@argouml.tigris.org">ArgoUML Developer Mailing List</ulink>,
-        um prüfen zu können, ob bereits jemand anderes an diesem Teil arbeitet.
-        Sie können sich zu jeder dieser Maillisten über die 
-        <ulink url="http://argouml.tigris.org">ArgoUML Webseite</ulink> anmelden.</para>
+        die &quot;ArgoUML Users Mailing List&quot;</ulink>.
+        Sollten Sie ein fehlendes Kapitel hinzufügen wollen, kontaktieren Sie 
+        bitte <ulink url="mailto:dev@argouml.tigris.org">
+        ArgoUML Developer Mailing List</ulink>, damit Sie prüfen können, ob 
+        bereits jemand anderes an diesem Teil arbeitet. Sie können sich zu 
+        jeder dieser Maillisten über die <ulink url="http://argouml.tigris.org">
+        ArgoUML Webseite</ulink> anmelden.</para>
 
       </sect2>
 
@@ -735,68 +743,64 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       <title>Einleitung</title>
 
       <para>
-        Dieses Übungshandbuch führt Sie in die Nutzung von ArgoUML beim 
-        Modellieren eines Systems ein.
+        Dieses Übungshandbuch führt Sie in Modellierung eines Systems mit Hilfe 
+        von ArgoUML ein.
       </para>
 
       <para>
-        Zuerst werden Sie mit dem Aussehen des Produktes vertraut werden und 
-        dann werden wir für einen Testfall durch einen Analyse und 
-        Entwicklungsprozess gehen. Es wird nicht jeder Winkel und jede Ritze 
-        des Produktes demonstriert. Dieser Detailierungsgrad wird im 
-        Referenzmaterial bereitgehalten, den Sie in den nachfolgenden Teilen 
+        Zuerst werden Sie mit dem Erscheinungsbild des Produktes vertraut 
+        gemacht und dann werden wir für einen Testfall durch den Analyse und 
+        Entwicklungsprozess gehen. Es wird aber nicht jeder Winkel und jede 
+        Ritze des Produktes demonstriert. Dieser Detaillierungsgrad wird im 
+        Referenzmaterial bereitgehalten, welches Sie in den nachfolgenden Teilen 
         dieses Dokumentes finden.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
       </para>
 
       <para>
-        Der Zustand des Modelles am Ende der Schlüsselabschnitte wird in den 
-        .zargo-Dateien verfügbar sein.
-        Diese sind verfügbar, damit Sie verschiedene, nicht in diesem 
-        Übungshandbuch speziell behandelten Aspekte durchspielen und 
-        dann zum richtigen Zustand des Modelles in Ihrem Arbeitsbereich 
-        zurückkehren können. Diese .zargo-Dateien werden am Ende der Abschnitte 
-        bekanntgegeben, deren Arbeit sie repräsentieren. 
+        Der Zustand des Modelles am Ende der Schlüsselabschnitte wird in  
+        .zargo-Dateien verfügbar sein. Diese sind vorhanden, damit Sie 
+        verschiedene, nicht in diesem Übungshandbuch speziell behandelte 
+        Aspekte durchspielen und dann zum richtigen Zustand des Modelles  
+        zurückkehren können. Diese .zargo-Dateien werden am Ende der Abschnitte, 
+        deren Arbeit sie repräsentieren, ausgewiesen. 
       </para>
 
       <para>
         
-        Ein ATM (automated teller machine; automatisierte Kasse)-Projekt wurde 
-        als Fallstudie ausgewählt, um die verschiedenen Aspekte der von 
-        ArgoUML offerierten Modellierungen zu demonstrieren. In den 
-        nachfolgenden Abschnitten werden wir eine automatisierte Kasse 
-        vollständig beschrieben in UML entwickeln.
-        Das Übungshandbuch wird Sie allerdings nur durch bestimmte Teile 
-        davon führen.
+        Ein ATM (automated teller machine; automatisiertes Kassen)-Projekt wurde 
+        als Fallstudie ausgewählt, um die verschiedenen Aspekte der von ArgoUML 
+        angebotenen Modellierungen zu demonstrieren. In den nachfolgenden 
+        Abschnitten werden wir eine &quot;automatisierte Kasse&quot; vollständig 
+		in UML beschreiben. Das Übungshandbuch wird Sie allerdings nur durch 
+		bestimmte Teile davon führen.
       </para>
 
       <para>
         An diesem Punkt sollten Sie ein Verzeichnis erzeugen, welches Ihr 
         Projekt aufnimmt. Benennen Sie das Verzeichnis so, dass es zum Rest 
-        Ihres Dateisystems passt.
-        Sie sollten die Inhalte und die Unterverzeichnisse wie nachfolgend 
-        beschrieben bezeichnen.
+        Ihres Dateisystems passt. Die Inhalte und die Unterverzeichnisse 
+        sollten Sie, wie nachfolgend beschrieben, bezeichnen.
       </para>
 
       <para>
-        Die Fallstudie ist ein automatisiertes Kassensystem.
-        Ihre Firma heißt FlyByNight Industries.
-        Sie werden zwei Rollen spielen.
-        Diejenige des Projektmanagers und die des Analytikers.
+        Die Fallstudie ist ein automatisiertes Kassensystem. Ihre Firma heißt 
+        &quot;FlyByNight Industries&quot;. Sie werden zwei Rollen spielen. Die 
+        des Projektmanagers und die des Analytikers.
       </para>
 
       <para>
-        Wir werden natürlich keine physikalisch existierendes automatisches 
-        Kassensystem erzeugen.
-        Das Produkt, das wir als Fallstudie erzeugen werden ist ein 
-        Kassensimulator, der zum Testen und Entwerfen eines physikalisch 
-        vorhandenen Kassensystems verwendet wird.
+        Wir werden natürlich kein physikalisch existierendes, automatisches 
+        Kassensystem erzeugen. Das Produkt, das wir als Fallstudie erzeugen 
+        werden ist ein Kassensimulator, der zum Testen und Entwerfen eines 
+        physikalisch vorhandenen Kassensystems verwendet wird.
       </para>
 
       <para>
         Wie Ihre Firma die Arbeit in Projekten organisiert, ist gewöhnlich mehr 
-        durch politische als durch andere Einflüsse bestimmt, aus diesem Grund 
-        ist dies nicht im Fokus dieses Dokumentes.
-        Wir werden zeigen, wie Sie Ihr Projekt selbst strukturieren können.
+        durch politische als durch andere Einflüsse bestimmt. Aus diesem Grund 
+        steht dies nicht im Mittelpunkt dieses Dokumentes. Wir werden zeigen, 
+        wie Sie Ihr Projekt selbst strukturieren können, nachdem eines 
+        definiert wurde.
       </para>
 
     </chapter>
@@ -814,12 +818,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <title>Hintergrundinformationen zu UML</title>
 
-        <para><emphasis>Objektorientierung</emphasis> als Konzept 
-        kam in den 1960&apos;ern auf und als Designkonzept seit 1972. 
-        Erst in den 1980&apos;ern entwickelte sie sich in der 
-        Analyse und Design als ernstzunehmende Alternative zum 
-        <emphasis>funktionalen Ansatz</emphasis>. Dies wurde durch 
-        mehrere Fakten getrieben.
+        <para><emphasis>Objektorientierung</emphasis> als Konzept kam in den 
+        1960&apos;ern auf und als Designkonzept ab 1972. Erst in den 
+        1980&apos;ern entwickelte sie sich im Bereich Analyse und Design als 
+        ernstzunehmende Alternative zum <emphasis>funktionalen Ansatz</emphasis>. 
+        Dies wurde durch mehrere Fakten getrieben.
         </para>
 
         <orderedlist>
@@ -859,32 +862,31 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         </orderedlist>
 
         <para>
-        Einige Forscher schlugen OOA&amp;D-Prozesse vor, und mit ihnen
-        Notationen. Solchen, denen tatsächlich etwas Erfolg beschieden 
-        war, waren Coad-Yourdon, Booch, Rumbaugh OMT, OOSE/Jacobson, 
-        Shlaer-Mellor, ROOM (für Echtzeit-Design) und die hybride 
-        Strukturierte Programmierung von Jackson.
+        Einige Forscher schlugen OOA&amp;D-Prozesse und Notationen vor. 
+        Denjenigen, denen tatsächlich etwas Erfolg beschieden war, waren 
+        Coad-Yourdon, Booch, Rumbaugh OMT, OOSE/Jacobson, Shlaer-Mellor, ROOM 
+        (für Echtzeit-Design) und die hybride &quot;Strukturierte 
+        Programmierung&quot; von Jackson.
         </para>
 
         <para>
-        Während der frühen 1990&apos;er wurde klar, dass diese Ansätze 
-        viele gute, oft sehr einfache Ideen enthielten. Ein Haupt-
-        Stolperstein waren die unterschiedlichen Notationen, was 
-        bedeutete, dass die Ingenieure mehr mit einer OOA&amp;D-Methode 
-        als mit dem generellen Ansatz vertraut waren.
+        Während der frühen 1990&apos;er wurde klar, dass diese Ansätze viele 
+        gute, oft sehr einfache Ideen enthielten. Ein Haupt-Stolperstein waren 
+        jedoch die unterschiedlichen Notationen, was bedeutete, dass die 
+        Ingenieure mehr mit einer bestimmten OOA&amp;D-Methode als mit dem 
+        generellen Ansatz vertraut waren.
         </para>
 
         <para>
-        UML wurde als gemeinsame Notation erdacht, welche die Interessen 
-        aller einschliessen sollte. Der Originalstandard wurde durch 
-        Rational Rose vorangetrieben (
-        <ulink url="http://www.rational.com">www.rational.com</ulink>,
-        in der drei der wichtigsten Forscher arbeiteten (Booch, 
-        Jacobson und Rumbaugh waren involviert). Sie produzierten im Laufe 
-        des Jahres 1996 Dokumente, welche die UML, Version 0.9 und 
-        Version 0.91 beschrieben. Der Aufwand wurde industrieweit durch 
-        die Object Management Group (OMG) fortgesetzt, die bereits durch 
-        den CORBA-Standard sehr bekannt war. Ein erster Vorschlag, 
+        UML wurde als gemeinsame Notation erdacht, welche die Interessen Aller 
+        einschliessen sollte. Der Originalstandard wurde durch Rational Rose 
+        vorangetrieben (<ulink url="http://www.rational.com">
+        www.rational.com</ulink>, in der drei der wichtigsten Forscher 
+        arbeiteten (Booch, Jacobson und Rumbaugh waren involviert). Sie 
+        produzierten im Laufe des Jahres 1996 Dokumente, welche die UML, 
+        Version 0.9 und Version 0.91 beschrieben. Der Aufwand wurde 
+        industrieweit durch die Object Management Group (OMG) fortgesetzt, die 
+        bereits durch den CORBA-Standard sehr bekannt war. Ein erster Vorschlag, 
         Version 1.0 wurde im Frühjahr 1997 veröffentlicht. Eine verbesserte 
         Version 1.1 erschien im Herbst.</para>
 
@@ -892,9 +894,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         ArgoUML basiert auf UML, Version 1.4, die durch die OMG im März 2000 
         herausgegeben wurde. Die aktuelle offizielle Version ist UML, 
         Version 1.5 vom März 2003, die in Kürze durch die Revision UML, 
-        Version 2.0 ersetzt werden wird, die sich in den abschliessenden 
-        Standardisierungsschritten befindet und wahrscheinlich in 2006 
-        vollständig sein wird.
+        Version 2.0 ersetzt werden wird. Diese befindet sich in den 
+        abschliessenden Standardisierungsschritten und wird wahrscheinlich in 
+        2006 vollständig sein.
         </para>
 
       </sect1>
@@ -904,29 +906,33 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>UML basierter Prozess für OOA&amp;D</title>
 
         <para>
-          Es ist wichtig, zu verstehen, dass UML eine Notation für OOA&amp;D 
-          ist. Sie schreibt keinen bestimmten Prozess vor. Welcher Prozess 
-          auch immer angewendet wird, das System wird in mehreren Phasen 
-          konstruiert.
+          Sie müssen verstehen, dass UML eine Notation für OOA&amp;D ist. Sie 
+          schreibt keinen bestimmten Prozess vor. Welcher Prozess auch immer 
+          angewendet wird, ein System wird in mehreren Phasen konstruiert.
         </para>
 
         <orderedlist>
 
           <listitem>
 
-            <para>Erfassen der Anforderungen. In dieser Phase identifizieren 
+            <para>
+            Erfassen der Anforderungen. In dieser Phase identifizieren 
             wir die Anforderungen an das System. Dabei verwenden wir die 
             Sprache des <emphasis>Problembereiches</emphasis>. Mit anderen 
             Worten, wir beschreiben das Problem mit den Begrifflichkeiten 
-            des <quote>Kunden</quote>.</para>
+            des <quote>Kunden</quote>.
+            </para>
 
           </listitem>
 
           <listitem>
-            <indexterm><primary>Analyse</primary></indexterm> 
+             
 
-            <para>Analyse. Wir nehmen die Anforderungen und beginnen diese 
-            in die Sprache einer vermeintlichen Lösung umzuformen, den 
+            <para>
+            Analyse. 
+            <indexterm><primary>Analyse</primary></indexterm>
+            Wir nehmen die Anforderungen und beginnen diese 
+            in die Sprache der vermeintlichen Lösung umzuformen, in den 
             <emphasis>Lösungsbereich</emphasis>. Zu diesem Zeitpunkt halten 
             wir die Dinge auf einer hohen Abstraktionsebene, obwohl wir 
             bereits in den Begrifflichkeiten der Lösung denken&mdash; entfernt 
@@ -937,26 +943,29 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           </listitem>
 
           <listitem>
-            <indexterm><primary>Design</primary></indexterm>
+            
 
-            <para>Design. Wir nehmen die Spezifikation aus der Analysephase 
-            und konstruieren die Lösung ganz detailliert. Wir bewegen uns 
-            von der <emphasis>Abstraktion</emphasis> des Problemes hin 
-            zu seiner <emphasis>Realisierung</emphasis> in konkreter Form.
+            <para>
+            Design. 
+            <indexterm><primary>Design</primary></indexterm>
+            Wir nehmen die Spezifikation aus der Analysephase und konstruieren 
+            die Lösung ganz detailliert. Wir bewegen uns von der 
+            <emphasis>Abstraktion</emphasis> des Problemes hin zu seiner 
+            <emphasis>Realisierung</emphasis> in konkreter Form.
             </para>
 
           </listitem>
 
           <listitem>
 
-            <para>Build-Phase. Wir nehmen das aktuelle Design und setzen 
-            es in eine reale Programmiersprache um. Das schliesst nicht 
-            nur die Programmierung ein, sondern auch, das Testen, ob 
-            das Programm den Anforderungen (
-            <emphasis>Verifikation</emphasis>) entspricht, testen, ob 
-            das Programm das aktuelle Kundenproblem löst (
-            <emphasis>Validierung</emphasis>) und das Schreiben der 
-            gesamten Anwenderdokumentation.
+            <para>
+            Build-Phase. Wir nehmen das aktuelle Design und setzen es in 
+            eine reale Programmiersprache um. Das schliesst nicht nur die 
+            Programmierung ein, sondern auch das Testen, ob das Programm den 
+            Anforderungen (<emphasis>Verifikation</emphasis>) entspricht, 
+            testen, ob das Programm das aktuelle Kundenproblem löst (<emphasis>
+            Validierung</emphasis>) und das Schreiben der gesamten 
+            Anwenderdokumentation.
             </para>
 
           </listitem>
@@ -970,13 +979,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <para>
           In diesem Abschnitt sehen wir uns die beiden Hauptprozesstypen 
           an, die im Software-Engineering verwendet werden. Es gibt noch 
-          weitere, diese werden aber weniger häufig verwendet.
+          weitere, diese werden aber weniger häufig eingesetzt.
           </para>
 
           <para>
           In den letzten Jahren gab es auch eine Bewegung, den für die 
-          Entwicklung von Software notwendigen Aufwand zu reduzieren. 
-          Dies führte in der Entwicklung zu einer Anzahl von verkleinerten 
+          Entwicklung von Software notwendigen Aufwand zu reduzieren. Dies 
+          führte in der Entwicklung zu einer Anzahl von kleineren 
           Prozessvarianten (oft als <emphasis>agile computing</emphasis> oder 
           <emphasis>extreme programming</emphasis> bekannt), die auf sehr 
           kleine Ingenieurteams zugeschnitten waren.
@@ -986,8 +995,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <title>Der Wasserfall-Prozess</title>
 
-            <para>In diesem Prozess wird jeder Prozessschritt&mdash; 
-            Anforderungen, Analyse, Design und Build (Code und Test) 
+            <para>In diesem Prozess wird jeder Prozessschritt&mdash; Erfassen 
+            der Anforderungen, Analyse, Design und Build (Code und Test) 
             abgeschlossen, bevor der nächste beginnt. Dies ist in 
             <xref linkend="fig.waterfallsteps"/> illustriert.</para>
 
@@ -1002,35 +1011,31 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             </figure>
 
             <para>
-            Dies ist ein sehr zufriedenstellender Prozess, in dem 
-            Anforderungen gut designed sind und keine Änderungen 
-            erwartet werden&mdash; zum Beispiel die Automatisierung 
-            eines bewährten manuellen Systems.
+            Dies ist ein sehr zufriedenstellender Prozess, in dem Anforderungen 
+            gut etnworfen wurden und keine Änderungen erwartet werden&mdash; 
+            zum Beispiel die Automatisierung eines bewährten manuellen Systems.
             </para>
 
             <para>
-            Der Schwachpunkt dieses Ansatzes zeigt sich bei weniger 
-            gut definierten Problemen. Offene Punkte in den Anforderungen 
-            bleiben bis zur Analyse und Design, oder auch erst in der 
-            Codephase ungeklärt. Dies erfordert dann ein zurückgehen, um 
-            diese Arbeit nachzuholen.
+            Der Schwachpunkt dieses Ansatzes zeigt sich bei weniger gut 
+            definierten Problemen. Offene Punkte in den Anforderungen bleiben 
+            bis zur Phase Analyse und Design, oder auch erst bis zur Codephase 
+            ungeklärt. Dies erfordert dann ein Zurückgehen, um diese Arbeit 
+            nachzuholen.
             </para>
 
             <para>
             Der schlechteste Aspekt davon ist, dass ausführbarer Code erst 
-            am Ende des Projektes verfügbar wird und es sehr häufig so ist, 
-            dass erst zu diesem Zeitpunkt Probleme mit den 
-            Originalanforderungen (zum Beispiel mit der Anwenderschnittstelle) 
-            in Erscheinung treten.
+            zum Ende des Projektes verfügbar wird. Sehr häufig ist es so, dass 
+            erst zu diesem Zeitpunkt Probleme mit den Originalanforderungen 
+            (zum Beispiel mit der Anwenderschnittstelle) in Erscheinung treten.
             </para>
 
             <para>
-            Dies ist besonders schlimm, da jeder fortgeschrittene Schritt 
-            mehr Aufwand erfordert, als der vorhergehende, so dass 
-            die Kosten spät entdeckter Probleme extrem teuer sind. Dies 
-            wird durch die Pyramide in
-             
-            <xref linkend="fig.waterfall"/> erläutert.</para>
+            Dies ist besonders schlimm, weil jeder folgende Schritt mehr 
+            Aufwand als der vorhergehende erfordert, so dass die Kosten spät 
+            entdeckter Probleme extrem teuer sind. Dies wird durch die Pyramide 
+            in <xref linkend="fig.waterfall"/> dargestellt.</para>
 
             <figure float="1" id="fig.waterfall">
 
@@ -1045,10 +1050,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para>
             Der Wasserfallprozess ist wahrscheinlich der dominante 
-            Designprozess. Jedoch durch seine Beschränkungen wird er 
-            mehr und mehr durch <emphasis>iterative</emphasis> Prozesse 
-            ersetzt, insbesondere bei Projekten, bei denen die 
-            Anforderungen nicht gut definiert sind.
+            Designprozess. Durch seine Beschränkungen wird er jedoch mehr und 
+            mehr durch <emphasis>iterative</emphasis> Prozesse ersetzt. 
+            Insbesondere bei Projekten, bei denen die Anforderungen schlecht  
+            definiert sind.
             </para>
 
           </sect3>
@@ -1059,27 +1064,27 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <indexterm><primary>Iterative Prozesse</primary></indexterm>
 
             <para>
-            In den letzten Jahren wurde ein neuer Ansatz eingesetzt, dessen 
-            Ziel es war einen kleinen Teil Code fertigzustellen und ausführen 
-            zu können, um Probleme im Entwicklungszyklus sehr schnell 
-            entdecken zu können.
+            In den letzten Jahren wurde ein neuer Ansatz verwendet, dessen 
+            Ziel es war, einen kleinen Teil Code fertigzustellen und ausführen 
+            zu können, um Probleme im Entwicklungszyklus sehr schnell zu 
+            entdecken.
             </para>
 
             <para>
-            Diese Prozesse verwenden eine Reihe von 
-            <quote>Mini-Wasserfällen</quote>, definieren einige Anforderungen 
-            (die wichtigsten zuerst, bringen diese durch Analyse und Design 
-            sowie den Buildprozess, um eine frühe Version des Produktes mit 
+            Diese Prozesse verwenden eine Reihe von <quote>Mini-Wasserfällen
+            </quote>, definieren einige Anforderungen (die wichtigsten zuerst, 
+            bringen diese durch die Analyse- und Design- sowie den 
+            Buildprozesse, um eine frühe Version des Produktes mit 
             eingeschränkter Funktionalität zu erhalten. Die Rückmeldungen 
             können dann dazu verwendet werden, die Anforderungen zu 
             überarbeiten, punktuelle Probleme zu identifizieren usw. bevor 
-            noch mehr Arbeit investiert wurde.
+            noch mehr Arbeit investiert wird.
             </para>
 
             <para>
             Dieser Prozess wird dann für weitere Anforderungen wiederholt, 
             um ein Produkt mit fortschreitender Funktionalität zu konstruieren.
-            Erneutes Feedback kann in die Anforderungen einfliessen. 
+            Erneutes Feedback kann wieder in die Anforderungen einfliessen. 
             </para>
 
             <para>
