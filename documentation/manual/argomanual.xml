@@ -1019,7 +1019,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <para>
             Der Schwachpunkt dieses Ansatzes zeigt sich bei weniger gut 
             definierten Problemen. Offene Punkte in den Anforderungen bleiben 
-            bis zur Phase Analyse und Design, oder auch erst bis zur Codephase 
+            bis zur Phase Analyse und Design, oder auch bis zur Codephase 
             ungeklärt. Dies erfordert dann ein Zurückgehen, um diese Arbeit 
             nachzuholen.
             </para>
@@ -1065,16 +1065,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para>
             In den letzten Jahren wurde ein neuer Ansatz verwendet, dessen 
-            Ziel es war, einen kleinen Teil Code fertigzustellen und ausführen 
-            zu können, um Probleme im Entwicklungszyklus sehr schnell zu 
-            entdecken.
+            Ziel es war, einen minimalen Teil Code fertigzustellen und 
+            schnellstmöglichst ausführen zu können, um Probleme im 
+            Entwicklungszyklus sehr schnell aufzudecken.
             </para>
 
             <para>
             Diese Prozesse verwenden eine Reihe von <quote>Mini-Wasserfällen
             </quote>, definieren einige Anforderungen (die wichtigsten zuerst, 
-            bringen diese durch die Analyse- und Design- sowie den 
-            Buildprozesse, um eine frühe Version des Produktes mit 
+            bringen diese durch den Analyse- und Design- sowie den 
+            Buildprozess, um eine frühe Version des Produktes mit 
             eingeschränkter Funktionalität zu erhalten. Die Rückmeldungen 
             können dann dazu verwendet werden, die Anforderungen zu 
             überarbeiten, punktuelle Probleme zu identifizieren usw. bevor 
@@ -1082,15 +1082,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             </para>
 
             <para>
-            Dieser Prozess wird dann für weitere Anforderungen wiederholt, 
-            um ein Produkt mit fortschreitender Funktionalität zu konstruieren.
+            Dieser Prozess wird dann für alle weiteren Anforderungen wiederholt, 
+            um ein Produkt mit wachsender Funktionalität zu konstruieren.
             Erneutes Feedback kann wieder in die Anforderungen einfliessen. 
             </para>
 
             <para>
-              Dieser Prozess wird wiederholt, bis voraussichtlich alle 
-              Anforderungen implementiert wurden und das Produkt fertig 
-              ist.
+              Dieser Prozess wird wiederholt, bis alle Anforderungen 
+              implementiert wurden und das Produkt fertig ist.
               <indexterm><primary>Iteration</primary></indexterm>
               Es ist diese <emphasis>Iteration</emphasis>, die diesem 
               Prozess seinen Namen gab.
@@ -1111,8 +1110,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             </figure>
 
             <para>
-            Das Wachsen der Popularität iterativer Prozess ist eng verknüpft 
-            mit dem Wachsen der OOA&amp;D. Es ist die saubere Kapselung von 
+            Das Wachsen der Popularität iterativer Prozesse ist mit dem Wachsen 
+            der OOA&amp;D eng verknüpft. Es ist die saubere Kapselung von 
             Objekten, die es erlaubt, einen Teil des Systems mit klar 
             definierten Leerroutinen für den verbleibenden Code zu bauen. 
             </para>
@@ -1124,19 +1123,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <para>
               Der wahrscheinlich bekannteste iterative Prozess ist der 
               Rational Unified Process (RUP) von Rational Software (
-              <ulink url="http://www.rational.com">www.rational.com</ulink>).</para>
-
-              <para>
-              Dieser Prozess berücksichtigte, dass unsere Pyramidensicht 
-              der Wasserfallebenen nicht realistisch ist. In der Praxis 
-              neigen frühe Iterationen dazu, zu gross zu werden (sie müssen 
-              zu Beginn eine beträchtliche Menge definieren), während 
-              spätere Iterationen sehr viel Aufwand in der Design- und 
-              Buildphase benötigen.
+              <ulink url="http://www.rational.com">www.rational.com</ulink>).
               </para>
 
               <para>
-              RUP erkannte, dass Iterationen entsprechend Ihrer Lage im 
+              Dieser Prozess berücksichtigt, dass unsere Pyramidensicht der 
+              Wasserfallebenen nicht realistisch ist. In der Praxis neigen 
+              frühe Iterationen dazu, zu gross zu werden (sie müssen zu Beginn 
+              eine beträchtliche Menge definieren), während spätere Iterationen 
+              sehr viel Aufwand in der Design- und Buildphase benötigen.
+              </para>
+
+              <para>
+              RUP erkannte, dass Wiederholungen entsprechend Ihrer Lage im 
               Gesamtprojekt in <emphasis>Phasen</emphasis> aufgeteilt werden  
               können. Jede Phase kann eine oder mehrere Iterationen umfassen.
               </para>
@@ -1146,10 +1145,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <listitem>
 
                   <para>In der <emphasis>Anfangsphase</emphasis> 
-                  neigen Iterationen dazu, mit Blick auf die 
-                  Gesamtanforderung/Analyse zu gross zu werden, obwohl 
-                  jede Build-Aktivität bezüglich der Emulation des Desgins 
-                  durch ein CASE-Tool eingeschränkt ist.
+                  neigen Iterationen dazu, mit Blick auf die Gesamtanforderung/
+                  Analyse zu gross zu werden, obwohl jede Build-Aktivität 
+                  bezüglich der Emulation des Desgins durch das CASE-Tool 
+                  eingeschränkt ist.
                   </para>
 
                 </listitem>
@@ -1158,10 +1157,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                   <para>
                   In der <emphasis>Ausarbeitungsphase</emphasis> werden die 
-                  Iterationen dazu benutzt, die Spezifikation der 
-                  Anforderungen zu vervollständigen. Ihr Schwerpunkt liegt 
-                  auf Analyse und Design und wahrscheinlich auf den ersten 
-                  real erzeugten Code.
+                  Iterationen dazu benutzt, die Spezifikation der Anforderungen 
+                  zu vervollständigen. Ihr Schwerpunkt liegt auf Analyse und 
+                  Design und dem wahrscheinlich ersten real erzeugten Code.
 				  </para>
 
                 </listitem>
@@ -1199,8 +1197,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               </note>
 
               <para>
-              Wir sollten in diesem Handbuch einen iterativen Prozess 
-              verwenden, der lose auf dem RUP basiert.
+              Wir wollen in diesem Handbuch einen iterativen Prozess verwenden, 
+              der lose auf dem RUP basiert.
               </para>
 
             </sect4>
@@ -1211,42 +1209,42 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <para>
                 Eine gute Regel ist es, dass eine Iteration in typischen 
-                kommerziellen Projekten zwischen sechs und zehn Wochen  
-                umfassen sollte. Bei längeren Zeiten haben Sie sich 
-                wahrscheinlich zu viele Anforderungen vorgenommen, als Sie 
-                in einem Schritt verarbeiten sollten. Sie verlieren auch 
-                den Fokus auf den nächsten vollständigen Iterationsschritt.
-                Bei kürzeren Zeiten haben Sie wahrscheinlich nicht genügend 
-                Anforderungen um einen signifikanten Vorschritt zu erzielen.
-                In diesem Fall wird der mit einer Iteration verbundene 
-                zusätzliche Overhead zu einem Problem.
+                kommerziellen Projekten zwischen sechs und zehn Wochen umfassen 
+                sollte. Bei längeren Zeiträumen haben Sie sich wahrscheinlich 
+                mehr Anforderungen vorgenommen, als Sie in einem Schritt 
+                verarbeiten können. Sie verlieren auch den Fokus auf den 
+                nächsten vollständigen Iterationsschritt. Bei kürzeren Zeiten 
+                haben Sie wahrscheinlich nicht genügend Anforderungen um einen 
+                spürbaren Vorschritt zu erzielen. In diesem Fall wird der mit 
+                einer Iteration verbundene zusätzliche Overhead zum Problem.
               </para>
 
               <para>
                 Die Gesamtanzahl von Iterationen hängt von der Grösse des 
-                Projektes ab. Nehmen Sie die voraussichtliche Zeit 
-                (Ausarbeitung/guessing that is a
-                whole subject on its own) und unterteilen diese in 8 Wochen 
-                grosse Abschnitte. Die Erfahrung sagt, dass Iterationen im 
-                Verhältnis 1:2:3:3 bezüglich der RUP-Phasen Anfangsphase, 
-                Ausarbeitungsphase, Konstruktionsphase und Deploymentphase 
-                aufgeteilt werden sollte. Ein Projekt, das eine grosse 
-                Umbestimmtheit in seiner Spezifikation aufweist (einige 
-                Forschungsprojekte zum Beispiel) werden diese Unbestimmtheit 
-                in sehr viel grösserem Umfang in den frühen Phasen aufweisen. 
+                Projektes ab. Nehmen Sie die voraussichtliche Gesamtdauer  
+                (geschätzte Ausarbeitungzeit für das gesamte Subjekt) und 
+                unterteilen diese in 8 Wochen grosse Abschnitte. Die Erfahrung 
+                sagt, dass Iterationen im Verhältnis 1:2:3:3 bezüglich der 
+                RUP-Phasen &quot;Anfangsphase&quot;, &quot;Ausarbeitungsphase
+                &quot;, &quot;Konstruktionsphase&quot; und &quot;Deploymentphase
+                &quot; aufgeteilt werden sollten. Ein Projekt, dass grosse 
+                Unsicherheiten in seiner Spezifikation aufweist (einige 
+                Forschungsprojekte zum Beispiel) wird viel grössere frühe 
+                Phasen aufweisen. 
                 
               </para>
 
               <para>
-              Wenn Sie ein Produkt per Vertrag mit einem Kunden erstellen, 
-              ist der Endpunkt wohl definiert. Jedoch, wenn Sie ein neues 
-              Produkt für den Markt entwickeln, kann es eine Strategie sein, 
-              die Produktveröffentlichung zu nehmen und den Zeitpunkt für 
-              das Ende des Engieering zu bestimmen (einige Zeit vorher). 
-              Dieser Zeitraum wird dann in Interationen unterteilt und 
-              so viel von dem Produkt in dieser Zeit entwickelt wie möglich.
-              Der iterative Prozess ist sehr effektiv, wenn der Zeitpunkt der 
-              Markteinführung wichtiger ist als die exakte Funktionalität.
+	              Wenn Sie ein Produkt per Vertrag für einen Kunden erstellen, 
+	              ist der Endpunkt wohl definiert. Jedoch, wenn Sie ein neues 
+	              Produkt für den Markt entwickeln, kann es eine Strategie sein, 
+	              die Produktveröffentlichung zu nehmen und den Zeitpunkt für 
+	              das Ende des Engieering zu bestimmen (einige Zeit vorher). 
+	              Dieser Zeitraum wird dann in Interationen unterteilt. In 
+	              dieser Zeit wird so viel von dem Produkt entwickelt wie 
+	              möglich. Der iterative Prozess ist sehr effektiv, wenn der 
+	              Zeitpunkt der Markteinführung wichtiger ist als die exakte 
+	              Funktionalität.
               </para>
 
             </sect4>
@@ -1280,8 +1278,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para>
             OOA&amp;D mit seinen klaren Objektgrenzen unterstützt natürlich 
-            diesen Ansatz. Solch eine OOA&amp;D in einer rekursiven 
-            Entwicklung wird manchmal als OOA&amp;D/RD abgekürzt.
+            diesen Ansatz. Eine OOA&amp;D in einer rekursiven Entwicklung wird 
+            manchmal als OOA&amp;D/RD abgekürzt.
             </para>
 
             <para>
@@ -1300,23 +1298,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <para>
           In diesem Übungshandbuch wollen wir einen reduzierten iterativen 
-          Prozess mit rekursiver Entwicklung, lose gekoppelt mit RUP 
-          verwenden. Die Fallstudie bringt uns durch die erste Iteration, 
-          obwohl wir am Ende des Übungshandbuch-Abschnittes sehen werden, 
-          wie das Projekt vollständig entwickelt wird.
+          Prozess mit rekursiver Entwicklung, lose gekoppelt mit RUP verwenden. 
+          Die Fallstudie bringt uns durch die erste Iteration, obwohl wir am 
+          Ende des Übungshandbuch-Abschnittes sehen werden, wie das Projekt 
+          vollständig entwickelt wird.
           </para>
 
           <para>
-          Innerhalb der ersten Iteration werden wir jede Aktivität wie 
-          das Erfassen der Anforderungen, die Analyse, das Design und 
-          den Build angehen. Nicht alle Teile des Prozesses basieren auf 
-          UML oder ArgoUML. Wir werden sehen, welches andere Material 
-          noch benötigt wird.
+          Innerhalb der ersten Iteration werden wir jede Aktivität wie das 
+          Erfassen der Anforderungen, die Analyse, das Design und den Build 
+          angehen. Nicht alle Teile des Prozesses basieren auf UML oder ArgoUML. 
+          Wir werden sehen, welches andere Material hierfür benötigt wird.
           </para>
 
           <para>
           Innerhalb dieses Prozesses werden wir die Möglichkeit haben, die 
-          verschiedenen UML-Diagramme in Ihre Anwendung zu sehen. Der 
+          verschiedenen UML-Diagramme in ihre Anwendung zu sehen. Der 
           vollständige Umfang der UML-Diagramme und wie sie unterstützt 
           werden ist im Referenzhandbuch beschrieben
           (siehe <xref linkend="s1.ref.diagram_types"/>).
@@ -1327,11 +1324,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>Erfassen der Anforderungen</title>
 
             <para>
-            Unser Erfassen der Anforderungen wird das UML-Konzept von 
-            <emphasis>Anwendungsfällen</emphasis> verwenden. Beginnend 
-            mit einem <emphasis>Visions-Dokument</emphasis> werden wir 
-            sehen, wie Anwendungsfälle entwickelt werden können, um alle 
-            Aspekte des Systemverhaltens im Problembereich zu beschreiben.
+            Unser &quot;Erfassen der Anforderungen&quot; wird das UML-Konzept 
+            von <emphasis>Anwendungsfällen</emphasis> verwenden. Beginnend 
+            mit einem <emphasis>Visions-Dokument</emphasis> werden wir sehen, 
+            wie Anwendungsfälle entwickelt werden können, um alle Aspekte des 
+            Systemverhaltens im Problembereich zu beschreiben.
             </para>
 
           </sect3>
@@ -1341,28 +1338,26 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>Analyse</title>
 
             <para>
-            Während der Analyse werden wir in das UML-Konzept der 
-            <emphasis>Klassen</emphasis> einführen, die es uns erlauben 
-            eine Top-Level-Sicht von Objekten zu erzeugen, welche die 
-            Lösung ausmachen&mdash; manchmal als 
-            <emphasis>Konzept-Diagramm</emphasis> bekannt.
+            Während der Analyse werden wir in das UML-Konzept der <emphasis>
+            Klassen</emphasis> einführen. Diese erlaubt es uns, eine Top-Level-
+            Sicht von Objekten zu erzeugen, welche die Lösung darstellt&mdash; 
+            manchmal als <emphasis>Konzept-Diagramm</emphasis> bekannt.
             </para>
 
             <indexterm><primary>Analyse</primary></indexterm> 
             
             <para>
-            Wir werden das UML <emphasis>Sequenzdiagramm</emphasis> 
-            und das <emphasis>Zustandsdiagramm</emphasis> einführen, um 
-            die Anforderungen für das Gesamtverhalten des Systems zu 
-            erfassen.
+            Wir werden das UML <emphasis>Sequenzdiagramm</emphasis> und das 
+            <emphasis>Zustandsdiagramm</emphasis> einführen, um die 
+            Anforderungen für das Gesamtverhalten des Systems zu erfassen.
             </para>
 
             <para>
             Abschliessend nehmen wir die Anwendungsfälle aus dem Abschnitt 
-            Erfassen der Anforderungen und wandeln diese in die Sprache 
-            des Lösungsbereiches um. Dies wird die UML-Ideen von 
-            <emphasis>Stereotypen</emphasis> und 
-            <emphasis>Realisierung</emphasis> illustrieren.
+            &quot;Erfassen der Anforderungen&quot; und wandeln diese in die 
+            Sprache des Lösungsbereiches um. Dies wird die UML-Ideen von 
+            <emphasis>Stereotypen</emphasis> und <emphasis>Realisierung
+            </emphasis> illustrieren.
             </para>
 
           </sect3>
@@ -1375,7 +1370,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             Wir verwenden das UML <emphasis>Paketdiagramm</emphasis>, um die 
             Komponenten des Projektes zu organisieren. Wir besuchen dann 
             erneut das Klassendiagramm, das Sequenzdiagramm und das 
-            Zustandsdiagramm, um zu zeigen, wie diese rekursiv dazu verwendet 
+            Zustandsdiagramm, um zu zeigen, wie diese rekursiv verwendet 
             werden können, die vollständige Lösung zu designen.
             </para>
             
@@ -1389,18 +1384,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para>
             Obgleich es nicht zwingend Teil unseres Prozesses ist, werden wir 
-            uns ansehen, wie das UML 
-            <emphasis>Kollaborationsdiagramm</emphasis> als Alternative oder 
-            Ergänzung zum <emphasis>Sequenzdiagramm</emphasis> verwendet 
-            werden kann. Ähnlich dem, werden wir uns das UML 
-            <emphasis>Aktivitätsdiagramm</emphasis> als Alternative oder 
-            Ergänzung zum Zustandsdiagramm ansehen.
+            uns ansehen, wie das UML <emphasis>Kollaborationsdiagramm</emphasis> 
+            als Alternative oder Ergänzung zum <emphasis>Sequenzdiagramm
+            </emphasis> verwendet werden kann. Ähnlich dem vorhergehenden, 
+            werden wir uns das UML <emphasis>Aktivitätsdiagramm</emphasis> als 
+            Alternative oder Ergänzung zum Zustandsdiagramm ansehen.
             </para>
 
             <para>
-            Abschliessend sollten wir das UML 
-            <emphasis>Deploymentdiagramm</emphasis> verwenden, um zu 
-            spezifizieren, wie das System aktuell realisiert werden soll.
+            Abschliessend wollen wir das UML <emphasis>Deploymentdiagramm
+            </emphasis> verwenden, um zu spezifizieren, wie das System aktuell 
+            realisiert werden soll.
             </para>
 
           </sect3>
@@ -1432,75 +1426,95 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <title>Warum ist ArgoUML anders</title>
 
-        <para>In the introduction, we listed the four key things that 
-        make ArgoUML different: i) it makes use of ideas from cognitive 
-        psychology, ii) it is based on open standards; iii) it is 100% 
-        pure Java; and iv) it is an open source project.</para>
+        <para>
+        In der Einleitung listeten wir vier Dinge auf, die ArgoUML anders 
+        machen: i) es macht Gebrauch von den Ideen der kognitiven Psychologie, 
+        ii) es basiert auf offenen Standards; iii) es ist 100% reines Java; und 
+        iv) es ist ein Open-Source-Projekt.
+        </para>
 
         <sect2 id="tut.cog.psych">
 
-          <title>Cognitive Psychology</title>
+          <title>Kognitive Psychologie</title>
 
           <sect3>
 
-            <title>Theory</title>
+            <title>Theorie</title>
 
-            <para>ArgoUML is particularly inspired by three theories 
-            within cognitive psychology: i) reflection-in-action, ii) 
-            opportunistic design iii) and comprehension and problem 
-            solving.</para>
+            <para>
+            ArgoUML ist teilweise durch die drei Theorien der kognitiven 
+            Psychologie inspieriert: 
+            </para>
+            <orderedlist>
+            	<listitem>
+            		<para>Reflektion-während-Aktion,</para>
+            	</listitem>
+            	<listitem>
+            		<para>Opportunistisches Design</para>
+            	</listitem>
+            	<listitem>
+            		<para>und Verständnis und Problemlösung.</para>
+            	</listitem>
+            </orderedlist>
 
             <itemizedlist>
 
-              <listitem><para><emphasis>Reflection-in-Action</emphasis>
-                <indexterm><primary>Reflection-in-Action</primary></indexterm>
+              <listitem><para><emphasis>Reflektion-während-Aktion</emphasis>
+                <indexterm><primary>Reflektion-während-Aktion</primary></indexterm>
                 </para>
                 
                 <para>
-                  This theory observes that designers of complex systems do not
-                  conceive a design fully-formed. Instead, 
-                  they must construct a partial design, evaluate, reflect 
-                  on, and revise it, until they are ready to extend it further.
+                  Diese Theorie unterstellt, dass sich die Designer eines 
+                  komplexen Systems das vollständig ausgeformte Design nicht 
+                  vorstellen können. Stattdessen müssen Sie ein Teil-Design 
+                  entwerfen, evaluieren, es reflektieren und überarbeiten, bis 
+                  Sie soweit sind, dieses zu erweitern. 
                 </para>
 
                 <para>
-                  As developers work hands-on with the design, their mental model
-                  of the problem situation improves, hence improving their design.
+                  Da sich die Entwickler sehr intensiv mit dem Design 
+                  beschäftigen, verbessert sich auch ihr mentales Modell der 
+                  Problemsituation. Und dies führt zur Verbesserung Ihres 
+                  Designs.
                 </para>
               </listitem>
 
-              <listitem><para><emphasis>Opportunistic Design</emphasis>
-                <indexterm><primary>Opportunistic Design</primary></indexterm>
+              <listitem><para><emphasis>Opportunistisches Design</emphasis>
+                <indexterm><primary>Opportunistisches Design</primary></indexterm>
                 </para>
 
                 <para>
-                  A theory within cognitive psychology suggesting that although
-                  designers plan and describe their work in an ordered, hierarchical
-                  fashion, in reality, they choose successive tasks based on the
-                  criteria of cognitive cost.
+                  Eine Theorie innerhalb der kognitiven Psychologie besagt, dass 
+                  obwohl Designer ihre Arbeit in einer geordneten, 
+                  hierarchischen Art und Weise beschreiben, sie in der Realität 
+                  aufeinanderfolgende Aktivitäten auf der Basis kognitiver 
+                  Kosten wählen.
                 </para>
 
                 <para>
-                  Simply stated, designers do not follow even their own plans in
-                  order, but choose steps that are mentally least expensive among
-                  alternatives.
+                  Einfach ausgedrückt, Designer folgen nicht ihrer selbst 
+                  geplanten Reihenfolge, sondern wählen Schritte, die mental 
+                  weniger aufwändige Alternativen darstellen.
                 </para>
               </listitem>
 
-              <listitem><para><emphasis>Comprehension and Problem Solving</emphasis>
-                <indexterm><primary>Comprehension</primary></indexterm>
-                <indexterm><primary>Problem Solving</primary></indexterm>
+              <listitem>
+              <para>
+              	<emphasis>Verständlichkeit und Problemlösung</emphasis>
+                <indexterm><primary>Verständlichkeit</primary></indexterm>
+                <indexterm><primary>Problemlösung</primary></indexterm>
                 </para>
 
                 <para>
-                  A design visualization theory within cognitive psychology.
-                  The theory notes that designers must bridge a gap between their
-                  mental model of the problem or situation and the formal model of
-                  a solution or system.
+                  Eine Design-Visualisierungstheorie innerhalb der kognitiven 
+                  Psychologie. Die Theorie beschreibt, dass Designer eine 
+                  Brücke zwischen Ihrem mentalen Modell des Problemes oder der 
+                  Situation und dem formalen Modell einer Lösung oder eines 
+                  Systems überwinden müssen.
                 </para>
 
                 <para>
-                  This theory suggests that programmers will benefit from:
+                  Diese Theorie besagt, dass Programmierer Vorteile haben von:
                 </para>
 
                 <orderedlist>
@@ -1508,12 +1522,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   <listitem>
 
                     <para>
-                      Multiple representations such as program syntactic
-                      decomposition, state transitions, control flow, and data flow.
-                      These allow the programmer to better identify elements and
-                      relationships in the problem and solution and thus more
-                      readily create a mapping between their situation models and
-                      working system models.
+                      Mehreren Darstellungsweisen wie die syntaktische 
+                      Programmzerlegung, Zustandsübergänge, Steuer- und 
+                      Datenfluss. Diese erlauben es dem Programmierer die 
+                      Elemente und Beziehungen innerhalb des Problemes und der 
+                      Lösung besser zu identifizieren und daher die Abbildung 
+                      zwischen deren Situationsmodellen und den funktionierenden 
+                      Systemmodellen leichter herstellen zu können.
                     </para>
 
                   </listitem>
@@ -1521,8 +1536,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   <listitem>
 
                     <para>
-                      Familiar aspects of a situation model, which improve
-                      designers&apos; abilities to formulate solutions.
+                      Vertraute Aspekte eines Situationsmodelles, welche die 
+                      Fähigkeiten des Designers verbessern, Lösungen zu 
+                      formulieren.
                     </para>
 
                   </listitem>
@@ -1536,47 +1552,55 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title>Practical Application in ArgoUML</title>
+            <title>Praktische Anwendung in ArgoUML</title>
 
             <para>
-              ArgoUML implements these theories using a number of techniques.
-            </para>
+              ArgoUML implementiert diese Theorien durch eine bestimmte Anzahl 
+              von Techniken.
+             </para>
 
 
             <orderedlist>
 
               <listitem>
 
-                <para>The design of a user interface which allows the 
-                user to view the design from a number of different 
-                perspectives, and allows the user to achieve goals 
-                through a number of alternative routes.</para>
+                <para>
+                Das Design der Anwenderschnittstelle, die es dem Anwender 
+                erlaubt, das Design aus unterschiedlichen Sichten zu betrachten 
+                und es dem Anwender ermöglicht, Ziele über alternative Wege zu 
+                erreichen.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>The the use of processes running in parallel with 
-                the design tool, evaluating the current design against 
-                models of how <quote>best practice</quote> design might 
-                work. These processes are known as <emphasis>design 
-                critics</emphasis>.</para>
+                <para>
+                Die Verwendung von im Designtool parallel ablaufenden Prozessen, 
+                die das aktuelle Design gegen Modelle wie <quote>best practice
+                </quote>-Designs überprüfen. Diese Prozesse sind als 
+                <emphasis>Design-Kritiken</emphasis> bekannt.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>The use of <emphasis>to-do lists</emphasis> to 
-                convey suggestions from the design critics to the user, 
-                as well as allowing the user to record areas for future 
-                action.</para>
+                <para>
+                Die Nutzung von <emphasis><quote>zu bearbeiten</quote> Listen
+                </emphasis>, die dem Anwender Vorschläge aus den Designkritiken 
+                unterbreiten und es ihm auch erlauben, künftige Aktionsbereiche 
+                aufzuzeichnen.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>The use of checklists, to guide the user through 
-                a complex process.</para>
+                <para>
+                Die Verwendung von Checklisten, um den Anwender durch einen 
+                komplexen Prozess zu führen.
+                </para>
 
               </listitem>
 
@@ -1588,15 +1612,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Open Standards</title>
-
-          <para>UML is itself an open standard. ArgoUML throughout has 
-          tried to use open standards for all its interfaces.</para>
+          <title>Offene Standards</title>
 
           <para>
-            The key advantage of adherence to open standards is that it
-            permits easy inter-working between applications, and the ability
-            to move from one application to another as necessary.
+          Die UML selbst ist ein offener Standard. ArgoUML hat überall versucht, 
+          offene Standards für alle seine Schnittstellen zu verwenden.
+          </para>
+
+          <para>
+            Der Hauptvorteil am Festhalten an offenen Standards ist, da es die 
+            einfache Zusammenarbeit zwischen Anwendungen erlaubt und die 
+            Möglichkeit eröffnet, von einer Anwendung zu einer anderen 
+            überzugehen, sofern dies notwendig ist.
           </para>
 
           <sect3>
@@ -1605,101 +1632,104 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <indexterm><primary>XMI</primary></indexterm>
             <para><emphasis>XML Metadata Interchange (XMI)</emphasis> 
-            is the standard for saving the meta-data that make up a 
-            particular UML model. In principle this will allow you to 
-            take the model you have created in ArgoUML and import it 
-            into another tool.</para>
-
-            <para>This clearly has advantages in allowing UML to meet 
-            its goal of being a standard for communication between 
-            designers.</para>
+            ist der Standard für das Speichern der Metadaten, die ein bestimmtes 
+            UML-Modell bilden. Im Prinzip erlaubt er, das in ArgoUML erstellte 
+            Modell in ein anderes Tool zu importieren.
+            </para>
 
             <para>
-              The reality is not quite this good.
-              Prior to UML 2.0 the XMI file includes no information about the
-              graphical representation of the models, so diagram layout is lost.
-              ArgoUML gets round this by saving graphical information separate
-              from the model
-              (see <xref linkend="s3.tut.loadsave"/>).
+            Dies hat klare Vorteile, die es der UML erlaubt, ihr Ziel, der 
+            Standard für die Kommunikation zwischen Designern zu sein, zu 
+            erreichen.
+            </para>
+
+            <para>
+              Die Realität ist nicht sehr gut.
+              Vor UML 2.0 enthielten die XMI-Dateien keine Informationen über 
+              die grafische Darstellung der Modelle, so dass das Diagramm-
+              Layout verloren ging. ArgoUML umgeht dies, indem es die grafische 
+              Information separat vom Modell speichert. 
+              (siehes <xref linkend="s3.tut.loadsave"/>).
             </para>
 
           </sect3>
 
           <sect3>
 
-            <title>Graphics Formats - EPS, GIF, PGML, PNG, PS, SVG</title>
+            <title>Grafik-Formate - EPS, GIF, PGML, PNG, PS, SVG</title>
 
             <itemizedlist>
 
               <listitem><para>
                 <indexterm><primary>EPS</primary></indexterm>
-                <ulink url="http://en.wikipedia.org/wiki/Encapsulated_PostScript"><emphasis>Encapsulated
-                PostScript (EPS)</emphasis></ulink> file is a
-                PostScript file which satisfies additional restrictions.
-                These restrictions are intended to make it easier for software
-                to embed an EPS file within another PostScript document.
+                Die <ulink url="http://en.wikipedia.org/wiki/Encapsulated_PostScript"><emphasis>Encapsulated
+                PostScript (EPS)</emphasis></ulink>-Datei weist zusätzliche 
+                Einschränkungen auf. Diese Einschränkungen sind dazu gedacht, 
+                soll es der Software einfacher machen, eine EPS-Datei in ein 
+                anderes PostScript-Dokument einzubetten.
               </para></listitem>
 
               <listitem><para>
                 <indexterm><primary>GIF</primary></indexterm>
-                <ulink url="http://en.wikipedia.org/wiki/GIF"><emphasis>Graphics
-                Interchange Format (GIF)</emphasis></ulink> is a patent
-                encumbered format, although the patents will run out
-                in August of 2006.
+                Das <ulink url="http://en.wikipedia.org/wiki/GIF"><emphasis>Graphics
+                Interchange Format (GIF)</emphasis></ulink> ist ein patentiertes 
+                Format, obgleich die Patente im August 2006 ausliefen.
               </para></listitem>
 
               <listitem><para>
                 <indexterm><primary>PGML</primary></indexterm>
                 <ulink url="http://en.wikipedia.org/wiki/PGML">
                 <emphasis>Precision Graphics Markup Language (PGML)</emphasis></ulink>
-                is an XML-based
-                language for representing vector graphics.
-                It was a W3C draft, but was not adopted as a recommendation.
-                PGML and VML, another XML-based vector graphics language, were
-                later joined and improved upon to create SVG (see below).
+                ist eine XML-basierte Sprache zur Darstellung von Vektorgrafiken.
+                Sie war ein W3C-Entwurf, der aber nicht als Empfehlung 
+                übernommen wurde. PGML und VML, andere XML-basierte Vektor-
+                Grafik-Sprachen wurden später miteinander verknüpft und 
+                verbessert, um daraus SVG (siehe unten) zu erzeugen.
               </para></listitem>
                 
               <listitem><para>
                 <indexterm><primary>PNG</primary></indexterm>
                 <ulink url="http://en.wikipedia.org/wiki/PNG">
-                <emphasis>Portable Network Graphics (PNG)</emphasis></ulink> is an
-                ISO/IEC standard (15948:2004) and is also a W3C recommendation.
-                PNG is a bitmap image format that employs lossless data
-                compression. PNG was created to both improve upon and replace
-                the GIF format with an image file format that does not require
-                a patent license to use.
-                PNG is officially pronounced "ping" but it is often just
-                spelled out &mdash; probably to avoid confusion with the
-                network tool ping.
-                PNG is supported by the libpng reference library,
-                a platform-independent library that contains C functions for
-                handling PNG images.
-              </para></listitem>
+                <emphasis>Portable Network Graphics (PNG)</emphasis></ulink> 
+                ist ein ISO/IEC-Standard (15948:2004) und auch eine W3C-
+                Empfehlung. PNG ist ein Bitmap-Bildformat, das eine verlustlose 
+                Datenkompression verwendet. PNG wurde eingesetzt, um das GIF-
+                Format durch ein Bildformat zu ersetzen, das bei seinem Einsatz 
+                keine Patentlizenz erforderlich macht.
+                PNG wird offiziell "ping" ausgesprochen, wird aber auch sehr oft 
+                buchstabiert &mdash; wahrscheinlich, um eine Verwechslung mit 
+                dem Netzwerktool ping zu vermeiden.
+                PNG wird durch die libpng-Referenzbibliothek unterstützt, eine 
+                plattformunabhängige Bibliothek, die C-Funktionen für die 
+                Anwendung von PNG-Bildern enthält.
+               </para></listitem>
 
               <listitem><para>
                 <indexterm><primary>PS</primary></indexterm>
                 <ulink url="http://en.wikipedia.org/wiki/PostScript/">
                   <emphasis>PostScript (PS)</emphasis>
-                </ulink> is a page description language and
-                programming language used primarily in the electronic and
-                desktop publishing areas.
+                </ulink> ist eine Seitenbeschreibungs- und Programmiersprache, 
+                die primär im elektronischen und Desktop-Publisching-Bereichen 
+                eingesetzt wird. 
               </para></listitem>
 
               <listitem><para>
                 <indexterm><primary>SVG</primary></indexterm>
                 <ulink url="http://en.wikipedia.org/wiki/Scalable_Vector_Graphics">
                 <emphasis>Scalable Vector Graphics (SVG)</emphasis></ulink>
-                is an XML markup language for describing two-dimensional
-                vector graphics, both static and animated, and either declarative
-                or scripted.
-                It is an open standard created by the World Wide Web Consortium.
-                The use of SVG on the web is in its infancy.
-                There is a great deal of inertia due to the long-time use of pure
-                raster formats and other formats like Macromedia Flash or Java
-                applets, but also browser support is still uneven, with native
-                support in Opera and Firefox, but Safari and Internet Explorer
-                require a plugin.
-                See PGML above.
+                ist eine XML-Markup-Sprache für die Beschreibung 
+                zweidimensionaler Vektorgrafiken, sowohl statisch als auch 
+                animiert und entweder deklarativ oder in Schriftform.
+                Sie ist ein offener Standard, der durch das World Wide Web 
+                Konsortium erstellt wurde. Der Verwendung von SVG im Web 
+				befindet sich in seinem Anfangsstadium.
+                Es gibt eine grosse Trägheit hinsichtlich der langandauernden 
+                Nutzung reiner Raster- und anderer Formate wie Macromedia Flash 
+                oder Java-Applets. Aber auch die Browserunterstützung ist 
+                uneinheitlich, mit  eingebauter Unterstützung im Opera und 
+                Firefox, während Safari und der Internet Exlorer ein Plugin 
+                benötigen.
+                Siehe PGML weiter oben.
               </para></listitem>
 
             </itemizedlist>
@@ -1711,18 +1741,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>Object Constraint Language (OCL)</title>
             <para>
               <ulink url="[http://en.wikipedia.org/wiki/Object_Constraint_Language">
-              <emphasis>Object Constraint Language (OCL)</emphasis></ulink>
-              is a declarative language for describing rules that apply
-              to UML models.
-              It was developed at IBM and is now part of the UML standard.
-              Initially OCL was only a formal specification language
-              extension to UML.
-              OCL may now be used with any Meta-Object Facility (MOF) compliant
-              metamodel, including UML.
-              The Object Constraint Language is a precise text language
-              that provides constraint and object query expressions on any
-              MOF model or metamodel that cannot otherwise be expressed by
-              diagrammatic notation.
+              Die <emphasis>Object Constraint Language (OCL)</emphasis></ulink>
+              ist eine deklarative Sprache zur Beschreibung von Regeln, die auf 
+              UML-Modelle angewendet werden.
+              Sie wurde durch IBM entwickelt und ist jetzt Teil des UML-Standard.
+              Ursprünglich war OCL nur als formale Spezifikationssprachen-
+              Erweiterung von UML.
+              OCL kann jetzt mit jedem Meta-Object Facility (MOF) konformen 
+              Metamodell einschliesslich UML angewendet werden.
+              Die Object Constraint Language ist eine präzise Textsprache, die 
+              Randbedingungen und Objekt-Abfrageausdrücke für jedes MOF- oder 
+              Meta-Modell enthält, die nicht auf andere Art durch eine Diagramm-
+              Notation ausgedrückt werden können.
             </para>
 
           </sect3>
@@ -1731,30 +1761,37 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>100% Pure Java</title>
+          <title>100% reines Java</title>
 
-          <para>Java was conceived as an interpreted language. It 
-          doesn&apos;t have a compiler to produce code for any 
-          particular target machine. It compiles code for its own 
-          target, the <emphasis>Java Virtual Machine 
-          (JVM)</emphasis>.</para>
+          <para>
+          Java wurde als interpretierende Sprache erdacht. Sie hat keinen 
+          Compiler, der Code für jede beliebige Zielmaschine erzeugt. Sie 
+          übersetzt den Code für sein eigenes Ziel, der <emphasis>Java Virtual 
+          Machine (JVM)</emphasis>.
+          </para>
 
-          <para>Writing an interpreter for a JVM is much easier than 
-          writing a compiler, and such machines are now incorporated 
-          into almost every Web Browser. As a result most machines can 
-          run Java, with no further work.</para>
+          <para>
+          Das Schreiben eines Interpreters für eine JVM ist sehr viel leichter, 
+          als das Schreiben eines Compilers und solche Maschinen sind jetzt in 
+          fast jedem Web Browser eingebaut. Im Ergebnis können die meisten 
+          Maschinen Java, ohne dass es weiterer Arbeiten bedarf.
+          </para>
 
-          <para>(In case you wonder why all languages aren&apos;t like 
-          this, it is because interpreted languages tend to be slower 
-          than compiled languages. However with the high performance of 
-          modern PCs, the trade-off for portability is worthwhile for 
-          many applications. Furthermore modern multi-level caches can 
-          mean that interpreted languages, which produce denser code, 
-          may actually not be that much slower anyway.)</para>
+          <para>
+          (Für den Fall, dass Sie sich wundern, warum nicht alle Sprachen so 
+          wie diese sind. Dies ist so, weil interpretierende Sprachen dazu 
+          tendieren langsamer zu sein als übersetzte Sprachen. Mit der hohen 
+          Leistung moderner PC&apos;s und dem Handlungszwang nach Portabilität 
+          ist diese Einschränkung für viele Applikationen trotzdem lohnenswert.
+          Darüber hinaus können moderne Multi-Cache-Systeme bei dichteren Code 
+          produzierenden interpretierenden Sprachen bedeuten, dass Sie nicht 
+          mehr viel langsamer sind.
+          </para>
 
-          <para>By choosing to write ArgoUML in pure Java, it is 
-          immediately made available to the maximum number of users 
-          with the minimum amount of effort.</para>
+          <para>
+          Durch die Wahl, ArgoUML in reinem Java zu schreiben, wird ArgoUML für 
+          sehr viele Anwender mit einem minimalem Aufwand unmittelbar verfügbar.
+          </para>
 
         </sect2>
 
@@ -1762,42 +1799,45 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>Open Source</title>
 
-          <para>ArgoUML is an <emphasis>open source</emphasis> project. 
-          That means anyone can have a free copy of the source code, 
-          change it, use it for new purposes and so on. The only 
-          (major) obligation is that you pass your code on in the same 
-          way to others. The precise nature of what you can and 
-          can&apos;t do varies from project to project, but the 
-          principle is the same.</para>
-
           <para>
-            The advantage is that a small project like ArgoUML 
-            suddenly is open to a lot of additional help from those who 
-            can chip in their ideas for how the program might be 
-            improved.
-            At any one time there may be 10, 15, 20 or more 
-            people making significant contributions to ArgoUML.
-            To do that commercially would cost $1m+ per year.
+          ArgoUML ist ein <emphasis>Open Source</emphasis>-Projekt. Das bedeutet, 
+          jeder kann eine freie Kopie des Quellcodes haben, diesen ändern und 
+          für neue Zwecke einsetzen usw.. Die einzige (Haupt-) Bedingung ist, 
+          dass Sie Ihren Code auf die gleiche Weise anderen zur Verfügung 
+          stellen. Die genaue Ausprägung, was Sie tun können und was nicht, 
+          variiert von Projekt zu Projekt, aber das Prinzip ist das gleiche.
           </para>
 
-          <para>Its not just a spirit of pure altruism. Contributing is 
-          a way of learning <quote>hands-on</quote> about leading edge 
-          software. Its a way of getting a lot of visibility (over 
-          1,125,000 people had downloaded ArgoUML by the end of 2005). 
-          That&apos;s a lot of good experience on a r&eacute;sum&eacute;
-          and a lot of 
-          potential employers seeing you!</para>
+          <para>
+            Der Vorteil ist, dass ein kleines Projekt wie ArgoUML immer für 
+            eine Menge zusätzlicher Unterstützung offen ist. Insbesondere für 
+            diejenigen, die Ihre Ideen einbringen, wie das Programm verbessert 
+            werden kann.
+            Jederzeit können 10, 15, 20 oder mehr Personen signifikante 
+            Beiträge zu ArgoUML leisten. Dies kommerziell zu machen, würde mehr 
+            als 1 Mio. $ pro Jahr kosten.
+          </para>
 
-          <para>And its great for the ego!</para>
+          <para>
+          Dies ist nicht nur der Geist reiner Uneigennützigkeit. Mitzuarbeiten 
+          ist ein Weg <quote>nebenbei</quote> mehr über führende Software zu 
+          lernene. Es ist ein Weg, eine Menge Sichtbarkeit (über 1.125.000 
+          Personen haben ArgoUML Ende 2005 heruntergeladen) zu erhalten. Als 
+          Resüme ist das eine sehr gute Erfahrung und eine Menge Arbeitgeber 
+          sehen Sie!
+          </para>
 
-          <para>Open Source doesn&apos;t preclude making money. 
+          <para>Und es ist hervorragend für Ihr Ego!</para>
+
+          <para>Open Source schliesst das Geld verdienen nicht aus.  
           Gentleware <ulink url="http://www.gentleware.com">
-          www.gentleware.com</ulink> sell a commercial version of 
-          ArgoUML, Poseidon. Their value proposition is not a piece of 
-          private code. Its the commercial polish and support that take 
-          risk out of using ArgoUML in a commercial development, 
-          allowing customers to take advantage of ArgoUML&apos;s 
-          leading edge technology.</para>
+          www.gentleware.com</ulink> verkauft eine kommerzielle Version von 
+          ArgoUML: Poseidon. Deren Angebot ist nicht ein Stück privaten Codes. 
+          Es ist der kommerzielle Support, der das Risiko bei der Nutzung von 
+          ArgoUML in einer kommerziellen Entwicklung reduziert und es dem 
+          Kunden erlaubt, die Vorteile von ArgoUML&apos;s führender Technologie 
+          zu nutzen.
+          </para>
 
         </sect2>
 
@@ -1805,59 +1845,69 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1 id="tut.basics">
 
-        <title>ArgoUML Basics</title>
+        <title>ArgoUML Grundlagen</title>
 
-        <para>The aim of this section is to get you started with 
-        ArgoUML. It takes you through obtaining the code and getting it 
-        running.</para>
+        <para>
+        Das Ziel dieses Abschnittes ist es, dass Sie mit ArgoUML starten können. 
+        Er zeigt Ihnen, wie Sie Code erstellen und diesen starten können.
+        </para>
 
         <sect2>
 
-          <title>Getting Started</title>
+          <title>Zu Beginn</title>
 
           <sect3 id="s3.tut.system.requirements">
 
-            <title>System Requirements</title>
+            <title>Systemanforderungen</title>
 
-            <para>Since ArgoUML is written in 100% pure Java, it should 
-            run on any machine with Java installed. Java, version 1.4
-            or later is needed. You may have this in place, but if not 
-            it can be downloaded free from 
-            <ulink url="http://www.java.com">www.java.com</ulink>. Note 
-            that you only need the Java Runtime Environment (JRE), 
-            there is no need to download the whole Java Development Kit 
-            (JDK).</para>
+            <para>
+            Da ArgoUML in 100% reinem Java geschrieben ist, sollte es auf jeder 
+            Maschine laufen, auf der Java installiert ist. Java, Version 1.4 
+            oder höher wird benötigt. Sie sollten diese bereits haben, aber 
+            falls nicht, können Sie diese von 
+            <ulink url="http://www.java.com">www.java.com</ulink> frei 
+            herunterladen.
+            Beachten Sie, dass Sie nur die Java Runtime Umgebung (JRE) benötigen.
+            Es gibt keine Notwendigkeit das gesamte Java Development Kit (JDK) 
+            herunterzuladen.
+            </para>
 
-            <para>ArgoUML needs a reasonable amount of computing 
-            resource. A PC with 200MHz processor, 64Mb RAM and 10Mb of 
-            space available on a harddisk should be adequate. Download 
-            the code from Download section of the project website 
-            <ulink url="http://argouml.tigris.org">
-            argouml.tigris.org</ulink>. Choose the version that suits 
-            your needs as described in the section below.</para>
+            <para>
+            ArgoUML benötigt eine vernünftige Menge an Rechenleistung. Einen 
+            PC mit einem 200 MHz-Prozessor, 64MB RAM und 10 MB verfügbaren 
+            Speicherplatz auf der Festplatte sollten ausreichen. Laden Sie den 
+            Code vom Download-Abschnitt der Projekt-Webseite 
+            <ulink url="http://argouml.tigris.org">argouml.tigris.org</ulink> 
+            herunter. Wie im nächsten Abschnitt beschrieben, wählen Sie die 
+            Version aus, die Ihren Ansprüchen genügt.
+            </para>
 
           </sect3>
 
           <sect3>
 
-            <title>Downloading Options</title>
+            <title>Download-Optionen</title>
 
-            <para>You have three options for obtaining ArgoUML.</para>
+            <para>Sie haben drei Optionen, ArgoUML zu erhalten.</para>
 
             <orderedlist>
 
               <listitem>
 
-                <para>Run ArgoUML directly from the Web Site using Java 
-                Web Start. This is the easiest option.</para>
+                <para>
+                Starten Sie ArgoUML direkt von der Web Seite mit Hilfe von Java 
+                Web Start. Dies ist die einfachste Möglichkeit.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>Download the binary executable code. This is the 
-                right option if you intend using ArgoUML regularly and 
-                is not that difficult.</para>
+                <para>
+                Laden Sie den binären ausführbaren Code herunter. Dies ist die 
+                richtige Option, wenn Sie beabsichtigen, ArgoUML regulär zu 
+                benutzen.
+                </para>
 
               </listitem>
 
@@ -1865,177 +1915,205 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                 <para>
                   <indexterm><primary>Build</primary></indexterm>
-                  Download the source code using CVS and build your own version.
-                  Choose this option if you want to look at the internal
-                  workings of ArgoUML, or want to join in as a developer.
-                  This option does require the whole JDK 
-                  (see <xref linkend="s3.tut.system.requirements"/>).
+                  Laden Sie den Quellcode mit Hilfe von CVS herunter und 
+                  erzeugen Sie Ihre eigene Version. Wählen Sie diese Option aus, 
+                  wenn Sie sich ansehen wollen wie ArgoUML intern arbeitet oder 
+                  sich als Entwickler einbringen wollen. Diese Option erfordert 
+                  das ganze JDK 
+                  (siehe <xref linkend="s3.tut.system.requirements"/>).
                 </para>
 
               </listitem>
 
             </orderedlist>
 
-            <para>All three options are freely available through the 
-            project web site, <ulink url="http://argouml.tigris.org">
-            argouml.tigris.org</ulink>.</para>
+            <para>
+            Alle drei Optionen sind über die Projekt-Webseite frei verfügbar
+            <ulink url="http://argouml.tigris.org">argouml.tigris.org</ulink>.
+            </para>
 
           </sect3>
 
           <sect3>
 
-            <title>ArgoUML Using Java Web Start</title>
+            <title>ArgoUML mit Java Web Start aufrufen</title>
 
-            <para>There are two steps to this.</para>
+            <para>Hierfür sind zwei Schritte auszuführen.</para>
 
             <orderedlist>
 
               <listitem>
 
-                <para>Install Java Web Start on your machine. This is 
-                available from 
+                <para>
+                Installieren Sie Java Web Start auf Ihrem Rechner. Java Web 
+                Start ist unter
                 <ulink url="http://java.sun.com/products/javawebstart">
-                java.sun.com/products/javawebstart</ulink>, or via the 
-                <literal>Java Web Start</literal> link on the ArgoUML 
-                <ulink url="http://argouml.tigris.org">home 
-                page</ulink>.</para>
+                java.sun.com/products/javawebstart</ulink> , oder über den 
+                <literal>Java Web Start</literal>-Link auf der ArgoUML 
+                <ulink url="http://argouml.tigris.org">Home 
+                page</ulink> verfügbar.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>Click on the <literal>Launch latest stable 
-                release</literal> link on the ArgoUML 
-                <ulink url="http://argouml.tigris.org">home 
-                page</ulink>.</para>
+                <para>
+                Klicken Sie auf den Link <literal>Launch latest stable 
+                release</literal> auf der ArgoUML 
+                <ulink url="http://argouml.tigris.org">Home 
+                page</ulink>.
+                </para>
 
               </listitem>
 
             </orderedlist>
 
-            <para>Java Web Start will download ArgoUML, cache it and 
-            start it the first time, then on subsequent starts, check 
-            if ArgoUML is updated and only download any updated parts 
-            and then start it. The ArgoUML 
-            <ulink url="http://argouml.tigris.org">home page</ulink> 
-            also provides details on starting ArgoUML from the Java Web 
-            Start console.</para>
+            <para>
+            Java Web Start wird ArgoUML herunterladen, zwischenspeichern und das 
+            erste Mal starten. Bei darauf folgenden Starts prüft es, ob ArgoUML 
+            aktualisiert wurde, lädt nur die aktualisierten Teile herunter und
+            startet es. Die ArgoUML <ulink url="http://argouml.tigris.org">
+            Home page</ulink> enthält weitere Details, wie man ArgoUML von der 
+            Java Web Start-Konsole startet.
+            </para>
 
           </sect3>
 
           <sect3>
 
-            <title>Downloading the Binary Executable</title>
+            <title>Die binäre, ausführbare Datei herunterladen</title>
 
-            <para>If you choose to download the binary executable, you 
-            will have a choice of downloading the latest stable version 
-            of the code (which will be more reliable, but not have all 
-            the latest features), or the current version (which will be 
-            less reliable, but have more features). Choose according to 
-            your own situation.</para>
+            <para>
+            Wenn Sie das Herunterladen der binären, ausführbaren Datei auswählen, 
+            können sie wählen, ob Sie die letzte stabile Version (die 
+            wahrscheinlich zuverlässiger ist, aber nicht alle Features aufweist) 
+            oder die aktuelle Version (die weniger zuverlässig ist, aber mehr 
+            Features aufweist) herunterladen wollen. Wählen Sie dies 
+            entsprechend Ihrer Situation aus.
+            </para>
 
-            <para>ArgoUML comes in <literal>.zip</literal> or <literal>
-            tar.gz</literal> flavors. Choose the former if you are a 
-            Microsoft Windows user, and the latter if you are running 
-            some flavor of Unix. Unpacking is as follows.</para>
+            <para>
+            ArgoUML steht als <literal>.zip</literal> oderr <literal>tar.gz
+            </literal> Variante bereit. Wählen Sie die erste Variante, wenn Sie 
+            Microsoft Windows Anwender sind und die letzte, wenn Sie auf einer 
+            UNIX-Variante arbeiten. Das Entpacken erfolgt wie nachfolgend 
+            beschrieben.
+            </para>
 
             <itemizedlist>
 
               <listitem>
 
-                <para>On Windows. Unzip the <literal>.zip</literal> 
-                file with WinZip, or on later versions of Windows (ME, 
-                XP) copy the files out of the compressed folder and put 
-                them into a directory of your choosing.</para>
+                <para>
+                Bei Windows. Entpacken Sie die <literal>.zip</literal>-Datei mit 
+                WinZip oder einer späteren Version von Windows (ME, XP) in ein 
+                Verzeichnis Ihrer Wahl.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>On Unix. Use GNU tar to unzip and break out the 
-                files to a directory of your choice <literal>
-                tar&nbsp;zxvf&nbsp;&lt;file&gt;.tar.gz</literal>. If you have an 
-                older version of tar, the <literal>z</literal> option 
-                may not be available, so use <literal>
-                gunzip&nbsp;&lt;&nbsp;file.tar.gz&nbsp;|&nbsp;tar&nbsp;xvf&nbsp;-</literal>.</para>
+                <para>
+                Bei Unix. Nutzen Sie GNU tar, um die Dateien in ein Verzeichnis 
+                Ihrer Wahl zu entpacken. <literal>tar&nbsp;zxvf&nbsp;&lt;file
+                &gt;.tar.gz</literal>. Wenn Sie eine ältere Version von tar 
+                haben, ist die <literal>z</literal>-Option nicht verfügbar. 
+                Beutzen Sie in diesem Fall <literal>
+                gunzip&nbsp;&lt;&nbsp;file.tar.gz&nbsp;|&nbsp;tar&nbsp;xvf&nbsp;-
+                </literal>.
+                </para>
 
               </listitem>
 
             </itemizedlist>
 
-            <para>You should have a directory containing 
-            a number of <literal>.jar</literal> files and a 
-            <literal>README.txt</literal>.</para>
+            <para>
+            Sie sollten jetzt in dem Verzeichnis eine Reihe von <literal>.jar
+            </literal>-Dateien und die Datei <literal>README.txt</literal> 
+            vorfinden.
+            </para>
 
           </sect3>
 
           <sect3 id="s4.probsolving">
 
-            <title>Problems Downloading</title>
+            <title>Probleme beim Herunterladen</title>
 
-            <para>If you get completely stuck and you have no local 
-            assistance, try the web site, particularly the 
+            <para>
+            Wenn das Herunterladen vollständig abbricht und Sie keine lokale 
+            Unterstützung haben, versuchen Sie es auf der Webseite 
             <ulink url="http://argouml.tigris.org/faqs/users.html">
-            FAQ</ulink>. If this still doesn&apos;t solve the problem, 
-            try the ArgoUML users&apos; mailing list.</para>
+            FAQ</ulink>. Wenn das Problem mit Hilfe dieser Unterstützung nicht 
+            gelöst werden kann, versuchen Sie es über die ArgoUML Mailliste für 
+            Anwender. 
+			</para>
 
-            <para>You can subscribe through the mailing lists section 
-            of the project web site 
+            <para>
+            Sie können sich in die Mailliste auf der Projektseite 
             <ulink url="http://argouml.tigris.org">
-            argouml.tigris.org</ulink>, or send an empty message to 
-            <ulink url="mailto:users@argouml.org">
-            users@argouml.org</ulink> with the subject line <literal>
-            subscribe</literal>.</para>
+            argouml.tigris.org</ulink> eintragen lassen, oder eine leere 
+            Nachricht an <ulink url="mailto:users@argouml.org">
+            users@argouml.org</ulink> mit dem Betreff <literal>subscribe
+            </literal> senden.
+            </para>
 
-            <para>You can then send your problem to 
-            <ulink url="mailto:users@argouml.org">
-            users@argouml.org</ulink> and see how other users are able 
-            to help.</para>
+            <para>
+            Sie können dann Ihr Problem an <ulink url="mailto:users@argouml.org">
+            users@argouml.org</ulink> senden und darauf warten, dass andere 
+            Anwender Ihnen helfen.
+            s</para>
 
-            <para>The users&apos; mailing list is an excellent 
-            introduction to the live activity of the project. If you 
-            want to get further involved there are additional mailing 
-            lists that cover the development of the product and issues 
-            in the current and future releases.</para>
+            <para>
+            Die Anwender-Mailliste ist eine excellente Einführung für eigene 
+            Aktivitäten im Projekt. Wenn Sie noch mehr eingebunden werden 
+            wollen, gibt es zusätzliche Maillisten, welche die Entwicklung des 
+            Produktes sowie Erweiterungen in aktuellen und in künftigen 
+            Releases betreffen.
+            </para>
 
           </sect3>
 
           <sect3>
 
-            <title>Running ArgoUML</title>
+            <title>ArgoUML starten</title>
 
-            <para>To run ArgoUML depends on whether you use Microsoft 
-            Windows or some flavor of Unix.</para>
+            <para>
+            Wie Sie ArgoUML starten, hängt davon ab, ob Sie Microsoft Windows 
+            oder eine Unix-Variante verwenden.
+            </para>
 
             <itemizedlist>
 
               <listitem>
 
                 <para>
-                  On Windows. Start an MSDOS shell window by e.g. 
-                  using Start/Run with <quote>command</quote> in the text window.
-                  In the window change to the directory holding your ArgoUML files
-                  and type <literal>java -jar argouml.jar</literal>.
-                  This method has the advantage that progress and debugging
-                  information is visible in the DOS window. 
-                  Alternatively create a batch file (.bat) containing the above
-                  command, with a shortcut to it on the desktop.
-                  The batch file should end with a "pause" statement in case any
-                  debugging information is created during a run.
-                  On some systems, simply (double) clicking on the
-                  <literal>argouml.jar</literal> file works.
-                  On others doing so initiates a zip utility.
-                  Refer to you operating system instructions or help facility
-                  to determine how to configure this.
-                </para>
+                  Bei Windows. Rufen Sie die MSDOS-Eingabeaufforderung auf, z.B. 
+                  durch Start/Ausführen mit <quote>command</quote>. In dem 
+                  Fenster wechseln Sie in das Verzeichnis, in dem sich die 
+                  ArgoUML-Dateien befinden und geben Sie <literal>
+                  java -jar argouml</literal> ein. Diese Methode hat den Vorteil, 
+                  dass die Fortschritts- und Debug-Informationen im DOS-Fenster 
+                  angezeigt werden. Als Alternative erstellen Sie eine Batch-
+                  Datei (.bat), die das oben angeführte Kommando enthält und 
+                  verlinken diese mit dem Desktop. Die Batchdatei sollte mit 
+                  einer <quote>pause</quote>-Anweisung enden, für den Fall, dass 
+                  Debug-Informationen während der Ausführung erzeugt werden. 
+                  Auf einigen Systemen funktioniert auch ein einfacher (Doppel)-
+                  Klick auf die <literal>argouml.jar</literal>-Datei. Auf 
+                  anderen wird damit ein Zip-Tool aufgerufen. Sehen Sie in der 
+                  Beschreibung zum Betriebssystem oder in der Hilfe nach, wie 
+                  dies zu konfigurieren ist.
+                  </para>
 
               </listitem>
 
               <listitem>
 
                 <para>
-                  On Unix. Start a shell window and type
-                  <literal>java -jar argouml.jar</literal>
+                  Bei Unix. Öffnen Sie ein Shell-Fenster und geben Sie 
+                  <literal>java -jar argouml.jar</literal> ein.
                 </para>
 
               </listitem>
@@ -2046,13 +2124,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title>Problems Running ArgoUML</title>
+            <title>Probleme beim Starten von ArgoUML</title>
 
             <para>
-              It&apos;s unusual to encounter problems if you have made a successful
-              download.
-              If you can&apos;t solve the problem. Try the users&apos; mailing list
-              (see <xref linkend="s4.probsolving"/>).
+              Wenn Sie ArgoUML erfolgreich heruntergeladen haben, ist es 
+              ungewöhnlich, wenn Probleme auftreten.
+              Wenn Sie das Problem nicht lösen können, versuchen Sie es über die 
+              Anwender-Mailliste (siehe <xref linkend="s4.probsolving"/>).
             </para>
 
             <itemizedlist>
@@ -2060,9 +2138,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
 
             <para>
-              Wrong JRE.
-              The most common issue is not having a new enough
-              Java Runtime Environment (it must be 1.4 or  later).
+              Falsche JRE.
+              Ein häufiger Grund ist eine veraltete Java Runtime Umgebung (es 
+              muss die Version 1.4 oder höher sein).
             </para>
 
               </listitem>
@@ -2070,23 +2148,24 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
 
                 <para>
-                  Wrong language.
-                  If the product came up in a language you can&apos;t read or just
-                  don&apos;t want, go to the second leftmost menu item in the
-                  menu bar at the top of the screen.
-                  Select the bottom most menu entry in the drop down.
-                  <xref linkend="fig.prob.run.02"/> shows this in Russian.
-                  Then click on the second tab from the bottom in the column of
-                  tabs on the left.
-                  Drop down the list as shown in 
-                  <xref linkend="fig.prob.run.02"/>
-                  and select a language.
-                  Note that the languages are listed in themselves.
-                  The language shown as being selected is German in which the
-                  word for <quote>German</quote> is <quote>Deutsch</quote>.
-                  You will have to exit ArgoUML and restart it for the change to
-                  take effect.
-                  Use the X button at the upper right.
+                  Falsche Sprache.
+                  Wenn das Produkt in einer Sprache startet, die sie nicht lesen 
+                  können oder wollen, gehen Sie am Bildschirm oben in das 
+                  zweite Menü von links. 
+                  Wählen Sie den untersten Menüeintrag aus.
+                  <xref linkend="fig.prob.run.02"/> zeigt dies auf russisch.
+                  Dann klicken Sie auf den Reiter <quote>Erscheinungsbild
+                  </quote>.
+                  Öffnen Sie die Drop-Down-Liste 
+                  <xref linkend="fig.prob.run.02"/> und wählen Sie eine Sprache 
+                  aus.
+                  Beachten Sie, dass die Namen der Sprache in der jeweiligen 
+                  Sprache angezeigt werden. Die dargestellte, ausgewählte 
+                  Sprache ist Deutsch, in diesem Fall ist das Wort für <quote>
+                  German</quote> <quote>Deutsch</quote>.
+                  Damit die Änderungen wirksam werden, müssen Sie ArgoUML 
+                  beenden und neu starten.
+                  Verwenden Sie die Taste X oben rechts.
                 </para>
 
               </listitem>
@@ -2095,7 +2174,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <figure float="1" id="fig.prob.run.01">
 
-              <title>Finding the Settings Wizard</title>
+              <title>Finde den Einstellungs-Assistenten</title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -2105,7 +2184,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <figure float="1" id="fig.prob.run.02">
 
-              <title>Setting Language in the Appearance Pane</title>
+              <title>Sprache im Erscheinungsbild-Fenster einstellen</title>
 
               <screenshot><mediaobject><imageobject>
               <imagedata align="center"
@@ -2118,75 +2197,81 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="tut.user.iface">
 
-          <title>The ArgoUML User Interface</title>
+          <title>Die ArgoUML-Anwenderschnittstelle</title>
 
           <para>
-            Before beginning the Case Study, you need to become familiar with the
-            user interface.
-            Start by reading the introduction to the User Interface Reference.
-            See <xref linkend="ch.ref.ui"/>.
-            You should also read the <xref linkend="s1.ref.mouse"/>
+            Bevor Sie mit der Fallstudie beginnen, müssen Sie sich noch mit der 
+            Anwenderschnittstelle vertraut machen.
+            Lesen Sie hierfür die Einleitung zur Anwenderschnittstellen-
+            Referenz. Siehe <xref linkend="ch.ref.ui"/>.
+            Sie sollten auch <xref linkend="s1.ref.mouse"/> lesen.
           </para>
 
           <para>
-            As you go through this tutorial you will be told what to do, and when
-            to do it but how to do it will often be left to the
-            User Interface Reference.
-            It is not necessary at this point to read all of the Reference, but you
-            should leaf through enough of it to become familiar with how to find
-            things in it.
-            Every attempt will be made to direct you to the appropriate part of the
-            Reference at those points in the tutorial where they apply.
+            Wenn Sie dieses Übungshandbuch durchgehen wird Ihnen gesagt, was Sie 
+            tun müssen. Wie Sie es tun müssen, steht oftmals in der Referenz 
+            zur Anwenderschnittstelle.
+            Zu diesem Zeitpunkt ist es nicht notwendig, dass Sie die gesamte 
+            Referenz durchlesen. Aber Sie sollten tief genug eingestiegen sein, 
+            damit Sie Dinge in der Referenz finden können.
+            An den entsprechenden Punkte im Übungshandbuch wird der Versuch 
+            unternommen, Sie direkt zu den entsprechenden Teilen der Referenz zu 
+            führen.
           </para>
 
           <para>
-            <xref linkend="fig.tut.startup"/>, shows the main ArgoUML window as it
-            appears when ArgoUML is first entered.
+            <xref linkend="fig.tut.startup"/>, zeigt das ArgoUML-Fenster, wie es 
+            beim ersen Aufruf angezeigt wird.
           </para>
 
           <figure float="1" id="fig.tut.startup">
 
-            <title>Initial ArgoUML window</title>
+            <title>Erstmaliges ArgoUML-Fenster</title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/tutorial/startup.gif"
-             format="GIF"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+             			fileref="images/tutorial/startup.gif"
+             			format="GIF"/>
+             		</imageobject>
+             	</mediaobject>
+             </screenshot>
 
           </figure>
 
           <para>
-            Grab the vertical divider bars and move them back and forth.
-            Grab the horizontal divider bar and move it up and down.
-            Play around a little with the little arrows at the left or top of the
-            divider bars.
-            See <xref linkend="s1.ref.panes"/>.
+            Ziehen Sie die vertikalen Fensterteiler vorwärts und rückwärts.
+            Ziehen Sie die horizontalen Fensterteiler hoch und runter.
+            Spielen Sie etwas mit den kleinen Pfeilen links oder oben in den 
+            Fensterteilern.
+            Siehe <xref linkend="s1.ref.panes"/>.
           </para>
 
           <sect3 id="tut.menu.toolbars">
 
-            <title>The Menu Bar and Toolbars</title>
+            <title>Die Menü- und die Werkzeugleisten</title>
 
-            <indexterm><primary>Menu Bar</primary></indexterm>
-            <indexterm><primary>Toolbars</primary></indexterm>
+            <indexterm><primary>Menüleiste</primary></indexterm>
+            <indexterm><primary>Werkzeugleiste</primary></indexterm>
             <para>
-              The menu bar and toolbars give access to all the 
-              main features of ArgoUML.
-              As is conventional, menu options and toolbar options that are not
-              available (disabled) are grayed out and menu items that invoke a
-              dialog box are followed by an ellipsis (...).
-              At this time you should read <xref linkend="ch.ref.toolbar"/>
-              and <xref linkend="ch.ref.menu"/>.
+              Die Menüleiste und die Werkzeugleisten ermöglichen Ihnen den 
+              Zugriff auf alle Features von ArgoUML.
+              Menü- und Werkzeugoptionen sind per Konvention abgeblendet, wenn 
+              sie nicht verfügbar (ausgeschaltet) sind und Menüelemente, die 
+              eine Dialogbox aufrufen, weisen drei Punkte auf (...).
+              Zum jetzigen Zeitpunkt sollten Sie <xref linkend="ch.ref.toolbar"/>
+              und <xref linkend="ch.ref.menu"/> lesen.
             </para>
 
             <para>
-              <emphasis>File</emphasis> menu.
-                  <indexterm><primary>File Menu</primary></indexterm>
-                  The standard file menu entries present no surprises and we
-                  will just use them when needed without first showing how they
-                  work.
-                  A number of other actions are available that are peculiar
-                  to ArgoUML and we will go over them here.
+              <emphasis>Datei</emphasis>-Menü.
+                  <indexterm><primary>Datei-Menü</primary></indexterm>
+                  Die Elemente des Standard-Datei-Menü&apos;s enthalten keine 
+                  Überraschungen. Wenn sie benötigt werden, werden wir sie 
+                  einfach verwenden, ohne vorher zu zeigen wie sie arbeiten.
+                  Eine Vielzahl andere, ArgoUML-spezifische Aktionen sind hier 
+                  verfügbar. Jetzt werden wir sie allerdings überspringen.
             </para>
 
             <orderedlist>
@@ -2194,9 +2279,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
 
                     <para>
-                      <emphasis>File=&gt;Revert to Saved.</emphasis>
-                      This has the same effect as File=&gt;Open Project selecting the
-                      current project.
+                      <emphasis>Datei=&gt;Projekt speichern rückgängig machen.
+                      </emphasis>
+                      Dies hat den gleichen Effekt wie Datei=&gt;Projekt öffnen... 
+                      und dann das aktuelle Projekt auswählen.
                     </para>
 
               </listitem>
@@ -2205,24 +2291,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                     <para>
                       <emphasis>Export/Import.</emphasis>
-                      Select the project line at the top of the Explorer.
-                      It should say "untitledModel" unless you have
-                      changed it.
-                      Perform a
-                      <emphasis>File=&gt;Export XMI</emphasis> action
-                      using "DeleteThis" for an output name in the file
-                      chooser dialog.
-                      Select the "Properties" tab in the "Details Pane" and
-                      change the name to something else, anything will do.
-                      Perform a
-                      <emphasis>File=&gt;Import XMI</emphasis> action.
-                      It will ask you whether you want to save the changes
-                      you have just made.
-                      Click on "No" and then in the file choosed that
-                      comes up select the "DeleteThis.xmi" file that you
-                      just wrote out.
-                      Observe that the name of the model has reverted back
-                      to what you had saved.
+                      Markieren Sie die Projektzeile oben im Explorer. 
+                      Wenn Sie es nicht geändert haben, sollte es "unbenanntes 
+                      Modell" lauten.
+                      Führen Sie <emphasis>Datei=&gt;Exportiere XMI</emphasis> 
+                      aus und geben Sie als Dateiname "DeleteThis" im 
+                      Dateiauswahl-Fenster ein.
+                      Markieren Sie den Reiter "Eigenschaften" im Detail-Fenster 
+                      und ändern Sie den Namen des Modelles.
+                      Führen Sie die <emphasis>Datei=&gt;Import XMI</emphasis>-
+                      Aktion aus. 
+                      Sie wird sie fragen, ob Sie Ihre vorher gemachten 
+                      Änderungen speichern möchten.
+                      Klicken Sie auf "Nein" und markieren Sie dann die 
+                      "DeleteThis.xmi"-Datei, die Sie gerade erzeugt haben.
+                      Überprüfen Sie den Namen des importierten Modelles mit dem 
+                      von Ihnen gespeicherten.
                     </para>
 
               </listitem>
@@ -2230,10 +2314,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
 
                     <para>
-                      <emphasis>File=&gt;Import Sources.</emphasis>
-                      We will cover this later.
-                      You can&apos;t test it now unless you have some Java
-                      source code of your own handy.
+                      <emphasis>Datei=&gt;Dateien importieren... .</emphasis>
+                      Wir werden dies später behandeln.
+                      Sie können dies jetzt nicht testen, es sei denn, Sie haben 
+                      Java-Quellcode zur Hand.
                     </para>
 
               </listitem>
@@ -2241,36 +2325,37 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
 
                     <para>
-                      <emphasis>File=&gt;Export (All) Graphics.</emphasis>
-                      In the Explorer Pane select one of the diagrams.
-                      Either "Class Diagram 1" or "Use Case Diagram 1"
-                      (assuming you haven&apos;t renamed or deleted them).
-                      Perform a
-                      <emphasis>File=&gt;Export Graphics</emphasis> action.
-                      When the file chooser opens it defaults to the last
-                      name you saved something to
-                      (even from a project no longer open).
-                      The file chooser allows you to select from a number
-                      of formats.
-                      Drop down the "Files of type" combobox and observe
-                      the choices.
-                      Cancel out as there is nothing useful to save.
-                      Perform a
-                      <emphasis>File=&gt;Export All Graphics</emphasis>
-                      action.
-                      Notice that this time you can&apos;t specify a file
-                      name and you can&apos;t select a file format.
-                      ArgoUML will allow you only to select an output
-                      directory.
-                      It will then create a file for each of your diagrams
-                      using the diagram name for the file name and an
-                      extension determined by the default graphics format.
-                      Actually, although you can&apos;t select file names
-                      in the browser panel, you can type one into the
-                      edit box.
-                      But, if you do that, nothing at all will happen.
-                      You will learn more about the default graphics format
-                      when we get to the <emphasis>Edit</emphasis> menu.
+                      <emphasis>Datei=&gt;(Alle) Grafik(en) exportieren... .
+                      </emphasis>
+                      Markieren Sie im Explorer-Fenster eines der Diagramme.
+                      Entweder das "Klassendiagramm 1" oder 
+                      "Anwendungsfalldiagramm 1" (dabei wurde unterstellt, dass 
+                      Sie diese nicht umbenannt oder gelöscht haben).
+                      Führen Sie eine <emphasis>Datei=&gt;Grafik exportieren...
+                      </emphasis>-Aktion aus.
+                      Wenn sich die Dateiauswahl öffnet, steht der letzte 
+                      gespeicherte Name im Feld Dateiname (auch von einen 
+                      Projekt, das nicht mehr geöffnet ist).
+                      Die Dateiauswahl ermöglicht es Ihnen, eine Reihe von 
+                      Formaten auszuwählen.
+                      Öffnen Sie das Kombinationsfeld Dateityp und treffen Sie 
+                      Ihre Wahl.
+                      Brechen Sie ab, wenn nichts sinnvolles zum Speichern 
+                      vorhanden ist.
+                      Führen Sie eine <emphasis>Datei=&gt;Alle Grafiken 
+                      exportieren...</emphasis> -Aktion aus.
+                      Beachten Sie, dass Sie zum jetzigen Zeitpunkt keinen 
+                      Dateinamen und kein Dateiformat auswählen können. ArgoUML 
+                      wird Ihnen nur die Eingabe eines Verzeichnisses erlauben.
+                      ArgoUML wird dann eine Datei für jedes Ihrer Diagramme 
+                      erzeugen. Der Diagrammname wird der Dateiname und die 
+                      Dateierweiterung wird durch das Standard-Grafik-Format 
+                      bestimmt. Obwohl Sie keine Dateinamen im Browserfenster 
+                      auswählen können, können Sie einen Dateinamen in das 
+                      Editierfeld eingeben.
+                      Aber wenn Sie das tun, wird nichts passieren.
+                      Sie werden mehr über das Standard-Grafik-Format erfahren, 
+                      wenn wir zum <emphasis>Bearbeiten</emphasis>-Menü gehen.
                     </para>
 
               </listitem>
@@ -2278,23 +2363,24 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
 
                     <para>
-                      <emphasis>File=&gt;Notation.</emphasis>
-                      We are going to get a little ahead of ourselves here
-                      and do a little class diagram work so you can see
-                      what notation is all about.
-                      In the Explorer Pane select or create a class diagram.
-                      See <xref linkend="s1.ref.create.diagram.menu"/> and
-                      <xref linkend="s2.ref.edit_pane_drawing_tools"/>.
-                      Create a class in the diagram.
-                      Go to the Detail Pane and create an attribute
-                      in the class.
-                      See <xref linkend="s2.ref.class_property_toolbar"/>.
-                      In the Properties tab of the Detail Pane change the
-                      multiplicity to "1..*".
-                      Now go the the <emphasis>File Menu</emphasis>
-                      and select <emphasis>Notation</emphasis>.
-                      Go back and forth between UML and Java observing
-                      the changes in the display in the Edit Pane.
+                      <emphasis>Datei=&gt;Notation.</emphasis>
+                      Wir gehen jetzt ein Stück weiter und erstellen ein kleines 
+                      Klassendiagramm, so dass wir sehen können, was es mit der 
+                      Notation auf sich hat.
+                      Im Explorer markieren oder erzeugen Sie ein 
+                      Klassendiagramm. Siehe 
+                      <xref linkend="s1.ref.create.diagram.menu"/> 
+                      und <xref linkend="s2.ref.edit_pane_drawing_tools"/>.
+                      Erstellen Sie eine Klasse im Diagramm.
+                      Gehen Sie in das Detailfenster und erstellen Sie ein 
+                      Attribut in der Klasse.
+                      Siehe <xref linkend="s2.ref.class_property_toolbar"/>.
+                      Im Register Eigenschaften des Detailfensters ändern Sie 
+                      die Kardinalität auf "1..*".
+                      Jetzt gehen Sie in das <emphasis>Datei</emphasis>-Menü und 
+                      wählen <emphasis>Notation</emphasis> aus. Wechseln Sie 
+                      zwischen UML und Java und beobachten Sie die Änderungen 
+                      im Editierfenster.
                     </para>
 
               </listitem>
@@ -2302,22 +2388,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
 
                     <para>
-                      <emphasis>File=&gt;Properties.</emphasis>
-                      You can change the Notation language in the
-                      Properties dialog as well.
-                      Click on
-                      <emphasis>File=&gt;Properties</emphasis> and select
-                      the Notations tab.
-                      Set the Notation Language to UML1.4.
-                      Turn on all of the options and click Apply.
-                      Then turn off all of the options and click Apply
-                      observing the changes in the diagram.
-                      Set the Default Shadow Width to 8 and click Apply.
-                      Notice that nothing happens.
-                      This is because you are not setting the Shadow Width,
-                      but its default.
-                      The next time you create a class in a diagram, this
-                      new shadow value will apply.
+                      <emphasis>Datei=&gt;Eigenschaften.</emphasis>
+                      Sie können die Notation auch im Dialog Eigenschaften 
+                      ändern.
+                      Klicken Sie auf 
+                      <emphasis>Datei=&gt;Eigenschaften...</emphasis> und 
+                      wählen Sie den Register Notationen aus.
+                      Stellen Sie die Notation auf UML1.4 ein.
+                      Markieren Sie alle Optionen und klicken Sie auf Übernehmen 
+                      und beobachten Sie die Änderungen im Diagramm.
+                      Stellen Sie die Standard-Schattenbreite auf 8 ein und 
+                      klicken Sie auf Übernehmen.
+                      Beachten Sie, es passiert nichts.
+                      Das ist so, weil Sie nicht die Schattenbreite veränderten, 
+                      sondern den Standardwert.
+                      Wenn Sie beim nächsten Mal eine Klasse in einem Diagramm 
+                      erstellen, wird dieser neue Schatten erscheinen.
                     </para>
 
               </listitem>
@@ -2325,8 +2411,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             </orderedlist>
 
             <para>
-              <emphasis>Edit</emphasis> menu.
-                  <indexterm><primary>Edit Menu</primary></indexterm>
+              <emphasis>Bearbeiten</emphasis>-Menü.
+                  <indexterm><primary>Bearbeiten-Menü</primary></indexterm>
                   The edit menu does not look like what you are used to
                   in other products.
                   There are no "Cut", "Copy", or "Paste" actions.
