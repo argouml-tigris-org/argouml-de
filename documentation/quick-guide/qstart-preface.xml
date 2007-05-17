@@ -31,65 +31,65 @@
 	</para>
 	<para>
 		Im letzten Jahrzehnt des letzten Jahrhunderts vollbrachte die objektorientierte (OO) Technologie 
-		den Übergang von einer Laborkuriosität der 1960er zum überwiegend eingesetzten Softwareentwicklungs-
-		Paradigma. Es war eine lange, schwierige Reise, die fast in der Dunkelheit endete. Hauptsächlich, weil 
-		die OO-Technologie eine Änderung der Denkweise von Systemdesignern, -entwicklern und anderen, in den 
+		den \u00DCbergang von einer Laborkuriosit\u00E4t der 1960er zum \u00FCberwiegend eingesetzten Softwareentwicklungs-
+		Paradigma. Es war eine lange, schwierige Reise, die fast in der Dunkelheit endete. Haupts\u00E4chlich, weil 
+		die OO-Technologie eine \u00C4nderung der Denkweise von Systemdesignern, -entwicklern und anderen, in den 
 		Softwareentwicklungsprozess involvierten Personen erforderte.
 	</para>
 	<para>
-		Erst die Einführung von OO-Hybrid-Sprachen wie C++, klassisches Ada und Object Pascal in den Achtzigern löste 
-		diese Entwicklung aus und bot die Möglichkeit mit der OO-Technologie zu experimentieren. Diese Sprachen 
-		kombinierten die OO-Programmierung mit der Unterstützung für traditioniellen prozeduralen Programmierung.
-		Das Fehlen der Unterstützung der prozeduralen Programmierung innerhalb der reinen OO-Sprachen verhinderte 
-		für viele Jahre die Anwendung der OO-Technologie. Die Reise begann mit der Einführung von <emphasis>Objekten</emphasis> 
-		in Simula in den 1960ern und ist nun abgeschlossen. Die OO-Technologie war nun für die Entwicklung verfügbar...
+		Erst die Einf\u00FChrung von OO-Hybrid-Sprachen wie C++, klassisches Ada und Object Pascal in den Achtzigern l\u00F6ste 
+		diese Entwicklung aus und bot die M\u00F6glichkeit mit der OO-Technologie zu experimentieren. Diese Sprachen 
+		kombinierten die OO-Programmierung mit der Unterst\u00FCtzung f\u00FCr traditioniellen prozeduralen Programmierung.
+		Das Fehlen der Unterst\u00FCtzung der prozeduralen Programmierung innerhalb der reinen OO-Sprachen verhinderte 
+		f\u00FCr viele Jahre die Anwendung der OO-Technologie. Die Reise begann mit der Einf\u00FChrung von <emphasis>Objekten</emphasis> 
+		in Simula in den 1960ern und ist nun abgeschlossen. Die OO-Technologie war nun f\u00FCr die Entwicklung verf\u00FCgbar...
 		gut, die OO-Programmierung war das Mindeste.
 	</para>
 	<para>
-		Die Simulation ist die grundlegene Prämisse, die der OO-Technologie zugrunde liegt. Ein OO-System wird als 
-		Simulation der realen Welt mit Hilfe von Softwarebausteinen entworfen und entwickelt. Diese Prämisse ist so 
-		leistungsfähig wie auch einfach. Durch diese Art Softwaresysteme zu designen und zu bauen, können die gleichen 
+		Die Simulation ist die grundlegene Pr\u00E4misse, die der OO-Technologie zugrunde liegt. Ein OO-System wird als 
+		Simulation der realen Welt mit Hilfe von Softwarebausteinen entworfen und entwickelt. Diese Pr\u00E4misse ist so 
+		leistungsf\u00E4hig wie auch einfach. Durch diese Art Softwaresysteme zu designen und zu bauen, k\u00F6nnen die gleichen 
 		Sprachen und Ideen in der Analyse, dem Design und in der Implementierung des OO-Systems verwendet werden. Dies 
 		erlaubt es, ein System zu entwerfen und zu testen (oder korrekter: erlaubt es das System zu simulieren), ohne 
-		das System zuvor bauen zu müssen. Diese Eigenschaft, gekoppelt mit der Fähigkeit Systeme auf einer sehr hohen 
+		das System zuvor bauen zu m\u00FCssen. Diese Eigenschaft, gekoppelt mit der F\u00E4higkeit Systeme auf einer sehr hohen 
 		Ebene zu designen, versetzt erfahrene OO-Praktiker in die Lage, sehr viel komplexere Systeme als vorher zu 
 		designen und erfolgreich zu implementieren.
 	</para>
 	<para>
-		Die Verfügbarkeit verschiedener OO-Methoden und die Aufnahme der Unified Modelling Language (UML) als 
-		Standardsprache für die Kommunikation von OO-Konzepten vertiefte den Vorteil der OO-Technologie. Die 
-		Popularität der objektbasierten Sprache Visual Basic und die parallele Entwicklung und das schnelle Aufkommen 
-		der vollständig objektorientierten Sprache Java war der endgültige Katalysator, der die abschliessenden 
-		Schritte für die rasante Übernahme der OO-Technologie in die Hauptentwicklungsrichtung vorantrieb.
+		Die Verf\u00FCgbarkeit verschiedener OO-Methoden und die Aufnahme der Unified Modelling Language (UML) als 
+		Standardsprache f\u00FCr die Kommunikation von OO-Konzepten vertiefte den Vorteil der OO-Technologie. Die 
+		Popularit\u00E4t der objektbasierten Sprache Visual Basic und die parallele Entwicklung und das schnelle Aufkommen 
+		der vollst\u00E4ndig objektorientierten Sprache Java war der endg\u00FCltige Katalysator, der die abschliessenden 
+		Schritte f\u00FCr die rasante \u00DCbernahme der OO-Technologie in die Hauptentwicklungsrichtung vorantrieb.
 	</para>
 	<para>
-		ArgoUML ist als Tool und Umgebung für die Analyse und das Desgin objektorientierter Softwaresysteme gedacht. In 
-		diesem Sinne ist es vielen kommerziellen CASE-Tools ähnlich, die als Tools für die Modellierung von Softwaresystemen
+		ArgoUML ist als Tool und Umgebung f\u00FCr die Analyse und das Desgin objektorientierter Softwaresysteme gedacht. In 
+		diesem Sinne ist es vielen kommerziellen CASE-Tools \u00E4hnlich, die als Tools f\u00FCr die Modellierung von Softwaresystemen
 		verkauft werden. ArgoUML weist aber eine Anzahl sehr wichtiger Unterschiede zu vielen dieser Tools auf:
 		<itemizedlist>
 			<listitem>
 				<para>
-					ArgoUML enthält eine Anzahl von Eigenschaften, die kognitive Bedürfnisse objektorientierter Software-
-					Designern und Architekten unterstützen.
+					ArgoUML enth\u00E4lt eine Anzahl von Eigenschaften, die kognitive Bed\u00FCrfnisse objektorientierter Software-
+					Designern und Architekten unterst\u00FCtzen.
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					ArgoUML unterstützt sehr ausgeprägt offene Standards - UML, XMI, SVG, OCL und andere. In dieser Hinsicht 
-					ist ArgoUML sehr viel weiter (auch fünf Jahre nach seiner erstmaligen Einführung) als viele kommerzielle Tools.
+					ArgoUML unterst\u00FCtzt sehr ausgepr\u00E4gt offene Standards - UML, XMI, SVG, OCL und andere. In dieser Hinsicht 
+					ist ArgoUML sehr viel weiter (auch f\u00FCnf Jahre nach seiner erstmaligen Einf\u00FChrung) als viele kommerzielle Tools.
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					ArgoUML ist eine 100%ige Javaanwendung. Damit kann ArgoUML auf allen Plattformen ausgeführt werden, auf 
-					denen der ausführbare Teil der Java2-Plattform verfügbar ist.
+					ArgoUML ist eine 100%ige Javaanwendung. Damit kann ArgoUML auf allen Plattformen ausgef\u00FChrt werden, auf 
+					denen der ausf\u00FChrbare Teil der Java2-Plattform verf\u00FCgbar ist.
 				</para>
 			</listitem>
 			<listitem>
 				<para>
-					ArgoUML ist ein Open Source-Produkt. Die Verfügbarkeit des Quellcodes stellt sicher, dass eine 
-					neue Generation von Software-Designern und Forscher nun ein geprüftes Framework haben, von dem Sie die 
-					Entwicklung und Evolution der CASE-Tool-Technologie weiter vorantreiben können.
+					ArgoUML ist ein Open Source-Produkt. Die Verf\u00FCgbarkeit des Quellcodes stellt sicher, dass eine 
+					neue Generation von Software-Designern und Forscher nun ein gepr\u00FCftes Framework haben, von dem Sie die 
+					Entwicklung und Evolution der CASE-Tool-Technologie weiter vorantreiben k\u00F6nnen.
 				</para>
 			</listitem>
 		</itemizedlist>

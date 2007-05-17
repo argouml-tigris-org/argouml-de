@@ -55,9 +55,9 @@
 	<sect1>
 		<title>Willkommen zu &argo;</title>
 		<para>
-			&argo; ist schon jetzt eine leistungsfähige, leicht zu verwendende, interaktive 
+			&argo; ist schon jetzt eine leistungsf\u00E4hige, leicht zu verwendende, interaktive 
 			grafische Software-Design-Umgebung, die das Design, die Entwicklung und die 
-			Dokumentation von objektorientierten Software-Anwendungen unterstützt.
+			Dokumentation von objektorientierten Software-Anwendungen unterst\u00FCtzt.
 		</para>
 		<para>
 			Wenn Sie mit der Familie von Softwareanwendungen vertraut sind, die Computer Aided Software 
@@ -65,7 +65,7 @@
 		</para>
 		<para>
 			Die Anwender von &argo; sind Software-Designer &amp; -Architekten, Software-Entwickler, 
-			Geschäftsprozess-Analytiker, System-Analytiker und andere in Analyse, Design und Entwicklung
+			Gesch\u00E4ftsprozess-Analytiker, System-Analytiker und andere in Analyse, Design und Entwicklung
 			von Softwareanwendungen involvierte Experten.
 		</para>
 		<para>
@@ -78,7 +78,7 @@ Offene Standards: XMI, SVG und PGML
 				</listitem>
 				<listitem>
 					<para>
-            durch die ausschliessliche Nutzung von Java 100% plattformunabhängig 
+            durch die ausschliessliche Nutzung von Java 100% plattformunabh\u00E4ngig 
 					</para>
 				</listitem>
 				<listitem>
@@ -89,8 +89,8 @@ Offene Standards: XMI, SVG und PGML
 				<listitem>
 					<para>
             Kognitive Eigenschaften wie:
-            Reflektion während der Aktionen, passendes Design, 
-            Verständlichkeit und Problemlösung
+            Reflektion w\u00E4hrend der Aktionen, passendes Design, 
+            Verst\u00E4ndlichkeit und Probleml\u00F6sung
 					</para>
 				</listitem>
 			</itemizedlist>
@@ -103,14 +103,14 @@ Offene Standards: XMI, SVG und PGML
 		===========================================================
 	-->
 	<sect1>
-		<title>Über diese Kurzanleitung...</title>
+		<title>\u00DCber diese Kurzanleitung...</title>
 		<para>
 			Diese Kurzanleitung - &document-title;  - soll es Ihnen 
-			ermöglichen, schnellstmöglichst mit &argo; arbeiten zu können.
-			Sie enthält Schritt-für-Schritt-Anweisungen zum Installieren und 
-			Starten von &argo;, die Ausführung gemeinsamer Schritte und wie 
-			man mehr über &argo; lernt.	Wenn Sie weitergehende Details 
-			benötigen, sehen Sie bitte unter 
+			erm\u00F6glichen, schnellstm\u00F6glichst mit &argo; arbeiten zu k\u00F6nnen.
+			Sie enth\u00E4lt Schritt-f\u00FCr-Schritt-Anweisungen zum Installieren und 
+			Starten von &argo;, die Ausf\u00FChrung gemeinsamer Schritte und wie 
+			man mehr \u00FCber &argo; lernt.	Wenn Sie weitergehende Details 
+			ben\u00F6tigen, sehen Sie bitte unter 
 <ulink url="http://argouml.tigris.org/documentation/defaulthtml/manual/">Anwenderhandbuch
 </ulink> nach.
 		</para>
