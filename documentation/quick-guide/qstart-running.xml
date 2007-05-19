@@ -30,46 +30,46 @@
 	<title>ArgoUML Prinzipien</title>
 	<para>
 	Nach dem Start von ArgoUML, wird ein leeres Klassendiagramm angezeigt, in 
-	das Sie mehrere unterschiedliche Objekte hinzuf\u00FCgen k\u00F6nnen. ArgoUML 
+	das Sie mehrere unterschiedliche Objekte hinzufügen können. ArgoUML 
 	arbeitet nach folgenden Prinzipien:
   </para>
 
   <section>
     <title>Projekt, Modell und Diagramm</title>
     <para>
-      Die Dateioperationen speichern und \u00F6ffnen ein 	
+      Die Dateioperationen speichern und öffnen ein 	
        <literal>Projekt</literal>. 
        Ein <literal>Projekt</literal> entspricht einem 
        <literal>Modell</literal> plus Diagrammen. Zum 
        Beispiel alles was Sie innerhalb des ArgoUML-Fensters 
-       bearbeiten k\u00F6nnen.
+       bearbeiten können.
     </para>
     <para>
       Das <literal>Modell</literal> kann viele Objekte 
-      (Modellelemente) enthalten, welche die vollst\u00E4ndige 
+      (Modellelemente) enthalten, welche die vollständige 
       UML-Beschreibung des von Ihnen zu beschreibenden 
-      Systems bildet. Alle Modellelemente k\u00F6nnen in einem Diagramm 
+      Systems bildet. Alle Modellelemente können in einem Diagramm 
       dargestellt werden, aber dies ist nicht notwendig.
       Folglich ist das in ArgoUML gespeicherte 
-      <literal>Modell</literal> unabh\u00E4ngig vom Inhalt der 
-      Diagramme. Dadurch haben Sie die M\u00F6glichkeit, 
+      <literal>Modell</literal> unabhängig vom Inhalt der 
+      Diagramme. Dadurch haben Sie die Möglichkeit, 
       Programmcode vom <literal>Modell</literal> generieren 
-      zu k\u00F6nnen - Sie ben\u00F6tigen hierf\u00FCr kein Diagramm.
+      zu können - Sie benötigen hierfür kein Diagramm.
      </para>
     <para>
-      Ein ArgoUML-<literal>Projekt</literal> enth\u00E4lt auch 
+      Ein ArgoUML-<literal>Projekt</literal> enthält auch 
       alle Diagramminformationen, z.B. die zur Darstellung der 
-      verschiedenen UML-Modellelemente ben\u00F6tigten Symbole 
-      (Pr\u00E4sentation), deren Standorte, Farben, etc.
+      verschiedenen UML-Modellelemente benötigten Symbole 
+      (Präsentation), deren Standorte, Farben, etc.
       Einige Modellelemente erscheinen in mehreren Diagrammen.
     </para>
     <para>
-      Daraus folgt, dass das Speichern und \u00D6ffnen von 
+      Daraus folgt, dass das Speichern und Öffnen von 
       Projekten all diese Informationen beinhaltet.
       Es gibt einen Weg, nur die Informationen eines 
       <literal>Modells</literal> zu speichern. Dies geschieht 
-      \u00FCber das Men\u00FC "Datei" -> "Exportiere als XMI...".
-      Dies ist n\u00FCtzlich, wenn Sie den Programmcode 
+      über das Menü "Datei" -> "Exportiere als XMI...".
+      Dies ist nützlich, wenn Sie den Programmcode 
       mit einem externen Tool generieren, welches XMI 
       versteht.
     </para>
@@ -78,62 +78,62 @@
   <section>
     <title>Objekte</title>
     <para>
-      Sie w\u00E4hlen ein Objekt aus, indem Sie es mit der linken 
+      Sie wählen ein Objekt aus, indem Sie es mit der linken 
       Maustaste anklicken.
-      Die Funktionlit\u00E4t von ArgoUML kann \u00FCber das Men\u00FC der 
-      Werkzeugleisten oder \u00FCber Popup-Men\u00FCs aktiviert werden, die 
+      Die Funktionlität von ArgoUML kann über das Menü der 
+      Werkzeugleisten oder über Popup-Menüs aktiviert werden, die 
       durch anklicken des Objektes mit Hilfe der rechten Maustaste 
       erscheinen.
-      Viele dieser Funktionen bearbeiten die ausgew\u00E4hlten Objekte.
+      Viele dieser Funktionen bearbeiten die ausgewählten Objekte.
     </para>
     <para>
       Alle Diagramme haben oben Werkzeugleisten mit deren Hilfe 
-      Objekte im Diagramm erzeugt werden k\u00F6nnen.
+      Objekte im Diagramm erzeugt werden können.
     </para>
     <para>
-      Die meisten Objekte k\u00F6nnen zu einem Diagramm hinzugef\u00FCgt oder entfernt 
-      werden ohne diese aus dem <literal>Modell</literal> zu l\u00F6schen!
-      Wenn Sie im Diagramm ein Objekt und dann den Men\u00FCeintrag 
-      "Bearbeiten" -> "Aus Diagramm entfernen" ausw\u00E4hlen, wird das Objekt 
-      aus dem Diagramm entfernt, aber das Objekt verbleibt vollst\u00E4ndig im 
-      Modell, was Sie auch im Explorer sehen k\u00F6nnen, z.B. in der Baumstruktur 
+      Die meisten Objekte können zu einem Diagramm hinzugefügt oder entfernt 
+      werden ohne diese aus dem <literal>Modell</literal> zu löschen!
+      Wenn Sie im Diagramm ein Objekt und dann den Menüeintrag 
+      "Bearbeiten" -> "Aus Diagramm entfernen" auswählen, wird das Objekt 
+      aus dem Diagramm entfernt, aber das Objekt verbleibt vollständig im 
+      Modell, was Sie auch im Explorer sehen können, z.B. in der Baumstruktur 
       auf der linken Seite.
       Nach dem Entfernen kann das Element erneut in das Diagramm ( oder in 
-      ein anderes Diagramm) eingef\u00FCgt werden. Sie markieren es hierf\u00FCr im 
-      Explorer und w\u00E4hlen \u00FCber das Popup-Men\u00FC den Eintrag 
-      "Zum Diagramm hinzuf\u00FCgen" aus.
+      ein anderes Diagramm) eingefügt werden. Sie markieren es hierfür im 
+      Explorer und wählen über das Popup-Menü den Eintrag 
+      "Zum Diagramm hinzufügen" aus.
     </para>
   </section>
 
 	<section>
-		<title>\u00DCberblick \u00FCber das Fenster</title>
+		<title>Überblick über das Fenster</title>
 		<para>
-	  		Im oberen Bereich enth\u00E4lt das Fenster eine Men\u00FCzeile mit den 
-	  		verf\u00FCgbaren Kommandos. Im Men\u00FC <literal>Datei</literal> 
-	  		k\u00F6nnen Sie das Projekt speichern oder ein anderes Projekt 
-	  		\u00F6ffnen.
+	  		Im oberen Bereich enthält das Fenster eine Menüzeile mit den 
+	  		verfügbaren Kommandos. Im Menü <literal>Datei</literal> 
+	  		können Sie das Projekt speichern oder ein anderes Projekt 
+	  		öffnen.
     	</para>
 		<para>
 		Der obere linke Teil des ArgoUML-Fensters zeigt ein Baummodell 
 		der Diagramme und Objekte an.
-		Diese Sicht kann an Ihre Bed\u00FCrfnisse durch Filtern der dargestellten 
+		Diese Sicht kann an Ihre Bedürfnisse durch Filtern der dargestellten 
 		Objekte und deren angezeigter Struktur angepasst werden.
 	    </para>
 		<para>
 		Der obere rechte Teil von ArgoUML zeigt das aktuelle Diagramm.
-		Sie k\u00F6nnen die Objekte in den Diagrammen hin- und herziehen und Sie 
-		k\u00F6nnen Quick-Links verwenden, die erscheinen, wenn Sie die Maus \u00FCber 
+		Sie können die Objekte in den Diagrammen hin- und herziehen und Sie 
+		können Quick-Links verwenden, die erscheinen, wenn Sie die Maus über 
 		das markierte Objekt bewegen, um neue Objekte zu erzeugen, welche die 
 		bereits vorhandenen Objekte verbinden.
 	    </para>
 		<para>
-		Der untere rechte Teil enth\u00E4lt verschiedene Details des aktuell 
-		markierten Objektes: Sie markieren das Objekt in einem der dar\u00FCber 
-		befindlichen Ebenen und w\u00E4hlen \u00FCber die Tabulatoren aus, welche Details 
-		Sie \u00FCberpr\u00FCfen wollen.
+		Der untere rechte Teil enthält verschiedene Details des aktuell 
+		markierten Objektes: Sie markieren das Objekt in einem der darüber 
+		befindlichen Ebenen und wählen über die Tabulatoren aus, welche Details 
+		Sie überprüfen wollen.
     </para>
 		<para>
-		Der untere linke Teil enth\u00E4lt eine Liste aller "Noch zu bearbeiten"-
+		Der untere linke Teil enthält eine Liste aller "Noch zu bearbeiten"-
 		Elemente dieses Modelles.
     </para>
 	</section>
