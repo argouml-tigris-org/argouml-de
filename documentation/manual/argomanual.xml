@@ -769,7 +769,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       </para>
 
       <para>
-        Der Zustand des Modelles am Ende der Schlüsselabschnitte wird in  
+        Der Zustand des Modelles am Ende der Hauptabschnitte wird in  
         .zargo-Dateien verfügbar sein. Diese sind vorhanden, damit Sie 
         verschiedene, nicht in diesem Übungshandbuch speziell behandelte 
         Aspekte durchspielen und dann zum richtigen Zustand des Modelles  
@@ -779,10 +779,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <para>
         
-        Ein ATM (automated teller machine; automatisiertes Kassen)-Projekt wurde 
+        Ein ATM (automated teller machine) Geldautomaten-Projekt wurde 
         als Fallstudie ausgewählt, um die verschiedenen Aspekte der von ArgoUML 
         angebotenen Modellierungen zu demonstrieren. In den nachfolgenden 
-        Abschnitten werden wir eine &quot;automatisierte Kasse&quot; vollständig 
+        Abschnitten werden wir einen <quote>Geldautomaten</quote> vollständig 
 		in UML beschreiben. Das Übungshandbuch wird Sie allerdings nur durch 
 		bestimmte Teile davon führen.
       </para>
@@ -795,16 +795,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       </para>
 
       <para>
-        Die Fallstudie ist ein automatisiertes Kassensystem. Ihre Firma heißt 
-        &quot;FlyByNight Industries&quot;. Sie werden zwei Rollen spielen. Die 
-        des Projektmanagers und die des Analytikers.
+        Die Fallstudie ist ein Geldautomat. Ihre Firma heißt 
+        <quote>FlyByNight Industries</quote>. Sie werden zwei Rollen spielen. 
+        Die des Projektmanagers und die des Analytikers.
       </para>
 
       <para>
-        Wir werden natürlich kein physikalisch existierendes, automatisches 
-        Kassensystem erzeugen. Das Produkt, das wir als Fallstudie erzeugen 
-        werden ist ein Kassensimulator, der zum Testen und Entwerfen eines 
-        physikalisch vorhandenen Kassensystems verwendet wird.
+        Wir werden natürlich keinen physikalisch existierende Geldautomaten 
+        erstellen. Das Produkt, das wir als Fallstudie erzeugen 
+        werden ist ein Geldautomatensimulator, der zum Testen und Entwerfen eines 
+        physikalisch vorhandenen Geldautomaten verwendet wird.
       </para>
 
       <para>
@@ -3007,7 +3007,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title>Das zu bearbeiten-Fenster</title>
+            <title>Das "zu bearbeiten"-Fenster</title>
 
             <para>
               Jetzt sollten Sie sich die Zeit nehmen  
@@ -3264,7 +3264,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <para>
               Jedesmal wenn ArgoUML ohne Projektdatei als Argument gestartet 
               wird, wird ein neues leeres Projekt erzeugt. Dieses Projekt enthält 
-              ein Modell mit dem Namen <literal>unbenanntes Modell</literal>. 
+              ein Modell mit dem Namen <literal>unbenanntesModell</literal>. 
               Diese Modell enthält ein leeres Klassendiagramm, <literal>
               Klassendiagramm 1</literal> genannt und ein leeres Anwendungsfall-
               Diagramm, <literal>Anwendungsfalldiagramm 1</literal> genannt.
@@ -3579,13 +3579,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <sect4>
 
-              <title>The Graph Editing Framework (GEF)</title>
+              <title>Das Graph Editing Framework (GEF)</title>
 
-              <para>GEF is the software package that is the foundation 
-              of the diagrams that appear in the Editing Pane. GEF was 
-              an integral part of ArgoUML but has been separated. Like 
-              ArgoUML it is an open source project available via 
-              <ulink url="http://www.tigris.org">Tigris</ulink>.</para>
+              <para>
+              GEF ist ein Softwarepaket, welches die Grundlage für die im 
+              Editierfenster erscheinenden Diagramme bildet. GEF war ein 
+              integraler Bestandteil von ArgoUML, der jetzt separiert wurde. Wie 
+              ArgoUML ist es ein Open-Source-Projekt und via 
+              <ulink url="http://www.tigris.org">Tigris</ulink> verfügbar.
+              </para>
 
             </sect4>
 
@@ -3593,35 +3595,43 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <title>Precision Graphics Markup Language (PGML)</title>
 
-              <para>PGML is the current storage format for diagram information 
-              used in ArgoUML. In the future, PGML will be replaced by
-              the UML 2.0 Diagram Interchange format.</para>
+              <para>
+	              PGML ist das aktuelle Speicherformat für in ArgoUML verwendete 
+	              Diagramminformationen. In Zukunft wird PGML durch das UML 2.0 
+	              Diagramm-Austausch-Format ersetzt.
+              </para>
 
 
             </sect4>
 
             <sect4>
 
-              <title>Applications Which Open PGML</title>
+              <title>Anwendungen, die PGML öffnen</title>
 
-              <para>PGML is a predecessor of SVG (see 
-              <xref linkend="s4.tut.svg"/>. It was dropped by the W3C 
-              Consortium.</para>
+              <para>
+				PGML ist ein Präprozessor von SVG (siehe 
+              	<xref linkend="s4.tut.svg"/>. Er wurde durch das W3C-Konsortium 
+              	verworfen.
+              </para>
 
-              <para>Currently there are no other tools that we know of 
-              working on PGML.</para>
+              <para>
+              	Aktuell gibt es keine anderen Tools, die wir kennen, die mit 
+              	PGML arbeiten.
+              </para>
 
             </sect4>
 
             <sect4>
 
-              <title>Printing Diagrams</title>
+              <title>Diagramme drucken</title>
 
-              <para>Select a diagram, then go to 
-              <literal>File</literal>=&gt;<literal>Export Diagrams</literal>.
-              You 
-              can generate GIF, PostScript, Encapsulated PostScript or 
-              SVG format.</para>
+              <para>
+              	Markieren Sie ein Diagramm und gehen Sie dann in 
+ 	            <literal>Datei</literal>=&gt;<literal>Grafik exportieren...
+ 	            </literal>.
+ 	            Sie können GIF-, PostScript-, Encapsulated PostScript- oder 
+                SVG-Format generieren.
+              </para>
 
             </sect4>
 
@@ -3629,57 +3639,69 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <title>Scalable Vector Graphics (SVG)</title>
 
-              <para>A World Wide Web Consortium (W3C)
-              standard vector graphics format
-              (<ulink url="http://www.w3.org/TR/SVG/">
-              http://www.w3.org/TR/SVG/</ulink>).</para>
+              <para>
+                Ein weltweites Web-Konsortium (W3C) Standard-Vektor-Grafik-
+                Format (
+              	<ulink url="http://www.w3.org/TR/SVG/">
+              	http://www.w3.org/TR/SVG/</ulink>).
+              </para>
 
-              <para>Support is built in to modern browsers,
-              but you can also get a plugin for older 
-              browsers from <ulink url="http://www.adobe.com">
-              adobe.com</ulink>.</para>
+              <para>
+              	In modernen Browsern ist die Unterstützung des Formates 
+              	eingebaut, für ältere Browser können Sie aber auch ein Plugin 
+              	von <ulink url="http://www.adobe.com">adobe.com</ulink>
+              	erhalten.
+              </para>
 
             </sect4>
 
             <sect4>
 
-              <title>Saving Diagrams as SVG</title>
+              <title>Diagramme als SVG speichern</title>
 
               <orderedlist>
 
                 <listitem>
 
-                  <para>Select <literal>.svg</literal> as the file 
-                  type.</para>
+                  <para>
+                  	Wählen Sie <literal>.svg</literal> als Dateityp aus.
+                  </para>
 
                 </listitem>
 
                 <listitem>
 
-                  <para>Type the name of the file as you like with the 
-                  <literal>.svg</literal> tag at the end. Example 
-                  <literal>myumldiagram.svg</literal></para>
+                  <para>
+                  	Geben Sie den gewünschten Namen der Datei mit der 
+                  	<literal>.svg</literal>-Erweiterung am Ende ein. Beispiel:
+	                <literal>meinumldiagramm.svg</literal>
+                  </para>
 
                 </listitem>
 
               </orderedlist>
 
-              <para>Et viola! SVG! Give it a try and zoom around a 
-              little... They are not pretty though, so if you know 
-              anything about rendering beautiful SVG let us know.</para>
+              <para>
+              	Et viola! SVG! Probieren Sie es aus und erforschen Sie es 
+              	etwas... Sie sind nicht schön genug? Wenn Sie etwas über das 
+              	rendern schöner SVG-Formate wissen, lassen Sie es uns wissen.
+              </para>
 
-              <para>Most modern browsers support SVG.  If yours
-              doesn&apos;t try <ulink url="http://www.mozilla.com/firefox/">
-              Firefox</ulink> or get a plugin for your 
-              current browser from 
-              <ulink url="http://www.adobe.com">
-              adobe.com</ulink></para>
+              <para>
+              	Die meisten modernen Browser unterstützen SVG. Wenn Ihrer das 
+              	nicht tut, versuchen Sie es unter 
+				<ulink url="http://www.mozilla.com/firefox/">Firefox</ulink> 
+				oder holen Sie sich ein Plugin für Ihren aktuellen Browser von 
+				<ulink url="http://www.adobe.com">adobe.com</ulink>
+	          </para>
 
               <note>
 
-                <para>You will not have scroll bars for your SVG unless 
-                it is embedded in HTML. Good luck and let us know 
-                what you find!</para>
+                <para>
+                	Sie wollen keine Scrollleisten für Ihre SVG haben, es sei 
+                	denn Sie sind in HTML eingebettet. Viel Glück und lassen Sie 
+                	es uns wissen, was Sie finden!
+                </para>
 
               </note>
 
@@ -3692,24 +3714,31 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>XMI</title>
 
             <indexterm><primary>XMI</primary></indexterm>
-            <para>ArgoUML supports XMI 1.0, 1.1, and 1.2 files which
-            contain UML 1.3 and UML 1.4 models.  For best compatibility
-            with ArgoUML, export your models using UML 1.4 and XMI 1.1
-            or 1.2.  Be sure to turn off any proprietary extensions
-            (such as Poseidon&apos;s diagram data).</para>
+            <para>
+            	ArgoUML unterstützt XMI 1.0, 1.1 und 1.2 Dateien, die UML 1.3 
+            	und UML 1.4-Modelle enthalten. Um die beste Kompatibilität zu 
+            	erhalten, exportieren Sie Ihre Modelle in UML 1.4 und XMI 1.1 
+            	oder 1.2. Stellen Sie sicher, dass all proprietären 
+            	Erweiterungen abgeschaltet sind (solche wie Poseidon&apos;s 
+            	Diagrammdaten)
+            </para>
             
-            <para>With UML versions earlier than UML 2.0, it isn't
-            possible to save diagram information, so no diagrams
-            will be transferred.</para>
+            <para>
+            	Mit UML-Versionen vor UML 2.0 ist es nicht möglich Diagramm-
+            	Informationen zu speichern, sodass keine Diagramme transferriert 
+            	werden.
+            </para>
 
-            <para>There is also a tool that converts XMI to HTML. For 
-            more information, see 
-            <ulink url="http://www.objectsbydesign.com/projects/xmi_to_html_2.html">
-            http://www.objectsbydesign.com/projects/xmi_to_html_2.html</ulink>.</para>
+            <para>
+            	Es gibt auch ein Werkzeug, das XMI nach HTML konvertiert. Für  
+            	mehr Informationen , siehe
+            	<ulink url="http://www.objectsbydesign.com/projects/xmi_to_html_2.html">
+            	http://www.objectsbydesign.com/projects/xmi_to_html_2.html</ulink>.
+            </para>
 
             <sect4>
 
-              <title>Using XMI from Rational Rose</title>
+              <title>XMI von Rational Rose benutzen</title>
 
               <para>...</para>
 
@@ -3717,70 +3746,78 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <sect4>
 
-              <title>Using Models Created by Poseidon</title>
+              <title>Von Poseidon erzeugte Modelle benutzen</title>
 
               <indexterm><primary>XMI</primary></indexterm>
-              <para>In the <literal>Export project to XMI</literal> dialog, but sure
-              to clear the selection of <literal>Save with diagram data</literal>literal>.</para>
-
-            </sect4>
-
-            <sect4>
-
-              <title>Using Models Created by MagicDraw</title>
-
-              <para>...</para>
-
-            </sect4>
-            
-            <sect4>
-
-              <title>XMI Compatibility with other versions of ArgoUML</title>
-
-              <para>Versions of ArgoUML prior to 0.19.7 supported
-              UML 1.3/XMI 1.0.  After this time, the save format
-              is UML 1.4/XMI 1.2 which is not backward compatible.
-              Newer versions of ArgoUML will read projects written
-              by older versions, but not vice versa.  If you might
-              need to return to an older version of ArgoUML you should
-              be careful to save a backup of your old projects.</para>
-              
               <para>
-                Additionally, if you write XMI files which 
-                need to be read by other tools, you should take into
-                account the different versions.
-                Most modern UML
-                modelling tools should read UML 1.4, but you may
-                have in-house code generators or other tools which
-                are tied to UML 1.3.
+              	Im <literal>Exportiere als XMI...</literal>, aber stellen Sie 
+              	sicher, das <literal>Speichere mit Diagrammdaten</literal> 
+              	nicht markiert ist.
               </para>
 
             </sect4>
 
             <sect4>
 
-              <title>Importing Other XMI Formats into ArgoUML</title>
+              <title>Von MagicDraw erzeugte Modelle benutzen</title>
 
-              <para>XMI compatibility between UML modeling tools
-              has improved over the years, but you may still
-              occasionally run into problems.</para>
+              <para>...</para>
+
+            </sect4>
+            
+            <sect4>
+
+              <title>XMI Kompatibilität mit anderen ArgoUML-Versionen</title>
+
+              <para>
+              	ArgoUML-Versionen vor 0.19.7 unterstützen UML 1.3/XMI 1.0. 
+              	Danach ist das Speicherformat UML 1.4/XMI 1.2, das nicht 
+              	rückwärtskompatibel ist. Neuere Versionen von ArgoUML werden 
+              	Projekte älterer Versionen lesen, aber nicht umgekehrt. Wenn 
+              	Sie glauben, zu einer älteren Version von ArgoUML zurückkehren 
+              	zu müssen, sollten Sie vorsichtig sein und ein Backup Ihres 
+              	alten Projektes abspeichern.
+              </para>
               
-              <para>ArgoUML will not read XMI files which contain
-              UML 1.5 or UML 2.0 models, but it should be able
-              to open most UML 1.4 and UML 1.3 files.  If you find
-              one that it can't open, please file a bug report
-              so that a developer can investigate.</para>
+              <para>
+              	Wenn Sie zusätzlich XMI-Dateien speichern, die durch andere 
+              	Werkzeuge gelesen werden sollen, sollten Sie die 
+              	unterschiedlichen Versionen unterscheiden. Die meisten modernen 
+              	UML-Modellierungs-Werkzeuge sollten UML 1.4 lesen, aber Sie 
+              	haben vielleicht In-Haus-Codegeneratoren oder andere Werkzeuge, 
+              	die UML 1.3 benötigen.
+              </para>
 
             </sect4>
 
             <sect4>
 
-              <title>Generating XMI Format</title>
+              <title>Andere XMI-Formate in ArgoUML importieren</title>
 
-              <para>Select the command
-              <literal>File</literal>=&gt;<literal>Export as XMI</literal>
-              and choose a 
-              filename.</para>
+              <para>
+              	Die XMI-Kompatibilität zwischen den UML-Modellierungs-Werkzeugen 
+              	wurde über die Jahre verbessert, aber Sie werden wahrscheinlich 
+              	Probleme bekommen.
+              </para>
+              
+              <para>
+              	ArgoUML wird keine XMI-Dateien lesen, die UML 1.5 oder UML 2.0-
+              	Modelle enthalten, aber es sollte möglich sein, die meisten 
+              	UML 1.4 und UML 1.3-Modelle zu öffnen. Wenn Sie eines finden, 
+              	dass Sie nicht öffnen können, erstellen Sie bitte einen Bug-
+              	Bericht, so dass ein Entwickler dies erforschen kann.
+              </para>
+
+            </sect4>
+
+            <sect4>
+
+              <title>XMI Format generieren</title>
+
+              <para>
+              	Wählen Sie das Kommando <literal>Datei</literal>=&gt;<literal>
+              	Exportiere als XMI...</literal> und wählen Sie einen Dateinamen.
+              </para>
 
             </sect4>
 
@@ -3788,30 +3825,34 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title>Code Generation</title>
+            <title>Code-Generierung</title>
 
             <sect4>
 
-              <title>Code Generated by ArgoUML</title>
+              <title>Durch ArgoUML generierter Code</title>
 
-              <para>It is possible to compile your generated code with 
-              ArgoUML, you still need to implement method bodies, 
-              though, to get usable results.</para>
+              <para>
+              	Es ist möglich Ihren generierten Code mit ArgoUML zu übersetzen, 
+              	Sie müssen lediglich die Methodenrümpfe implementieren, um 
+              	verwendbare Ergebnisse zu erzielen.
+              </para>
 
             </sect4>
 
             <sect4>
 
-              <title>Generating Code for Methods</title>
+              <title>Code für Methoden generieren</title>
 
-              <para>At the moment you cannot write code for methods 
-              (operations) within ArgoUML. The source pane is editable, 
-              but the changes are ignored. ArgoUML is a pure design 
-              tool for now, no IDE functionality but the desire is 
-              there. You might consider using Forte and ArgoUML 
-              together&mdash;it&apos;s a good work around!</para>
+              <para>
+              	Im Moment können Sie keinen Code für Methoden (Operationen) 
+              	in ArgoUML schreiben. Das Quellcode-Fenster ist editierbar, aber 
+              	die Änderungen werden ignoriert. ArgoUML ist ein aktuell ein 
+              	reines Design-Werkzeug, es ist keine IDE-Funktionalität 
+              	vorhanden, aber der Wunsch ist da. Sie können Forte und ArgoUML 
+              	zusammenarbeiten lassen; dies ist ein guter Work around.
+              </para>
 
-              <para>You can help us out there if you&apos;d like!</para>
+              <para>Sie können uns hier heraushelfen, wenn Sie wollen!</para>
 
             </sect4>
 
@@ -3821,166 +3862,228 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Working With Design Critics</title>
+          <title>Mit Design-Kritiken arbeiten</title>
 
           <para>
-            Design critics are part of the practical application of the
-            theories of Cognitive Psychology that are implemented in ArgoUML.
-            See <xref linkend="tut.cog.psych"/>
+          	Designkritiken sind Teil der praktischen Anwendung der Theorie der 
+          	Kognitiven Psychologie, die in ArgoUML implementiert ist. Siehe 
+            <xref linkend="tut.cog.psych"/>
           </para>
 
           <sect3>
 
-            <title>Messages From the Design Critics</title>
+            <title>Nachrichten von den Designkritiken</title>
 
-            <para>Where do we stand now? A new project has been 
-            created, and is stored in the file <literal>
-            FirstProject.zargo</literal>. 
-            <xref linkend="fig.tut.critstart"/> shows how your ArgoUML 
-            window should look at this stage.</para>
+            <para>
+            	Wo stehen wir aktuell? Ein neues Projekt wurde erstellt und 
+            	wurde in der Datei <literal>ErstesProjekt.zargo</literal> 
+            	gespeichert. <xref linkend="fig.tut.critstart"/> zeigt, wie 
+            	Ihr ArgoUML-Fenster zu diesem Zeitpunkt aussehen sollte.
+            </para>
 
-            <figure float="1" id="fig.tut.critstart">
+            <figure id="fig.tut.critstart">
 
               <title>
-                ArgoUML Window Having Saved
-                <literal>FirstProject.zargo</literal>
+                ArgoUML-Fenster mit gespeichertem Projekt 
+                <literal>ErstesProjekt.zargo</literal>
               </title>
 
-              <screenshot><mediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/tutorial/critstart.gif"
-               format="GIF"/></imageobject></mediaobject></screenshot>
+              <screenshot>
+              	<mediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/tutorial/critstart.gif" format="GIF" />
+              		</imageobject>
+              	</mediaobject></screenshot>
             </figure>
 
-            <para>The project contains a top-level package, called 
-            <literal>untitledModel</literal>, which contains a class 
-            diagram and a use case diagram.</para>
+            <para>
+            	Das Projekt enthält ein Paket auf oberster Ebene, genannt 
+            	<literal>unbenanntesModell</literal>, welches ein 
+            	Klassendiagramm und ein Anwendungsfalldiagramm enthält.
+            </para>
 
-            <para>If we look carefully at the screen, we can see that 
-            the &quot;Medium&quot; folder in the To-Do Pane (the lower 
-            left pane) must contain some items, since its activation 
-            icon <guiicon>
-            <inlinegraphic fileref="images/tutorial/guitreefoldercloseicon.gif"
-             format="GIF"/></guiicon> is displayed.</para>
+            <para>
+            	Wenn wir auf den Bildschirm blicken, sehen wir, dass das 
+            	Verzeichnis <quote>Mittel</quote> im "zu bearbeiten"-Fenster 
+            	(das linke untere Fenster) einige Elemente enthalten muss, da 
+            	sein Aktivierungs-Symbol
+				<guiicon>
+					<inlinegraphic
+						fileref="images/tutorial/guitreefoldercloseicon.gif" format="GIF" />
+				</guiicon>
+				angezeigt wird.
+            </para>
 
-            <para>Clicking on this icon will open the 
-            &quot;Medium&quot; folder. An open folder is indicated by 
-            the <guiicon>
-            <inlinegraphic fileref="images/tutorial/guitreefolderopenicon.gif"
-             format="GIF"/></guiicon> icon.</para>
+            <para>
+            	Klicken auf dieses Symbol öffnet das Verzeichnis <quote>Mittel
+            	</quote>. Ein geöffnetes Verzeichnis wird durch das Symbol
+				<guiicon>
+					<inlinegraphic
+						fileref="images/tutorial/guitreefolderopenicon.gif" format="GIF" />
+				</guiicon>
+				dargestellt.
+            </para>
 
-            <para>But what is this <quote>To-Do</quote> Pane anyway. 
-            You haven&apos;t recorded anything yet that has to be done, 
-            so where do these to do items originate.</para>
+            <para>
+            	Aber, was ist dieses <quote>zu bearbeiten</quote>-Fenster 
+            	überhaupt? Sie haben bis jetzt noch nichts aufgezeichnet, was 
+            	zu tun wäre. Wo kommen diese "zu bearbeiten"-Elemente jetzt her?
+            </para>
 
-            <para>The answer is simple, and is at the same time one of 
-            the strong points of ArgoUML. While you are working on your 
-            UML model, your work is monitored continuously and 
-            invisibly by a piece of code called a <emphasis>design 
-            critic</emphasis>. This is like a personal mentor that 
-            watches over your shoulder and notifies you each time he 
-            sees something questionable in your design.</para>
+            <para>
+            	Die Antwort ist simpel und ist gleichzeitig eines der wichtigsten 
+            	Punkte von ArgoUML. Während Sie mit Ihrem UML-Modell arbeiten, 
+            	wird Ihre Arbeit kontinuierlich durch ein Stück Code, <emphasis>
+            	Design-Kritik</emphasis> genannt, gemonitort. Das ist ähnlich 
+            	einem persönlichen Mentor, der Ihnen über die Schulter sieht und 
+            	Sie jedesmal darauf hinweist, wenn er irgendetwas fragwürdiges 
+            	in Ihrem Design sieht. 
+            </para>
 
-            <para>Critics are quite unobtrusive. They give you a 
-            friendly warning, but they do not force you into design 
-            principles that you don&apos;t want or like to follow. Let 
-            us take a look at what the critics are telling us. Click on 
-            the <guiicon>
-            <inlinegraphic fileref="images/tutorial/guitreefoldercloseicon.gif"
-             format="GIF"/></guiicon> icon next to the <literal>
-            Medium</literal> folder, and click on the <literal>
-            Revise Package Name UntitledModel</literal> item.</para>
+            <para>
+            	Kritiken sind etwas völlig unaufdringlich. Sie geben Ihnen eine 
+            	freundliche Warnung, aber Sie zwingen Sie nicht in Design-
+            	Prinzipien, denen Sie nicht folgen wollen. Lassen Sie uns einen 
+            	Blick darauf werfen, was die Kritiken uns mitteilen.
+            	Klicken Sie auf das 
+				<guiicon>
+					<inlinegraphic
+						fileref="images/tutorial/guitreefoldercloseicon.gif" format="GIF" />
+				</guiicon>
+				Symbol in der Nähe des Verzeichnisses <literal>Mittel</literal> 
+				und klicken Sie auf das Element <literal>Überprüfen Sie den 
+				Paketnamen unbenanntesModell</literal>.
+            </para>
 
-            <para><xref linkend="fig.tut.critrevname"/> shows how your 
-            screen should now look.</para>
+            <para>
+	            <xref linkend="fig.tut.critrevname"/> zeigt, wie Ihr Bildschirm 
+	            nun aussieht.
+            </para>
 
-            <figure float="1" id="fig.tut.critrevname">
+            <figure id="fig.tut.critrevname">
 
-              <title>ArgoUML Window Showing the Critic Item <literal>
-              Revise Package Name UntitledModel</literal></title>
+              <title>
+				ArgoUML-Fenster zeigt das Kritik-Element
+				<literal>Überprüfen Sie den Paketnamen unbenanntesModell</literal>
+              </title>
 
-              <screenshot><mediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/tutorial/critrevname.gif"
-               format="GIF"/></imageobject></mediaobject></screenshot>
+              <screenshot>
+              	<mediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/tutorial/critrevname.gif"
+              				format="GIF" />
+              		</imageobject>
+              	</mediaobject>
+              </screenshot>
             </figure>
 
-            <para>Notice that your selection is highlighted in red in 
-            the To-Do Pane, and that a full explanation appears now in 
-            the Details Pane (the lower right pane). You may have to 
-            re-size your Details Pane or to scroll down in order to see 
-            the full message as displayed in our example.</para>
+            <para>
+            	Beachten Sie, dass Ihre Markierung im "zu bearbeiten"-Fenster in 
+            	rot markiert ist und dass jetzt eine vollständige Erläuterung 
+            	im Detail-Fenster (das untere rechte Fenster) erscheint. Sie 
+            	müssen vielleicht Ihr Detail-Fenster in der Grösse anpassen oder 
+            	herunterscrollen, um die angezeigten Nachricht in Ihrem Beispiel 
+            	vollständig sehen zu können.
+            </para>
 
-            <para>What ArgoUML is trying to tell you is that usually, 
-            package names are written in lower cases. The default top 
-            level package created by ArgoUML is called <literal>
-            untitledModel</literal> and therefore violates a sound 
-            design principle. (Actually, this could be considered as a 
-            bug within ArgoUML, but it comes in handy to demonstrate 
-            the working of critics).</para>
+            <para>
+            	Was Ihnen ArgoUML wahrscheinlich mitteilen will, Paketnamen 
+            	werden in Kleinbuchstaben geschrieben. Das oberste, von ArgoUML 
+            	erzeugte Standard-Paket wird <literal>unbenanntesModell</literal>
+            	genannt und verletzt daher ein Designprinzip. (Aktuell kann dies 
+            	als Bug von ArgoUML betrachtet werden, aber es kommt gerade 
+            	gelegen, um die arbeitsweise von Kritiken zu demonstrieren).
+            </para>
 
-            <para>At this point, you can choose to change the package 
-            name manually or to impose silence on the design critic for 
-            some time or permanently</para>
+            <para>
+            	An diesem Punkt können Sie wählen, ob Sie den Paketnamen manuell 
+            	ändern oder durch die Design-Kritik stillschweigend dieses eine 
+            	Mal oder immer ändern wollen.
+            </para>
 
-            <para>We will do nothing of this (we&apos;ll come back to 
-            it when we talk about the design critics in more detail) 
-            but we&apos;ll use another handy feature of ArgoUML&mdash;an 
-            auto-correct feature.</para>
+            <para>
+            	Wir werden nichts davon tun (wir kommen darauf zurück, wenn wir 
+            	über die Design-Kritiken detaillierter sprechen), aber wir 
+            	werden eine andere einfache Funktion von ArgoUML nutzen&mdash; 
+            	die Autokorrektur-Funktion.
+            </para>
 
-            <para>In order to do that, just click on the <literal>
-            Next</literal> button on the Details Pane. This will cause 
-            a renaming wizard to be displayed inside the properties 
-            panel, proposing to use the name <literal>
-            untitledmodel</literal> (all in lower case).</para>
+            <para>
+            	Um dies zu tun, klicken Sie auf die Schaltfläche <literal>
+	            Weiter</literal> im Detailfenster. Dadurch wird ein Umbenennungs-
+	            Assistent innerhalb des Eigenschaftsfensters angezeigt, der 
+	            vorschlägt, den Namen <literal>unbenanntesmodell</literal> 
+	            (alles in Kleinbuchstaben) zu verwenden.
+            </para>
 
           </sect3>
 
           <sect3>
 
-            <title>Design Critics at Work: The Rename Package 
-            Wizard</title>
+            <title>Design-Kritiken bei der Arbeit: Der Paket-Umbenennungs- 
+            Assistent</title>
 
-            <para>Replace the name <literal>untitledmodel</literal> 
-            with <literal>purchasingmodel</literal>, and click on the 
-            <literal>Finish</literal> button. 
-            <xref linkend="fig.tut.critwiz"/> shows how the ArgoUML 
-            window will now look.</para>
+            <para>
+            	Ersetzen Sie den Namen <literal>unbenanntesmodell</literal> 
+            	durch <literal>einkaufsmodell</literal> und klicken Sie auf die 
+            	Schaltfläche <literal>Fertig stellen</literal>.
+	            <xref linkend="fig.tut.critwiz"/> zeigt, wie das ArgoUML-
+	            Fenster nun aussehen sollte. 
+	        </para>
 
-            <figure float="1" id="fig.tut.critwiz">
+            <figure id="fig.tut.critwiz">
 
-              <title>ArgoUML Window Showing the Critic Wizard to Rename 
-              the Package</title>
+              <title>
+              	Das ArgoUML-Fenster zeigt den Kritik-Assistenten, zur 
+              	Umbenennung des Paketes
+              </title>
 
-              <screenshot><mediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/tutorial/critwiz.gif"
-               format="GIF"/></imageobject></mediaobject></screenshot>
+              <screenshot>
+              	<mediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/tutorial/critwiz.gif" format="GIF" />
+              		</imageobject>
+              	</mediaobject>
+              </screenshot>
             </figure>
 
-            <para>Watch now how the design critic note in the To Do 
-            panel disappears, leaving only the <literal>
-            Add Elements to Package purchasingmodel</literal> note in 
-            the To-Do list.</para>
+            <para>
+            	Beobachten Sie nun, wie die Design-Kritik im "zu bearbeiten"-
+            	Fenster verschwindet und es verbleibt nur der Hinweis <literal>
+            	Fügen Sie dem Paket einkaufsmodell Elemente hinzu</literal> in 
+            	der "zu bearbeiten"-Liste.
+            </para>
 
-            <para>If this doesn&apos;t happen at once, wait for a few 
-            seconds. ArgoUML makes heavy use of several threads of 
-            execution that execute in parallel. This can cause delays 
-            of a few seconds before the information gets updated on the 
-            screen.</para>
+            <para>
+            	Wenn dies nicht sofort passiert, warten Sie einige Sekunden. 
+            	ArgoUML macht ausgiebigen Gebrauch von mehreren, parallel 
+            	ausgeführten Ausführungsthreads. Dies kann einige Sekunden 
+            	Verzögerung verursachen bevor die Information auf dem Bildschirm 
+            	auf den neusten Stand gebracht wird.
+            </para>
 
-            <para>The package name change should also be reflected in 
-            the explorer, in the top left corner of your ArgoUML 
-            window.</para>
+            <para>
+            	Die Änderung des Paketnamens sollte sich auch im Explorer, in 
+            	der linken oberen Ecke Ihres ArgoUML-Fensters,  
+            	wiederspiegeln.
+            </para>
 
-            <para>We are now ready to create our first UML diagram, a 
-            Use Case diagram, but first let&apos;s save what we&apos;ve 
-            done so far.</para>
+            <para>
+            	Wir sind jetzt so weit, unser erstes UML-Diagramm, ein 
+            	Anwendungsfalldiagramm, zu erstellen. Aber lassen Sie uns zuerst  
+            	speichern, was wir bis jetzt getan haben.
+            </para>
 
-            <para>Click on the <literal>File</literal> menu item, and 
-            select <literal>Save Project</literal>. You can now safely 
-            exit ArgoUML without losing your work so far, or go on 
-            creating your first diagram.</para>
+            <para>
+            	Klicken Sie auf das Menüelement <literal>Datei</literal> und 
+            	wählen Sie <literal>Projekt speichern...</literal> aus. Sie 
+            	können jetzt ArgoUML sicher beenden, ohne Ihre bisherige Arbeit 
+            	zu verlieren, oder mit dem Erstellen Ihres ersten Diagrammes 
+            	fortfahren.
+            </para>
 
           </sect3>
 
@@ -3990,22 +4093,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title>The Case Study (To be written)</title>
+        <title>Die Fallstudie (Noch zu schreiben)</title>
 
         <para>
-          Here is where we are going to start the Case Study.
-          It is at this point that you define your project;
-          not your product, but your project.
-          It can be argued that modeling concepts should apply here as well
-          but this has not been well established.
-          If you can take the time to look into the ArgoUML project, you will
-          find that there are a large number of "lines of code" and lines of
-          documentation that are part of the project, but not part of the
-          product.
-          For example, this document is part of the product while the Cookbook
-          and the build.xml files are part of the project only.
-          At a minimum the file structure of the project could be shown in a
-          package diagram.
+        	Hier wollen wir mit der Fallstudie beginnen.
+        	Es ist der Zeitpunkt, wo Sie Ihr Projekt definieren; nicht Ihr 
+        	Produkt, aber Ihr Projekt.
+        	Es kann argumentiert werden, dass die Modellierungskonzepte hier 
+        	auch erscheinen sollten, aber das wurde so nicht aufgebaut.
+        	Wenn Sie sich die Zeit nehmen, sich das ArgoUML-Projekt anzusehen, 
+        	werden Sie eine grosse Anzahl von "Code-" und Dokumentationszeilen, 
+        	die Teil des Projektes sind, finden. Sie sind aber nicht Teil des 
+        	Produktes.
+        	Beispiel: Dieses Dokument ist Teil des Produktes während das 
+        	Kochbuch und die build.xml-Dateien nur Teil des Projektes sind.
+        	Mindestens die Dateistruktur des Projektes könnte in einem 
+        	Paketdiagramm dargestellt werden.
         </para>
         <para>
           ...
@@ -4016,48 +4119,61 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
     <chapter id="ch.tut.reqs">
 
-      <title>Requirements Capture</title>
+      <title>Erfassen der Anforderungen</title>
 
       <sect1>
 
-        <title>Introduction</title>
+        <title>Einleitung</title>
 
         <indexterm>
-        <primary>Requirement</primary><secondary>Capturing</secondary></indexterm>
-        <para>Requirements capture is the process of identifying what 
-        the <quote>customer</quote> wants from the proposed 
-        system.</para>
+        <primary>Anforderung</primary><secondary>Erfassung</secondary></indexterm>
+        <para>
+        	Das Erfassen der Anforderungen ist der Identifizierungsprozess, was 
+        	der <quote>Kunde</quote> von dem vorgeschlagenen System will.
+        </para>
 
-        <para>The key at this stage is that we are in the problem 
-        domain. At this stage we must describe everything from the 
-        <quote>customer</quote> perspective and in the language of the 
-        <quote>customer</quote>.</para>
+        <para>
+        	Der Schlüssel zu diesem Zeitpunkt ist, dass wir uns im 
+        	Problembereich befinden. Zu diesem Zeitpunkt müssen wir alles 
+        	aus der Perspektive des <quote>Kunden</quote> und in der Sprache 
+        	des <quote>Kunden</quote> beschreiben
+        </para>
 
-        <para>The biggest risk we have in requirements capture is to 
-        start thinking in terms of possible solutions. That must wait 
-        until the <emphasis>Analysis Phase</emphasis> (see 
-        <xref linkend="ch.tut.analysis"/>). One of the steps of the 
-        Analysis Phase will be to take the output of the Requirements 
-        Phase and recast it in the language of a deemed solution.</para>
+        <para>
+        	Das grösste Risiko, dass wir beim Erfassen der Anforderungen haben 
+        	ist, dass wir in Begriffen der möglichen Lösung anfangen zu denken.
+        	Dies muss bis zur <emphasis>Analyse-Phase</emphasis> warten (siehe
+	        <xref linkend="ch.tut.analysis"/>). Einer der Schritte der Analyse-
+	        Phase nimmt das Ergebnis der Anforderungsphase und übersetzt es in 
+	        die Sprache einer gedachten Lösung. 
+        </para>
 
-        <para>Remember we are using both a 
-        <emphasis>incremental</emphasis>, and an 
-        <emphasis>iterative</emphasis> process.</para>
+        <para>
+        	Erinnern Sie sich, dass wir beides einsetzen, einen <emphasis>
+        	inkrementalen</emphasis> und einen <emphasis>iterativen</emphasis> 
+        	Prozess.
+        </para>
 
-        <para>We may well come back to the requirements process again 
-        as we break down the problem into smaller chunks, each of which 
-        must have its requirements captured.</para>
+        <para>
+        	Wir kommen im Anforderungsprozess darauf zurück, wenn wir das 
+        	Problem in kleinere Teile unterteilen. Für jedes davon müssen seine 
+        	Anforderungen erfasst sein.
+        </para>
 
-        <para>We will certainly come back through the requirements 
-        phase on each iteration as we seek to define the requirements 
-        of more and more of the system</para>
+        <para>
+        	Wir werden wahrscheinlich während der Anforderungsphase bei jeder 
+        	Iteration darauf zurückkommen, wenn wir versuchen, die Anforderungen 
+        	des Systems immer weiter zu definieren.
+        </para>
 
         <note>
 
-          <para>The only part of the requirements notation specified by 
-          the UML standard is the use case diagram. The remainder is 
-          process specific. The process described in this chapter draws 
-          heavily on the Rational Unified Process.</para>
+          <para>
+          	Der einzige Teil der vom UML-Standard spezifizierten 
+          	Anforderungsnotation ist das Anwendungsfalldiagramm.  Der Rest ist 
+          	prozessspezifisch. Der in diesem Kapitel beschriebene Prozess ist 
+          	sehr stark an den Rational Unified Prozess angelehnt.
+          </para>
 
         </note>
 
@@ -4065,157 +4181,193 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title>The Requirements Capture Process</title>
+        <title>Der Anforderungs-Erfassungs-Prozess</title>
 
-        <indexterm><primary>Vision Document</primary></indexterm>
-        <para>We start with a top-level view of the problem we are 
-        solving and the key areas of functionality that we must address 
-        in any solution. This is our <emphasis>vision 
-        document</emphasis>, and should be just a few pages long.</para>
+        <indexterm><primary>Das Visions-Dokument</primary></indexterm>
+        <para>
+        	Wir beginnen mit einer Top-Level-Sicht auf das von uns zu lösende 
+        	Problem und die Schlüsselbereiche der Funktionalität, die wir für 
+        	die Lösung adressieren müssen. Dies ist unser <emphasis>Visions- 
+        	Dokument</emphasis> und es sollte nur einige Seiten lang sein.
+        </para>
 
-        <para>For example the top-level view of an automated teller 
-        machine (ATM) might be that it should support the 
-        following.</para>
+        <para>
+        	Die Top-Level-Sicht eines Geldautomaten (automated teller 
+        	machine (ATM)) zum Beispiel, sollte folgendes unterstützen.
+        </para>
 
         <orderedlist>
 
           <listitem>
 
-            <para>Cash deposit, cash withdrawal and account inquiries 
-            by customers.</para>
+            <para>
+            	Bargeld lagern, Bargeld abheben und Kontoabfragen durch Kunden.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para>Maintenance of the equipment by the bank&apos;s 
-            engineers, and unloading of deposits and loading of cash by 
-            the local bank branch.</para>
+            <para>
+            	Verwalten des Equipments durch Bank-Ingenieure und leeren der 
+            	Kassen und Bargeld nachfüllen durch die lokale Bankfiliale.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para>Audit trail for all activities sent to the 
-            bank&apos;s central computer.</para>
+            <para>
+            	Nachvollziehbarkeit aller an den zentralen Bankcomputer 
+            	gesendeten Aktivitäten.
+            </para>
 
           </listitem>
 
         </orderedlist>
 
-        <indexterm><primary>Actor</primary></indexterm>
-        <para>From this top-level view we can extract the principal 
-        activities of the system, and the external agents (people, 
-        equipment) that are involved in those activities. These 
-        activities are known as <emphasis>use cases</emphasis> and the 
-        external agents are known as <emphasis>actors</emphasis>.</para>
+        <indexterm><primary>Akteur</primary></indexterm>
+        <para>
+        	Aus dieser Top-Level-Sicht können wir die prinzipiellen Aktivitäten 
+        	des Systems und die extern Handelnden (Menschen, Equipment) die in 
+        	diese Aktivitäten eingebunden sind extrahieren. Diese Aktivitäten 
+        	sind als <emphasis>Anwendungsfälle</emphasis> und die extern 
+        	Handelnden als <emphasis>Akteure</emphasis> bekannt.
+        </para>
 
-        <para>Actors may be people or machines. From a practical 
-        standpoint it is worth knowing the stakeholder behind any 
-        machine, since only they will be able to engage with the 
-        requirements capture process.</para>
+        <para>
+        	Akteure können Menschen oder Maschinen sein. Vom praktischen 
+        	Standpunkt aus gesehen besteht deren Wert darin, die Nutzer 
+        	hinter einer Maschine zu kennen, da nur diese in der Lage sind, sich 
+        	mit dem Anforderungs-Erfassungs-Prozess zu beschäftigen.
+        </para>
 
-        <indexterm><primary>Use Case</primary></indexterm>
-        <para>Use cases should be significant activities for the 
-        system. For example customer use of the ATM machine is a use 
-        case. Entering a PIN number is not.</para>
+        <indexterm><primary>Anwendungsfall</primary></indexterm>
+        <para>
+        	Anwendungsfälle sollte signifikante Aktivitäten für das System sein.
+        	Der Nutzung des Geldautomaten durch den Kunden ist zum Beispiel ein 
+        	Anwendungsfall. Die Eingabe einer PIN-Nummer ist es nicht.
+        </para>
 
-        <para>There is a gray area between these two extremes. As we 
-        shall see it is often useful to break very large use cases into 
-        smaller sub-use cases. For example we may have sub-use cases 
-        covering cash deposit, cash withdrawal and account 
-        inquiry.</para>
+        <para>
+        	Es gibt eine Grauzone zwischen diesen beiden Extremen. Wie wir 
+        	sehen werden, ist es oft nützlich, sehr grosse Anwendungsfälle in 
+        	kleinere Sub-Anwendungsfälle zu unterteilen. Wir können zum Beispiel 
+        	Bargeld lagern, Bargeld auszahlen und Kontoabfragen als Sub-
+        	Anwendungsfälle definieren.
+        </para>
 
-        <para>There is no hard and fast rule. Some architects will 
-        prefer a small number of relatively large use cases, others 
-        will prefer a larger number of smaller use cases. A useful rule 
-        of thumb is that any practical project ought to require no more 
-        than about 30 use cases (if it needs more, it should be broken 
-        into separate projects).</para>
+        <para>
+        	Es gibt keine harte und schnelle Regel. Einige Architekten 
+        	präferieren wenige relativ grosse Anwendungsfälle, andere 
+        	präferieren eine grössere Anzahl kleinerer Anwendungsfälle. Eine 
+        	nützliche Faustregel ist, dass jedes praktikable Projekt nicht mehr 
+        	als 30 Anwendungsfälle erfordern sollte (wenn es mehr benötigt, 
+        	sollte es in separate Projekte aufgeteilt werden).
+        </para>
 
-        <para>We then show the relationship between use cases and 
-        actors on one or more use case diagrams. For a large project 
-        more than one diagram will be needed. Usually groups of related 
-        use cases are shown on one diagram.</para>
+        <para>
+        	Wir stellen dann die Beziehungen zwischen den Anwendungsfällen und 
+        	Akteuren in einem oder mehreren Anwendungsfalldiagrammen dar. In 
+        	grösseren Projekten wird mehr als ein Diagramm benötigt. 
+        	Normalerweise werden Gruppen zusammengehöriger Anwendungsfälle in 
+        	einem Diagramm dargestellt.
+        </para>
 
-        <para>We must then give a more detailed specification of each 
-        use case. This covers its normal behavior, alternative 
-        behaviors and any pre- and post-conditions. This is captured in 
-        a document variously known as a <emphasis>use case 
-        specification</emphasis> or <emphasis>use case 
-        scenario</emphasis>.</para>
+        <para>
+        	Wir müssen dann eine detailliertere Spezifikation für jeden 
+        	Anwendungsfall erstellen. Dies beinhaltet sein normales Verhalten, 
+        	alternatives Verhalten und alle Vor- und Nachbedingungen. Dies 
+        	erfolgt in einem Dokument, dass häufig als <emphasis>
+        	Anwendungsfalldokumentation</emphasis> oder <emphasis>
+        	Anwendungsfallszenario</emphasis> bekannt ist.
+        </para>
 
-        <indexterm><primary>Supplementary Requirement 
-        Specification</primary></indexterm>
-        <para>Finally, since use cases are functional in nature, we 
-        need a document to capture the non-functional requirements 
-        (capacity, performance, environmental needs etc). These 
-        requirements are captured in a document known as a 
-        <emphasis>supplementary requirements 
-        specification</emphasis>.</para>
+        <indexterm><primary>Ergänzende Anforderungsspezifikation</primary></indexterm>
+        <para>
+        	Da Anwendungsfälle natürlicherweise funktional sind, benötigen wir 
+        	ein Dokument, um die nicht-funktionalen Anforderungen (Kapazitäts-, 
+        	Leistungs-, Umgebungsanforderungen usw.) aufzunehmen. Diese 
+        	Anforderungen werden in einem Dokument <emphasis>Ergänzende 
+        	Anforderungsspezifikation</emphasis> festgehalten.
+        </para>
 
         <sect2>
 
-          <title>Process Steps</title>
+          <title>Prozess-Schritte</title>
 
-          <para>The steps in the requirements capture process can be 
-          summarized as follows.</para>
+          <para>
+          	Die Schritte im Anforderungs-Erfassungs-Prozess können wie folgt 
+          	zusammengefasst werden.
+          </para>
 
           <orderedlist>
 
             <listitem>
 
-              <indexterm><primary>Vision Document</primary></indexterm>
-              <para>Capture an overall view of the problem, and the 
-              desired characteristics of its solution in the 
-              <emphasis>vision document</emphasis>.</para>
+              <indexterm><primary>Visions-Dokument</primary></indexterm>
+              <para>
+              Das <emphasis>Visions-Dokument</emphasis> beinhaltet eine 
+              Gesamtsicht auf das Problem und die gewünschten Charakteristika 
+              seiner Lösung.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Use Case</primary></indexterm>
-              <para>Identify the <emphasis>use case</emphasis> and 
-              <emphasis>actors</emphasis> from the vision document and 
-              show their relationships on one or more <emphasis>use 
-              case diagrams</emphasis>.</para>
+              <indexterm><primary>Anwendungsfall</primary></indexterm>
+              <para>
+              	Identifizieren Sie die <emphasis>Anwendungsfälle</emphasis> und 
+              	<emphasis>Akteure</emphasis> aus dem Visions-Dokument und 
+              	stellen deren Beziehungen zueinander in einem oder mehreren 
+              	<emphasis>Anwendungsfalldiagrammen dar</emphasis>.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Use Case 
-              Specification</primary></indexterm>
-              <indexterm><primary>Specification</primary><secondary>of 
-              Use Case</secondary></indexterm>
-              <para>Give detailed <emphasis>use case 
-              specifications</emphasis> for each use case, covering 
-              normal and alternate behavior, pre- and 
-              post-conditions.</para>
+              <indexterm><primary>Anwendungsfall-Spezifikation</primary>
+              </indexterm>
+              <indexterm><primary>Spezification</primary><secondary>von  
+              Anwendungsfällen</secondary></indexterm>
+              <para>
+              	Erstellen Sie für jeden Anwendungsfall eine detaillierte 
+              	<emphasis>Anwendungsfall-Spezifikation</emphasis>, die das 
+              	normale und alternative Verhalten, die Vor- und Nachbedingungen 
+              	beinhaltet.
+	          </para>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Non-functional 
-              requirements</primary></indexterm>
-              <indexterm><primary>Supplementary Requirement 
-              Specification</primary></indexterm>
-              <para>Capture all non-functional requirements in a 
-              <emphasis>supplementary requirements 
-              specification</emphasis>.</para>
+              <indexterm><primary>Nicht-funktionale Anforderungen</primary>
+              </indexterm>
+              <indexterm><primary>Ergänzende Anforderungs-Spezifikation 
+              </primary></indexterm>
+              <para>
+              	Fassen Sie alle nicht-funktionalen Anforderungen in einer 
+              	<emphasis>Ergänzenden Anforderungs-Spezifikation</emphasis> 
+              	zusammen.
+              </para>
 
             </listitem>
 
           </orderedlist>
 
-          <para>In any iterative development process, we will 
-          prioritize, and early iterations will focus on capturing the 
-          key behavior of the most important use cases.</para>
+          <para>
+          	In jedem iterativen Entwicklungsprozess werden wir priorisieren 
+          	und frühe Iterationen werden sich darauf fokussieren, das 
+          	hauptsächliche Verhalten der wichtigsten Anwendungsfälle aufzunehmen.
+          </para>
 
-          <para>Most modern requirements capture processes agree that 
-          it is essential that the authoritative representative of the 
-          customer is fully involved throughout the process.</para>
+          <para>
+          	Die meisten moderenen Anforderungs-Erfassungs-Prozesse unterstellen, 
+          	dass es wichtig ist, dass der maßgebliche Repräsentant des Kunden
+          	während dieses Prozesses vollständig involviert ist.
+          </para>
 
         </sect2>
 
@@ -4223,94 +4375,110 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1 id="s1.tut.req_process_output">
 
-        <title>Output of the Requirements Capture Process</title>
+        <title>Ergebnis des Anforderungs-Erfassungs-Prozesses</title>
 
-        <para>Almost all the output of the requirements capture process 
-        is documentary. The only diagram is the use case diagram, 
-        showing the relationships between use cases and actors.</para>
+        <para>
+        	Fast alle Ergebnisse des Anforderungs-Erfassungs-Prozesses sind 
+        	dokumentarisch. Das einzige Diagramm ist das Anwendungsfalldiagramm, 
+        	das die Beziehungen zwischen den Anwendungsfällen und den Akteuren 
+        	darstellt.
+        </para>
 
         <sect2 id="s2.tut.vision_document">
 
-          <title>Vision Document</title>
+          <title>Visions-Dokument</title>
 
-          <indexterm><primary>Vision Document</primary></indexterm>
-          <para>Typical sections of this document would be as 
-          follows.</para>
+          <para>
+          	Typische Kapitel dieses Dokumentes könnten die folgenden sein.
+          </para>
+          <indexterm><primary>Visions-Dokument</primary></indexterm>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><emphasis>Summary</emphasis>. A statement of the 
-              context, problem and solution goals.</para>
+              <para>
+              	<emphasis>Zusammenfassung</emphasis>. Eine Aussage zum Umfeld, 
+              	zum Problem und zu den Zielen der Lösung.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Goals</primary><secondary>in the 
-              Vision document</secondary></indexterm>
-              <para><emphasis>Goals</emphasis>. What are we trying to 
-              achieve (and how do we wish to achieve it).</para>
+              <para>
+              	<emphasis>Ziele</emphasis>. Was wir erreichen wollen (und wie 
+              	wir es erreichen wollen).
+              </para>
+              <indexterm><primary>Ziele</primary><secondary>im  
+              Visions-Dokument</secondary></indexterm>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Market Context</primary><secondary>in 
-              the Vision document</secondary></indexterm>
-              <para><emphasis>Market Context</emphasis> or 
-              <emphasis>Contractual Arrangements</emphasis>. For a 
-              market led development, this should indicate target 
-              markets, competitive differentiators, compelling events 
-              and so forth. For a contractual development this should 
-              explain the key contractual drivers.</para>
+              <para>
+              <emphasis>Marktumfeld</emphasis> oder 
+              <emphasis>vertragliche Vereinbarungen</emphasis>. Bei einer 
+              Entwicklung zur Marktführerschaft, sollte es die Zielmärkte, die 
+              Alleinstellungsmerkmale, die zwingenden Ereignisse und so weiter 
+              aufzeigen. Bei einer vertraglich vereinbarten Entwicklung sollte 
+              es die Hauptelemente der vertraglichen Vereinbarung erläutern.
+              </para>
+              <indexterm><primary>Marktumfeld</primary><secondary>im  
+              Visions-Dokument</secondary></indexterm>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Stakeholders</primary><secondary>in 
-              the Vision document</secondary></indexterm>
-              <para><emphasis>Stakeholders</emphasis>. The users (in 
-              the widest sense) of the system. Many of these will map 
-              in to actors, or control equipment that maps into 
-              actors.</para>
+              <para>
+              	<emphasis>Nutzer</emphasis>. Die Nutzer (im weitesten 
+              	Sinne) des Systems. Viele davon werden als Akteure, oder 
+              	Steuer-Equipment das in Akteure umgewandelt wird, abgebildet. 
+              </para>
+              <indexterm><primary>Nutzer</primary><secondary>im 
+              Visions-Dokument</secondary></indexterm>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Key features</primary><secondary>in 
-              the Vision document</secondary></indexterm>
-              <para><emphasis>Key Features</emphasis>. At the very 
-              highest level what are they key functional aspects of the 
-              problem/desired solution. These will largely map down to 
-              the use cases. It is helpful to give some prioritization 
-              here.</para>
+              <para>
+              	<emphasis>Haupteigenschaften</emphasis>. Auf einer sehr hohen 
+              	Abstraktionsebene: Was sind die hauptsächlichen Aspekte des 
+              	Problems/der gewünschten Lösung. Es ist hilfreich, hier bereits 
+              	zu priorisieren.
+              </para>
+              <indexterm><primary>Haupteigenschaften</primary><secondary>im 
+              Visions-Dokument</secondary></indexterm>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Constraints</primary><secondary>in 
-              the Vision document</secondary></indexterm>
-              <indexterm><primary>Non-functional 
-              parameters</primary><secondary>in the Vision 
-              document</secondary></indexterm>
-              <para><emphasis>Constraints</emphasis>. A high level view 
-              of the non-functional parameters of the system. These 
-              will be worked out in detail in the supplementary 
-              requirements specification.</para>
+              <para>
+              	<emphasis>Randbedingungen</emphasis>. Eine Sicht auf die 
+              	nicht-funktionalen Parameter des Systems auf einer sehr hohen 
+              	Abstraktionsebene. Diese werden in der ergänzenden 
+              	Anforderungsspezifikation detailliert ausgearbeitet.
+              </para>
+              <indexterm><primary>Randbedingungen</primary><secondary>im 
+              Visions-Dokument</secondary></indexterm>
+              <indexterm><primary>Nicht-funktionale Parameter</primary>
+              <secondary>im Visions-Dokument</secondary></indexterm>
 
             </listitem>
 
             <listitem>
 
-              <para><emphasis>Appendix</emphasis>. A listing of the 
-              actors and use cases that will be needed to meet this 
-              vision. It is useful to link to these from the earlier 
-              sections to ensure comprehensive coverage.</para>
+              <para>
+              	<emphasis>Anhang</emphasis>. Eine Liste der Akteure und 
+              	Anwendungsfälle die zur Erfüllung der Vision notwendig sind. Es
+              	ist hilfreich, diese mit den vorher beschriebenen Abschnitten 
+              	zu verlinken um eine in sich geschlossene Darstellung 
+              	sicherzustellen. 
+              </para>
 
             </listitem>
 
@@ -4320,7 +4488,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Use Case Diagram</title>
+          <title>Anwendungsfalldiagramm</title>
 
           <indexterm><primary>Use Case Diagram</primary></indexterm>
           <indexterm><primary>Diagram</primary><secondary>Use 
@@ -17484,7 +17652,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <para>Some purists would argue that the comparison should 
             really differentiate between in, out and in-out parameters. 
             However no practical programming language can do this when 
-            resolving an overloaded method invocation, so this critics 
+            resolving an overloaded method invocation, so this critic 
             lumps them all together.</para>
 
           </note>
