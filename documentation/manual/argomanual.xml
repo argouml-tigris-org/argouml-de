@@ -110,8 +110,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
     <para>
     	Softwaredesign ist eine kognitiv herausfordernde Tätigkeit.
     	Designer müssen die Entwürfe manuell eingeben, aber die primäre
-    	Arbeit ist mehr entscheidungs- als dateneingabegetrieben. Wenn
-    	Designer ihre entscheidungsgetriebenen Fähigkeiten verbesserten,
+    	Schwierigkeit ist Entscheidungen zu treffen weniger Daten einzugeben. 
+    	Wenn Designer ihre Fähigkeiten Entscheidungen zu treffen verbesserten,
     	würden bessere Entwürfe dabei herauskommen.
     </para>
 
@@ -125,13 +125,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
     	hinaus weisen viele CASE-Tools auch substantielle Vorteile im
     	Bereich der Versionskontrolle und nebenläufiger
     	Designmechanismen auf. Ein Bereich der Designunterstützung, der
-    	bisher noch nicht gut unterstützt wurde, ist die Analyse von
+    	bisher noch nicht besonders gut unterstützt wurde, ist die Analyse von
     	Designentscheidungen.
     </para>
 
     <para>
     	Aktuelle CASE-Tools haben eine Anwenderschnittstelle (GUI), die
-    	es den Designern ermöglicht, auf alle durch das Tool angebotenen
+    	es den Designern ermöglicht, auf alle, durch das Tool angebotenen
     	Funktionen zuzugreifen. Und sie unterstützen den
     	Entwurfsprozess, indem sie es dem Designer erlauben, Diagramme
     	im Stil populärer Design-Methoden einzugeben. Üblicherweise
@@ -152,8 +152,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <listitem>
 
-          <para>Reflektion-durch-Aktion;</para>
-          <indexterm><primary>Reflektion-durch-Aktion</primary></indexterm>
+          <para>Reflektion-während-Aktion;</para>
+          <indexterm><primary>Reflektion-während-Aktion</primary></indexterm>
 
         </listitem>
 
@@ -179,8 +179,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
     <para>
     ArgoUML basiert direkt auf der UML 1.4-Spezifikation. Das zentrale 
     Modell-Repository ist eine Implementierung der Java Metadaten Schnittstelle 
-    (JMI), welche MOF direkt unterstützt und die maschinenlesbare Version 
-    der UML 1.4-Spezifikation der OMG verwendet.
+    (JMI=Java Metadata Interface), welche MOF direkt unterstützt und die 
+    maschinenlesbare Version der UML 1.4-Spezifikation der OMG verwendet.
 	</para>
 
     <para>
@@ -245,7 +245,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
     Dieses Anwenderhandbuch ist für den Designer gedacht, der seine Entwürfe 
     mit Hilfe von ArgoUML erstellen möchte. Das Handbuch setzt voraus, dass Sie 
     mit UML vertraut sind. Eventuell unterstützt es aber auch diejenigen, für 
-    UML neu ist.
+    die UML neu ist.
 	</para>
 
     <para>
@@ -279,14 +279,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect2 id="s2.ooad">
 
-        <title>Objektorientierte Analyse und Desgin</title>
+        <title>Objektorientierte Analyse und Design</title>
 
         <indexterm><primary>Analyse</primary></indexterm> 
         <indexterm><primary>Design</primary></indexterm>
         <para>
         Im letzten Jahrzehnt wurde die objektorientierte Analyse und Design 
         (OOA&amp;D) zu <emphasis>dem</emphasis> dominanten Softwareparadigma. 
-        Damit einhergehend fand ein Umdenken in allen an dem 
+        Damit einhergehend fand ein Umdenken in allen, an dem 
         Softwarelebenzyklus beteiligten Prozessen statt. 
         </para>
 
@@ -311,13 +311,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 		</para>
 
         <para>
-        Es ist die Entwicklung von objektorientierte 
-        <emphasis>Analyse</emphasis> und <emphasis>Design</emphasis> 
-        unterstützenden Tools während der 1990&apos;er, die diesen Ansatz 
+        Es ist die Entwicklung von Tools während der 1990&apos;er, welche die 
+        objektorientierte <emphasis>Analyse</emphasis> und <emphasis>Design
+        </emphasis> unterstützen, die diesen Ansatz 
         vorantrieben. Gekoppelt mit der Fähigkeit, Systeme auf einer sehr hohen 
         Abstraktionsebene zu entwerfen, ermöglichte der toolbasierte 
         OOA&amp;D-Ansatz die Implementierung sehr viel komplexerer Systeme als 
-        früher möglich gewesen wären.
+        sie früher möglich gewesen wären.
         </para>
 
         <para>
@@ -336,9 +336,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para>
         Während der 1980&apos;er wurden eine Anzahl von OOA&amp;D-
         Vorgehensmethoden und -Notationen durch unterschiedliche Forscherteams 
-        entwickelt. Es wurde klar, dass es viele gemeinsame Themenbereiche gibt. 
-        Während der 1990&apos;er wurde ein vereinheitlichter Ansatz für die 
-        OOA&amp;D-Notation unter der Schirmherrschaft der 
+        entwickelt. Es wurde klar, dass es viele gemeinsame Themenbereiche gibt 
+        und so wurde während der 1990&apos;er ein vereinheitlichter Ansatz für 
+        die OOA&amp;D-Notation unter der Schirmherrschaft der 
         <ulink url="http://www.omg.org">Object Management Group</ulink> 
         entwickelt. Dieser Standard wurde als Unified Modeling Language (UML) 
         bekannt, und ist heute die Standardsprache für die Kommunikation von 
@@ -368,9 +368,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <para>
             ArgoUML zeichnet sich durch die Erforschung kognitiver 
             Psychologie aus, um ungewöhnliche Funktionen anbieten zu 
-            können, welche die Produktivität durch die Unterstützung 
-            der kognitiven Bedürfnisse von objektorientiert arbeitenden 
-            Softwaredesignern und -Architekten erhöht.
+            können. Diese erhöhen die Produktivität durch die Unterstützung 
+            kognitiver Bedürfnisse von objektorientiert arbeitenden 
+            Softwaredesignern und -Architekten.
 			</para>
 
           </listitem>
@@ -378,7 +378,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <listitem>
 
             <para>
-            ArgoUML nutzt extensiv offene Standards - UML, XMI, 
+            ArgoUML nutzt sehr stark offene Standards - UML, XMI, 
             SVG, OCL und andere.
             </para>
 
@@ -439,14 +439,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <indexterm><primary>Robbins, Jason</primary></indexterm>
           <indexterm><primary>Mailing lists</primary></indexterm>
           <para>
-          Jason Elliot Robbins gründete das Argo-Projekt und übte die  
-          Projektleitung aus. Solange Jason im Projekt aktiv 
-          blieb, hatte er alle Hände voll mit der Projektleitung zu tun.
-          Das Projekt entwickelte sich kontinuierlich und sehr stark weiter. Es 
-          gab mehr als 300 Mitglieder in der Entwickler-Mailliste (siehe  
+          Jason Elliot Robbins gründete das Argo-Projekt und erhielt früh die  
+          Projektleitung. Solange Jason im Projekt aktiv war, hatte er alle 
+          Hände voll mit der Projektleitung zu tun.Das Projekt entwickelte sich 
+          kontinuierlich und sehr stark weiter. Es gab mehr als 300 Mitglieder 
+          in der Entwickler-Mailliste (siehe  
           <ulink url="http://argouml.tigris.org/servlets/ProjectMailingListList">
           http://argouml.tigris.org/servlets/ProjectMailingListList</ulink>).
-          Mehrere Dutzend von Ihnen bildeten die Kern-Entwicklungsgruppe. 
+          Mehrere Dutzend von Ihnen bildeten die Kern-Entwicklergruppe. 
 		  </para>
 
           <para>
@@ -496,8 +496,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <indexterm><primary>FAQ</primary></indexterm>
           <para>
-          Bevor Sie eine Frage in dieser Liste stellen, sollten Sie einen Blick 
-          auf die von Ewan R. Grantham verwaltete 
+          Bevor Sie eine Frage in eine dieser Listen einstellen, sollten Sie 
+          einen Blick auf die von Ewan R. Grantham verwaltete 
           <ulink url="http://argouml.tigris.org/faqs/users.html">
           Anwender-FAQ</ulink> werfen.</para>
 
@@ -523,8 +523,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <para>
         Die aktuelle Fassung dieses Dokumentes ist für erfahrende Anwender der 
-        UML in OOA&amp;D (vielleicht mit anderen Tools) gedacht, die zu ArgoUML 
-        wechseln möchten.
+        UML in OOA&amp;D (vielleicht auch mit anderen Tools) gedacht, die zu 
+        ArgoUML wechseln möchten.
 		</para>
 
         <para>
@@ -534,11 +534,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         </para>
 
         <para>
-        Ein langfristiges Ziel ist es, i) diejenigen zu unterstützen, die 
-        das Design erlernen und mit einem OOA&amp;D-Prozess beginnen 
-        wollen, der die UML-Notation unterstützt und ii) Personen, die an 
-        einem modularisiertem Design mit Hilfe einer GUI interessiert sind.
+        Ein langfristiges Ziel ist es, diejenigen zu unterstützen, 
         </para>
+        <orderedlist numeration="lowerroman">
+        	<listitem>
+        		<para>
+        			die das Design erlernen und mit einem OOA&amp;D-Prozess 
+        			beginnen wollen, der die UML-Notation unterstützt und 
+        		</para>
+        	</listitem>
+        	<listitem>
+        		<para>
+        			Personen, die an einem modularisiertem Design mit Hilfe 
+        			einer GUI interessiert sind.
+        		</para>
+        	</listitem>
+        </orderedlist>
 
       </sect2>
 
@@ -547,7 +558,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>Anwendungsbereich</title>
 
         <para>
-        Die Intention dieses Dokument ist es, eine verständliche Einführung zu
+        Die Absicht dieses Dokument ist es, eine verständliche Einführung zu
         geben, die Designer in Lage versetzt, ArgoUML vollständig zu nutzen. 
         Es ist in zwei Teile untergliedert.
         </para>
@@ -578,8 +589,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         </para>
 
         <para>
-        In dieser Anleitung gibt es einige Themen, die Sie hier nicht finden 
-        werden, weil sie an anderen Stellen beschrieben sind.
+        In dieser Anleitung gibt es einige Dinge, die Sie nicht finden werden, 
+        weil sie an anderen Stellen beschrieben sind.
         </para>
 
         <itemizedlist>
@@ -645,14 +656,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <para>
         <xref linkend="ch.tut.reqs"/> bis <xref linkend="ch.tut.build"/> geht 
-        dann durch jeden Teil des Designprozesses. Von der ersten Anforderung 
+        dann durch alle Teile des Designprozesses. Von der ersten Anforderung 
         bis zum abschliessenden Projekt-Build und der Verteilung.
         </para>
 
         <para>
-        Für jedes UML-Konzept wird dessen Anwendung erläutert. Anschliessend 
-        wird dessen Anwendung innerhalb von ArgoUML beschrieben. Zum Schluss 
-        wird eine Fallstudie verwendet, um Beispiele für diese Konzepte zu geben.
+        Für jedes auftretende UML-Konzept wird dessen Anwendung erläutert. 
+        Anschliessend wird dessen Einsatz innerhalb von ArgoUML beschrieben. 
+        Zum Schluss wird eine Fallstudie benutzt, um Beispiele für diese 
+        Konzepte zu geben.
 		</para>
 
       </sect2>
@@ -689,7 +701,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <para>
         Es ist ein vollständiges <xref linkend="glossary"/> vorhanden. 
-        <xref linkend="app.casestudy"/> enthält das Material, um die 
+        <xref linkend="app.casestudy"/> enthält Material, um die 
         im Dokument durchgehend benutzte Fallstudie zu unterstützen. 
         <xref linkend="app.umlres"/> und <xref linkend="app.umlcase"/> 
         verweisen auf Hintergrundinformationen über UML und UML-CASE-Tools. 
@@ -732,7 +744,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       <title>Annahmen</title>
 
       <para>
-      Diese Version des Handbuches unterstellt, dass der Leser bereits mit 
+      Diese Version des Handbuches unterstellt, dass der Leser mit 
       UML sehr vertraut ist. Dies zeigt sich durch die sparsame Beschreibung 
       der UML-Konzepte in diesem Übungshandbuch.
       </para>
@@ -761,10 +773,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <para>
         Zuerst werden Sie mit dem Erscheinungsbild des Produktes vertraut 
-        gemacht und dann werden wir für einen Testfall durch den Analyse und 
+        gemacht und dann werden wir für einen Testfall durch den Analyse- und 
         Entwicklungsprozess gehen. Es wird aber nicht jeder Winkel und jede 
         Ritze des Produktes demonstriert. Dieser Detaillierungsgrad wird im 
-        Referenzmaterial bereitgehalten, welches Sie in den nachfolgenden Teilen 
+        Referenzmaterial bereitgehalten, das Sie in den nachfolgenden Teilen 
         dieses Dokumentes finden.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
       </para>
 
@@ -811,8 +823,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         Wie Ihre Firma die Arbeit in Projekten organisiert, ist gewöhnlich mehr 
         durch politische als durch andere Einflüsse bestimmt. Aus diesem Grund 
         steht dies nicht im Mittelpunkt dieses Dokumentes. Wir werden zeigen, 
-        wie Sie Ihr Projekt selbst strukturieren können, nachdem eines 
-        definiert wurde.
+        wie Sie Ihr Projekt nach dessen Definition selbst strukturieren können.
       </para>
 
     </chapter>
@@ -822,7 +833,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       <title>UML basierte OOA&amp;D</title>
 
       <para>
-        In diesem Kapitel sehen wir, wie UML als Notation innerhalb 
+        In diesem Kapitel sehen Sie, wie UML als Notation innerhalb 
         der OOA&amp;D verwendet wird.
       </para>
 
@@ -834,7 +845,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         1960&apos;ern auf und als Designkonzept ab 1972. Erst in den 
         1980&apos;ern entwickelte sie sich im Bereich Analyse und Design als 
         ernstzunehmende Alternative zum <emphasis>funktionalen Ansatz</emphasis>. 
-        Dies wurde durch mehrere Fakten getrieben.
+        Wir können eine Anzahl von Treibern identifizieren.
         </para>
 
         <orderedlist>
@@ -874,7 +885,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         </orderedlist>
 
         <para>
-        Einige Forscher schlugen OOA&amp;D-Prozesse und Notationen vor. 
+        Mehrere Forscher schlugen OOA&amp;D-Prozesse und Notationen vor. 
         Denjenigen, denen tatsächlich etwas Erfolg beschieden war, waren 
         Coad-Yourdon, Booch, Rumbaugh OMT, OOSE/Jacobson, Shlaer-Mellor, ROOM 
         (für Echtzeit-Design) und die hybride &quot;Strukturierte 
@@ -891,10 +902,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <para>
         UML wurde als gemeinsame Notation erdacht, welche die Interessen Aller 
-        einschliessen sollte. Der Originalstandard wurde durch Rational Rose 
+        berücksichtigen sollte. Der Originalstandard wurde durch Rational Rose 
         vorangetrieben (<ulink url="http://www.rational.com">
         www.rational.com</ulink>, in der drei der wichtigsten Forscher 
-        arbeiteten (Booch, Jacobson und Rumbaugh waren involviert). Sie 
+        arbeiteten (Booch, Jacobson und Rumbaugh waren involviert)). Sie 
         produzierten im Laufe des Jahres 1996 Dokumente, welche die UML, 
         Version 0.9 und Version 0.91 beschrieben. Der Aufwand wurde 
         industrieweit durch die Object Management Group (OMG) fortgesetzt, die 
@@ -918,8 +929,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>UML basierter Prozess für OOA&amp;D</title>
 
         <para>
-          Sie müssen verstehen, dass UML eine Notation für OOA&amp;D ist. Sie 
-          schreibt keinen bestimmten Prozess vor. Welcher Prozess auch immer 
+          Sie müssen verstehen, dass UML eine Notation für die OOA&amp;D ist. 
+          Sie schreibt keinen bestimmten Prozess vor. Welcher Prozess auch immer 
           angewendet wird, ein System wird in mehreren Phasen konstruiert.
         </para>
 
@@ -1028,8 +1039,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para>
             Dies ist ein sehr zufriedenstellender Prozess, in dem Anforderungen 
-            gut etnworfen wurden und keine Änderungen erwartet werden&mdash; 
-            zum Beispiel die Automatisierung eines bewährten manuellen Systems.
+            gut entworfen wurden und keine Änderungen erwartet werden&mdash; 
+            zum Beispiel die Automatisierung eines bewährten, manuellen Systems.
             </para>
 
             <para>
@@ -1169,9 +1180,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                   <para>In der <emphasis>Anfangsphase</emphasis> 
                   neigen Iterationen dazu, mit Blick auf die Gesamtanforderung/
-                  Analyse zu gross zu werden, obwohl jede Build-Aktivität 
+                  Analyse zu gross zu werden, während jede Build-Aktivität 
                   bezüglich der Emulation des Desgins durch das CASE-Tool 
-                  eingeschränkt ist.
+                  eingeschränkt sein kann.
                   </para>
 
                 </listitem>
@@ -1263,7 +1274,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	              Produkt für den Markt entwickeln, kann es eine Strategie sein, 
 	              die Produktveröffentlichung zu nehmen und den Zeitpunkt für 
 	              das Ende des Engieering zu bestimmen (einige Zeit vorher). 
-	              Dieser Zeitraum wird dann in Interationen unterteilt. In 
+	              Dieser Zeitraum wird dann in Iterationen unterteilt. In 
 	              dieser Zeit wird so viel von dem Produkt entwickelt wie 
 	              möglich. Der iterative Prozess ist sehr effektiv, wenn der 
 	              Zeitpunkt der Markteinführung wichtiger ist als die exakte 
@@ -1291,12 +1302,34 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             </para>
 
             <para>
-            Zum Beispiel könnte das grundlegende Design eines Telefonsystemes 
-            Objekte identifizieren um i) Telefonleitungen zu belegen, ii) 
-            Anrufe zu verarbeiten, iii) das System zu managen und iv) den 
-            Kunden abzurechnen. Der Softwareprozess kann dann auf jedes 
-            dieser vier Komponenten erneut angewendet werden, um deren 
-            Design zu identifizieren.
+	            Zum Beispiel könnte das grundlegende Design eines 
+	            Telefonsystemes Objekte identifizieren um 
+            </para>
+            <orderedlist numeration="lowerroman">
+            	<listitem>
+            		<para>
+            			Telefonleitungen zu belegen, 
+            		</para>
+            	</listitem>
+            	<listitem>
+            		<para>
+            			Anrufe zu verarbeiten, 
+            		</para>
+            	</listitem>
+            	<listitem>
+            		<para>
+            			Anrufe zu verarbeiten, 
+            		</para>
+            	</listitem>
+            	<listitem>
+            		<para>
+            			den Kunden abzurechnen. 
+            		</para>
+            	</listitem>
+            </orderedlist>
+            <para>
+	           	Der Softwareprozess kann dann auf jedes dieser vier Komponenten 
+	           	erneut angewendet werden, um deren Design zu identifizieren.
             </para>
 
             <para>
@@ -1307,8 +1340,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para>
             Die rekursive Entwicklung kann parallel zu Wasserfall- oder 
-            iterativen Prozessen angewendet werden. Sie sind keine 
-            Alternative.
+            iterativen Prozessen angewendet werden. Sie ist keine Alternative.
             </para>
 
           </sect3>
@@ -1362,7 +1394,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para>
             Während der Analyse werden wir in das UML-Konzept der <emphasis>
-            Klassen</emphasis> einführen. Diese erlaubt es uns, eine Top-Level-
+            Klassen</emphasis> einführen. Dieses erlaubt es uns, eine Top-Level-
             Sicht von Objekten zu erzeugen, welche die Lösung darstellt&mdash; 
             manchmal als <emphasis>Konzept-Diagramm</emphasis> bekannt.
             </para>
@@ -1394,7 +1426,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             Komponenten des Projektes zu organisieren. Wir besuchen dann 
             erneut das Klassendiagramm, das Sequenzdiagramm und das 
             Zustandsdiagramm, um zu zeigen, wie diese rekursiv verwendet 
-            werden können, die vollständige Lösung zu designen.
+            werden können, um die vollständige Lösung zu designen.
             </para>
             
             <indexterm><primary>Design</primary></indexterm>
@@ -1451,10 +1483,30 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <para>
         In der Einleitung listeten wir vier Dinge auf, die ArgoUML anders 
-        machen: i) es macht Gebrauch von den Ideen der kognitiven Psychologie, 
-        ii) es basiert auf offenen Standards; iii) es ist 100% reines Java; und 
-        iv) es ist ein Open-Source-Projekt.
+        machen:
         </para>
+        <orderedlist numeration="lowerroman">
+        	<listitem>
+        		<para>
+        			es macht Gebrauch von den Ideen der kognitiven Psychologie, 
+        		</para>
+        	</listitem>
+        	<listitem>
+        		<para>
+        			es basiert auf offenen Standards; 
+        		</para>
+        	</listitem>
+        	<listitem>
+        		<para>
+        			es ist 100% reines Java; und 
+        		</para>
+        	</listitem>
+        	<listitem>
+        		<para>
+        			es ist ein Open-Source-Projekt.
+        		</para>
+        	</listitem>
+        </orderedlist>
 
         <sect2 id="tut.cog.psych">
 
@@ -1466,17 +1518,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para>
             ArgoUML ist teilweise durch die drei Theorien der kognitiven 
-            Psychologie inspieriert: 
+            Psychologie inspiriert: 
             </para>
             <orderedlist>
             	<listitem>
             		<para>Reflektion-während-Aktion,</para>
             	</listitem>
             	<listitem>
-            		<para>Opportunistisches Design</para>
+            		<para>Opportunistisches Design und</para>
             	</listitem>
             	<listitem>
-            		<para>und Verständnis und Problemlösung.</para>
+            		<para>Verständnis und Problemlösung.</para>
             	</listitem>
             </orderedlist>
 
@@ -1643,7 +1695,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           </para>
 
           <para>
-            Der Hauptvorteil am Festhalten an offenen Standards ist, da es die 
+            Der Hauptvorteil am Festhalten an offenen Standards ist, dass es die 
             einfache Zusammenarbeit zwischen Anwendungen erlaubt und die 
             Möglichkeit eröffnet, von einer Anwendung zu einer anderen 
             überzugehen, sofern dies notwendig ist.
@@ -1653,12 +1705,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <title>XML Metadata Interchange (XMI)</title>
 
-            <indexterm><primary>XMI</primary></indexterm>
             <para><emphasis>XML Metadata Interchange (XMI)</emphasis> 
             ist der Standard für das Speichern der Metadaten, die ein bestimmtes 
             UML-Modell bilden. Im Prinzip erlaubt er, das in ArgoUML erstellte 
             Modell in ein anderes Tool zu importieren.
             </para>
+            <indexterm><primary>XMI</primary></indexterm>
 
             <para>
             Dies hat klare Vorteile, die es der UML erlaubt, ihr Ziel, der 
@@ -1683,24 +1735,28 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <itemizedlist>
 
-              <listitem><para>
-                <indexterm><primary>EPS</primary></indexterm>
+              <listitem>
+              <para>
                 Die <ulink url="http://en.wikipedia.org/wiki/Encapsulated_PostScript"><emphasis>Encapsulated
                 PostScript (EPS)</emphasis></ulink>-Datei weist zusätzliche 
                 Einschränkungen auf. Diese Einschränkungen sind dazu gedacht, 
-                soll es der Software einfacher machen, eine EPS-Datei in ein 
+                es der Software einfacher zu machen, eine EPS-Datei in ein 
                 anderes PostScript-Dokument einzubetten.
-              </para></listitem>
+              </para>
+              <indexterm><primary>EPS</primary></indexterm>
+              </listitem>
 
-              <listitem><para>
-                <indexterm><primary>GIF</primary></indexterm>
+              <listitem>
+              <para>
                 Das <ulink url="http://en.wikipedia.org/wiki/GIF"><emphasis>Graphics
                 Interchange Format (GIF)</emphasis></ulink> ist ein patentiertes 
                 Format, obgleich die Patente im August 2006 ausliefen.
-              </para></listitem>
+              </para>
+              <indexterm><primary>GIF</primary></indexterm>
+              </listitem>
 
-              <listitem><para>
-                <indexterm><primary>PGML</primary></indexterm>
+              <listitem>
+              <para>
                 <ulink url="http://en.wikipedia.org/wiki/PGML">
                 <emphasis>Precision Graphics Markup Language (PGML)</emphasis></ulink>
                 ist eine XML-basierte Sprache zur Darstellung von Vektorgrafiken.
@@ -1708,10 +1764,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 übernommen wurde. PGML und VML, andere XML-basierte Vektor-
                 Grafik-Sprachen wurden später miteinander verknüpft und 
                 verbessert, um daraus SVG (siehe unten) zu erzeugen.
-              </para></listitem>
+              </para>
+              <indexterm><primary>PGML</primary></indexterm>
+              </listitem>
                 
-              <listitem><para>
-                <indexterm><primary>PNG</primary></indexterm>
+              <listitem>
+              <para>
                 <ulink url="http://en.wikipedia.org/wiki/PNG">
                 <emphasis>Portable Network Graphics (PNG)</emphasis></ulink> 
                 ist ein ISO/IEC-Standard (15948:2004) und auch eine W3C-
@@ -1725,19 +1783,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 PNG wird durch die libpng-Referenzbibliothek unterstützt, eine 
                 plattformunabhängige Bibliothek, die C-Funktionen für die 
                 Anwendung von PNG-Bildern enthält.
-               </para></listitem>
+               </para>
+               <indexterm><primary>PNG</primary></indexterm>
+               </listitem>
 
-              <listitem><para>
-                <indexterm><primary>PS</primary></indexterm>
+              <listitem>
+              <para>
                 <ulink url="http://en.wikipedia.org/wiki/PostScript/">
                   <emphasis>PostScript (PS)</emphasis>
                 </ulink> ist eine Seitenbeschreibungs- und Programmiersprache, 
                 die primär im elektronischen und Desktop-Publisching-Bereichen 
                 eingesetzt wird. 
-              </para></listitem>
+              </para>
+                <indexterm><primary>PS</primary></indexterm>
+              </listitem>
 
-              <listitem><para>
-                <indexterm><primary>SVG</primary></indexterm>
+              <listitem>
+              <para>
                 <ulink url="http://en.wikipedia.org/wiki/Scalable_Vector_Graphics">
                 <emphasis>Scalable Vector Graphics (SVG)</emphasis></ulink>
                 ist eine XML-Markup-Sprache für die Beschreibung 
@@ -1753,7 +1815,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 Firefox, während Safari und der Internet Exlorer ein Plugin 
                 benötigen.
                 Siehe PGML weiter oben.
-              </para></listitem>
+              </para>
+              <indexterm><primary>SVG</primary></indexterm>
+              </listitem>
 
             </itemizedlist>
 
@@ -1769,7 +1833,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               UML-Modelle angewendet werden.
               Sie wurde durch IBM entwickelt und ist jetzt Teil des UML-Standard.
               Ursprünglich war OCL nur als formale Spezifikationssprachen-
-              Erweiterung von UML.
+              Erweiterung von UML gedacht.
               OCL kann jetzt mit jedem Meta-Object Facility (MOF) konformen 
               Metamodell einschliesslich UML angewendet werden.
               Die Object Constraint Language ist eine präzise Textsprache, die 
@@ -1802,10 +1866,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <para>
           (Für den Fall, dass Sie sich wundern, warum nicht alle Sprachen so 
-          wie diese sind. Dies ist so, weil interpretierende Sprachen dazu 
-          tendieren langsamer zu sein als übersetzte Sprachen. Mit der hohen 
-          Leistung moderner PC&apos;s und dem Handlungszwang nach Portabilität 
-          ist diese Einschränkung für viele Applikationen trotzdem lohnenswert.
+          sind wie diese. Dies ist so, weil interpretierende Sprachen langsamer 
+          sind als übersetzende Sprachen. Mit der hohen Leistung moderner 
+          PC&apos;s und dem Handlungszwang nach Portabilität ist diese 
+          Einschränkung für viele Applikationen trotzdem lohnenswert.
           Darüber hinaus können moderne Multi-Cache-Systeme bei dichteren Code 
           produzierenden interpretierenden Sprachen bedeuten, dass Sie nicht 
           mehr viel langsamer sind.
@@ -1833,18 +1897,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <para>
             Der Vorteil ist, dass ein kleines Projekt wie ArgoUML immer für 
-            eine Menge zusätzlicher Unterstützung offen ist. Insbesondere für 
-            diejenigen, die Ihre Ideen einbringen, wie das Programm verbessert 
-            werden kann.
+            zusätzliche Unterstützung offen ist. Insbesondere für diejenigen, 
+            die Ihre Ideen einbringen, wie das Programm verbessert werden kann.
             Jederzeit können 10, 15, 20 oder mehr Personen signifikante 
             Beiträge zu ArgoUML leisten. Dies kommerziell zu machen, würde mehr 
             als 1 Mio. $ pro Jahr kosten.
           </para>
 
           <para>
-          Dies ist nicht nur der Geist reiner Uneigennützigkeit. Mitzuarbeiten 
+          Es ist aber nicht nur der Geist reiner Uneigennützigkeit. Mitzuarbeiten 
           ist ein Weg <quote>nebenbei</quote> mehr über führende Software zu 
-          lernene. Es ist ein Weg, eine Menge Sichtbarkeit (über 1.125.000 
+          lernen. Es ist ein Weg, eine Menge Sichtbarkeit (über 1.125.000 
           Personen haben ArgoUML Ende 2005 heruntergeladen) zu erhalten. Als 
           Resüme ist das eine sehr gute Erfahrung und eine Menge Arbeitgeber 
           sehen Sie!
@@ -1871,13 +1934,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>ArgoUML Grundlagen</title>
 
         <para>
-        Das Ziel dieses Abschnittes ist es, dass Sie mit ArgoUML starten können. 
-        Er zeigt Ihnen, wie Sie Code erstellen und diesen starten können.
+        Das Ziel dieses Abschnittes ist es, Sie in die Lage zu versetzen mit 
+        ArgoUML zu starten. Er zeigt Ihnen, wie Sie den Code bekommen und 
+        starten können.
         </para>
 
         <sect2>
 
-          <title>Zu Beginn</title>
+          <title>Gestartet bekommen</title>
 
           <sect3 id="s3.tut.system.requirements">
 
@@ -1885,9 +1949,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para>
             Da ArgoUML in 100% reinem Java geschrieben ist, sollte es auf jeder 
-            Maschine laufen, auf der Java installiert ist. Java, Version 1.4 
-            oder höher wird benötigt. Sie sollten diese bereits haben, aber 
-            falls nicht, können Sie diese von 
+            Maschine mit installiertem Java laufen. Es wird Java, Version 1.4 
+            oder höher benötigt. Sie sollten es zu diesem Zeitpunkt bereits 
+            haben, aber falls nicht, können Sie es von 
             <ulink url="http://www.java.com">www.java.com</ulink> frei 
             herunterladen.
             Beachten Sie, dass Sie nur die Java Runtime Umgebung (JRE) benötigen.
@@ -1896,13 +1960,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             </para>
 
             <para>
-            ArgoUML benötigt eine vernünftige Menge an Rechenleistung. Einen 
+            ArgoUML benötigt eine vernünftige Rechenleistung. Einen 
             PC mit einem 200 MHz-Prozessor, 64MB RAM und 10 MB verfügbaren 
             Speicherplatz auf der Festplatte sollten ausreichen. Laden Sie den 
-            Code vom Download-Abschnitt der Projekt-Webseite 
+            Code im Abschnitt Download der Projekt-Webseite 
             <ulink url="http://argouml.tigris.org">argouml.tigris.org</ulink> 
             herunter. Wie im nächsten Abschnitt beschrieben, wählen Sie die 
-            Version aus, die Ihren Ansprüchen genügt.
+            Version aus, die Ihren Ansprüchen am Besten genügt.
             </para>
 
           </sect3>
@@ -1911,14 +1975,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <title>Download-Optionen</title>
 
-            <para>Sie haben drei Optionen, ArgoUML zu erhalten.</para>
+            <para>Es gibt drei Optionen, wie Sie ArgoUML bekommen können.</para>
 
             <orderedlist>
 
               <listitem>
 
                 <para>
-                Starten Sie ArgoUML direkt von der Web Seite mit Hilfe von Java 
+                Sie starten ArgoUML direkt von der Web Seite mit Hilfe von Java 
                 Web Start. Dies ist die einfachste Möglichkeit.
                 </para>
 
@@ -1927,7 +1991,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
 
                 <para>
-                Laden Sie den binären ausführbaren Code herunter. Dies ist die 
+                Sie laden den binären, ausführbaren Code herunter. Dies ist die 
                 richtige Option, wenn Sie beabsichtigen, ArgoUML regulär zu 
                 benutzen.
                 </para>
@@ -1937,22 +2001,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
 
                 <para>
-                  <indexterm><primary>Build</primary></indexterm>
-                  Laden Sie den Quellcode mit Hilfe von CVS herunter und 
-                  erzeugen Sie Ihre eigene Version. Wählen Sie diese Option aus, 
+                  Sie laden sich den Quellcode mit Hilfe von CVS herunter und 
+                  erzeugen sich Ihre eigene Version. Wählen Sie diese Option, 
                   wenn Sie sich ansehen wollen wie ArgoUML intern arbeitet oder 
-                  sich als Entwickler einbringen wollen. Diese Option erfordert 
-                  das ganze JDK 
+                  wenn Sie sich als Entwickler einbringen wollen. Diese Option 
+                  erfordert das vollständige JDK 
                   (siehe <xref linkend="s3.tut.system.requirements"/>).
                 </para>
+                <indexterm><primary>Build</primary></indexterm>
 
               </listitem>
 
             </orderedlist>
 
             <para>
-            Alle drei Optionen sind über die Projekt-Webseite frei verfügbar
-            <ulink url="http://argouml.tigris.org">argouml.tigris.org</ulink>.
+            Alle drei Optionen sind über die Projekt-Webseite 
+            <ulink url="http://argouml.tigris.org">argouml.tigris.org</ulink> 
+            frei verfügbar.
             </para>
 
           </sect3>
@@ -1968,7 +2033,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
 
                 <para>
-                Installieren Sie Java Web Start auf Ihrem Rechner. Java Web 
+                Sie installieren Java Web Start auf Ihrem Rechner. Java Web 
                 Start ist unter
                 <ulink url="http://java.sun.com/products/javawebstart">
                 java.sun.com/products/javawebstart</ulink> , oder über den 
@@ -1982,7 +2047,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
 
                 <para>
-                Klicken Sie auf den Link <literal>Launch latest stable 
+                Sie klicken auf den Link <literal>Launch latest stable 
                 release</literal> auf der ArgoUML 
                 <ulink url="http://argouml.tigris.org">Home 
                 page</ulink>.
@@ -1997,7 +2062,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             erste Mal starten. Bei darauf folgenden Starts prüft es, ob ArgoUML 
             aktualisiert wurde, lädt nur die aktualisierten Teile herunter und
             startet es. Die ArgoUML <ulink url="http://argouml.tigris.org">
-            Home page</ulink> enthält weitere Details, wie man ArgoUML von der 
+            Home page</ulink> enthält weitere Details, wie man ArgoUML mit der 
             Java Web Start-Konsole startet.
             </para>
 
@@ -2017,9 +2082,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             </para>
 
             <para>
-            ArgoUML steht als <literal>.zip</literal> oderr <literal>tar.gz
+            ArgoUML steht als <literal>.zip</literal> oder <literal>tar.gz
             </literal> Variante bereit. Wählen Sie die erste Variante, wenn Sie 
-            Microsoft Windows Anwender sind und die letzte, wenn Sie auf einer 
+            Microsoft Windows Anwender sind und die letzte, wenn Sie mit einer 
             UNIX-Variante arbeiten. Das Entpacken erfolgt wie nachfolgend 
             beschrieben.
             </para>
@@ -2040,12 +2105,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                 <para>
                 Bei Unix. Nutzen Sie GNU tar, um die Dateien in ein Verzeichnis 
-                Ihrer Wahl zu entpacken. <literal>tar&nbsp;zxvf&nbsp;&lt;file
-                &gt;.tar.gz</literal>. Wenn Sie eine ältere Version von tar 
+                Ihrer Wahl zu entpacken. 
+                </para>
+                <para><literal>tar&nbsp;zxvf&nbsp;&lt;file&gt;.tar.gz</literal>. 
+                </para>
+                <para>
+                Wenn Sie eine ältere Version von tar 
                 haben, ist die <literal>z</literal>-Option nicht verfügbar. 
-                Beutzen Sie in diesem Fall <literal>
-                gunzip&nbsp;&lt;&nbsp;file.tar.gz&nbsp;|&nbsp;tar&nbsp;xvf&nbsp;-
-                </literal>.
+                Benutzen Sie in diesem Fall 
+                </para>
+                <para>
+                <literal>gunzip&nbsp;&lt;&nbsp;file.tar.gz&nbsp;|&nbsp;tar&nbsp;
+                xvf&nbsp;-</literal>.
                 </para>
 
               </listitem>
@@ -2069,12 +2140,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             Unterstützung haben, versuchen Sie es auf der Webseite 
             <ulink url="http://argouml.tigris.org/faqs/users.html">
             FAQ</ulink>. Wenn das Problem mit Hilfe dieser Unterstützung nicht 
-            gelöst werden kann, versuchen Sie es über die ArgoUML Mailliste für 
-            Anwender. 
+            gelöst werden kann, versuchen Sie es über die ArgoUML Mailingliste 
+            für Anwender. 
 			</para>
 
             <para>
-            Sie können sich in die Mailliste auf der Projektseite 
+            Sie können sich in die Mailingliste auf der Projektseite 
             <ulink url="http://argouml.tigris.org">
             argouml.tigris.org</ulink> eintragen lassen, oder eine leere 
             Nachricht an <ulink url="mailto:users@argouml.org">
@@ -2084,14 +2155,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para>
             Sie können dann Ihr Problem an <ulink url="mailto:users@argouml.org">
-            users@argouml.org</ulink> senden und darauf warten, dass andere 
-            Anwender Ihnen helfen.
-            s</para>
+            users@argouml.org</ulink> senden und darauf warten, dass Ihnen andere 
+            Anwender helfen.
+            </para>
 
             <para>
-            Die Anwender-Mailliste ist eine excellente Einführung für eigene 
+            Die Anwender-Mailingliste ist eine exzellente Einführung für eigene 
             Aktivitäten im Projekt. Wenn Sie noch mehr eingebunden werden 
-            wollen, gibt es zusätzliche Maillisten, welche die Entwicklung des 
+            wollen, gibt es zusätzliche Mailinglisten, welche die Entwicklung des 
             Produktes sowie Erweiterungen in aktuellen und in künftigen 
             Releases betreffen.
             </para>
@@ -2115,8 +2186,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   Bei Windows. Rufen Sie die MSDOS-Eingabeaufforderung auf, z.B. 
                   durch Start/Ausführen mit <quote>command</quote>. In dem 
                   Fenster wechseln Sie in das Verzeichnis, in dem sich die 
-                  ArgoUML-Dateien befinden und geben Sie <literal>
-                  java -jar argouml</literal> ein. Diese Methode hat den Vorteil, 
+                  ArgoUML-Dateien befinden und geben Sie 
+                  </para>
+                  <para>
+                  <literal>java -jar argouml</literal> 
+                  </para>
+                  <para>
+                  ein. Diese Methode hat den Vorteil, 
                   dass die Fortschritts- und Debug-Informationen im DOS-Fenster 
                   angezeigt werden. Als Alternative erstellen Sie eine Batch-
                   Datei (.bat), die das oben angeführte Kommando enthält und 
@@ -2136,7 +2212,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                 <para>
                   Bei Unix. Öffnen Sie ein Shell-Fenster und geben Sie 
-                  <literal>java -jar argouml.jar</literal> ein.
+                </para>
+                <para>
+                  <literal>java -jar argouml</literal> 
+                </para>
+                <para>
+                  ein.
                 </para>
 
               </listitem>
@@ -2153,7 +2234,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               Wenn Sie ArgoUML erfolgreich heruntergeladen haben, ist es 
               ungewöhnlich, wenn Probleme auftreten.
               Wenn Sie das Problem nicht lösen können, versuchen Sie es über die 
-              Anwender-Mailliste (siehe <xref linkend="s4.probsolving"/>).
+              Anwender-Mailingliste (siehe <xref linkend="s4.probsolving"/>).
             </para>
 
             <itemizedlist>
@@ -2173,8 +2254,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 <para>
                   Falsche Sprache.
                   Wenn das Produkt in einer Sprache startet, die sie nicht lesen 
-                  können oder wollen, gehen Sie am Bildschirm oben in das 
-                  zweite Menü von links. 
+                  können oder wollen, gehen Sie in das zweite Menü von links. 
                   Wählen Sie den untersten Menüeintrag aus.
                   <xref linkend="fig.prob.run.02"/> zeigt dies auf russisch.
                   Dann klicken Sie auf den Reiter <quote>Erscheinungsbild
@@ -2184,8 +2264,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   aus.
                   Beachten Sie, dass die Namen der Sprache in der jeweiligen 
                   Sprache angezeigt werden. Die dargestellte, ausgewählte 
-                  Sprache ist Deutsch, in diesem Fall ist das Wort für <quote>
-                  German</quote> <quote>Deutsch</quote>.
+                  Sprache ist Deutsch.
                   Damit die Änderungen wirksam werden, müssen Sie ArgoUML 
                   beenden und neu starten.
                   Verwenden Sie die Taste X oben rechts.
@@ -2197,7 +2276,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <figure id="fig.prob.run.01">
 
-              <title>Finde den Einstellungs-Assistenten</title>
+              <title>Den Einstellungs-Assistenten finden</title>
 
               <screenshot>
               	<mediaobject>
@@ -2210,7 +2289,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <figure id="fig.prob.run.02">
 
-              <title>Sprache im Erscheinungsbild-Fenster einstellen</title>
+              <title>Die Sprache im Erscheinungsbild-Fenster einstellen</title>
 
               <screenshot>
               	<mediaobject>
@@ -2237,13 +2316,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           </para>
 
           <para>
-            Wenn Sie dieses Übungshandbuch durchgehen wird Ihnen gesagt, was Sie 
-            tun müssen. Wie Sie es tun müssen, steht oftmals in der Referenz 
+            Wenn Sie dieses Übungshandbuch durchgehen, wird Ihnen erläutert, was 
+            Sie tun müssen. Wie Sie es tun müssen, steht oftmals in der Referenz 
             zur Anwenderschnittstelle.
             Zu diesem Zeitpunkt ist es nicht notwendig, dass Sie die gesamte 
             Referenz durchlesen. Aber Sie sollten tief genug eingestiegen sein, 
             damit Sie Dinge in der Referenz finden können.
-            An den entsprechenden Punkte im Übungshandbuch wird der Versuch 
+            An den entsprechenden Punkten im Übungshandbuch wird der Versuch 
             unternommen, Sie direkt zu den entsprechenden Teilen der Referenz zu 
             führen.
           </para>
@@ -2261,7 +2340,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	<mediaobject>
             		<imageobject>
             			<imagedata align="center"
-             			fileref="images/tutorial/startup.gif"
+             			fileref="images/tutorial/startup_de.png"
              			format="GIF"/>
              		</imageobject>
              	</mediaobject>
@@ -2299,7 +2378,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   Die Elemente des Standard-Datei-Menü&apos;s enthalten keine 
                   Überraschungen. Wenn sie benötigt werden, werden wir sie 
                   einfach verwenden, ohne vorher zu zeigen wie sie arbeiten.
-                  Eine Vielzahl andere, ArgoUML-spezifische Aktionen sind hier 
+                  Eine Vielzahl anderer, ArgoUML-spezifische Aktionen sind hier 
                   verfügbar. Jetzt werden wir sie allerdings überspringen.
             </para>
 
@@ -2321,8 +2400,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                     <para>
                       <emphasis>Export/Import.</emphasis>
                       Markieren Sie die Projektzeile oben im Explorer. 
-                      Wenn Sie es nicht geändert haben, sollte es "unbenanntes 
-                      Modell" lauten.
+                      Wenn Sie diese nicht geändert haben, sollte sie 
+                      "unbenanntes Modell" lauten.
                       Führen Sie <emphasis>Datei=&gt;Exportiere XMI</emphasis> 
                       aus und geben Sie als Dateiname "DeleteThis" im 
                       Dateiauswahl-Fenster ein.
@@ -2360,8 +2439,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       Entweder das "Klassendiagramm 1" oder 
                       "Anwendungsfalldiagramm 1" (dabei wurde unterstellt, dass 
                       Sie diese nicht umbenannt oder gelöscht haben).
-                      Führen Sie eine <emphasis>Datei=&gt;Grafik exportieren...
-                      </emphasis>-Aktion aus.
+                      Führen Sie <emphasis>Datei=&gt;Grafik exportieren...
+                      </emphasis> aus.
                       Wenn sich die Dateiauswahl öffnet, steht der letzte 
                       gespeicherte Name im Feld Dateiname (auch von einen 
                       Projekt, das nicht mehr geöffnet ist).
@@ -2371,8 +2450,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       Ihre Wahl.
                       Brechen Sie ab, wenn nichts sinnvolles zum Speichern 
                       vorhanden ist.
-                      Führen Sie eine <emphasis>Datei=&gt;Alle Grafiken 
-                      exportieren...</emphasis> -Aktion aus.
+                      Führen Sie <emphasis>Datei=&gt;Alle Grafiken 
+                      exportieren...</emphasis> aus.
                       Beachten Sie, dass Sie zum jetzigen Zeitpunkt keinen 
                       Dateinamen und kein Dateiformat auswählen können. ArgoUML 
                       wird Ihnen nur die Eingabe eines Verzeichnisses erlauben.
@@ -2473,10 +2552,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   <listitem>
                     <para>
                       Durch klicken auf das "Markieren"-Werkzeug machen Sie den 
-                      aktuellen Modus rückgängig. Siehe 
-                      Undo the current mode by clicking on the "Select" tool.
+                      aktuellen Modus rückgängig. Siehe "Durch klicken auf das 
+                      "Markieren"-Werkzeug den aktuellen Modus rückgängig machen".
                       <xref linkend="s2.ref.edit_layout"/>.
-                      Dies erlaubt es Ihnen auch andere Dinge als das Erstellen 
+                      Dies erlaubt es Ihnen auch andere Dinge, wie das Erstellen 
                       von Klassen im Editierfenster auszuführen.
                     </para>
                   </listitem>
@@ -2502,7 +2581,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                       <emphasis>Bearbeiten=&gt;Markieren=&gt;Zurück</emphasis> 
                       aus.
                       Die Klasse A sollte jetzt markiert sein.
-                      Abschliessen führen Sie den Befehl 
+                      Abschliessend führen Sie den Befehl 
                       <emphasis>Bearbeiten=&gt;Markieren=&gt;Vorwärts</emphasis> 
                       aus.
                       Die Klasse B sollte erneut markiert sein. 
@@ -2570,7 +2649,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   Schalten Sie die Optionsschaltfelder "Startfenster anzeigen" 
                   und "Gemeinsame Klassen im Voraus laden" aus.
                   Beenden Sie ArgoUML und starten Sie es erneut.
-                  Beachten Sie, dass das Startfenster währends des hochfahrens 
+                  Beachten Sie, dass das Startfenster währends des Hochfahrens 
                   nicht mehr erscheint.
                 </para>
               </listitem>
@@ -2673,7 +2752,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 </emphasis>.
                 Sie sollten jetzt 2 Knoten und 0 Kanten angezeigt bekommen.
                 Klicken Sie erneut auf die Schaltfläche "Schliessen" und 
-                verbinden Sie die Klassen mit eine der "Linien"-Elemente wie 
+                verbinden Sie die Klassen mit einem der "Linien"-Elemente wie 
                 Assoziation oder Vererbung.
                 Gehen Sie erneut in <emphasis>Ansicht=&gt;Gehezu Diagramm...
                 </emphasis> und Sie sollten 2 Knoten und 1 Kante(n) sehen.
@@ -2698,7 +2777,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               </listitem>
               <listitem><para>
                 <emphasis>Ansicht=&gt;Suchen....</emphasis>
-                Zu diesem Zeitpunkt sollten sich Sie drei normale Klassen und eine 
+                Zu diesem Zeitpunkt sollten sich drei normale Klassen und eine 
                 Beziehungsklasse im Explorer befinden.
                 Benennen Sie diese "AA", "AB", "B" und "C".
                 Führen Sie eine <emphasis>Ansicht=&gt;Suchen...</emphasis>-
@@ -2719,8 +2798,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 "Klasse" und klicken Sie auf die Schaltfläche "Suchen".
                 Im neuen Register "* in B* Class" sollte ein Eintrag weniger 
                 vorhanden sein als im Register "* in B*".
-                Wechseln Sie zwischen diesen beiden Registern und beobachten Sie 
-                die Unterschiede.
+                Wechseln Sie zwischen diesen beiden Registern hin und her und 
+                beobachten Sie die Unterschiede.
                 Markieren Sie in einigen dieser Register ein Element und klicken 
                 Sie auf die Schaltfläche "Gehe zur Auswahl". Beobachten Sie die 
                 Änderungen im Diagramm und im Explorer.
@@ -2776,7 +2855,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                 <para>
                 Zustands- und Aktivitätsdiagramme können nur erstellt werden, 
-                wenn eine Klasse oder ein Akteur markiert ist, obwohl die 
+                wenn eine Klasse oder ein Akteur markiert ist und die 
                 relevanten Menüeinträge <emphasis>nicht</emphasis> deaktiviert 
                 sind (unter diesen Umständen passiert nichts).
                 </para>
@@ -2789,7 +2868,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 </para>
 
                 <para>
-                Menü: <emphasis>Generatieren</emphasis>. Das Menü <emphasis>
+                Menü: <emphasis>Generieren</emphasis>. Das Menü <emphasis>
                 Generieren</emphasis> erlaubt es Ihnen, Java Code für die 
                 markierten oder alle Klassen zu generieren.
                 </para>
@@ -2852,14 +2931,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <para>
               Jetzt sollten Sie sich die Zeit nehmen  
               <xref linkend="ch.ref.navpane"/> zu lesen.
-              Der Explorer ist für alles was Sie tun fundamental. Wir werden 
+              Der Explorer ist fundamental für alles was Sie tun. Wir werden 
               im Folgenden immer wieder auf ihn zurückkommen. 
             </para>
 
             <para>
-              Im Explorer gibt es vor dem Paketsymbol <quote>ubenanntes Modell
+              Im Explorer gibt es vor dem Paketsymbol <quote>unbenanntes Modell
               </quote> ein Steuerelement zum Expandieren und Reduzieren und im 
-              zu bearbeiten-Fenster vor dem Paketsymbol <quote>Mittel</quote>.
+              "zu bearbeiten"-Fenster vor dem Paketsymbol <quote>Mittel</quote>.
               Klicken Sie auf diese Steuerelemente und beachten Sie, dass diese 
               Fenster Baumstrukturen sind, die sich besser benehmen als Sie es 
               erwarten würden. Das Steuerelement zum Expandieren oder Reduzieren 
@@ -2869,13 +2948,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             </para>
 
             <para>
-              Markieren Sie alternativ das Klassendiagramm 1 und das 
-              Anwendungsfalldiagramm 1 und beobachten Sie, dass sich der Inhalt 
+              Markieren Sie entweder das Klassendiagramm 1 oder das 
+              Anwendungsfalldiagramm 1 und beobachten Sie, wie sich der Inhalt 
               des Detailfensters sich je nach markiertem Element im Explorer 
               ändert.
               Das Detail-Fenster ist im Kapitel 12 beschrieben.
               Zum jetzigen Zeitpunkt ist es nicht erforderlich das Kapitel 12 
-              zu lesen, aber es kann auch nichts schaden.
+              zu lesen. Aber, es kann auch nichts schaden.
             </para>
 
           </sect3>
@@ -2885,14 +2964,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <title>Das Editierfenster</title>
 
             <para>
-              Jetzt sollten Sie sich die Zeit nehmen  
+              Jetzt sollten Sie sich die Zeit nehmen, das   
               <xref linkend="ch.ref.editpane"/> zu lesen.
             </para>
 
             <para>
               Wenn wir durch das Editierfenster gehen, werden manchmal 
-              Änderungen im Detail- und im zu bearbeiten-Fenster auftreten.
-              Beachten Sie diese aktuell nicht. 
+              Änderungen im Detail- und im "zu bearbeiten"-Fenster auftreten.
+              Beachten Sie diese im Moment nicht. 
               Wir werden sie betrachten, wenn wir diese Fenster durchgehen.
             </para>
             <para>
@@ -2908,8 +2987,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               (unbenannt Paket) erscheint.
             </para>
             <para>
-              Führen Sie einen Doppelklick auf der Schaltfläche "Neue Klasse" in 
-              der Werkzeugleiste des Editierfensters aus.
+              Führen Sie einen Doppelklick in der Werkzeugleiste des 
+              Editierfensters auf der Schaltfläche "Neue Klasse" aus.
               Klicken Sie zuerst in das Paket und einmal ausserhalb des Paketes.
               Beachten Sie, dass im Explorer im Baum zwei Klassen beide mit dem 
               Namen (unbenannt Klasse) erscheinen. Eine direkt mit dem 
@@ -2954,9 +3033,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 	<para>
                 		Zu bearbeiten.
                 		Diskutiert die Unterschiede zu den anderen Registern je 
-                		markierten Element.
+                		markiertem Element.
                 		Beinhaltet die Einzelheiten für die Diskussion im 
-                		Zu bearbeiten-Fenster.
+                		"Zu bearbeiten"-Fenster.
                   	</para>
                   	</listitem>
 
@@ -3027,7 +3106,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                 </listitem>
 
                 <listitem>
-                	<para>Beziehung zum zu bearbeiten-Register im Detail-
+                	<para>Beziehung zum "zu bearbeiten"-Register im Detail-
                 Fenster.
                 	</para>
                 </listitem>
@@ -3385,14 +3464,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               </para>
 
               <para>
-                Das Hauptfeature ist die scrollbare Verzeichnisliste in der 
+                Die Hauptfunktion ist die scrollbare Verzeichnisliste in der 
                 Mitte des Dialoges. Mit Hilfe der Scrollleiste auf der rechten 
                 Seite können Sie sich in der Liste der im aktuell markierten 
                 Verzeichnis befindlichen Verzeichnisse nach oben und nach unten 
                 bewegen. Ob sie scrollbar oder nicht scrollbar ist, hängt von 
-                Menge der angezeigten Dateien und Verzeichnisse und auch wie sie 
-                angezeigt werden ab. Wenn alles in das Fenster passt, ist es 
-                nicht scrollbar, wie im Bild gezeigt.
+                Menge der angezeigten Dateien und Verzeichnisse und deren 
+                Darstellung ab. Wenn alles in das Fenster passt, ist es 
+                nicht scrollbar, wie im Bild dargestellt.
               </para>
 
               <para>
@@ -3435,6 +3514,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   		fileref="images/tutorial/guifolderdropdown.gif"
                   		format="GIF" />
                   </guiicon>
+                  </para>
+                  <para>
                   Das Verzeichnis-Drop-Down-Steuerelement.
                   Klicken auf den Pfeil zeigt eine Baumansicht der Verzeichnis-
                   Hierarchie an, erlaubt es Ihnen schnell in der Hierarchie nach 
@@ -3452,6 +3533,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   		fileref="images/tutorial/guifolderupicon.gif"
                   		format="GIF" />
                   </guiicon>
+                  </para>
+                  <para>
                   Das Symbol: Verzeichnis-nach-oben. Klicken auf dieses Symbol 
                   wird Sie in das übergeordnete Verzeichnis des aktuellen 
                   Verzeichnisses bringen.
@@ -3467,6 +3550,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   		fileref="images/tutorial/guihomefoldericon.gif"
                   		format="GIF" />
                   </guiicon>
+                  </para>
+                  <para>
                   Das Symbol: Home-Verzeichnis. Klicken auf dieses Symbol wird 
                   Sie in Ihr Home-Verzeichnis bringen.
                   </para>
@@ -3481,6 +3566,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   		fileref="images/tutorial/guinewfoldericon.gif"
                   		format="GIF" />
                   </guiicon>
+                  </para>
+                  <para>
                   Das Symbol: Neues Verzeichnis. Klicken auf dieses Symbol wird 
                   ein neues Verzeichnis, genannt <quote>Neues Verzeichnis</quote> 
                   unter dem aktuellen Verzeichnis erzeugen. Nachdem das 
@@ -3499,6 +3586,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                   		fileref="images/tutorial/guifolderspresentationicon.gif"
                   		format="GIF" />
                   </guiicon>
+                  </para>
+                  <para>
                   Das Symbol: Darstellung der Verzeichnisse.
                   </para>
 
@@ -3510,7 +3599,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                  OK, jetzt navigieren wir in das Verzeichnis, in das wir unsere 
                  ArgoUML-Projektdatei speichern wollen. Füllen Sie <literal>
                  Dateiname:</literal> mit dem entsprechenden Namen aus, wie z.B. 
-                 <literal>ErstesProjekt</literal>und klicken Sie auf die 
+                 <literal>ErstesProjekt</literal> und klicken Sie auf die 
                  Schaltfläche <literal>Speichern</literal>.
 	          </para>
 
@@ -3615,7 +3704,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               </para>
 
               <para>
-              	Aktuell gibt es keine anderen Tools, die wir kennen, die mit 
+              	Aktuell kennen wir keine anderen Tools, die mit 
               	PGML arbeiten.
               </para>
 
@@ -3684,7 +3773,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <para>
               	Et viola! SVG! Probieren Sie es aus und erforschen Sie es 
               	etwas... Sie sind nicht schön genug? Wenn Sie etwas über das 
-              	rendern schöner SVG-Formate wissen, lassen Sie es uns wissen.
+              	Rendern schöner SVG-Formate wissen, lassen Sie es uns wissen.
               </para>
 
               <para>
@@ -3719,8 +3808,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             	und UML 1.4-Modelle enthalten. Um die beste Kompatibilität zu 
             	erhalten, exportieren Sie Ihre Modelle in UML 1.4 und XMI 1.1 
             	oder 1.2. Stellen Sie sicher, dass all proprietären 
-            	Erweiterungen abgeschaltet sind (solche wie Poseidon&apos;s 
-            	Diagrammdaten)
+            	Erweiterungen abgeschaltet sind (wie z.B. Poseidon&apos;s 
+            	Diagrammdaten).
             </para>
             
             <para>
@@ -3846,10 +3935,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <para>
               	Im Moment können Sie keinen Code für Methoden (Operationen) 
               	in ArgoUML schreiben. Das Quellcode-Fenster ist editierbar, aber 
-              	die Änderungen werden ignoriert. ArgoUML ist ein aktuell ein 
+              	die Änderungen werden ignoriert. ArgoUML ist aktuell ein 
               	reines Design-Werkzeug, es ist keine IDE-Funktionalität 
               	vorhanden, aber der Wunsch ist da. Sie können Forte und ArgoUML 
-              	zusammenarbeiten lassen; dies ist ein guter Work around.
+              	zusammenarbeiten lassen; dies ist ein guter Workaround.
               </para>
 
               <para>Sie können uns hier heraushelfen, wenn Sie wollen!</para>
@@ -3942,7 +4031,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             </para>
 
             <para>
-            	Kritiken sind etwas völlig unaufdringlich. Sie geben Ihnen eine 
+            	Kritiken sind etwas völlig unaufdringliches. Sie geben Ihnen eine 
             	freundliche Warnung, aber Sie zwingen Sie nicht in Design-
             	Prinzipien, denen Sie nicht folgen wollen. Lassen Sie uns einen 
             	Blick darauf werfen, was die Kritiken uns mitteilen.
@@ -4136,7 +4225,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	Der Schlüssel zu diesem Zeitpunkt ist, dass wir uns im 
         	Problembereich befinden. Zu diesem Zeitpunkt müssen wir alles 
         	aus der Perspektive des <quote>Kunden</quote> und in der Sprache 
-        	des <quote>Kunden</quote> beschreiben
+        	des <quote>Kunden</quote> beschreiben.
         </para>
 
         <para>
@@ -4209,7 +4298,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <listitem>
 
             <para>
-            	Verwalten des Equipments durch Bank-Ingenieure und leeren der 
+            	Warten des Equipments durch Bank-Ingenieure und leeren der 
             	Kassen und Bargeld nachfüllen durch die lokale Bankfiliale.
             </para>
 
@@ -4305,53 +4394,53 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <indexterm><primary>Visions-Dokument</primary></indexterm>
               <para>
               Das <emphasis>Visions-Dokument</emphasis> beinhaltet eine 
               Gesamtsicht auf das Problem und die gewünschten Charakteristika 
               seiner Lösung.
               </para>
+              <indexterm><primary>Visions-Dokument</primary></indexterm>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Anwendungsfall</primary></indexterm>
               <para>
               	Identifizieren Sie die <emphasis>Anwendungsfälle</emphasis> und 
               	<emphasis>Akteure</emphasis> aus dem Visions-Dokument und 
               	stellen deren Beziehungen zueinander in einem oder mehreren 
               	<emphasis>Anwendungsfalldiagrammen dar</emphasis>.
               </para>
+              <indexterm><primary>Anwendungsfall</primary></indexterm>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Anwendungsfall-Spezifikation</primary>
-              </indexterm>
-              <indexterm><primary>Spezification</primary><secondary>von  
-              Anwendungsfällen</secondary></indexterm>
-              <para>
+x              <para>
               	Erstellen Sie für jeden Anwendungsfall eine detaillierte 
               	<emphasis>Anwendungsfall-Spezifikation</emphasis>, die das 
               	normale und alternative Verhalten, die Vor- und Nachbedingungen 
               	beinhaltet.
 	          </para>
+              <indexterm><primary>Anwendungsfall-Spezifikation</primary>
+              </indexterm>
+              <indexterm><primary>Spezification</primary><secondary>von  
+              Anwendungsfällen</secondary></indexterm>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Nicht-funktionale Anforderungen</primary>
-              </indexterm>
-              <indexterm><primary>Ergänzende Anforderungs-Spezifikation 
-              </primary></indexterm>
               <para>
               	Fassen Sie alle nicht-funktionalen Anforderungen in einer 
               	<emphasis>Ergänzenden Anforderungs-Spezifikation</emphasis> 
               	zusammen.
               </para>
+              <indexterm><primary>Nicht-funktionale Anforderungen</primary>
+              </indexterm>
+              <indexterm><primary>Ergänzende Anforderungs-Spezifikation 
+              </primary></indexterm>
 
             </listitem>
 
@@ -4364,7 +4453,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           </para>
 
           <para>
-          	Die meisten moderenen Anforderungs-Erfassungs-Prozesse unterstellen, 
+          	Die meisten modernen Anforderungs-Erfassungs-Prozesse unterstellen, 
           	dass es wichtig ist, dass der maßgebliche Repräsentant des Kunden
           	während dieses Prozesses vollständig involviert ist.
           </para>
@@ -4490,304 +4579,388 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>Anwendungsfalldiagramm</title>
 
-          <indexterm><primary>Use Case Diagram</primary></indexterm>
-          <indexterm><primary>Diagram</primary><secondary>Use 
-          Case</secondary></indexterm>
-          <para>The vision document has identified the use cases and 
-          actors. The use case diagram captures how they interact. In 
-          our ATM example we have identified <quote>customer uses 
-          machine</quote>, <quote>maintain machine</quote> and 
-          <quote>audit</quote> as the three main use cases. We have 
-          identified <quote>customer</quote>, maintenance 
-          engineer<quote>,</quote><quote>local branch official</quote> 
-          and <quote>central computer</quote> as the actors.</para>
+          <indexterm><primary>Anwendungsfalldiagramm</primary></indexterm>
+          <indexterm><primary>Diagramm</primary><secondary>Anwendungsfall 
+          </secondary></indexterm>
+          <para>
+          	 Das Visions-Dokument identifizierte die Anwendungsfälle und Akteure. 
+          	 Das Anwendungsfalldiagramm stellt dar, wie sie interagieren. In 
+          	 unserem ATM (Geldautomat) Beispiel haben wir <quote>Kunde nutzt den 
+          	 Automaten</quote>, <quote>Wartung des Automaten</quote> und 
+          	 <quote>Revision</quote> als die drei Hauptanwendungsfälle 
+          	 identifiziert. Als Akteure haben wir <quote>Kunde</quote>, 
+          	 <quote>Wartungsingenieur</quote>, <quote>lokaler Zweigstellenbeamter
+          	 </quote> und <quote>Zentralcomputer</quote> identifiziert.
+          </para>
 
-          <para><xref linkend="fig.tut.atm_use_case_diagram_basic"/> 
-          shows how this could be displayed on a use case diagram. The 
-          use cases are shown as ovals, the actors as stick people 
-          (even where they are machines), with lines (known as 
-          <emphasis>associations</emphasis> connecting use cases to the 
-          actors who are involved with them. A box around the use cases 
-          emphasizes the boundary between the system (defined by the 
-          use cases) and the actors who are external.</para>
+          <para>
+	          <xref linkend="fig.tut.atm_use_case_diagram_basic" /> zeigt, wie 
+	          das in einem Anwendungsfalldiagramm dargestellt werden kann. Die 
+	          Anwendungsfälle werden als Ovale dargestellt, die Akteure als 
+	          Strichmännchen (auch wenn es Maschinen sind), mit Linien (als 
+	          Assoziationen bekannt), die die Anwendungsfälle mit den damit 
+	          involvierten Akteuren verbinden. Ein Rahmen um die Anwendungsfälle 
+	          stellt die Abgrenzung zwischen dem System (durch die 
+	          Anwendungsfälle definiert) und den Akteuren dar, die extern sind.
+          </para>
 
           <note>
 
-            <para>Not all analysts like to use a box around the use 
-            cases. It is a matter of personal choice.</para>
+            <para>
+            	Nicht alle Analytiker möchten einen Rahmen um die 
+            	Anwendungsfälle verwenden. Dies ist ein Fall persönlicher 
+            	Vorlieben.
+            </para>
 
           </note>
 
-          <figure float="1" id="fig.tut.atm_use_case_diagram_basic">
+          <figure id="fig.tut.atm_use_case_diagram_basic">
 
-            <title>Basic use case diagram for an ATM system</title>
+            <title>
+            	Grundlegendes Anwendungsfalldiagramm für einen Geldautomaten
+            </title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/tutorial/atm_use_case_diagram_basic.gif"
-             format="GIF"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/tutorial/atm_use_case_diagram_basic.gif"
+            				format="GIF" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
-          <para>The following sections show how the basic use case 
-          diagram can be extended to show additional information about 
-          the system being designed.</para>
+          <para>
+          	Die folgenden Abschnitte zeigen, wie das grundlegene 
+          	Anwendungsfalldiagramm erweitert werden kann, um zusätzliche 
+          	Informationen über das zu designende System darzustellen.
+          </para>
 
           <sect3>
 
-            <title>Active and Passive Actors</title>
+            <title>Aktive und passive Akteure</title>
 
-            <indexterm><primary>Active Actor</primary></indexterm>
-            <para><emphasis>Active</emphasis> actors initiate 
-            interaction with the system. This can be shown by placing 
-            an arrow on the association from the actor pointing toward 
-            the use case. In the ATM example, the customer is an active 
-            actor.</para>
-
-            <indexterm><primary>Passive Actor</primary></indexterm>
-            <para>Interaction with <emphasis>passive</emphasis> actors 
-            is initiated by the system. This can be shown by placing an 
-            arrow on the association from the use case pointing toward 
-            the actor. In the ATM example, the central computer is a 
-            passive actor.</para>
-
-            <para>This is a good example where the arrow helps, since 
-            it allows us to distinguish an event driven system (the ATM 
-            initiates interaction with the central computer) from a 
-            polling system (the central computer interrogates the ATM 
-            from time to time).</para>
-
-            <para>Where an actor may be either active or passive, 
-            depending on circumstances, the arrow may be omitted. In 
-            the ATM example the bank engineer fits into this category. 
-            Normally he is active, turning up on a regular cycle to 
-            service the machine. However if the ATM detects a fault, it 
-            may summon the engineer to fix it.</para>
-
+            <indexterm><primary>Aktiver Akteur</primary></indexterm>
             <para>
-              The use of arrows on associations is referred to as 
-              the <emphasis>navigation</emphasis> of the association.
-              We shall see this used elsewhere in UML later on.
-              The choice, by the OMG, of zero vice two arrowheads to show
-              a bidirectional association is unfortunate.
-              Under this convention you cannot distinguish between an
-              association whose navigation has yet to be determined and one
-              that is bidirectional.
+            	<emphasis>Aktive</emphasis> Akteure initiieren eine Interaktion 
+            	mit dem System. Dies kann durch einen Pfeil in der Assoziation 
+            	vom Akteur zum Anwendungsfall dargestellt werden. Im 
+            	Geldautomaten-Beispiel ist der Kunde ein aktiver Akteur.
+            </para>
+
+            <indexterm><primary>Passiver Akteur</primary></indexterm>
+            <para>
+            	Die Interaktion mit <emphasis>passiven</emphasis> Akteuren wird 
+            	durch das System initiiert. Dies kann durch einen Pfeil in der 
+            	Assoziation vom Anwendungsfall zum Akteur dargestellt werden.
+            	Im Geldautomaten-Beispiel ist der Zentralcomputer ein passiver 
+            	Akteur.
             </para>
 
             <para>
-            <xref linkend="fig.tut.atm_use_case_diagram_navigation"/> 
-            shows the ATM use case diagram with navigation 
-            displayed.</para>
-
-            <figure float="1" id="fig.tut.atm_use_case_diagram_navigation">
-
-              <title>Use case diagram for an ATM system showing 
-              navigation.</title>
-
-              <screenshot><mediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/tutorial/atm_use_case_diagram_navigation.gif"
-               format="GIF"/></imageobject></mediaobject></screenshot>
-            </figure>
-
-          </sect3>
-
-          <sect3>
-
-            <title>Multiplicity</title>
-
-            <indexterm><primary>Multiplicity</primary><secondary>in a 
-            Use Case Diagram</secondary></indexterm>
-            <para>It can be useful to show the 
-            <emphasis>multiplicity</emphasis> of associations between 
-            actors and use cases. By this we mean how many instances of 
-            an actor interact with how many instances of the use 
-            case.</para>
-
-            <para>By default we assume one instance of an actor 
-            interacts with one instance of a use case. In other cases 
-            we can label the multiplicity of one end of the 
-            association, either with a number to indicate how many 
-            instances are involved, or with a range separated by two 
-            periods (<literal>..</literal>). An asterisk (
-            <literal>*</literal>) is used to indicate an arbitrary 
-            number.</para>
-
-            <para>In the ATM example, there is only one central 
-            computer, but it may be auditing any number of ATM uses. So 
-            we place the label <literal>0..*</literal> at the use case 
-            end. There is no need for a label at the other end, since 
-            the default is one.</para>
-
-            <para>A local bank will have up to three officials 
-            authorized to unload and load ATM machines. So at the actor 
-            end of the relationship with the use case <literal>Maintain 
-            ATM</literal>, we place the label <literal>1..3</literal>. 
-            They may be dealing with any number of ATM machines, so at 
-            the other end we place the label <literal>
-            0..*</literal>.</para>
-
-            <para>There may be any number of customers and there may be 
-            any number of ATM systems they could use. So at each end of 
-            the association we place the label <literal>
-            0..*</literal>.</para>
+            	Dies ist ein gutes Beispiel, wo die Pfeile helfen, da es uns 
+            	erlaubt, ein ereignisgetriebenes System (der Geldautomat 
+            	initiiert die Interaktion mit dem Zentralcomputer) von einem 
+            	zyklisch abfragenden System (der Zentralcomputer fragt den 
+            	Geldautomaten von Zeit zu Zeit ab) zu unterscheiden.
+            </para>
 
             <para>
-            <xref linkend="fig.tut.atm_use_case_diagram_multiplicity"/> 
-            shows the ATM use case diagram with multiplicity 
-            displayed.</para>
+            	Dort wo ein Akteur entweder aktiv oder passiv sein kann, je nach 
+            	den Umständen, kann der Pfeil weggelassen werden. Im 
+            	Geldautomaten-Beispiel fällt der Bankingenieur in diese 
+            	Kategorie. Normalerweise ist er aktiv, indem er regelmässig 
+            	auftaucht um die Maschine zu warten. Wenn jedoch der Geldautomat 
+            	einen Fehler entdeckt, kann er den Ingenieur auffordern diesen 
+            	zu beheben.
+            </para>
 
-            <figure float="1" id="fig.tut.atm_use_case_diagram_multiplicity">
+            <para>
+            	Die Verwendung von Pfeilen bei Assoziationen wird als 
+            	<emphasis>Navigation</emphasis> der Assoziation bezeichnet.
+            	Wir sollten dies später in der UML im Einsatz sehen.
+            	Die Wahl der OMG eine bidirektionale Assoziation durch keine 
+            	anstelle von zwei Pfeilspitzen darzustellen ist unvorteilhaft.
+            	Mit dieser Konvention können Sie nicht zwischen einer 
+            	Assoziation unterscheiden, deren Navigation noch zu bestimmen 
+            	ist und einer die bidirektional ist.
+            </para>
 
-              <title>Use case diagram for an ATM system showing 
-              multiplicity.</title>
+            <para>
+	            <xref linkend="fig.tut.atm_use_case_diagram_navigation"/>
+	            zeigt das Geldautomaten-Anwendungsfalldiagramm mit dargestellter 
+	            Navigation. 
+            </para>
 
-              <screenshot><mediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/tutorial/atm_use_case_diagram_multiplicity.gif"
-               format="GIF"/></imageobject></mediaobject></screenshot>
+            <figure id="fig.tut.atm_use_case_diagram_navigation">
+
+              <title>
+              	Anwendungsfalldiagramm für einen Geldautomaten mit Navigation.
+              </title>
+
+              <screenshot>
+              	<mediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/tutorial/atm_use_case_diagram_navigation.gif"
+              				format="GIF" />
+              		</imageobject>
+              	</mediaobject>
+              </screenshot>
             </figure>
-
-            <para>Multiplicity can clutter a diagram, and is often not 
-            shown, except where it is critical to understanding. In the 
-            ATM example we would only choose to show <literal>
-            1..3</literal> against the local bank official, since all 
-            others are obvious from the context.</para>
 
           </sect3>
 
           <sect3>
 
-            <title>Hierarchies of Use Cases</title>
+            <title>Multiplizität</title>
 
-            <indexterm><primary>Hierarchy of Use 
-            Cases</primary></indexterm>
-            <indexterm><primary>Use 
-            Case</primary><secondary>Hierarchy</secondary></indexterm>
-            <para>In our ATM example so far we have just three use 
-            cases to describe all the behavior of the system. While use 
-            cases should always describe a significant chunk of system 
-            behavior, if they are too general they can be difficult to 
-            describe.</para>
+            <indexterm><primary>Multiplizität</primary><secondary>in einem  
+            Anwendungsfalldiagramm</secondary></indexterm>
+            <para>
+            	Es kann sehr nützlich sein, die <emphasis>Multiplizität
+            	</emphasis> von Assoziationen zwischen Akteuren und 
+            	Anwendungsfällen darzustellen. Damit meinen wir, wie viele 
+            	Ausprägungen eines Akteurs mit wie vielen Ausprägungen eines 
+            	Anwendungsfalles interagieren.
+            </para>
 
-            <para>We could for example define the behavior of the use 
-            case <quote>Use ATM</quote> in terms of the behavior of 
-            three simpler use cases, <quote>Deposit Cash</quote>, 
-            <quote>Withdraw Cash</quote> and <quote>Query 
-            Account</quote>. The main use case could be specified by 
-            <emphasis>including</emphasis> the behavior of the 
-            subsidiary use cases where needed.</para>
+            <para>
+            	Standardmäßig nehmen wir an, dass eine Ausprägung eines Akteurs 
+            	mit einer Ausprägung eines Anwendungsfalles interagiert. In den 
+            	anderen Fällen können wird die Multiplizität an einem Ende der 
+            	Assoziation kennzeichnen. Entweder mit einer Nummer, um 
+            	darzustellen, wie viele Ausprägungen involviert sind, oder mit 
+            	einem durch zwei Punkten separierten Bereich (<literal>..
+            	</literal>). Ein Stern (<literal>*</literal>) wird verwendet, 
+            	um eine beliebige Zahl darzustellen.
+            </para>
 
-            <para>Similarly the <quote>Maintain ATM</quote> use case 
-            could be defined in terms of two use cases <quote>Maintain 
-            Equipment</quote> and <quote>Reload ATM</quote>. In this 
-            case the two actors involved in the main use case are 
-            really only involved in one or other of the two subsidiary 
-            use cases and this can be shown on the diagram.</para>
+            <para>
+            	Im Geldautomaten-Beispiel gibt es nur einen Zentralcomputer, 
+            	aber es können beliebig viele Nutzungen des Geldautomaten 
+            	aufgezeichnet werden. Daher plazieren wir das Kennzeichen 
+            	<literal>0..*</literal> am Ende des Anwendungsfalles. Es gibt 
+            	keine Notwendigkeit für eine Kennzeichnung am anderen Ende, da 
+            	der Standard 1 ist.
+            </para>
 
-            <indexterm><primary>Include 
-            Relationship</primary></indexterm>
-            <indexterm>
-            <primary>Relationship</primary><secondary>Include</secondary></indexterm>
-            <para>The decomposition of a use case into simpler sub-use 
-            cases is shown in UML by using an <emphasis>include 
-            relationship</emphasis>, a dotted arrow from the main use 
-            case to the subsidiary, with the label 
-            <emphasis>&laquo;include&raquo;</emphasis>.</para>
+            <para>
+            	Eine lokale Bank kann bis zu drei Beamte haben, die autorisiert  
+            	sind, die Geldautomaten zu leeren und zu befüllen. Daher 
+            	plazieren wir bei der Beziehung zwischen dem Akteur und dem 
+            	Anwendungsfall <literal>Wartung Geldautomat</literal> am Ende 
+            	zum Akteur die Kennzeichnung <literal>1..3</literal>.
+            	Sie können sich mit beliebig vielen Geldautomaten befassen, 
+            	so dass wir auf dem anderen Ende das Kennzeichen <literal>0..*
+            	</literal> plazieren.
+            </para>
 
-            <figure float="1" id="fig.tut.atm_use_case_diagram_include">
+            <para>
+            	Es gibt beliebig viele Kunden und beliebig viele Geldautomaten 
+            	die diese nutzen dürfen. Daher plazieren wir an jedem Ende der 
+            	Assoziation das Kennzeichen <literal>0..*</literal>.
+            </para>
 
-              <title>Use case diagram for an ATM system showing include 
-              relationships.</title>
+            <para>
+	            <xref linkend="fig.tut.atm_use_case_diagram_multiplicity"/>
+	            zeigt das Geldautomaten-Anwendungsfalldiagramm mit dargestellter 
+	            Multiplizität. 
+            </para>
 
-              <screenshot><mediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/tutorial/atm_use_case_diagram_include.gif"
-               format="GIF"/></imageobject></mediaobject></screenshot>
+            <figure id="fig.tut.atm_use_case_diagram_multiplicity">
+
+              <title>
+              	Anwendungsfalldiagramm für einen Geldautomaten und dargestellter
+              	Multiplizität.
+              </title>
+
+              <screenshot>
+              	<mediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/tutorial/atm_use_case_diagram_multiplicity.gif"
+              				format="GIF" />
+              		</imageobject>
+              	</mediaobject>
+              </screenshot>
             </figure>
 
-            <para>Include relationships are fine for breaking down the 
-            use case behaviors in to hierarchies. However we may also 
-            want to show a use case that is an 
-            <emphasis>extension</emphasis> to an existing use case to 
-            cater for a particular circumstance.</para>
+            <para>
+            	Die Multiplizität kann ein Diagramm überladen und wird oft nicht 
+            	angezeigt, ausser wo es für das Verständnis kritisch ist. Im 
+            	Beispiel Geldautomat würde wir nur <literal>1..3</literal> zum 
+            	lokalen Bankbeamten darstellen, da alle anderen aus dem Kontext 
+            	heraus offensichtlich sind.
+            </para>
 
-            <para>In the ATM example we have a use case covering 
-            routine maintenance of the ATM, <quote>Maintain 
-            Equipment</quote>. We also want to cover the special case 
-            of an unscheduled repair caused by the ATM detecting an 
-            internal fault.</para>
+          </sect3>
+
+          <sect3>
+
+            <title>Hierarchien von Anwendungsfällen</title>
+
+            <indexterm><primary>Hierarchie von Anwendungsfällen</primary>
+            </indexterm>
+            <indexterm><primary>Anwendungsfall</primary><secondary>Hierarchie
+            </secondary></indexterm>
+            <para>
+            	In unserem Geldautomatenbeispiel haben wir jetzt drei 
+            	Anwendungsfälle, um das Verhalten des Systems zu beschreiben. 
+            	Auch wenn Anwendungsfälle immer einen signifikanten Teil des 
+            	Systemverhaltens beschreiben sollten, wenn diese zu generell 
+            	sind, können sie schwer zu beschreiben sein.
+            </para>
+
+            <para>
+            	Wir könnten zum Beispiel das Verhalten des Anwendungsfalles 
+            	<quote>Geldautomat nutzen</quote> durch das Verhalten von drei 
+            	einfacheren Anwendungsfällen, wie <quote>Bargeld lagern</quote>,
+            	<quote>Bargeld ausgeben</quote> und <quote>Konto abfragen</quote> 
+            	ausdrücken. Der Hauptanwendungsfall könnte durch <emphasis>
+            	einbinden (include)</emphasis> des Verhaltens der benötigten 
+            	Unteranwendungsfälle spezifiziert werden.
+            </para>
+
+            <para>
+            	Der Anwendungsfall <quote>Geldautomat warten</quote> könnte 
+            	ebenfalls durch zwei Anwendungsfälle <quote>Equipment warten
+            	</quote> und <quote>Geldautomat neu starten</quote> definiert 
+            	werden. In diesem Fall sind die zwei im Hauptanwendungsfall 
+            	involvierten Akteure natürlich nur in einem oder dem anderen 
+            	der beiden Unteranwendungsfälle involviert. Dies wird im 
+            	nachfolgenden Diagramm dargestellt.
+            </para>
+
+            <indexterm><primary>Beziehung Include</primary></indexterm>
+            <indexterm>
+            <primary>Beziehung</primary><secondary>Include</secondary></indexterm>
+            <para>
+            	Die Aufteilung eines Anwendungsfalles in einfacherere 
+            	Unteranwendungsfälle wird in UML durch eine <emphasis>include 
+	            Beziehung</emphasis>, einem gestrichelten Pfeil vom 
+	            Hauptanwendungsfall zum Unteranwendungsfall mit der Kennzeichnung 
+	            <emphasis>&laquo;include&raquo;</emphasis> bezeichnet.
+            </para>
+
+            <figure id="fig.tut.atm_use_case_diagram_include">
+
+              <title>
+              	Anwendungsfalldiagramm für einen Geldautomaten mit 
+              	include-Beziehungen.
+              </title>
+
+              <screenshot>
+              	<mediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/tutorial/atm_use_case_diagram_include.gif"
+              				format="GIF" />
+              		</imageobject>
+              	</mediaobject>
+              </screenshot>
+            </figure>
+
+            <para>
+            	Include-Beziehungen sind ideal für das Herunterbrechen des 
+            	Anwendungsfallverhaltens in Hierarchien. Wir wollen jedoch auch 
+            	einen Anwendungsfall, der eine <emphasis>Erweiterung (extension)
+            	</emphasis> eines existierenden Anwendungsfalles darstellt, in 
+            	bestimmten Umständen darstellen.
+            </para>
+
+            <para>
+            	Im Geldautomatenbeispiel haben wir einen Anwendungsfall <quote>
+            	Equipment warten</quote>, der die Routinewartung des 
+            	Geldautomaten beinhaltet. Wir wollen aber auch den Spezialfall 
+            	einer ungeplanten Reparatur abdecken, die durch den vom 
+            	Geldautomaten erkannten internen Fehlers ausgelöst wurde.
+            </para>
 
             <indexterm><primary>Extend 
-            Relationship</primary></indexterm>
+            Beziehung</primary></indexterm>
             <indexterm>
-            <primary>Relationship</primary><secondary>Extend</secondary></indexterm>
-            <para>This is shown in UML by the 
-            <emphasis>extend</emphasis> relationship. In the main use 
-            case, we specify a name for a location in the description, 
-            where an extension to the behavior could be attached. The 
-            name and location are shown in a separate compartment 
-            within the use case oval. The representation extend 
-            relationship is the same as the include relationship, but 
-            with the label <emphasis>&laquo;extend&raquo;</emphasis>. Alongside the 
-            extend relationship, we specify the condition under which 
-            that behavior will be attached.</para>
+            <primary>Beziehung</primary><secondary>Extend</secondary></indexterm>
+            <para>
+            	Dies wird in UML durch die <emphasis>extend</emphasis>-Beziehung 
+            	dargestellt. Im Hauptanwendungsfall spezifizieren wir einen 
+            	Namen für einen Ort in der Beschreibung, an den die Erweiterung 
+            	des Verhaltens hinzugefügt werden kann. Der Name und der Ort 
+            	werden in einem separaten Abschnitt innerhalb des Anwendungsfall-
+            	Ovales dargestellt. Die Darstellung der extend-Beziehung 
+            	entspricht der include-Beziehung, aber mit dem Kennzeichen 
+            	<emphasis>&laquo;extend&raquo;</emphasis>. An der extend-
+            	Beziehung spezifizieren wird die Bedingung, unter der das 
+            	Verhalten hinzugefügt wird.
+            </para>
 
-            <para><xref linkend="fig.tut.atm_use_case_diagram_extend"/> 
-            shows the ATM use case diagram with an extend relationship 
-            to a use case for unscheduled repairs. The diagram is now 
-            getting rather complex, and so we have split it into two, 
-            one for the maintenance side of things, the other for 
-            customer usage and audit.</para>
+            <para>
+            	<xref linkend="fig.tut.atm_use_case_diagram_extend" />
+            	zeigt das Geldautomaten-Anwendungsfalldiagramm mit einer extend-
+            	Beziehung auf einen Anwendungsfall für ungeplante Reparaturen. 
+            	Das Diagramm ist jetzt sehr komplex so dass wir es in zwei 
+            	aufteilen sollten. Eines für die hauptsächlichen Dinge, das 
+            	andere für den Kundennutzen und Revision.
+            </para>
 
-            <para>The <quote>Maintain Equipment</quote> use case 
-            defines a name <quote>Unsched</quote>, at the start of its 
-            description. The extending use case <quote>Unscheduled 
-            Repair</quote> is attached there when the ATM detects an 
-            internal error.</para>
+            <para>
+            	Der Anwendungsfall <quote>Equipment warten</quote> definiert 
+            	den Namen <quote>Unshed</quote> am Anfang seiner Beschreibung. 
+            	Der erweiterte Anwendungsfall <quote>ungeplante Reparatur</quote> 
+                wird herangezogen, wenn der Geldautomat einen internen Fehler 
+                entdeckt.
+            </para>
 
-            <figure float="1" id="fig.tut.atm_use_case_diagram_extend">
+            <figure id="fig.tut.atm_use_case_diagram_extend">
 
-              <title>Use case diagram for an ATM system showing an 
-              extend relationship.</title>
+              <title>
+              	Anwendungsfalldiagramm für einen Geldautomaten. Zeigt eine 
+              	extend-Beziehung.
+              </title>
 
-              <screenshot><mediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/tutorial/atm_use_case_diagram_extend.gif"
-               format="GIF"/></imageobject></mediaobject></screenshot>
+              <screenshot>
+              	<mediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/tutorial/atm_use_case_diagram_extend.gif"
+              				format="GIF" />
+              		</imageobject>
+              	</mediaobject></screenshot>
             </figure>
 
-            <indexterm><primary>Use Case 
-            Generalization</primary></indexterm>
-            <indexterm><primary>Use Case 
-            Specialization</primary></indexterm>
-            <indexterm><primary>Generalize a Use 
-            Case</primary></indexterm>
-            <indexterm><primary>Specializations</primary><secondary>of 
-            Use Case</secondary></indexterm>
+            <indexterm><primary>Anwendungsfall 
+            Generalisierung</primary></indexterm>
+            <indexterm><primary>Anwendungsfall 
+            Spezialisierung</primary></indexterm>
+            <indexterm><primary>Generalisiere einen Anwendungsfall 
+            </primary></indexterm>
+            <indexterm><primary>Spezialisierungen</primary><secondary>von 
+            Anwendungsfällen</secondary></indexterm>
             <para>
-              Use cases may be linked together in one other way. 
-              One use case may be a <emphasis>generalization</emphasis>
-              of a subsidiary use case (or alternatively the subsidiary 
-              is a <emphasis>specialization</emphasis> of the main use 
-              case).
-              This is very like the extends relationship, but 
-              without the constraint of specific extension points at 
-              which the main use case may be extended, and with no 
-              condition on when the subsidiary use case may be 
-              used.</para>
+            	Anwendungsfälle können auch auf andere Art und Weise miteinander 
+            	verknüpft sein. Ein Anwendungsfall kann eine <emphasis>
+            	Generalisierung</emphasis> eines Sub-Anwendungsfalles (oder 
+            	alternativ: Der Sub-Anwendungsfall ist eine <emphasis>
+            	Spezialisierung</emphasis> des Hauptanwendungsfalles).
+            	Das ist der extend-Beziehung sehr ähnlich, aber ohne die 
+            	Bedingung des spezifischen Erweiterungspunktes, unter welcher 
+            	der Haupt-Anwendungsfall erweitert wird und ohne 
+            	Bedingung unter welcher der Sub-Anwendungsfall verwendet wird.
+			</para>
 
             <para>
-              Generalization is shown on a use case diagram by an 
-              arrow with solid line and solid white head from the 
-              subsidiary to the main use case.
-              This may be useful when a subsidiary use case 
-              specializes the behavior of the main use case at a large 
-              number of positions and under a wide range of 
-              circumstances.
-              However the lack of any restriction makes 
-              generalization very hard to specify precisely.
-              In general use an extend relationship instead.
+            	Der Generalisierung wird in einem Anwendungsfalldiagramm durch 
+            	einen Pfeil mit durchgehender Linie und einer weissen 
+            	Pfeilspitze vom Sub-Anwendungsfall zum Hauptanwendungsfall 
+            	dargestellt.
+            	Das kann hilfreich sein, wenn ein Sub-Anwendungsfall das 
+            	Verhalten des Hauptanwendungsfalles in einer Vielzahl von 
+            	Positionen und in einem weiten Bereich von Sachverhalten 
+            	spezialisiert.
+            	Das Fehlen jeglicher Einschränkungen macht es sehr schwierig, 
+            	die Generalisierung genau zu beschreiben.
+            	Im Normalfall verwenden Sie besser eine extend-Beziehung.
             </para>
 
           </sect3>
@@ -4796,61 +4969,70 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>The Use Case Specification</title>
+          <title>Die Anwendungsfall-Spezifikation</title>
 
-          <indexterm><primary>Use Case 
-          Specification</primary></indexterm>
-          <indexterm><primary>Specification</primary><secondary>of Use 
-          Case</secondary></indexterm>
-          <indexterm><primary>Use Case Scenario</primary></indexterm>
+          <indexterm><primary>Anwendungsfall-Spezifikation</primary></indexterm>
+          <indexterm><primary>Spezifikation</primary><secondary>eines  
+          Anwendungsfalles</secondary></indexterm>
+          <indexterm><primary>Anwendungsfall-Szenario</primary></indexterm>
           <para>
-            Each use case must be documented to explain in detail 
-            the behavior it is specifying.
-            ArgoUML assists in this area through the generation of graphic
-            files for inclusion in this documentation.
-            This document is known by different names in different processes:
-            <emphasis>use case specification</emphasis>,
-            <emphasis>use case scenario</emphasis> or even (confusingly) just
-            <emphasis>use case</emphasis>.
+          	Jeder Anwendungsfall muss dokumentiert sein, um das das spezifizierte 
+          	Verhalten im Detail zu erläutern.
+          	ArgoUML unterstützt Sie in diesem Bereich durch das Generieren 
+          	graphischer Dateien, die in diese Dokumentation eingebunden werden 
+          	kann.
+          	Dieses Dokument ist unter verschieden Namen in verschiedenen 
+          	Prozessen bekannt:
+            <emphasis>Anwendungsfall-Spezifikation</emphasis>,
+            <emphasis>Anwendungsfall-Szenario</emphasis> oder auch (verwirrend) 
+            nur <emphasis>Anwendungsfall</emphasis>.
           </para>
 
-          <para>A typical use case specification will include the following 
-          sections.</para>
+          <para>
+          	Eine typische Anwendungsfall-Spezifikation wird folgende Kapitel 
+          	enthalten.
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <indexterm><primary>Name</primary><secondary>of Use 
-              Case</secondary></indexterm>
-              <indexterm><primary>Use Case Name</primary></indexterm>
-              <para><emphasis>Name</emphasis>. The name of the use case 
-              to which this relates.</para>
+              <para>
+              	<emphasis>Name</emphasis>. Der Name des Anwendungsfalles.
+              </para>
+              <indexterm><primary>Name</primary><secondary>des Anwendungsfalles
+              </secondary></indexterm>
+              <indexterm><primary>Anwendungsfallname</primary></indexterm>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Goal</primary><secondary>of Use 
-              Case</secondary></indexterm>
-              <indexterm><primary>Use Case Goal</primary></indexterm>
-              <para><emphasis>Goal</emphasis>. A one or two line 
-              summary of what this use case achieves <emphasis>for its 
-              actors</emphasis>.</para>
+              <para>
+              	<emphasis>Ziel</emphasis>. Eine ein oder zweizeilige 
+              	Zusammenfassung darüber, was dieser Anwendungsfall <emphasis>
+              	für seine Akteure</emphasis> ausführt. 
+              </para>
+              <indexterm><primary>Ziel</primary><secondary>des Anwendungsfalles
+              </secondary></indexterm>
+              <indexterm><primary>Anwendungsfallziel</primary></indexterm>
 
             </listitem>
 
             <listitem>
 
-              <para><emphasis>Actors</emphasis>. The actors involved in 
-              this use case, and any context regarding their 
-              involvement.</para>
+              <para>
+              	<emphasis>Akteure</emphasis>. Die in diesen Anwendungsfall 
+              	involvierten Akteure und jeden Umstand bezüglich Ihrer 
+              	Einbindung.
+              </para>
 
               <note>
 
-                <para>This should not be a description of the actor. 
-                That should be associated with the actor on the use 
-                case diagram.</para>
+                <para>
+                	Dies sollte keine Beschreibung des Akteurs sein. Die sollte 
+                	mit dem Akteur im Anwendungsfalldiagramm verknüpft sein.
+                </para>
 
               </note>
 
@@ -4858,37 +5040,45 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <indexterm><primary>Pre-condition</primary><secondary>of 
-              Use Case</secondary></indexterm>
+              <para>
+	              <emphasis>Vorbedingung</emphasis>. Diese würden besser als 
+	              <quote>Voraussetzungen</quote> bezeichnet, aber der überall 
+	              verwendete Begriff ist Vorbedingungen. Dies ist eine 
+	              Beschreibung jeder vereinfachenden Voraussetzung, die wir zum 
+	              Start des Anwendungsfalles machen können. 
+              </para>
+              
+              <indexterm><primary>Vorbedingung</primary><secondary>des 
+              Anwendungsfalles</secondary></indexterm>
               <indexterm>
-              <primary>Pre-assumptions</primary><secondary>of Use 
-              Case</secondary></indexterm>
-              <indexterm><primary>Use Case 
-              Pre-condition</primary></indexterm>
-              <para><emphasis>Pre-condition</emphasis>. These would be 
-              better named <quote>pre-assumptions</quote>, but the term 
-              used everywhere is pre-conditions. This is a statement of 
-              any simplifying assumptions we can make at the start of 
-              the use case.</para>
+              <primary>Voraussetzungen</primary><secondary>des Anwendungsfalles
+              </secondary></indexterm>
+              <indexterm><primary>Anwendungsfall Vorbedingung 
+              </primary></indexterm>
 
-              <para>In the ATM example we might make the assumption for 
-              the<quote>Maintain Equipment</quote> use case that an 
-              engineer is always available, and we do not need to worry 
-              about the case where a routine maintenance visit is 
-              missed.</para>
+              <para>
+           		Im Geldautomatenbeispiel könnten wir beim Anwendungsfall 
+           		<quote>Equipment warten</quote> die Voraussetzung haben, das 
+           		immer ein Ingenieur verfügbar ist und wir uns nicht vor dem Fall 
+           		fürchten müssen, in dem ein Routinewartungs-Besuch ausgelassen 
+           		wurde. 
+              </para>
 
               <caution>
 
-                <para>Avoid pre-conditions wherever possible. You need 
-                to be absolutely certain that the pre-condition holds 
-                under all possible circumstances. If not your system 
-                will be under specified and hence will fail when the 
-                pre-condition is not true. Alternatively, when you 
-                cannot be certain the pre-condition is always true, you 
-                will need to specify a second use case to handle the 
-                pre-condition being false. In the first case, 
-                pre-conditions are a source of problems, in the second 
-                a source of more work.</para>
+                <para>
+                	Vermeiden Sie Vorbedingungen wo immer das möglich ist. Sie 
+                	müssen sich absolut sicher sein, dass die Vorbedingung 
+                	unter allen möglichen Umständen eingehalten wird. Wenn nicht, 
+                	ist ihr System zu wenig spezifiziert und wird daher 
+                	fehlschlagen, wenn die Vorbedingung nicht wahr ist. Wenn Sie 
+                	nicht sicher sein können, dass die Vorbedingung 
+                	immer wahr ist, müssen Sie einen zweiten Anwendungsfall 
+                	spezifizieren, der den Fall handhabt, wenn die 
+                	Vorbedingung falsch ist. Im ersten Fall sind die 
+                	Vorbedingungen die Ursache der Probleme, im zweiten Fall die 
+                	Ursache für mehr Arbeit.
+                </para>
 
               </caution>
 
@@ -4896,62 +5086,70 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <indexterm><primary>Basic Flow</primary><secondary>of Use 
-              Case</secondary></indexterm>
-              <indexterm><primary>Use Case</primary><secondary>Basic 
-              Flow</secondary></indexterm>
-              <indexterm><primary>Scenario</primary></indexterm>
-              <para><emphasis>Basic Flow</emphasis>. The linear 
-              sequence of steps that describe the behavior of the use 
-              case in the <quote>normal</quote> scenario. Where a use 
-              case has a number of scenarios that could be normal, one 
-              is arbitrarily selected. Specifying the basic flow is 
-              described in more detail in 
-              <xref linkend="s3.tut.basic_flow"/> below.</para>
+              <para>
+	              <emphasis>Standardablauf</emphasis>. Die aufeinander 
+	              folgenden Schritte, die das Verhalten des Anwendungsfalles 
+	              im <quote>Normalfall</quote> beschreiben. Wo ein Anwendungsfall 
+	              mehrere normale Szenarien aufweist, wird einer davon 
+	              willkürlich ausgewählt. Die Spezifizierung des 
+	              Standardablaufes wird nachfolgend detaillierter beschrieben 
+	              <xref linkend="s3.tut.basic_flow"/>.
+              </para>
+              <indexterm><primary>Standardablauf</primary><secondary>eines 
+              Anwendungsfalles</secondary></indexterm>
+              <indexterm><primary>Anwendungsfall</primary><secondary>
+              Standardablauf</secondary></indexterm>
+              <indexterm><primary>Szenario</primary></indexterm>
 
             </listitem>
 
             <listitem>
 
-              <indexterm><primary>Alternate 
-              Flows</primary><secondary>of Use 
-              Case</secondary></indexterm>
-              <indexterm><primary>Use 
-              Case</primary><secondary>Alternate 
-              Flows</secondary></indexterm>
-              <para><emphasis>Alternate Flows</emphasis>. A series of 
-              linear sequences describing each of the alternative 
-              behaviors to the basic flow. Specifying alternate flows 
-              is described in more detail in 
-              <xref linkend="s3.tut.alternate_flows"/>.</para>
+              <para>
+	              <emphasis>Alternative Abläufe</emphasis>. Eine Reihe von 
+	              linearen Sequenzen beschreiben jede der alternativen, 
+	              gegenüber dem Standardablauf abweichenden Verhaltensweisen. 
+	              Die Spezifizierung alternativer Abläufe ist detaillierter in 
+	              <xref linkend="s3.tut.alternate_flows"/> beschrieben.
+              </para>
+              <indexterm><primary>Alternative Abläufe 
+              </primary><secondary>von Anwendungsfällen 
+              </secondary></indexterm>
+              <indexterm><primary>Anwendungsfall</primary><secondary>Alternative 
+              Abläufe</secondary></indexterm>
 
             </listitem>
 
             <listitem>
 
+              <para>
+	              <emphasis>Nachbedingungen</emphasis>. Dies ist der Zustand 
+	              jeder Nachbedingung, den wir am Ende des Anwendungsfalles 
+	              feststellen können. Sehr hilfreich, wo der Anwendungsfall 
+	              einer von einer Serie von in den Hauptanwendungsfall 
+	              eingebundenen Unteranwendungsfällen ist, wo sie die 
+	              Vorbedingung für den nächsten einzubindenden Anwendungsfall 
+	              bilden. 
+              </para>
               <indexterm>
-              <primary>Post-conditions</primary><secondary>of Use 
-              Case</secondary></indexterm>
+              <primary>Nachbedingungen</primary><secondary>von Anwendungsfällen
+              </secondary></indexterm>
               <indexterm>
               <primary>Post-assumptions</primary><secondary>of Use 
               Case</secondary></indexterm>
-              <indexterm><primary>Use Case 
-              Post-conditions</primary></indexterm>
-              <para><emphasis>Post-conditions</emphasis>. These would 
-              be better named <quote>post-assumptions</quote>. This is 
-              a statement of any assumptions that we can make at the 
-              end of the use case. Most useful where the use case is 
-              one of a series of subsidiary use cases that are included 
-              in a main use case, where they can form the 
-              pre-conditions of the next use case to be included.</para>
+              <indexterm><primary>Anwendungsfall 
+              Nachbedingungen</primary></indexterm>
 
               <caution>
 
-                <para>Like pre-conditions, post-conditions are best 
-                avoided. They place a burden on the specification of 
-                the use case flows, to ensure that the post-condition 
-                always holds. They therefore are also a source of 
-                problems and extra work.</para>
+                <para>
+                	Nachbedingungen sind wie Vorbedingungen am Besten zu 
+                	vermeiden. Sie bilden eine Belastung für die Spezifikation 
+                	des Anwendungsfallablaufes, das sichergestellt sein muss, 
+                	dass die Nachbedingung immer eingehalten wird. Daher sind 
+                	sie auch eine Ursache von Problemen und zusätzlicher 
+                	Arbeit.
+                </para>
 
               </caution>
 
@@ -4959,113 +5157,137 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <para><emphasis>Requirements</emphasis>. In an ideal 
-              world the vision document, use case diagrams, use case 
-              specifications and supplementary requirements 
-              specification would form the requirements for a 
-              project.</para>
+              <para>
+              	<emphasis>Anforderungen</emphasis>. In einer idealen Welt würden 
+              	das Visionsdokument, die Anwendungsfalldiagramme, die 
+              	Anwendungsfallbeschreibungen und die Spezifikation der 
+              	zusätzlichen Anforderungen die Anforderungen für ein Projekt 
+              	bilden. 
+              </para>
 
-              <para>For most market-led developments, where ownership 
-              of requirements is within the same business as the team 
-              who will do the development, this is now usually the 
-              case. The marketing department can learn use case based 
-              requirements capture and analysis to link to their 
-              customer facing activities.</para>
+              <para>
+              	Bei den meisten Marktführer-Entwicklungen, ist es gewöhnlich der 
+              	Fall, dass sich die Eigentumsrechte der Anforderungen im 
+              	gleichen Business befinden,	wie das Team, das die Entwicklung 
+              	durchführen wird. Die Marketingabteilung kann das Erfassen und 
+              	die Analyse der Anwendungsfallanforderungen erlernen, um ihre 
+              	kundenspezifischen Aktivitäten damit zu verbinden.
+              </para>
 
-              <para>However for external contract developments, 
-              customers may insist on a traditional <quote>list of 
-              features</quote> as the basis of the contract. Where this 
-              is the case, this section of the use case specification 
-              should link to the contract features that are covered by 
-              the use case.</para>
+              <para>
+              	Bei externen Vertragsentwicklungen jedoch, kann der Kunde auf 
+              	einer traditionellen <quote>Liste von Features</quote> als Basis 
+              	des Vertrages bestehen. Wo dies der Fall ist, sollte dieser 
+              	Abschnitt der Anwendungsfallspezifikation mit den vertraglich 
+              	festgelegten Features übereinstimmen, die durch den 
+              	Anwendungsfall abgedeckt werden.
+              </para>
 
-              <para>This is often done through a third party tool that 
-              can link documents, providing automated checking of 
-              coverage, in which case this section is not needed, or 
-              may be generated automatically.</para>
+              <para>
+              	Das wird oft mit Hilfe eines Third-Party-Werkzeuges ausgeführt, 
+              	das Dokumente verknüpfen kann und eine automatische Prüfung des 
+              	Geltungsbereiches enthält. In diesem Fall wird dieser Abschnitt 
+              	nicht benötigt oder kann automatisch generiert werden.
+              </para>
 
             </listitem>
 
           </itemizedlist>
 
-          <para>The final size of the use case specification will 
-          depend on the complexity of the use case. As a rule of thumb, 
-          most use cases take around 10-15 pages to specify, the bulk 
-          of which is alternate flows. If you are much larger than 
-          this, consider breaking the use case down. If you are much 
-          smaller consider whether the use case is addressing too small 
-          a chunk of behavior.</para>
+          <para>
+          	Die abschliessende Grösse der Anwendungsfallspezifikation hängt von 
+          	der Komplexität der Anwendungsfälle ab. Als Faustregel gilt, dass 
+          	die meisten Anwendungsfälle ca. 10-15 Seiten für die Spezifikation 
+          	benötigen, das meiste davon für die alternativen Abläufe. Wenn sie 
+          	sehr viel grösser sind, sollten Sie die Anwendungsfälle aufteilen. 
+          	Wenn sie sehr viel kleiner sind, betrachten Sie, ob der 
+          	Anwendungsfall einen zu kleinen Bereich des Verhaltens beschreibt.
+          </para>
 
           <sect3 id="s3.tut.basic_flow">
 
-            <title>Specifying the Basic Flow</title>
+            <title>Den Standardablauf spezifizieren</title>
 
-            <indexterm><primary>Basic Flow</primary><secondary>of Use 
-            Case</secondary></indexterm>
-            <indexterm><primary>Use Case</primary><secondary>Basic 
-            Flow</secondary></indexterm>
-            <para>All flows in a use case specification are linear&mdash;that 
-            is there is no conditional branching. Any choices in flows 
-            are handled by specifying another alternate flow that takes 
-            over at the choice point. It is important to remember we 
-            are specifying behavior here, not programming it.</para>
+            <indexterm><primary>Standardablauf</primary><secondary>von  
+            Anwendungsfällen</secondary></indexterm>
+            <indexterm><primary>Anwendungsfall</primary><secondary>
+            Standardablauf</secondary></indexterm>
+            <para>
+            	Alle Abläufe in einer Anwendungsfallspezifikation sind linear
+            	&mdash; d.h. es gibt keine bedingte Verzweigung. Jede Auswahl 
+            	im Ablauf wird durch einen anderen, nach dem Auswahlpunkt 
+            	kommenden alternativen Ablauf behandelt. Es ist wichtig, sich 
+            	daran zu erinnern, dass wir hier das Verhalten und nicht die 
+            	Programmierung spezifizieren.
+            </para>
 
-            <para>A flow is specified as a series of numbered steps. 
-            Each step must involve some interaction with an actor, or 
-            at least generate a change that is observable externally by 
-            an actor. Requirements capture should not be specifying 
-            hidden internal behavior of a system.</para>
+            <para>
+            	Ein Ablauf wird durch eine Reihe von numerierten Schritten 
+            	spezifiziert. Jeder Schritt muss einige Interaktionen mit einem 
+            	Akteur oder mindestens eine Änderung generieren, die durch 
+            	einen Akteur extern überwacht wird. Das Anforderungen erfassen 
+            	sollte nicht das versteckte interne Verhalten eines Systems 
+            	spezifizieren.
+            </para>
 
-            <para>For example we might give the following sequence of 
-            steps for the basic flow of the use case &quot;Withdraw 
-            Cash&quot; in our ATM example.</para>
+            <para>
+            	In unserem Geldautomatenbeispiel könnten wir im Anwendungsfall 
+            	<quote>Bargeld ausgeben</quote> die folgende Sequenz von 
+            	Schritten im Standardablauf haben:
+            </para>
 
             <orderedlist>
 
               <listitem>
 
-                <para>Customer indicates a receipt is required.</para>
+                <para>
+                	Der Kunde gibt an, dass eine Quittung erforderlich ist.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>Customer enters amount of cash required.</para>
+                <para>Der Kunde gibt die gewünschte Bargeldmenge ein.</para>
 
               </listitem>
 
               <listitem>
 
-                <para>ATM verifies with the central computer that the 
-                customer can make this withdrawal.</para>
+                <para>Der Geldautomat überprüft mit dem Zentralcomputer, dass 
+                der Kunde diese Auszahlung durchführen kann. </para>
 
               </listitem>
 
               <listitem>
 
-                <para>ATM dispenses cash to the customer.</para>
+                <para>Der Geldautomat gibt das Bargeld an den Kunden.</para>
 
               </listitem>
 
               <listitem>
 
-                <para>ATM issues receipt to customer.</para>
+                <para>Der Geldautomat gibt die Quittung an den Kunden aus.</para>
 
               </listitem>
 
             </orderedlist>
 
-            <para>Remember this is a sub-use case included in the main 
-            <quote>Use ATM</quote> use case, which will presumably 
-            handle checking of cards and PINs before invoking this 
-            included use case.</para>
+            <para>
+            	Zur Erinnerung: Dies ist ein Sub-Anwendungsfall der im Haupt-
+            	Anwendungsfall <quote>Geldautomat benutzen</quote> enthalten ist, 
+            	der voraussichtlich das Prüfen von Karten und PINs handhaben 
+            	wird, bevor dieser eingebundene Anwendungsfall aufgerufen wird.
+            </para>
 
             <note>
 
-              <para>The first step is not a condition. We take as our 
-              basic flow the case where the customer does want a 
-              receipt. The case where the customer does not want a 
-              receipt will be an alternative flow.</para>
+              <para>
+              	Der erste Schritt ist keine Bedingung. Wir nehmen als unseren 
+              	Standardablauf den Fall, wo der Kunden eine Quittung haben 
+              	möchte. Der Fall, wo der Kunde keine Quittung haben will, wird 
+              	ein alternativer Ablauf sein.
+              </para>
 
             </note>
 
@@ -5073,17 +5295,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3 id="s3.tut.alternate_flows">
 
-            <title>Specifying the Alternate Flows</title>
+            <title>Alternative Abläufe spezifizieren</title>
 
-            <indexterm><primary>Alternate Flows</primary><secondary>of 
-            Use Case</secondary></indexterm>
-            <indexterm><primary>Use Case</primary><secondary>Alternate 
-            Flows</secondary></indexterm>
-            <indexterm><primary>Alternative 
-            scenarios</primary></indexterm>
-            <para>This captures the alternative scenarios, as linear 
-            flows, by reference to the basic flow. Initially we just 
-            build a list of the alternate flows.</para>
+            <indexterm><primary>Alternative Abläufe</primary><secondary>von 
+            Anwendungsfällen</secondary></indexterm>
+            <indexterm><primary>Anwendungsfall</primary><secondary>Alternative 
+            Abläufe</secondary></indexterm>
+            <indexterm><primary>Alternative Szenarios</primary></indexterm>
+            <para>
+            	Dies erfasst die alternativen Szenarien, wie lineare Abläufe, 
+            	die durch den Standardablauf referenziert werden. Zu Beginn 
+            	erzeugen wir eine Liste der alternativen Abläufe.
+            </para>
 
             <orderedlist inheritnum="inherit" numeration="upperalpha">
 
@@ -5093,34 +5316,34 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                   <listitem>
 
-                    <para>Customer does not require a receipt.</para>
+                    <para>Der Kunde benötigt keine Quittung.</para>
 
                   </listitem>
 
                   <listitem>
 
-                    <para>Customer&apos;s account will not support the 
-                    withdrawal.</para>
+                    <para>Das Kundenkonto unterstützt keine Auszahlung.</para>
 
                   </listitem>
 
                   <listitem>
 
-                    <para>Communication to the central computer is 
-                    down.</para>
+                    <para>Die Kommunikation mit dem Zentralcomputer ist 
+                    unterbrochen.</para>
 
                   </listitem>
 
                   <listitem>
 
-                    <para>The customer cancels the transaction.</para>
+                    <para>Der Kunde unterbricht die Transaktion.</para>
 
                   </listitem>
 
                   <listitem>
 
-                    <para>The customer fails to take the dispensed 
-                    cash.</para>
+                    <para>
+                    	Der Kunde macht beim Annehmen des Bargeldes Fehler.
+                    </para>
 
                   </listitem>
 
@@ -5130,9 +5353,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             </orderedlist>
 
-            <para>Subsequently we flesh out each alternate flow, by 
-            reference to the basic flow. For example the first 
-            alternate flow might look like.</para>
+            <para>
+            	Nachfolgend arbeiten wir jeden alternativen Ablauf als 
+            	Referenz zum Standardablauf aus. Der erste alternative Ablauf 
+            	könnte zum Beispiel wie folgt aussehen:
+            </para>
 
             <orderedlist inheritnum="inherit" numeration="upperalpha">
 
@@ -5142,21 +5367,25 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
                   <listitem>
 
-                    <para>Customer does not require a receipt.</para>
+                    <para>Der Kunde benötigt keine Quittung.</para>
 
                     <orderedlist inheritnum="inherit" numeration="arabic">
 
                       <listitem>
 
-                        <para>At step 1 of the basic flow the customer 
-                        indicates they do not want a receipt.</para>
+                        <para>
+                        	In Schritt 1 des Standardablaufes sagen die Kunden, 
+                        	dass Sie keine Quittung benötigen.
+                        </para>
 
                       </listitem>
 
                       <listitem>
 
-                        <para>The basic flow proceeds from step 2 to 
-                        step 4, and step 5 is not used.</para>
+                        <para>
+                        	Der Standardablauf geht von Schritt 2 in Schritt 4, 
+                        	Schritt 5 wird nicht benötigt.
+                        </para>
 
                       </listitem>
 
@@ -5170,29 +5399,41 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             </orderedlist>
 
-            <para>The convention is to number the various alternate 
-            flows as A.1, A.2, A.3, etc. The steps within an alternate 
-            flow are then numbered from this. So the steps of the first 
-            alternate flow would be A.1.1, A.1.2, A.1.3, etc.</para>
+            <para>
+            	Die Konvention ist, dass die verschiedenen alternativen Abläufe 
+            	numeriert werden, wie A.1, A.2, A.3, usw. Die Schritte innerhalb 
+            	eines alternativen Ablaufes werden darauf aufbauend numeriert. 
+            	So dass die Schritte der ersten Alternative wie folgt lauten 
+            	würden: A.1.1, A.1.2, A.1.3, usw.
+            </para>
 
           </sect3>
 
           <sect3>
 
-            <title>Iterative Development of Use Case 
-            Specifications</title>
+            <title>
+            	Iterative Entwicklung der Anwendungsfallspezifikationen
+            </title>
 
-            <para>Iterative development will prioritize the use cases, 
-            and the first iterations will address the most 
-            important.</para>
+            <para>
+            	Die Iterative Entwicklung wird die die Anwendungsfälle 
+            	priorisieren und die erste Iteration wird die wichtigsten 
+            	adressieren.
+            </para>
 
-            <para>Early iterations will capture the basic flows of the 
-            most important use cases with only essential detail and 
-            list the headings of the main alternate flows.</para>
+            <para>
+            	Frühe Iterationen werden den Standardablauf der wichtigsten 
+            	Anwendungsfälle nur mit den grundlegenden Details erfassen und 
+            	die Überschriften der hauptsächlichen alternativen Abläufe 
+            	auflisten.
+            </para>
 
-            <para>Later iterations will address the remaining use 
-            cases, flesh out the steps on individual alternate flows 
-            and possibly provide more detail on individual steps.</para>
+            <para>
+            	Spätere Iterationen werden die verbleibenden Anwendungsfälle 
+            	adressieren, die Schritte der individuellen alternativen Abläufe 
+            	ausformulieren und wahrscheinlich mehr Details über die 
+            	individuellen Schritte enthalten.
+            </para>
 
           </sect3>
 
@@ -5200,97 +5441,116 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Supplementary Requirement Specification</title>
+          <title>Ergänzende Anforderungsspezifikation</title>
 
-          <indexterm><primary>Supplementary Requirement 
-          Specification</primary></indexterm>
-          <indexterm><primary>Non-functional 
-          requirements</primary></indexterm>
-          <indexterm><primary>Non-functional 
-          constraints</primary></indexterm>
-          <para>This captures the non-functional requirements or 
-          constraints placed on the system. Since use cases are 
-          inherently functional in nature, they cannot capture this 
-          sort of information.</para>
+          <indexterm><primary>Ergänzende Anforderungsspezifikation
+          </primary></indexterm>
+          <indexterm><primary>Nicht-funktionale Anforderungen
+          </primary></indexterm>
+          <indexterm><primary>Nicht-funktionale Randbedingungen
+          </primary></indexterm>
+          <para>
+          	Dies erfasst die nicht-funktionalen Anforderungen oder 
+          	Randbedingungen, die für das System gelten. Da Anwendungsfälle von 
+          	Natur aus inhärent funktional sind, können sie diese Art von 
+          	Information nicht aufnehmen.
+          </para>
 
           <note>
 
-            <para>Some analysts like to place non-functional 
-            requirements in a section at the end of each use case 
-            specification, containing the non-functional requirements 
-            relevant to the use case.</para>
+            <para>
+            	Einige Analytiker plazieren nicht-funktionale Anforderungen in 
+            	einem Abschnitt am Ende einer jeden Anwendungsfallspezifikation, 
+            	der die nicht-funktionalen, anwendungsfallbezogenen 
+            	Anforderungen enthält.
+            </para>
 
             <para>
-              This can cause some problems.
-              First key non-functional requirements (for example about
-              performance) may need to appear in many use cases and it is bad
-              practice to replicate information.
-              Secondly there are invariably some non-functional requirements
-              that are system wide and need a system wide document.
-              Hence my preference for a single supplementary requirements
-              specification.
+            	Dies kann einige Probleme verursachen. Der erste Punkt ist, dass 
+            	nicht-funktionale Anforderungen (zum Beispiel über die 
+            	Performance) in vielen Anwendungsfällen erscheinen muß und es 
+            	ist eine schlechte Praxis, Informationen zu replizieren.
+            	Zweitens gibt es einige invariable systemweite nicht-funktionale 
+            	Anforderungen, die ein systemweites Dokument erfordern.
+            	Daher meine Präferenz für eine einzige ergänzende 
+            	Anforderungsdokumentation.
             </para>
 
           </note>
 
-          <para>There should be a section for each of the main areas of 
-          non-functional requirements. The checklist provided by Ian 
-          Sommerville in his book <emphasis>Software 
-          Engineering</emphasis> (Third Edn, Addison-Wesley, 1989) is a 
-          useful guide.</para>
+          <para>
+        	Es sollte ein Abschnitt für jeden Hauptbereich der nicht-funktionalen 
+        	Anforderungen geben. Die Checkliste von Ian Sommerville in seinem 
+        	Buch <emphasis>Software Engineering</emphasis>	(Third Edition, 
+        	Addison-Wesley, 1989) ist eine hilfreiche Anleitung.
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><emphasis>Speed</emphasis>. Processor performance, 
-              user/event response times, screen refresh time.</para>
+              <para>
+              	<emphasis>Geschwindigkeit</emphasis>. Prozessorleistung, 
+              	Anwender-/Ereignis-Antwortzeiten, Bildauffrischungszeiten.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><emphasis>Size</emphasis>. Main memory (and 
-              possibly caches), disc capacity.</para>
+              <para>
+              	<emphasis>Grösse</emphasis>. Hauptspeicher (und mögliche 
+              	Zwischenspeicher), Plattenkapazität.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><emphasis>Ease of use</emphasis>. Training time, 
-              style and detail of help system.</para>
+              <para>
+              	<emphasis>Leichte Anwendbarkeit</emphasis>. Ausbildungszeit, 
+              	Stil und Details des Hilfesystems. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><emphasis>Reliability</emphasis>. Mean time to 
-              failure, probability of unavailability, rate of failure, 
-              availability.</para>
+              <para>
+              	<emphasis>Zuverlässigkeit</emphasis>. Durchschnittliche 
+              	Fehlerauftrittszeit, die Nichtverfügbarkeitswahrscheinlichkeit, 
+              	die Fehlerrate, die Verfügbarkeit.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><emphasis>Robustness</emphasis>. Time to restart 
-              after failure, percentage of events causing failure, 
-              probability of data corruption on failure.</para>
+              <para>
+              	<emphasis>Widerstandsfähigkeit</emphasis>. Wiederanlaufzeit 
+              	nach einem Fehler, Prozentsatz der Ereignisse, die Fehler 
+              	verursachen, die Wahrscheinlichkeit von Datenverlust bei einem 
+              	Fehler. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><emphasis>Portability</emphasis>. Percentage of 
-              target-dependent code/classes, number of target 
-              systems.</para>
+              <para>
+              	<emphasis>Portabilität</emphasis>. Prozentsatz von zielabhängigem 
+              	Code/Klassen, Anzahl der Zielsysteme. 
+              </para>
 
             </listitem>
 
           </itemizedlist>
 
-          <para>To this we should add sections on environment 
-          (temperature, humidity, lightening protection status) and 
-          standards compliance.</para>
+          <para>
+          	Dazu sollten wir Abschnitte über die Umgebung (Temperatur, 
+          	Feuchtigkeit, Blitzschutz) und Übereinstimmung mit Standards 
+          	hinzufügen.
+          </para>
 
         </sect2>
 
@@ -5298,145 +5558,197 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1 id="s1.argo_use_cases">
 
-        <title>Using Use Cases in ArgoUML</title>
+        <title>Anwendungsfälle in ArgoUML verwenden</title>
 
-        <para>ArgoUML allows you to draw use case diagrams. When you 
-        create a new project it has a use case diagram created by 
-        default, named <literal>use case diagram 1</literal>. Select 
-        this by button&nbsp;1 click on the diagram name in the explorer (the 
-        upper left quadrant of the user screen).</para>
+        <para>
+        	ArgoUML erlaubt es Ihnen Anwendungsfalldiagramme zu zeichnen. 
+        	Wenn Sie ein neues Projekt erstellen, ist ein Anwendungsfalldiagramm 
+        	standardmäßig mit dem Namen <literal>Anwendungsfalldiagramm 1
+        	</literal> angelegt. Wählen Sie diesen Diagrammnamen im Explorer 
+        	durch einen Klick mit der Taste&nbsp;1 aus (der obere linke 
+        	Quadrant des ArgoUML-Fensters).
+        </para>
 
-        <para>New use case diagrams can be created as needed through 
-        <literal>Create Diagram</literal> on the main menu bar or on 
-        the Create Diagram Toolbar. They are edited in the editing pane 
-        (the upper right quadrant of the user screen).</para>
+        <para>
+        	Neue Anwendungsfalldiagramme können wenn benötigt über <literal>
+        	Erzeuge Diagramm</literal> in der Menüzeile oder über die 
+        	Werkzeugleiste erstellt werden. Sie werden im Bearbeitungsfenster 
+        	(der obere rechte Quadrant des ArgoUML-Fensters) bearbeitet.
+        </para>
 
         <sect2>
 
-          <title>Actors</title>
+          <title>Akteure</title>
 
-          <indexterm><primary>Create 
-          New</primary><secondary>Actor</secondary></indexterm>
-          <indexterm><primary>Actor</primary></indexterm>
-          <para>To add an actor to the diagram use button&nbsp;1 click on 
-          the actor icon on the editing pane toolbar (
-          <guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center" fileref="images/icons/actor.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon>) 
-          and then button&nbsp;1 click at the location where you wish to 
-          place it. The actor can be moved subsequently by button&nbsp;1 
-          motion (i.e. button&nbsp;1 down over the actor to select it, move 
-          to the new position and button&nbsp;1 release to drop the actor in 
-          place.</para>
+          <indexterm><primary>Erstelle neuen</primary><secondary>Akteur
+          </secondary></indexterm>
+          <indexterm><primary>Akteur</primary></indexterm>
+          <para>
+          Um einen Akteur dem Diagramm hinzuzufügen, klicken Sie mit der 
+          Taste&nbsp;1 auf das Akteur-Symbol in der Werkzeugleiste des 
+          Bearbeitenfensters (
+          <guiicon>
+          	<inlinemediaobject>
+          		<imageobject>
+          			<imagedata align="center"
+          				fileref="images/icons/actor.gif" format="GIF" />
+          		</imageobject>
+          	</inlinemediaobject>
+          </guiicon>)
+          und dann klicken Sie mit der Taste&nbsp;1 an die Stelle, wo Sie ihn 
+          plazieren wollen. Der Akteur kann nachträglich durch eine Taste&nbsp;1-
+          Bewegung bewegt werden (z.B. über dem Akteur die Taste&nbsp;1 
+          herunterdrücken, um diesen zu markieren, ihn an die neue Position 
+          bewegen und die Taste&nbsp;1 loslassen, um den Akteur an diese Stelle 
+          zu bringen).	 
+          </para>
 
-          <para>Multiple actors can be added in one go, by using 
-          button&nbsp;1 double click on the actor icon. Each subsequent 
-          button&nbsp;1 click will drop an actor on the diagram. A button&nbsp;1 
-          click on the select icon (
-          <guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center" fileref="images/icons/select.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon>) 
-          will stop adding actors.</para>
+          <para>
+          Mehrere Akteure können in einem Schritt durch einen Doppelklick mit 
+          der Taste&nbsp;1 auf das Akteursymbol hinzugefügt werden. Jeder 
+          nachträgliche Taste&nbsp;1-Klick wird einen Akteur in das Diagramm 
+          bringen. Ein Klick mit der Taste&nbsp;1 auf das Auswahlsymbol (
+          <guiicon>
+          	<inlinemediaobject>
+          		<imageobject>
+          			<imagedata align="center"
+          				fileref="images/icons/select.gif" format="GIF" />
+          		</imageobject>
+          	</inlinemediaobject>
+          </guiicon>
+          ) wird das Hinzufügen der Akteure stoppen.
+          </para>
 
-          <para>The actors name is set in its property panel. First 
-          select the actor (if not already selected) on the editing 
-          pane using button&nbsp;1 click. Then click on the <literal>
-          Properties</literal> tab in the details pane. The name is 
-          entered in the name field, and will appear on the 
-          screen.</para>
+          <para>
+          	Der Name des Akteurs wird in seinem Eigenschaftsfenster vergeben. 
+          	Zuerst markieren Sie den Akteur (wenn nicht bereits markiert) im 
+          	Bearbeitungsfenster mit Hilfe des Taste&nbsp;1-Klick. Dann klicken 
+          	Sie auf das <literal>Eigenschaften</literal>-Register im 
+          	Detailfenster. Der Name wird im Feld Name eingegeben und wird am 
+          	Bildschirm erscheinen.
+          </para>
 
-          <para>As a shortcut, double button&nbsp;1 click on the name of the 
-          actor in the editing pane (or just typing on the keyboard 
-          when an actor is selected) will allow the name to be edited 
-          directly. This is a convenient way to enter a name for a new 
-          actor.</para>
+          <para>
+          	Als eine Abkürzung, die Ihnen erlaubt, den Namen direkt einzugeben, 
+          	führen Sie mit der Taste&nbsp;1 einen Doppelklick auf den Namen des 
+          	Akteurs im Bearbeitenfenster aus (oder geben Sie ihn einfach über 
+          	die Tastatur ein, wenn der Akteur markiert ist). Dies ist ein 
+          	komfortabler Weg, einen Namen für einen neuen Akteur einzugeben.
+          </para>
 
-          <para>Having created the actor, you will see it appear in the 
-          explorer (the upper left quadrant of the user screen). This 
-          shows all the model elements created within the UML design. A drop 
-          down at the top of the explorer controls the ordering of 
-          model elements in the explorer. The most useful are the <literal>
-          Package-centric</literal> (default) and <literal>
-          Diagram-centric</literal>. The latter shows model elements grouped 
-          by the diagram on which they appear.</para>
+          <para>
+          	Wenn sie einen Akteur erstellt haben, werden Sie sehen, dass er im 
+          	Exlorer (der obere linke Quadrant des ArgoUML-Fensters) erscheint. 
+          	Dieser zeigt alle im UML-Design erstellten Modellelemente. Eine 
+          	Kombinationsfeldliste am oberen Ende des Explorers beeinflusst die 
+          	Reihenfolge der Modellelemente im Explorer. Die nützlichsten sind 
+			<literal>Nach Paketen</literal> (Standard) und <literal>
+	        Nach Diagrammen</literal>. Das letztere gruppiert die Modellelemente 
+	        nach Diagrammen. 
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Use Cases</title>
+          <title>Anwendungsfälle</title>
 
-          <indexterm><primary>Create New</primary><secondary>Use 
-          Case</secondary></indexterm>
-          <indexterm><primary>Use Case</primary></indexterm>
-          <para>The procedure for adding use cases is the same as that 
-          for adding actors, but using the use case icon on the editing 
-          pane toolbar (<guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center" fileref="images/icons/use_case.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon>).</para>
+          <indexterm><primary>Erstelle Neue</primary><secondary>Anwendungsfälle
+          </secondary></indexterm>
+          <indexterm><primary>Anwendungsfall</primary></indexterm>
+          <para>
+          	Das Vorgehen, um Anwendungsfälle hinzuzufügen, ist das gleiche wie 
+          	für das Hinzufügen von Akteuren, allerdings indem das Anwendungsfall-
+          	Symbol im Bearbeitenfenster verwendet wird (
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/use_case.gif" format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	).
+          </para>
 
-          <para>By default use cases in ArgoUML do not display their 
-          extension points (for use in extend relationships). You can 
-          show the extension point compartment in one of two 
-          ways.</para>
+          <para>
+          	Standardmäßig zeigen Anwendungsfälle in ArgoUML nicht ihre 
+          	Erweiterungspunkte an (wird verwendet, um Beziehungen anzulegen). 
+          	Sie können die Erweiterungspunkte auf einen von zwei Wegen anzeigen.
+          </para>
 
           <orderedlist>
 
             <listitem>
 
-              <para>Select the use case in the editing pane with 
-              button&nbsp;1 click, then select the <literal>Style</literal> 
-              tab in the details pane and button&nbsp;1 click on the 
-              <literal>Display: Extension Points</literal> check 
-              box.</para>
+              <para>
+              	Markieren Sie den Anwendungsfall im Bearbeitenfenster mit einem 
+              	klick der Taste&nbsp;1 aus, dann markieren Sie das Register 
+              	<literal>Darstellung</literal> und klicken auf die Checkbox 
+              	<literal>Erweiterungspunkte</literal>.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para>Use button&nbsp;2 click over the use case in the editing 
-              pane to display a context-sensitive pop-up menu and from 
-              that choose <literal>Show/Show Extension Point 
-              Compartment</literal>.</para>
+              <para>
+              	Durch klicken mit der Taste&nbsp;2 auf dem Anwendungsfall im 
+              	Bearbeitenfenster erscheint ein kontext-sensitives Popup-Menü 
+              	und aus diesem wählen Sie <literal>Darstellung/
+              	Erweiterungspunkte anzeigen</literal> aus.
+              </para>
 
             </listitem>
 
           </orderedlist>
 
-          <para>The same approaches can be used to hide the extension 
-          point compartment.</para>
+          <para>
+          	Der gleiche Ansatz kann für das verstecken des 
+          	Erweiterungspunktbereiches verwendet werden.
+          </para>
 
           <sect3>
 
-            <title>Adding an Extension Point to a Use Case</title>
+            <title>
+            	Einem Anwendungsfall einen Erweiterungspunkt hinzufügen
+            </title>
 
-            <indexterm><primary>Create 
-            New</primary><secondary>Extension 
-            Point</secondary></indexterm>
-            <indexterm><primary>Extension Point</primary></indexterm>
-            <para>There are two ways to add an extension point to a use 
-            case.</para>
+            <indexterm><primary>Erstelle neuen</primary><secondary>
+            Erweiterungspunkt</secondary></indexterm>
+            <indexterm><primary>Erweiterungspunkt</primary></indexterm>
+            <para>
+            	Es gibt zwei Wege, einem Anwendungsfall einen Erweiterungspunkt 
+            	hinzuzufügen.
+            </para>
 
             <orderedlist>
 
               <listitem>
 
-                <para>Select the use case on the editing pane with 
-                button&nbsp;1 click. Then click on the <literal>Add 
-                Extension Point</literal> icon (
-                <guiicon><inlinemediaobject><imageobject>
-                <imagedata align="center"
-                 fileref="images/icons/extension_point.gif"
-                 format="GIF"/></imageobject></inlinemediaobject></guiicon>) 
-                on the toolbar, and a new extension point with default 
-                name and location will be added after any existing 
-                extension points.</para>
+                <para>
+                	Markieren Sie mit der Taste&nbsp;1 den Anwendungsfall im 
+                	Bearbeitenfenster. Dann klicken Sie in der Werkzeugleiste 
+                	auf das Symbol <literal>Neue Erweiterung</literal> (
+			 		<guiicon>
+			 			<inlinemediaobject>
+			 				<imageobject>
+			 					<imagedata align="center"
+			 						fileref="images/icons/extension_point.gif" format="GIF" />
+		 					</imageobject>
+						 	</inlinemediaobject>
+		 				</guiicon>
+	 				und ein neuer Erweiterungspunkt mit Standardnamen und -ort 
+	 				wird im Anschluss an die exisiterenden 
+	 				Erweiterungspunkte hinzugefügt.
+                </para>
 
                 <note>
 
-                  <para>The <literal>Add Extension Point</literal> icon 
-                  is grayed out and unusable until a use case is 
-                  selected.</para>
+                  <para>
+                  	Das Symbol <literal>Erweiterungspunkt hinzufügen</literal> 
+                  	ist inaktiv, bis ein Anwendungsfall markiert ist.
+				  </para>
 
                 </note>
 
@@ -5444,76 +5756,99 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <listitem>
 
-                <para>Select the use case on the editing pane with 
-                button&nbsp;1 click and then select its property tab in the 
-                details pane. A button&nbsp;2 click over the <literal>
-                Extension Points:</literal> field will bring up a 
-                context-sensitive pop-up menu. Select <literal>
-                Add</literal> to add a new extension point.</para>
+                <para>
+                	Markieren Sie den Anwendungsfall im Bearbeitenfenster mit 
+                	dem Taste&nbsp;1-Klick und dann wählen Sie das Register 
+                	Eigenschaften im Detailfenster aus. Ein Taste&nbsp;2-Klick 
+                	über dem Feld <literal>Erweiterungspunkt:</literal> wird 
+                	ein kontext-sensitives Popup-Menü öffnen. Markieren Sie 
+                	<literal>Hinzufügen</literal> aus, um einen neuen 
+                	Erweiterungspunkt hinzuzufügen.
+                </para>
 
-                <para>If any extension points already exist, they will 
-                be shown in this field on the property tab. The new 
-                extension point will be inserted immediately before the 
-                entry over which the pop-up menu was invoked. This 
-                ordering can be changed later by using the <literal>
-                Move Up</literal> and <literal>Move Down</literal> 
-                entries on the pop-up menu.</para>
+                <para>
+                	Wenn bereits ein Erweiterungspunkt existiert, werden Sie in 
+                	diesem Feld im Register Eigenschaften angezeigt. Der neue 
+                	Erweiterungspunkt wird unmittelbar vor dem Eintrag über dem 
+                	das Popup-Menü aufgerufen wurde eingefügt. Diese Reihenfolge 
+                	kann später durch die <literal>Nach oben</literal> und 
+                	<literal>Nach unten</literal>-Einträge im Popup-Menü 
+                	verändert werden.
+                </para>
 
               </listitem>
 
             </orderedlist>
 
-            <para>Whichever method is used, the new extension point is 
-            selected, and its property tab can be displayed in the 
-            details pane. The name and location of the extension point 
-            are free text, set in the corresponding fields of the 
-            property tab.</para>
+            <para>
+            	Welche Methode auch immer verwendet wird, der neue 
+            	Erweiterungspunkt wird markiert und sein Register Eigenschaften 
+            	kann im Detailfenster angezeigt werden. Der Name und der Ort 
+            	des Erweiterungspunktes sind Freitext, der die entsprechenden 
+            	Felder des Registers Eigenschaften setzt.
+            </para>
 
-            <para>An existing extension point can be edited from its 
-            property tab. The property tab can be reached in two 
-            ways.</para>
+            <para>
+            	Ein exisiterender Erweiterungspunkt kann in seinem Register 
+            	Eigenschaften bearbeitet werden. Das Register Eigenschaften 
+            	kann auf zwei Wegen erreicht werden.
+            </para>
 
             <orderedlist>
 
               <listitem>
 
-                <para>If the extension point compartment for the use 
-                case is displayed on the diagram, select the use case 
-                with button&nbsp;1 click and then select the extension point 
-                with a further button&nbsp;1 click. The property tab can 
-                then be selected in the details pane.</para>
+                <para>
+                	Wenn für den Anwendungsfall der Erweiterungspunkt-Bereich 
+                	im Diagramm angezeigt wird, markieren Sie den Anwendungsfall 
+                	mit dem Taste&nbsp;1-Klick und dann markieren Sie den 
+                	Erweiterungspunkt mit einem weiteren Taste&nbsp;1-Klick. 
+                	Das Register Eigenschaften kann dann im Detailfenster 
+                	ausgewählt werden.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>Otherwise select the use case and its property 
-                tab in the details pane. A button&nbsp;1 click on the 
-                desired entry in the <literal>Extension 
-                Points</literal> field will bring up the property tab 
-                for the extension point in the details pane.</para>
+                <para>
+                	Im anderen Fall markieren Sie den Anwendungsfall und sein 
+                	Register Eigenschaften im Detailfenster. Ein Taste&nbsp;1-
+                	Klick auf den gewünschten Eintrag im Feld <literal>
+                	Erweiterungspunkte</literal> wird das Register Eigenschaften 
+                	für den Erweiterungspunkt im Detailfenster zur Anzeige 
+                	bringen.
+                </para>
 
               </listitem>
 
             </orderedlist>
 
-            <para>The name and location fields of the extension point 
-            may then be edited.</para>
+            <para>
+            	Die Felder Name und Ort des Erweiterungspunktes können 
+            	bearbeitet werden.
+            </para>
 
-            <para>As a shortcut, where the extension point compartment 
-            is displayed, double click on the extension point allows 
-            text to be typed in directly. This is parsed to set name 
-            and location for the extension point.</para>
+            <para>
+            	Wenn der Erweiterungspunktbereich angezeigt wird, ist der 
+            	Doppelklick auf den Erweiterungspunkt eine Abkürzung und erlaubt 
+            	es Ihnen den Text direkt einzugeben. Dies wird analysiert, um 
+            	den Namen und den Ort für den Erweiterungspunkt zu setzen.
+            </para>
 
-            <para>Extension points may be deleted, or their ordering 
-            changed by using the button&nbsp;2 pop-up menu over the <literal>
-            Extension Points</literal> field in the use case property 
-            tab.</para>
+            <para>
+            	Erweiterungspunkte dürfen gelöscht oder deren Reihenfolge 
+            	mit Hilfe des Taste&nbsp;2-Popup-Menüs über dem Feld <literal>
+            	Erweiterungspunkte</literal> im Register Eigenschaften des 
+            	Anwendungsfalles geändert werden.
+            </para>
 
-            <para>Having created an extension point, it will appear in 
-            the explorer (upper left quadrant of the user screen). 
-            Extension points are always shown in a sub-tree beneath 
-            their owning use case.</para>
+            <para>
+            	Nachdem Sie einen Erweiterungspunkt erstellt haben, wird er im 
+            	Explorer (oberer linker Quadrant des ArgoUML-Fensters) 
+            	erscheinen. Erweiterungspunkte werden immer als Sub-Baum ihres 
+            	eigenen Anwendungsfalles dargestellt. 
+            </para>
 
           </sect3>
 
@@ -5521,7 +5856,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Associations</title>
+          <title>Assoziationen</title>
 
           <indexterm><primary>Create 
           New</primary><secondary>Association in a Use Case 
