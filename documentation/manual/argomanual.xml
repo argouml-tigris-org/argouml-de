@@ -7163,27 +7163,27 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1 id="s1.umlstatediags">
 
-        <title>Zustandsübergangsdiagramme (Noch zu beschreiben)</title>
+        <title>Zustandsdiagramme (Noch zu beschreiben)</title>
 
         <remark>Noch zu beschreiben...</remark>
         <sect2>
 
-          <title>Das Zustandsübergangsdiagramm (Noch zu beschreiben)</title>
+          <title>Das Zustandsdiagramm (Noch zu beschreiben)</title>
 
           <remark>
-          	Die Zustandsübergangsdiagrammarten (Moore, Mealy); Hierarchische 
+          	Die Zustandsdiagrammarten (Moore, Mealy); Hierarchische 
           	Diagramme. Noch zu beschreiben...
           </remark>
         </sect2>
 
         <sect2>
 
-          <title>Erweiterte Zustandsübergangsdiagramme (Noch zu beschreiben)</title>
+          <title>Erweiterte Zustandsdiagramme (Noch zu beschreiben)</title>
 
           <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Hierarchische Zustandsübergangsdiagramme (Noch zu beschreiben 
+            <title>Hierarchische Zustandsdiagramme (Noch zu beschreiben 
             )</title>
 
             <remark>Noch zu beschreiben...</remark>
@@ -7195,16 +7195,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1 id="s1.argostatediags">
 
-        <title>Zustandsübergangsdiagramme in ArgoUML</title>
+        <title>Zustandsdiagramme in ArgoUML</title>
 
         <sect2>
 
-          <title>Zustandsübergangsdiagramme (Noch zu beschreiben)</title>
+          <title>Zustandsdiagramme (Noch zu beschreiben)</title>
 
           <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Ein Zustandsübergangsdiagramm erzeugen</title>
+            <title>Ein Zustandsdiagramm erzeugen</title>
 
             <para>
             	Markieren Sie eine Klasse, dann können Sie ein Zustandsdiagramm 
@@ -7222,17 +7222,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Einen zusammengesetzten Zustandsübergang editieren</title>
+            <title>Einen zusammengesetzten Zustands editieren</title>
 
             <para>
-            	Wenn Sie einen zusammengesetzten Zustandsübergang editieren, 
+            	Wenn Sie einen zusammengesetzten Zustands editieren, 
             	wie erhalten Sie Zugriff auf den zusammengesetzten 
-            	Zustandsübergang?
+            	Zustands?
             </para>
 
             <para>
             	Die Antwort ist, die Klasse markieren und dann das 
-            	Zustandsübergangdiagramm erstellen.
+            	Zustandsdiagramm erstellen.
             </para>
 
           </sect3>
@@ -7255,12 +7255,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Erweiterte Zustandsübergangsdiagramme (Noch zu beschreiben)</title>
+          <title>Erweiterte Zustandsdiagramme (Noch zu beschreiben)</title>
 
           <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Hierarchische Zustandsübergangsdiagramme ( 
+            <title>Hierarchische Zustandsdiagramme ( 
             Noch zu beschreiben)</title>
 
             <remark>Noch zu beschreiben...</remark>
@@ -7370,7 +7370,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>System-Zustandsübergangsdiagramme (Noch zu beschreiben)</title>
+          <title>System-Zustandsdiagramme (Noch zu beschreiben)</title>
 
           <remark>Noch zu beschreiben...</remark>
         </sect2>
@@ -7391,41 +7391,40 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       <title>Design</title>
 
       <para>
-        We now have the problem we are trying to solve specified 
-        in the language of a putative solution.
-        In the Design Phase, we 
-        construct all the details of that solution.
+      	Wir haben jetzt das Problem, das wir in der Sprache der vermeintlichen 
+      	Lösung zu lösen versuchen. 
+      	In der Designphase konstruieren wir alle Details dieser Lösung.
       </para>
 
       <para>
-        The blurred boundary between Analysis and Design is 
-        reflected in their use of many of the same UML tools.
-        In this chapter we will mostly be reusing UML technology we have 
-        already met once.
-        The big step is casting everything into 
-        concrete terms. We move from the abstract concepts of analysis 
-        to their concrete realization.
+      	Die verwischten Grenzen zwischen der Analyse und dem Design zeigt sich 
+      	hier auch durch die gemeinsame Verwendung derselben UML-Werkzeuge.
+      	In diesem Kapitel werden wir sehr häufig die UML-Technologie verwenden, 
+      	die wir bereits kennengelernt haben.
+      	Der grosse Schritt ist das Umwandeln in konkrete Ausdrücke. Wir bewegen 
+      	uns von den abstrakten Konzepten der Analyse hin zu deren konkreten 
+      	Realisierung.
       </para>
 
       <para>
-        Once again the <emphasis>recursive</emphasis>, and 
-        <emphasis>iterative</emphasis> nature of our process means we 
-        will come back to the Design phase many times in the 
-        future.
+      	Erneut bedeutet die <emphasis>rekursive</emphasis> und 
+        <emphasis>iterative</emphasis> Natur unseres Prozesses, dass wir in 
+        Zukunft viele Male zurück in die Designphase kommen. 
       </para>
 
       <sect1>
 
-        <title>The Design Process (To be written)</title>
+        <title>Der Designprozess (Noch zu beschreiben)</title>
 
         <para>
-          The design process extends the modeling effort beyond the business
-          concerns and into the solutions space.
-          It is during this effort that you decide whether you are going to use
-          Java, C++, J2EE, CORBA, SOAP, Dial up line, internet connection
-          dedicated line, XML, etc.
-          Many of these decisions will impact directly the PSM model, others
-          may only be reflected in the documents produced.
+        	Der Designprozess erweitert den Modellierungsaufwand jenseits der 
+        	Geschäftsanforderungen in Richtung des Lösungsraumes.
+        	Während dieser Arbeit entscheiden Sie, ob Sie Java, C++, J3EE, CORBA, 
+        	SOAP, Wählleitungen, Internetverbindungen, Standleitungen, XML, usw. 
+        	verwenden werden.
+        	Viele dieser Entscheidungen werden das PSM-Modell direkt beeinflussen,
+        	andere widerum werden sich nur in den erzeugten Dokumenten 
+        	wiederspiegeln.
         </para>
 
         <para>
@@ -7434,227 +7433,158 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Class, Responsibilities, and Collaborators (CRC) Cards</title>
+          <title>Klasse, Verantwortlichkeiten und Zusammenhänge (CRC) Karten</title>
           <para>
-            Strength of CRC cards during Design
+          	Die Stärken der CRC-Karten während des Design
             <itemizedlist>
-              <listitem><para>Spreading Objet-Oriented Design Expertise</para></listitem>
+              <listitem><para>Verbreitern der objektorientierten Design-Expertise</para></listitem>
               <listitem><para>Design Reviews</para></listitem>
-              <listitem><para>Framework for Implementation</para></listitem>
-              <listitem><para>Informal Notation</para></listitem>
-              <listitem><para>Choice of supporting software components</para></listitem>
-              <listitem><para>Performance Requirements</para></listitem>
+              <listitem><para>Framework die Implementierung</para></listitem>
+              <listitem><para>Informelle Notation</para></listitem>
+              <listitem><para>Auswahl der unterstützenden Softwarekomponenten</para></listitem>
+              <listitem><para>Performance-Anforderungens</para></listitem>
             </itemizedlist>
           </para>
 
           <para>
-            In this phase developers replace some of the domain experts
-            in the group, but there should always be at least one domain
-            expert in the group.
+          	In dieser Phase ersetzen die Entwickler einige der fachlichen 
+          	Experten in der Gruppe. Es sollte aber immer mindestens ein 
+          	fachlicher Experte in der Gruppe verbleiben.
           </para>
 
           <para>
-            The focus of the group moves from what is to be done to
-            how to do it.
-            The classes from the solution domain are added to
-            those defined in the analysis phase.
-            Think about what classes are needed to make the system work.
-            Do you need a List class to hold objects?
-            Do you need classes to handle exceptions?
-            Do you need wrapper classes for other subsystems?
-            New classes that are looked for in this part, are classes
-            that support the implementation of the system.
+          	Der Fokus der Gruppe bewegt sich von der Frage was zu tun ist hin zu 
+          	der Frage wie es zu tun ist.
+          	Der Klassen aus dem Lösungsbereich werden denen der Analysephase 
+          	hinzugefügt. Es wird darüber nachgedacht, welche Klassen werden 
+          	benötigt, damit das System arbeitet.
+          	Benötigen Sie eine Listenklasse, die Objekte beinhaltet?
+          	Benötigen Sie Klassen, die Ausnahmen behandeln?
+          	Benötigen Sie Wrapperklassen für andere Subsysteme?
+          	In diesem Abschnitt wird nach neuen Klassen gesucht, nach Klassen, 
+          	die die Implementierung des Systems unterstützen.
           </para>
 
           <para>
-            During the design phase the distinction between class and object
-            becomes important.
-            Think about the objects in your scenarios.
-            Who creates the objects?
-            What happens when it is created and destroyed?
-            What is the lifetime of the object vs. the lifetime of the
-            information held be the object?
+          	Während der Designphase wird der Unterschied zwischen Klasse und 
+          	Objekt wichtig.
+          	Denken Sie über die Objekte in Ihren Szenarien nach.
+          	Wer erzeugt die Objekte?
+          	Was passiert, wenn sie erzeugt und gelöscht werden?
+          	Wie ist die Lebensdauer des Objektes im Gegensatz zur Lebensdauer 
+          	der Information, die durch das Objekt gehalten wird.
           </para>
 
           <para>
-            Now is the time to look at what information the objects hold
-            compared to what is requested from other classes or computed
-            on the fly.
-            Use the back of the card to record the attributes found for
-            the classes.
-            Break you responsibilities into subresponsibilities and list the
-            subresponsibilities indented under the main responsibilities.
-            Move the collaborators next to the subresponsibilities
-            that use them.
+          	Jetzt ist es an der Zeit sich anzusehen, welche Informationen die 
+          	Objekte halten, verglichen mit den von anderen Klassen angeforderten 
+          	oder berechneten Informationen.
+          	Benutzen Sie die Rückseite der Karte, um die gefundenen Attribute 
+          	für diese Klassen aufzuschreiben.
+          	Teilen Sie die Verantwortlichkeiten in Sub-Verantwortlichkeiten auf 
+          	und listen Sie die Sub-Verantwortlichkeiten unter der 
+          	Hauptverantwortlichkeit eingerückt auf.
+          	Verschieben Sie die dafür notwendigen Klassen zu den 
+          	Verantwortlichkeiten die sie nutzen.
+^          </para>
+
+          <para>
+          	Hinter der Kollaboratorklasse listen Sie auf Ihrer Karte die 
+          	Verantwortlichkeit der in dieser Zusammenarbeit verwendeten Klasse 
+          	auf. Hinter den kollaborierenden Verantwortlichkeiten Ihrer Karte 
+          	listen Sie die durch die kollaborierenden Objekte zurückgelieferten 
+          	Daten in Klammern auf.
           </para>
 
           <para>
-            After the Collaborator class on your card list the responsibility
-            of the used class that is used in the collaboration.
-            After the collaborating responsibilities on your cards, list the
-            data passed back by the collaborating object in parenthesis.
-          </para>
-
-          <para>
-            Redo the scenarios you did in the analysis phase, but know take
-            into consideration all of the design heuristics discussed.
-            Make up your own scenarios and try them.
+          	Spielen Sie die Szenarien der Analysephase erneut durch, beachten 
+          	Sie dabei aber alle Erwägungen der diskutierten Design-Heuristiken.
+          	Nehmen Sie Ihre eigenen Szenarien und versuchen Sie es.
           </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Package Diagram (To be written)</title>
+          <title>Paketdiagramm (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Realization Class Diagrams (To be written)</title>
+          <title>Realisierungs-Klassendiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Sequence Diagrams and Collaboration Diagrams (To be 
-          written)</title>
+          <title>Sequenz- und Kollaborationsdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Statechart Diagrams and Activity Diagrams (To be 
-          written)</title>
+          <title>Zustands- und Aktivitätsdiagramme ( 
+          Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Deployment Diagram (To be written)</title>
+          <title>Verteilungsdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Documents (To be written)</title>
+          <title>Dokumente (Noch zu beschreiben)</title>
 
-          <remark>System Architecture. To be written...</remark>
+          <remark>System Architektur. Noch zu beschreiben...</remark>
         </sect2>
 
       </sect1>
 
       <sect1>
 
-        <title>Package Diagrams (To be written)</title>
+        <title>Paketdiagramme (Noch zu beschreiben)</title>
 
-        <remark>To be written...</remark>
+        <remark>Noch zu beschreiben...</remark>
         <sect2>
 
-          <title>The Package Diagram (To be written)</title>
+          <title>Das Paketdiagramm (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Advanced Package Diagrams (To be written)</title>
+          <title>Erweiterte Paketdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Subpackages (To be written)</title>
+            <title>Subpakete (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
           <sect3>
 
-            <title>Adding DataTypes (To be written)</title>
+            <title>Datentypen hinzufügen (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
           <sect3>
 
-            <title>Adding Stereotypes (To be written)</title>
+            <title>Stereotypen hinzufügen (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
-          </sect3>
-
-        </sect2>
-
-      </sect1>
-
-      <sect1>
-
-        <title>Creating Package Diagrams in ArgoUML</title>
-
-        <sect2>
-
-          <title>Packages</title>
-
-          <remark>How to work out what goes in packages. To be 
-          written...</remark>
-          <sect3>
-
-            <title>Subpackages (To be written)</title>
-
-            <remark>To be written...</remark>
-          </sect3>
-
-        </sect2>
-
-        <sect2>
-
-          <title>Relationships between packages (To be written)</title>
-
-          <remark>To be written...</remark>
-          <sect3>
-
-            <title>Dependency (To be written)</title>
-
-            <remark>To be written...</remark>
-          </sect3>
-
-          <sect3>
-
-            <title>Generalization (To be written)</title>
-
-            <remark>To be written...</remark>
-          </sect3>
-
-          <sect3>
-
-            <title>Realization and Abstraction (To be written)</title>
-
-            <remark>To be written...</remark>
-          </sect3>
-
-        </sect2>
-
-        <sect2>
-
-          <title>Advanced Package Features (To be written)</title>
-
-          <remark>To be written...</remark>
-          <sect3>
-
-            <title>Creating New Datatypes (To be written)</title>
-
-            <remark>To be written...</remark>
-          </sect3>
-
-          <sect3>
-
-            <title>Creating New Stereotypes (To be written)</title>
-
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
@@ -7663,40 +7593,69 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title>More on Class Diagrams (To be written)</title>
+        <title>Paketdiagramme in ArgoUML erstellen</title>
 
-        <remark>To be written...</remark>
         <sect2>
 
-          <title>The Class Diagram (To be written)</title>
+          <title>Pakete</title>
 
-          <remark>To be written...</remark>
+          <remark>
+          	Ausarbeiten, was in Pakete kommt. Noch zu beschreiben...
+          </remark>
           <sect3>
 
-            <title>Class Attributes (To be written)</title>
+            <title>Subpakete (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
-          </sect3>
-
-          <sect3>
-
-            <title>Class Operations (To be written)</title>
-
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
 
         <sect2>
 
-          <title>Advanced Class Diagrams (To be written)</title>
+          <title>Beziehungen zwischen Paketen (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Realization and Abstraction (To be written)</title>
+            <title>Abhängigkeit (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
+          </sect3>
+
+          <sect3>
+
+            <title>Generalisierung (Noch zu beschreiben)</title>
+
+            <remark>Noch zu beschreiben...</remark>
+          </sect3>
+
+          <sect3>
+
+            <title>Realisierung und Abstraktion (Noch zu beschreiben)</title>
+
+            <remark>Noch zu beschreiben...</remark>
+          </sect3>
+
+        </sect2>
+
+        <sect2>
+
+          <title>Erweiterte Paketeigenschaften (Noch zu beschreiben)</title>
+
+          <remark>Noch zu beschreiben...</remark>
+          <sect3>
+
+            <title>Neue Datentypen erstellen (Noch zu beschreiben)</title>
+
+            <remark>Noch zu beschreiben...</remark>
+          </sect3>
+
+          <sect3>
+
+            <title>Neue Stereotypen erstellen (Noch zu beschreiben)</title>
+
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
@@ -7705,120 +7664,194 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title>More on Class Diagrams in ArgoUML (To be written)</title>
+        <title>Mehr über Klassendiagramme (Noch zu beschreiben)</title>
 
+        <remark>Noch zu beschreiben...</remark>
         <sect2>
 
-          <title>Classes (To be written)</title>
+          <title>Das Klassendiagramm (Noch zu beschreiben)</title>
 
-          <remark>More on identifying classes from existing materials 
-          and use of stereotypes. To be written...</remark>
-        </sect2>
-
-        <sect2>
-
-          <title>Class Attributes and Operations (To be written)</title>
-
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Class Attributes (To be written)</title>
+            <title>Klassenattribute (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
           <sect3>
 
-            <title>Class Operations (To be written)</title>
+            <title>Klassenoperationen (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
 
         <sect2>
 
-          <title>Advanced Class Features</title>
+          <title>Erweiterte Klassendiagramme (Noch zu beschreiben)</title>
+
+          <remark>Noch zu beschreiben...</remark>
+          <sect3>
+
+            <title>Realisierung und Abstraktion (Noch zu beschreiben)</title>
+
+            <remark>Noch zu beschreiben...</remark>
+          </sect3>
+
+        </sect2>
+
+      </sect1>
+
+      <sect1>
+
+        <title>Mehr über Klassendiagramme in ArgoUML (Noch zu beschreiben)</title>
+
+        <sect2>
+
+          <title>Klassen (Noch zu beschreiben)</title>
+
+          <remark>
+          	Mehr über das Identifizieren von Klassen aus existierendem Material 
+          	und der Gebrauch von Stereotypen. Noch zu beschreiben...
+          </remark>
+        </sect2>
+
+        <sect2>
+
+          <title>Klassenattribute und -operationen (Noch zu beschreiben)</title>
+
+          <remark>Noch zu beschreiben...</remark>
+          <sect3>
+
+            <title>Klassenattribute (Noch zu beschreiben)</title>
+
+            <remark>Noch zu beschreiben...</remark>
+          </sect3>
 
           <sect3>
 
-            <title>Operations on Interfaces</title>
+            <title>Klassenoperationen (Noch zu beschreiben)</title>
+
+            <remark>Noch zu beschreiben...</remark>
+          </sect3>
+
+        </sect2>
+
+        <sect2>
+
+          <title>Erweiterte Klasseneigenschaften</title>
+
+          <sect3>
+
+            <title>Operationen bei Schnittstellen</title>
 
             <sect4>
 
-              <title>Interfaces that extend interfaces</title>
+              <title>Schnittstellen, die Schnittstellen erweitern</title>
 
-              <para>Add a unnamed interface to the current classdiagram 
-              by single-clicking on the interface icon in the tool bar 
-              and then clicking at the diagram pane (see 
-              <xref linkend="fig.tut.iftool"/>).</para>
+              <para>
+              	Durch einfaches Klicken auf das Schnittstellensymbol in der 
+              	Werkzeugleiste und anschliessendem klicken in das 
+              	Diagrammfenster fügen Sie dem aktuellen Klassendiagramm eine 
+              	unbenannte Schnittstelle hinzu (siehe 
+	            <xref linkend="fig.tut.iftool"/>).
+              </para>
 
               <figure float="1" id="fig.tut.iftool">
 
-                <title>Selecting the Interface tool</title>
+                <title>Markieren des Schnittstellenwerkzeuges</title>
 
-                <screenshot><mediaobject><imageobject>
-                <imagedata align="center"
-                 fileref="images/tutorial/iftool.gif"
-                 format="GIF"/></imageobject></mediaobject></screenshot>
+                <screenshot>
+                	<mediaobject>
+                		<imageobject>
+                			<imagedata align="center"
+                				fileref="images/tutorial/iftool.gif" format="GIF" />
+                		</imageobject>
+                	</mediaobject>
+                </screenshot>
               </figure>
 
-              <para>Then double click on the interfaces name field to 
-              change it&apos;s name as shown in 
-              <xref linkend="fig.tut.if"/>.</para>
+              <para>
+              	Dann führen Sie einen Doppelklick auf das Namensfeld der 
+              	Schnittstelle aus, um dessen Namen wie im Bild 
+              	<xref linkend="fig.tut.if"/> gezeigt zu ändern.
+              </para>
 
               <figure float="1" id="fig.tut.if">
 
-                <title>Interface model element on the Class Diagram</title>
+                <title>Schnittstelle im Klassendiagramm</title>
 
-                <screenshot><mediaobject><imageobject>
-                <imagedata align="center"
-                 fileref="images/tutorial/if.gif"
-                 format="GIF"/></imageobject></mediaobject></screenshot>
+                <screenshot>
+                	<mediaobject>
+                		<imageobject>
+                			<imagedata align="center"
+                				fileref="images/tutorial/if.gif" format="GIF" />
+                		</imageobject>
+                	</mediaobject>
+                </screenshot>
               </figure>
 
-              <para>and type a name for it (like <literal>
-              TestInterface</literal> in this case). Press 
-              <quote>Enter</quote> when the name is complete. (You 
-              could also enter the name by going to the Properties Tab 
-              in the Details Pane after adding the interface.)</para>
+              <para>
+				Geben Sie den Namen ein (z.B. <literal>TestSchnittstelle</literal> 
+				in diesem Fall). Drücken Sie <quote>Enter</quote>, wenn der 
+				Name vollständig ist. (Sie können den Namen auch ändern, indem 
+				Sie in das Eigenschaftsregister im Detailfenster nach dem 
+				Hinzufügen der Schnittstelle gehen.) 
+			  </para>
 
-              <para>Add another interface with a different by repeating 
-              the last 2 steps. Then single-click on the Generalization 
-              icon in the tool bar as shown in 
-              <xref linkend="fig.tut.generalize"/>.</para>
+              <para>
+              	Fügen Sie eine weitere Schnittstelle hinzu, indem Sie die letzten 
+              	beiden Schritte wiederholen. Dann klicken Sie auf das 
+              	Generalisierungssymbol in der Werkzeugleiste wie in Bild 
+              	<xref linkend="fig.tut.generalize"/> dargestellt.
+              </para>
 
               <figure float="1" id="fig.tut.generalize">
 
-                <title>Generalization on the Class Diagram tool 
-                bar</title>
+                <title>Generalisierung in der Werkzeugleiste des 
+                Klassendiagrammes</title>
 
-                <screenshot><mediaobject><imageobject>
-                <imagedata align="center"
-                 fileref="images/tutorial/generalize.gif"
-                 format="GIF"/></imageobject></mediaobject></screenshot>
+                <screenshot>
+                	<mediaobject>
+                		<imageobject>
+                			<imagedata align="center"
+                				fileref="images/tutorial/generalize.gif"
+                				format="GIF" />
+                		</imageobject>
+                	</mediaobject>
+                </screenshot>
               </figure>
 
-              <para>move the mouse pointer to the subinterface, press 
-              the left mouse button and drag the generalization to the 
-              superinterface, where you release the mouse button. 
-              Figure <xref linkend="fig.tut.ifgen"/> shows how your 
-              diagram should look now.</para>
+              <para>
+              	Bewegen Sie den Mauszeiger auf die Subschnittstelle, drücken Sie 
+              	die linke Maustaste und ziehen Sie die Generalisierung auf die 
+              	Superschnittstelle, indem Sie die Maustaste loslassen. Bild 
+				<xref linkend="fig.tut.ifgen"/> zeigt, wie Ihr Diagramm jetzt 
+				aussehen sollte. 
+              </para>
 
               <figure float="1" id="fig.tut.ifgen">
 
-                <title>Generalization between two Interfaces.</title>
+                <title>Generalisierung zwischen zwei Schnittstellen.</title>
 
-                <screenshot><mediaobject><imageobject>
-                <imagedata align="center"
-                 fileref="images/tutorial/ifgen.gif"
-                 format="GIF"/></imageobject></mediaobject></screenshot>
+                <screenshot>
+                	<mediaobject>
+                		<imageobject>
+                			<imagedata align="center"
+                				fileref="images/tutorial/ifgen.gif" format="GIF" />
+                		</imageobject>
+                	</mediaobject>
+                </screenshot>
               </figure>
 
-              <para>By clicking on the subinterface and the source tab 
-              properties pane, and then selecting Java Notation for the 
-              source tab, you can see that the interface actually 
-              extends it&apos;s superinterface.</para>
+              <para>
+              	Durch klicken auf die Subschnittstellen und das Sourceregister 
+              	und anschliessende Auswahl der Javanotation für das 
+              	Sourceregister können Sie sehen, dass die Schnittstelle nun 
+              	seine Superschnittstelle erweitert.
+              </para>
 
             </sect4>
 
@@ -7826,9 +7859,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title>Stereotypes (To be written)</title>
+            <title>Stereotypen (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
@@ -7837,174 +7870,174 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title>Sequence and Collaboration Diagrams (To be 
-        written)</title>
+        <title>Sequenz- und Kollaborationsdiagramme ( 
+        Noch zu beschreiben)</title>
 
         <note>
 
-          <para>Sequence diagrams does not work in ArgoUML version 
-          0.14.</para>
+          <para>Sequenzdiagramme funktionieren in der ArgoUML-Version 
+          0.14 nicht.</para>
 
         </note>
 
-        <remark>To be written...</remark>
+        <remark>Noch zu beschreiben...</remark>
         <sect2>
 
-          <title>More on the Sequence Diagram (To be written)</title>
+          <title>Mehr über das Sequenzdiagramm (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>The Collaboration Diagram (To be written)</title>
+          <title>Das Kollaborationsdiagramm (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Messages (To be written)</title>
+            <title>Nachrichten (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
           <sect3>
 
-            <title>Actions (To be written)</title>
+            <title>Aktionen (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
-          </sect3>
-
-        </sect2>
-
-        <sect2>
-
-          <title>Advanced Collaboration Diagrams (To be written)</title>
-
-          <remark>To be written...</remark>
-        </sect2>
-
-      </sect1>
-
-      <sect1>
-
-        <title>Creating Collaboration Diagrams in ArgoUML (To be 
-        written)</title>
-
-        <sect2>
-
-          <title>Collaboration Diagrams (To be written)</title>
-
-          <remark>To be written...</remark>
-        </sect2>
-
-        <sect2>
-
-          <title>Messages (To be written)</title>
-
-          <remark>To be written...</remark>
-          <sect3>
-
-            <title>Actions (To be written)</title>
-
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
 
         <sect2>
 
-          <title>Advanced Collaboration Diagrams (To be written)</title>
+          <title>Erweiterte Kollaborationsdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
       </sect1>
 
       <sect1>
 
-        <title>Statechart Diagrams (To be written)</title>
+        <title>Kollaborationsdiagramme in ArgoUML erstellen ( 
+        Noch zu beschreiben)</title>
 
-        <remark>To be written...</remark>
         <sect2>
 
-          <title>The Statechart Diagram (To be written)</title>
+          <title>Kollaborationsdiagramme (Noch zu beschreiben)</title>
 
-          <remark>More on this. To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Advanced Statechart Diagrams (To be written)</title>
+          <title>Nachrichten (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Actions (To be written)</title>
+            <title>Aktionen (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
+          </sect3>
+
+        </sect2>
+
+        <sect2>
+
+          <title>Erweiterte Kollaborationsdiagramme (Noch zu beschreiben)</title>
+
+          <remark>Noch zu beschreiben...</remark>
+        </sect2>
+
+      </sect1>
+
+      <sect1>
+
+        <title>Zustandsdiagramme (Noch zu beschreiben)</title>
+
+        <remark>Noch zu beschreiben...</remark>
+        <sect2>
+
+          <title>Das Zustandsdiagramm (Noch zu beschreiben)</title>
+
+          <remark>Mehr darüber.Noch zu beschreiben...</remark>
+        </sect2>
+
+        <sect2>
+
+          <title>Erweiterte Zustandsdiagramme (Noch zu beschreiben)</title>
+
+          <remark>Noch zu beschreiben...</remark>
+          <sect3>
+
+            <title>Aktionen (Noch zu beschreiben)</title>
+
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
           <sect3>
 
-            <title>Transitions (To be written)</title>
+            <title>Transitionen (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
             <sect4>
 
-              <title>Triggers (To be written)</title>
+              <title>Trigger (Noch zu beschreiben)</title>
 
-              <remark>To be written...</remark>
+              <remark>Noch zu beschreiben...</remark>
             </sect4>
 
             <sect4>
 
-              <title>Guards (To be written)</title>
+              <title>Wächter (Noch zu beschreiben)</title>
 
-              <remark>To be written...</remark>
+              <remark>Noch zu beschreiben...</remark>
             </sect4>
 
             <sect4>
 
-              <title>Effectss (To be written)</title>
+              <title>Effekte (Noch zu beschreiben)</title>
 
-              <remark>To be written...</remark>
-            </sect4>
-
-          </sect3>
-
-          <sect3>
-
-            <title>Pseudo States (To be written)</title>
-
-            <remark>To be written...</remark>
-            <sect4>
-
-              <title>Junction and Choice (To be written)</title>
-
-              <remark>To be written...</remark>
-            </sect4>
-
-            <sect4>
-
-              <title>Fork and Join (To be written)</title>
-
-              <remark>To be written...</remark>
+              <remark>Noch zu beschreiben...</remark>
             </sect4>
 
           </sect3>
 
           <sect3>
 
-            <title>Hierarchical State Machines (To be written)</title>
+            <title>Pseudo-Zustände (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
+            <sect4>
+
+              <title>Junction and Choice (Noch zu beschreiben)</title>
+
+              <remark>Noch zu beschreiben...</remark>
+            </sect4>
+
+            <sect4>
+
+              <title>Verzweigen und Verknüpfen (Noch zu beschreiben)</title>
+
+              <remark>Noch zu beschreiben...</remark>
+            </sect4>
+
           </sect3>
 
           <sect3>
 
-            <title>Models for State History (To be written)</title>
+            <title>Hierarchische Zustandsautomaten (Noch zu beschreiben)</title>
 
-            <remark>Shallow v Deep. To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
+          </sect3>
+
+          <sect3>
+
+            <title>Modelle für die Zustandshistorie (Noch zu beschreiben)</title>
+
+            <remark>Shallow v Deep. Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
