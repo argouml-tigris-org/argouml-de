@@ -4416,8 +4416,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             </listitem>
 
             <listitem>
-
-x              <para>
+              <para>
               	Erstellen Sie für jeden Anwendungsfall eine detaillierte 
               	<emphasis>Anwendungsfall-Spezifikation</emphasis>, die das 
               	normale und alternative Verhalten, die Vor- und Nachbedingungen 
@@ -5570,7 +5569,7 @@ x              <para>
         </para>
 
         <para>
-        	Neue Anwendungsfalldiagramme können wenn benötigt über <literal>
+        	Neue Anwendungsfalldiagramme können, wenn benötigt, über <literal>
         	Erzeuge Diagramm</literal> in der Menüzeile oder über die 
         	Werkzeugleiste erstellt werden. Sie werden im Bearbeitungsfenster 
         	(der obere rechte Quadrant des ArgoUML-Fensters) bearbeitet.
@@ -5858,99 +5857,131 @@ x              <para>
 
           <title>Assoziationen</title>
 
-          <indexterm><primary>Create 
-          New</primary><secondary>Association in a Use Case 
-          Diagram</secondary></indexterm>
-          <indexterm><primary>Association</primary><secondary>in a Use 
-          Case Diagram</secondary></indexterm>
-          <para>To join a use case to an actor on the diagram use 
-          button&nbsp;1 click on the association icon on the editing pane 
-          toolbar (<guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/association.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon>). 
-          Hold button&nbsp;1 down at the use case, move to the actor and 
-          release button&nbsp;1 (or alternatively start at the actor and 
-          finish at the use case).</para>
+          <indexterm><primary>Erzeuge neue</primary>
+          <secondary>Assoziation in einem Anwendungsfalldiagramm 
+          </secondary></indexterm>
+          <indexterm><primary>Assoziation</primary><secondary>in einem 
+          Anwendungsfalldiagramm</secondary></indexterm>
+          <para>
+          	 Um im Diagramm einen Anwendungsfall mit einem Akteur zu verbinden, 
+          	 klicken Sie der Taste&nbsp;1 auf das Assoziationssymbol in der 
+          	 Editierwerkzeugleiste (
+	         <guiicon>
+	          <inlinemediaobject>
+	          	<imageobject>
+	          		<imagedata align="center"
+	          			fileref="images/icons/association.gif" format="GIF" />
+	          	</imageobject>
+	          </inlinemediaobject>
+	         </guiicon>).
+	         Auf dem Anwendungsfall halten Sie die Taste&nbsp;1 gedrückt, gehen 
+	         zum Akteur und lassen die Taste&nbsp;1 los (oder beginnen Sie beim 
+	         Akteur und enden am Anwendungsfall). 
+          </para>
 
-          <para>This will create a straight line between actor and use 
-          case. You can segment the line by holding down button&nbsp;1 down 
-          on the line and moving before releasing. A vertex will be 
-          added to the line, which you can move by button&nbsp;1 motion. A 
-          vertex can be removed by picking it up and sliding to one end 
-          of the line.</para>
+          <para>
+          	Dadurch wird eine gerade Linie zwischen dem Akteur und dem 
+          	Anwendungsfall erzeugt. Sie können die Linie segmentieren, indem 
+          	Sie die Taste&nbsp;1 auf der Linie gedrückt halten und vor dem 
+          	loslassen bewegen. Der Linie wird ein Schnittpunkt hinzugefügt, den 
+          	Sie mit der Taste&nbsp;1 bewegen können. Durch Aufnehmen und durch 
+          	verschieben zu einem Ende der Linie kann der Schnittpunkt entfernt 
+          	werden.
+          </para>
 
-          <para>Multiple associations can be added in one go, by using 
-          button&nbsp;1 double click on the association icon. Each 
-          subsequent button&nbsp;1 down/motion/release sequence will join an 
-          actor to a use case. Use button&nbsp;1 on the select icon (
-          <guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center" fileref="images/icons/select.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon>) 
-          to stop adding associations.</para>
+          <para>
+          Es können mehrere Assoziationen gleichzeitig hinzugefügt werden, indem 
+          Sie auf das Assoziationssymbol einen Taste&nbsp;1-Doppelklick 
+          ausführen. Jede darauf folgende Taste&nbsp;1-drücken/bewegen/loslassen-
+          Sequenz wird einen Akteur mit einem Anwendungsfall verbinden. Das 
+          Anklicken des Auswahlsymbols (
+          <guiicon>
+          	<inlinemediaobject>
+          		<imageobject>
+          			<imagedata align="center"
+          				fileref="images/icons/select.gif" format="GIF" />
+          		</imageobject>
+          	</inlinemediaobject></guiicon>) 
+          mit der Taste&nbsp;1 stoppt das Hinzufügen von Assoziationen.
+          </para>
 
-          <para>It is also possible to add associations using small 
-          <quote>handles</quote> that appear to the left and right of a 
-          use case or actor when it is selected and the mouse is over 
-          it. Dragging the handle from a use case to an actor will 
-          create an association to that actor (and similarly by 
-          dragging a handle from an actor to a use case).</para>
+          <para>
+          Es ist auch möglich, Assoziationen mit Hilfe der kleinen <quote>Griffe
+          </quote> hinzuzufügen, die links und rechts eines Anwendungsfalles 
+          oder eines Akteurs erscheinen, wenn dieser markiert ist und sich die 
+          Maus darüber befindet. Das Ziehen des Griffes von einem Anwendungsfall 
+          zu einem Akteur wird eine Assoziation zu diesem Akteur erzeugen (und 
+          umgekehrt beim Ziehen eines Griffes von einem Akteur zu einem 
+          Anwendungsfall).
+          </para>
 
-          <para>Dragging a handle from a use case into empty space will 
-          create a new actor to go on the other end. Similarly dragging 
-          a handle from an actor into empty space will create a new use 
-          case.</para>
+          <para>
+          	Das Ziehen eines Griffes von einem Anwendungsfall in den leeren 
+          	Raum wird einen neuen Akteur am anderen Ende erzeugen. Umgekehrt 
+          	wird das Ziehen eines Griffes von einem Akteur in den leeren Raum 
+          	einen neuen Anwendungsfall erzeugen.
+          </para>
 
-          <para>It is possible to give an association a name, 
-          describing the relationship of the actor to the use case, 
-          although this is not usually necessary. This is done through 
-          the property tab of the association. Such a name appears 
-          alongside the association near its center.</para>
+          <para>
+          	Es ist möglich, der Assoziation einen Namen zu geben, der die 
+          	Beziehung des Akteurs zum Anwendungsfall beschreibt. Obgleich das 
+          	gewöhnlich nicht notwendig ist. Dies wird über das 
+          	Eigenschaftsregister der Assoziation getan. Solch ein Name erscheint 
+          	entlang der Assoziation in der Nähe der Mitte.
+          </para>
 
           <sect3 id="s3.tut.req_argo_navigation">
 
-            <title>Setting Navigation</title>
+            <title>Navigation einstellen</title>
 
-            <indexterm><primary>Setting 
-            Navigation</primary><secondary>to an association in a Use 
-            Case Diagram</secondary></indexterm>
-            <indexterm>
-            <primary>Navigation</primary><secondary>Setting</secondary></indexterm>
-            <para>There are two ways of setting the navigation of an 
-            association.</para>
+            <indexterm><primary>Navigation einstellen</primary><secondary>auf 
+            eine Assoziation in einem Anwendungsfalldiagramm</secondary>
+            </indexterm><indexterm>
+            <primary>Navigation</primary><secondary>Einstellen</secondary></indexterm>
+            <para>
+            	Es gibt zwei Wege, die Navigation einer Assoziation einzustellen.
+            </para>
 
             <orderedlist>
 
               <listitem>
 
-                <para>Use button&nbsp;2 click on the association to bring up 
-                a context-sensitive pop-up menu. The <literal>
-                Navigability</literal> sub-menu has options for 
-                bi-directional navigation (the default, with no arrows) 
-                and for navigability Actor-&gt;Use Case and
-                Use Case-&gt;Actor.</para>
+                <para>
+                	Das Anklicken der Assoziation mit der Taste&nbsp;2 bringt 
+                	ein kontextsensitives Popup-Menü nach oben. Das Untermenü 
+                	<literal>Navigierbarkeit</literal> enthält Optionen für die 
+                	bidirektionale Navigation (der Standard, ohne Pfeile) und 
+                	für die Navigierbarkeit Akteur-&gt;Anwendungsfall und 
+                	Anwendungsfall-&gt;Akteur.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>Use button&nbsp;1 to select the association and select 
-                its property tab in the details pane. This shows a 
-                field named <literal>Association Ends:</literal>, with 
-                entries for each end labeled by the actor or use case 
-                name and its multiplicity. Select the end that should 
-                be at the tail of the arrow with button&nbsp;1 click. This 
-                brings up the property tab for the association end. Use 
-                button&nbsp;1 click to uncheck the <literal>
-                Navigability</literal> box.</para>
+                <para>
+                	Verwenden Sie die Taste&nbsp;1, um die Assoziation zu 
+                	markieren und markieren Sie sein Eigenschaftsregister im 
+                	Detailfenster. Dieses enthält ein Feld mit der Bezeichnung 
+                	<literal>Verbindungen:</literal> mit Einträgen für 
+                	jedes mit einem Akteur oder Anwendungsfall verbundenen Ende 
+                	und seiner Kardinalität. Markieren Sie das Ende welches das 
+                	Ende des Pfeiles darstellt mit einem Taste&nbsp;1-
+                	Doppelklick. Dies bringt das Eigenschaftsregister für das 
+                	Assoziationsende nach oben. Verwenden Sie den Taste&nbsp;1-
+                	Klick, um die Markierung des Kästchens <literal>navigierbar
+                	</literal> zu entfernen.
+	            </para>
 
                 <note>
 
-                  <para>This may seem counter-intuitive, but in fact 
-                  associations by default are navigable in both 
-                  directions (when no arrows are shown). This process 
-                  is <emphasis>turning off</emphasis> navigation at one 
-                  end, rather than turning it on at the other.</para>
+                  <para>
+                  	Dies erscheint anti-intuitiv, aber tatsächlich sind 
+                  	Assoziationen standardmäßig in beide Richtungen navigierbar 
+                  	(wenn keine Pfeile angezeigt werden). Dieser Prozess ist 
+                  	eher das <emphasis>Ausschalten</emphasis> der Navigation 
+                  	an einem Ende, als das Einschalten am anderen Ende.
+                  </para>
 
                 </note>
 
@@ -5958,61 +5989,71 @@ x              <para>
 
             </orderedlist>
 
-            <para>You will see it is possible to give an association 
-            end a name in its property tab. This name will appear at 
-            that end of the association, and can be used to indicate 
-            the <emphasis>role</emphasis> being played by an actor or 
-            use case in an association.</para>
+            <para>
+            	Sie werden sehen, dass es möglich ist, einem Assoziationsende 
+            	im Eigenschaftsregister einen Namen zu geben. Dieser Name wird 
+            	an dem Ende der Assoziation erscheinen und kann dazu verwendet 
+            	werden die <emphasis>Rolle</emphasis> zu beschreiben, die ein 
+            	Akteur oder ein Anwendungsfall in dieser Assoziation spielt.
+            </para>
 
-            <para>For example a time management system for a business 
-            may have use cases for completing time sheets and for 
-            signing off time sheets. An employee actor may be involved 
-            in both, one as an employee, but the other in a role as 
-            manager.</para>
+            <para>
+           		Ein Zeitmanagmentsystem für ein Geschäft kann zum Beispiel 
+           		Anwendungsfälle für die Vervollständigung der Zeittabellen und 
+           		für das Abzeichnen der Zeittabellen aufweisen. Ein Akteur 
+           		Mitarbeiter kann in beides involviert sein. Einmal als 
+           		Mitarbeiter und zum anderen in der Rolle als Manager.
+            </para>
 
           </sect3>
 
           <sect3>
 
-            <title>Setting Multiplicity</title>
+            <title>Die Kardinalität einstellen</title>
 
-            <indexterm><primary>Setting 
-            Multiplicity</primary><secondary>to an association in a Use 
-            Case Diagram</secondary></indexterm>
+            <indexterm><primary>Kardinalität einstellen</primary><secondary>für 
+            eine Assoziation in einem Anwendungsfalldiagramm</secondary></indexterm>
             <indexterm>
-            <primary>Multiplicity</primary><secondary>Setting</secondary></indexterm>
-            <para>There are two ways of setting multiplicity at the end 
-            of an association.</para>
+            <primary>Kardinalität</primary><secondary>Einstellen</secondary></indexterm>
+            <para>
+            	Es gibt zwei Wege, die Kardinalität am Ende einer Assoziation 
+            	einzustellen.
+            </para>
 
             <orderedlist>
 
               <listitem>
 
-                <para>Button&nbsp;2 click over the end of an association 
-                will cause a context-sensitive pop-up menu to appear 
-                with a sub-menu labeled <literal>
-                Multiplicity</literal>. This allows you to select from 
-                <literal>1</literal> (the default), <literal>
-                0..1</literal>, <literal>0..*</literal> and <literal>
-                1..*</literal>.</para>
+                <para>
+                	Der Taste&nbsp;2-Klick über dem Ende einer Assoziation 
+                	verursacht das Erscheinen eines kontextsensitiven Popup-
+                	Menüs mit einem Untermenü <literal>Kardinalität</literal>.
+                	Dieses erlaubt es Ihnen, auszuwählen aus <literal>1</literal> 
+                	(dem Standard), <literal>0..1</literal>, <literal>0..*
+                	</literal> und <literal>1..*</literal>.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>Bring up the property sheet for the association 
-                end as described for setting navigation (see the second 
-                option in <xref linkend="s3.tut.req_argo_navigation"/>
-                ). A drop down menu gives a range of multiplicity 
-                options that may be selected.</para>
+                <para>
+                	Bringen Sie das Eigenschaftsregister für das Assoziationsende 
+                	wie in "Navigation einstellen" nach oben (siehe zweite 
+                	Option in <xref linkend="s3.tut.req_argo_navigation"/>). 
+                	Ein Dropdown-Menü gibt Ihnen die Kardinaltitätsoptionen aus, 
+                	die ausgewählt werden können.
+	            </para>
 
               </listitem>
 
             </orderedlist>
 
-            <para>The second of these two approaches has a wider range 
-            of options, although ArgoUML does not currently allow the 
-            user to set an arbitrary multiplicity.</para>
+            <para>
+            	Der zweite dieser beiden Ansätze hat mehr Optionen, obgleich 
+            	ArgoUML es dem Anwender aktuell nicht erlaubt eine beliebige 
+            	Kardinaltität einzustellen.
+            </para>
 
           </sect3>
 
@@ -6020,153 +6061,200 @@ x              <para>
 
         <sect2>
 
-          <title>Hierarchical Use Cases</title>
+          <title>Hierarchische Anwendungsfälle</title>
 
-          <indexterm><primary>Hierarchical Use 
-          Cases</primary></indexterm>
-          <indexterm><primary>Use Case, 
-          Hierarchical</primary></indexterm>
+          <indexterm><primary>Hierarchische Anwendungsfälle</primary></indexterm>
+          <indexterm><primary>Anwendungsfall, 
+          hierarchisch</primary></indexterm>
 
           <para>
-            UML as originally designed allowed use cases to be organized by
-            grouping them in packages as well as by specifying relations among
-            them.
-            In ArgoUML only the relations mechanism is supported.
-            All Three of the relations that apply to use cases are supported.
-            These are <emphasis>include</emphasis>, <emphasis>extend</emphasis>
-            and <emphasis>generalization</emphasis>.
+          	Der Originalentwurf der UML erlaubt es, dass Anwendungsfälle in 
+          	Paketen gruppiert, sowie Beziehungen zwischen ihnen spezifiziert 
+          	werden können.
+          	In ArgoUML werden nur die Beziehungsmechanismen unterstützt.
+          	Alle drei Beziehungen, die auf Anwendungsfälle angewendet werden 
+          	können werden unterstützt. Dieses sind <emphasis>include</emphasis>, 
+          	<emphasis>extend</emphasis> und <emphasis>generalization</emphasis>.
           </para>
 
           <sect3>
 
-            <title>Includes</title>
+            <title>Include</title>
 
-            <indexterm><primary>Create New</primary><secondary>Include 
-            Relationship in a Use Case Diagram</secondary></indexterm>
+            <indexterm><primary>Erzeuge neue</primary><secondary>Include 
+            Beziehung in einem Anwendungsfalldiagramm</secondary></indexterm>
             <indexterm><primary>Include 
-            Relationship</primary><secondary>in a Use Case 
-            Diagram</secondary></indexterm>
+            Beziehung</primary><secondary>in einem 
+            Anwendungsfalldiagramm</secondary></indexterm>
             <indexterm>
-            <primary>Relationship</primary><secondary>Include</secondary></indexterm>
-            <para>The procedure for adding an include relationship is 
-            the same as that for adding an association, but using the 
-            include icon from the editing pane toolbar (
-            <guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center" fileref="images/icons/include.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon>) 
-            to join two use cases.</para>
+            <primary>Beziehung</primary><secondary>Include</secondary></indexterm>
+            <para>
+            	Die Prozedur zum Hinzufügen einer Include-Beziehung ist die 
+            	gleiche, wie für das Hinzufügen einer Assoziation. Allerdings 
+            	verwenden Sie das Include-Symbol aus der Editier-Werkzeugleiste
+				 (
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center"
+	            				fileref="images/icons/include.gif" format="GIF" />
+	            		</imageobject>
+	            	</inlinemediaobject></guiicon>) 
+	            um die beiden Anwendungsfälle zu verbinden.
+            </para>
 
-            <para>Since include relationships are directional the order 
-            in which the two ends are selected is important. The 
-            <emphasis>including</emphasis> (main) use case should be 
-            selected first (button&nbsp;1 down) and the 
-            <emphasis>included</emphasis> (subsidiary) use case second 
-            (button&nbsp;1 release).</para>
+            <para>
+            	Seit Include-Beziehungen richtungsgebunden sind, ist die 
+            	Reihenfolge mit der die beiden Enden markiert werden wichtig. 
+            	Der <emphasis>einbindende</emphasis> (Haupt) Anwendungsfall 
+            	sollte zuerst (Taste&nbsp;1 drücken) und der 
+            	<emphasis>eingebundene</emphasis> (sekundäre) Anwendungsfall 
+            	als zweiter (Taste&nbsp;1 loslassen) markiert werden.
+            </para>
 
-            <para>It is possible to name include relationships using 
-            the property tab, but this is rarely done, and will not be 
-            displayed on the use case diagram.</para>
+            <para>
+            	Es ist möglich die Include-Beziehungen mit Hilfe des 
+            	Eigenschaftsregisters zu benennen. Dies wird aber selten getan 
+            	und wird im Anwendungsfalldiagramm nicht dargestellt.
+            </para>
 
           </sect3>
 
           <sect3>
 
-            <title>Extends</title>
+            <title>Extend</title>
 
-            <indexterm><primary>Create New</primary><secondary>Extend 
-            Relationship in a Use Case Diagram</secondary></indexterm>
-            <indexterm><primary>Extend 
-            Relationship</primary><secondary>in a Use Case 
-            Diagram</secondary></indexterm>
+            <indexterm><primary>Erzeuge neue</primary><secondary>Extend- 
+            Beziehung in einem Anwendungsfalldiagramm</secondary></indexterm>
+            <indexterm><primary>Extend- 
+            Beziehung</primary><secondary>in einem  
+            Anwendungsfalldiagramm</secondary></indexterm>
             <indexterm>
-            <primary>Relationship</primary><secondary>Extend</secondary></indexterm>
-            <para>The procedure for adding an extend relationship is 
-            the same as that for adding an include relationship, but 
-            using the extend icon from the editing pane toolbar (
-            <guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center" fileref="images/icons/extend.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon>) 
-            to join two use cases.</para>
+            <primary>Beziehung</primary><secondary>Extend</secondary></indexterm>
+            <para>
+            	Die Prozedur zum Hinzufügen einer Extend-Beziehung ist die 
+            	gleiche, wie für das Hinzufügen einer Include-Beziehung. 
+            	Allerdings verwenden Sie das Extend-Symbol aus der Editier-
+            	Werkzeugleiste
+				 (
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center"
+	            				fileref="images/icons/extend.gif" format="GIF" />
+	            		</imageobject>
+	            	</inlinemediaobject></guiicon>) 
+	            um die beiden Anwendungsfälle zu verbinden.
+            </para>
 
-            <para>As with include relationships, the order of selection 
-            matters. In this case, the <emphasis>extending</emphasis> 
-            (subsidiary) use case should be selected first (button&nbsp;1 
-            down) and the <emphasis>extending</emphasis> (main) use 
-            case second (button&nbsp;1 release).</para>
+            <para>
+            	Wie bei den Include-Beziehungen ist die Reihenfolge des 
+            	Markierens wichtig. In diesem Fall sollte der 
+            	<emphasis>erweiternde</emphasis> 
+	            (sekundäre) Anwendungsfall zuerst (Taste&nbsp;1 drücken) und 
+	            dann der <emphasis>erweiterte</emphasis> (Haupt-) zweite 
+	            Anwendungsfall markiert werden (Taste&nbsp;1 loslassen).
+            </para>
 
             <note>
 
-              <para>This is the reverse of the include relationship, 
-              but reflects the way that designer&apos;s tend to think. 
-              The fact that the extend icon&apos;s arrow points upward 
-              (the opposite of the include icon) should help remind you 
-              of this.</para>
+              <para>
+              	Dies ist gegenüber der Include-Beziehung genau umgekehrt, 
+              	reflektiert aber die Art und Weise, wie Designer denken. Die 
+              	Tatsache, dass der Pfeil des Extend-Symboles nach oben zeigt (
+              	im Gegensatz zum Include-Symbol) sollte Ihnen helfen, sich daran 
+              	zu erinnern.
+              </para>
 
             </note>
 
-            <para>To set a condition for the extend relationship, 
-            select the extend relationship in the editing pane 
-            (button&nbsp;1 click) and then bring up its property tab in the 
-            details pane ((button&nbsp;1 click on the tab). The text of the 
-            condition may be typed in the <literal>Condition</literal> 
-            field. Long conditions may be split over several lines if 
-            desired. The condition is displayed under the <literal>
-            &laquo;extend&raquo;</literal> label on the diagram.</para>
+            <para>
+            	Um eine Bedingung für die Extend-Beziehung einzugeben, markieren 
+            	Sie die Extend-Beziehung im Editierfenster (Taste&nbsp;1-Klick) 
+            	und öffenen Sie das Eigenschaftsregister im Detailfenster (
+            	Taste&nbsp;1-Klick auf das Register). Der Text der Bedingung 
+            	kann in das <literal>Bedingung</literal>s-Feld eingegeben werden. 
+            	Lange Bedingungen sollten - sofern gewünscht - über mehrere 
+            	Zeilen aufgeteilt werden. Die Bedingung wird unterhalb der 
+            	<literal>&laquo;extend&raquo;</literal>-Kennzeichnung im 
+            	Diagramm dargestellt.
+            </para>
 
-            <para>It is possible to name extend relationships using the 
-            property tab, but this is rarely done, and will not be 
-            displayed on the use case diagram.</para>
+            <para>
+            	Es ist möglich die Extend-Beziehungen mit Hilfe des 
+            	Eigenschaftsregisters zu benennen. Dies wird aber selten getan 
+            	und wird im Anwendungsfalldiagramm nicht dargestellt.
+            </para>
 
           </sect3>
 
           <sect3>
 
-            <title>Generalization</title>
+            <title>Generalisierung</title>
 
-            <indexterm><primary>Create 
-            New</primary><secondary>Generalization relationship in a 
-            Use Case Diagram</secondary></indexterm>
-            <indexterm><primary>Generalization 
-            Relationship</primary><secondary>in a Use Case 
-            Diagram</secondary></indexterm>
+            <indexterm><primary>Erzeuge neue 
+            </primary><secondary>Generalisierungs-Beziehung in einem  
+            Anwendungsfalldiagramm</secondary></indexterm>
+            <indexterm><primary>Generalisierungs- 
+            Beziehung</primary><secondary>in einem  
+            Anwendungsfalldiagramm</secondary></indexterm>
             <indexterm>
-            <primary>Relationship</primary><secondary>Generalization</secondary></indexterm>
-            <para>The procedure for adding generalizations, is the same 
-            as for adding extend relationships, but using the 
-            generalization icon from the editing pane toolbar (
-            <guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/generalization.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon>).</para>
+            <primary>Beziehung</primary><secondary>Generalisierung</secondary></indexterm>
+            <para>
+            	Die Prozedur zum Hinzufügen einer Generalisierung ist die 
+            	gleiche, wie für das Hinzufügen einer Extend-Beziehung. 
+            	Allerdings verwenden Sie das Generalisierungs-Symbol aus der 
+            	Editier-Werkzeugleiste (
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center"
+	            				fileref="images/icons/generalization.gif" format="GIF" />
+	            		</imageobject>
+	            	</inlinemediaobject>
+	            </guiicon>
+	            ).
+	        </para>
+	
+	        <para>
+	        	Seit die Generalisierung eine gerichtete Beziehung ist, ist die 
+	        	Reihenfolge des Markierens wichtig. Der spezialisierte 
+	        	Anwendungsfall sollte zuerst (Taste&nbsp;1 drücken) und der 
+	        	generalisierte als zweites markiert werden (Taste&nbsp;1 
+	        	loslassen).
+	        </para>
 
-            <para>Since generalization is a directed relationship, the 
-            order of selection matters. The specialized use case should 
-            be selected first (button&nbsp;1 down) and the generalized 
-            second (button&nbsp;1 release).</para>
+            <para>
+            	Es ist auch möglich, die Generalisierung mit Hilfe der kleinen 
+            	Griffe, die oben und unten am Anwendungsfall erscheinen, wenn 
+            	er markiert ist, hinzuzufügen. Das Ziehen des oberen Griffes auf 
+            	einen anderen Anwendungsfall erzeugt eine Generalisierung. Der 
+            	Original-Anwendungsfall ist das spezialisierte Ende und der 
+            	Anwendungsfall auf den der Griff gezogen wurde wird das 
+            	generalisierte Ende. Das ziehen in den leeren Raum wird einen 
+            	neuen Anwendungsfall mit einem generalisierten Ende erzeugen.
+            </para>
 
-            <para>It is also possible to add generalizations using 
-            small <quote>handles</quote> that appear to the top and 
-            bottom of a use case when it is selected. Dragging the 
-            handle at the top to another use case will create a 
-            generalization. The original use case is the specializing 
-            end, and the use case to which the handle was dragged will 
-            be the generalizing end. Dragging into empty space will 
-            create a new use case to be the generalizing end.</para>
+            <para>
+            	Ähnlich ist es beim Ziehen des unteren Griffes. Dies erzeugt 
+            	eine Generalisierung bei der der Original-Anwendungsfall das 
+            	<emphasis>generalisierte</emphasis>Ende darstellt.
+            </para>
 
-            <para>Similarly dragging on the bottom handle will create a 
-            generalization in which the original use case is the 
-            <emphasis>generalizing</emphasis> end.</para>
+            <para>
+            	Die Generalisierung ist auch zwischen Akteuren erlaubt, obwohl 
+            	dieser Gebrauch ausserhalb des Bezugsbereiches dieses Tutorials 
+            	liegt. Im Gegensatz zu den Anwendungsfällen gibt es keine 
+            	Generalisierungs-Griffe bei Akteuren, so dass Generalisierungen 
+            	mit Hilfe der Symbole in der Werkzeugleiste erzeugt werden 
+            	müssen.
+            </para>
 
-            <para>Generalization is also permitted between actors, 
-            although its use is beyond the scope of this tutorial. 
-            Unlike use cases there are no generalization handles on 
-            actors, so generalizations must be created using the 
-            toolbar icon.</para>
-
-            <para>It is possible to name generalization relationships 
-            using the property tab, but this is rarely done. If a name 
-            is provided, it will be displayed on the use case 
-            diagram.</para>
+            <para>
+            	Es ist möglich die Generalisierungs-Beziehungen mit Hilfe des 
+            	Eigenschaftsregisters zu benennen. Wird ein Name eingegeben, 
+            	wird dieser im Anwendungsfalldiagramm dargestellt.
+            </para>
 
           </sect3>
 
@@ -6174,48 +6262,56 @@ x              <para>
 
         <sect2>
 
-          <title>Stereotypes</title>
+          <title>Stereotypen</title>
 
-          <indexterm><primary>Stereotype</primary><secondary>in Use 
-          Case Diagrams</secondary></indexterm>
+          <indexterm><primary>Stereotypen</primary><secondary>in  
+          Anwendungsfalldiagrammen</secondary></indexterm>
           <para>
-            UML has the concept of <emphasis>stereotyping</emphasis> as a way
-            of extending the basic notation.
-            It may prove useful for example to model a problem at both the
-            business level and the engineering level. 
-            It is for this reason that the OMG distinguishes between a PIM
-            and a PSM.
-            For both of these we will need use cases, but the use cases 
-            at the business level hold a different sort of information to 
-            those at the engineering level.
-            Very likely they use different language and notation in their
-            underlying use case specifications.
+          	Die UML enthält das Konzept der <emphasis>Schablonen</emphasis>, um 
+          	die Basisnotation zu erweitern.
+          	Es mag zum Beispiel nützlich erscheinen, ein Problem sowohl auf 
+          	Geschäftsebene als auch auf der Ingenieur-Ebene zu modellieren. 
+          	In diesem Fall unterscheidet die OMG zwischen einem PIM und einem 
+          	PSM.
+          	Für beide werden wir Anwendungsfälle benötigen, aber die 
+          	Anwendungsfälle auf der Geschäftsebene enthalten eine andere Art von 
+          	Informationen als die auf der Ingenieurs-Ebene.
+          	Sie nutzen sehr wahrscheinlich eine andere Sprache und Notation in 
+          	ihren darunter liegenden Anwendungsfallspezifikationen.
           </para>
 
-          <para><emphasis>Stereotypes</emphasis> are used to label UML 
-          model elements such as use cases, to indicate that they belong to 
-          a certain category. Such labels are shown in guillemots (
-          <literal>&laquo;&nbsp;&raquo;</literal>) above the name of the model element on the 
-          diagram. The UML standard defines a number of standard 
-          stereotypes, and the user may define more stereotypes of his 
-          own.</para>
+          <para>
+	          <emphasis>Stereotypen</emphasis> werden zur Kennzeichnung von 
+	          UML-Modellelementen wie Anwendungsfälle benutzt, um darzustellen, 
+	          dass diese zu einer bestimmten Kategorie gehören. Diese 
+	          Kennzeichen werden in guillemots (
+	          <literal>&laquo;&nbsp;&raquo;</literal>) über dem Namen des 
+	          Modellelementes im Diagramm dargestellt. Der UML-Standard 
+	          definiert eine Anzahl von Standard-Stereotypen und der Anwender 
+	          darf weitere Stereotypen selbst definieren.
+          </para>
 
-          <para>You will see that ArgoUML has a drop down selector, 
-          <literal>Stereotype</literal> on every property tab. This is 
-          populated with the standard stereotypes, to which you may add 
-          your own user defined ones.</para>
+          <para>
+          	Sie werden sehen, dass ArgoUML in jedem Eigenschaftsregister eine 
+          	Drop-Down-Auswahl <literal>Stereotypen</literal> aufweist. Dieses 
+          	ist mit den Standard-Stereotypen gefüllt, zu denen Sie Ihre eigenen 
+          	hinzufügen können.
+          </para>
 
-          <para>The details of stereotyping are beyond the scope of 
-          this tutorial. The reference manual (see 
-          <xref linkend="s1.ref.stereotype"/>) documents the support 
-          provided in ArgoUML.</para>
+          <para>
+          	Die Details der Schablonen liegt ausserhalb des Bezugsbereiches 
+          	dieses Tutorials. Das Referenzhandbuch (siehe 
+	        <xref linkend="s1.ref.stereotype"/>) dokumentiert die von ArgoUML 
+	        bereitgestellte Unterstützung.
+          </para>
 
           <warning>
 
-            <para>ArgoUML is missing a few of the standard UML 
-            stereotypes. In addition not all model elements will actually 
-            display the stereotype on the diagram. At present this 
-            includes use cases and actors.</para>
+            <para>
+            	In ArgoUML fehlen einige der Standard-UML-Stereotypen. Zusätzlich 
+            	stellen nicht alle Modellelemente die Stereotypen im Diagramm 
+            	dar. Aktuell sind sie in Anwendungsfällen und Akteuren enthalten.
+            </para>
 
           </warning>
 
@@ -6223,48 +6319,67 @@ x              <para>
 
         <sect2>
 
-          <title>Documentation</title>
+          <title>Dokumentation</title>
 
-          <indexterm><primary>Documentation in Use Case 
-          Diagrams</primary></indexterm>
-          <para>ArgoUML has some simple documentation facilities 
-          associated with model elements on a diagram. In general these 
-          should be used only to record the location of material in 
-          documents that can be handled by a mainstream editor or word 
-          processor, not the actual documentation itself.</para>
+          <indexterm><primary>Dokumentation in  
+          Anwendungsfalldiagrammen</primary></indexterm>
+          <para>
+          	ArgoUML enthält einige einfache Dokumentationsmöglichkeiten, die 
+          	mit den Modellelementen im Diagramm verknüpft sind. Hauptsächlich 
+          	sollten diese nur zum Aufzeichnen der Ablageorte der Dokumente 
+          	verwendet werden, nicht für die aktuelle Dokumentation selbst.
+          </para>
 
-          <para>Documentation for a particular model element is recorded 
-          through the documentation tab in the details pane (the 
-          quadrant of the user screen at the bottom right).</para>
+          <para>
+          	Die Dokumentation für ein bestimmtes Modellelement wird im 
+          	Dokumentationsregister im Detailfenster aufgezeichnet (der unten 
+          	rechts befindliche Quadrant des Bildschirms).
+          </para>
 
-          <para>In addition annotation may be added to diagrams using 
-          the text icon on the editing pane toolbar (
-          <guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center" fileref="images/icons/text.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon>).</para>
+          <para>
+          	Zusätzlich können in den Diagrammen Kommentare mit Hilfe des Text-
+          	Symboles der Editier-Werkzeugleiste hinzugefügt werden (
+	          <guiicon>
+	          	<inlinemediaobject>
+	          		<imageobject>
+	          			<imagedata align="center"
+	          				fileref="images/icons/text.gif" format="GIF" />
+	          		</imageobject>
+	          	</inlinemediaobject>
+	          </guiicon>).
+          </para>
 
-          <para>The recommendation is that a use case diagram should 
-          use the documentation tab of actors to record information 
-          about the actor, or if the actor is complex to refer to a 
-          separate document that holds information about the 
-          actor.</para>
+          <para>
+          	Es wird empfohlen, dass ein Anwendungsfalldiagramm das 
+          	Dokumentationsregister des Akteurs nutzen sollte, um die 
+          	Informationen über den Akteur aufzuzeichnen. Oder, sollte der 
+          	Akteur sehr komplex sein, sich auf ein separates Dokument beziehen, 
+          	welches die Information über den Akteur beinhaltet.
+          </para>
 
-          <para>The documentation tab of use cases should record the 
-          location of the use case specification. The information in a 
-          use case specification (for all but the simplest use cases) 
-          is too complex to be placed directly in the tab.</para>
+          <para>
+          	Das Dokumentationsregister des Anwendungsfalles sollte den Ablageort 
+          	der Anwendungsfalldokumentation aufzeichnen. Die Information in der 
+          	Anwendungsfallspezifikation (für alle, auch den einfachsten 
+          	Anwendungsfällen) ist zu komplex, als dass sie direkt in das 
+          	Register eingegeben werden könnte.
+          </para>
 
-          <para>The project should also have a separate vision document 
-          and supplementary requirements specification. A text 
-          annotation on diagrams may be used to refer to these if the 
-          user finds this helpful.</para>
+          <para>
+          	Das Projekt sollte auch ein separates Visionsdokument haben und eine 
+          	ergänzende Anforderungsspezifikation. Ein Kommentar in Diagrammen 
+          	kann dazu verwendet werden, sich auf diese zu beziehen, wenn der 
+          	Anwender dies nützlich findet.
+          </para>
 
           <warning>
 
-            <para>The documentation tab includes a <literal>
-            Deprecated</literal> check box. The state of this flag is 
-            not preserved over save and load in the current release of 
-            ArgoUML</para>
+            <para>
+            	Das Dokumentationsregister enthält ein Kästchen <literal>
+            	Veraltet</literal>. Der Status dieses Kennzeichens bleibt in der 
+            	aktuellen Release von ArgoUML beim Speichern und Laden nicht 
+            	erhalten.
+	        </para>
 
           </warning>
 
@@ -6272,34 +6387,38 @@ x              <para>
 
         <sect2>
 
-          <title>System Boundary Box</title>
+          <title>Systemgrenzen</title>
 
-          <indexterm><primary>System Boundary Box in Use Case 
-          Diagram</primary></indexterm>
-          <para>ArgoUML provides a series of tools to provide arbitrary 
-          graphical annotation on diagrams (we have already mentioned 
-          the text tool). These are found at the right hand end of the 
-          editing pane toolbar and are fully documented in the 
-          reference manual (see <xref linkend="ch.ref.editpane"/>
-          ).</para>
+          <indexterm><primary>Systemgrenzen in 
+          Anwendungsfalldiagrammen</primary></indexterm>
+          <para>
+          	ArgoUML enthält eine Reihe von Werkzeugen, um beliebige grafische 
+          	Kommentare in Diagramme einzufügen (wir lernten das Text-Tool bereits 
+          	kennen). Diese finden Sie auf der rechten Seite der Editier-
+          	Werkzeugleiste und sind im Referenzhandbuch vollständig dokumentiert 
+          	(siehe <xref linkend="ch.ref.editpane"/>).
+          </para>
 
-          <para>The rectangle tool can be used to draw the boundary 
-          box. Use the button&nbsp;2 context-sensitive <literal>
-          Ordering</literal> pop-up menu to place it behind everything 
-          else. However there is no way to change its fill color from 
-          the default white. You may therefore prefer to draw the 
-          boundary box as four lines. This is the method used for the 
-          diagrams in this chapter.</para>
+          <para>
+          	Das Rechteck kann verwendet werden, um die Grenzen des Systems 
+          	darzustellen. Nutzen Sie das Taste&nbsp;2-kontextsensitive Popup-
+          	Menü <literal>Reihenfolge</literal>, um diese hinter alle anderen 
+          	Elemente zu plazieren. Es gibt jedoch keinen Weg, die Füllfarbe zu 
+          	ändern. Sie werden es daher vorziehen, die Systemgrenzen aus vier 
+          	einzelnen Linien zu zeichnen. Dies ist die Methode, die für die 
+          	Diagramme in diesem Kapitel verwendet wurde.
+          </para>
 
           <note>
 
-            <para>The editing pane in ArgoUML has a grid to which 
-            objects snap to aid in drawing. The size of this grid and 
-            its effect may be altered through the <literal>
-            View</literal> menu (using <literal>Adjust Grid</literal> 
-            and <literal>Adjust Grid Snap</literal>). This is described 
-            fully in the reference manual (see 
-            <xref linkend="ch.ref.menu"/>).</para>
+            <para>
+            Das Editierfenster in ArgoUML hat ein Gitter, in das Objekte beim 
+            zeichnen einrasten. Die Größe dieses Gitters und seine Auswirkungen 
+            können durch das <literal>Ansicht</literal>-Menü (verwenden Sie 
+            <literal>Raster einstellen</literal> und <literal>Einrasten 
+            einstellen</literal>) verändert werden. Dies ist im Referenzhandbuch 
+            vollständig beschrieben (siehe <xref linkend="ch.ref.menu"/>).
+            </para>
 
           </note>
 
@@ -6309,230 +6428,261 @@ x              <para>
 
       <sect1 id="s3.tut.req_case_study">
 
-        <title>Case Study</title>
+        <title>Fallstudie</title>
 
         <sect2>
 
-          <title>Vision Document</title>
+          <title>Visions-Dokument</title>
 
-          <indexterm><primary>Vision Document</primary><secondary>Case 
-          Study</secondary></indexterm>
-          <para>A vision document contains more than those things 
-          needed for the modeling effort. It also contains financial 
-          and scheduling pertinent information. The following sections 
-          are those parts of the Vision Document spelled out in 
-          <xref linkend="s2.tut.vision_document"/> above. In practice 
-          this format need not be followed religiously, but is used 
-          here for consistency.</para>
-
-          <sect3>
-
-            <title>Summary</title>
-
-            <para>The company wishes to produce and market a line of 
-            ATM devices. The purpose of this project is to produce the 
-            hardware and the software to drive it that are both 
-            maintainable and robust.</para>
-
-          </sect3>
+          <indexterm><primary>Visions-Dokument</primary><secondary>Fallstudie
+          </secondary></indexterm>
+          <para>
+          Ein Visionsdokument enthält mehr als nur die Dinge, die für die 
+          Modellierung erforderlich sind. Es enthält auch finanzielle und 
+          verwaltungsrelevante Informationen. Die folgenden Abschnitte sind 
+          solche Teile eines Visionsdokumentes 
+          <xref linkend="s2.tut.vision_document"/>. 
+          In der Praxis muss dieses Format nicht sklavisch eingehalten werden, 
+          aber es ist hier für die Konsistenz erforderlich.
+          </para>
 
           <sect3>
 
-            <title>Goals</title>
-
-            <para>To produce better designed products based on newer 
-            technology. Follow the MDA philosophy of the OMG by 
-            producing first a Platform Independent Model (PIM). As 
-            current modeling technology does not admit of maintaining 
-            the integrity of the connection between the PIM and 
-            Platform Specific Models (PSMs), the PIM will become 
-            comparatively stable before the first iteration of the PSM 
-            is produced. The software platform will be Java technology. 
-            The system will use a simple userid (from ATM card) and 
-            password (or PIN) mechanism.</para>
-
-          </sect3>
-
-          <sect3>
-
-            <title>Market Context</title>
-
-            <para>Equipment currently on the market is based on older 
-            technology for both hardware and software. This technology 
-            has not reached the end of its useful life, making it 
-            unlikely that the vendors of that gear are going to update 
-            it in the near future. On the other hand newer technology 
-            is available that would put us at a competitive advantage 
-            if implemented now.</para>
-
-          </sect3>
-
-          <sect3>
-
-            <title>Stakeholders</title>
-
-            <para>Among the stakeholders for this system are the 
-            Engineering Department, the Maintenance Department, and the 
-            Central Computer Facility. The full list of these 
-            stakeholders and the specific individuals representing them 
-            are.</para>
-
-            <itemizedlist>
-
-              <listitem>
-
-                <para><emphasis>Engineering</emphasis>.  Bunny, 
-                Bugs</para>
-
-              </listitem>
-
-              <listitem>
-
-                <para><emphasis>Maintenance</emphasis>.  Hardy, 
-                Oliver</para>
-
-              </listitem>
-
-              <listitem>
-
-                <para><emphasis>Computer Facility</emphasis>.  Laurel, 
-                Stanley</para>
-
-              </listitem>
-
-              <listitem>
-
-                <para><emphasis>Chief Executive Officer</emphasis>. 
-                 Hun, Atilla The</para>
-
-              </listitem>
-
-              <listitem>
-
-                <para><emphasis>Marketing</emphasis>.  Harry, Oil 
-                Can</para>
-
-              </listitem>
-
-            </itemizedlist>
-
-          </sect3>
-
-          <sect3>
-
-            <title>Key Features</title>
-
-            <para>Cash deposit, cash withdrawal, and account inquiries 
-            by customers. Customers include people who have accounts at 
-            the owning bank as well as people who wish to make 
-            withdrawals from accounts in other banks or from credit 
-            card accounts.</para>
-
-            <para>Maintenance of the equipment by the bank&apos;s 
-            engineers. This action may be initiated by the engineer on 
-            a routine basis. It may also be initiated by the equipment 
-            that can call the engineer when it detects an internal 
-            fault.</para>
-
-            <para>Unloading of deposits and loading of cash by 
-            officials of the local bank branch. These actions occur 
-            either on a scheduled basis or when the central computer 
-            determines that the cash supply is low or the deposit 
-            receptacle is liable to be getting full.</para>
-
-            <para>An audit trail for all activities will be maintained 
-            and sent periodically to the bank&apos;s central computer. 
-            It will be possible for the maintenance engineer to save a 
-            copy of the audit trail to a diskette for transporting to 
-            the central computer.</para>
+            <title>Zusammenfassung</title>
 
             <para>
-              Both dialup and leased line support will be provided. 
-              The ATM will continue to provide services to customers when 
-              communication with the central computer is not available.
+            	Die Firma möchte eine Serie von Geldautomaten produzieren und 
+            	vermarkten. Der Zweck dieses Projektes ist es, die Hardware und 
+            	die Software zu produzieren die beides ist: Wartbar und Robust.
             </para>
 
           </sect3>
 
           <sect3>
 
-            <title>Constraints</title>
+            <title>Ziele</title>
 
-            <para>The project must be completed within nine months. It 
-            must cost no more than 1,750,000 USD excluding production 
-            costs. Components may be contracted out, but the basic 
-            architecture as well as the infrastructure will be designed 
-            in house. Close liaison must be maintained between the 
-            software development and the design, development and 
-            production of the hardware. Neither the hardware nor the 
-            software shall be considered the independent variable, but 
-            rather they shall be considered equal.</para>
+            <para>
+            	Bessere entworfene Produkte auf Basis neuer Technologien 
+            	produzieren. Wir folgen der MDA-Philosophie der OMG indem wir 
+            	zuerst ein plattformunabhängiges Modell (Platform Independent 
+            	Model (PIM)) erzeugen. Da die aktuelle Modellierungstechnologie 
+            	die Verwaltung der Integrität der Verbindung zwischen der PIM 
+            	und den plattformspezifischen Modellen (Platform Specific 
+            	Model (PSM)) nicht zulassen, wird die PIM vergleichsweise 
+            	stabil werden bevor die erste Iteration der PSM produziert wird.
+            	Die Softwareplattform wird die Java-Technologie sein. Das 
+            	System wird einen einfachen Userid (von der Geldautomatenkarte) 
+            	und Kennwort (oder PIN)-Mechanismus verwenden.
+            </para>
 
           </sect3>
 
           <sect3>
 
-            <title>Appendix</title>
+            <title>Der Markt</title>
 
-            <para>The following are the actors that directly support 
-            this vision. Additional actors may be identified later that 
-            are needed to support this or that technology. They should 
-            not be added to this list unless they are deemed to 
-            directly support the vision as described in this 
-            document.</para>
+            <para>
+            	Das aktuell auf dem Markt vorhandene Equipement basiert auf 
+            	älterer Technologie bei der Hard- und Software. Diese 
+            	Technologie hat noch nicht das Ende seiner Lebensdauer erreicht, 
+            	was es unwahrscheinlich macht, das die Hersteller dieser 
+            	Produkte diese in der nahen Zukunft austauschen werden. Auf der 
+            	anderen Seite ist neuere Technologie verfügbar, die uns einen 
+            	nennenswerten Vorteil verschafft, wenn wir sie jetzt 
+            	implementieren.
+            </para>
+
+          </sect3>
+
+          <sect3>
+
+            <title>Projektbeteiligte</title>
+
+            <para>
+            	Zwischen den Projektbeteiligten dieses Systemes befinden sich die 
+            	Entwicklungsabteilung, die Wartung und der zentrale Computer-
+            	Betrieb. Die vollständige Liste der Projektbeteiligten und die 
+            	spezifischen Personen, die diese repräsentieren sind:
+            </para>
 
             <itemizedlist>
 
               <listitem>
 
-                <para>Central Computer</para>
+                <para><emphasis>Entwicklung</emphasis>.  Bunny, 
+                Bugs</para>
 
               </listitem>
 
               <listitem>
 
-                <para>Customer</para>
+                <para>
+                	<emphasis>Wartung</emphasis>. Hardy, Oliver
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>Local Branch Official</para>
+                <para>
+                	<emphasis>Computerbetrieb</emphasis>. Laurel, Stanley
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>Maintenance Engineer</para>
+                <para>
+                	<emphasis>Geschäftsführer</emphasis>. Hun, Atilla von
+                </para>
+
+              </listitem>
+
+              <listitem>
+
+                <para>
+                	<emphasis>Marketing</emphasis>. Harry, Oil Can
+                </para>
 
               </listitem>
 
             </itemizedlist>
 
-            <para>The following are the use cases that directly support 
-            this vision. Additional use cases may be identified later 
-            that are needed to support this or that technology or to 
-            support the use cases listed here. They should not be added 
-            to this list unless they are deemed to directly support the 
-            vision as described in this document.</para>
+          </sect3>
+
+          <sect3>
+
+            <title>Haupteigenschaften</title>
+
+            <para>
+            	Geld aufbewahren, Geld abheben und Kontostandsabfragen der 
+            	Kunden. Kunden sind Personen, die Konten bei ihrer Bank haben 
+            	aber auch Personen, die Abhebungen von Konten anderer Banken 
+            	oder von Kreditkarten vornehmen wollen.
+            </para>
+
+            <para>
+            	Wartung des Equipements durch die Bankingenieure. Diese Aktion 
+            	kann durch den Ingenieur initiiert auf Basis eines 
+            	Wartungsplanes werden. Sie kann aber auch durch das Equipement 
+            	initiiert werden, die den Ingenieur ruft, wenn es einen internen 
+            	Fehler entdeckt.
+            </para>
+
+            <para>
+            	Das Herausnehmen der Einlagen und das Aufladen von Geld erfolgt 
+            	durch Beamte der lokalen Bankfiliale. Diese Aktionen werden 
+            	entweder auf Basis eines Planes ausgeführt, oder wenn der 
+            	Zentralcomputer feststellt, dass der Geldvorrat zu gering oder 
+            	die Einlagenkassette fast voll ist.
+            </para>
+
+            <para>
+            	Es wird ein Nachweis von allen Aktivitäten erzeugt und 
+            	periodisch an den Zentralcomputer der Banken gesandt. Es soll 
+            	dem Wartungsingenieur möglich sein, eine Kopie des Nachweislog 
+            	auf einer Diskette für den Transport zum Zentralcomputer zu 
+            	speichern.
+            </para>
+
+            <para>
+            	Es wird Wähl- und Standleitungssupport benötigt. Der Geldautomat 
+            	soll auch weiterarbeiten können, wenn die Kommunikation mit dem 
+            	Zentralcomputer nicht verfügbar ist.
+            </para>
+
+          </sect3>
+
+          <sect3>
+
+            <title>Randbedingungen</title>
+
+            <para>
+            	Das Projekt muss innerhalb von 9 Monaten abgeschlossen sein. Es 
+            	darf nicht mehr als 1.750.000 USD ausschliesslich der 
+            	Produktionskosten kosten. Komponenten können ausserhalb 
+            	produziert werden aber die Basisarchitektur als auch die 
+            	Infrastruktur wird im Haus entworfen. Eine enge Zusammenarbeit 
+            	muss zwischen der Softwareentwicklung und dem Design, der 
+            	Entwicklung und der Produktion der Hardware sichergestellt 
+            	werden. Weder die Hardware noch die Software darf als unabhänige 
+            	Variable betrachtet werden. Sie müssen immer gleichzeitig 
+            	betrachtet werden.
+            </para>
+
+          </sect3>
+
+          <sect3>
+
+            <title>Anhang</title>
+
+            <para>
+            	Im Folgenden finden Sie Akteure, die diese Vision direkt 
+            	unterstützen. Zusätzliche Akteure können später identifiziert 
+            	werden, sofern Sie zur Unterstützung dieser Vision oder der 
+            	Technologie erforderlich sind. Sie sollten nicht zu dieser 
+            	Liste hinzugefügt werden, es sei denn, sie sind zur direkten 
+            	Unterstützung dieser Vision, wie in diesem Dokument beschrieben, 
+            	erforderlich.
+            </para>
 
             <itemizedlist>
 
               <listitem>
 
-                <para>Audit</para>
+                <para>Zentralcomputer</para>
 
               </listitem>
 
               <listitem>
 
-                <para>Customer Uses Machine</para>
+                <para>Kunde</para>
 
               </listitem>
 
               <listitem>
 
-                <para>Maintain Machine</para>
+                <para>Lokaler Bankbeamter</para>
+
+              </listitem>
+
+              <listitem>
+
+                <para>Wartungsingenieur</para>
+
+              </listitem>
+
+            </itemizedlist>
+
+            <para>
+            	Im Folgenden finden Sie Anwendungsfälle, die diese Vision 
+            	direkt unterstützen. Zusätzliche Anwendungsfälle können später 
+            	identifiziert werden, wenn Sie zur Unterstützung dieser Vision 
+            	oder der Technologie erforderlich sind oder die hier 
+            	aufgelisteten Anwendungsfälle unterstützen. Sie sollten dieser 
+            	Liste nicht hinzugefügt werden, es sei denn, sie sind für die 
+            	direkte Unterstützung der Vision, wie in diesem Dokument 
+            	beschrieben, erforderlich.
+            </para>
+
+            <itemizedlist>
+
+              <listitem>
+
+                <para>Prüfen</para>
+
+              </listitem>
+
+              <listitem>
+
+                <para>Kunden nutzt den Automaten</para>
+
+              </listitem>
+
+              <listitem>
+
+                <para>Wartung</para>
 
               </listitem>
 
@@ -6544,62 +6694,65 @@ x              <para>
 
         <sect2>
 
-          <title>Identifying Actors and Use Cases</title>
+          <title>Akteure und Anwendungsfälle identifizieren</title>
 
-          <para>For the ATM case study, we will elaborate on the 
-          examples in <xref linkend="s1.tut.req_process_output"/>, 
-          <xref linkend="fig.tut.atm_use_case_diagram_include"/> and 
-          <xref linkend="fig.tut.atm_use_case_diagram_extend"/>, and 
-          progress to identify additional actors and use cases that 
-          comprise our model of the ATM system. 
-          <xref linkend="fig.tut.atm_use_case_diagram_include"/> and 
-          <xref linkend="fig.tut.atm_use_case_diagram_extend"/> 
-          exemplified the essential concepts and components of a use 
-          case diagram such as, use cases, actors, multiplicity, and 
-          include / extend relationships. They showed the relationships 
-          between the actors and use cases, and demonstrated how these 
-          actors and use cases interact.</para>
+          <para>
+          	Für die Geldautomaten-Fallstudie werden wir die Beispiele in 
+			<xref linkend="s1.tut.req_process_output"/>, 
+	        <xref linkend="fig.tut.atm_use_case_diagram_include"/> und 
+	        <xref linkend="fig.tut.atm_use_case_diagram_extend"/>, und 
+	        fortschreiben, um zusätzliche Akteure und Anwendungsfälle zu 
+	        identifizieren, die unser Geldautomatenmodell enthält.
+	        <xref linkend="fig.tut.atm_use_case_diagram_include"/> und 
+	        <xref linkend="fig.tut.atm_use_case_diagram_extend"/> 
+	        erläutert die grundsätzlichen Konzepte und Komponenten des 
+	        Anwendungsfalldiagrammes wie Anwendungsfälle, Akteure, 
+	        Kardinalität und Include-/Extend-Beziehungen. Sie zeigen die 
+	        Beziehungen zwischen den Akteuren und den Anwendungsfällen und 
+	        demonstieren wie diese Akteure und Anwendungsfälle miteinander 
+	        interagieren. 
+          </para>
 
-          <para>In 
-          <xref linkend="fig.tut.atm_use_case_diagram_include"/> we see 
-          a use case diagram for an ATM system consisting of &laquo;include&raquo; 
-          relationships for the use cases, Maintain ATM and Use ATM. 
-          Maintain ATM was further defined by two use cases, 
-          &quot;Maintain Equipment&quot; and &quot;Reload ATM&quot;. 
-          Use ATM was further defined in terms of the behavior of three 
-          simpler use cases: &quot;Deposit Cash&quot;, &quot;Withdraw 
-          Cash&quot; and &quot;Query Account&quot;.</para>
+          <para>
+          In <xref linkend="fig.tut.atm_use_case_diagram_include"/> sehen wir 
+          ein Anwendungsfalldiagramm für einen Geldautomaten, bestehend aus 
+          &laquo;include&raquo;-Beziehungen für die Anwendungsfälle Geldautomat 
+          warten und Geldautomat nutzen. Geldautomat warten wird darüber hinaus 
+          durch zwei Anwendungsfälle definiert: &quot;Equipement warten&quot; 
+          und &quot;Geldautomat neu starten&quot;.
+          Geldautomat nutzen wurde darüber hinaus durch drei einfachere 
+          Anwendungsfälle definiert: &quot;Geld einnehmen&quot;, &quot;Geld  
+          abheben&quot; und &quot;Kontostand abfragen&quot;.</para>
 
-          <remark>More to be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Associations (To be written)</title>
+          <title>Assoziationen (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Advanced Diagram Features (To be written)</title>
+          <title>Erweiterte Diagrammeigenschaften (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Use Case Specifications (To be written)</title>
+          <title>Anwendungsfallspezifikationen (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Supplementary Requirements Specification (To be 
-          written)</title>
+          <title>Ergänzende Anforderungsspezifikation (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
       </sect1>
@@ -6608,180 +6761,190 @@ x              <para>
 
     <chapter id="ch.tut.analysis">
 
-      <title>Analysis</title>
+      <title>Analyse</title>
 
-
-        <para>Analysis is the process of taking the 
-        <quote>customer</quote> requirements and re-casting them in the 
-        language of, and from the perspective of, a putative 
-        solution.</para>
-
-        <para>We are not actually trying the flesh out the detailed 
-        solution at this stage. That occurs in the <emphasis>Design 
-        Phase</emphasis> (see <xref linkend="ch.tut.design"/>).</para>
-
-        <para>Unlike the boundary between Requirements and Analysis 
-        Phases, the boundary between Analysis and Design Phases is 
-        inherently blurred. The key is that analysis should define the 
-        solution no further than is necessary to specify the 
-        requirements in the language of the solution. The model elements in 
-        Analysis generally represent a high level of abstraction.</para>
-
-        <para>Once again the <emphasis>recursive</emphasis>, and 
-        <emphasis>iterative</emphasis> nature of our process means we 
-        will come back to the Analysis phase many times in the 
-        future.</para>
-
-      <sect1>
-
-        <title>The Analysis Process</title>
 
         <para>
-          There are three schools of thought on how Analysis
-          should be approached.
-          The ontologist defines the data (actually the metadata)
-          first and worries about processes later.
-          The true ontologist would prefer not to have to think
-          about processes at all.
-          The phenomenonologist reverses this and favors
-          process over data.
-          The panparadigmist considers both process and data to be
-          equally important and addresses both from the start.
+        	Die Analyse ist der Prozess, die <quote>Kunden</quote>-Anforderungen 
+        	zu nehmen und in die Sprache und Perspektive der künftigen 
+        	Lösung umzuwandeln.
         </para>
 
         <para>
-          When it comes to being a purist the ontologist has
-          the upper hand.
-          It is possible to define and build a database into
-          which data can be entered and retrieved without concern for
-          what happens to it or is done with it.
-          On the other hand implementing a process without having any
-          data structures for it to operate on is not very meaningful.
+        	Wir sollten zu diesem Zeitpunkt nicht versuchen die detaillierte 
+        	Lösung auszuarbeiten. Dies passiert in der <emphasis>Design
+        	</emphasis>-Phase (siehe <xref linkend="ch.tut.design"/>).
+        </para>
+
+        <para>
+        	Wie die Grenze zwischen den Anforderungs- und der Analyse-Phase ist 
+        	die Grenze zwischen Analyse und Design inhärent unscharf. Der 
+        	Schlüssel dazu ist, dass die Analyse die Lösung nicht weiter als 
+        	notwendig definieren sollte, um die Anforderungen in der Sprache 
+        	der Lösung zu spezifizieren. Die Modellelemente in der Analyse 
+        	repräsentieren generell eine höhere Abstraktionsebene.
+        </para>
+
+        <para>
+        	Noch einmal, die <emphasis>rekursive</emphasis>, und 
+	        <emphasis>iterative</emphasis> Natur unserer Prozesse bedeutet, 
+	        dass wir in der Zukunft noch häufig auf die Analysephase 
+	        zurückkommen werden.
+        </para>
+
+      <sect1>
+
+        <title>Der Analyseprozess</title>
+
+        <para>
+        	Es gibt drei gedankliche Ausrichtungen darüber, wie man sich der 
+        	Analyse annähern sollte.
+        	Die Ontologen definieren die Daten (aktuell die Metadaten) zuerst 
+        	und plagen sich später mit den Prozessen.
+        	Der wahre Ontologe würde es vorziehen, überhaupt nicht an Prozesse 
+        	denken zu müssen.
+        	Der Phänomenalist kehrt dies um und stellt die Prozesse über die 
+        	Daten.
+        	Der Paradigmatiker betrachtet die Prozesse und Daten gleichwertig 
+        	wichtig und adressiert beide von Beginn an. 
+        </para>
+
+        <para>
+        	Wenn es dazu kommt, Purist zu sein, dann hat der Ontologe die 
+        	Oberhand.
+        	Es ist möglich, eine Datenbank zu definieren und zu erzeugen, in die 
+        	Daten eingegeben und geholt werden kann, ohne Rücksicht darauf, was 
+        	mit ihnen getan wird oder nicht.
+        	Auf der anderen Seite ist es nicht besonders nützlich einen Prozess 
+        	zu implementieren ohne irgendwelche Datenstrukturen zu haben auf 
+        	denen der Prozess arbeitet.
         </para>
 
         <sect2>
 
-          <title>Class, Responsibilities, and Collaborators (CRC) Cards</title>
+          <title>Klasse-, Verantwortlichkeits- und Zusammenarbeits-Karten (CRC)</title>
 
           <para>
-            The CRC methodology favors the phenomenonologists
-            preference for analysis.
-            It is the equivalent of starting with the use cases,
-            the process aspects (operations) of the class diagrams,
-            and scenarios from which sequence diagrams can be initiated.
+          	Die CRC-Methode (CRC = Class, Responsibility, Collaborators) 
+          	favorisiert die Vorliebe der Phänomenologen für die Analyse.
+          	Es ist äquivalent mit den Anwendungsfällen zu beginnen, die Aspekte 
+          	der Prozesse (Operationen) in Klassendiagrammen und Szenarien 
+          	darzustellen aus denen Sequenzdiagramme initiiert werden können.
           </para>
 
           <para>
-            CRC cards and the associated methodology are described
-            in detail in <xref linkend="app.crc"/>.
-            They are used again in the design phase and are further
-            discussed in <xref linkend="ch.tut.design"/>.
+          	CRC-Karten und die entsprechende Methode sind detailliert in 
+            <xref linkend="app.crc"/> beschrieben.
+            Sie werden in der Designphase erneut verwendet und weiter diskutiert 
+            in <xref linkend="ch.tut.design"/>.
           </para>
 
           <para>
-            The strength of CRC cards during analysis.
+          	Die Stärke der CRC-Karten während der Analyse.
           <itemizedlist>
-            <listitem><para>Common Project Vocabulary -</para></listitem>
-            <listitem><para>Spread Domain Knowledge -</para></listitem>
-            <listitem><para>Making the Paradigm Shift -</para></listitem>
-            <listitem><para>Live Prototyping -</para></listitem>
-            <listitem><para>Identifying Holes in Requirements -</para></listitem>
+            <listitem><para>Gemeinsames Projektvokabular -</para></listitem>
+            <listitem><para>Breites Bereichswissen -</para></listitem>
+            <listitem><para>Führt Paradigmenwechsel durch -</para></listitem>
+            <listitem><para>Live-Prototyping -</para></listitem>
+            <listitem><para>Indentifiziert Lücken in den Anforderungen -</para></listitem>
           </itemizedlist>
           </para>
 
           <para>
-            In this phase the group should consist of two or
-            three domain experts, one object-oriented technology
-            facilitator, and the rest of the group made up of people
-            who are responsible for delivering the system.
+          	In dieser Phase sollte die Gruppe aus zwei oder drei Fachexperten 
+          	bestehen. Einer als Vermittler der objektorientierten Technologie 
+          	und der Rest der Gruppe sollte aus Personen bestehen, die für das 
+          	das Ausrollen des Systems verantwortlich sind.
           </para>
 
           <para>
-            The first time that the Analysis phase occurs a special
-            case of the CRC session happens as there are no classes
-            or scenarios to choose from to define a CRC session.
-            At this point a special type of session known
-            as brainstorming is held.
-            During this session you identify the initial set of
-            classes in the problem domain by using the problem statement
-            or requirements document or whatever you know about the
-            desired result for a starting point.
-            The nouns that are found in whatever you are starting from are
-            a good key to an initial set of classes in the system.
-            In a brainstorming session there should be little or no
-            discussion of the ideas.
-            Record them and filter the results after the brainstorming.
-            At this stage the distinction between class and object
-            is blurred.
+          	Wenn man das erste Mal in die Analysephase eintritt, tritt ein 
+          	spezieller Fall der CRC-Sitzung auf, weil es keine Klassen oder 
+          	Szenarien gibt, die man in der CRC-Sitzung für die Definition 
+          	auswählen könnte. Zu diesem Zeitpunkt tritt ein spezieller 
+          	Sitzungstyp, Brainstorming genannt, auf.
+          	Während dieser Phase identifizieren Sie den grundlegenden Satz von 
+          	Klassen des Problembereiches, indem Sie die Problembeschreibung oder 
+          	das Anforderungsdokument oder was immer Sie auch über das gewünschte 
+          	Ergebnis wissen als Startpunkt verwenden.
+          	Die Hauptwörter, die Sie finden, sind gute Ansätze für einen ersten 
+          	Satz von Klassen in dem System. Während der Brainstorming-Sitzung 
+          	sollten die Ideen wenig bis gar nicht diskutiert werden.
+          	Schreiben Sie diese auf und filtern Sie die Ergebnisse nach dem 
+          	Brainstorming.
+          	Zu diesem Zeitpunkt ist die Unterscheidung zwischen Klasse und 
+          	Objekt unscharf.
           </para>
 
           <para>
-            Once a reasonable set of classes has been defined
-            by the group, responsibilities can be added.
-            Add responsibilities that are obvious from the requirements
-            or the name of the class.
-            You don&apos;t need to find them all (or any for that matter).
-            The scenarios will make them more obvious.
-            The advantage of finding some in the beginning is that
-            it helps provide a starting place.
+          	Nachdem ein vernünftiger Satz von Klassen durch die Gruppe definiert 
+          	wurde, können die Verantwortlichkeiten hinzugefügt werden.
+          	Fügen Sie Verantwortlichkeiten hinzu, die aus den Anforderungen oder 
+          	den Namen der Klassen deutlich hervorgehen.
+          	Sie müssen nicht alle finden müssen (oder in jedem Fall alle).
+          	Die Szenarien werden dies deutlicher machen.
+          	Der Vorteil, einige bereits am Anfang zu finden ist, dass es hilft, 
+          	einen Anfangspunkt zu finden.
           </para>
 
           <para>
-            Select the initial scenarios from the requirements document
-            by examining it&apos;s verbs in much the same way that we scanned
-            its nouns earlier.
-            Then as many walk through sessions as necessary to complete
-            the analysis phase are performed.
+          	Wählen Sie die ersten Szenarios aus dem Anforderungsdokument aus, 
+          	indem Sie dessen Verben auf die gleiche Weise prüfen, wie wir vorher 
+          	die Hauptwörter durchgingen.
+          	Dann führen Sie diesen Prozess so oft als notwendig durch, um die 
+          	begonnene Analysephase zu vervollständigen.
           </para>
 
           <para>
-            When is enough of the analysis complete that design can begin?
-            When all the different responsibilities are in place
-            and the system has become stable.
-            After all the normal behavior has been covered, exceptional
-            behavior needs to be simulated.
-            When you notice that the responsibilities are all in place to
-            support the new scenarios, and there is little change to the
-            cards, this is a sign the you are ready to start design.
+          	Wann ist genug Analyse durchgeführt worden und wann kann das Design 
+          	beginnen? Wenn alle unterschiedlichen Verantwortlichkeiten zugeordnet 
+          	wurden und das System stabil geworden ist.
+          	Nachdem das gesamte normale Verhalten abgedeckt wurde, ist es 
+          	notwendig aussergewöhnliches Verhalten zu simulieren.
+          	Wenn Sie feststellen, dass die Verantwortlichkeiten alle an der 
+          	richtigen Stelle sind, um die neuen Szenarien zu unterstützen und 
+          	nur noch wenige Änderungen an den Karten vorzunehmen sind, dann ist 
+          	das ein Anzeichen dafür, dass Sie mit dem Design beginnen können.
           </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Concept Diagram (To be written)</title>
+          <title>Konzeptdiagramm (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>System Sequence Diagram (To be written)</title>
+          <title>System-Sequenzdiagramm (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>System Statechart Diagram (To be written)</title>
+          <title>System-Zustandsdiagramm (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Realization Use Case Diagram (To be written)</title>
+          <title>Anwendungsfalldiagramm realisieren (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Documents (To be written)</title>
+          <title>Dokumente (Noch zu beschreiben)</title>
 
-          <remark>Use Case Specifications and Supplementary 
-          Requirements Specifications recast in solution language. To 
-          be written...</remark>
+          <remark>
+          	Anwendungsfall- und Ergänzende Anforderungs-Spezifikationen sind in 
+          	die Sprache der Lösung umzuwandeln. Noch zu beschreiben...
+          </remark>
         </sect2>
 
 
@@ -6789,26 +6952,26 @@ x              <para>
 
       <sect1 id="s1.umlclassdiags">
 
-        <title>Class Diagrams (To be written)</title>
+        <title>Klassendiagramme (Noch zu beschreiben)</title>
 
-        <remark>To be written...</remark>
+        <remark>Noch zu beschreiben...</remark>
         <sect2>
 
-          <title>The Class Diagram (To be written)</title>
+          <title>Das Klassendiagramm (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Advanced Class Diagrams (To be written)</title>
+          <title>Erweiterte Klassendiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Association Classes (To be written)</title>
+            <title>Assoziationsklassen (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
@@ -6817,29 +6980,38 @@ x              <para>
 
       <sect1 id="s1.argoclassdiags">
 
-        <title>Creating Class Diagrams in ArgoUML</title>
+        <title>Klassendiagramme in ArgoUML erzeugen</title>
 
         <sect2>
 
-          <title>Classes</title>
+          <title>Klassen</title>
 
-          <remark>Identifying class diagrams from existing materials 
-          (Vision, Use Cases etc). To be written...</remark>
+          <remark>
+          	Klassendiagramme aus existierendem Material (Vision, Anwendungsfälle, 
+          	usw.) identifizieren. Noch zu beschreiben...
+          </remark>
           <sect3>
 
-            <title>Using the Note Icon in the Tool Bar</title>
+            <title>Das Kommentarsymbol in der Werkzeugleiste verwenden</title>
 
-            <para>Click on your target class. Then click on the note 
-            icon. ArgoUML will generate the link automatically.</para>
+            <para>
+            	Klicken Sie auf Ihre Zielklasse. Dann klicken Sie auf das 
+            	Kommentarsymbol. ArgoUML wird die Verknüpfung automatisch 
+            	generieren.
+            </para>
 
-            <para>You can also right click to add a note as well! Be 
-            aware that you can add an undefined number of notes to any 
-            one class!</para>
+            <para>
+            	Sie können auch einen Rechtsklick ausführen, um einen Kommentar 
+            	hinzuzufügen! Beachten Sie, dass Sie eine unbegrenzte Anzahl 
+            	von Kommentaren zu jeder Klasse hinzufügen können!
+            </para>
 
             <warning>
 
-              <para>Be aware that your note will not appear in the 
-              source code documentation tab.</para>
+              <para>
+              	Beachten Sie, dass Ihr Kommentar nicht im Sourcecoderegister 
+              	erscheint.
+              </para>
 
             </warning>
 
@@ -6849,73 +7021,74 @@ x              <para>
 
         <sect2>
 
-          <title>Associations (To be written)</title>
+          <title>Assoziationen (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Aggregation (To be written)</title>
+            <title>Aggregation (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
 
         <sect2>
 
-          <title>Class Attributes and Operations (To be written)</title>
+          <title>Klassenattribute und Operationen (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Entering Data Into Attributes and Methods 
-            Windows</title>
-
-            <para>Click directly in the class model element and start 
-            typing. Do not use the properties window dialog fields&mdash;they 
-            are not fully functional and liable to cause you a little 
-            frustration.</para>
+            <title>Daten in Attribut- und Methodenfenster eingeben</title>
 
             <para>
-              In fact, it would be interesting to see if you can 
-              type stereotypes right into the class attribute box for 
-              generating XML diagrams.
+            	Klicken Sie direkt in das Klassenelement und beginnen Sie mit 
+            	der Eingabe. Verwenden Sie nicht die Dialogfenster des 
+            	Eigenschaftsregisters; sie sind noch nicht vollständig 
+            	implementiert und führen nur zu ein bischen Frustration.
+            </para>
+
+            <para>
+            	Natürlich wäre es von Interessse, wenn Sie Stereotypen rechts 
+            	in den Bereich für Klassenattribute schreiben könnten, um 
+            	XML-Diagramme zu generieren.
             </para>
 
           </sect3>
 
           <sect3>
 
-            <title>Class Attributes (To be written)</title>
+            <title>Klassenattribute (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
           <sect3>
 
-            <title>Class Operations (To be written)</title>
+            <title>Klassenoperationen (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
 
         <sect2>
 
-          <title>Advanced Class Features (To be written)</title>
+          <title>Erweiterte Klasseneigenschaften (Noch zu beschreiben)</title>
 
           <sect3>
 
-            <title>Association Classes (To be written)</title>
+            <title>Assoziationsklassen (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
           <sect3>
 
-            <title>Stereotypes (To be written)</title>
+            <title>Stereotypen (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
@@ -6924,47 +7097,49 @@ x              <para>
 
       <sect1 id="s1.umlseqdiags">
 
-        <title>Sequence Diagrams (To be written)</title>
+        <title>Sequenzdiagramme (Noch zu beschreiben)</title>
 
-        <remark>To be written...</remark>
+        <remark>Noch zu beschreiben...</remark>
         <sect2>
 
-          <title>The Sequence Diagram (To be written)</title>
+          <title>Das Sequenzdiagramm (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Identifying Actions (To be written)</title>
+          <title>Aktionen identifizieren (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Advanced Sequence Diagrams (To be written)</title>
+          <title>Erweiterte Sequenzdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
       </sect1>
 
       <sect1 id="s1.argoseqdiags">
 
-        <title>Creating Sequence Diagrams in ArgoUML</title>
+        <title>Sequenzdiagramme in ArgoUML erzeugen</title>
 
         <sect2>
 
-          <title>Sequence Diagrams</title>
+          <title>Sequenzdiagramme</title>
 
           <sect3>
 
-            <title>Creating a Sequence Diagram</title>
+            <title>Ein Sequenzdiagramm erzeugen</title>
 
-            <para>Normally, you can just start a sequence diagram right 
-            away. On the <literal>Create Diagram</literal> menu choose 
-            <literal>Sequence</literal>.</para>
+            <para>
+            	Normalerweise können Sie mit einem Sequenzdiagramm sofort 
+            	beginnen. Im Menü <literal>Neues Diagramm</literal> wählen Sie 
+            	aus <literal>Sequenzdiagramm</literal>.
+            </para>
 
           </sect3>
 
@@ -6972,44 +7147,46 @@ x              <para>
 
         <sect2>
 
-          <title>Actions (To be written)</title>
+          <title>Aktionen (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Advanced Sequence Diagrams (To be written)</title>
+          <title>Erweiterte Sequenzdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
       </sect1>
 
       <sect1 id="s1.umlstatediags">
 
-        <title>Statechart Diagrams (To be written)</title>
+        <title>Zustandsübergangsdiagramme (Noch zu beschreiben)</title>
 
-        <remark>To be written...</remark>
+        <remark>Noch zu beschreiben...</remark>
         <sect2>
 
-          <title>The Statechart Diagram (To be written)</title>
+          <title>Das Zustandsübergangsdiagramm (Noch zu beschreiben)</title>
 
-          <remark>Types of statechart diagram (Moore, Mealy); 
-          Hierarchical diagrams. To be written...</remark>
+          <remark>
+          	Die Zustandsübergangsdiagrammarten (Moore, Mealy); Hierarchische 
+          	Diagramme. Noch zu beschreiben...
+          </remark>
         </sect2>
 
         <sect2>
 
-          <title>Advanced Statechart Diagrams (To be written)</title>
+          <title>Erweiterte Zustandsübergangsdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Hierarchical Statechart Diagrams (To be 
-            written)</title>
+            <title>Hierarchische Zustandsübergangsdiagramme (Noch zu beschreiben 
+            )</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
@@ -7018,19 +7195,21 @@ x              <para>
 
       <sect1 id="s1.argostatediags">
 
-        <title>Creating Statechart Diagrams in ArgoUML</title>
+        <title>Zustandsübergangsdiagramme in ArgoUML</title>
 
         <sect2>
 
-          <title>Statechart Diagrams (To be written)</title>
+          <title>Zustandsübergangsdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Creating a Statechart Diagram</title>
+            <title>Ein Zustandsübergangsdiagramm erzeugen</title>
 
-            <para>Select a class, then you can create a statechart 
-            diagram.</para>
+            <para>
+            	Markieren Sie eine Klasse, dann können Sie ein Zustandsdiagramm 
+            	erstellen.
+            </para>
 
           </sect3>
 
@@ -7038,18 +7217,23 @@ x              <para>
 
         <sect2>
 
-          <title>States (To be written)</title>
+          <title>Zustände (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Editing a Composite State</title>
+            <title>Einen zusammengesetzten Zustandsübergang editieren</title>
 
-            <para>When editing a composite state, how do you provide do 
-            and event for a composite state?</para>
+            <para>
+            	Wenn Sie einen zusammengesetzten Zustandsübergang editieren, 
+            	wie erhalten Sie Zugriff auf den zusammengesetzten 
+            	Zustandsübergang?
+            </para>
 
-            <para>The answer is to select a class, then you can create 
-            a statechart diagram.</para>
+            <para>
+            	Die Antwort ist, die Klasse markieren und dann das 
+            	Zustandsübergangdiagramm erstellen.
+            </para>
 
           </sect3>
 
@@ -7057,29 +7241,29 @@ x              <para>
 
         <sect2>
 
-          <title>Transitions (To be written)</title>
+          <title>Transitionen (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Actions (To be written)</title>
+          <title>Aktionen (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Advanced Statechart Diagrams (To be written)</title>
+          <title>Erweiterte Zustandsübergangsdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Hierarchical Statechart Diagrams (To be 
-            written)</title>
+            <title>Hierarchische Zustandsübergangsdiagramme ( 
+            Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
@@ -7088,115 +7272,114 @@ x              <para>
 
       <sect1>
 
-        <title>Realization Use Cases (To be written)</title>
+        <title>Anwendungsfälle realisieren (Noch zu beschreiben)</title>
 
-        <remark>To be written...</remark>
+        <remark>Noch zu beschreiben...</remark>
       </sect1>
 
       <sect1>
 
-        <title>Creating Realization Use Cases in ArgoUML (To be 
-        written)</title>
+        <title>Realisierungs-Anwendungsfälle in ArgoUML erstellen (
+        Noch zu beschreiben)</title>
 
-        <remark>To be written...</remark>
+        <remark>Noch zu beschreiben...</remark>
       </sect1>
 
       <sect1>
 
-        <title>Case Study (To be written)</title>
+        <title>Fallstudie (Noch zu beschreiben)</title>
 
         <para>
-
-          Regardless of which methodology you use, at this time you are
-          undoubtedly going to take the problem statement from
-          <xref linkend="s3.tut.req_case_study"/>
-          and extract the nouns from it.
-          This list should be compacted to contain only those nouns that are
-          expected to result in a class.
-          This effort results in the following.
+			Abhängig davon, welche Methode Sie verwenden, ist es an der Zeit, 
+			dass Sie ohne jeden Zweifel die Problembeschreibung aus 
+			<xref linkend="s3.tut.req_case_study"/> nehmen und die Hauptwörter 
+			extrahieren.
+			Diese Liste sollte verdichtet werden, so dass nur noch die 
+			Hauptwörter enthalten sind, die als Klasse erwartet werden.
+			Dieser Ansatz hat folgendes Ergebnis:
 
           <itemizedlist>
-            <listitem><para>Account</para></listitem>
-            <listitem><para>Audit trail</para></listitem>
+            <listitem><para>Konto</para></listitem>
+            <listitem><para>Nachweislog</para></listitem>
             <listitem><para>Bank</para></listitem>
-            <listitem><para>Cash</para></listitem>
-            <listitem><para>Customer</para></listitem>
+            <listitem><para>Geld</para></listitem>
+            <listitem><para>Kunde</para></listitem>
           </itemizedlist>
           
         </para>
 
         <sect2>
 
-          <title>CRC Cards</title>
+          <title>CRC Karten</title>
 
           <para>
-            The project manager convenes a CRC session at which the initial
-            set of classes are to be defined.
-            The facilitator reminds the participants that we are in the
-            analysis phase and are only interested in what needs to be done
-            (at the business level) and are to leave out anything that smacks
-            of how to do it.
-            As a general rule of thumb this means a subset of
-            the nouns from the problem statement (see above).
-            The group starts with a complete list of all of the nouns in the
-            statement, examines each one, and decides which are inappropriate
-            crossing them off the list.
-            Each class is then assigned to one of the participants.
+          	Der Projektmanager beruft eine CRC-Sitzung ein, in der die ersten 
+          	Klassen definiert werden.
+          	Der Multiplikator erinnert die Teilnehmer daran, dass wir uns in der 
+          	Analysephase befinden und nur an den Dingen interessiert sind, 
+          	welche Bedürfnisse erfüllt werden müssen (auf Geschäftsebene) und 
+          	alles weglassen müssen, was nach "wie müssen wir es tun" aussieht.
+          	Als generelle Regel diese Ansatzes bedeutet das, eine Teilmenge der 
+          	Hauptwörter aus dem Problembereich (siehe oben).
+          	Die Gruppe beginnt mit einer vollständigen Liste aller Hauptwörter 
+          	der Beschreibung, prüft jedes und entscheidet, welche unpassend 
+          	sind und aus der Liste gestrichen werden.
+          	Jede Klasse wird dann einem der Teilnehmer zugewiesen.
           </para>
 
           <para>
-            <remark>to be continued</remark>...
+            <remark>ist fortzusetzen...</remark>...
           </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Concept Class Diagrams (To be written)</title>
+          <title>Klassendiagramme konzipieren (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Identifying classes (To be written)</title>
+            <title>Klassen identifizieren (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
           <sect3>
 
-            <title>Identifying associations (To be written)</title>
+            <title>Assoziationen identifizieren (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
-          </sect3>
-
-        </sect2>
-
-        <sect2>
-
-          <title>System Sequence Diagrams (To be written)</title>
-
-          <remark>To be written...</remark>
-          <sect3>
-
-            <title>Identifying actions (To be written)</title>
-
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
 
         <sect2>
 
-          <title>System Statechart Diagrams (To be written)</title>
+          <title>System-Sequenzdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
+          <sect3>
+
+            <title>Aktionen identifizieren (Noch zu beschreiben)</title>
+
+            <remark>Noch zu beschreiben...</remark>
+          </sect3>
+
         </sect2>
 
         <sect2>
 
-          <title>Realization Use Cases (To be written)</title>
+          <title>System-Zustandsübergangsdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
+        </sect2>
+
+        <sect2>
+
+          <title>Realisierungs-Anwendungsfälle (Noch zu beschreiben)</title>
+
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
       </sect1>
