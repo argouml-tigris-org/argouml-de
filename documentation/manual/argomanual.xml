@@ -7759,7 +7759,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	            <xref linkend="fig.tut.iftool"/>).
               </para>
 
-              <figure float="1" id="fig.tut.iftool">
+              <figure id="fig.tut.iftool">
 
                 <title>Markieren des Schnittstellenwerkzeuges</title>
 
@@ -7779,7 +7779,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	<xref linkend="fig.tut.if"/> gezeigt zu ändern.
               </para>
 
-              <figure float="1" id="fig.tut.if">
+              <figure id="fig.tut.if">
 
                 <title>Schnittstelle im Klassendiagramm</title>
 
@@ -7808,7 +7808,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               	<xref linkend="fig.tut.generalize"/> dargestellt.
               </para>
 
-              <figure float="1" id="fig.tut.generalize">
+              <figure id="fig.tut.generalize">
 
                 <title>Generalisierung in der Werkzeugleiste des 
                 Klassendiagrammes</title>
@@ -7832,7 +7832,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 				aussehen sollte. 
               </para>
 
-              <figure float="1" id="fig.tut.ifgen">
+              <figure id="fig.tut.ifgen">
 
                 <title>Generalisierung zwischen zwei Schnittstellen.</title>
 
@@ -8037,7 +8037,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <title>Modelle für die Zustandshistorie (Noch zu beschreiben)</title>
 
-            <remark>Shallow v Deep. Noch zu beschreiben...</remark>
+            <remark>Breite versus Tiefe. Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
@@ -8046,103 +8046,103 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title>Creating Statechart Diagrams in ArgoUML (To be 
-        written)</title>
+        <title>Zustandsdiagramme in ArgoUML erstellen ( 
+        Noch zu beschreiben)</title>
 
         <sect2>
 
-          <title>Statechart Diagrams (To be written)</title>
+          <title>Zustandsdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>States (To be written)</title>
+          <title>Zustände (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Transitions (To be written)</title>
+          <title>Transitionen (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Actions (To be written)</title>
+          <title>Aktionen (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Advanced Statechart Diagrams (To be written)</title>
+          <title>Erweiterte Zustandsdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Transitions (To be written)</title>
+            <title>Transitionen (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
             <sect4>
 
-              <title>Triggers (To be written)</title>
+              <title>Trigger (Noch zu beschreiben)</title>
 
-              <remark>To be written...</remark>
+              <remark>Noch zu beschreiben...</remark>
             </sect4>
 
             <sect4>
 
-              <title>Guards (To be written)</title>
+              <title>Wächter (Noch zu beschreiben)</title>
 
-              <remark>To be written...</remark>
+              <remark>Noch zu beschreiben...</remark>
             </sect4>
 
             <sect4>
 
-              <title>Effectss (To be written)</title>
+              <title>Effekte (Noch zu beschreiben)</title>
 
-              <remark>To be written...</remark>
+              <remark>Noch zu beschreiben...</remark>
             </sect4>
 
           </sect3>
 
           <sect3>
 
-            <title>Pseudo States (To be written)</title>
+            <title>Pseudozustände (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
             <sect4>
 
-              <title>Junction and Choice (To be written)</title>
+              <title>Junction and Choice (Noch zu beschreiben)</title>
 
-              <remark>To be written...</remark>
+              <remark>Noch zu beschreiben...</remark>
             </sect4>
 
             <sect4>
 
-              <title>Fork and Join (To be written)</title>
+              <title>Verzweigen und Verknüpfen (Noch zu beschreiben)</title>
 
-              <remark>To be written...</remark>
+              <remark>Noch zu beschreiben...</remark>
             </sect4>
 
           </sect3>
 
           <sect3>
 
-            <title>Hierarchical State Machines (To be written)</title>
+            <title>Hierarchische Zustandsautomaten (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
           <sect3>
 
-            <title>History (To be written)</title>
+            <title>Historie (Noch zu beschreiben)</title>
 
-            <remark>Shallow v Deep. To be written...</remark>
+            <remark>Breite versus Tiefe. Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
@@ -8151,19 +8151,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1 id="s1.umlactivitydiags">
 
-        <title>Activity Diagrams (To be written)</title>
+        <title>Aktivitätsdiagramme (Noch zu beschreiben)</title>
 
-        <remark>To be written...</remark>
+        <remark>Noch zu beschreiben...</remark>
         <sect2>
 
-          <title>The Activity Diagram (To be written)</title>
+          <title>Das Aktivitätsdiagramm (Noch zu beschreiben)</title>
 
-          <remark>More on this. To be written...</remark>
+          <remark>Mehr darüber. Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Action States (To be written)</title>
+            <title>Aktionszustände (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
@@ -8172,20 +8172,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title>Creating Activity Diagrams in ArgoUML (To be 
-        written)</title>
+        <title>Aktivitätsdiagramme in ArgoUML erstellen (
+        Noch zu beschreiben)</title>
 
         <sect2>
 
-          <title>Activity Diagrams (To be written)</title>
+          <title>Aktivitätsdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Creating an Activity Diagram</title>
+            <title>Ein Aktivitätsdiagramm erstellen</title>
 
-            <para>Select a use case or class, then you can create an 
-            activity diagram.</para>
+            <para>
+            	Markieren Sie einen Anwendungsfall oder eine Klasse, dann 
+            	können Sie ein Aktivitätsdiagramm erstellen.
+            </para>
 
           </sect3>
 
@@ -8193,85 +8195,85 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Action States (To be written)</title>
+          <title>Aktionszustände (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
       </sect1>
 
       <sect1>
 
-        <title>Deployment Diagrams (To be written)</title>
+        <title>Verteilungsdiagramme (Noch zu beschreiben)</title>
 
-        <remark>To be written...</remark>
+        <remark>Noch zu beschreiben...</remark>
         <sect2>
 
-          <title>The Deployment Diagram (To be written)</title>
+          <title>Das Verteilungsdiagramm (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
       </sect1>
 
       <sect1>
 
-        <title>Creating Deployment Diagrams in ArgoUML (To be 
-        written)</title>
+        <title>Verteilungsdiagramme in ArgoUML erstellen ( 
+        Noch zu beschreiben)</title>
 
         <sect2>
 
-          <title>Nodes (To be written)</title>
+          <title>Knoten (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Node Instances (To be written)</title>
+            <title>Knoten-Instanzen (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
 
         <sect2>
 
-          <title>Components (To be written)</title>
+          <title>Komponenten (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Component Instances (To be written)</title>
+            <title>Komponenten-Instanzen (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
 
         <sect2>
 
-          <title>Relationships between nodes and components (To be 
-          written)</title>
+          <title>Beziehungen zwischen Knoten und Komponenten ( 
+          Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Dependency (To be written)</title>
+            <title>Abhängigkeit (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
           <sect3>
 
-            <title>Associations (To be written)</title>
+            <title>Assoziationen (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
           <sect3>
 
-            <title>Links (To be written)</title>
+            <title>Verknüpfungen (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
@@ -8280,126 +8282,126 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title>System Architecture (To be written)</title>
+        <title>System-Architektur (Noch zu beschreiben)</title>
 
-        <remark>To be written...</remark>
+        <remark>Noch zu beschreiben...</remark>
       </sect1>
 
       <sect1>
 
-        <title>Case Study (To be written)</title>
+        <title>Fallstudie (Noch zu beschreiben)</title>
 
         <sect2>
 
-          <title>CRC Cards (To be written)</title>
+          <title>CRC-Karten (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>Packages (To be written)</title>
+          <title>Pakete (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Identifying Packages (To be written)</title>
+            <title>Pakete identifzieren (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
           <sect3>
 
-            <title>Datatypes and Stereotypes (To be written)</title>
+            <title>Datentypen und Stereotypen (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
-          </sect3>
-
-        </sect2>
-
-        <sect2>
-
-          <title>Class Diagrams (To be written)</title>
-
-          <remark>To be written...</remark>
-          <sect3>
-
-            <title>Identifying classes (To be written)</title>
-
-            <remark>To be written...</remark>
-          </sect3>
-
-          <sect3>
-
-            <title>Identifying associations (To be written)</title>
-
-            <remark>To be written...</remark>
-          </sect3>
-
-          <sect3>
-
-            <title>Specifying Attributes and Operations (To be 
-            written)</title>
-
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
 
         <sect2>
 
-          <title>Sequence Diagrams (To be written)</title>
+          <title>Klassendiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Identifying actions (To be written)</title>
+            <title>Klassen identifizieren (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
+          </sect3>
+
+          <sect3>
+
+            <title>Assoziationen identifizieren (Noch zu beschreiben)</title>
+
+            <remark>Noch zu beschreiben...</remark>
+          </sect3>
+
+          <sect3>
+
+            <title>Attribute und Operationen spezifizieren ( 
+            Noch zu beschreiben)</title>
+
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
 
         <sect2>
 
-          <title>Collaboration Diagrams (To be written)</title>
+          <title>Sequenzdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
           <sect3>
 
-            <title>Identifying Messages (To be written)</title>
+            <title>Aktionen identifzieren (Noch zu beschreiben)</title>
 
-            <remark>To be written...</remark>
+            <remark>Noch zu beschreiben...</remark>
           </sect3>
 
         </sect2>
 
         <sect2>
 
-          <title>Statechart Diagrams (To be written)</title>
+          <title>Kollaborationsdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
+          <sect3>
+
+            <title>Nachrichten identifizieren (Noch zu beschreiben)</title>
+
+            <remark>Noch zu beschreiben...</remark>
+          </sect3>
+
         </sect2>
 
         <sect2>
 
-          <title>Activity Diagrams (To be written)</title>
+          <title>Zustandsdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>The Deployment Diagram (To be written)</title>
+          <title>Aktivitätsdiagramme (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
         <sect2>
 
-          <title>The System Architecture (To be written)</title>
+          <title>Das Verteilungsdiagramm (Noch zu beschreiben)</title>
 
-          <remark>To be written...</remark>
+          <remark>Noch zu beschreiben...</remark>
+        </sect2>
+
+        <sect2>
+
+          <title>Die System-Architektur (Noch zu beschreiben)</title>
+
+          <remark>Noch zu beschreiben...</remark>
         </sect2>
 
       </sect1>
@@ -8408,162 +8410,200 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
     <chapter id="ch.tut.build">
 
-      <title>Code Generation, Reverse Engineering, and Round Trip 
-      Engineering</title>
+      <title>
+      	Codegenerierung, Reverse Engineering und Round Trip Engineering
+      </title>
 
       <sect1>
 
-        <title>Introduction</title>
+        <title>Einleitung</title>
 
-        <para>We now have our design fully specified. With the right 
-        simulator we could actually execute the design and see if it 
-        works. (ArgoUML does not provide such functionality, but this 
-        functionality has been provided in alternative tools.)</para>
+        <para>
+        	Wir haben jetzt unser Design vollständig spezifiziert. Mit dem 
+        	richtigen Simulator können wir das Design aktuell ausführen und 
+        	sehen, wie es arbeitet. (ArgoUML enthält keine solche Funktionalität, 
+        	aber diese Funktionalität wird in anderen Tools angeboten).
+        </para>
 
-        <para>ArgoUML does allow you to generate code from the design 
-        in several different programming languages. We, most likely, 
-        already in the design had a programming language in mind 
-        because some of the design considerations are to care for a 
-        specific language.</para>
+        <para>
+        	ArgoUML erlaubt es Ihnen, Code aus dem Design in vielen 
+        	verschiedenen Programmiersprachen auszuführen. Wir haben bereits 
+        	sehr wahrscheinlich im Design eine Programmiersprache ausgewählt, 
+        	weil einige der Designanforderungen fordern, eine spezielle 
+        	Sprache auszuwählen.
+        </para>
 
-        <para>The output of this process is the set of files that 
-        constitute the program that solves the problem.</para>
+        <para>
+        	Das Ergebnis dieses Prozesses ist ein Satz von Dateien, der das 
+        	Programm bildet, welches das Problem löst.
+        </para>
 
-        <para>Once again the <emphasis>recursive</emphasis>, and 
-        <emphasis>iterative</emphasis> nature of our process means we 
-        will come back to the Build phase many times in the 
-        future.</para>
+        <para>
+        	Nochmals, die <emphasis>rekursive</emphasis> und 
+	        <emphasis>iterative</emphasis> Natur unseres Prozesses bedeutet, dass 
+	        wir in der Zukunft noch viele Male in die Buildphase zurückkehren 
+	        werden. 
+        </para>
 
-        <para>There is also another side to this and that is the 
-        reverse engineering side. If we happen to have an old program 
-        that we would like to examine then we could take the files and 
-        reverse engineer them to create a design. This can be used when 
-        trying to understand some not so well documented program or as 
-        a quick start for the design work.</para>
+        <para>
+        	Es gibt dazu auch noch eine andere Seite und das ist die Reverse 
+        	Engineering-Seite. Wenn wir ein altes Programm haben, dass wir 
+        	vielleicht überprüfen wollen, dann können wir die Dateien nehmen und 
+        	daraus mit Hilfe des Reverse Engineering ein Design erstellen. 
+        	Das kann eingesetzt werden, wenn wir versuchen wollen, ein nicht so 
+        	gut dokumentiertes Programm verstehen zu wollen oder als 
+        	Schnelleinstieg in die Designarbeit.
+        </para>
 
-        <para>The process of going back and forth between doing changes 
-        in the design followed by a code generation and then doing 
-        changes in the code followed by a reverse engineering using for 
-        every change, the best possible perspective, is called 
-        Round-trip Engineering.</para>
+        <para>
+        	Der Prozess des vor- und zurückgehens zwischen den Änderungen im 
+        	Design gefolgt von einer Codegenerierung und anschliessender 
+        	Änderungen im Code gefolgt von einem Reverse Engineering bei jeder 
+        	Änderung, die bestmögliche Perspektive, wird Round-trip Engineering 
+        	genannt.
+        </para>
 
       </sect1>
 
       <sect1>
 
-        <title>Code Generation</title>
+        <title>Codegenerierung</title>
 
-        <indexterm><primary>Code Generation</primary></indexterm>
-        <para>The output of the Code Generation is the completed 
-        program. Depending on the contents of the design, we could also 
-        generate Unit test cases.</para>
+        <indexterm><primary>Codegenerierung</primary></indexterm>
+        <para>
+        	Das Ergebnis der Codegenerierung ist das vollständige Programm. Je 
+        	nach Inhalt des Designs, können wir auch Unit-Testfälle generieren.
+        </para>
 
-        <para>To do the work we need the design model, containing both 
-        static and dynamic descriptions of the program.</para>
+        <para>
+        	Um dies tun zu können, benötigen wir das Designmodell, welches die 
+        	statischen und dynamischen Aspekte des Programmes beinhaltet.
+        </para>
 
         <sect2>
 
-          <title>Generating Code from the Static Structure</title>
+          <title>Code aus der statischen Struktur generieren</title>
 
-          <indexterm><primary>Generating Code</primary><secondary>from 
-          the Static Structure</secondary></indexterm>
+          <indexterm><primary>Code generieren</primary><secondary>aus der  
+          statischen Struktur</secondary></indexterm>
           <para>
-
-            It is rather straightforward to do this generation, at 
-            least as long as we do it for an object-oriented language. 
-            This is some of the basic rules:
+			Es ist ziemlich unkompliziert, diese Generierung durchzuführen. 
+			Zumindestens so lange wir es für eine objektorientierte Sprache tun.
+			Dies sind einige der grundlegenden Regeln:
             <itemizedlist>
 
               <listitem>
 
-                <para>A class will become a class.</para>
+                <para>Eine Klasse wird eine Klasse.</para>
 
-                <para>In some target languages (like java, c++) they 
-                also become files and compilation units.</para>
-
-              </listitem>
-
-              <listitem>
-
-                <para>A generalization will become an 
-                inheritance.</para>
-
-                <para>If the target language does not support 
-                inheritance and we didn&apos;t address this during the 
-                design, some special conversions are required to solve 
-                this.</para>
+                <para>
+                	In einigen Zielsprachen (wie Java, C++) werden sie auch 
+                	Dateien und Übersetzungseinheiten.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>An attribute will become a member variable.</para>
+                <para>
+                	Eine Generalisierung wird zu einer Vererbung.
+                </para>
+
+                <para>
+                	Wenn die Zielsprache keine Vererbung unterstützt und wir 
+                	dies während des Design's nicht adressieren, sind einige 
+                	spezielle Konvertierungen erforderlich, um dieses Problem 
+                	zu lösen.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>A navigable association will become a member 
-                variable.</para>
-
-                <para>Depending on the target language, target 
-                platform, and the association multiplicities this will 
-                be a pointer, a reference, a collection class, an entry 
-                in some table or map.</para>
+                <para>Ein Attribut wird zu einer Membervariablen.</para>
 
               </listitem>
 
               <listitem>
 
-                <para>A non-abstract operation in a class will become a 
-                method.</para>
+                <para>
+                	Eine navigierbare Assoziation wird eine Membervariable.
+                </para>
+
+                <para>
+                	Abhängig von der Zielsprache, der Zielplattform und der 
+                	Kardinalitäten der Assoziation wird dies ein Zeiger, eine 
+                	Referenz, eine Collection-Klasse, ein Eintrag in einigen 
+                	Tabellen oder Bitabbildungen (map) sein.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>An abstract operation in a class will become an 
-                abstract method.</para>
+                <para>
+                	Eine nicht abstrakte Operation in einer Klasse wird zu einer 
+                	Methode.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>An in parameter in an operation will become a 
-                parameter in the method.</para>
-
-                <para>For simple types (int, boolean), this is the 
-                normal case. For C++, these will probably const 
-                classes. For Java, this cannot be enforced for 
-                classes.</para>
+                <para>
+                	Eine abstrakte Operation in einer Klasse wird zu einer 
+                	abstrakten Methode.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>An out or in/out parameter in an operation will 
-                become a referenced parameter in the method.</para>
+                <para>
+                	Ein Parameter in einer Operation wird zu einem Parameter in 
+                	der Methode.
+                </para>
 
-                <para>For C++, these will be referenced non-const 
-                parameters. For Java classes, this is the default. 
-                Simple types (int, boolean) must, in java, be converted 
-                to an object of a corresponding class (Integer, 
-                Boolean).</para>
-
-              </listitem>
-
-              <listitem>
-
-                <para>The visibilities of the attributes, associations, 
-                and operations will become visibilities on the member 
-                variables or methods.</para>
+                <para>
+                	Bei einfachen Typen (int, boolean) ist dies der Normalfall.
+                	In C++ werden diese wahrscheinlich Const-Klassen. In Java 
+                	kann dies für Klassen nicht eingefordert werden.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>Packages will become directories, namespaces, or 
-                both.</para>
+                <para>
+                	Ein out- oder in/out-Parameter in einer Operation wird zu 
+                	einem referenzierenden Parameter in der Methode.
+                </para>
+
+                <para>
+                	In C++ werden dies referenzierende nicht-konstante Parameter. 
+                	Bei Javaklassen ist dies der Standard. Einfache Typen (int, 
+                	boolean) müssen in Java in ein Objekt einer 
+                	korrespondierenden Klasse (Integer, Boolean) konvertiert 
+                	werden.
+                </para>
+
+              </listitem>
+
+              <listitem>
+
+                <para>
+                	Die Sichtbarkeit von Attributen, Assoziationen und 
+                	Operationen werden zu Sichtbarkeit von Membervariablen oder 
+                	Methoden.
+                </para>
+
+              </listitem>
+
+              <listitem>
+
+                <para>
+                	Pakete werden Verzeichnisse, Namensräume oder beides.
+                </para>
 
               </listitem>
 
@@ -8575,47 +8615,54 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Generating code from interactions and state 
-          machines</title>
+          <title>
+          	Code aus Interaktionen und Zustandsautomaten generieren 
+          </title>
 
-          <indexterm><primary>Generating Code</primary><secondary>from 
-          Sequence Diagrams</secondary></indexterm>
-          <indexterm><primary>Generating Code</primary><secondary>from 
-          Interactions</secondary></indexterm>
-          <indexterm><primary>Generating Code</primary><secondary>from 
-          Collaboration Diagrams</secondary></indexterm>
-          <indexterm><primary>Generating Code</primary><secondary>from 
-          Statechart Diagrams</secondary></indexterm>
-          <para>This conversion is not as straight-forward as the 
-          conversion of the static structure. It is much more depending 
-          on the target language and target platform.</para>
+          <indexterm><primary>Code generieren</primary><secondary>aus 
+          Sequenzdiagrammen</secondary></indexterm>
+          <indexterm><primary>Code generieren</primary><secondary>aus 
+          Interaktionen</secondary></indexterm>
+          <indexterm><primary>Code generieren</primary><secondary>aus 
+          Kollaborationsdiagrammen</secondary></indexterm>
+          <indexterm><primary>Code generieren</primary><secondary>aus 
+          Zustandsdiagrammen</secondary></indexterm>
+          <para>
+          	Diese Konvertierung ist nicht so unkompliziert, wie die 
+          	Konvertierung der statischen Struktur. Sie hängt sehr viel mehr 
+          	von der Zielsprache und der Zielplattform ab.
+          </para>
 
           <para>
-
-            In general it is only possible to say the following for 
-            interactions:
+			Generell ist es nur möglich, das Folgende zu Interaktionen zu sagen:
             <itemizedlist>
 
               <listitem>
 
-                <para>A message is converted into a function 
-                call.</para>
+                <para>
+                	Eine Nachricht wird in einen Funktionsaufruf konvertiert.
+                </para>
 
-                <para>The class of the recipient will have to have a 
-                function with the correct name and signature.</para>
+                <para>
+                	Die Empfängerklasse wird eine Funktion mit dem richtigen 
+                	Namen und der richtigen Signatur haben.
+                </para>
 
-                <para>The sender function in the class of the sender 
-                will have a call to the function in the 
-                recipient.</para>
+                <para>
+                	Die sendende Funktion in der Klasse eines Senders wird einen 
+                	Funktionsaufruf auf eine Funktion des Empfängers aufweisen.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>An asynchronous message is converted to either 
-                posting a message to be handled by some other thread or 
-                a function call to a function that starts a new 
-                thread.</para>
+                <para>
+                	Eine asynchrone Nachricht wird entweder eine Nachricht 
+                	senden, die durch einige andere Thread- oder 
+                	Funktionsaufrufe verarbeitet werden, die einen neuen Thread 
+                	starten.
+                </para>
 
               </listitem>
 
@@ -8624,54 +8671,66 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           </para>
 
           <para>
-
-            The following describes one possible way to generate state 
-            machines:
+			Das Folgende beschreibt einen möglichen Weg, Zustandsautomaten zu 
+			generieren:
             <itemizedlist>
 
               <listitem>
 
-                <para>A State Machine is generated to a set of member 
-                variables that each method in this class refer to when 
-                deciding behavior.</para>
+                <para>
+                	Ein Zustandsautomat wird in einen Satz von Membervariablen 
+                	generiert, bei dem sich jede Methode in dieser Klasse auf 
+                	das entscheidende Verhalten bezieht.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>A State is generated to a closed set of 
-                combination of values on these member variables.</para>
+                <para>
+                	Ein Zustand wird zu einem zusammengehörenden Satz von Werten 
+                	dieser Membervariablen generiert.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>An Event is generated as a call to a member 
-                method that can change the state.</para>
+                <para>
+                	Ein Ereignis wird zu einem Aufruf auf eine Membermethode 
+                	generiert, der den Zustand ändern kann.
+                </para>
 
-                <para>These methods would then typically have one big 
-                switch statement splitting on the current state.</para>
-
-              </listitem>
-
-              <listitem>
-
-                <para>A Guard is generated to an <symbol>if</symbol> 
-                statement in the event member method in the branch for 
-                the correct state.</para>
+                <para>
+                	Diese Methoden würden dann typischerweise eine grosse 
+                	switch-Anweisung haben, aufgesplittet je nach aktuellem 
+                	Zustand.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>A Transition is generated as an assignment of 
-                some state variable.</para>
+                <para>
+                	Ein Wächter wird, in dem Zweig des richtigen Zustandes, zu 
+                	einer <symbol>if</symbol>-Anweisung in der Ereignis-
+                	Membermethode generiert.
+				</para>
 
               </listitem>
 
               <listitem>
 
-                <para>An Action is generated as a function call.</para>
+                <para>
+                	Eine Transition wird als Zuordnung auf einige 
+                	Zustandsvariablen generiert.
+                </para>
+
+              </listitem>
+
+              <listitem>
+
+                <para>Eine Aktion wird als Funktionsaufruf generiert.</para>
 
               </listitem>
 
@@ -8685,24 +8744,29 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title>Code Generation in ArgoUML</title>
+        <title>Code in ArgoUML generieren</title>
 
         <sect2>
 
-          <title>Static Structure</title>
+          <title>Statische Struktur</title>
 
-          <para>Most of the generation can be done automatically by the 
-          provided language modules. Files are generated in a directory 
-          hierarchy that need to be filled in by the actual code.</para>
+          <para>
+          	Der grösste Teil der Generierung wird automatisch durch die 
+          	ausgewählten Sprachmodule erledigt. Dateien, die benötigt werden, 
+          	um den aktuellen Code aufzunehmen, werden in Verzeichnis-
+          	hierarchien generiert.
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Interactions and statechart diagrams</title>
+          <title>Interaktionen und Zustandsdiagramme</title>
 
-          <para>There is currently no support for this in ArgoUML, not 
-          for any language.</para>
+          <para>
+          	Es gibt aktuell keine Unterstützung dafür in ArgoUML, für keine 
+          	Sprache.
+          </para>
 
         </sect2>
 
@@ -8715,20 +8779,26 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <indexterm><primary>Reverse Engineering</primary></indexterm>
         <para>
 
-          Reverse Engineering is used for two main purposes:
+          Reverse Engineering wird in zwei Fällen verwendet:
           <orderedlist>
 
             <listitem>
 
-              <para>To get previously developed classed into the model 
-              to build upon.</para>
+              <para>
+              	Um die vorher entwickelte Klasse in das aufzubauende Modell zu 
+              	bekommen.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para>To get a UML view of previously developed classes 
-              to understand how they work.</para>
+              <para>
+              	Um eine UML-Darstellung der vorher entwickelten Klassen zu 
+              	erhalten, damit man verstehen kann, wie diese arbeiten.
+              </para>
+
+
 
             </listitem>
 
@@ -8736,8 +8806,9 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         </para>
 
-        <para>Essentially this does the opposite of Code 
-        Generation.</para>
+        <para>
+        	Grundsätzlich führt dies eine umgekehrte Codegenerierung aus.
+        </para>
 
       </sect1>
 
@@ -8746,14 +8817,18 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <title>Round-Trip Engineering</title>
 
         <indexterm><primary>Round-Trip Engineering</primary></indexterm>
-        <para>Round-Trip Engineering makes it possible to switch 
-        perspective while doing the design. Create some classes in a 
-        class diagram. Write some code for some of the operations or 
-        functions using your favorite editor. Move the operations from 
-        one class to another in the class diagram...</para>
+        <para>
+        	Round-Trip Engineering macht es möglich, die Perspektive
+        	während des Entwurfes zu wechseln. Erstellen Sie einige
+        	Klassen in einem Klassendiagramm. Schreiben Sie mit Hilfe
+        	Ihres favorisierten Editors etwas Code für einige
+        	Operationen oder Funktionen. Verschieben Sie die Operationen
+        	im Klassendiagramm von einer Klasse in eine andere...
+        </para>
 
-        <para>ArgoUML currently does not support this for any 
-        language.</para>
+        <para>
+        	Aktuell wird dies durch ArgoUML für keine Sprache unterstützt.
+        </para>
 
       </sect1>
 
@@ -8763,199 +8838,244 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
   <part>
 
-    <title>User Interface Reference</title>
+    <title>Referenz Anwenderschnittstelle</title>
 
     <chapter id="ch.ref.ui">
 
-      <title>Introduction</title>
+      <title>Einleitung</title>
 
-      <para>This chapter describes the overall behavior of the user 
-      interface. Description of the various component parts&mdash;the menu 
-      bar, panes and various diagrams&mdash; is in separate chapters.</para>
+      <para>
+      	Dieses Kapitel beschreibt das gesamte Verhalten der 
+      	Anwenderschnittstelle. Die Beschreibung der verschiedenen Teile der 
+      	Komponenten, die Menüzeile, Fenster und verschiedene Diagramme 
+      	befinden sich in separaten Kapiteln.
+      </para>
 
       <sect1>
 
-        <title>Overview of the Window</title>
+        <title>Überblick über das Fenster</title>
 
-        <para><xref linkend="fig.ref.gui_overview"/> shows the main 
-        ArgoUML window.</para>
+        <para>
+        	<xref linkend="fig.ref.gui_overview" />
+        	zeigt das Hauptfenster von ArgoUML.
+        </para>
 
-        <para>The titlebar of the window shows the following 4 parts of 
-        information, separated from each other by a dash.</para>
+        <para>
+        	Die Titelzeile des Fensters zeigt die folgenden 4 Informationen, 
+        	jeweils getrennt voneinander duch einen Bindestrich.
+        </para>
 
         <itemizedlist>
 
           <listitem>
 
-            <para>The current filename. If no filename for the project 
-            is set yet, then the titlebar shows 
-            &quot;Unititled&quot;.</para>
+            <para>
+            	Den aktuellen Dateinamen. Ist noch kein Dateiname für das 
+            	Projekt vergeben, dann wird in der Titelzeile 
+            	<quote>Unbenannt</quote> angezeigt.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para>The name of the currently active diagram.</para>
+            <para>Der Name des aktuell aktiven Diagrammes.</para>
 
           </listitem>
 
           <listitem>
 
-            <para>The name <quote>ArgoUML</quote>.</para>
+            <para>Der Name <quote>ArgoUML</quote>.</para>
 
           </listitem>
 
           <listitem>
 
-            <para>An asterisk (*). This item is only present if the 
-            current project file is <quote>dirty</quote>, i.e. it is 
-            altered, but not yet saved. In other words, if the asterisk 
-            is absent, then the current file has not been 
-            altered.</para>
+            <para>
+            	Ein Stern (*). Dieses Symbol ist nur vorhanden, wenn die 
+            	aktuelle Projektdatei <quote>ungesichert</quote> ist. Z.B. sie 
+            	wurde verändert, aber noch nicht gespeichert. Mit anderen 
+            	Worten, fehlt der Stern, dann wurde die aktuelle Datei nicht 
+            	verändert.
+			</para>
 
           </listitem>
 
         </itemizedlist>
 
-        <figure float="1" id="fig.ref.gui_overview">
+        <figure id="fig.ref.gui_overview">
 
-          <title>Overview of the ArgoUML window</title>
+          <title>Überblick über die ArgoUML-Fenster</title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/gui_overview.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+          	<mediaobject>
+          		<imageobject>
+          			<imagedata align="center"
+          				fileref="images/reference/gui_overview.png" format="PNG" />
+          		</imageobject>
+          	</mediaobject>
+          </screenshot>
         </figure>
 
-        <para>At the top of screen is a <emphasis>menu bar</emphasis>, 
-        which is described in <xref linkend="ch.ref.menu"/>. Below that 
-        is the <emphasis>toolbar</emphasis>, as described in 
-        <xref linkend="ch.ref.toolbar"/>.</para>
+        <para>
+        	Oben am Bildschirm befindet sich eine <emphasis>Menüzeile</emphasis>, 
+        	die in <xref linkend="ch.ref.toolbar"/> beschrieben wird.
+        </para>
 
-        <para>The bulk of the window comprises four sub-windows or 
-        <emphasis>panes</emphasis>. Clockwise from top left these are 
-        the <emphasis>explorer</emphasis> (see 
-        <xref linkend="ch.ref.navpane"/>), <emphasis>editing 
-        pane</emphasis> (see <xref linkend="ch.ref.editpane"/>), 
-        <emphasis>details pane</emphasis> (see 
-        <xref linkend="ch.ref.detpane"/>) and <emphasis>to-do 
-        pane</emphasis> (see <xref linkend="ch.ref.todopane"/>). All 4 
-        panes have a <emphasis>tool bar</emphasis> at the top (in the 
-        <emphasis>details pane</emphasis> it is located under the 
-        <emphasis>properties</emphasis> tab). An overview of the panes 
-        is given in <xref linkend="s1.ref.panes"/>. Finally at the 
-        bottom of the window is a <emphasis>status bar</emphasis> 
-        described in <xref linkend="s1.ref.status"/>.</para>
+        <para>
+        	Der Fensterrumpf teilt sich in vier Subfenster oder <emphasis>Felder
+        	</emphasis> auf. Von oben links im Uhrzeigersinn sind dies der 
+        	<emphasis>Explorer</emphasis> (siehe 
+        	<xref linkend="ch.ref.navpane"/>), 
+        	<emphasis>das Editierfenster</emphasis> (siehe 
+        	<xref linkend="ch.ref.editpane"/>), 
+        	<emphasis>das Detailfenster</emphasis> (siehe 
+        	<xref linkend="ch.ref.detpane"/>) und 
+        	<emphasis>das <quote>Zu bearbeiten</quote>-Fenster</emphasis> (siehe 
+        	<xref linkend="ch.ref.todopane"/>). Alle 4 Fenster haben oben eine 
+        	<emphasis>Werkzeugleiste</emphasis> (im Detailfenster befindet sie 
+        	sich unter dem <emphasis>Eigenschafts-</emphasis>Register. Einen 
+        	Überblick über die Fenster finden Sie in 
+        	<xref linkend="s1.ref.panes"/>. Im unteren Bereich des Fensters 
+        	befindet sich eine <emphasis>Statuszeile</emphasis>, die in 
+        	<xref linkend="s1.ref.status"/> beschrieben ist.
+        </para>
 
       </sect1>
 
       <sect1 id="s1.ref.mouse">
 
-        <title>General Mouse Behavior in ArgoUML</title>
+        <title>Generelles Verhalten der Maus in ArgoUML</title>
 
-        <para>Mouse behavior that is specific to the various panes of 
-        ArgoUML (see <xref linkend="s1.ref.panes"/>) or the menu bar, 
-        is discussed in the chapters covering those panes and the menu 
-        bar. In this section we cover behavior that is general across 
-        all of ArgoUML.</para>
+        <para>
+        	Das in verschiedenen Fenstern von ArgoUML (siehe 
+        	<xref linkend="s1.ref.panes"/>) oder der Menüzeile vorhandene, 
+        	spezifische Verhalten der Maus wird in den Kapiteln diskutiert, die
+        	diese Fenster und die Menüzeile beschreiben. In diesem Abschnitt 
+        	behandeln wir das Verhalten, das in ArgoUML generell anzutreffen 
+        	ist.
+        </para>
 
-        <para>In a number of places in ArgoUML text may be directly 
-        edited (for example the constraint editor&mdash;see 
-        <xref linkend="s2.ref.details_constraint_editor"/>). The 
-        behavior of the mouse when handling text is discussed in the 
-        sections that follow.</para>
+        <para>
+        	An verschiedenen Stellen in ArgoUML muss Text direkt editiert 
+        	werden (zum Beispiel im Randbedingungs-Editor; siehe 
+        	<xref linkend="s2.ref.details_constraint_editor"/>). Das Verhalten 
+        	der Maus beim Bearbeiten von Text wird in den nachfolgenden 
+        	Abschnitten diskutiert.
+        </para>
 
         <sect2>
 
-          <title>Mouse Button Terminology</title>
+          <title>Maustasten-Terminologie</title>
 
-          <para>ArgoUML assumes a two button mouse. We will refer to 
-          the buttons as <quote>button&nbsp;1</quote> and 
-          <quote>button&nbsp;2</quote>. Button&nbsp;1 is the leftmost button on a 
-          right-handed mouse, and sometimes referred to as the 
-          <emphasis>select</emphasis> button. Button&nbsp;2 is the rightmost 
-          button on a right-handed mouse, and is sometimes referred to 
-          as the <emphasis>adjust</emphasis> button.</para>
+          <para>
+          	ArgoUML unterstellt eine Maus mit zwei Tasten. Wir beziehen uns auf 
+          	die Tasten mit den Bezeichnungen <quote>Taste&nbsp;1</quote> und 
+          	<quote>Taste&nbsp;2</quote>. Taste&nbsp;1 ist die linke Taste auf 
+          	einer Rechtshänder-Maus und wird manchmal als 
+          	<emphasis>Auswahl</emphasis>-Taste bezeichnet. Taste&nbsp;2 ist die 
+          	rechte Taste auf einer Rechtshänder-Maus und wird manchmal als 
+          	<emphasis>Einstell-</emphasis>-Taste bezeichnet.
+          </para>
 
-          <para>A single depress and release of a mouse button with the 
-          mouse is referred to as a <emphasis>click</emphasis>. Two 
-          clicks in quick succession is referred to as a 
-          <emphasis>double click</emphasis>. Moving the mouse while 
-          holding a button down is referred to as <emphasis>button 
-          motion</emphasis> with the starting point being at 
-          <emphasis>button down</emphasis> and the end point at 
-          <emphasis>button up</emphasis>.</para>
+          <para>
+          	Ein einfaches drücken und loslassen der Maustaste wird als 
+          	<emphasis>Klick</emphasis> bezeichnet. Zwei Klicks in schneller 
+          	Abfolge wird als <emphasis>Doppelklick</emphasis> bezeichnet. Das 
+          	Bewegen der Maus während eine Taste gedrückt ist, wird als 
+          	<emphasis>Tastenbewegung</emphasis> bezeichnet, mit einem Startpunkt 
+          	bei <emphasis>Taste gedrückt</emphasis> und einem Endpunkt bei 
+          	<emphasis>Taste losgelassen</emphasis>.
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Button&nbsp;1 Click</title>
+          <title>Taste&nbsp;1 Klick</title>
 
-          <para>Clicking on an user-interface object or on a diagram 
-          model element may establish many different things. Most of the 
-          behaviour is experienced quite intuitive by the user, mainly 
-          because the high degree of standardisation, even spanning 
-          different computer platforms (Macintosh, PC, UNIX,...). 
-          ArgoUML follows the <emphasis>Java Look and Feel Design 
-          Guidelines</emphasis> by Sun. See 
-          <ulink url="http://java.sun.com/products/jlf/"/>. Hence, 
-          behaviour of common user-interface components is generally 
-          not discussed in this document.</para>
+          <para>
+          	Das Klicken auf ein Objekt der Anwenderschnittstelle oder auf ein 
+          	Modellelement eines Diagrammes kann unterschiedliche Dinge auslösen. 
+          	Der größte Teil des Verhaltens ist für den Anwender erfahrungsgemäß 
+          	vollständig intuitiv. Hauptsächlich wegen des hohen Grades an 
+          	Standardisierung, auch plattformübergreifend (Macintosh, PC, 
+          	UNIX,...). ArgoUML befolgt die <emphasis>Java Look and Feel Design- 
+          	Richtlinien</emphasis> von Sun. Siehe 
+          	<ulink url="http://java.sun.com/products/jlf/"/>. Daraus folgt, 
+          	dass das Verhalten von allgemeinen Komponenten der 
+          	Anwenderschnittstelle in diesem Dokument generell nicht diskutiert 
+          	wird. 
+          </para>
 
-          <para>On the other hand, mouse actions in a diagram may not 
-          seem so intuitive to the user, since it is specific for 
-          ArgoUML. Hence they are explained here. In short, clicking 
-          selects or activates the object beneath the mouse-pointer, 
-          and moves the focus (i.e. navigation).</para>
+          <para>
+          	Auf der anderen Seite können Mausaktionen in einem Diagramm für 
+          	den Anwender nicht so intuitiv erscheinen, da sie spezifisch für 
+          	ArgoUML sind. Deshalb werden sie hier erläutert. In Kürze: klicken 
+          	markiert oder aktiviert das Objekt nahe des Mauszeigers und 
+          	verschiebt den Fokus (z.B. Navigation).
+          </para>
 
-          <para>More in detail, the button&nbsp;1 click may cause the 
-          following result:</para>
+          <para>
+          	Noch detaillierter: der Taste&nbsp;1-Klick kann die folgenden 
+          	Ergebnisse verursachen:
+          </para>
 
           <sect3>
 
-            <title>Selection</title>
+            <title>Auswahl</title>
 
-            <para>Here button&nbsp;1 is used to choose (select) a model element 
-            (in a list or tree or on a diagram) on which subsequent 
-            operations will take place. Multiple model elements may be 
-            selected by using Shift and/or Ctrl in combination with 
-            button&nbsp;1, see <xref linkend="s2.ref.mouse.shift_control"/>. 
-            Selection is always clearly indicated by a colored 
-            background.</para>
+            <para>
+            	Hier wird die Taste&nbsp;1 dazu verwendet, ein Modellelement 
+            	(aus einer Liste oder einer Baumstruktur oder aus einem 
+            	Diagramm) auszuwählen (zu markieren), auf das die darauf 
+            	folgenden Operationen angewendet werden sollen. Mehrere 
+            	Modellelemente können durch eine Umschalt- und/oder Strg-
+            	Kombination mit der Taste&nbsp;1 ausgewählt werden, siehe
+				<xref linkend="s2.ref.mouse.shift_control"/>.
+				Die Markierung wird immer durch einen eingefärbten Hintergrund 
+				klar angezeigt. 
+            </para>
 
-            <para>On a diagram, the selected model element is indicated with 
-            colored &quot;blocks&quot; at the corners/ends of the 
-            object. Model elements can be selected or deselected in 
-            different ways:</para>
+            <para>
+            	In einem Diagramm werden die markierten Modellelemente durch 
+            	farbige <quote>Vierecke</quote> an den Ecken/Enden des Objektes 
+            	dargestellt. Modellelemente können auf unterschiedlichen Wegen 
+            	markiert oder dessen Markierung aufgehoben werden:
+            </para>
 
             <itemizedlist>
 
               <listitem>
 
-                <para>Button&nbsp;1 click. Deselects all model elements, and 
-                selects the one clicked on.</para>
+                <para>
+                	Taste&nbsp;1-Klick. Entfernt die Markierung aller 
+                	Modellelemente und markiert das angeklickte Element. 
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>Button&nbsp;1 motion. Button motion (moving the mouse 
-                with the button down) in the diagram, not on any 
-                model element, allows to draw a rectangle around model elements 
-                which will be selected when the button&nbsp;1 is 
-                released.</para>
+                <para>
+                	Taste&nbsp;1-Bewegung. Das Bewegen der Maus mit gedrückter 
+                	Taste erlaubt in einem Diagramm, nicht mit einem 
+                	Modellelement, das Zeichnen eines Rechteckes um die 
+                	Modellelemente, die markiert werden, wenn die Taste&nbsp;1 
+                	losgelassen wird. 
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>Menu functions and shortcuts. Many menu 
-                operations change selection as side-effect, e.g. 
-                creating a new diagram. Many keyboard shortcuts for 
-                menu operations change the selection, e.g. Ctrl-A, 
-                which stands for the <literal>Select All</literal> 
-                function.</para>
+                <para>
+                	Menüfunktionen und Tastenkürzel. Viele Menüoperationen 
+                	verändern die Markierung als Seiteneffekt. Zum Beispiel 
+                	beim erstellen eines neuen Diagrammes. Viele Tastenkürzel 
+                	für Menüoperationen ändern die Markierung, z. B. Strg-A, 
+                	die für die Funktion <literal>Markiere alles</literal> steht.
+                </para>
 
               </listitem>
 
@@ -8965,13 +9085,16 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title>Activation</title>
+            <title>Aktivierung</title>
 
-            <para>Here button&nbsp;1 is used to activate the user interface 
-            component, e.g. a button. The object is usually highlighted 
-            when the mouse button is pressed and then activated when 
-            the mouse button is released. Activating an user-interface 
-            object means that its function is executed.</para>
+            <para>
+            	Hier wird die Taste&nbsp;1 dazu verwendet, die Komponente der 
+            	Anwenderschnittstelle zu aktivieren. Z.B. eine Schaltfläche. Das 
+            	Objekt wird gewöhnlich hervorgehoben, wenn die Maustaste 
+            	gedrückt und dann aktiviert, wenn die Maustaste losgelassen wird.
+            	Ein Objekt der Anwenderschnittstelle aktivieren bedeutet, dass 
+            	dessen Funktion ausgeführt wird.
+            </para>
 
           </sect3>
 
@@ -8979,43 +9102,28 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <title>Navigation</title>
 
-            <para>Here button&nbsp;1 is used to move the focus from one user 
-            interface component or diagram model element to another. It is 
-            better known under the term keyboard focus. This because 
-            keyboard commands usually work on the model element that has the 
-            focus. The focus is indicated by a (hardly visible) box 
-            around the model element, or for a text entry box, by a flashing 
-            cursor.</para>
+            <para>
+            	Hier wird die Taste&nbsp;1 dazu verwendet, den Fokus von einer 
+            	Komponente der Anwenderschnittstelle oder eines Modellelementes 
+            	eines Diagrammes auf ein anderes zu verändern. Dies ist unter 
+            	dem Begriff Tastaturfokus besser bekannt, weil Tastaturkommandos 
+            	gewöhnlich auf Modellelemente wirken, die den Fokus haben. Der 
+            	Fokus wird durch einen (hart sichtbaren) Rahmen um das 
+            	Modellelement, oder bei einem Texteingabefeld durch einen 
+            	blinkenden Cursor dargestellt.
+            </para>
 
           </sect3>
 
           <sect3>
 
-            <title>General Behavior When Editing Text</title>
+            <title>Generelles Verhalten beim Editieren von Text</title>
 
-            <para>Here button&nbsp;1 is used to select the point within the 
-            text at which operations (text entry and deletion) will 
-            take place.</para>
-
-          </sect3>
-
-        </sect2>
-
-        <sect2>
-
-          <title>Button&nbsp;1 Double Click</title>
-
-          <para>The behavior of button&nbsp;1 double click varies betweens 
-          panes and is discussed in their chapters.</para>
-
-          <sect3>
-
-            <title>General Behavior When Editing Text</title>
-
-            <para>Here button&nbsp;1 double click is used to select a 
-            complete word, or other syntactic unit within the text. 
-            Subsequent operations (text entry and deletion) will 
-            replace the selected text.</para>
+            <para>
+            	Hier wird Taste&nbsp;1 dazu verwendet, die Stelle innerhalb des 
+            	Textes zu markieren, an dem die Operation (Text hinzufügen und 
+            	löschen) ausgeführt werden soll.
+            </para>
 
           </sect3>
 
@@ -9023,15 +9131,42 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Button&nbsp;1 Motion</title>
+          <title>Taste&nbsp;1-Doppelklick</title>
+
+          <para>
+          	Das Verhalten des Taste&nbsp;1-Doppelklicks variiert in den 
+          	einzelnen Fenstern und wird in den zugehörigen Kapiteln behandelt.
+          </para>
 
           <sect3>
 
-            <title>General Behavior When Editing Text</title>
+            <title>Generelles Verhalten beim Editieren von Text</title>
 
-            <para>Here button&nbsp;1 motion is used to select a range of 
-            text. Subsequent operations (text entry and deletion) will 
-            replace the selected text.</para>
+            <para>
+            	Hier wird der Taste&nbsp;1-Doppelklick dazu verwendet, ein 
+            	vollständiges Wort oder eine andere syntaktische Einheit 
+            	innerhalb des Textes zu markieren. Nachfolgende Operationen 
+            	(Text einfügen und löschen) werden den markierten Text 
+            	ersetzen.
+            </para>
+
+          </sect3>
+
+        </sect2>
+
+        <sect2>
+
+          <title>Taste&nbsp;1-Bewegung</title>
+
+          <sect3>
+
+            <title>Generelles Verhalten beim Editieren von Text</title>
+
+            <para>
+            	Hier wird die Taste&nbsp;1-Bewegung verwendet, um einen 
+            	Textbereich zu markieren. Nachfolgende Operationen (Text 
+            	einfügen und löschen) werden den markierten Text ersetzen.
+            </para>
 
           </sect3>
 
@@ -9039,35 +9174,43 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="s2.ref.mouse.shift_control">
 
-          <title>Shift and Ctrl modifiers with Button&nbsp;1</title>
+          <title>Umschalt- und Strg- und die Taste&nbsp;1</title>
 
           <sect3>
 
-            <title>Within Lists</title>
+            <title>Innerhalb von Listen</title>
 
-            <para>This behavior applies where there is a list of things 
-            that may be selected. This includes various dialog boxes, 
-            and the to-do pane, where there is a list of to-do items to 
-            be selected.</para>
+            <para>
+            	Dieses Verhalten tritt auf, wo es Listen mit Dingen gibt, die 
+            	markiert werden dürfen. Dies schliesst verschiedene 
+            	Dialogfenster und das <quote>Zu bearbeiten</quote>-Fenster ein, 
+            	wo es eine Liste von <quote>zu bearbeitenden</quote> Elementen 
+            	gibt, die zu markieren sind.
+            </para>
 
-            <para>Where selections are to be made, the SHIFT key is 
-            used to with button&nbsp;1 to <emphasis>extend</emphasis> from 
-            the original button&nbsp;1 selection to the current 
-            position.</para>
+            <para>
+            	Dort, wo markiert werden muss wird die Umschalttaste mit der 
+            	Taste&nbsp;1 verwendet, um die Markierung von der ursprünglichen 
+            	Taste&nbsp;1-Markierung zur aktuellen Position zu 
+            	<emphasis>erweitern</emphasis>.
+			</para>
 
-            <para>Similarly the CTRL key with button&nbsp;1 is used to 
-            add individual items to the current selection. Where 
-            Ctrl-button&nbsp;1 is used on an item already selected, that 
-            item is removed from the selection.</para>
+            <para>
+            	Die Strg-Taste und die Taste&nbsp;1 wird ähnlich verwendet, um 
+            	individuelle Elemente der aktuellen Markierung hinzuzufügen. 
+            	Wird Strg-Taste&nbsp;1 auf einem bereits markierten Element 
+            	verwendet, wird das Element aus der Markierung entfernt.
+            </para>
 
             <caution>
 
-              <para>Users of Microsoft Windows might be familiar with 
-              the use of SHIFT-CTRL-Click (i.e. holding both the 
-              Shift and Ctrl key down when clicking), to add 
-              sub-lists to an existing selection. ArgoUML does not 
-              support this. SHIFT-CTRL-Click will behave as 
-              CTRL-Click.</para>
+              <para>
+              	Anwender von Microsoft Windows könnten mit dem Gebrauch des 
+              	Umschalt-Strg-Klick vertraut sein (z.B. Umschalt- und Strg-Taste 
+              	während des klickens gedrückt halten), um der existierenden 
+              	Markierung Sublisten hinzuzufügen. ArgoUML unterstützt dies 
+              	nicht. Umschalt-Strg-Klicks wirken wie Strg-Klicks.
+              </para>
 
             </caution>
 
@@ -9075,14 +9218,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title>General Behavior When Editing Text</title>
+            <title>Generelles Verhalten beim Editieren von Text</title>
 
-            <para>In a number of places in ArgoUML text may be directly 
-            edited (for example when naming a model&mdash;element in the 
-            properties pane, or when typing a UML note / comment). Here 
-            SHIFT button&nbsp;1 is used to select a range of text from the 
-            previously selected point. Subsequent operations (text 
-            entry and deletion) will replace the selected text.</para>
+            <para>
+            	In verschiedenen Fällen kann Text in ArgoUML direkt editiert 
+            	werden (zum Beispiel beim Benennen eines Modellelementes im 
+            	Eigenschaftsregister oder bei der Eingabe eines UML-Hinweises/
+            	-Kommentares. Hier wird Umschalt-Taste&nbsp;1 verwendet, um 
+            	ausgehend von einem vorher markierten Punkt einen Textbereich zu 
+            	markieren. Nachfolgende Operationen (Text einfügen und löschen) 
+            	werden den markierten Text ersetzen.
+            </para>
 
           </sect3>
 
@@ -9090,51 +9236,62 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="s2.ref.mouse.alt">
 
-          <title>Alt with Button&nbsp;1: Panning</title>
+          <title>Alt Gr mit Taste&nbsp;1: Verschieben</title>
 
-          <para>When holding down the Alt key during button&nbsp;1 down on a 
-          diagram, movement of the mouse pans the drawing area. The 
-          function is indicated by the mousepointer which turns into a 
-          crosshair with arrows.</para>
+          <para>
+          	Wenn Sie die Alt Gr-Taste gedrückt halten, während Sie die 
+          	Taste&nbsp;1 in einem Diagramm drücken, wird die Bewegung der Maus 
+          	den Zeichenbereich verschieben. Diese Funktion wird durch den 
+          	Mauszeiger angezeigt, der zu einer Kreuz mit Pfeilen-Darstellung 
+          	wechselt.
+          </para>
 
         </sect2>
         
         <sect2 id="s2.ref.mouse.ctrl">
 
-          <title>Ctrl with Button&nbsp;1: Constrained Drag</title>
+          <title>Strg mit Taste&nbsp;1: Bedingtes ziehen</title>
 
-          <para>When holding down the Ctrl key while dragging with 
-          mouse button&nbsp;1 down on a diagram, the movement of the dragged
-          element element will be constrained to one of eight 
-          cardinal directions : North, South, East, West, NE, SE, SW, NW.
+          <para>
+          	Wenn Sie die Strg-Taste herunterdrücken, während Sie mit der 
+          	gedrückten Maustaste&nbsp;1 auf ein Diagramm ziehen, wird die 
+          	Bewegung des gezogenen Elementes bedingt in eine der acht 
+          	grundsätzlichen Richtungen erfolgen: Norden, Süden, Osten, Westen, 
+          	Nordosten, Südosten, Südwesten, Nordwesten.
           </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Button&nbsp;2 Actions</title>
+          <title>Taste&nbsp;2-Aktionen</title>
 
-          <para>Button&nbsp;2 actions are all dependent on the pane or menu 
-          bar, and discussed in their various chapters.</para>
-
-        </sect2>
-
-        <sect2>
-
-          <title>Button&nbsp;2 Double Click</title>
-
-          <para>Button&nbsp;2 actions are all dependent on the pane or menu 
-          bar, and discussed in their various chapters.</para>
+          <para>
+          	Taste&nbsp;2-Aktionen sind alle vom Fenster oder der Menüzeile 
+          	abhängig und werden in den jeweiligen Kapiteln behandelt.
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Button&nbsp;2 Motion</title>
+          <title>Taste&nbsp;2-Doppelklick</title>
 
-          <para>Button&nbsp;2 actions are all dependent on the pane or menu 
-          bar, and discussed in their various chapters.</para>
+          <para>
+          	Taste&nbsp;2-Aktionen sind alle vom Fenster oder der Menüzeile 
+          	abhängig und werden in den jeweiligen Kapiteln behandelt.
+          </para>
+
+        </sect2>
+
+        <sect2>
+
+          <title>Taste&nbsp;2-Bewegung</title>
+
+          <para>
+          	Taste&nbsp;2-Aktionen sind alle vom Fenster oder der Menüzeile 
+          	abhängig und werden in den jeweiligen Kapiteln behandelt.
+          </para>
 
         </sect2>
 
@@ -9142,47 +9299,61 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1 id="s1.ref.panes">
 
-        <title>General Information About Panes</title>
+        <title>Generelle Informationen über Fenster</title>
 
-        <para>The four sub-windows of the main ArgoUML window are 
-        called <emphasis>panes</emphasis>. Clockwise from top left 
-        these are the <emphasis>explorer</emphasis> (see 
-        <xref linkend="ch.ref.navpane"/>), <emphasis>editing 
-        pane</emphasis> (see <xref linkend="ch.ref.editpane"/>), 
-        <emphasis>details pane</emphasis> (see 
-        <xref linkend="ch.ref.detpane"/>) and <emphasis>to-do 
-        pane</emphasis> (see <xref linkend="ch.ref.todopane"/>). At the 
-        top the editing pane is a <emphasis>tool bar</emphasis>.</para>
+        <para>
+        	Die vier Sub-Fenster des ArgoUML-Hauptfensters werden 
+        	<emphasis>Fenster</emphasis> genannt. Von oben links im 
+        	Uhrzeigersinn sind dies der <emphasis>Explorer</emphasis> (siehe 
+        	<xref linkend="ch.ref.navpane"/>), <emphasis>das Editierfenster 
+        	</emphasis> (siehe <xref linkend="ch.ref.editpane"/>), 
+        	<emphasis>das Detailfenster</emphasis> (siehe 
+        	<xref linkend="ch.ref.detpane"/>) und <emphasis>das 
+        	<quote>Zu bearbeiten</quote>-Fenster</emphasis> (siehe 
+        	<xref linkend="ch.ref.todopane"/>). Oben im Editierfenster gibt es 
+        	eine <emphasis>Werkzeugleiste</emphasis>.
+        </para>
 
         <sect2>
 
-          <title>Re-sizing Panes</title>
+          <title>Fenstergrösse verändern</title>
 
-          <para>You can re-size panes by dragging on the divider bars 
-          between them. To indicate this possibility, the mouse cursor 
-          changes shape when hovering over the divider bars.</para>
+          <para>
+          	Sie können die Fenstergrösse verändern, indem Sie die Trennbalken 
+          	zwischen den Fenstern verschieben. Um diese Möglichkeit anzuzeigen, 
+          	wechselt die Mausdarstellung, wenn sie sich über den Trennbalken 
+          	befindet.
+          </para>
 
-          <para>In addition you will see there are two small left 
-          pointing arrows within the vertical divider bars, one at the 
-          top of the vertical divider bar between explorer and editing 
-          pane and one at the top of the vertical divider bar between 
-          to-do pane and details pane. Button&nbsp;1 click on the first of 
-          these will expand the editing pane to the full width of the 
-          window, button&nbsp;1 click on the second will expand the details 
-          pane to the full width of the window.</para>
+          <para>
+          	Darüber hinaus gibt es zwei kleine nach links zeigende Pfeile in 
+          	den vertikalen Trennbalken, einer im oberen Bereich des Trennbalkens, 
+          	zwischen dem Explorer und dem Editierfenster und einen im oberen 
+          	Bereich des vertikalen Trennbalkens zwischen dem <quote>Zu 
+          	bearbeiten</quote>- und dem Detailfenster. Ein Taste&nbsp;1-Klick 
+          	auf den ersten von ihnen erweitert das Editierfenster bis zur vollen 
+          	Breite des Fensters, der Taste&nbsp;1-Klick auf den zweiten 
+          	erweitert das Detailfenster auf die volle Breite des Fensters.
+          </para>
 
-          <para>There is also a small downward pointing arrow within 
-          the horizontal divider bar at its leftmost end. Clicking on 
-          this will expand the explorer and editing panes to the full 
-          depth of the window.</para>
+          <para>
+          	Es gibt ebenso kleine nach unten gerichtete Pfeile in den 
+          	horizontalen Trennbalken, jeweils am linken Ende. Klicken auf diese 
+          	Pfeile wird den Explorer und das Editierfenster auf die volle Höhe 
+          	des Fensters erweitern.
+          </para>
 
-          <para>By using both the top arrow on the vertical divider and 
-          the arrow on the horizontal divider, it is possible to expand 
-          the editing pane to use the entire window.</para>
+          <para>
+          	Durch die Verwendung des oberen Pfeile der vertikalen Trennbalken 
+          	und des Pfeiles des horizontalen Trennbalkens ist es möglich, das 
+          	Editierfenster auf das gesamte Fenster zu erweitern.
+          </para>
 
-          <para>The original configuration can be restored by clicking 
-          again on these arrows, which are now located at the edge of 
-          the window.</para>
+          <para>
+          	Die ursprüngliche Konfiguration kann durch erneutes Klicken auf 
+          	diese Pfeile wiederhergestellt werden, die sich jetzt am Rand des 
+          	Fensters befinden.
+          </para>
 
         </sect2>
 
@@ -9190,13 +9361,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1 id="s1.ref.status">
 
-        <title>The status bar</title>
+        <title>Die Statuszeile</title>
 
-        <para>The status bar is at the very bottom of the ArgoUML 
-        window and is used to display short advisory messages. In 
-        general such messages are self explanatory. It is e.g. used for 
-        displaying parsing error messages in case a text entered on the 
-        diagram can not be interpreted.</para>
+        <para>
+        	Die Statuszeile befindet sich am unteren Rand des ArgoUML-Fensters 
+        	und wird dazu verwendet, kurzes Hinweisnachrichten anzuzeigen. 
+        	Normalerweise sind diese Nachrichten selbsterklärend. Sie wird z. B. 
+        	für die Anzeige von Parsing-Fehlermeldungen verwendet, wenn ein 
+   			in ein Diagramm eingegebener Text nicht interpretiert werden kann.
+        </para>
 
       </sect1>
 
@@ -9204,57 +9377,84 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
     <chapter id="ch.ref.toolbar">
 
-      <title>The Toolbar</title>
+      <title>Die Werkzeugzeile</title>
 
       <section>
 
-        <title>File operations</title>
+        <title>Dateioperationen</title>
 
-        <para>These buttons have identical functions as their 
-        counterparts in the <literal>File</literal> menu.</para>
+        <para>
+        	Diese Schaltflächen haben wie ihre Gegenstücke im Menü 
+        	<literal>Datei</literal> identische Funktionen.
+		</para>
 
         <itemizedlist>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center" fileref="images/icons/new.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>New</literal> See for a full description 
-            <xref linkend="s2.ref.menu_new"/>.</para>
+            <para>
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center"
+	            				fileref="images/icons/new.gif" format="GIF" />
+	            		</imageobject>
+	            	</inlinemediaobject>
+	            </guiicon>
+	            <literal>Neu</literal> Siehe vollständige Beschreibung unter 
+	            <xref linkend="s2.ref.menu_new"/>.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/open_project.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>Open Project...</literal> See for a full 
-            description <xref linkend="s2.ref.menu_open_project"/>
+            <para>
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center"
+	            				fileref="images/icons/open_project.gif" format="GIF" />
+	            		</imageobject>
+	            	</inlinemediaobject>
+	            </guiicon>
+	            <literal>Projekt öffnen...</literal> Siehe vollständige 
+	            Beschreibung unter <xref linkend="s2.ref.menu_open_project"/>
             .</para>
 
           </listitem>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/save_project.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>Save Project</literal> See for a full description 
-            <xref linkend="s2.ref.menu_save_project"/>.</para>
+            <para>
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center"
+	            				fileref="images/icons/save_project.gif" format="GIF" />
+	            		</imageobject>
+	            	</inlinemediaobject>
+	            </guiicon>
+	            <literal>Projekt speichern</literal> Siehe vollständige 
+	            Beschreibung unter<xref linkend="s2.ref.menu_save_project"/>.
+	        </para>
 
           </listitem>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center" fileref="images/icons/print.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>Print</literal> See for a full description 
-            <xref linkend="s2.ref.menu_print"/>.</para>
+            <para>
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center" 
+	            			fileref="images/icons/print.gif" format="GIF" />
+	            		</imageobject>
+	            	</inlinemediaobject>
+	            </guiicon>
+	            <literal>Drucken</literal> Siehe vollständige 
+		            Beschreibung unter <xref linkend="s2.ref.menu_print"/>.
+            </para>
 
           </listitem>
 
@@ -9264,10 +9464,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <section>
 
-        <title>Edit operations</title>
+        <title>Editieroperationen</title>
 
-        <para>These buttons have identical functions as their 
-        counterparts in the <literal>Edit</literal> menu.</para>
+		<para>
+			Diese Schaltflächen haben mit Ihren Gegenstücken im Menü 
+			<literal>Bearbeiten</literal> identische Funktionen.
+		</para>
 
         <itemizedlist>
 
@@ -9303,35 +9505,55 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 -->
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/remove_from_diagram.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>Remove From Diagram</literal> See for a full 
-            description 
-            <xref linkend="s2.menu_edit_remove_from_diagram"/>.</para>
+            <para>
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center"
+	            				fileref="images/icons/remove_from_diagram.gif"
+	            				format="GIF" />
+	            		</imageobject>
+	            	</inlinemediaobject>
+	            </guiicon>
+	            <literal>Aus Diagramm entfernen</literal> Siehe vollständige 
+		        Beschreibung unter 
+	            <xref linkend="s2.menu_edit_remove_from_diagram"/>.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/navigate_back.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>Navigate Back</literal> See for a full description 
-            <xref linkend="s2.ref.menu_select"/>.</para>
+            <para>
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center"
+		            		fileref="images/icons/navigate_back.gif" format="GIF" />
+		            	</imageobject>
+	            	</inlinemediaobject>
+	            </guiicon>
+	            <literal>Zurück</literal> Siehe vollständige Beschreibung 
+	            unter <xref linkend="s2.ref.menu_select"/>.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/navigate_forward.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>Navigate Forward</literal> See for a full 
-            description <xref linkend="s2.ref.menu_select"/>.</para>
+            <para>
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center"
+	            				fileref="images/icons/navigate_forward.gif"
+	            				format="GIF" />
+	            		</imageobject>
+	            	</inlinemediaobject>
+	            </guiicon>
+	            <literal>Vorwärts</literal> Siehe vollständige Beschreibung 
+	            unter <xref linkend="s2.ref.menu_select"/>.
+            </para>
 
           </listitem>
 
@@ -9341,23 +9563,31 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <section>
 
-        <title>View operations</title>
+        <title>Ansicht-Operationen</title>
 
-        <para>The <literal>Find...</literal> button has identical 
-        behaviour as its counterpart in the <literal>View</literal> 
-        menu. The <literal>Zoom</literal> button is a more luxurously 
-        version of the function in the <literal>View</literal> 
-        menu.</para>
+        <para>
+        	Die Schaltfläche <literal>Suche...</literal> hat das identische 
+        	Verhalten wie das Gegenstück im Menü <literal>Ansicht</literal>. 
+        	Die Schaltfläche <literal>Zoom</literal> ist die luxeriöser als 
+        	die Version im Menü <literal>Ansicht</literal>.
+        </para>
 
         <itemizedlist>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center" fileref="images/icons/find.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>Find...</literal> See for a full description 
-            <xref linkend="s2.ref.menu_find"/>.</para>
+            <para>
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center"
+	            				fileref="images/icons/find.gif" format="GIF" />
+	            		</imageobject>
+	            	</inlinemediaobject>
+	            </guiicon>
+	            <literal>Suche...</literal> Siehe vollständige Beschreibung 
+	            unter <xref linkend="s2.ref.menu_find"/>.
+            </para>
 
           </listitem>
 
@@ -9365,83 +9595,105 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <para>
 
-              <guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center" fileref="images/icons/zoom.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/zoom.gif" format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
                
               <literal>Zoom</literal>
-               This is a different version of the menu-item for 
-              zooming, as described in 
-              <xref linkend="s2.ref.menu_zoom"/>
-              . Clicking with button&nbsp;1 on the zoom-icon opens a panel 
-              as in the figure below.
-              <figure float="1" id="fig.ref.toolbar_zoom">
+              Dies ist eine andere Version als die im Menü 
+              <literal>Ansicht</literal> in <xref linkend="s2.ref.menu_zoom"/> 
+              beschriebene Fassung. Das Klicken mit der Taste&nbsp;1 auf das 
+              Zoom-Symbol öffnet ein Fenster wie im Bild unten dargestellt.
+              <figure id="fig.ref.toolbar_zoom">
 
-                <title>The Zoom slider on the Toolbar</title>
+                <title>Der Zoom-Schieberegler in der Werkzeugleiste</title>
 
-                <screenshot><mediaobject><imageobject>
-                <imagedata align="center"
-                 fileref="images/reference/toolbar_zoom_slider.png"
-                 format="PNG"/></imageobject></mediaobject></screenshot>
+                <screenshot>
+                	<mediaobject>
+                		<imageobject>
+                			<imagedata align="center"
+                				fileref="images/reference/toolbar_zoom_slider.png"
+                				format="PNG" />
+                		</imageobject>
+                	</mediaobject>
+                </screenshot>
               </figure>
 
-              Once the panel is open, the following actions are 
-              possible:
+				Wenn das Fenster geöffnet ist, sind folgende Aktionen möglich:
             </para>
 
             <itemizedlist>
 
               <listitem>
 
-                <para>Clicking with button&nbsp;1 on the &quot;knob&quot; 
-                followed by button&nbsp;1 movement will adjust the 
-                zoomfactor.</para>
+                <para>
+                	Das Klicken mit der Taste&nbsp;1 auf den 
+                	<quote>Schieberegler</quote> gefolgt von der Bewegung der 
+                	Taste&nbsp;1 wird den Zoomfaktor einstellen.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>Clicking with button&nbsp;1 on the shown percentage 
-                allows editing the given zoomfactor (in percent) 
-                directly with the keyboard. Double clicking on the 
-                value shown selects the whole entry for easy 
-                overtyping.</para>
+                <para>
+                	Das Klicken mit der Taste&nbsp;1 auf die angezeigte 
+                	Prozentzahl erlaubt das direkte Editieren des vorgegebenen 
+                	Zoomfaktors (in Prozent) mit der Tastatur. Ein Doppelklick 
+                	auf den angezeigten Wert markiert den vollständigen Eintrag 
+                	für ein leichtes überschreiben.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>Clicking with button&nbsp;1 below or above the knob 
-                increases or decreass the zoom factor with 1%. Use this 
-                function to easily fine-adjust the percentage.</para>
+                <para>
+                	Das Klicken mit der Taste&nbsp;1 ober- oder unterhalb des 
+                	Schiebereglers erhöht oder verringert den Zoomfaktor um 1%. 
+                	Verwenden Sie diese Funktion, um die Feinjustierung des
+                	Prozentsatzes vorzunehmen.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>Clicking with button&nbsp;1 or button&nbsp;2 on the 
-                <literal>Zoom</literal> tool, or anywhere outside the 
-                slider panel closes the panel.</para>
+                <para>
+                	Das Klicken mit der Taste&nbsp;1 oder mit der Taste&nbsp;2 
+                	auf das <literal>Zoom</literal>-Werkzeug oder ausserhalb 
+                	des Schiebereglerfensters schliesst das Fenster.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para>The keyboard can be used to operate the Zoom 
-                Slider as follows: When the <literal>Zoom</literal> 
-                icon in the toolbar has the focus (indicated by the 
-                thin blue box around it), then pressing the <keycap>
-                spacebar</keycap> opens the zoon slider panel. Use the 
-                <keycap>arrow</keycap> keys to increase and decrease 
-                the percentage 1 by 1. Use <keycap>Shift-Tab</keycap> 
-                to set the focus to the percentage box, where you can 
-                edit the given value directly. Pressing <keycap>
-                Enter</keycap> activates the changed value. When the 
-                &quot;knob&quot; has the focus, pressing <keycap>
-                PageUp</keycap>/<keycap>PageDown</keycap> 
-                increases/decreases the percentage by 50. Pressing 
-                <keycap>Home</keycap> sets the percentage to 500%, and 
-                <keycap>End</keycap> sets it to 0%.</para>
+                <para>
+                	Mit Hilfe der Tastatur kann der Zoom-Schieberegler wie 
+                	folgt bedient werden: Wenn das <literal>Zoom</literal>-
+                	Symbol in der Werkzeugleiste den Fokus hat (wird durch 
+                	einen dünnen blauen Rahmen dargestellt) und drücken der 
+                	<keycap>Leertaste</keycap> öffnet sich das Zoom-
+                	Schiebereglerfenster. Verwenden Sie die 
+                	<keycap>Pfeil</keycap>-Tasten, um den Prozentsatz 1 durch 
+                	1 zu erhöhen bzw. zu verringern. Verwenden Sie 
+                	<keycap>Umschalt-Tab</keycap>, um den Fokus auf das 
+                	Eingabefeld Prozentsatz zu bringen, in dem sie den 
+                	vorgegebenen Wert direkt editieren können. Drücken der 
+                	Taste <keycap>Return</keycap> aktiviert den geänderten Wert. 
+                	Wenn der <quote>Schieberegler</quote> den Fokus hat, drücken 
+                	der Taste <keycap>Bild nach oben</keycap>/
+                	<keycap>Bild nach unten</keycap> erhöht/verringert den 
+                	Prozentsatz um 50. Drücken der Taste <keycap>Pos 1</keycap> 
+                	setzt den Prozentsatz auf 500% und <keycap>Ende</keycap> 
+                	auf 0%.
+                </para>
 
               </listitem>
 
@@ -9455,101 +9707,143 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <section id="ch.ref.toolbar.create">
 
-        <title>Create operations</title>
+        <title>Diagramm erzeugen</title>
 
-        <para>These buttons have identical functions as their 
-        counterparts in the <literal>Create</literal> menu.</para>
+        <para>
+        	Diese Schaltflächen haben wie Ihre Gegenstücke im Menü 
+        	<literal>Diagramm erzeugen</literal> identische Funktionen.
+ 		</para>
 
         <itemizedlist>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/use_case_diagram.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>New Use Case Diagram</literal> See for a full 
-            description 
-            <xref linkend="s2.ref.create.diagram.use_case_diagram"/>
-            .</para>
+            <para>
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center"
+	            				fileref="images/icons/use_case_diagram.gif"
+	            				format="GIF" />
+	            		</imageobject>
+	            	</inlinemediaobject>
+	            </guiicon>
+	            <literal>Anwendungsfalldiagramm</literal> Siehe vollständige  
+	            Beschreibung unter 
+	            <xref linkend="s2.ref.create.diagram.use_case_diagram"/>.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/class_diagram.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>New Class Diagram</literal> See for a full 
-            description 
-            <xref linkend="s2.ref.create.diagram.class_diagram"/>
-            .</para>
+            <para>
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center"
+	            				fileref="images/icons/class_diagram.gif" format="GIF" />
+	            		</imageobject>
+	            	</inlinemediaobject>
+	            </guiicon>
+	            <literal>Klassendiagramm</literal> Siehe vollständige  
+	            Beschreibung unter  
+	            <xref linkend="s2.ref.create.diagram.class_diagram"/>.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/sequence_diagram.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>New Sequence Diagram</literal> See for a full 
-            description 
-            <xref linkend="s2.ref.create.diagram.sequence_diagram"/>
-            .</para>
+            <para>
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center"
+	            				fileref="images/icons/sequence_diagram.gif"
+	            				format="GIF" />
+	            		</imageobject>
+	            	</inlinemediaobject>
+	            </guiicon>
+	            <literal>Sequenzdiagramm</literal> Siehe vollständige  
+	            Beschreibung unter 
+	            <xref linkend="s2.ref.create.diagram.sequence_diagram"/>.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/collaboration_diagram.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>New Collaboration Diagram</literal> See for a full 
-            description 
-            <xref linkend="s2.ref.create.diagram.collaboration_diagram"/>
-            .</para>
+            <para>
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center"
+	            				fileref="images/icons/collaboration_diagram.gif"
+	            				format="GIF" />
+	            		</imageobject>
+	            	</inlinemediaobject>
+	            </guiicon>
+	            <literal>Kollaborationsdiagramm</literal> Siehe vollständige  
+	            Beschreibung unter  
+	            <xref linkend="s2.ref.create.diagram.collaboration_diagram"/>.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/state_diagram.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>New Statechart Diagram</literal> See for a full 
-            description 
-            <xref linkend="s2.ref.create.diagram.state_diagram"/>
-            .</para>
+            <para>
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center"
+	            				fileref="images/icons/state_diagram.gif" format="GIF" />
+	            		</imageobject>
+	            	</inlinemediaobject>
+	            </guiicon>
+	            <literal>Zustandsdiagramm</literal> Siehe vollständige  
+	            Beschreibung unter  
+	            <xref linkend="s2.ref.create.diagram.state_diagram"/>.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/activity_diagram.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>New Activity Diagram</literal> See for a full 
-            description 
-            <xref linkend="s2.ref.create.diagram.activity_diagram"/>
-            .</para>
+            <para>
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center"
+	            				fileref="images/icons/activity_diagram.gif"
+	            				format="GIF" />
+	            		</imageobject>
+	            	</inlinemediaobject>
+	            </guiicon>
+	            <literal>Aktivitätsdiagramm</literal> Siehe vollständige 
+	            Beschreibung unter  
+	            <xref linkend="s2.ref.create.diagram.activity_diagram"/>.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/deployment_diagram.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>New Deployment Diagram</literal> See for a full 
-            description 
-            <xref linkend="s2.ref.create.diagram.deployment_diagram"/>
-            .</para>
+            <para>
+	            <guiicon>
+	            	<inlinemediaobject>
+	            		<imageobject>
+	            			<imagedata align="center"
+	            				fileref="images/icons/deployment_diagram.gif"
+	            				format="GIF" />
+	            		</imageobject>
+	            	</inlinemediaobject>
+	            </guiicon>
+	            <literal>Verteilungsdiagramm</literal> Siehe vollständige  
+	            Beschreibung unter  
+	            <xref linkend="s2.ref.create.diagram.deployment_diagram"/>.
+            </para>
 
           </listitem>
 
@@ -9561,11 +9855,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
     <chapter id="ch.ref.menu">
 
-      <title>The Menu bar</title>
+      <title>Die Menüzeile</title>
 
       <sect1>
 
-        <title>Introduction</title>
+        <title>Einleitung</title>
 
         <para>An important principle behind ArgoUML is that actions 
         should be able to be invoked in whatever way the user finds 
@@ -9770,7 +10064,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           this menu option will open a file selection dialog (see 
           <xref linkend="fig.ref.menu_open_project"/>).</para>
 
-          <figure float="1" id="fig.ref.menu_open_project">
+          <figure id="fig.ref.menu_open_project">
 
             <title>The file selection dialog for <literal>
             Open Project...</literal>.</title>
@@ -9908,7 +10202,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           menu-item in the first place. Selecting <literal>
           Yes</literal> reloads the last saved file.</para>
 
-          <figure float="1" id="fig.ref.menu_revert_to_saved">
+          <figure id="fig.ref.menu_revert_to_saved">
 
             <title>The warning dialog for Revert to Saved.</title>
 
@@ -9955,7 +10249,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           not any diagram layout. Hence, 
           the new project will not contain any diagrams.</para>
 
-          <figure float="1" id="fig.ref.menu_import_xmi">
+          <figure id="fig.ref.menu_import_xmi">
 
             <title>The dialog for <literal>
             Import XMI...</literal>.</title>
@@ -9982,7 +10276,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <para>When the menu is activated, the standard filechooser 
           appears, see <xref linkend="fig.ref.menu_export_xmi"/>.</para>
 
-          <figure float="1" id="fig.ref.menu_export_xmi">
+          <figure id="fig.ref.menu_export_xmi">
 
             <title>The dialog for <literal>
             Export XMI...</literal>.</title>
@@ -10014,7 +10308,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           extra tabs placed alongside the directory listing, as shown 
           in <xref linkend="fig.ref.menu_import_sources"/>).</para>
 
-          <figure float="1" id="fig.ref.menu_import_sources">
+          <figure id="fig.ref.menu_import_sources">
 
             <title>The file selection dialog for <literal>
             Import Sources...</literal>.</title>
@@ -10177,7 +10471,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           pieces, on as many pages as needed. Pressing the close button 
           of the dialog does the former option.</para>
 
-          <figure float="1" id="fig.ref.menu_diagram_exceeds_page">
+          <figure id="fig.ref.menu_diagram_exceeds_page">
 
             <title>The diagram exceeds page size dialog.</title>
 
@@ -10386,7 +10680,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           are stored in the project-file 
           together with the model.</para>
           
-          <figure float="1" id="fig.ref.menu_properties_user">
+          <figure id="fig.ref.menu_properties_user">
 
             <title>The dialog for Properties - 
             Notation: The User tab.</title>
@@ -10433,7 +10727,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           </itemizedlist>
 
-          <figure float="1" id="fig.ref.menu_properties_notations">
+          <figure id="fig.ref.menu_properties_notations">
 
             <title>The dialog for Properties - 
             Notation: The Notations tab.</title>
@@ -10621,7 +10915,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           </itemizedlist>
 
-          <figure float="1" id="fig.ref.menu_save_changes">
+          <figure id="fig.ref.menu_save_changes">
 
             <title>The save changes dialog.</title>
 
@@ -10860,7 +11154,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           diagram than the current one, the dialog box from figure x 
           appears.</para>
 
-          <figure float="1" id="fig.ref.menu_remove_from_model">
+          <figure id="fig.ref.menu_remove_from_model">
 
             <title>The dialog for confirmation of <literal>Remove from 
             Model</literal>.</title>
@@ -10923,7 +11217,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             </para>
           </tip>
           
-          <figure float="1" id="fig.ref.menu_settings">
+          <figure id="fig.ref.menu_settings">
 
             <title>The dialog for <literal>Settings - 
             Preferences</literal>.</title>
@@ -11472,7 +11766,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <para>This menu entry brings up a dialog box, describing all 
           the diagrams in the current project under ArgoUML.</para>
 
-          <figure float="1" id="fig.ref.menu_goto_diagram">
+          <figure id="fig.ref.menu_goto_diagram">
 
             <title>The dialog for <literal>Goto 
             Diagram...</literal>.</title>
@@ -11541,7 +11835,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <para>This menu entry brings up a non-modal dialog box for 
           the ArgoUML search engine.</para>
 
-          <figure float="1" id="fig.ref.menu_find">
+          <figure id="fig.ref.menu_find">
 
             <title>The dialog for <literal>Find...</literal>.</title>
 
@@ -12454,7 +12748,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <xref linkend="fig.ref.menu_generate_selected_classes"/>
           ).</para>
 
-          <figure float="1" id="fig.ref.menu_generate_selected_classes">
+          <figure id="fig.ref.menu_generate_selected_classes">
 
             <title>The dialog for <literal>Generate Selected 
             Classes...</literal>.</title>
@@ -12588,7 +12882,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           handled (see <xref linkend="fig.ref.menu_design_issues"/>
           ).</para>
 
-          <figure float="1" id="fig.ref.menu_design_issues">
+          <figure id="fig.ref.menu_design_issues">
 
             <title>The dialog for <literal>
             Design Issues...</literal>.</title>
@@ -12632,7 +12926,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           design goals are to be handled (see 
           <xref linkend="fig.ref.menu_design_goals"/>).</para>
 
-          <figure float="1" id="fig.ref.menu_design_goals">
+          <figure id="fig.ref.menu_design_goals">
 
             <title>The dialog for <literal>
             Design Goals...</literal>.</title>
@@ -12691,7 +12985,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           individual critics (see 
           <xref linkend="fig.ref.menu_browse_critics"/>).</para>
 
-          <figure float="1" id="fig.ref.menu_browse_critics">
+          <figure id="fig.ref.menu_browse_critics">
 
             <title>The dialog for <literal>
             Browse Critics...</literal>.</title>
@@ -12924,7 +13218,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           dialog, see <xref linkend="fig.ref.menu_help_system_info"/>
           </para>
 
-          <figure float="1" id="fig.ref.menu_help_system_info">
+          <figure id="fig.ref.menu_help_system_info">
 
             <title>The dialog for <literal>
             System Information</literal>.</title>
@@ -12953,7 +13247,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <para>This menu entry brings up the help window for ArgoUML 
           (see <xref linkend="fig.ref.menu_help"/>).</para>
 
-          <figure float="1" id="fig.ref.menu_help">
+          <figure id="fig.ref.menu_help">
 
             <title>The help window for ArgoUML</title>
 
@@ -13060,7 +13354,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para><xref linkend="fig.ref.navigation_pane"/> shows the 
         ArgoUML window, with the explorer highlighted.</para>
 
-        <figure float="1" id="fig.ref.navigation_pane">
+        <figure id="fig.ref.navigation_pane">
           <!-- This diagram shows the navigation overview. 
           It is a complete ArgoUML
           window, but with all except the explorer grayed out. This was
@@ -13387,7 +13681,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           perspectives dialog (see 
           <xref linkend="fig.ref.navigator_pane_perspectives"/>).</para>
 
-          <figure float="1" id="fig.ref.navigator_pane_perspectives">
+          <figure id="fig.ref.navigator_pane_perspectives">
 
             <title>The Configure Perspectives dialog box</title>
 
@@ -13755,7 +14049,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para><xref linkend="fig.ref.editing_pane"/> shows the ArgoUML 
         window with the editing pane highlighted.</para>
 
-        <figure float="1" id="fig.ref.editing_pane">
+        <figure id="fig.ref.editing_pane">
 
           <title>Overview of the editing pane</title>
 
@@ -13850,7 +14144,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           if there is none. See 
           <xref linkend="fig.ref.edit_add_class_diagram"/></para>
 
-          <figure float="1" id="fig.ref.edit_add_class_diagram">
+          <figure id="fig.ref.edit_add_class_diagram">
 
             <title>The dialog for adding a new class diagram</title>
 
@@ -14190,7 +14484,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           button&nbsp;1 motion on the handles after they have been 
           selected.</para>
 
-          <figure float="1" id="fig.ref.edit_graphical_tools">
+          <figure id="fig.ref.edit_graphical_tools">
 
             <title>The drawing tools selector.</title>
 
@@ -14352,7 +14646,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               bidirectional</literal> or <literal>
               unidirectional</literal>.</para>
 
-              <figure float="1" id="fig.ref.edit_association_tools">
+              <figure id="fig.ref.edit_association_tools">
 
                 <title>The association tool selector.</title>
 
@@ -15532,7 +15826,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         broom disappears and the moved objects are selected to make it 
         easy to manipulate them further.</para>
 
-        <figure float="1" id="fig.ref.editpane_broom">
+        <figure id="fig.ref.editpane_broom">
 
           <title>The Broom.</title>
 
@@ -15594,7 +15888,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         class differ because for creating the second one, the shift key 
         has been depressed.</para>
 
-        <figure float="1" id="fig.ref.editpane_selection_action_buttons">
+        <figure id="fig.ref.editpane_selection_action_buttons">
 
           <title>Some examples of <quote>Selection Action 
           Buttons</quote>.</title>
@@ -16284,7 +16578,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         shows the same class in Java notation. 
         </para>
 
-        <figure float="1" id="fig.ref.notation_uml">
+        <figure id="fig.ref.notation_uml">
 
           <title>A class in UML notation</title>
 
@@ -16294,7 +16588,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
            format="PNG"/></imageobject></mediaobject></screenshot>
         </figure>
         
-        <figure float="1" id="fig.ref.notation_java">
+        <figure id="fig.ref.notation_java">
 
           <title>A class in Java notation</title>
 
@@ -16341,7 +16635,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         to clarify the following:
         </para>
 
-        <figure float="1" id="fig.ref.notation_association">
+        <figure id="fig.ref.notation_association">
 
           <title>A couple of associations with adornments</title>
 
@@ -16399,7 +16693,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para><xref linkend="fig.ref.details_pane"/> shows the ArgoUML 
         window, with the details pane highlighted.</para>
 
-        <figure float="1" id="fig.ref.details_pane">
+        <figure id="fig.ref.details_pane">
 
           <title>Overview of the details pane</title>
 
@@ -16442,7 +16736,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         Critiques</literal> context sensitive pop-up menu on the 
         editing pane.</para>
 
-        <figure float="1" id="fig.ref.details_to_do">
+        <figure id="fig.ref.details_to_do">
 
           <title>Example of the <literal>To Do Item</literal> tab on 
           the properties pane</title>
@@ -16476,7 +16770,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             for the to-do pane, reference URL and detailed description 
             for further information.</para>
 
-            <figure float="1" id="fig.ref.details_new_to_do">
+            <figure id="fig.ref.details_new_to_do">
 
               <title>Dialog box for <literal>
               New To Do Item</literal></title>
@@ -16509,7 +16803,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             object, and dismissing categories of todo items by lowering 
             design concerns or design goals.</para>
 
-            <figure float="1" id="fig.ref.details_resolve_to_do">
+            <figure id="fig.ref.details_resolve_to_do">
 
               <title>Dialog box for <literal>
               Resolve Item</literal></title>
@@ -16595,7 +16889,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <literal>Next&gt;</literal> button.
           </para>
 
-          <figure float="1" id="fig.ref.details_wizard">
+          <figure id="fig.ref.details_wizard">
 
             <title>Example of a <literal>Wizard</literal></title>
 
@@ -16709,7 +17003,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         typical properties tab for a model element in ArgoUML (in this case 
         a class).</para>
 
-        <figure float="1" id="fig.ref.details_properties">
+        <figure id="fig.ref.details_properties">
 
           <title>A typical <literal>Properties</literal> tab on the 
           details pane</title>
@@ -16789,7 +17083,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para><xref linkend="fig.ref.details_documentation"/> shows a 
         typical documentation tab for a model element in ArgoUML.</para>
 
-        <figure float="1" id="fig.ref.details_documentation">
+        <figure id="fig.ref.details_documentation">
 
           <title>A typical <literal>Documentation</literal> tab on the 
           details pane</title>
@@ -16907,7 +17201,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <xref linkend="fig.ref.details_style"/> shows a typical style 
         tab for a model element in ArgoUML (in this case a class).</para>
 
-        <figure float="1" id="fig.ref.details_style">
+        <figure id="fig.ref.details_style">
 
           <title>A typical <literal>Presentation</literal> tab on the 
           details pane</title>
@@ -17013,7 +17307,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         </itemizedlist>
 
-        <figure float="1" id="fig.ref.details_style_colorpicker1">
+        <figure id="fig.ref.details_style_colorpicker1">
 
           <title>The <literal>Custom Fill/Line Color</literal> dialog 
           box</title>
@@ -17024,7 +17318,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
            format="PNG"/></imageobject></mediaobject></screenshot>
         </figure>
 
-        <figure float="1" id="fig.ref.details_style_colorpicker2">
+        <figure id="fig.ref.details_style_colorpicker2">
 
           <title>The <literal>Custom Fill/Line Color</literal> dialog 
           box</title>
@@ -17035,7 +17329,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
            format="PNG"/></imageobject></mediaobject></screenshot>
         </figure>
 
-        <figure float="1" id="fig.ref.details_style_colorpicker3">
+        <figure id="fig.ref.details_style_colorpicker3">
 
           <title>The <literal>Custom Fill/Line Color</literal> dialog 
           box</title>
@@ -17059,7 +17353,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         with the aid of the functions in the Generation menu.
         </para>
 
-        <figure float="1" id="fig.ref.details_source">
+        <figure id="fig.ref.details_source">
 
           <title>The Source Tab of a class.</title>
 
@@ -17079,7 +17373,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         but serves its purpose for e.g. C++, where a .h and .cpp file
         are generated. See the figure below.</para>
          
-        <figure float="1" id="fig.ref.details_source_cpp">
+        <figure id="fig.ref.details_source_cpp">
 
           <title>A C++ example.</title>
 
@@ -17187,7 +17481,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         typical constraint tab for a model element in ArgoUML (in this case 
         a class).</para>
 
-        <figure float="1" id="fig.ref.details_constraints">
+        <figure id="fig.ref.details_constraints">
 
           <title>A typical <literal>Constraints</literal> tab on the 
           details pane</title>
@@ -17287,7 +17581,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             <xref linkend="fig.ref.details_constraints_dialog"/>
             ).</para>
 
-            <figure float="1" id="fig.ref.details_constraints_dialog">
+            <figure id="fig.ref.details_constraints_dialog">
 
               <title>Dialog box for configuring constraints</title>
 
@@ -17382,7 +17676,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           whole tab (see 
           <xref linkend="fig.ref.details_constraint_editor"/>).</para>
 
-          <figure float="1" id="fig.ref.details_constraint_editor">
+          <figure id="fig.ref.details_constraint_editor">
 
             <title>Dialog box for configuring constraints</title>
 
@@ -17616,7 +17910,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       from one list to the other.
       </para>
       
-      <figure float="1" id="fig.ref.detpane_stereotype">
+      <figure id="fig.ref.detpane_stereotype">
 
           <title>An example of a stereotype tab for a class.</title>
 
@@ -17716,7 +18010,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         designer to consider new design issues. ArgoUML supplies many 
         different checklists with many possible items.</para>
 
-        <figure float="1" id="fig.ref.detpane_checklist">
+        <figure id="fig.ref.detpane_checklist">
 
           <title>An example of a checklist for a class.</title>
 
@@ -17748,7 +18042,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para><xref linkend="fig.ref.todo_pane"/> shows the ArgoUML 
         window with the to-do pane highlighted.</para>
 
-        <figure float="1" id="fig.ref.todo_pane">
+        <figure id="fig.ref.todo_pane">
 
           <title>Overview of the to-do pane</title>
 
@@ -22182,7 +22476,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para><xref linkend="fig.ref.use_case_diagram"/> shows a use 
         case diagram with all typical model elements displayed.</para>
 
-        <figure float="1" id="fig.ref.use_case_diagram">
+        <figure id="fig.ref.use_case_diagram">
 
           <title>Typical model elements on a use case diagram.</title>
 
@@ -24248,7 +24542,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           </variablelist>
 
-          <figure float="1" id="fig.discriminator_example">
+          <figure id="fig.discriminator_example">
 
             <title>Example use of a discriminator with 
             generalization</title>
@@ -25121,7 +25415,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para><xref linkend="fig.ref.class_diagram"/> shows a class 
         diagram with all possible model elements displayed.</para>
 
-        <figure float="1" id="fig.ref.class_diagram">
+        <figure id="fig.ref.class_diagram">
 
           <title>Possible model elements on a class diagram.</title>
 
@@ -25134,7 +25428,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para><xref linkend="fig.ref.package_diagram"/> shows a package 
         diagram with all possible model elements displayed.</para>
 
-        <figure float="1" id="fig.ref.package_diagram">
+        <figure id="fig.ref.package_diagram">
 
           <title>Possible model elements on a package diagram.</title>
 
@@ -25148,7 +25442,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         datatype 
         diagram with a datatype and an enumeration displayed.</para>
 
-        <figure float="1" id="fig.ref.datatype_diagram">
+        <figure id="fig.ref.datatype_diagram">
 
           <title>Possible model elements on a datatype diagram.</title>
           <!-- See ClassDiagram-Datatypes.zargo -->
@@ -25163,7 +25457,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         stereotype definition
         diagram with all possible model elements displayed.</para>
 
-        <figure float="1" id="fig.ref.stereotype_diagram">
+        <figure id="fig.ref.stereotype_diagram">
 
           <title>Possible model elements on a 
           stereotype definition diagram.</title>
@@ -28868,7 +29162,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                     operations, and adding them to the selected 
                     list.</para>
 
-                    <figure float="1" id="fig.ref.signal_add_context">
+                    <figure id="fig.ref.signal_add_context">
 
                       <title>The <quote>add/remove context</quote> 
                       dialog box</title>
@@ -29635,10 +29929,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <varlistentry>
 
-              <term><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/stereotype.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
+              <term>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/stereotype.gif" format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
               <literal>New Stereotype</literal></term>
 
               <listitem>
@@ -29927,7 +30226,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                     choosing between all possible classifiers, and 
                     adding or removing them to the selected list.</para>
 
-                    <figure float="1" id="fig.ref.signal_add_specification">
+                    <figure id="fig.ref.signal_add_specification">
 
                       <title>The <quote>Add/Remove 
                       Specifications</quote> dialog box</title>
@@ -31357,7 +31656,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para><xref linkend="fig.ref.sequence_diagram"/> shows a 
         sequence diagram with all possible model elements displayed.</para>
 
-        <figure float="1" id="fig.ref.sequence_diagram">
+        <figure id="fig.ref.sequence_diagram">
 
           <title>Possible model elements on a sequence diagram.</title>
 
@@ -32786,7 +33085,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <xref linkend="fig.ref.state_diagram2"/> show statechart 
         diagrams with most possible model elements displayed.</para>
 
-        <figure float="1" id="fig.ref.state_diagram">
+        <figure id="fig.ref.state_diagram">
 
           <title>Statechart diagram model elements 1.</title>
 
@@ -32796,7 +33095,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
            format="PNG"/></imageobject></mediaobject></screenshot>
         </figure>
 
-        <figure float="1" id="fig.ref.state_diagram2">
+        <figure id="fig.ref.state_diagram2">
 
           <title>Statechart diagram model elements 2.</title>
 
@@ -36129,7 +36428,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         collaboration diagram with all possible model elements 
         displayed.</para>
 
-        <figure float="1" id="fig.ref.collaboration_diagram">
+        <figure id="fig.ref.collaboration_diagram">
 
           <title>Possible model elements on a collaboration diagram.</title>
 
@@ -36591,7 +36890,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                     dialog box pops up, as shown in the figure 
                     below.</para>
 
-                    <figure float="1" id="fig.ref.signal_add_classifierrole_base">
+                    <figure id="fig.ref.signal_add_classifierrole_base">
 
                       <title>The <quote>add context</quote> dialog 
                       box</title>
@@ -37987,7 +38286,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
                     <para>This entry is grayed out when no messages 
                     exist.</para>
 
-                    <figure float="1" id="fig.ref.message_add_predecessors">
+                    <figure id="fig.ref.message_add_predecessors">
 
                       <title>The <quote>add predecessors</quote> dialog 
                       box</title>
@@ -38036,7 +38335,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para><xref linkend="fig.ref.activity_diagram"/> shows an 
         Activity Diagram with all possible model elements displayed.</para>
 
-        <figure float="1" id="fig.ref.activity_diagram">
+        <figure id="fig.ref.activity_diagram">
 
           <title>Possible model elements on an activity diagram.</title>
 
@@ -38568,7 +38867,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para><xref linkend="fig.ref.component_diagram"/> shows a 
         component diagram with all possible model elements displayed.</para>
 
-        <figure float="1" id="fig.ref.component_diagram">
+        <figure id="fig.ref.component_diagram">
 
           <title>Possible model elements on a component diagram.</title>
 
@@ -38581,7 +38880,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para><xref linkend="fig.ref.deployment_diagram"/> shows a 
         deployment diagram with all possible model elements displayed.</para>
 
-        <figure float="1" id="fig.ref.deployment_diagram">
+        <figure id="fig.ref.deployment_diagram">
 
           <title>Possible model elements on a deployment diagram.</title>
 
@@ -40344,7 +40643,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           of the model itself. <xref linkend="fig.ref.entclasshier"/> 
           shows this structure.</para>
 
-          <figure float="1" id="fig.ref.entclasshier">
+          <figure id="fig.ref.entclasshier">
 
             <title>Hierarchy of datatypes, classes and interfaces 
             within ArgoUML</title>
