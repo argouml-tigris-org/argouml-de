@@ -9707,11 +9707,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <section id="ch.ref.toolbar.create">
 
-        <title>Diagramm erzeugen</title>
+        <title>Neues Diagramm</title>
 
         <para>
         	Diese Schaltflächen haben wie Ihre Gegenstücke im Menü 
-        	<literal>Diagramm erzeugen</literal> identische Funktionen.
+        	<literal>Neues Diagramm</literal> identische Funktionen.
  		</para>
 
         <itemizedlist>
@@ -9861,24 +9861,30 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <title>Einleitung</title>
 
-        <para>An important principle behind ArgoUML is that actions 
-        should be able to be invoked in whatever way the user finds 
-        convenient. As a result many (but not all) actions that can be 
-        carried out on the menu can be carried out in other ways as 
-        well under ArgoUML.</para>
-
-        <para>A number of the common menu entries are also available 
-        through keyboard shortcuts.</para>
-
-        <para>It is also be possible to navigate the menu from the 
-        keyboard. Each level of each menu is identified by a letter 
-        (shown underlined in the menu or entry name from the moment the 
-        ALT key is pressed). This sequence of letters while holding 
-        down the ALT key selects the entry. 
+        <para>
+        	Ein wichtiges Prinzip hinter ArgoUML ist es, dass Aktionen auf 
+        	jedem Weg, den der Anwender für günstig hält, aufgerufen werden 
+        	können. Im Ergebnis können viele (aber nicht alle) Aktionen über das 
+        	Menü aber auch über andere Wege in ArgoUML ausgeführt werden.
         </para>
 
-        <para>The following is an explanation of why the menuitems are 
-        grouped as they are.</para>
+        <para>
+        	Eine Anzahl gemeinsamer Menüeinträge ist auch über Tastaturkürzel 
+        	verfügbar.
+        </para>
+
+        <para>
+        	Es ist auch möglich, das Menü von der Tastatur aus zu bedienen. Jede 
+        	Ebene eines Menüs wird durch einen Buchstaben (im Menü unterstrichen 
+        	dargestellt oder durch Eingabe des Namens im Moment des drückens 
+        	der ALT-Taste) identifiziert. Diese Buchstabensequenz, während die 
+        	ALT-Taste gedrückt wird, wählt den Eintrag aus.
+        </para>
+
+        <para>
+        	Das Folgende ist eine Erläuterung, wie die Menüelemente angeordnet 
+        	sind.
+        </para>
 
         <para>
 
@@ -9886,90 +9892,105 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <para>The <emphasis>File</emphasis> menu contains 
-              operations that affect on the whole project/file. All the 
-              items in this menu can be explained as such.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para>The <emphasis>Edit</emphasis> menu is generally 
-              intended for editing the model or changing the content of 
-              a diagram. It also contains functions to enable editing, 
-              like e.g. selecting. This menu is not intended for 
-              diagram layout functions. Most functions here do 
-              something with the selected modelelement and diagram. The 
-              items &quot;Configure Perspectives...&quot;
-              and &quot;Settings...&quot; are a bit different,
-              since they adjust the way ArgoUML works - but they do not 
-              belong in the File menu, since their settings are not
-              stored in the project.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para>The <emphasis>View</emphasis> menu is for functions 
-              that do never alter the model, nor the diagram layout, 
-              only the way you view the diagram. A good example is
-              &quot;zoom&quot;. 
-              Also navigational functions belong here, e.g. &quot;Find&quot; 
-              and &quot;Goto Diagram...&quot;. All changes of settings 
-              in this menu apply to all diagrams (e.g. zoom).</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para>The <emphasis>Create</emphasis> menu contains all 
-              possible diagrams that can be created. 
-              These functions are
-              context dependend, since they work on the 
-              selected modelelement.
+              <para>
+              	Das Menü <emphasis>Datei</emphasis> enthält Operationen, die 
+              	auf das ganze Projekt/Datei wirken. Alle Elemente in diesem 
+              	Menü können so begründet werden.
               </para>
 
             </listitem>
 
             <listitem>
 
-              <para>The <emphasis>Arrange</emphasis> menu allows layout 
-              changes in the current diagram, which is not the same as 
-              the items in the View menu. Functions here can not alter 
-              the UML model.</para>
+              <para>
+              	Das Menü <emphasis>Bearbeiten</emphasis> ist hauptsächlich dafür 
+              	gedacht, das Modell zu editieren oder den Inhalt eines 
+              	Diagrammes zu verändern. Es enthält auch Funktionen, die das 
+              	Editieren erst ermöglichen, wie z.B. das Markieren. Dieses 
+              	Menü ist nicht für Diagramm-Layout-Funktionen gedacht. Die 
+              	meisten Funktionen hier, tun irgendetwas mit dem markierten 
+              	Modellelement und Diagramm. Die Elemente <quote>Konfiguriere 
+              	Perspektiven...</quote> und <quote>Einstellungen...</quote> 
+              	sind ein bißchen unterschiedlich, da sie einstellen, wie ArgoUML 
+              	arbeitet - aber sie gehören nicht in das Dateimenü, da ihre 
+              	Einstellungen nicht im Projekt gespeichert werden.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para>The <emphasis>Generation</emphasis> menu is for 
-              Code Generation. The functions here work either on the 
-              selected modelelements, or on the whole project.</para>
+              <para>
+              	Das Menü <emphasis>Ansicht</emphasis> ist für Funktionen, die 
+              	weder das Modell noch das Diagrammlayout verändern, sondern nur 
+              	die Art und Weise wie das Diagramm angezeigt wird. Ein gutes 
+              	Beispiel ist <quote>Zoom</quote>. 
+              	Auch navigierende Funktionen befinden sich hier, z.B. 
+              	<quote>Suchen</quote> und <quote>Gehezu Diagramm...</quote>. 
+              	Alle Änderungen der Einstellungen dieses Menüs wirken sich auf 
+              	alle Diagramme aus (z.B. Zoom).
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para>The <emphasis>Critique</emphasis> menu is specific 
-              for settings related to critics, 
-              which apply for all  projects.</para>
+              <para>
+              	Das Menü <emphasis>Neues Diagramm</emphasis> enthält alle 
+              	möglichen Diagramme, die erstellt werden können. Dies Funktionen 
+              	sind kontextabhänig, da mit dem markierten Modellelement 
+              	arbeiten.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para>The <emphasis>Tools</emphasis> menu is currently 
-              empty. If 
-              plugins are installed, then their functions appear 
-              here.</para>
+              <para>
+              	Das Menü <emphasis>Anordnen</emphasis> erlaubt Layoutänderungen 
+              	im aktuellen Diagramm, was nicht das selbe ist wie die Elemente 
+              	im Menü Ansicht. Die Funktionen können nicht das UML-Modell 
+              	ändern.
+			  </para>
 
             </listitem>
 
             <listitem>
 
-              <para>The <emphasis>Help</emphasis> menu contains the 
-              usual &quot;information&quot; and 
-              &quot;about&quot;.</para>
+              <para>
+              	Das Menü <emphasis>Generieren</emphasis> ist für die 
+              	Codegenerierung. Die Funktionen hier wirken entweder auf das 
+              	markierte Modellelement oder auf das ganze Projekt.
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+              	Das Menü <emphasis>Kritiken</emphasis> ist speziell für die 
+              	Einstellungen der Kritiken, die für alle Projekte gelten.
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+              	Das Menü <emphasis>Werkzeuge</emphasis> ist aktuell leer. 
+              	Wurden Plugins installiert, erscheinen deren Funktionen an 
+              	dieser Stelle.
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+              	Das Menü <emphasis>Hilfe</emphasis> enthält die üblichen 
+              	<quote>Systeminformationen</quote> und <quote>Über 
+              	ArgoUML</quote>.
+              </para>
 
             </listitem>
 
@@ -9981,136 +10002,180 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1 id="s1.ref.menu_mouse">
 
-        <title>Mouse Behavior in the Menu Bar</title>
+        <title>Das Mausverhalten in der Menüzeile</title>
 
-        <para>Behavior of the mouse in general, and the naming of the 
-        buttons is covered in the chapter on the overall user interface 
-        (see <xref linkend="s1.ref.mouse"/>). There is no ArgoUML 
-        specific behaviour for the menu.</para>
+        <para>
+        	Das generelle Verhalten der Maus und die Bezeichnung der Tasten 
+        	ist umfassend im Kapitel Anwenderschnittstelle ausgeführt (siehe 
+			<xref linkend="s1.ref.mouse"/>). Es gibt kein ArgoUML-spezifisches 
+			Verhalten für Menüs.
+		</para>
 
       </sect1>
 
       <sect1>
 
-        <title>The File Menu</title>
+        <title>Das Menü Datei</title>
 
-        <para>These are actions concerned with input and output and the 
-        overall management of projects and the ArgoUML system.</para>
+        <para>
+        	Dieses sind Aktionen, welche die Ein- und Ausgabe betreffen und das 
+        	umfassende Management von Projekten sowie das ArgoUML-System.
+        </para>
 
         <sect2 id="s2.ref.menu_new">
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center" fileref="images/icons/new.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          New</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/new.gif" format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Neu
+          </title>
 
-          <indexterm><primary>New</primary></indexterm>
-          <indexterm><primary>Shortcut 
-          key</primary><secondary>Ctrl-N</secondary></indexterm>
-          <para>Shortcut Ctrl-N.</para>
+          <indexterm><primary>Neu</primary></indexterm>
+          <indexterm><primary>Tastenkürzel</primary>
+          <secondary>Strg-N</secondary></indexterm>
+          <para>Tastenkürzel Strg-N.</para>
 
-          <para>This initializes a new project within ArgoUML. The 
-          project is created without a the name. It contains a 
-          (top-level) <literal>Model</literal> named <literal>
-          untitledModel</literal> and two empty diagrams: a class 
-          diagram and a use case diagram.</para>
+          <para>
+          	Dies initialisiert ein neues Projekt in ArgoUML. Das Projekt wird 
+          	ohne Name erstellt. Es enthält ein (oberste Ebene) 
+          	<literal>unbenanntesModell</literal> bezeichnetes 
+          	<literal>Modell</literal> und zwei leere Diagramme: Ein 
+          	Klassendiagramm und ein Anwendungsfalldiagramm.
+          </para>
 
           <caution>
 
-            <para><literal>untitledModel</literal> is not a 
-            conventional model name (most processes suggest models 
-            should be build from lower case letters). ArgoUML permits 
-            you to use any case letters, but a critic will trigger to 
-            warn that this is not conventional. See 
-            <xref linkend="s1.ref.model"/> for a discussion of 
-            this.</para>
+            <para>
+            	<literal>unbenanntesModell</literal> ist kein Modellname, der 
+            	der Konvention entspricht (die meisten Prozesse erwarten, dass 
+            	Modelle aus Kleinbuchstaben gebildet werden sollten). ArgoUML 
+            	erlaubt es Ihnen Groß- und Kleinbuchstaben zu verwenden, aber 
+            	eine Kritik wird Sie warnen, dass dies nicht der Konvention 
+            	entspricht. Siehe <xref linkend="s1.ref.model"/>.
+            </para>
 
           </caution>
 
-          <para>If the model has been altered (as indicated by the 
-          &quot;*&quot; in the titlebar of ArgoUML&apos;s window), then 
-          activating the &quot;New&quot; function is potentionally not 
-          the user&apos;s intention, since it will erase the changes. 
-          Hence a confirmation dialog appears to allow the user to save 
-          his work first, or cancel the operation completely.</para>
+          <para>
+          	Wurde das Modell geändert (was durch den <quote>*</quote> in der 
+          	Titelzeile des ArgoUML-Fensters angezeigt wird), ist die Aktivierung 
+          	der Funktion <quote>Neu</quote> potentiell nicht die Absicht des 
+          	Anwenders, da sie die Änderungen löschen würde. Aus diesem Grund 
+          	erscheint ein Bestätigungsdialog, der es dem Anwender erlaubt, zuerst 
+          	seine Arbeit zu speichern oder die Operation vollständig rückgängig 
+          	zu machen.
+          </para>
 
-          <figure float="1">
+          <figure>
 
-            <title>The confirmation dialog for <literal>
-            New</literal>.</title>
+            <title>
+            	Der Bestätigungsdialog für <literal>Neu</literal>.
+			</title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_dialog_confirm_new.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_dialog_confirm_new.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject></screenshot>
           </figure>
 
         </sect2>
 
         <sect2 id="s2.ref.menu_open_project">
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/open_project.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          Open Project...</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/open_project.gif" format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Projekt öffnen...
+          </title>
 
-          <indexterm><primary>Open Project...</primary></indexterm>
-          <indexterm><primary>Shortcut 
-          key</primary><secondary>Ctrl-O</secondary></indexterm>
-          <para>Shortcut Ctrl-O.</para>
+          <indexterm><primary>Projekt öffnen...</primary></indexterm>
+          <indexterm><primary>Tastenkürzel 
+          </primary><secondary>Strg-O</secondary></indexterm>
+          <para>Tastenkürzel Strg-O.</para>
 
-          <para>This opens an existing project from a file. Selecting 
-          this menu option will open a file selection dialog (see 
-          <xref linkend="fig.ref.menu_open_project"/>).</para>
+          <para>
+          	Diese Funktion öffnet ein existierendes Projekt aus einer Datei. 
+          	Die Auswahl dieser Menüoption wird einen Dateiauswahldialog öffnen 
+          	(siehe <xref linkend="fig.ref.menu_open_project"/>).
+          </para>
 
           <figure id="fig.ref.menu_open_project">
 
-            <title>The file selection dialog for <literal>
-            Open Project...</literal>.</title>
+            <title>
+            	Der Dateiauswahldialog für <literal>Projekt öffnen...</literal>.
+			</title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_open_project.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_open_project.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
-          <para>The main body of the dialog is a text area with a 
-          listing of all directories and files in the currently 
-          selected directory which match the current filter (see 
-          below).</para>
+          <para>
+          	Der Hauptbereich des Dialoges ist ein Textbereich mit einer Liste 
+          	aller Verzeichnisse und Dateien im aktuell ausgewählten Verzeichnis, 
+          	welches mit dem aktuellen Filter übereinstimmt (siehe nachfolgend).
+          </para>
 
-          <para>Navigating in the directory tree is possible by 
-          selecting a directory in the drop down selector at the top of 
-          this dialog. Navigating deeper in the tree may be done by 
-          double clicking button&nbsp;1 on the directory shown in the main 
-          text area.</para>
+          <para>
+          	Das Navigieren im Verzeichnisbaum ist durch das Markieren eines 
+          	Verzeichnisses in der DropDown-Auswahl oben im Dialog möglich. Im 
+          	Baum tiefer navigieren kann durch Doppelklicken auf das im 
+          	Hauptbereich angezeigte Verzeichnis mit der Taste&nbsp;1 bewirkt 
+          	werden.
+          </para>
 
-          <para>In the lower portion of the dialog is a text box 
-          labeled <literal>File name:</literal> for the name of the 
-          file to be opened. The file name may be typed directly in 
-          here, or selected from the directory listing above using 
-          button&nbsp;1 click.</para>
+          <para>
+          	Im unteren Teil des Dialoges befindet sich ein Textfeld mit der 
+          	Bezeichnung <literal>Dateiname:</literal> für den Namen der Datei, 
+          	die geöffnet werden soll. Der Dateiname kann hier direkt eingegeben 
+          	oder aus der obigen Verzeichnisliste mit Hilfe des 
+          	Taste&nbsp;1-Klick ausgewählt werden.
+          </para>
 
-          <para>Beneath this is a drop down selector labeled <literal>
-          Files of type:</literal> to specify a filter on the files to 
-          be shown in the directory listing. Only files that match the 
-          filter are listed. The available filters are listed below. 
-          The default filter is the first one, 
-          which combines all available formats.</para>
+          <para>
+          	Darunter befindet sich eine mit <literal>Dateityp:</literal> 
+          	bezeichnete DropDown-Auswahl, um einen Filter für die Dateien 
+          	auszuwählen, die in der Verzeichnisliste angezeigt werden sollen. 
+          	Nur die Dateien werden angezeigt, die mit diesem Filter 
+          	übereinstimmen. Die verfügbaren Filter sind nachstehend aufgeführt. 
+          	Der Standardfilter ist der erste, der alle verfügbaren Formate 
+          	kombiniert.
+          </para>
 
           <itemizedlist>
 
             <listitem>
-              <para>ArgoUML file (*.zargo, *.uml, *.xmi, *.xml, *.zip)</para>
+              <para>ArgoUML-Datei (*.zargo, *.uml, *.xmi, *.xml, *.zip)</para>
             </listitem>
 
             <listitem>
-              <para>ArgoUML compressed project file (*.zargo)</para>
+              <para>ArgoUML-komprimierte Projektdatei (*.zargo)</para>
             </listitem>
 
             <listitem>
-              <para>ArgoUML project file (*.uml)</para>
+              <para>ArgoUML-Projektdatei (*.uml)</para>
             </listitem>
 
             <listitem>
@@ -10122,7 +10187,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             </listitem>
             
             <listitem>
-              <para>XMI compressed project file (*.zip)</para>
+              <para>XMI komprimierte Projektdatei (*.zip)</para>
             </listitem>
 
           </itemizedlist>
@@ -10131,31 +10196,41 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="s2.ref.menu_save_project">
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/save_project.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          Save Project</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/save_project.gif" format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Projekt speichern
+          </title>
 
-          <indexterm><primary>Save Project</primary></indexterm>
-          <indexterm><primary>Shortcut 
-          key</primary><secondary>Ctrl-S</secondary></indexterm>
-          <para>Shortcut Ctrl-S.</para>
+          <indexterm><primary>Projekt speichern</primary></indexterm>
+          <indexterm><primary>Tastenkürzel
+          </primary><secondary>Strg-S</secondary></indexterm>
+          <para>Tastenkürzel Strg-S.</para>
 
-          <para>This saves the project using its current file name. Use 
-          <literal>Save Project As...</literal> to save the project to a 
-          different file. If no filename is given yet (e.g. after 
-          <literal>New</literal>), then this function works exactly as 
-          <literal>Save Project As...</literal>.</para>
+          <para>
+          	Speichert das Projekt unter seinem aktuellen Dateinamen. Benutzen 
+          	Sie <literal>Projekt speichern unter...</literal>, um das Projekt 
+          	in einer anderen Datei zu speichern. Wurde kein Dateiname vergeben (
+          	z.B. nach <literal>Neu</literal>), dann arbeitet diese Funktion 
+          	genau wie <literal>Projekt speichern unter...</literal>.
+          </para>
 
           <note>
 
-            <para>In certain circumstances, there is nothing to save, 
-            and this menuitem is downlighted. E.g. when the user did 
-            not yet alter a loaded project. The presence of a 
-            <quote>*</quote> in the titlebar of ArgoUML&apos;s window 
-            indicates that the current project is <quote>dirty</quote> 
-            (has been altered), and can be saved.</para>
+            <para>
+           		Unter bestimmten Umständen gibt es nichts zu speichern. Dann ist 
+           		diese Menüoption deaktiviert. Z.B. wenn der Anwender das geladene 
+           		Projekt nicht verändert hat. Die Präsenz eines <quote>*</quote> 
+           		in der Titelzeile von ArgoUML zeigt an, dass das aktuelle 
+           		Projekt <quote>ungesichert</quote> ist (geändert wurde) und 
+           		gespeichert werden kann.
+            </para>
 
           </note>
 
@@ -10163,265 +10238,351 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="s2.ref.menu_save_project_as">
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/save_project_as.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          Save Project As...</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/save_project_as.gif" format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Projekt speichern unter...
+          </title>
 
-          <para>This opens a dialog allowing you to save the project 
-          under a different file name (or to specify a file name for 
-          the first time if the project is a new project).</para>
+          <para>
+          	Öffnet einen Dialog, der es Ihnen erlaubt, das Projekt unter einem 
+          	anderen Dateinamen zu speichern (oder das erste Mal einen Dateinamen 
+          	zu spezifizieren, wenn das Projekt ein neues Projekt ist).
+          </para>
 
-          <para>The dialog box is almost identical to that for <literal>
-          Open Project</literal> (see 
-          <xref linkend="fig.ref.menu_open_project"/>). The extension 
-          of the filename is automatically set.</para>
+          <para>
+          	Der Dialog ist weitgehend identisch mit dem für <literal>Projekt 
+          	öffnen</literal> (siehe <xref linkend="fig.ref.menu_open_project"/>). 
+          	Die Dateinamenerweiterung wird automatisch gesetzt.
+          </para>
 
         </sect2>
 
         <sect2 id="s2.ref.menu_revert_to_saved">
 
-          <title>Revert to Saved</title>
+          <title>Projekt speichern rückgängig machen</title>
 
-          <para>This menu-item allows you to throw away all your recent 
-          changes, and reload the last saved version of the current 
-          project. It works a bit like an <literal>Undo</literal> 
-          feature, but only restores changes done since the last time 
-          the file was saved.</para>
+          <para>
+          	Diese Menüoption erlaubt es Ihnen, alle vorher vorgenommen Änderungen 
+          	rückgängig zu machen und die zuletzt gespeicherte Version des 
+          	aktuellen Projektes zurückzuladen. Sie arbeitet ein bisschen wie 
+          	die <literal>Rückgängig</literal>-Funktion, speichert aber nur die 
+          	Änderungen zurück, die seit dem letzten Speichern der Datei 
+          	vorgenommen wurden.
+          </para>
 
-          <para>This menu-item is downlighted unless the currentproject 
-          has been saved or loaded before (i.e. it has a name), and it 
-          has been altered.</para>
+          <para>
+          	Diese Menüoption ist deaktiviert, bis das aktuelle Projekt 
+          	gespeichert oder vorher geladen und geändert wurde.
+          </para>
 
-          <para>When this menu-item is activated, a small confirmation 
-          dialog box opens, as shown in the figure below. This warning 
-          that all recent changes will be discarded, is needed because 
-          the action can not be undone. Selecting <literal>No</literal> 
-          cancels the whole action as if you did not select the 
-          menu-item in the first place. Selecting <literal>
-          Yes</literal> reloads the last saved file.</para>
+          <para>
+          	Wenn diese Menüoption aktiviert ist, öffnet sich ein kleiner 
+          	Bestätigungsdialog, wie im nachfolgenden Bild gezeigt. Diese 
+          	Warnung, dass alle vorher vorgenommenen Änderungen rückgängig 
+          	gemacht werden ist notwendig, da diese Aktion nicht mehr rückgängig 
+          	gemacht werden kann. Die Auswahl <literal>Nein</literal> bricht 
+          	die ganze Aktion ab. Das ist dann so, als hätten Sie die Menüoption 
+          	niemals ausgewählt. Die Auswahl <literal>Ja</literal> lädt die 
+          	zuletzt gespeicherte Datei zurück.
+          </para>
 
           <figure id="fig.ref.menu_revert_to_saved">
 
-            <title>The warning dialog for Revert to Saved.</title>
+            <title>Der Warndialog für Projekt speichern rückgängig machen.</title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_revert_to_saved.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_revert_to_saved.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
         </sect2>
 
         <sect2>
 
-          <title>Import XMI...</title>
+          <title>XMI importieren...</title>
 
-          <para>This menu-item allows to load an 
-          UML 1.3 or 1.4 model which was exported by e.g. another tool,
-          as a XMI file, according the XMI V1.0, V1.1 or V1.2 standard. 
-          The extension of such file should be <literal>.xmi</literal>.
+          <para>
+          	Diese Menüoption erlaubt es Ihnen, ein UML 1.3 oder 1.4-Modell zu 
+          	laden, welches durch ein anderes Tool als XMI-Datei, entsprechend 
+          	dem XMI-V1.0-, V1.1- oder V1.2-Standard exportiert wurde. Die 
+          	Erweiterung einer solchen Datei sollte <literal>.xmi</literal> 
+          	lauten.
           </para>
 
-          <para>If the model has been altered (as indicated by the 
-          &quot;*&quot; in the titlebar of ArgoUML&apos;s window), then 
-          activating the &quot;Import XMI...&quot; 
-          function is potentionally not 
-          the user&apos;s intention, since it will erase the changes. 
-          Hence a confirmation dialog appears to allow the user to save 
-          his work first, or cancel the operation completely.</para>
+          <para>
+          	Wenn das Modell geändert wurde (angezeigt durch einen <quote>*
+          	</quote> in der Titelzeile von ArgoUML), dann ist die Aktivierung 
+          	der <quote>XMI importieren...</quote>-Funktion wahrscheinlich nicht 
+          	die Absicht des Anwenders, da dies die Änderungen löscht. Aus diesem 
+          	Grund erscheint die Dialog, der es dem Anwender erlaubt, zuerst 
+          	seine Arbeit zu speichern oder die Operation vollständig abzubrechen.
+          </para>
 
-          <figure float="1">
+          <figure>
 
-            <title>The confirmation dialog for <literal>
-            Import XMI...</literal>.</title>
+            <title>Der Bestätigungsdialog für <literal>
+            XMI importieren...</literal>.</title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_dialog_confirm_new.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_dialog_confirm_new.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
-          <para>When the menu is activated, the standard filechooser 
-          appears, see <xref linkend="fig.ref.menu_import_xmi"/>.
-          Beware the fact that this file will only contain the model, 
-          not any diagram layout. Hence, 
-          the new project will not contain any diagrams.</para>
+          <para>
+          	Ist dieses Menü aktiviert erscheint die Standarddateiauswahl, siehe 
+			<xref linkend="fig.ref.menu_import_xmi"/>.
+			Beachten Sie die Tatsache, dass diese Datei nur das Modell 
+			beinhaltet, nicht irgendein Diagrammlayout. Aus diesem Grund wird 
+			das neue Projekt keinerlei Diagramme enthalten.
+          </para>
 
           <figure id="fig.ref.menu_import_xmi">
 
-            <title>The dialog for <literal>
-            Import XMI...</literal>.</title>
+            <title>Der Dialog für <literal>
+            XMI importieren...</literal>.</title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_import_xmi.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_import_xmi.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
         </sect2>
 
         <sect2>
 
-          <title>Export XMI...</title>
+          <title>Exportiere als XMI...</title>
 
-          <para>This menu-item allows to save the complete structure of 
-          the UML 1.4 model as a XMI file, according the XMI V1.2 standard. 
-          Beware the fact that this file will only contain the model, 
-          not any diagram layout. Hence, if the XMI file is reloaded 
-          with the <literal>File - Open Project...</literal> menu, then 
-          the diagrams are lost.</para>
+          <para>
+          	Dieses Menü erlaubt es Ihnen, die vollständige Struktur eines UML 
+          	1.4-Modelles als XMI-Datei entsprechend dem XMI V2.1-Standard zu 
+          	speichern. Beachten Sie die Tatsache, dass diese Datei nur das 
+          	Modell enthalten wird, nicht irgendein Diagrammlayout. Aus diesem 
+          	Grund gehen die Diagramme verloren, wenn die XMI-Datei über das 
+          	Menü <literal>Datei - Projekt öffnen...</literal> erneut geladen 
+          	wird.
+          </para>
 
-          <para>When the menu is activated, the standard filechooser 
-          appears, see <xref linkend="fig.ref.menu_export_xmi"/>.</para>
+          <para>
+          	Ist das Menü aktiviert, erscheint die Standarddateiauswahl, siehe 
+			<xref linkend="fig.ref.menu_export_xmi"/>.
+		  </para>
 
           <figure id="fig.ref.menu_export_xmi">
 
-            <title>The dialog for <literal>
-            Export XMI...</literal>.</title>
+            <title>Der Dialog für <literal>
+            Exportiere als XMI...</literal>.</title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_export_xmi.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_export_xmi.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
         </sect2>
 
         <sect2 id="s3.ref.menu_import_sources">
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/import_sources.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          Import Sources...</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/import_sources.gif" format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Quellcode importieren...
+          </title>
 
-          <para>A very powerful feature of ArgoUML is that it can 
-          <quote>Reverse Engineer</quote> Java code to yield a class 
-          diagram. This sub-menu entry specifies Java code to be 
-          imported for reverse engineering.</para>
+          <para>
+          	Eine sehr leistungsfähige Eigenschaft von ArgoUML ist es, das es 
+          	Java-Code <quote>reengineeren</quote> kann, um ein Klassendiagramm 
+          	zu erhalten. Dieser Untermenüeintrag spezifiert den Java-Code, der 
+          	zum reengineeren importiert werden soll.
+          </para>
 
-          <para>The dialog box is similar to that for <literal>
-          Open Project</literal> (see 
-          <xref linkend="fig.ref.menu_open_project"/>), but with two 
-          extra tabs placed alongside the directory listing, as shown 
-          in <xref linkend="fig.ref.menu_import_sources"/>).</para>
+          <para>
+          	Der Dialog ist ähnlich dem für <literal>Projekt öffnen...</literal> 
+          	(siehe <xref linkend="fig.ref.menu_open_project"/>), allerdings mit 
+          	zwei zusätzlichen Registern neben der Verzeichnisliste, wie in 
+          	<xref linkend="fig.ref.menu_import_sources"/> gezeigt).
+          </para>
 
           <figure id="fig.ref.menu_import_sources">
 
-            <title>The file selection dialog for <literal>
-            Import Sources...</literal>.</title>
+            <title>Der Dateiauswahldialog für <literal>
+            Quellcode importieren...</literal>.</title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_import_sources.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_import_sources.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
-          <para>Those fields that are the same as <literal>
-          Open Project</literal> behave in the same way (see 
-          <xref linkend="s2.ref.menu_open_project"/>).</para>
+          <para>
+          	Diese Felder sind im Verhalten die gleichen wie in <literal>Projekt 
+          	öffnen...</literal> (siehe 
+          	<xref linkend="s2.ref.menu_open_project"/>).
+          </para>
 
-          <para>Next to the &quot;All Files&quot; file filter, there is 
-          the default filter &quot;Java Source File 
-          (*.java)&quot;.</para>
+          <para>
+          	In der Nähe des Dateifilters <quote>Alle Dateien</quote> gibt es den 
+          	Standardfilter <quote>Java-Quelldatei (*.java).</quote>
+          </para>
 
-          <para>The first of the two tabs is labeled <literal>
-          General</literal> and is selected by button&nbsp;1 click on its 
-          tab. It provides a combo box for the language selection (in 
-          V0.18 of ArgoUML only Java can be chosen), and the following 
-          selections:</para>
+          <para>
+          	Das erste der beiden Register ist mit <literal>Allgemeines</literal> 
+          	bezeichnet und durch einen Taste&nbsp;1-Klick auf das Register 
+          	ausgewählt. Es enthält eine Auswahlbox für die Auswahl der Sprache (
+          	in V0.18 von ArgoUML kann nur Java ausgewählt werden) und der 
+          	folgenden Wahlmöglichkeiten:
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><literal>Descend directories recursively</literal>. 
-              If enabled (the default), reverse engineering will track 
-              through sub-directories for any further Java files. If 
-              not it will restrict to the selected directory.</para>
+              <para>
+              	<literal>Verzeichnisse rekursiv absteigend</literal>
+              	. Wenn markiert (Standard), dann wird das Reengineering auch 
+              	die Unterverzeichnisse nach Javadateien durchsuchen. Wenn nicht, 
+              	wird die Suche auf das aktuelle Verzeichnis eingeschränkt.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Changed/new files only</literal>. 
-              If enabled (the default), only changed and new files are imported. 
-              If not all classes will be replaced.</para>
+              <para>
+              	<literal>Nur geänderte/neue Dateien</literal>
+              	. Wenn markiert (Standard), dann werden nur geänderte oder 
+              	neue Dateien importiert. Wenn nicht, werden alle Klassen 
+              	ersetzt. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Create diagrams from imported 
-              code</literal>. If you unselect this, then no diagrams 
-              are created, i.e. all data will only be visible in the 
-              explorer.</para>
+              <para>
+              	<literal>Erzeuge Diagramme aus dem importierten Code</literal>
+              	. Wenn Sie dies deaktivieren, werden keine Diagramme erzeugt. 
+              	Z.B., alle Daten werden nur im Explorer sichtbar sein.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Minimise Class icons in 
-              diagrams</literal>. If enabled, then the attributes and 
-              operations compartiments will not be shown in the classes 
-              on the generated class diagrams. Note: This item is 
-              checked by default, and is overseen by many users, which 
-              are then surprised by the result.</para>
+              <para>
+              	<literal>Minimiere Klassensymbole in den Diagrammen</literal>
+              	. Wenn aktiviert, dann werden die Attribut- und Operations-
+              	Trenner in den Klassen des generierten Klassendiagrammes nicht 
+              	angezeigt. Achtung: Dieses Element ist standardmäßig markiert 
+              	und wird durch viele Anwender übersehen, die dann von dem 
+              	Ergebnis überrascht sind. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Perform Automatic Diagram 
-              Layout</literal>. If selected, then ArgoUML will do its 
-              best to layout the generated diagrams automatically. If 
-              not, then all items will be placed at the top left corner 
-              of the diagram.</para>
+              <para>
+              	<literal>Automatisches Diagramm-Layout ausführen</literal>.
+              	Wenn markiert, dann wird ArgoUML sein Bestes tun, um
+              	die generierten Diagramme automatisch zu formatieren.
+              	Wenn nicht, dann werden alle Elemente in die linke
+              	obere Ecke des Diagrammes plaziert.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Level of import detail: Classifiers only / 
-              Classifiers plus feature specifications / Full 
-              import</literal>. The latter is the default.</para>
+              <para>
+              	<literal>
+              		Importdetails: Nur Klassifizierungen /
+              		Klassifizierungen und Eigenschaften / Vollständiger 
+              		Import
+              	</literal>
+              	. Das letztere ist der Standard.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Import source file encoding:</literal>. 
-              The value <literal>Cp1252</literal> is often the default. 
-              This string represents the <literal>coded character set 
-              identifier (CCSID)</literal>.</para>
+              <para>
+              	<literal>Codierung der Eingabedatei:</literal>. Der Wert 
+				<literal>Cp1252</literal> ist sehr oft der Standard. Diese 
+				Zeichenkette repräsentiert den <literal>codierten Zeichensatz- 
+				Bezeichnung (CCSID)</literal>.
+              </para>
 
             </listitem>
 
           </itemizedlist>
 
-          <para>The second of the two tabs is labeled <literal>
-          Java</literal> and is selected by button&nbsp;1 click on its tab. 
-          It provides two pairs of radio boxes.</para>
+          <para>
+          	Der zweiter der beiden Register ist mit <literal>Java</literal> 
+          	bezeichnet und wird durch einen Taste&nbsp;1-Klick auf das Register 
+          	ausgewählt. Es enthält zwei Paar Optionsauswahlfelder.
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para>The first radio box allows selection between 
-              modeling attributes of Java classes as UML attributes 
-              (the default) or as UML associations to the class 
-              specified.</para>
+              <para>
+              	Die erste Optionsauswahl erlaubt die Auswahl zwischen der 
+              	Modellierung der Attribute von Javaklassen als UML-Attribute (
+              	der Standard) oder als UML-Assoziationen auf die Klasse.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para>The second radio box allows selection between 
-              modeling arrays as new datatypes in their own right (the 
-              default) or as their base datatype with 
-              multiplicity.</para>
+              <para>
+              	Die zweite Optionsauswahl erlaubt die Auswahl zwischen der 
+              	Modellierung von arrays als eigenständige neue Datentypen 
+              	(der Standard) oder als Basisdatentyp mit Kardinalität.
+              </para>
 
             </listitem>
 
@@ -10431,67 +10592,95 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/page_setup.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          Page Setup...</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/page_setup.gif" format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Seite einrichten...
+          </title>
 
-          <indexterm><primary>Page Setup ...</primary></indexterm>
-          <para>This brings up the standard dialog box provided by the 
-          operating system to adjust printer paper size, orientation, 
-          and other options.</para>
+          <indexterm><primary>Seite einrichten ...</primary></indexterm>
+          <para>
+          	Diese Option öffnet den Standarddialog des Betriebssystems, um die 
+          	Drucker-Papiergrösse, die Ausrichtung und andere Optionen 
+          	einzustellen.
+          </para>
 
         </sect2>
 
         <sect2 id="s2.ref.menu_print">
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center" fileref="images/icons/print.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          Print...</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/print.gif" format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Drucken...
+          </title>
 
-          <indexterm><primary>Print ...</primary></indexterm>
-          <indexterm><primary>Shortcut 
-          key</primary><secondary>Ctrl-P</secondary></indexterm>
-          <para>Shortcut Ctrl-P.</para>
+          <indexterm><primary>Drucken ...</primary></indexterm>
+          <indexterm><primary>Tastenkürzel 
+          </primary><secondary>Strg-P</secondary></indexterm>
+          <para>Tastenkürzel Strg-P.</para>
 
-          <para>This brings up the standard dialog box provided by the 
-          operating system allowing the current diagram to be printed 
-          out.</para>
+          <para>
+          	Diese Option öffent den Standarddialog des Betriebssystems, der es 
+          	Ihnen erlaubt, das aktuelle Diagramm auszudrucken.
+          </para>
 
-          <para>In some cases, when the printing is started, the dialog 
-          box of <xref linkend="fig.ref.menu_diagram_exceeds_page"/> 
-          appears. Selecting the &quot;Fit to page&quot; button does 
-          print the whole diagram fitted on one page by scaling it 
-          down. Which might cause all text to be too small to read in 
-          case of big diagrams, but it is a quick and easy way to get 
-          an usable printout. Selecting the &quot;Multiple pages&quot; 
-          option does print unscaled, by dividing the diagram in 
-          pieces, on as many pages as needed. Pressing the close button 
-          of the dialog does the former option.</para>
+          <para>
+          	In einigen Fällen erscheint der Dialog 
+          	<xref linkend="fig.ref.menu_diagram_exceeds_page"/>, wenn der 
+          	Druckvorgang gestartet wurde. 
+          	Die Auswahl der Schaltfläche <quote>An Seite anpassen</quote> druckt 
+          	das gesamte Diagramm auf eine Seite, indem es das Diagramm 
+          	herunterskaliert. Dies kann dazu führen, dass der gesamte Text bei 
+          	grossen Diagrammen zu klein zum lesen wird. Aber es ist ein 
+          	schneller und einfacher Weg einen verwendbaren Ausdruck zu bekommen. 
+          	Die Auswahl der Option <quote>Mehrere Seiten</quote> druckt 
+          	unskaliert, indem es das Diagramm in so viele Einzelteile aufteilt,
+			wie nötig. Drücken der Schliessen-Schaltfläche führt zum Schliessen 
+			des Dialoges.
+          </para>
 
           <figure id="fig.ref.menu_diagram_exceeds_page">
 
-            <title>The diagram exceeds page size dialog.</title>
+            <title>Der Dialog: Das Diagramm überschreiten die Seitengrösse.</title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_diagram_exceeds_page.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_diagram_exceeds_page.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
           <warning>
 
-            <para>If the current diagram contains no selected 
-            model elements, then the whole diagram is printed. However, if 
-            one or more model elements are selected, then only the area they 
-            cover is printed! If scaling is selected (by the &quot;Fit 
-            to page&quot; choice in the dialog box descibed above), 
-            then the scaling is done on basis of the selected model elements 
-            only. If scaling is not chosen (or in case it is not 
-            needed), then all pages containing a selected model element are 
-            printed.</para>
+            <para>
+            	Wenn das aktuelle Diagramm keine markierten Modellelemente 
+            	enthält, dann wird das gesamte Diagramm gedruckt. Jedoch, wenn 
+            	ein oder mehrere Modellelemente markiert sind, wird nur der 
+            	Bereich ausgedruckt den diese umfassen! Wenn die Skalierung 
+            	ausgewählt ist (durch die Wahl der Option <quote>An Seite 
+            	anpassen</quote> im oben beschriebenen Dialog), dann wird die 
+            	Skalierung nur auf  Basis der markierten Modellelemente 
+            	ausgeführt. Ist keine Skalierung ausgewählt (oder nicht 
+            	notwendig), dann werden alle Seiten ausgedruckt, die ein 
+            	markiertes Modellelement beinhalten.
+            </para>
 
           </warning>
 
@@ -10499,45 +10688,51 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="s2.ref.menu_export_graphics">
 
-          <title>Export Graphics...</title>
+          <title>Grafik exportieren...</title>
 
-          <para>This menu entry brings up a dialog box allowing the 
-          currently selected diagram (in the editing pane) to be saved 
-          in one of a number of graphic formats.</para>
+          <para>
+          	Diese Menüoption öffnet einen Dialog, der es erlaubt, das aktuell 
+          	markierte Diagramm (im Editierfenster) in einem von einer Vielzahl 
+          	von Grafikformaten zu speichern.
+          </para>
 
-          <para>The dialog box is identical to that for <literal>
-          Open Project</literal> (see 
-          <xref linkend="fig.ref.menu_open_project"/>), except for the 
-          <literal>Files of type:</literal>. The chosen filetype 
-          specifies the graphics format used for saving. The filename 
-          is automatically extended with the corresponding ending (if 
-          not entered already). A default filename is generated based 
-          on the diagram name.</para>
+          <para>
+          	Der Dialog ist mit dem in <literal>Projekt öffnen</literal> 
+          	verwendeten identisch (siehe 
+          	<xref linkend="fig.ref.menu_open_project"/>), mit Ausnahme des 
+          	Feldes <literal>Dateityp:</literal>. Der ausgewählte Dateityp 
+          	bestimmt das beim Speichern verwendete Grafikformat. Der Dateiname 
+          	wird automatisch mit der entsprechenden Dateierweiterung erweitert (
+          	wenn er nicht bereits eingegeben wurde). Auf Basis des Diagrammnamens 
+          	wird ein Standarddateiname generiert. 
+          </para>
 
-          <para>The available graphics types are:</para>
+          <para>Die verfügbaren Grafiktypen sind:</para>
 
           <itemizedlist>
 
             <listitem>
-              <para>GIF image (*.gif)</para>
+              <para>GIF-Bild (*.gif)</para>
             </listitem>
             <listitem>
-              <para>Encapsulated Postscript file (*.eps)</para>
+              <para>Encapsulated Postscript-Datei (*.eps)</para>
             </listitem>
             <listitem>
-              <para>PNG image (*.png)</para>
+              <para>PNG-Bild (*.png)</para>
             </listitem>
             <listitem>
-              <para>Postscript file (*.ps)</para>
+              <para>Postscript-Datei (*.ps)</para>
             </listitem>
             <listitem>
-              <para>Scalable Vector Graphics file (*.svg)</para>
+              <para>Scalable Vector Graphics-Datei (*.svg)</para>
             </listitem>
 
           </itemizedlist>
 
-          <para>The graphics format that is selected by default
-          is set in the dialog under the menu entry Edit - Settings...</para>
+          <para>
+          	Das standardmäßig ausgewählte Grafikformat wird im Dialog unter der 
+          	Menüoption Bearbeiten - Einstellungen... eingestellt.
+          </para>
 
           <!--caution>
             TODO: Is this still true?
@@ -10552,17 +10747,19 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         
         <sect2 id="s2.ref.menu_export_all_graphics">
 
-          <title>Export All Graphics...</title>
+          <title>Alle Grafiken exportieren...</title>
 
-          <para>This menu entry brings up a dialog box 
-          to select a directory. 
-          In this directory, for all diagrams in the current project,
-          a graphics file is generated.</para>
+          <para>
+          	Diese Menüoption öffnet einen Dialog, um ein Verzeichnis auszuwählen. 
+          	In dieses Verzeichnis wird für alle Diagramme des aktuellen Projektes 
+          	je eine Grafikdatei generiert.
+          </para>
           
-          <para>The names of the files are deducted from the diagram names.
-          The graphics format that is produced
-          is set in the dialog under the Edit menu 
-          (see <xref linkend="s2.ref.menu_settings"/>).</para>
+          <para>
+          	Die Namen der Dateien werden aus den Diagrammnamen gebildet. Das 
+          	verwendete Grafikformat wurde im Bearbeiten-Menü (siehe 
+			<xref linkend="s2.ref.menu_settings"/>) eingestellt.
+		  </para>
 
         </sect2>
         
@@ -10570,9 +10767,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>Notation</title>
 
-          <para>This sub-menu presents a radio button selection for 
-          notation, i.e. the language in which all textual adornments 
-          are shown on the diagrams. 
+          <para>
+          	
+          	This sub-menu presents a radio button selection for
+          	notation, i.e. the language in which all textual
+          	adornments are shown on the diagrams.
           </para>
 
           <para>This feature defines the project&apos;s notation language.
@@ -10949,10 +11148,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <para><literal>Select All</literal> (shortcut Ctrl-A). 
+              <para><literal>Select All</literal> (shortcut Strg-A). 
               <indexterm><primary>Select All</primary></indexterm> 
               <indexterm><primary>Shortcut 
-              key</primary><secondary>Ctrl-A</secondary></indexterm> 
+              key</primary><secondary>Strg-A</secondary></indexterm> 
               Selects all model elements on the current pane or in the 
               current field. The exact behaviour depends on the 
               <literal>current pane</literal> (i.e. the last one you 
@@ -11041,8 +11240,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <indexterm><primary>Cut</primary></indexterm>
           <indexterm><primary>Shortcut 
-          key</primary><secondary>Ctrl-X</secondary></indexterm>
-          <para>Shortcut Ctrl-X.</para>
+          key</primary><secondary>Strg-X</secondary></indexterm>
+          <para>Shortcut Strg-X.</para>
 
           <para>This takes the currently selected items, remove them 
           from the diagram, and place them on the clipboard for 
@@ -11068,8 +11267,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <indexterm><primary>Copy</primary></indexterm>
           <indexterm><primary>Shortcut 
-          key</primary><secondary>Ctrl-C</secondary></indexterm>
-          <para>Shortcut Ctrl-C.</para>
+          key</primary><secondary>Strg-C</secondary></indexterm>
+          <para>Shortcut Strg-C.</para>
 
           <para>This takes the currently selected items and make a copy 
           of them on the clipboard for subsequent pasting.</para>
@@ -11094,8 +11293,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <indexterm><primary>Paste</primary></indexterm>
           <indexterm><primary>Shortcut 
-          key</primary><secondary>Ctrl-V</secondary></indexterm>
-          <para>Shortcut Ctrl-V.</para>
+          key</primary><secondary>Strg-V</secondary></indexterm>
+          <para>Shortcut Strg-V.</para>
 
           <para>This pastes the item(s) last cut or copied to the 
           clipboard on to the current diagram in the drawing 
@@ -11144,8 +11343,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <indexterm><primary>Delete From Model</primary></indexterm>
           <indexterm><primary>Shortcut 
-          key</primary><secondary>Ctrl-Delete</secondary></indexterm>
-          <para>Shortcut Ctrl-Delete.</para>
+          key</primary><secondary>Strg-Delete</secondary></indexterm>
+          <para>Shortcut Strg-Delete.</para>
 
           <para>This function deletes the selected item(s) from the 
           model completely.</para>
@@ -12028,7 +12227,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <para><literal>Zoom Out</literal>. Shortcut (Ctrl-Minus). 
+              <para><literal>Zoom Out</literal>. Shortcut (Strg-Minus). 
               Gives more overview over the drawing.</para>
 
             </listitem>
@@ -12042,7 +12241,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <para><literal>Zoom In</literal>. Shortcut (Ctrl-Plus). 
+              <para><literal>Zoom In</literal>. Shortcut (Strg-Plus). 
               Makes the items on the drawings bigger.</para>
 
             </listitem>
@@ -12472,7 +12671,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <imagedata align="center"
                fileref="images/icons/align_rights.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Align Rights</literal> (Shortcut Ctrl-R). Aligns 
+              <literal>Align Rights</literal> (Shortcut Strg-R). Aligns 
               the selected model elements by their right edges.</para>
 
             </listitem>
@@ -12483,7 +12682,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <imagedata align="center"
                fileref="images/icons/align_lefts.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Align Lefts</literal> (Shortcut Ctrl-L). Aligns 
+              <literal>Align Lefts</literal> (Shortcut Strg-L). Aligns 
               the selected model elements by their left edges.</para>
 
             </listitem>
@@ -13516,7 +13715,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         <para>All keys active in a tree widget have their normal 
         behaviour.</para>
 
-        <para>When a diagram is selected, pressing Ctrl-C will copy the 
+        <para>When a diagram is selected, pressing Strg-C will copy the 
         diagram in GIF format to the system clipboard.</para>
 
       </sect1>
@@ -14203,7 +14402,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Shift and Ctrl modifiers with Button&nbsp;1</title>
+          <title>Shift and Strg modifiers with Button&nbsp;1</title>
 
           <para>Where multiple selections are to be made, the CTRL key 
           is used with button&nbsp;1 to <emphasis>add</emphasis> unselected 
@@ -17882,8 +18081,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <para>In addition, cut, copy and paste operations may be 
           invoked through the keyboard shortcuts <literal>
-          Ctrl-X</literal>, <literal>Ctrl-C</literal> and <literal>
-          Ctrl-V</literal> respectively.</para>
+          Strg-X</literal>, <literal>Strg-C</literal> and <literal>
+          Strg-V</literal> respectively.</para>
 
           <!--warning>
 
@@ -17973,8 +18172,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         when in the value field,
         cut, copy and paste operations may be 
         invoked through the keyboard shortcuts <literal>
-        Ctrl-X</literal>, <literal>Ctrl-C</literal> and <literal>
-        Ctrl-V</literal> respectively.</para>
+        Strg-X</literal>, <literal>Strg-C</literal> and <literal>
+        Strg-V</literal> respectively.</para>
 
       </sect1>
 
