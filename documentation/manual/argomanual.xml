@@ -10768,74 +10768,88 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <title>Notation</title>
 
           <para>
-          	
-          	This sub-menu presents a radio button selection for
-          	notation, i.e. the language in which all textual
-          	adornments are shown on the diagrams.
+          	Dieses Untermenü präsentiert eine Auswahl von Optionsschaltflächen 
+          	für die Notation, z.B. die Sprache, in der alle textuellen 
+          	Erläuterungen in den Diagrammen dargestellt werden.
           </para>
 
-          <para>This feature defines the project&apos;s notation language.
+          <para>
+          	Diese Eigenschaft definiert die Notation des Projektes.
           </para>
 
-          <para>There are 2 ways to set the notation language:</para>
+          <para>Es gibt 2 Wege, die Notation einzustellen:</para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para>In the Edit menu,
-              see <xref linkend="s3.ref.menu_settings_notations"/>
-              in the notation tab of the settings dialog,
-              which defines the default notation language for new projects.
-              This choice is stored in the 
-              <filename>argouml.properties</filename> file.
+              <para>
+              	Im Bearbeiten-Menü, siehe 
+              	<xref linkend="s3.ref.menu_settings_notations"/> im 
+              	Notationsregister des Dialoges Einstellungen, der die Standard-
+              	Notation für neue Projekte definiert. Diese Einstellung wird 
+              	in der Datei <filename>argouml.properties</filename> gespeichert.
               </para>
 
             </listitem>
 
             <listitem>
 
-              <para>In the File menu, item Notation. This determines  
-              how all textual adornments of figures 
-              on all diagrams 
-              of the current project are shown.
-              This choice is stored in the project file.
+              <para>
+              	Im Datei-Menü, Menüelement Notation. Dieses bestimmt, wie alle 
+              	textuellen Erläuterungen in den Diagrammen des aktuellen 
+              	Projektes dargestellt werden. Diese Einstellung wird in der 
+              	Projektdatei gespeichert.
               </para>
 
             </listitem>
 
           </itemizedlist>
 
-          <para>The following 2 notations are build in ArgoUML:</para>
+          <para>Die folgenden 2 Notationen werden in ArgoUML erzeugt:</para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/uml_notation.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>UML 1.4</literal>. Uses UML notation as the 
-              default notation for every modelelement on any diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/uml_notation.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>UML 1.4</literal>. Verwendet die UML-Notation als 
+	              Standardnotation für jedes Modellelement in jedem Diagramm.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/java_notation.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Java</literal>. Uses Java notation as the 
-              default notation for every modelelement on any diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/java_notation.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Java</literal>. Verwendet die Java-Notation als 
+	              Standardnotation für jedes Modellelement in jedem Diagramm.
+              </para>
 
             </listitem>
 
           </itemizedlist>
 
-          <para>The following choices are only available if the 
-          corresponding plugin languages are installed.</para>
+          <para>
+          	Die folgenden Optionen sind nur verfügbar, wenn das entsprechende 
+          	Plugin installiert wurde.
+          </para>
 
           <itemizedlist>
 
@@ -10859,190 +10873,225 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           </itemizedlist>
 
-          <remark>Besides UML, 
-          only Java is partly implemented in V0.22 of ArgoUML.</remark>
+          <remark>
+          	Neben UML ist in V0.22 von ArgoUML nur Java teilweise implementiert.
+          </remark>
 
         </sect2>
         
         <sect2 id="s2.ref.menu_properties">
         
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center" fileref="images/icons/settings.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon>
-           Properties</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/settings.gif" format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Eigenschaften
+          </title>
 
-          <para>This menu entry brings up a dialog box, which allows 
-          the user to set various options
-          of the currently loaded project.</para>
+          <para>
+          	In dieser Menüoption erscheint ein Dialog, der es dem Anwender 
+          	erlaubt, verschiedene Optionen des aktuell geladenen Projektes 
+          	einzustellen.
+          </para>
 
-          <para>All settings in this dialog 
-          are stored in the project-file 
-          together with the model.</para>
+          <para>
+          	Alle Einstellungen in diesem Dialog werden in der Projektdatei, 
+          	zusammen mit dem Modell, gespeichert.
+          </para>
           
           <figure id="fig.ref.menu_properties_user">
 
-            <title>The dialog for Properties - 
-            Notation: The User tab.</title>
+            <title>
+            	Der Dialog Eigenschaften: Das Register Benutzer.
+            </title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/properties-user.gif"
-             format="GIF"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/properties-user.gif"
+            				format="GIF" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
           
-          <para>In the User tab, 
-          you are able to set the following fields:
+          <para>
+          	Im Register Benutzer können Sie folgende Felder einstellen:
           </para>
           
           <itemizedlist>
 
           <listitem>
-          <para>The first field contains 
-          the name of the author or responsible 
-          for the current project.
-          By default the name and email of the creator
-          are filled in, 
-          so probably you will never need to edit this, 
-          but it is possible.
-          </para>
+	          <para>
+	          	Das erste Feld enthält den Namen des Autors oder den 
+	          	Verantwortlichen für das aktuelle Projekt. Standardmäßig wird 
+	          	der Name und die E-Mailadresse des Erstellers eingefügt, so dass 
+	          	Sie dies wahrscheinlich niemals bearbeiten müssen. Aber, es ist 
+	          	möglich.
+	          </para>
           </listitem>
           
           <listitem>
-          <para>The Project Description field may contain any text
-          that you need to describe the project.
-          By default it is empty.</para>
+	          <para>
+	          	Das Feld Projektbeschreibung kann einen beliebigen Text 
+	          	enthalten, den Sie zur Beschreibung des Projektes benötigen. 
+	          	Standardmäßig ist dieses Feld leer.
+	          </para>
           </listitem>
           
           <listitem>
-          <para>The "Last saved with ArgoUML" field 
-          indicates the version of ArgoUML 
-          that was used to save this project 
-          (the last time it was saved).
-          This may be usefull if multiple designers have different 
-          versions of ArgoUML, 
-          which may not be backwards compatible all the time.
-          </para>
+	          <para>
+	          	Das Feld "Gespeichert mit ArgUML" gibt die Version von 
+	          	ArgoUML an, mit der dieses Projekt gespeichert wurde (zum 
+	          	letzten Mal gespeichert wurde). Dies kann hilfreich sein, wenn 
+	          	mehrere Designer mit unterschiedlichen Versionen von ArgoUML 
+	          	arbeiten, die nicht immer rückwärtskompatibel sind.
+         	  </para>
           </listitem>
 
           </itemizedlist>
 
           <figure id="fig.ref.menu_properties_notations">
 
-            <title>The dialog for Properties - 
-            Notation: The Notations tab.</title>
+            <title>
+            	Der Dialog Eigenschaften: Das Register Notationen.
+            </title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/properties-notations.gif"
-             format="GIF"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/properties-notations.gif"
+            				format="GIF" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
           
-          <para>In the Notations tab, 
-          you are able to set the following fields:
+          <para>
+          	Im Register Notationen können Sie die folgenden Felder einstellen:
           </para>
         
         <itemizedlist>
 
           <listitem>
-            <para>The first field is a combobox that allows
-            selection of the project's Notation language.
-            By default, it lists UML and Java, 
-            but other languages may be added by plugins.
-            See the chapter on Notation for more explanation:
-            <xref linkend="s1.ref.notation"/>.
+            <para>
+            	Das erste Feld ist ein Dialogfeld, das die Auswahl der im 
+            	Projekt verwendeten Notation erlaubt. Standardmäßig werden UML 
+            	und Java aufgelistet. Es können aber auch andere Sprachen per 
+            	Plugins hinzugefügt werden. Weitere Erläuterungen entnehmen Sie 
+            	dem Kapitel über die Notation:
+            	<xref linkend="s1.ref.notation"/>.
             </para>
 
           </listitem>
 
           <listitem>
-            <para><literal>Use guillemots</literal> (&laquo;&nbsp;&raquo;) for 
-                stereotypes (clear by default). By default ArgoUML uses 
-                pairs of <emphasis>less than</emphasis> and 
-                <emphasis>greater than</emphasis> (&lt;&lt; &gt;&gt;) 
-                characters for stereotypes. If this box is checked 
-                stereotypes on diagrams are shown between true 
-                guillemots (&laquo;&nbsp;&raquo;).</para>
+            <para>
+            	<literal>Französische Anführungszeichen</literal> 
+            	(&laquo;&nbsp;&raquo;) für Stereotypen (standarmäßig leer). 
+            	Standardmäßig verwendet ArgoUML Paare von <emphasis>kleiner als
+            	</emphasis> und <emphasis>größer als</emphasis> 
+            	(&lt;&lt; &gt;&gt;) Zeichen für Stereotypen. Wird dieses 
+            	Kästchen markiert, werden die Stereotypen in den Diagrammen 
+            	in richtigen französische Anführungszeichen gestellt
+				(&laquo;&nbsp;&raquo;).
+            </para>
 
-            <para>This feature is presumably added to ArgoUML 
-                because guillemots are poorly supported by various 
-                fonts, and if they are present, then they are quite 
-                small and poorly visible.</para>
-          </listitem>
-          
-          <listitem>
-            <para><literal>Show visibility</literal> (clear by 
-                default). If this is selected, then ArgoUML will
-                show the visibility indicators in front of e.g. attributes
-                in the diagram.
-                In UML the notation is "+" for public, "-" for private,
-                "#" for protected, and "~" for package. 
-                E.g. for an attribute, it may show:
-                <literal>+newAttr : int</literal>.
+            <para>
+            	Diese Eigenschaft wurde ArgoUML vermutlich hinzugefügt, weil 
+            	französische Anführungszeichen durch die verschiedensten 
+            	Schriften nur sehr schlecht unterstützt werden und wenn Sie 
+            	vorhanden sind, dann sind sie sehr klein und schlecht sichtbar.
             </para>
           </listitem>
           
           <listitem>
-                <para><literal>Show multiplicity</literal> (clear by 
-                default). If this is selected, then ArgoUML will show 
-                the multiplicity of e.g. attributes in the diagram. 
-                In UML notation, the multiplicity is shown between [], such as: 
-                <literal>+newAttr [0..*] : int</literal>.
-                This setting has no impact on showing multiplicity 
-                near associationends.
+            <para>
+                <literal>Sichtbarkeit anzeigen</literal>
+                (standardmäßig leer). Ist dies markiert, dann wird ArgoUML die 
+                Sichtbarkeitssymbole vor jedem z.B. Attribut im Diagramm 
+                anzeigen. In der UML-Notation ist dies das "+" für public, "-" 
+                für private, "#" für protected und "~" für Paket. Für ein 
+                Attribut könnte es z.B. anzeigen: <literal>+neuesAttr : int
+                </literal>.
+            </para>
+          </listitem>
+          
+          <listitem>
+                <para>
+	                <literal>Kardinalität anzeigen</literal>
+	                (standardmäßig leer). Ist dies markiert, wird ArgoUML die 
+	                Kardinalität von z.B. Attributen im Diagramm anzeigen. In der 
+	                UML-Notation wird die Kardinalität zwischen [] angezeigt. Wie 
+	                z.B.: <literal>+neuesAttr [0..*] : int</literal>.
+	                Diese Einstellung hat keinen Einfluss auf die Anzeige der 
+	                Kardinalität an Assoziationsenden.
                 </para>
               </listitem>
 
               <listitem>
-                <para><literal>Show initial value</literal> (clear by 
-                default). If this is selected, then ArgoUML will show
-                the initial value of e.g. attributes in the diagram.
-                In UML notation, the initial value is shown e.g. like this:
-                <literal>+newAttr : int = 1</literal>.
-              </para>
-              </listitem>
-
-              <listitem>
-                <para><literal>Show properties</literal> (clear by 
-                default). If this is selected, then ArgoUML will show
-                various properties between braces {}.
-                E.g. for an attribute, it may show:
-                <literal>+newAttr : int { frozen }</literal>.
+                <para>
+	                <literal>Anfangswerte anzeigen</literal>
+	                (standardmäßig leer). Ist dies markiert, wird ArgoUML den 
+	                Anfangswert eines z.B. Attributes im Diagramm anzeigen. In  
+	                der UML-Notation wird der Anfangswert wie folgt dargestellt: 
+	                <literal>+neuesAttr : int = 1</literal>.
                 </para>
               </listitem>
 
               <listitem>
-                <para><literal>Show types and parameters</literal> 
-                (set by default). When this checkbox is unmarked, 
-                attributes in classes are shown without type indication, 
-                and operations are shown without parameters.
-                This feature may be usefull during 
-                the analysis phase of your project.
-                If all checkmarks in 
-                the Notation Tab are unchecked, then
-                e.g. for an attribute, ArgoUML may show:
-                <literal>newAttr</literal>. And for an operation: 
-                <literal>newOperation()</literal>.
+                <para>
+	                <literal>Eigenschaften anzeigen</literal>
+	                (standardmäßig leer). Ist dies markiert, wird ArgoUML die 
+	                Eigenschaften zwischen geschweiften Klammern {} anzeigen.
+	                Für ein Attribut könnte die Anzeige wie folgt aussehen: 
+	                <literal>+neuesAttr : int { eingefroren }</literal>.
+	            </para>
+              </listitem>
+
+              <listitem>
+                <para>
+	                <literal>Typen und Parameter anzeigen</literal>
+	                (standardmäßig markiert). Wenn dieses Markierfeld nicht 
+	                markiert ist, werden die Attribute in Klassen ohne Typ 
+	                dargestellt und Operationen ohne Parameter angezeigt. Diese 
+	                Eigenschaft kann während der Analysephase Ihres Projektes 
+	                nützlich sein. Sind alle Markierfelder im Register Notation 
+	                nicht markiert, dann zeigt ArgoUML z.B. für ein Attribut 
+	                folgendes an:  
+	                <literal>neueOperation()</literal>.
                 </para>
               </listitem>
 
               <listitem>
-                <para><literal>Show stereotypes in explorer</literal> 
-                (clear by default). If this is selected, then ArgoUML will show
-                stereotypes next to the icons of the modelelements 
-                in the Explorer, i.e. the tree structure at the left hand side.
+                <para>
+                	<literal>Stereotypen im Explorer anzeigen</literal>
+                	(standardmäßig leer). Ist dies markiert, dann wird ArgoUML 
+                	die Stereotypen in der Nähe des Modellelementsymboles im 
+                	Explorer anzeigen. Z.B. in der Baumstruktur auf der linken 
+                	Seite. 
                 </para>
               </listitem>
 
               <listitem>
-                <para><literal>Default shadow width</literal> (set to 1 
-                by default). ArgoUML is able to draw all elements 
-                on a diagram with a shadow,
-                for esthetical reasons. 
-                Use this setting to adjust the 
-                size of the shadow, used when the modelelement is created.
-                The details tab "Presentation" allows to set the shadow per
-                modelelement, after they are created, but ArgoUML V0.22 does
-                not retain this latter change after save and load.
+                <para>
+                	<literal>Standard-Schattenbreite</literal>
+                	(standardmäßig auf 1 eingestellt). ArgoUML ist in der Lage, 
+                	aus ästhetischen Gründen alle Elemente in einem Diagramm mit 
+                	einem Schatten zu zeichnen. Verwenden Sie diese Einstellung, 
+                	um die Größe des Schattens einzustellen. Diese Einstellung 
+                	wird beim Erstellen des Modellelementes verwendet. Das 
+                	Register "Darstellung" im Detailfenster erlaubt es Ihnen, 
+                	den Schatten nach dem Erstellen je Modellelement 
+                	einzustellen. ArgoUML V0.22 behält diese Änderungen 
+                	allerdings nach dem Speichern und Laden nicht. 
                 </para>
               </listitem>
 
@@ -11052,63 +11101,77 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Most Recent Used Files</title>
+          <title>Am häufigsten verwendete Dateien</title>
 
-          <para>ArgoUML remembers a few of the most recently saved 
-          files, and lists them here, to enable loading then in the 
-          most simple way.</para>
+          <para>
+          	ArgoUML erinnert sich an die am häufigsten gespeicherten Dateien 
+          	und listet sie an dieser Stelle auf, um Sie in die Lage zu versetzen, 
+          	diese auf einfache Weise zu laden.
+          </para>
 
-          <para>The maximum number of files that is listed here, can be 
-          adjusted in the <literal>Edit</literal> -&gt; <literal>
-          Settings...</literal> menu. The list of files is stored in the 
-          <filename>argo.user.properties</filename> file in the 
-          user&apos;s home directory.</para>
+          <para>
+          	Die maximale Anzahl von Dateien, die hier gelistet werden können, 
+          	kann im Menü <literal>Bearbeiten</literal> -&gt; <literal>
+          Einstellungen...</literal> eingestellt werden. Die Liste der Dateien 
+          wird in der Datei <filename>argo.user.properties</filename> im 
+          Homeverzeichnis des Benutzers gespeichert.
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Exit</title>
+          <title>Beenden</title>
 
-          <indexterm><primary>Exit</primary></indexterm>
-          <indexterm><primary>Shortcut 
-          key</primary><secondary>Alt-F4.</secondary></indexterm>
-          <para>Shortcut Alt-F4.</para>
+          <indexterm><primary>Beenden</primary></indexterm>
+          <indexterm><primary>Tastenkürzel 
+          </primary><secondary>Alt-F4.</secondary></indexterm>
+          <para>Tastenkürzel Alt-F4.</para>
 
-          <para>This closes down ArgoUML. A warning message will pop-up 
-          if you have a project open with unsaved changes asking if you 
-          wish to save it. See 
-          <xref linkend="fig.ref.menu_save_changes"/>. The options 
-          are:</para>
+          <para>
+          	Diese Menüoption schliesst ArgoUML. Wenn Sie ein Projekt mit 
+          	ungesicherten Änderungen haben, erscheint eine Warnmeldung, die Sie 
+          	fragt, ob Sie diese speichern wollen. Siehe 
+          	<xref linkend="fig.ref.menu_save_changes"/>. Die Optionen sind: 
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><literal>Yes</literal> (save the project and exit 
-              ArgoUML);</para>
+              <para>
+              	<literal>Ja</literal>
+              	(das Projekt speichern und ArgoUML beenden);
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>No</literal> (do not save the project, but 
-              still exit ArgoUML); and</para>
+              <para>
+              	<literal>Nein</literal>
+              	(das Projekt nicht speichern, aber ArgoUML beenden); und
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Cancel</literal> (do not save the project 
-              and do not exit ArgoUML).</para>
+              <para>
+              	<literal>Abbrechen</literal>
+              	(das Projekt nicht speichern und ArgoUML nicht beenden).
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para>The dialog box can also be closed by clicking in 
-              the close button in the window border. The effect is the 
-              same as selecting &quot;Cancel&quot;.</para>
+              <para>
+              	Der Dialog kann auch durch Klicken auf die 
+              	Schliessen-Schaltfläche im Fensterrand geschlossen werden. 
+              	Dies hat den gleichen Effekt wie die Auswahl 
+              	&quot;Abbrechen&quot;.
+              </para>
 
             </listitem>
 
@@ -11116,12 +11179,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <figure id="fig.ref.menu_save_changes">
 
-            <title>The save changes dialog.</title>
+            <title>Der Dialog Änderungen speichern.</title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_save_changes.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_save_changes.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
         </sect2>
@@ -11130,99 +11198,129 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title>The Edit Menu</title>
+        <title>Das Menü Bearbeiten</title>
 
-        <para>This menu provides support for 
-        selecting model elements on the editing pane; 
-        removal of model elements from diagrams and the model; 
-        and control of user settings.</para>
+        <para>
+        	Dieses Menü enthält die Unterstützung für das Markieren von 
+        	Modellelemente im Editierfenster; das Entfernen von Modellelementen 
+        	aus Diagrammen und dem Modell und die Steuerung der 
+        	Benutzereinstellungen.
+        </para>
 
         <sect2 id="s2.ref.menu_select">
 
-          <title>Select</title>
+          <title>Markieren</title>
 
-          <para>This sub-menu provides for selection of items on the 
-          editing menu. It has the following entries.</para>
+          <para>
+          	Dieses Untermenü unterstützt das Markieren von Elementen im Menü 
+          	Bearbeiten. Es hat folgende Einträge:
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><literal>Select All</literal> (shortcut Strg-A). 
-              <indexterm><primary>Select All</primary></indexterm> 
-              <indexterm><primary>Shortcut 
-              key</primary><secondary>Strg-A</secondary></indexterm> 
-              Selects all model elements on the current pane or in the 
-              current field. The exact behaviour depends on the 
-              <literal>current pane</literal> (i.e. the last one you 
-              clicked in): explorer pane, editing pane, to-do pane, 
-              details pane. One rule applies in all cases though: the 
-              selection on the diagram (editing pane) and in the 
-              explorer are always synchronised.</para>
+              <para>
+	              <literal>Alle Elemente</literal>
+	              (Tastenkürzel Strg-A).
+	              <indexterm><primary>Alle Elemente</primary></indexterm> 
+	              <indexterm><primary>Tastenkürzel 
+	              </primary><secondary>Strg-A</secondary></indexterm>
+	              Markiert alle Modellelemente im aktuellen Fenster oder im 
+	              aktuellen Feld. Das genaue Verhalten hängt vom 
+	              <literal>aktuellen Fenster</literal> ab (z.B. das Letzte, in 
+	              das Sie hineingeklickt haben); Explorerfenster, Editierfenster, 
+	              "Zu Bearbeiten"-Fenster, Detailfenster. Eine Regel ist auf 
+	              alle Fälle anwendbar: die Markierung im Diagramm 
+	              (Editierfenster) und im Explorer sind immer synchronisiert. 
+              </para>
 
-              <para>If the editing pane is the <literal>current 
-              pane</literal>: First everything in the explorer and on 
-              the current diagram is deselected, and then everything 
-              that is on the current diagram is selected (and if the 
-              same items apear in the explorer, then they are also 
-              there indicated as selected, because they are always 
-              synchronised).</para>
+              <para>
+              	Wenn das Editierfenster das <literal>aktuelle Fenster</literal> 
+              	ist: Zuerst werden die Markierungen im Explorer und im aktuellen 
+              	Diagramm entfernt und dann wird alles im Diagramm befindliche 
+              	markiert (und wenn die gleichen Elemente im Explorer erscheinen, 
+              	werden diese ebenfalls markiert, weil dies immer synchronisiert 
+              	ist).
+              </para>
 
-              <para>If the explorer pane is the <literal>current 
-              pane</literal>: All visible items in the explorer pane 
-              are selected, and non-visible items are deselected.</para>
+              <para>
+              	Wenn der Explorer das <literal>aktuelle Fenster</literal> ist: 
+              	Alle sichtbaren Elemente im Explorer sind markiert und 
+              	unsichtbare Elemente sind nicht markiert.
+              </para>
 
-              <para>If the to-do pane is the <literal>current 
-              pane</literal>: All visible items in the to-do pane are 
-              selected, and non-visible items are deselected. In fact, 
-              this works the same as for the explorer pane, because 
-              both are tree structures.</para>
+              <para>
+              	Wenn das "Zu Bearbeiten"-Fenster das <literal>aktuelle 
+              	Fenster</literal> ist: Alle sichtbaren Elemente im "Zu 
+              	Bearbeiten"-Fenster sind markiert, alle unsichtbaren Elemente 
+              	sind nicht markiert. Tatsächlich funktioniert dies genauso wie 
+              	im Explorerfenster, weil beides Baumstrukturen sind.
+              </para>
 
-              <para>If the details pane is the <literal>current 
-              pane</literal>: The function only works when the cursor 
-              is in certain fields, where selecting is possible, e.g. a 
-              Name field. In such a case, the Select All function 
-              extends the current selection to the whole field 
-              contents.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/navigate_back.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Navigate Back</literal>. ArgoUML keeps a record 
-              of the model elements that you have been selecting while 
-              navigating the model. This button moves you back to the 
-              previous one selected. If there are no more previous 
-              model elements, the button is grayed out.</para>
+              <para>
+              	Wenn das Detailfenster das <literal>aktuelle Fenster</literal> 
+              	ist: Die Funktion arbeitet nur, wenn sich der Cursor in einem 
+              	bestimmten Feld befindet, in dem das Markieren möglich ist. Z.B. 
+              	in einem Namensfeld. In so einem Fall erweitert die Funktion 
+              	Alle Elemente markieren die aktuelle Markierung auf den gesamten 
+              	Feldinhalt.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/navigate_forward.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Navigate Forward</literal>. ArgoUML keeps a 
-              record of the model elements that you have been selecting 
-              while navigating the model. This button moves you forward 
-              to the next one selected (after you have used the 
-              Navigate Back button to move back). If there are no more 
-              next model elements, the button is grayed out.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/navigate_back.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Vorheriges Element</literal>. ArgoUML merkt sich 
+	              einen Satz von Modellelementen, den Sie während der Navigation 
+	              durch das Modell markiert haben. Diese Menüoption bringt Sie 
+	              zu dem zuvor markierten Modellelement. Gibt es keine zuvor 
+	              markierten Modellelemente, dann ist diese Menüoption 
+	              deaktiviert. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Invert Selection</literal>. This inverts 
-              the current selection on the <literal>current 
-              pane</literal>. More exact: everything that was selected 
-              is de-selected and everything that was not selected 
-              within the current pane is selected.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/navigate_forward.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Nächstes Element</literal>. ArgoUML merkt sich einen 
+	              Satz von Modellelementen, den Sie während der Navigation durch 
+	              das Modell markiert haben. Diese Menüoption bringt Sie zum 
+	              nächsten markierten Modellelement (nachdem Sie die Menüoption 
+	              Zurück verwendet haben). Gibt es keine nächsten Modellelemente, 
+	              dann ist diese Menüoption deaktiviert. 
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+              	<literal>Umkehren</literal>.
+              	Diese Menüoption kehrt die aktuelle Markierung im <literal>
+              	aktuellen Fenster</literal> um. Genauer: Alles, was markiert ist 
+              	wird demarkiert und alles was innerhalb des aktuellen Fensters 
+              	nicht markiert ist wird markiert.
+              </para>
 
             </listitem>
 
@@ -11313,72 +11411,108 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="s2.menu_edit_remove_from_diagram">
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/remove_from_diagram.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          Remove From Diagram</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/remove_from_diagram.gif"
+          					format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Aus Diagramm entfernen
+          </title>
 
-          <indexterm><primary>Remove From Diagram</primary></indexterm>
-          <indexterm><primary>Shortcut 
-          key</primary><secondary>Delete</secondary></indexterm>
-          <para>Shortcut Delete.</para>
+          <indexterm><primary>Aus Diagramm entfernen</primary></indexterm>
+          <indexterm><primary>Tastenkürzel 
+          </primary><secondary>Entf</secondary></indexterm>
+          <para>Tastenkürzel Entf.</para>
 
-          <para>This removes the currently selected item(s) from the 
-          diagram, but not from the model.</para>
+          <para>
+          	Dies entfernt die aktuell markierten Elemente aus dem Diagramm, aber 
+          	nicht aus dem Modell.
+          </para>
 
-          <para>The modelelement can be re-added to the diagram by 
-          button&nbsp;2 click on the modelelement in the explorer, 
-          or by dragging it onto the diagram.</para>
+          <para>
+          	Das Modellelement kann durch einen Taste&nbsp;2-Klick auf das 
+          	Modellelement im Explorer, oder durch ziehen des markierten 
+          	Elementes in das Diagramm  wieder in das Diagramm eingefügt werden.
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/delete_from_model.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          Delete From Model</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/delete_from_model.gif"
+          					format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Aus Modell entfernen
+          </title>
 
-          <indexterm><primary>Delete From Model</primary></indexterm>
-          <indexterm><primary>Shortcut 
-          key</primary><secondary>Strg-Delete</secondary></indexterm>
-          <para>Shortcut Strg-Delete.</para>
+          <indexterm><primary>Aus Modell entfernen</primary></indexterm>
+          <indexterm><primary>Tastenkürzel 
+          </primary><secondary>Strg-Entf</secondary></indexterm>
+          <para>Tastenkürzel Strg-Entf.</para>
 
-          <para>This function deletes the selected item(s) from the 
-          model completely.</para>
+          <para>
+          	Diese Funktion löscht die markierten Elemente vollständig aus dem 
+          	Modell.
+          </para>
 
-          <para>If the item to be deleted is also present on another 
-          diagram than the current one, the dialog box from figure x 
-          appears.</para>
+          <para>
+          	Wenn das zu löschende Element nicht nur im aktuellen Diagramm 
+          	sondern auch in einem anderen Diagramm vorhanden ist, erscheint der 
+          	Dialog x.
+          </para>
 
           <figure id="fig.ref.menu_remove_from_model">
 
-            <title>The dialog for confirmation of <literal>Remove from 
-            Model</literal>.</title>
+            <title>
+            	Der Bestätigungsdialog zu <literal>Aus Modell 
+            	entfernen</literal>.
+            </title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/confirm_remove.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/confirm_remove.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
         </sect2>
 
 		<sect2>
 		
-		<title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/nav_config.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon>
-           Configure Perspectives...</title>
+		<title>
+			<guiicon>
+				<inlinemediaobject>
+					<imageobject>
+						<imagedata align="center"
+							fileref="images/icons/nav_config.gif" format="GIF" />
+					</imageobject>
+				</inlinemediaobject>
+			</guiicon>
+			Perspektiven konfigurieren...
+		</title>
 		
-		<para>This menu-item invokes the same dialog 
-		  as the button at the top of the explorer.
-		  See 
+		<para>
+          This menu-item invokes the same dialog as the button at the
+          top of the explorer. See
           <xref linkend="s1.ref.configure_perspectives"/>.
-          for a complete description.</para>
+          for a complete description.
+        </para>
 		
 		</sect2>
 
@@ -18585,12 +18719,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="critics.CrTooManyClasses">
 
-          <title>Reduce Classes in diagram &lt;diagram&gt;</title>
+          <title>Reduce Classes in namespace &lt;namespace&gt;</title>
 
-          <para>Suggestion to improve readability by having fewer 
-          classes on a diagram. If one class diagram has too many 
-          classes it may become very difficult for humans to 
-          understand. Defining an understandable set of class diagrams 
+          <para>Suggestion to improve understandability by having fewer 
+          classes in one namespace. If one namespace 
+          (such as the model, a package, or a class) 
+          has too many classes
+          it may become very difficult for humans to 
+          understand. Defining an understandable set of
+          namespaces 
           is an important part of your design.</para>
           
           <para>The Wizard of this critic allows setting of the treshold, 
