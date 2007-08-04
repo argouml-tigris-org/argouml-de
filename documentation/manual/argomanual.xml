@@ -11508,118 +11508,149 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 		</title>
 		
 		<para>
-          This menu-item invokes the same dialog as the button at the
-          top of the explorer. See
-          <xref linkend="s1.ref.configure_perspectives"/>.
-          for a complete description.
+			Diese Menüoption ruft den gleichen Dialog auf, wie die Schaltfläche 
+			oben im Explorer. Die vollständige Beschreibung entnehmen Sie bitte  
+			<xref linkend="s1.ref.configure_perspectives"/>.
         </para>
 		
 		</sect2>
 
         <sect2 id="s2.ref.menu_settings">
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center" fileref="images/icons/settings.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          Settings...</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/settings.gif" format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Einstellungen...
+          </title>
 
-          <para>This menu entry brings up a dialog box, which allows 
-          the user to set various options that control the behavior of 
-          ArgoUML (see <xref linkend="fig.ref.menu_settings"/>).</para>
-          <para>These settings are saved persistently for use by
-          	subsequent ArgoUML sessions.
+          <para>
+          	Diese Menüoption öffnet einen Dialog, der es dem Benutzer erlaubt, 
+          	verschiedene Optionen, die das Verhalten von ArgoUML bestimmen 
+          	einzustellen (siehe <xref linkend="fig.ref.menu_settings"/>).
+		  </para>
+          <para>
+          	Diese Einstellungen werden persistent für die Nutzung durch 
+          	nachfolgende ArgoUML-Sitzungen gespeichert.
           </para>
           
-          <para>ArgoUML has various user specific configurations that can
-          	be set in this dialog box,
-          	or directly on the various panes. Also the main window
-          	size and location is such a setting. Activating this menu
-          	entry causes the information to be saved in the file
-          	<literal>argo.user.properties</literal>.
-          	The location of this file is in the &quot;users home
-          	directory&quot;, which is defined as
-          	<literal>${user.home}</literal>
-          	, and can be determined as described in
-          	<xref linkend="s3.ref.menu.environment" />
-          	.
+          <para>
+          	ArgoUML hat verschiedene benutzerspezifische Konfigurationen, die in 
+          	diesem Dialog oder direkt in den verschiedenen Fenstern eingestellt 
+          	werden können. Auch die Lage und Größe des Hauptfensters ist eine 
+          	solche Einstellung. Die Aktivierung dieser Menüoption veranlasst, 
+          	dass die Informationen in der Datei 
+          	<literal>argo.user.properties</literal> gespeichert werden.
+          	Der Speicherort dieser Datei ist das &quot;Benutzer-Homeverzeichnis
+          	&quot;, welches als <literal>${user.home}</literal> definiert ist 
+          	und wie in <xref linkend="s3.ref.menu.environment" /> beschrieben, 
+          	bestimmt werden kann.
           </para>
 
           <tip>
-            <para>This is a text file, which you can edit to configure
-            	ArgoUML.
+            <para>
+            	Dies ist eine Textdatei, die Sie zum Konfigurieren von ArgoUML 
+            	bearbeiten können.
             </para>
           </tip>
           
           <figure id="fig.ref.menu_settings">
 
-            <title>The dialog for <literal>Settings - 
-            Preferences</literal>.</title>
+            <title>Der Dialog <literal>Einstellungen - 
+            Voreinstellungen</literal>.</title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_settings.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_settings.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
-          <para>The options that can be set up on the various tabs are 
-          described in the following sections. For each tab there are 
-          three buttons at the bottom of the dialog box.</para>
+          <para>
+          	Die Optionen können in verschiedenen Registern eingestellt werden, 
+          	die in den folgenden Abschnitten beschrieben werden. Für jedes 
+          	Register gibt es drei Schaltflächen im unteren Bereich des Dialoges.
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><literal>OK</literal>. Activating this button 
-              (button&nbsp;1 click) applies the chosen settings and exits 
-              the dialog.</para>
+              <para>
+              	<literal>OK</literal>.
+              	Die Aktivierung dieser Schaltfläche (Taste&nbsp;1-Klick) 
+              	übernimmt die gewählten Einstellungen und beendet den Dialog. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Cancel</literal>. Selecting this button 
-              (button&nbsp;1 click) exits the dialog without applying any 
-              settings changed since the last <literal>Apply</literal> 
-              (or since the dialog started if <literal>Apply</literal> 
-              has not been used).</para>
+              <para>
+				<literal>Abbrechen</literal>.
+				Die Auswahl dieser Schaltfläche (Taste&nbsp;1-Klick) beendet 
+				den Dialog ohne irgendeine, seit dem letzten <literal>Übernehmen
+				</literal> geänderte Einstellung anzuwenden (oder seit dem der 
+				Dialog gestartet wurde, wenn <literal>Übernehmen</literal> noch 
+				nicht verwendet wurde).
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Apply</literal>. Selecting this button 
-              (button&nbsp;1 click) applies the chosen settings and remains 
-              in the dialog.</para>
+              <para>
+              	<literal>Übernehmen</literal>.
+              	Die Auswahl dieser Schaltfläche (Taste&nbsp;1-Klick) übernimmt 
+              	die gewählten Einstellungen und verbleibt im Dialog.
+              </para>
 
             </listitem>
 
           </itemizedlist>
 
-          <para>Closing the dialog (with the close button in the top 
-          corner in the border of the window) causes the same effect as 
-          <literal>Cancel</literal>.</para>
+          <para>
+          	Das Schliessen des Dialoges (mit der Schliessen-Schaltfläche in der 
+          	oberen Ecke des Fensterrandes) hat den gleichen Effekt, wie 
+          	<literal>Abbrechen</literal>.
+          </para>
 
           <sect3>
 
-            <title>Preferences Tab</title>
+            <title>Register Voreinstellungen</title>
 
-            <para>Selecting the <literal>Preferences</literal> tab 
-            (button&nbsp;1 click on the tab) gives the following options as 
-            check boxes.</para>
+            <para>
+            	Die Auswahl des Registers <literal>Voreinstellungen</literal> 
+            	(Taste&nbsp;1-Klick auf das Register) enthält die folgenden 
+            	Optionen als Markierfelder.
+            </para>
 
             <itemizedlist>
 
               <listitem>
 
-                <para><literal>Show Splash Panel</literal> (set by 
-                default). If enabled ArgoUML will show a small panel 
-                with a picture while starting up.</para>
+                <para>
+                	<literal>Start-Fenster anzeigen</literal>
+                	(standardmäßig markiert). Wenn markiert, wird ArgoUML ein 
+                	kleines Fenster mit einem Bild während des Startvorganges 
+                	anzeigen. 
+                </para>
 
                 <tip>
 
-                  <para>The splash panel can be seen by using the Help 
-                  menu (see <xref linkend="s2.ref.menu_help_about"/>
-                  ).</para>
+                  <para>
+                  	Das Start-Fenster kann auch im Hilfe-Menü angesehen werden 
+                  	(siehe <xref linkend="s2.ref.menu_help_about"/>).
+                  </para>
 
                 </tip>
 
@@ -11627,53 +11658,73 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
               <listitem>
 
-                <para><literal>Preload Common Classes</literal> (set by 
-                default). If enabled ArgoUML creates class objects of a 
-                number of classes internally during start up so that 
-                instantiation is quicker when they are needed.</para>
+                <para>
+                	<literal>Gemeinsame Klassen im Voraus laden</literal>
+                	(standardmäßig markiert). Wenn markiert, erstellt ArgoUML 
+                	von einer Anzahl von Klassen während des Startens 
+                	Klassenobjekte, so dass deren Instanziierung schneller 
+                	verläuft, wenn sie benötigt werden. 
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>Reload last saved project on 
-                startup</literal> (clear by default). Check this item 
-                if you always work on the same project, and wish to 
-                load it automatically when you start up ArgoUML.</para>
+                <para>
+                	<literal>
+                		Beim Starten: Letztes Projekt laden
+                	</literal>
+                	(standardmäßig leer). Prüfen Sie diesen Eintrag, wenn Sie 
+                	immer im gleichen Projekt arbeiten und wollen, dass dieses 
+                	automatisch geladen wird, wenn Sie ArgoUML starten. 
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>Strip (non-standard) diagrams 
-                from XMI file during import</literal>
-                (clear by default). Checking this item will tell
-                ArgoUML to ignore the "Diagram" elements when 
-                importing XMI files. </para> 
+                <para>
+                	<literal>
+                		Entferne (Nicht-Standard)-Diagramme während des Importes
+                	</literal>
+                	(standardmäßig leer). Das Markieren dieses Elementes weist 
+                	ArgoUML an, die "Diagrammelemente" während des importieren 
+                	der XMI-Dateien zu ignorieren. 
+                </para> 
                 
-                <para>You only need to use this setting, if
-                ArgoUML gives an error while importing your
-                XMI file saying that it encountered unrecognized
-                elements named "Diagram."  Some versions of Poseidon
-                are known to create this type of file by default
-                although there's usually an export option to
-                force them to create standard XMI files.</para>
+                <para>
+                	Sie müssen diese Einstellung nur verwenden, wenn ArgoUML 
+                	einen Fehler während des importierens Ihrer XMI-Datei 
+                	ausgibt, die besagt, das unbekannte Elemente mit der 
+                	Bezeichnung "Diagramm" aufgetreten sind. Einige Versioen von 
+                	Poseidon sind bekannt dafür, dass sie diesen Dateityp 
+                	standardmäßig erstellen, obwohl es gewöhnlich eine 
+                	Exportoption gibt, die Erstellung von Standard-XMI-Dateien 
+                	zu erzwingen.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>UML Profile file</literal> (
-                /org/argouml/model/mdr/mof/default-uml14.xmi 
-                by default). </para>
-                <para>This is a read-only field which shows the current
-                profile being used by ArgoUML.  If you specified an alternate
-                profile at startup time or a plugin-module installed a
-                different profile, it will display here.</para>
+                <para>
+                	<literal>UML-Profildatei</literal>
+                	( /org/argouml/model/mdr/mof/default-uml14.xmi per
+                	Standard).
+                </para>
+                <para>
+                	Dies ist ein Read-Only-Feld, welches das aktuell von ArgoUML 
+                	verwendete Profil anzeigt. Wenn Sie zum Start ein anderes 
+                	Profil spezifizieren oder ein Plugin mit einem anderen Profil 
+                	installieren, dann wird es hier angezeigt.
+                </para>
                 
-                <para>In the future this will be a settable field that
-                allows you to select different profiles to match different
-                modeling environments (Java, C++, AndroMDA, etc).</para>
+                <para>
+                	In der Zukunft wird dies ein beschreibbares Feld, dass es 
+                	Ihnen erlaubt, unterschiedliche Profile auszuwählen, die 
+                	mit der jeweiligen Modellierungsumgebung (Java, C++, 
+                	AndroMDA, usw.) übereinstimmen.
+                </para>
 
               </listitem>
             </itemizedlist>
@@ -11682,102 +11733,126 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3 id="s3.ref.menu.environment">
 
-            <title>Environment Tab</title>
+            <title>Register Umgebung</title>
 
-            <para>Selecting the <literal>Environment</literal> tab 
-            (button&nbsp;1 click on the tab) lists several environmental items. 
-            Note that none of the paths can be altered &mdash; these are 
-            just a matter of record.</para>
+            <para>
+            	Das Auswählen des Registers <literal>Umgebung</literal> 
+            	(Taste&nbsp;1-Klick auf das Register) listet verschiedene 
+            	Umgebungselemente auf. Beachten Sie, dass keiner der Pfade 
+            	geändert werden kann &mdash; diese sind nur Gegenstand einer 
+            	Aufzeichnung.
+            </para>
 
-            <figure float="1">
+            <figure>
 
-              <title>The dialog for <literal>Settings - 
-              Environment</literal>.</title>
+              <title>
+              	Der Dialog <literal>Einstellungen - Umgebung</literal>.
+              </title>
 
-              <screenshot><mediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/reference/menu_settings_environment.png"
-               format="PNG"/></imageobject></mediaobject></screenshot>
+              <screenshot>
+              	<mediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/reference/menu_settings_environment.png"
+              				format="PNG" />
+              		</imageobject>
+              	</mediaobject>
+              </screenshot>
             </figure>
 
             <itemizedlist>
 
               <listitem>
 
-                <para><literal>Default Graphics Format</literal>. 
-                Here you can select the same graphics formats as in the 
-                menu <xref linkend="s2.ref.menu_export_graphics"/>.
-                The chosen format is selected by default 
-                in the Export Graphics and Export All Graphics menu-items.
+                <para>
+					<literal>Standard-Grafikformat</literal>. Hier können Sie 
+					das gleiche Grafikformat auswählen, wie im Menü 
+					<xref linkend="s2.ref.menu_export_graphics"/>.
+					Das ausgewählte Format wird standardmäßig in den 
+					Menüoptionen &quot;Grafik exportieren...&quot; und 
+					&quot;Alle Grafiken exportieren...&quot; verwendet.
                 </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>Graphics Export Resolution</literal>.
-                This allows you to artificially increase 
-                the resolution of produced graphics.
-                The advised setting is "Standard". 
-                To be able to use "High" or "Extra High", 
-                you usually need to start the Java virtual machine 
-                with extra memory.
+                <para>
+                	<literal>Auflösung Grafikexport</literal>. Dies erlaubt es 
+                	Ihnen, die Auflösung der erzeugten Grafiken künstlich zu 
+                	erhöhen. Die vorgegebene Einstellung ist "Standard". Um in 
+                	der Lage zu sein "Hoch" oder "Extra hoch" einzustellen, 
+                	müssen Sie gewöhnlich die virtuelle Maschine von Java mit 
+                	zusätzlich reserviertem Speicher starten.
+                </para>
+
+              </listitem>
+<!--  
+              <listitem>
+
+                <para>
+					<literal>${argo.root}</literal>. Der vollständige Pfad zum 
+					Programm ArgoUML. Z.B. zur Datei <literal>argouml.jar
+					</literal>.
                 </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>${argo.root}</literal>. The full path to 
-                the ArgoUML program, i.e. the <literal>
-                argouml.jar</literal> file.</para>
+                <para>
+                	<literal>${argo.home}</literal>. Das ArgoUML-Homeverzeichnis, 
+                	das die von ArgoUML benötigten &quot;jar&quot;-Dateien 
+                	beinhaltet.
+                </para>
+
+              </listitem>
+-->
+              <listitem>
+
+                <para>
+					<literal>${argo.ext.dir}</literal>. 
+					Das Verzeichnis, welches die ArgoUML-Erweiterungen 
+					beinhaltet; standardmäßig ist dies das Unterverzeichnis 
+					<literal>ext</literal> im Build-Verzeichnis von ArgoUML.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>${argo.home}</literal>. The ArgoUML home 
-                directory which contains the &quot;jar&quot; files 
-                needed by ArgoUML.</para>
+                <para>
+                	<literal>${java.home}</literal>. Das Home-Verzeichnis der 
+                	Java Laufzeitumgebung (Java Runtime Environment = JRE).
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>${argo.ext.dir}</literal>. The directory 
-                holding ArgoUML extensions&mdash;by default the <literal>
-                ext</literal> sub-directory of the ArgoUML build 
-                directory.</para>
+                <para>
+					<literal>${user.home}</literal>.
+					Das Homeverzeichnis des Benutzers. Wird zum Speichern der 
+					Datei <literal>argo.user.properties</literal> verwendet.
+				</para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>${java.home}</literal>. The home 
-                directory of the Java Runtime Environment (JRE).</para>
+                <para>
+                	<literal>${user.dir}</literal>. Das Verzeichnis, von dem aus 
+                	ArgoUML gestartet wurde.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>${user.home}</literal>. The user&apos;s 
-                home directory. Used for storing the <literal>
-                argo.user.properties</literal> file.</para>
-
-              </listitem>
-
-              <listitem>
-
-                <para><literal>${user.dir}</literal>. The directory 
-                from which ArgoUML was started.</para>
-
-              </listitem>
-
-              <listitem>
-
-                <para><literal>Startup Directory</literal>. The 
-                directory in which ArgoUML starts file searches 
-                etc.</para>
+                <para>
+                	<literal>Startverzeichnis</literal>. Das Verzeichnis, in 
+                	dem ArgoUML seine Dateisuche startet usw.
+                </para>
 
               </listitem>
 
@@ -11787,73 +11862,98 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3>
 
-            <title>User Tab</title>
+            <title>Register Benutzer</title>
 
-            <para>This tab allows the user to record additional 
-            information of use to the system. There are two text boxes 
-            provided.</para>
+            <para>
+            	Dieses Register erlaubt es dem Benutzer zusätzliche Informationen 
+            	zu erfassen, die im System genutzt werden. Es werden zwei 
+            	Textfelder angeboten.
+            </para>
 
-            <figure float="1">
+            <figure>
 
-              <title>The dialog for <literal>Settings - 
-              User</literal>.</title>
+              <title>
+				Der Dialog für <literal>Einstellungen - Benutzer</literal>.
+              </title>
 
-              <screenshot><mediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/reference/menu_settings_user.png"
-               format="PNG"/></imageobject></mediaobject></screenshot>
+              <screenshot>
+              	<mediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/reference/menu_settings_user.png"
+              				format="PNG" />
+              		</imageobject>
+              	</mediaobject>
+              </screenshot>
             </figure>
 
             <itemizedlist>
 
               <listitem>
 
-                <para><literal>Full Name</literal>. Allows the user to 
-                record her full name.</para>
+                <para>
+                	<literal>Vollständiger Name</literal>. Erlaubt es dem 
+                	Benutzer seinen vollständigen Namen einzugeben.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>Email Address</literal>. Allows the 
-                user to record his Email address.</para>
+                <para>
+                	<literal>Email-Adresse</literal>. Erlaubt es dem Benutzer, 
+                	seine EMail-Adresse einzugeben.
+                </para>
 
               </listitem>
 
             </itemizedlist>
 
-            <para>This information is used when requesting to-do help 
-            by Email.</para>
+            <para>
+            	Diese Informationen werden benötigt, wenn Sie Hilfe per 
+            	EMail anfordern.
+            </para>
 
           </sect3>
 
           <sect3 id="s3.ref.menu_settings_appearance">
 
-            <title>Appearance Tab</title>
+            <title>Register Erscheinungsbild</title>
 
-            <para>This tab allows the user to specify the LAF (Look And 
-            Feel) and theme, i.e. what the complete ArgoUML UI looks 
-            like. It comprises the following settings.</para>
+            <para>
+            	Dieses Register erlaubt es dem Benutzer, das Aussehen (Look and 
+            	Feel) und das Thema einzustellen. Z.B. wie die gesamte 
+            	Anwenderschnittstelle von ArgoUML aussehen soll. Es bietet die 
+            	folgenden Einstellungen an.
+            </para>
 
-            <figure float="1">
+            <figure>
 
-              <title>The dialog for <literal>Settings - 
-              Appearance</literal>.</title>
+              <title>
+              	Der Dialog für<literal>Einstellungen - Erscheinungsbild</literal>.
+              </title>
 
-              <screenshot><mediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/reference/menu_settings_appearance.png"
-               format="PNG"/></imageobject></mediaobject></screenshot>
+              <screenshot>
+              	<mediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/reference/menu_settings_appearance.png"
+              				format="PNG" />
+              		</imageobject>
+              	</mediaobject>
+              </screenshot>
             </figure>
 
             <itemizedlist>
 
               <listitem>
 
-                <para><literal>Look and Feel</literal>. The choice made 
-                here influences the complete User Interface. It only 
-                becomes effective when ArgoUML is exited and 
-                restarted.</para>
+                <para>
+                	<literal>Aussehen</literal>. 
+                	The choice made here influences the complete User
+                	Interface. It only becomes effective when ArgoUML is
+                	exited and restarted.
+                </para>
 
               </listitem>
 
