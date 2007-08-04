@@ -11949,32 +11949,39 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
 
                 <para>
-                	<literal>Aussehen</literal>. 
-                	The choice made here influences the complete User
-                	Interface. It only becomes effective when ArgoUML is
-                	exited and restarted.
+                	<literal>Aussehen</literal>.
+                	Die hier gemachte Auswahl beeinflusst die gesamte 
+                	Anwenderschnittstelle. Die Änderung wird nur wirksam, wenn 
+                	ArgoUML beendet und neu gestartet wird.
                 </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>Metal Theme</literal>. This item is 
-                downlighted if the Metal LAF is not chosen. The choice 
-                made here influences the complete User Interface. It 
-                only becomes effective when ArgoUML is exited and 
-                restarted.</para>
+                <para>
+                	<literal>Metall-Thema</literal>.
+                	Dieses Element ist deaktivert, wenn das Aussehen Metall 
+                	nicht ausgwählt wurde. Die Auswahl hier beeinflusst die 
+                	gesamte Anwenderschnittstelle. Die Änderung wird nur 
+                	wirksam, wenn ArgoUML beendet und neu gestartet wird. 
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>Smooth edges of diagram lines and 
-                text</literal>. This feature is known as 
-                <quote>anti-aliasing</quote> on certain platforms. It 
-                causes diagonal lines to look much less jagged, by 
-                making use of several shades of gray. This feature only 
-                works if the operating system supports it.</para>
+                <para>
+	                <literal>
+	                	Ränder von Diagrammlinien und Text glätten.
+	                </literal>
+	                Diese Funktion ist in bestimmten Plattformen als 
+	                <quote>Anti-aliasing</quote> bekannt. Sie bewirkt, dass 
+	                diagonale Linien durch die Nutzung von verschiedenen 
+	                Grauschattierungen nicht so stark gezackt aussehen.  Diese 
+	                Funktion arbeitet nur, wenn es das Betriebssystem  
+	                unterstützt.
+	            </para>
 
               </listitem>
 
@@ -11984,156 +11991,183 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3 id="s3.ref.menu_settings_notations">
 
-            <title>Notation Tab</title>
+            <title>Register Notation</title>
 
-            <para>This tab allows the user to specify certain notation 
-            settings, i.e. how things are shown on diagrams. It 
-            comprises the following check boxes.</para>
+            <para>
+            	Dieses Register erlaubt es dem Nutzer, bestimmte 
+            	Notationseinstellungen zu spezifizieren. Z. B. wie Dinge in 
+            	Diagrammen dargestellt werden. Es bietet folgende Markierfelder 
+            	an.
+            </para>
             
-            <para>All settings here, only define the defaults used for new projects.
-            If you want to change the way 
-            the diagrams in your current project look, 
-            then see the File - Properties menu.</para>
+            <para>
+            	Alle Einstellungen definieren nur die Standards, die in neuen 
+            	Projekten verwendet werden. Wenn Sie die Art und Weise wie 
+            	Diagramme in Ihrem aktuellen Projekt aussehen sollen ändern 
+            	wollen, dann siehe Menü Datei - Eigenschaften.
+            </para>
 
-            <figure float="1">
+            <figure>
 
-              <title>The dialog for <literal>Settings - 
-              Notations</literal>.</title>
+              <title>
+				Der Dialog für <literal>Einstellungen - Notationen</literal>.
+			  </title>
 
-              <screenshot><mediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/reference/menu_settings_notations.png"
-               format="PNG"/></imageobject></mediaobject></screenshot>
+              <screenshot>
+              	<mediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/reference/menu_settings_notations.png"
+              				format="PNG" />
+              		</imageobject>
+              	</mediaobject>
+              </screenshot>
             </figure>
 
             <itemizedlist>
 
               <listitem>
 
-                <para><literal>Notation Language</literal> (
-                UML 1.4
-                by default). This feature allows changing the default notation 
-                (i.e. language: UML, Java,...) used on the diagrams 
-                for new projects. 
-                Suppose that a designer indicates that the 
-                default notation of a project is Java.
-                When he saves the project, 
-                the choice for Java is stored inside the project file.
-                If someone else is viewing the 
-                diagram, he will see the Java notation, too.
-                This person can select the UML notation in the 
-                File - Notation menu, and see all diagrams in UML language.
-                See
-                <xref linkend="s2.ref.menu_notation"/>).</para>
+                <para>
+	                <literal>Notationssprache</literal>
+	                (standardmäßig UML 1.4). Diese Funktion erlaubt die 
+	                Änderung der Standardnotation (z.B. Sprache: UML, Java, ...), 
+	                die in Diagrammen neuer Projekte verwendet wird. Nehmen Sie 
+	                an, dass ein Designer fordert, dass die Standardnotation 
+	                des Projektes Java sein soll. Wenn er das Projekt speichert, 
+	                wird die Auswahl Java innerhalb der Projektdatei gespeichert. 
+	                Wenn irgendjemand anderes das Diagramm anzeigt, wird es die 
+	                Java-Notation ebenfalls vorfinden. Diese Person kann die 
+	                UML-Notation im Menü Datei - Notation auswählen und wird 
+	                alle Diagramme in UML sehen. Siehe 
+	                <xref linkend="s2.ref.menu_notation"/>.
+                </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>Use guillemots</literal> (&laquo;&nbsp;&raquo;) for 
-                stereotypes (clear by default). By default ArgoUML uses 
-                pairs of <emphasis>less than</emphasis> and 
-                <emphasis>greater than</emphasis> (&lt;&lt; &gt;&gt;) 
-                characters for stereotypes. If this box is checked 
-                stereotypes on diagrams are shown between true 
-                guillemots (&laquo;&nbsp;&raquo;).</para>
+                <para>
+					<literal>Französische Anführungszeichen</literal>
+					(&laquo;&nbsp;&raquo;) für Stereotypen (standardmäßig leer). 
+					Standardmäßig verwendet ArgoUML die Zeichenpaare 
+					<emphasis>kleiner als</emphasis> und <emphasis>größer als
+					</emphasis> (&lt;&lt; &gt;&gt;) für Stereotypen. Ist dieses 
+					Feld markiert, werden die Stereotypen in Diagrammen zwischen  
+					französische Anführungszeichen gestellt 
+					(&laquo;&nbsp;&raquo;).
+                </para>
 
-                <para>This feature is presumably added to ArgoUML 
-                because guillemots are poorly supported by various 
-                fonts, and if they are present, then they are quite 
-                small and poorly visible.</para>
+                <para>
+                	Diese Funktion wird in ArgoUML selten genutzt, da 
+                	französische Anführungszeichen in diversen Schriften 
+                	schlecht unterstützt werden und wenn sie vorhanden sind, 
+                	sind sie sehr klein und schlecht sichtbar.
+                </para>
                 
-                <para>Independent of the way they are shown, 
-                when entering stereotypes, you can always type
-                real guillemots (if your keyboard supports it)
-                or their &lt;&lt; &gt;&gt; equivalents.</para>
-
-              </listitem>
-
-              <listitem>
-
-                <para><literal>Show visibility</literal> (clear by 
-                default). If this is selected, then ArgoUML will
-                show the visibility indicators in front of e.g. attributes
-                in the diagram.
-                In UML the notation is "+" for public, "-" for private,
-                "#" for protected, and "~" for package. 
-                E.g. for an attribute, it may show:
-                <literal>+newAttr : int</literal>.
+                <para>
+                	Unabhhängig von der Art und Weise in der sie dargestellt 
+                	werden, können Sie immer reale französische Anführungszeichen 
+                	(wenn Ihre Tastatur dies unterstützt) oder deren &lt;&lt;
+                	&gt;&gt;-Äquivalente eingeben.
                 </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>Show multiplicity</literal> (clear by 
-                default). If this is selected, then ArgoUML will show 
-                the multiplicity of e.g. attributes in the diagram. 
-                In UML notation, the multiplicity is shown between [], such as: 
-                <literal>+newAttr [0..*] : int</literal>.
-                This setting has no impact on showing multiplicity 
-                near associationends.
+                <para>
+	                <literal>Sichtbarkeit anzeigen</literal>
+	                (standardmäßig leer). Ist dies markiert, dann wird ArgoUML 
+	                die Sichtbarkeitsmarkierungen vor z.B. jedem Attribut in 
+	                den Diagrammen anzeigen. In UML steht die Notation "+" für 
+	                public, "-" für private, "#" für protected und "~" für 
+	                Paket. Es könnte für ein Attribut z.B. wie folgt aussehen: 
+	                <literal>+neuesAttr : int</literal>.
                 </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>Show initial value</literal> (clear by 
-                default). If this is selected, then ArgoUML will show
-                the initial value of e.g. attributes in the diagram.
-                In UML notation, the initial value is shown e.g. like this:
-                <literal>+newAttr : int = 1</literal>.
+                <para>
+	                <literal>Kardinalitäten anzeigen</literal>
+	                (standardmäßig leer). Wenn dies markiert ist, dann wird 
+	                ArgoUML die Kardinalität z.B. jeden Attributes im Diagramm 
+	                darstellen. In der UML-Notation wird die Kardinalität 
+	                zwischen [] gestellt: 
+	                <literal>+neuesAttr [0..*] : int</literal>.
+	                Diese Einstellung hat keine Auswirkung auf die Darstellung 
+	                der Kardinalität von Assoziationsenden.
+                </para>
+
+              </listitem>
+
+              <listitem>
+
+                <para>
+	                <literal>Anfangswerte anzeigen</literal>
+	                (standardmäßig leer). Wenn dies markiert ist, dann wird 
+	                ArgoUML den Anfangswert z.B. eines Attributes im Diagramm 
+	                darstellen. In der UML-Notation wird der Anfangswert wie 
+	                folgt dargestellt: 
+	                <literal>+neuesAttr : int = 1</literal>.
               </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>Show properties</literal> (clear by 
-                default). If this is selected, then ArgoUML will show
-                various properties between braces {}.
-                E.g. for an attribute, it may show:
-                <literal>+newAttr : int { frozen }</literal>.
+                <para>
+	                <literal>Eigenschaften anzeigen</literal>
+	                (standardmäßig leer). Wenn dies markiert ist, dann wird 
+	                ArgoUML die verschiedenen Eigenschaften zwischen geschweifte 
+	                Klammern {} darstellen. Für ein Attribut z.B. könnte dies 
+	                wie folgt aussehen: 
+	                <literal>+neuesAttr : int { eingefroren }</literal>.
                 </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>Show types and parameters</literal> 
-                (set by default). When this checkbox is unmarked, 
-                attributes in classes are shown without type indication, 
-                and operations are shown without parameters.
-                This feature may be usefull during 
-                the analysis phase of your project.
-                If all checkmarks in 
-                the Notation Tab are unchecked, then
-                e.g. for an attribute, ArgoUML may show:
-                <literal>newAttr</literal>. And for an operation: 
-                <literal>newOperation()</literal>.
+                <para>
+	                <literal>Typen und Parameter anzeigen</literal>
+	                (standardmäßig markiert). Wenn das Feld nicht markiert ist, 
+	                werden die Attribute in Klassen ohne Typ und Operationen 
+	                ohne Parameter dargestellt. Diese Funktion kann während der 
+	                Analysephase Ihres Projektes nützlich sein. Sind alle Felder 
+	                im Register Notation nicht markiert, dann könnte ArgoUML ein 
+	                Attribut wie folgt anzeigen: 
+	                <literal>neuesAttr</literal>. Und für eine Operation: 
+	                <literal>neueOperation()</literal>.
                 </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>Show stereotypes in explorer</literal> 
-                (clear by default). If this is selected, then ArgoUML will show
-                stereotypes next to the icons of the modelelements 
-                in the Explorer, i.e. the tree structure at the left hand side.
+                <para>
+                	<literal>Stereotypen im Explorer anzeigen</literal>
+                	(standardmäßig leer). Wenn dies markiert ist, dann wird 
+                	ArgoUML die Stereotypen in der Nähe der Symbole der 
+                	Modellelemente im Explorer anzeigen. Z.B. in der 
+                	Baumstruktur auf der linken Seite.
                 </para>
 
               </listitem>
 
               <listitem>
 
-                <para><literal>Default shadow width</literal> (set to 1 
-                by default). ArgoUML is able to draw all elements 
-                on a diagram with a shadow. Use this setting to adjust the 
-                size of the shadow, used when the modelelement is created.
-                The details tab "Presentation" allows to set the shadow per
-                modelelement, after they are created.
+                <para>
+                	<literal>Standard-Schattenbreite</literal>
+                	(standardmäßig auf 1 eingestellt). ArgoUML ist in der Lage, 
+                	alle Elemente in einem Diagramm mit einem Schatten zu 
+                	versehen. Verwenden Sie diese Einstellung, um die Größe des 
+                	Schattens einzustellen, der beim Erzeugen des Modellelementes 
+                	verwendet wird. Das Register "Darstellung" im Detailfenster 
+                	erlaubt das Einstellen des Schattens je Modellelement, 
+                	nachdem diese erzeugt wurden.
                 </para>
 
               </listitem>
@@ -12144,39 +12178,51 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3 id="s3.ref.menu_settings_modules">
 
-            <title>Modules Tab</title>
+            <title>Register Module</title>
 
-            <para>This tab shows a list of modules that are installed, 
-            which may be enabled or disabled. Since this is a new 
-            concept for ArgoUML, it currently contains a list of modules that 
-            can not be removed, and a button to test the concept. 
-            Pressing this button adds a useless menu-item
-            on the Tools menu, nothing else.</para>
+            <para>
+            	Dieses Register zeigt eine Liste der installierten Module an, 
+            	die aktiviert oder deaktiviert werden können. Seitdem dies ein 
+            	neues Konzept in ArgoUML ist, enthält es derzeit eine Liste 
+            	von Modulen, die nicht entfernt werden können und eine 
+            	Schaltfläche, um das Konzept zu testen. Das Drücken dieser 
+            	Schaltfläche fügt dem Menü Werkzeuge eine nutzlose Menüoption 
+            	hinzu.
+            </para>
 
-            <para>Notice also that this is a &quot;new&quot; modules 
-            concept so the old Pluggable modules do not work this way, 
-            and are not listed.</para>
+            <para>
+            	Beachten Sie auch, dass es sich um ein Konzept für &quot;neue
+            	&quot; Module handelt, so dass alte einbindbare Module nicht 
+            	auf diese Weise arbeiten und daher nicht aufgelistet sind. 
+            </para>
 
           </sect3>
 
           <sect3 id="s3.ref.menu_settings_plugins">
 
-            <title>Extra Tabs added by Plugins</title>
+            <title>Durch Plugins zusätzlich hinzugefügte Register</title>
 
-            <para>A plug-in module has the possibility to add 
-            extra tabs. 
-            One example is C++; it adds the following tab.
+            <para>
+            	Ein Plugin-Modul hat die Möglichkeit zusätzliche Register 
+            	hinzufügen zu können. Ein Beispiel ist C++, welches folgendes 
+            	Register hinzufügt.
             </para>
 
-            <figure float="1">
+            <figure>
 
-              <title>The dialog for <literal>Settings - 
-              C++</literal>.</title>
+              <title>
+              	Der Dialog für <literal>Einstellungen - C++</literal>.
+              </title>
 
-              <screenshot><mediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/reference/menu_settings_cpp.png"
-               format="PNG"/></imageobject></mediaobject></screenshot>
+              <screenshot>
+              	<mediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/reference/menu_settings_cpp.png"
+              				format="PNG" />
+              		</imageobject>
+              	</mediaobject>
+              </screenshot>
             </figure>
 
           </sect3>
@@ -12187,71 +12233,92 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title>The View Menu</title>
+        <title>Das Menü Ansicht</title>
 
-        <para>This menu is used for actions that affect how the various 
-        panes are viewed.</para>
+        <para>
+        	Dieses Menü wird für Aktionen verwendet, die Auswirkungen darauf 
+        	haben, wie die verschiedenen Fenster dargestellt werden.
+        </para>
 
         <sect2>
 
-          <title>Goto Diagram...</title>
+          <title>Gehezu Diagramm...</title>
 
-          <para>This menu entry brings up a dialog box, describing all 
-          the diagrams in the current project under ArgoUML.</para>
+          <para>
+          	Dieses Menü öffnet einen Dialog, der alle im aktuellen Projekt 
+          	befindlichen Diagramme aufführt.
+          </para>
 
           <figure id="fig.ref.menu_goto_diagram">
 
-            <title>The dialog for <literal>Goto 
-            Diagram...</literal>.</title>
+            <title>
+            	Der Dialog für <literal>Gehe zu Diagramm...</literal>.
+            </title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_goto_diagram.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_goto_diagram.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
-          <para>The dialog box contains a table with three columns and 
-          one row for each diagram in the current project. A scroll bar 
-          gives access if the table is too long for the box. Double 
-          button&nbsp;1 click on any row will select that diagram in the 
-          editing pane. The three columns are as follows.</para>
+          <para>
+          	Der Dialog enthält eine Tabelle aus drei Spalten und einer Zeile 
+          	für jedes Diagramm im aktuellen Projekt. Ein Schieberegler erlaubt 
+          	den Zugriff auf die gesamte Tabelle, wenn diese für das Fenster zu 
+          	gross ist. Ein Doppelklick mit der Taste&nbsp;1 auf eine beliebige 
+          	Zeile wird das Diagramm im Editierfenster markieren. Die drei 
+          	Spalten sehen wie nachfolgend beschrieben aus:
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><literal>Type</literal>. Lists the type of 
-              diagram.</para>
+              <para>
+              	<literal>Typ</literal>. Auflistung des Diagrammtyps.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Name</literal>. Lists the name given to 
-              the diagram.</para>
+              <para>
+              	<literal>Name</literal>. Auflistung der für die Diagramme 
+              	vergebenen Namen.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Description</literal>. Shows how many 
-              nodes and edges there are on the diagrams. A node is a 
-              <quote>2-D</quote> model element and an edge is a connector 
-              model element.</para>
+              <para>
+	              <literal>Beschreibung</literal>. Stellt dar, wieviele Knoten und 
+	              Kanten sich im Diagramm befinden. Ein Knoten ist ein <quote>2-D
+	              </quote>-Modellelement und eine Kante ist eine Verküpfung zu 
+	              einem Modellelement. 
+              </para>
 
             </listitem>
 
           </itemizedlist>
 
-          <para>This dialog box is not modal, which allows it to remain 
-          open while editing the model for easy navigation.</para>
+          <para>
+          	Wenn der Dialog nicht modal ist, kann der Dialog während des 
+          	Editierens des Modelles zur leichteren Navigation geöffnet bleiben.
+          </para>
 
           <warning>
 
-            <para>The V0.22 implementation of ArgoUML does not 
-            inmediately update the dialog box with changes made to 
-            diagrams: change of name, addition of diagrams, deletion of 
-            diagrams.<!-- This is issue 2475. -->
+            <para>
+            	Die Version 0.22 von ArgoUML aktualisiert den Dialog nicht 
+            	unmittelbar, wenn Änderungen in den Diagrammen vorgenommen 
+            	werden: Änderung des Namens, hinzufügen von Diagrammen, löschen 
+            	von Diagrammen.<!-- This is issue 2475. -->
             </para>
 
           </warning>
@@ -12260,187 +12327,233 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="s2.ref.menu_find">
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center" fileref="images/icons/find.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          Find...</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/find.gif" format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Suchen...
+          </title>
 
-          <para>This menu entry brings up a non-modal dialog box for 
-          the ArgoUML search engine.</para>
+          <para>
+          	Diese Menü öffnet einen nicht-modalen Dialog mit der ArgoUML-
+          	Suchmaschine.
+          </para>
 
           <figure id="fig.ref.menu_find">
 
-            <title>The dialog for <literal>Find...</literal>.</title>
+            <title>Der Dialog für <literal>Suchen...</literal>.</title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_find.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_find.png" format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
-          <para>At the top, the dialog box has four tabs labeled 
-          <literal>Name and Location</literal>, <literal>
-          Last Modified</literal>, <literal>Tagged Values</literal> and 
-          <literal>Constraints</literal>. Of these all but the first 
-          are grayed out in the V0.22 version of ArgoUML (because they 
-          <!-- This is issue 2501 -->
-          are not imlemented yet), so the first tab is always 
-          selected.</para>
+          <para>
+          	Oben im Dialog befinden sich die vier Register <literal>Name und 
+          	Ort</literal>, <literal>Zuletzt geändert</literal>, <literal>
+          	Gekennzeichnete Werte</literal> und <literal>Randbedingungen
+          	</literal>. Bis auf das erste sind alle in V0.22 von ArgoUML 
+          	deaktiviert (weil sie noch nicht implementiert sind), so dass das  
+	        <!-- This is issue 2501 -->
+	        erste Register immer markiert ist.
+          </para>
 
-          <para>The <literal>Name and Location</literal> specifies the 
-          search to be made. It contains the following:</para>
-
-          <itemizedlist>
-
-            <listitem>
-
-              <para>A text box labeled <literal>Element Name:</literal> 
-              specifies the name of the model element to search 
-              for. Wild cards (<literal>*</literal>, <literal>
-              ?</literal>) may be used here. A drop down gives access 
-              to find expressions previously used.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para>A text box labeled <literal>In Diagram:</literal> 
-              specifies which diagrams are to be searched. Again wild 
-              cards may be used. Both these two text boxes have a 
-              default entry of <literal>*</literal>, i.e. match 
-              anything.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para>To the right of these two text boxes, a selector 
-              labeled <literal>Element Type:</literal> allows you to 
-              specify the UML metaclass for which you are 
-              searching.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para>A selector labeled <literal>Find in:</literal> 
-              allows the search to be made over the entire project (the 
-              default) or as a sub-search over the results of a 
-              previous search. When opened, a list of all the search 
-              result tabs appears.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para>Beneath these boxes is the button <literal>Clear 
-              Tabs</literal>. This clears the display of tabs with the 
-              results from previous searches (see below). This button 
-              is downlighted if there are no tabs but the <literal>
-              Help</literal> tab.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para>And finally, there is the button <literal>
-              Find</literal>. This causes the search specified in the 
-              text boxes and selectors above to be executed. The 
-              results are displayed in a tab taking up the lower two 
-              thirds of the page.</para>
-
-            </listitem>
-
-          </itemizedlist>
-
-          <para>The lower two thirds of the dialog comprises an initial 
-          tab (labeled <literal>Help</literal>) giving summary help, 
-          and further tabs displaying the results of searches. These 
-          search tabs are labeled with a summary of the search 
-          <emphasis>element</emphasis> 
-          <literal>in</literal> <emphasis>diagram</emphasis> and are 
-          divided horizontally in two halves.</para>
-
-          <para>Button&nbsp;1 double clicking on these tabs removes the tab, 
-          and spawns a new window that contains the tab contents, i.e. 
-          the search results. This window can be moved and sized at 
-          will. This does not work for the help tab.</para>
-
-          <para>The top half is labeled <literal>Search 
-          Results:</literal> followed by a count of the number of items 
-          found. It comprises a table with one row for each
-          model element and four columns. The width of the columns can be 
-          adjusted.</para>
+          <para>
+          	Das Register <literal>Name und Ort</literal> definiert die 
+          	durchzuführende Suche. Es enthält folgendes: 
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><literal>Type</literal>. Lists the type of
-              model element.</para>
+              <para>
+              	Ein Textfeld mit der Bezeichnung <literal>Elementname:</literal>, 
+              	in dem der Name des zu suchenden Modellelementes spezifiziert 
+              	wird. Die Ersetzungszeichen (<literal>*</literal> und <literal>?
+              	</literal> können hier verwendet werden. Ein Pull-down-Menü 
+              	gewährt den Zugriff auf vorher verwendete Ausdrücke.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Name</literal>. Lists the name given to 
-              the model element.</para>
+              <para>
+              	Ein Textfeld mit der Bezeichnung <literal>Im Diagramm:</literal> 
+              	spezifiziert, welche Diagramme durchsucht werden sollen. Erneut 
+              	können Ersetzungszeichen verwendet werden. Beide Textfelder 
+              	haben den Standardeintrag <literal>*</literal>. Z.B. Alles 
+              	suchen.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>In Diagram</literal>. Where the model element 
-              is visible on a diagram, this lists the name of the 
-              diagram, otherwise it shows <literal>N/A</literal>.</para>
+              <para>
+              	Rechts von den beiden Textfeldern erlaubt ein Auswahlelement 
+              	mit der Bezeichnung <literal>Elementtyp: </literal> die 
+              	Spezifikation der zu suchenden UML-Metaklasse.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Description</literal>. Contains a 
-              description of the model element. In ArgoUML V0.18 
-              this seems to be restricted to the single entry <literal>
-              docs</literal>.</para>
+              <para>
+              	Die Auswahl <literal>Suche in:</literal> erlaubt die Suche über 
+              	das gesamte Projekt (Standard) oder eine Teilsuche über die 
+              	Ergebnisse der vorhergehenden Suche. Wenn sie geöffnet ist, 
+              	erscheint eine Liste mit Registern, welche die Suchergebnisse 
+              	enthalten.
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+              	Unterhalb dieser Felder befindet sich die Schaltfläche <literal>
+              	Lösche Register</literal>. Diese löscht die Darstellung der 
+              	Register aus den vorangegangenen Suchläufen (siehe unten). Diese 
+              	Schaltfläche ist deaktiviert, wenn keine Register, ausser dem 
+              	Register Hilfe, vorhanden sind.
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+              	Und abschliessend gibt es die Schaltfläche <literal>Suchen
+              	</literal>. Diese löst die Suche anhand der in den Text- und 
+              	Auswahlfeldern spezifizierten Suchkriterien aus. Die Ergebnisse 
+              	werden in einem Register angezeigt, welche die unteren beiden 
+              	Drittel der Seite einnehmen.
+              </para>
 
             </listitem>
 
           </itemizedlist>
 
-          <para>Button&nbsp;1 click on any row will give more information on 
-          that model element by showing related model elements in the bottom half 
-          (see below). Double click on any row describing a model element 
-          on a diagram and that item and diagram will be 
-          selected.</para>
+          <para>
+          	Die beiden unteren Drittel des Dialoges beinhalten ein grundlegendes 
+          	Register (mit <literal>Hilfe</literal> bezeichnet), das eine 
+          	zusammenfassende Hilfestellung bereitstellt und weitere Register, 
+          	welche die Ergebnisse der Suchläufe anzeigen. Diese Bezeichnungen 
+          	der Suchregister werden aus dem gesuchten <emphasis>Element</emphasis> 
+          	<literal>im</literal><emphasis>Diagramm</emphasis> zusammengesetzt 
+          	und sind horizontal in zwei Hälften unterteilt.
+          </para>
 
-          <para>The bottom half of the tab is a table labeled <literal>
-          Related Elements:</literal> and is a table with the same 
-          columns as the top half. When a model element has been 
-          selected in the top half, this table shows the details of any 
-          related elements.</para>
+          <para>
+          	Der Taste&nbsp;1-Doppelklick auf dieses Register entfernt dieses und 
+          	öffnet ein neues Fenster, welches den Registerinhalt enthält. Z. B. 
+          	die Suchergebnisse. Diese Fenster kann beliebig verschoben und in 
+          	seiner Größe verändert werden. Beim Register Hilfe funktioniert dies 
+          	nicht.
+          </para>
+
+          <para>
+          	Die obere Hälfte ist mit <literal>Ergebnis: </literal> und der 
+          	Anzahl der gefundenen Elemente bezeichnet. Es zeigt eine Tabelle 
+          	mit einer Zeile mit vier Spalten für jedes Modellelement. Die 
+          	Breite der Spalten kann eingestellt werden.
+          </para>
+
+          <itemizedlist>
+
+            <listitem>
+
+              <para>
+              	<literal>Typ</literal>. Enthält den Typ des Modellelementes.
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+              	<literal>Name</literal>. Enthält den Namen des Modellelementes.
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+				<literal>Im Diagramm</literal>. Wo Modellelemente in einem 
+				Diagramm sichtbar sind, werden hier die Namen der Diagramme 
+				aufgelistet. Im anderen Fall wird <literal>N/A</literal> 
+				angezeigt.
+			  </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+				<literal>Beschreibung</literal>. Enthält die Beschreibung des 
+				Modellelementes. 
+              </para>
+
+            </listitem>
+
+          </itemizedlist>
+
+          <para>
+          	Der Taste&nbsp;1-Klick auf eine Zeile wird mehr Informationen über 
+          	das Modellelement preisgeben, indem es die zugehörigen Modellelemente 
+          	in der unteren Hälfte (siehe unten) darstellt. Der Doppelklick auf 
+          	eine Zeile beschreibt ein Modellelement im Diagramm und das Element 
+          	und das Diagramm werden markiert.
+          </para>
+
+          <para>
+          	Die untere Hälfte des Registers ist eine Tabelle mit der Bezeichnung 
+			<literal>Zugehörige Elemente:</literal> mit den gleichen Spalten 
+			wie in der oberen Hälfte. Wenn ein Modellelement in der oberen 
+			Hälfte markiert wurde, zeigt diese Tabelle die Details eines jeden 
+			zugehörigen Elementes. 
+          </para>
 
           <tip>
 
-            <para>Enlarging the dialog vertically shows that the 
-            &quot;Related Items&quot; part changes in size, but not the 
-            Search results part. However, between them is a divider 
-            line and when hovering over this line, the mouse pointer 
-            changes into a sizing icon, and the border between these 2 
-            areas can be moved up or down to redistribute the space in 
-            the window.</para>
+            <para>
+            	Wenn Sie den Dialog vertikal vergrössern, zeigt es sich, dass 
+            	der Teil &quot;Zugehörige Elemente&quot; ebenfalls seine Größe 
+            	ändert, aber nicht der Teil mit den Suchergebnissen. Zwischen 
+            	diesen Teilen befindet sich jedoch eine Trennlinie. Wenn Sie die 
+            	Maus darüber bewegen, verwandelt sich der Mauszeiger in das 
+            	Grössenveränderungs-Symbol und die Begrenzung zwischen diesen 
+            	beiden Bereichen kann nach oben oder nach unten bewegt werden, 
+            	um den Platz im Fenster aufzuteilen.
+            </para>
 
           </tip>
 
           <warning>
 
-            <para>This dialog box is not modal, which allows it to 
-            remain open while editing the model for easy navigation. 
-            But the V0.22 implementation of ArgoUML does not inmediately 
-            update the dialog box with changes made to the found 
-            model elements: change of model element name, change of diagram name. 
-            Deletion of a diagram does not stop the possibility to 
-            navigate to it.
-            <!-- This is issue 4376. -->
+            <para>
+            	Dieser Dialog ist nicht modal, was es erlaubt, dass er während 
+            	des editierens des Modelles geöffnet bleiben kann. Aber die 
+            	Implementierung der Version 0.22 von ArgoUML aktualisiert diesen 
+            	Dialog nicht unmittelbar, wenn Änderungen an den gefundenen 
+            	Modellelementen vorgenommen werden: Änderungen des Namens des 
+            	Modellelementes, Änderung des Diagrammnamens. Das Löschen eines 
+            	Diagrammes stoppt nicht die Möglichkeit danach zu suchen.
+            	<!-- This is issue 4376. -->
             </para>
 
           </warning>
