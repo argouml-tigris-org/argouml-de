@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding="utf-8" ?>
+<?xml version='1.0' encoding="UTF-8" ?>
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "../docbook-setup/docbookx/docbookx.dtd">
 <!-- $Id: argomanual.xml 12020 2007-02-11 11:07:12Z mvw $ -->
@@ -12564,32 +12564,40 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>Zoom</title>
 
-          <para>This entry brings up a sub-entry, which allows scaling 
-          the view of all diagrams to a factor of its normal size. This 
-          setting is not saved persistently.</para>
+          <para>
+          	Diese Menüoption öffnet ein Untermenü, welches das Skalieren aller 
+          	Diagramme um einen Faktor erlaubt. Diese Einstellung  wird nicht 
+          	persistent gespeichert.
+          </para>
 
-          <para>The sub-menu items that can be selected are:</para>
+          <para>Im Untermenü kann folgendes ausgewählt werden:</para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><literal>Zoom Out</literal>. Shortcut (Strg-Minus). 
-              Gives more overview over the drawing.</para>
+              <para>
+              	<literal>Verkleinern</literal>. Tastenkürzel (Strg-Minus). 
+              	Verbessert den Überblick über die Zeichnung.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Zoom Reset</literal>. Returns to the 
-              default zoom ratio (i.e. 100%).</para>
+              <para>
+              	<literal>Rückgängig</literal>.
+              	Kehrt zur Standard-Zoomrate zurück (z.B. 100%). 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Zoom In</literal>. Shortcut (Strg-Plus). 
-              Makes the items on the drawings bigger.</para>
+              <para>
+              	<literal>Vergrössern</literal>. Tastenkürzel (Strg-Plus).
+              	Vergrössert die Elemente in den Zeichnungen. 
+              </para>
 
             </listitem>
 
@@ -12599,45 +12607,57 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="s2.ref.menu_adjust_grid">
 
-          <title>Adjust Grid</title>
+          <title>Gitter einstellen</title>
 
-          <para>This allows selection of the grid representation on the screen 
-          between the following:</para>
+          <para>
+          	Dieses Menü erlaubt folgende Auswahl der 
+          	Bildschirm-Gitterdarstellung:
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><literal>Lines 16</literal>: 
-              full grid at 16 pixel spacing. </para>
+              <para>
+	              <literal>Zeilen 16</literal>:
+	              vollständiges Gitter, mit einem Zwischenraum von 16 Pixeln. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Lines 8</literal>:
-              full grid at 8 pixel spacing.</para>
+              <para>
+	              <literal>Zeilen 8</literal>:
+	              vollständiges Gitter, mit einem Zwischenraum von 8 Pixeln.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Dots 16</literal>:
-              dots at 16 pixel spacing (the default).</para>
+              <para>
+	              <literal>Punkte 16</literal>:
+	              Punkte, mit einem Zwischenraum von 16 Pixeln (der Standard).
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Dots 32</literal>:
-              dots at 32 pixel spacing.</para>
+              <para>
+	              <literal>Punkte 32</literal>:
+	              Punkte, mit einem Zwischenraum von 32 Pixeln.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>None</literal>:
-              no grid of any form.</para>
+              <para>
+	              <literal>Kein Gitter</literal>:
+	              Kein irgendwie geartetes Gitter.
+              </para>
 
             </listitem>
 
@@ -12647,38 +12667,48 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="s2.ref.menu_grid_snap">
 
-          <title>Adjust Snap</title>
+          <title>Einrasten einrichten</title>
 
-          <para>This allows selection of the spacing of grid snapping
-          between the following:</para>
+          <para>
+          	Dieses Menü erlaubt die Auswahl zwischen folgenden 
+          	Gitter-Einrast-Schwellwerten:
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><literal>Snap 4</literal>:
-              snap at 4 pixel spacing.</para>
+              <para>
+              	<literal>Einrasten 4</literal>: 
+              	Rastet innerhalb eines Bereiches von 4 Pixeln ein.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Snap 8</literal>:
-              snap at 8 pixel spacing (the default).</para>
+              <para>
+              	<literal>Einrasten 8</literal>: 
+              	Rastet innerhalb eines Bereiches von 8 Pixeln ein.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Snap 16</literal>:
-              snap at 16 pixel spacing.</para>
+              <para>
+              	<literal>Einrasten 16</literal>: 
+              	Rastet innerhalb eines Bereiches von 16 Pixeln ein.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Snap 32</literal>:
-              snap at 32 pixel spacing.</para>
+              <para>
+              	<literal>Einrasten 32</literal>: 
+              	Rastet innerhalb eines Bereiches von 32 Pixeln ein.
+              </para>
 
             </listitem>
 
@@ -12686,18 +12716,20 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <note>
 
-            <para>There is no option to turn off snap to grid 
-            altogether</para>
+            <para>
+            	Es gibt keine Option das Einrasten auf das Gitter abzustellen.
+            </para>
 
           </note>
 
           <note>
 
-            <para>If you wish to align existing elements to changed
-            snap boundaries, 
-            you can use the <literal>
-            Arrange &gt; Align To Grid Snap</literal> menu (see 
-            <xref linkend="s2.ref.menu_align"/>).</para>
+            <para>
+            	Wenn Sie existierende Elemente auf geänderte Einrastbereiche  
+            	ausrichten wollen, können Sie das Menü <literal>Anordnen &gt; 
+            	Am Gitter ausrichten</literal> verwenden (siehe  
+            	<xref linkend="s2.ref.menu_align"/>).
+            </para>
 
           </note>
 
@@ -12705,13 +12737,15 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Page Breaks</title>
+          <title>Seitenumbrüche</title>
 
-          <para>This toggles whether page breaks are shown on the 
-          diagram (as white dotted lines).</para>
+          <para>
+          	Mit dieser Menüoption werden die Seitenumbrüche im Diagramm 
+          	dargestellt oder nicht (durch weiss gepunktete Linien).
+          </para>
 
           <warning>
-            <para>This menu item does not work in ArgoUML V0.24.</para>
+            <para>Diese Menüoption funktioniert in ArgoUML V0.24 nicht.</para>
             <!-- This menu-item is incorrectly implemented in the 
             V0.22 version of ArgoUML, since it should be a tick box 
             toggle.  This is issue  604.
@@ -12727,15 +12761,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-        	<title>XML Dump</title>
+        	<title>XML-Quelltext</title>
 
         	<para>
-        		This activates a window that shows the complete contents 
-        		of the current project in XML format. 
+        		Aktiviert ein Fenster, das den gesamten Inhalt des aktuellen 
+        		Projektes im XML-Format darstellt.
         	</para>
 
-        	<para>Although very useful for debugging ArgoUML, 
-        	this menu function is hardly interesting to the common user.</para>
+        	<para>
+        		Obwohl sehr nützlich zum Debuggen von ArgoUML, ist diese 
+        		Menüoption für den normalen Benutzer wenig interessant.
+        	</para>
 
         </sect2>
 
@@ -12743,35 +12779,46 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1 id="s1.ref.create.diagram.menu">
 
-        <title>The Create Menu</title>
+        <title>Das Menü "Neues Diagramm"</title>
 
-        <para>This menu provides for creating the various types of UML 
-        diagrams supported by ArgoUML.</para>
+        <para>
+        	Dieses Menü ist dafür gedacht, die verschiedenen, von ArgoUML 
+        	unterstützten Typen von UML-Diagrammen zu erzeugen.
+        </para>
 
         <sect2 id="s2.ref.create.diagram.use_case_diagram">
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/use_case_diagram.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          New Use Case Diagram</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/use_case_diagram.gif" format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Neues Anwendungsfalldiagramm
+          </title>
 
-          <para>This menu entry creates a blank use case diagram, and 
-          selects that diagram in the editing pane. If a package is 
-          currently selected, then the use case diagram will be created 
-          within that package. 
-          This means that it will be shown within the package on 
-          the explorer hierarchy (under Package-centric view) and 
-          model elements created on the diagram will be created within the 
-          namespace of the package. This does not only apply to a 
-          package, but also to a class, interface, use case, etc.</para>
+          <para>
+          	Dieser Menüeintrag erstellt ein leeres Anwendungsfalldiagramm und 
+          	markiert das Diagramm im Editierfenster. Ist ein Paket aktuell
+          	markiert, dann wird das Anwendungsfalldiagramm innerhalb dieses 
+          	Paketes erstellt. Das bedeutet, dass es in der Explorerhierarchie 
+          	(Ansicht: Nach Paketen) als Teil des Paketes dargestellt wird. 
+          	Im Diagramm erstellte Modellelemente werden im Namensraum des 
+          	Paketes erzeugt. Dies wirkt sich nicht nur auf das Paket aus, 
+          	sondern auch auf eine Klasse, Schnittstelle, Anwendungsfall, usw..
+          </para>
 
           <tip>
 
-            <para>This does not prevent model elements from other 
-            namespaces/packages appearing on the diagram. They can be 
-            added from the explorer using <literal>Add to 
-            Diagram</literal> from the button&nbsp;2 pop-up menu.</para>
+            <para>
+            	Das verhindert nicht, dass Modellelemente aus anderen 
+            	Namensräumen/Paketen im Diagramm erscheinen. Sie können im 
+            	Explorer mit Hilfe des Popup-Menüs <literal>Zum Diagramm 
+            	hinzufügen</literal> hinzugefügt werden.
+            </para>
 
           </tip>
 
@@ -12779,28 +12826,37 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="s2.ref.create.diagram.class_diagram">
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/class_diagram.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          New Class Diagram</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/class_diagram.gif" format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Neues Klassendiagramm
+          </title>
 
-          <para>This menu entry creates a blank class diagram, and 
-          selects that diagram in the editing pane. If a package is 
-          currently selected, the class diagram will be created within 
-          that package. 
-          This means that it will be shown within the package on the 
-          explorer hierarchy (under Package-centric view) and model elements 
-          created on the diagram will be created within the namespace 
-          of the package. This does not only apply to a package, but 
-          also to a class, interface, use case, etc.</para>
+          <para>
+          	Dieser Menüeintrag erstellt ein leeres Klassendiagramm und markiert 
+          	das Diagramm im Editierfenster. Ist ein Paket aktuell markiert, 
+          	dann wird das Klassendiagramm innerhalb dieses Paketes erstellt. 
+          	Das bedeutet, dass es in der Explorerhierarchie (Ansicht: Nach 
+          	Paketen) als Teil des Paketes dargestellt wird. Im Diagramm 
+          	erstellte Modellelemente werden innerhalb des Namensraumes des 
+          	Paketes erstellt. Dies wirkt sich nicht nur auf das Paket aus, 
+          	sondern auch auf eine Klasse, Schnittstelle, Anwendungsfall, usw..
+          </para>
 
           <tip>
 
-            <para>This does not prevent model elements from other 
-            namespaces/packages appearing on the diagram. They can be 
-            added from the explorer using <literal>Add to 
-            Diagram</literal> from the button&nbsp;2 pop-up menu.</para>
+            <para>
+            	Das verhindert nicht, dass Modellelemente aus anderen 
+            	Namensräumen/Paketen im Diagramm erscheinen. Sie können im 
+            	Explorer mit Hilfe des Popup-Menüs <literal>Zum Diagramm 
+            	hinzufügen</literal> hinzugefügt werden.
+            </para>
 
           </tip>
 
@@ -12808,64 +12864,72 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="s2.ref.create.diagram.sequence_diagram">
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/sequence_diagram.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          New Sequence Diagram</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/sequence_diagram.gif" format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Neues Sequenzdiagramm
+          </title>
 
-          <para>This menu entry creates a blank sequence diagram, and 
-          selects that diagram in the editing pane. 
-          It also creates a <literal>
-          Collaboration</literal> UML element, 
-          which is a container for the elements shown on the new diagram.
-          If a class is 
-          currently selected, a sequence diagram and a collaboration
-          will be created
-          that represent the behaviour of that class. 
-          This means that the created elements 
-          will be shown within the class in the 
-          explorer hierarchy (under Package-centric view) and model elements 
-          created on the diagram will be created within the namespace 
-          of the collaboration. A sequence diagram may 
-          not only represent the behavior of a class, but 
-          also of any other classifier, such as interface, use case, etc.
-          It is also possible to make sequence diagrams for an operation.
+          <para>
+          	Dieser Menüeintrag erstellt ein leeres Sequenzdiagramm und markiert 
+          	das Diagramm im Editierfenster. Er erzeugt auch ein UML-Element 
+          	<literal>Kollaboration</literal>, das ein Container für die im 
+          	neuen Diagramm dargestellten Elemente ist. Wenn eine Klasse aktuell 
+          	markiert ist, wird ein Sequenzdiagramm und eine Kollaboration 
+          	erstellt, die das Verhalten dieser Klasse repräsentieren. Das 
+          	bedeutet, dass die erstellten Elemente in der Explorerhierarchie 
+          	(Ansicht: Nach Paketen) als Teil der Klasse dargestellt werden. 
+          	Im Diagramm erstellte Modellelemente werden innerhalb des 
+          	Namensraumes der Kollaboration erzeugt. Ein Sequenzdiagramm muss 
+          	nicht nur das Verhalten einer Klasse repräsentieren, sondern auch 
+          	jeden anderen Klassifizierer, wie zum Beispiel eine Schnittstelle, 
+          	einen Anwendungsfall, usw.. Es ist auch möglich, Sequenzdiagramme 
+          	für eine Operation zu erstellen.
           </para>
 
         </sect2>
 
         <sect2 id="s2.ref.create.diagram.collaboration_diagram">
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/collaboration_diagram.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          New Collaboration Diagram</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/collaboration_diagram.gif"
+          					format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Neues Kollaborationsdiagramm
+          </title>
 
-          <para>This menu entry creates a blank collaboration diagram, 
-          and selects that diagram. 
-          It also creates a <literal>
-          Collaboration</literal> UML element, 
-          which is a container for the elements shown on the new diagram.
-          If a 
-          package is selected when this menu item is activated, 
-          the collaboration diagram will 
-          be created within a collaboration within that package.
-          This means that it 
-          will be shown within the collaboration within the package on 
-          the explorer hierarchy (under Package-centric view) and 
-          model elements created on the diagram will be created within the 
-          namespace of the collaboration within the package.</para>
+          <para>
+          	Dieser Menüeintrag erstellt ein leeres Kollaborationsdiagramm und 
+          	markiert das Diagramm. Es erstellt auch ein UML-Element <literal>
+          	Kollaboration</literal>, das ein Container für die im neuen 
+          	Diagramm dargestellten Elemente ist. Wenn ein Paket markiert ist, 
+          	wenn dieser Menüeintrag aktiviert wird, wird das 
+          	Kollaborationsdiagramm innerhalb dieses Paketes erstellt. Das 
+          	bedeutet, dass es in der Explorerhierarchie (Ansicht: Nach Paketen) 
+          	als Teil des Paketes dargestellt wird. Im Diagramm erstellte 
+          	Modellelemente werden im Namensraum des Paketes erstellt.
+          </para>
 
           <tip>
 
-            <para>This does not prevent model elements from other 
-            namespaces/packages appearing on the diagram. They can 
-            added from the explorer by 
-            dragging or by 
-            using <literal>Add to Diagram</literal> 
-            from the button&nbsp;2 pop-up menu.</para>
+            <para>
+            	Das verhindert nicht, dass Modellelemente aus anderen 
+            	Namensräumen/Paketen im Diagramm erscheinen. Sie können im 
+            	Explorer mit Hilfe des Popup-Menüs <literal>Zum Diagramm 
+            	hinzufügen</literal> hinzugefügt werden.
+            </para>
 
           </tip>
 
@@ -12873,16 +12937,23 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="s2.ref.create.diagram.state_diagram">
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/state_diagram.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          New Statechart Diagram</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/state_diagram.gif" format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Neues Zustandsübergangsdiagramm
+          </title>
 
-          <para>This menu entry creates a blank statechart diagram 
-          associated with the currently selected class, and selects 
-          that diagram in the editing pane. 
-          It also creates a <literal>
+          <para>
+ This menu entry creates a blank statechart diagram associated with the
+ currently selected class, and selects that diagram in the editing pane.
+ It also creates a
+ <literal>
           Statemachine</literal> UML element, 
           which is a container for the elements shown on the new diagram.
           </para>
