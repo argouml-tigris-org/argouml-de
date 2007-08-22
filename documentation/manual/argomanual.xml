@@ -12916,10 +12916,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           	Kollaboration</literal>, das ein Container für die im neuen 
           	Diagramm dargestellten Elemente ist. Wenn ein Paket markiert ist, 
           	wenn dieser Menüeintrag aktiviert wird, wird das 
-          	Kollaborationsdiagramm innerhalb dieses Paketes erstellt. Das 
-          	bedeutet, dass es in der Explorerhierarchie (Ansicht: Nach Paketen) 
-          	als Teil des Paketes dargestellt wird. Im Diagramm erstellte 
-          	Modellelemente werden im Namensraum des Paketes erstellt.
+          	Kollaborationsdiagramm unterhalb einer Kollaboration innerhalb 
+          	dieses Paketes erstellt. Das bedeutet, dass es in der 
+          	Explorerhierarchie (Ansicht: Nach Paketen) als Teil der 
+          	Kollaboration innerhalb des Paketes dargestellt wird. Im Diagramm 
+          	erstellte Modellelemente werden im Namensraum der Kollaboration des 
+          	Paketes erstellt.
           </para>
 
           <tip>
@@ -12950,76 +12952,82 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           </title>
 
           <para>
- This menu entry creates a blank statechart diagram associated with the
- currently selected class, and selects that diagram in the editing pane.
- It also creates a
- <literal>
-          Statemachine</literal> UML element, 
-          which is a container for the elements shown on the new diagram.
+          Dieser Menüeintrag erstellt ein, mit der aktuellen Klasse verknüpftes, 
+          leeres Zustandsübergangsdiagramm und markiert das Diagramm im 
+          Editierfenster. Er erstellt auch ein UML-Element <literal>
+          Zustandsautomat</literal>, der ein Container für die im neuen Diagramm 
+          dargestellten Elemente ist.
           </para>
 
-          <para>Statechart diagrams are
-            associated with a model element capable of dynamic behavior, such as
-            a classifier or a behavioral feature, 
-            which provides the context for the
-            state machine it represents. 
-            Suitable model elements are e.g. a class,
-            an operation, and a use case. 
-            If such element is not selected at the time the
-           <literal>New Statechart Diagram</literal> 
-            menu is activated,
-            then an unattached  
-            statemachine is created.
-            To obtain a well-formed UML model, 
-            you have to set the context of the statemachine 
-            on its details pane.
-            </para>
+          <para>
+          	Zustandsübergangsdiagramme sind mit einem Modellelement mit 
+          	dynamischem Verhalten verknüpft, wie z.B. einem Klassifizierer oder 
+          	einer Verhaltenseigenschaft, welche den Kontext für den zu 
+          	repräsentierenden Zustandsautomaten enthält. Passende Modellelemente 
+          	sind zum Beispiel eine Klasse, eine Operation und ein Anwendungsfall. 
+          	Wenn kein solches Elemente zum Zeitpunkt des aktivierens des Menüs 
+          	<literal>Neues Zustandsübergangsdiagramm</literal> markiert ist, 
+          	dann wird eine ungebundener Zustandsautomat erstellt. Um ein 
+          	korrektes UML-Modell zu erhalten, müssen Sie den Kontext des 
+          	Zustandsautomaten im Detailfenster einstellen.
+          </para>
 
         </sect2>
 
         <sect2 id="s2.ref.create.diagram.activity_diagram">
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/activity_diagram.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          New Activity Diagram</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/activity_diagram.gif" format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Neues Aktivitätsdiagramm
+          </title>
 
-          <para>This menu entry creates a blank activity diagram 
-          associated with the currently selected class, and selects 
-          that diagram in the editing pane. 
-          It also creates a <literal>
-          ActivityGraph</literal> UML element, 
-          which is a container for the elements shown on the new diagram.
+          <para>
+          	Dieser Menüeintrag erstellt ein, mit der aktuell markierten Klasse 
+          	verknüpftes, leeres Aktivitätsdiagramm und markiert das Diagramm 
+          	im Editierfenster. Er erzeugt auch ein UML-Element <literal>
+          	Aktivitätsgraph</literal>, der einen Container für die im neuen 
+          	Diagramm dargestellten Elemente ist.
           </para>
 
-          <para>Activity diagrams are 
-            associated with a model element capable of dynamic behavior, such as
-            packages, classifiers (including use cases) 
-            and behavioral features. Suitable model elements are e.g. a 
-            class, a use case, an operation, and a package. 
-            If such element is not selected at the time the
-           <literal>New Activity Diagram</literal> 
-            menu is activated,
-            then an unattached  
-            ActivityGraph is created.
-            To obtain a well-formed UML model, 
-            you have to set the context of the ActivityGraph 
-            on its details pane.
+          <para>
+          	Aktivitätsdiagramm sind mit einem Modellelement mit dynamischem 
+          	Verhalten verknüpft, wie z.B. Pakete, Klassifizierer (
+          	einschliesslich Anwendungsfällen) und Verhaltenseigenschaften. 
+          	Passende Modellelemente sind z.B. eine Klasse, ein Anwendungsfall, 
+          	eine Operation und ein Paket. Wenn ein solches Element zum Zeitpunkt 
+          	des aktivierens des Menüs <literal>Neues Aktivitätsdiagramm</literal> 
+          	nicht markiert ist, wird ein ungebundener Aktivitätsgraph erstellt. 
+          	Um ein korrektes UML-Modell zu erhalten, müssen Sie den Kontext des 
+          	Aktivitätsgraphen im Detailfenster angeben.
           </para>
 
         </sect2>
 
         <sect2 id="s2.ref.create.diagram.deployment_diagram">
 
-          <title><guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/deployment_diagram.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          New Deployment Diagram</title>
+          <title>
+          	<guiicon>
+          		<inlinemediaobject>
+          			<imageobject>
+          				<imagedata align="center"
+          					fileref="images/icons/deployment_diagram.gif"
+          					format="GIF" />
+          			</imageobject>
+          		</inlinemediaobject>
+          	</guiicon>
+          	Neues Verteilungsdiagramm
+          </title>
 
-          <para>This menu entry creates a blank deployment diagram, and 
-          selects that diagram in the editing pane. 
+          <para>
+          Dieser Menüeintrag erstellt ein leeres Verteilungsdiagramm und 
+          markiert das Diagramm im Editierfenster.
           <!--If a package is 
           currently selected, the deployment diagram will be created 
           within that package, it will be shown within the package on 
@@ -13030,12 +13038,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <tip>
 
-            <para>Model elements from other 
-            namespaces/packages can be
-            added from the explorer by
-            dragging or by
-            using <literal>Add to Diagram</literal> 
-            from the button&nbsp;2 pop-up menu.</para>
+            <para>
+            	Modellelemente aus anderen Namensräumen/Paketen können vom 
+            	Explorer aus durch ziehen oder durch das Popup-Menü <literal>Zum 
+            	Diagramm hinzufügen</literal> hinzugefügt werden.
+            </para>
 
           </tip>
 
@@ -13045,112 +13052,165 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1 id="s1.ref.menu_arrange">
 
-        <title>The Arrange Menu</title>
+        <title>Das Menü Anordnen</title>
 
-        <para>This menu provides a range of functions to help in the 
-        alignment of model elements on diagrams within the editing pane. In 
-        general the menu function invoked is applied to any model element or 
-        model elements currently selected in the editing pane.</para>
+        <para>
+        	Dieses Menü enthält Funktionen, die dabei helfen, die Modellelemente 
+        	in den Diagrammen des Editierfensters auszurichten. Die aufgerufenen 
+        	Menüfunktionen werden hauptsächlich auf jedes Modellelement oder 
+        	auf die aktuell im Editierfenster markierten Modellelemente 
+        	angewendet.
+        </para>
 
         <sect2 id="s2.ref.menu_align">
 
-          <title>Align</title>
+          <title>Ausrichten</title>
 
-          <para>This sub-menu aligns the selected items. There are 
-          seven alignment options provided.</para>
+          <para>
+          	Dieses Untermenü richtet die markierten Elemente aus. Es enthält 
+          	sieben Ausrichtungsoptionen.
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/align_tops.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Align Tops</literal>. Aligns the selected 
-              model elements by their top edges.</para>
+              <para>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/align_tops.gif" format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>Oben bündig</literal>. Richtet die markierten 
+              Modellelemente entlang  ihren oberen Kanten aus.
+            </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/align_bottoms.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Align Bottoms</literal>. Aligns the selected 
-              model elements by their bottom edges.</para>
+              <para>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/align_bottoms.gif" format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>Unten bündig</literal>. Richtet die markierten 
+              Modellelemente entlang ihrer unteren Kanten aus. 
+            </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/align_rights.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Align Rights</literal> (Shortcut Strg-R). Aligns 
-              the selected model elements by their right edges.</para>
+              <para>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/align_rights.gif" format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>Rechtsbündig</literal> (Tastenkürzel Strg-R). Richtet die 
+              markierten Modellelemente entlang ihrer rechten Kanten aus. 
+            </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/align_lefts.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Align Lefts</literal> (Shortcut Strg-L). Aligns 
-              the selected model elements by their left edges.</para>
+              <para>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/align_lefts.gif" format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>Linksbündig</literal> (Tastenkürzel Strg-L). Richtet die 
+              markierten Modellelemente entlang ihrer linken Kanten aus. 
+            </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/align_horizontal_centers.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Align Horizontal Centers</literal>. Aligns the 
-              selected model elements so their horizontal centers are in a 
-              vertical line.</para>
+              <para>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/align_horizontal_centers.gif"
+              				format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>Horizontal mittig</literal>. Richtet die markierten 
+              Modellelemente entlang der horizontalen Mitten in einer 
+              vertikalen Linie aus. 
+            </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/align_vertical_centers.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Align Vertical Centers</literal>. Aligns the 
-              selected model elements so their vertical centers are in a 
-              horizontal line.</para>
+              <para>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/align_vertical_centers.gif"
+              				format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>Vertikal mittig</literal>. Richtet die markierten 
+              Modellelemente entlang ihrer vertikalen Mitten in einer 
+              horizontalen Linie aus. 
+            </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/align_to_grid.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Align To Grid</literal>. Aligns the selected 
-              model elements so their top and right edges are on the grid 
-              snap boundary (see <xref linkend="s2.ref.menu_grid_snap"/>
-              ) edge.</para>
+              <para>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/align_to_grid.gif" format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>Am Gitter ausrichten</literal>. Richtet die markierten 
+              Modellelemente entlang ihrer oberen und rechten Kanten auf die 
+              Gittereinrastgrenzen aus ( siehe 
+              <xref linkend="s2.ref.menu_grid_snap"/>
+              ).
+              </para>
 
               <tip>
 
-                <para>The alignment is to the current <emphasis>grid 
-                snap</emphasis> setting, which may be smaller, larger 
-                or the same as the displayed grid. Since items are 
-                aligned to the grid snap boundary any way when you 
-                place them, this menu entry has no effect unless you 
-                have either changed the grid snap to a larger value or 
-                used one of the other <literal>Arrange</literal> menu 
-                entries to push items off their initial 
-                positions.</para>
+                <para>
+                	Die Ausrichtung erfolgt bezogen auf die aktuelle <emphasis>
+                	Gittereinrast</emphasis>-Einstellung. Diese kann kleiner,
+                	größer oder identisch mit dem dargestellten Gitter sein.
+                	Seitdem die elemente an den Gittereinrastgrenzen ausgerichtet 
+                	werden hat dieser Menüeintrag solange keine Auswirkungen bis 
+                	Sie entweder die Gittereinrasteinstellungen auf einen 
+                	größeren Wert eingestellt haben oder einen der anderen 
+                	<literal>Anordnen</literal>-Menüeinträge verwendet haben, 
+                	um die Elemente aus ihren ursprünglichen Positionen zu 
+                	bewegen.
+                </para>
 
               </tip>
 
@@ -13162,68 +13222,96 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Distribute</title>
+          <title>Anordnen</title>
 
-          <para>This sub-menu distributes the selected items. There are 
-          four distribution options provided.</para>
+          <para>
+          	Dieses Untermenü ordnet die markierten Elemente an. Es enthält vier 
+          	Optionen zum Anordnen.
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/distribute_horizontal_spacing.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Distribute Horizontal Spacing</literal>. The 
-              leftmost and rightmost selected model elements are not moved. 
-              The others are adjusted horizontally until the horizontal 
-              space (i.e. from the right edge of the left model element to 
-              the left edge of the right model element) is the same for all 
-              of the selected items</para>
+              <para>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/distribute_horizontal_spacing.gif"
+              				format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>Horizontal gleiche Zwischenräume</literal>. Die am 
+              weitesten rechts und links befindlichen Modellelemente werden 
+              nicht bewegt. Die anderen werden horizontal justiert, bis der 
+              horizontale Zwischenraum (z.B. von der rechten Kante des linken 
+              Modellelementes zur linken Kante des rechten Modellelementes ) 
+              zwischen allen markierten Elementen gleich ist. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/distribute_horizontal_centers.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Distribute Horizontal Centers</literal>. The 
-              leftmost and rightmost selected model elements are not moved. 
-              The others are adjusted horizontally until the distance 
-              between the horizontal centers of all the selected items 
-              is the same.</para>
+              <para>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/distribute_horizontal_centers.gif"
+              				format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>Horizontal gleiche Abstände</literal>. Die am 
+              weitesten rechts und links befindlichen Modellelemente werden 
+              nicht bewegt. Die anderen werden horizontal justiert, bis der 
+              Abstand zwischen den horizontalen Mitten aller markierten Elemente 
+              gleich ist. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/distribute_vertical_spacing.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Distribute Vertical Spacing</literal>. The top 
-              and bottom selected model elements are not moved. The others 
-              are adjusted vertically until the vertical space (i.e. 
-              from the bottom edge of the top model element to the top edge 
-              of the bottom model element) is the same for all of the 
-              selected items</para>
+              <para>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/distribute_vertical_spacing.gif"
+              				format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>Vertikal gleiche Zwischenräume</literal>. Die oberen und 
+              die unteren Modellelemente werden nicht bewegt. Die anderen 
+              werden vertikal justiert, bis der vertikale Zwischenraum (z.B. von 
+              der unteren Kante des oberen Modellelementes zur oberen Kante des 
+              unteren Modellelementes) für alle markierten Elemente gleich ist. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/distribute_vertical_centers.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Distribute Vertical Centers</literal>. The top 
-              and bottom selected model elements are not moved. The others 
-              are adjusted vertically until the distance between the 
-              vertical centers of all the selected items is the 
-              same.</para>
+              <para>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/distribute_vertical_centers.gif"
+              				format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>Vertikal gleiche Abstände</literal>. Die oberen und 
+              die unteren Modellelemente werden nicht bewegt. Die anderen werden 
+              vertikal justiert, bis der Abstand zwischen den vertikalen Mitten 
+              aller markierten Elemente gleich ist. 
+			  </para>
 
             </listitem>
 
@@ -13233,58 +13321,82 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="s2.ref.menu_reorder">
 
-          <title>Reorder</title>
+          <title>Reihenfolge</title>
 
-          <para>This sub-menu adjusts the ordering of overlapping 
-          items. There are four reorder options provided.</para>
+          <para>
+          	Dieses Untermenü bestimmt die Reihenfolge überlappender Elemente. 
+          	Es enthält vier Optionen.
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/forward.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Forward</literal>. The selected model elements are 
-              moved one step forward in the ordering hierarchy with 
-              respect to other model elements they overlap.</para>
+              <para>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/forward.gif" format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>Nach vorne</literal>. Die markierten Modellelemente 
+              werden in der Reihenfolge einen Schritt nach vorne geholt.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/backward.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Backward</literal>. The selected model elements are 
-              moved one step back in the ordering hierarchy with 
-              respect to other model elements they overlap.</para>
+              <para>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/backward.gif" format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>Nach hinten</literal>. Die markierten Modellelemente 
+              werden in der Reihenfolge einen Schritt nach hinten gesetzt.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/to_front.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>To Front</literal>. The selected model elements are 
-              moved to the front of any other model elements they 
-              overlap.</para>
+              <para>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/to_front.gif" format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>In den Vordergrund</literal>. Die markierten 
+              Modellelemente werden in der Reihenfolge vor alle anderen 
+              Modellelemente gebracht. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/to_back.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>To Back</literal>. The selected model elements are 
-              moved to the back of any other model elements they 
-              overlap.</para>
+              <para>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/to_back.gif" format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>In den Hintergrund</literal>. Die markierten 
+              Modellelemente werden in der Reihenfolge hinter alle anderen 
+              Modellelemente gebracht. 
+              </para>
 
             </listitem>
 
@@ -13294,12 +13406,13 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Size To Fit Contents</title>
+          <title>Grösse an Inhalt anpassen</title>
 
-          <para>This menu-item acts on all selected items on the 
-          current diagram. It resets all sizes of all model elements to its 
-          minimum size for 
-          which all text fits inside.</para>
+          <para>
+          	Dieses Menüelement wirkt auf alle markierten Elemente im aktuellen 
+          	Diagramm. Es setzt die Grösse aller Modellelemente auf die minimale 
+          	Grösse, in welcher der gesamte Text gerade noch in das Element passt.
+          </para>
 
         </sect2>
 
@@ -13317,14 +13430,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>Layout</title>
 
-          <para>This menu-item provides an automatic diagram layout 
-          function, i.e. when activating this menu-item, all items on 
-          the current class diagram are rearranged according a certain 
-          layout algorithm.</para>
+          <para>
+          	Dieses Menüelement enthält eine automatische Diagramm-Layoutfunktion. 
+          	Wenn Sie z.B. dieses Menüelement aktivieren, werden alle Elemente 
+          	des aktuellen Klassendiagrammes entsprechend bestimmter 
+          	Layoutalgorithmen neu angeordnet.
+          </para>
 
-          <para>This function currently only works for classdiagrams. 
-          For all other types of diagrams, the menu-item is 
-          downlighted.</para>
+          <para>
+          	Diese Funktion arbeitet aktuell nur bei Klassendiagrammen. Bei allen 
+          	anderen Diagrammtypen ist dieses Menüelement deaktiviert.
+          </para>
 
         </sect2>
 
@@ -13332,98 +13448,123 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title>The Generation Menu</title>
+        <title>Das Menü Generieren</title>
 
-        <para>This menu provides support for code generation from UML 
-        diagrams. The functionality is built around the structural 
-        information of class diagrams.</para>
+        <para>
+        	Dieses Menü enthält die Funktionen für die Codegenerierung aus 
+        	UML-Diagrammen. Diese Funktionalität baut auf den strukturellen 
+        	Informationen der Klassendiagramme auf.
+        </para>
 
         <note>
 
-          <para>Without any plugin modules installed, ArgoUML supports 
-          only code generation of Java. ArgoUML V0.20 supports the 
-          following languages by plugin: C#, C++, php4, php5.</para>
+          <para>
+          	Ohne installierte Plugin-Module unterstützt ArgoUML nur die 
+          	Codegenerierung mit Java. ArgoUML V0.20 unterstützt die folgenden 
+          	Sprachen per Plugin: C#, C++, php4, php5.
+          </para>
 
         </note>
 
         <warning>
 
-          <para>Code generation is still very much a work in progress. 
-          The current version of ArgoUML will generate a structural 
-          template for your code, but is not able to handle behavioral 
-          specifications to generate code for the dynamic behavior of 
-          the model.</para>
+          <para>
+          	Codegenerierung ist natürlich eine sehr fortschrittsbezogene Arbeit. 
+          	Die aktuelle Version von ArgoUML wird ein strukturelles Template für 
+          	Ihren Code generieren, aber es ist nicht in der Lage mit der 
+          	Verhaltens-Spezifikationen umzugehen, um Code für das dynamische 
+          	Verhalten des Modelles zu generieren.
+          </para>
 
         </warning>
 
         <sect2 id="s2.ref.menu_generate_selected_classes">
 
-          <title>Generate Selected Classes ...</title>
+          <title>Markierte Klassen generieren ...</title>
 
-          <para>This menu entry brings up a dialog box for the ArgoUML 
-          code generator (see 
-          <xref linkend="fig.ref.menu_generate_selected_classes"/>
-          ).</para>
+          <para>
+          	Dieser Menüeintrag öffnet den Dialog für den ArgoUML-Codegenerator 
+          	(siehe
+          	<xref linkend="fig.ref.menu_generate_selected_classes"/>
+          	).
+          </para>
 
           <figure id="fig.ref.menu_generate_selected_classes">
 
-            <title>The dialog for <literal>Generate Selected 
-            Classes...</literal>.</title>
+            <title>
+				Der Dialog für <literal>Markierte Klassen 
+            	generieren ...</literal>.
+            </title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_generate_dialog.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_generate_dialog.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
-          <para>Below a label <literal>Available Classes</literal> the 
-          dialog box lists each of the selected classes by name with a 
-          check box to the left, for each language installed. All the 
-          checkboxes are initially unchecked. Checking any of these 
-          boxes will cause code generation for that class. Checking 
-          multiple languages for a class causes it to be generated in 
-          all these languages.</para>
+          <para>
+          	Neben der Beschriftung <literal>Verfügbare Klassen</literal> listet 
+          	der Dialog für jede installierte Sprache alle markierten Klassen 
+          	namentlich auf, mit einem Markierfeld auf der linken Seite. Alle 
+          	Markierfelder sind beim ersten Mal nicht markiert. Das Markieren 
+          	eines Markierfeldes veranlasst die Codegenerierung für diese Klasse. 
+          	Das Markieren mehrerer Sprachen für eine Klasse veranlasst, dass 
+          	die Klasse in all diesen Sprachen generiert wird.
+          </para>
 
-          <para>The buttons <literal>Select All</literal> and <literal>
-          Select None</literal> may help when a lot of items have to be 
-          selected or deselected.</para>
+          <para>
+          	Die Schaltflächen <literal>Alles markieren</literal> und <literal>
+          	Nichts markieren</literal> kann helfen, wenn sehr viele Elemente 
+          	markiert oder deren Markierung entfernt werden sollen.
+          </para>
 
-          <para>In the lower portion of the dialog box is an editable 
-          combo box labeled <literal>Output Directory</literal> to 
-          specify the directory in which code is generated. Within this 
-          directory, a top level directory will be created with the 
-          name of the model. Further sub-directories will be created to 
-          reflect the package/namespace hierarchy of the model. A drop 
-          down selector gives access to previously selected output 
-          directories.</para>
+          <para>
+          	Der untere Teil des Dialoges ist ein editierbares Kombinationsfeld 
+          	mit der Beschriftung <literal>Ausgabeverzeichnis</literal>, um 
+          	das Verzeichnis festzulegen, in das der Code generiert wird. 
+          	Innerhalb dieses Verzeichnisses wird ein Oberverzeichnis mit dem 
+          	Namen des Modelles erstellt. Weitere Unterverzeichnisse werden 
+          	erzeugt, welche die Hierarchie der Pakete/Namensräume des Modelles 
+          	reflektieren. Ein Pull-down-Menü erlaubt den Zugriff auf vorher 
+          	verwendete Ausgabeverzeichnisse.
+          </para>
 
-          <para>Finally, at the bottom of the dialog box are two 
-          buttons, labeled <literal>Generate</literal> and <literal>
-          Cancel</literal>. Button&nbsp;1 click on the former will cause the 
-          code to be generated, button&nbsp;1 click on the latter will 
-          cancel code generation.</para>
-
-        </sect2>
-
-        <sect2>
-
-          <title>Generate All Classes...</title>
-
-          <indexterm><primary>Generate All Classes</primary></indexterm>
-          <indexterm><primary>Shortcut 
-          key</primary><secondary>F7</secondary></indexterm>
-          <para>Shortcut F7.</para>
-
-          <para>This function behaves as <literal>
-          Generate Selected Classes...</literal> (see 
-          <xref linkend="s2.ref.menu_generate_selected_classes"/>) 
-          would with all classes in the current diagram selected.</para>
+          <para>
+          	Am Ende des Dialoges befinden sich zwei Schaltflächen, die mit 
+          	<literal>Generieren</literal> und <literal>Abbrechen</literal> 
+          	beschriftet sind. Ein Taste&nbsp;1-Klick auf die erstgenannte wird 
+          	die Codegenerierung auslösen, ein Taste&nbsp;1-Klick auf die 
+          	zuletzt genannte wird die Codegenerierung abbrechen.
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Generate Code for Project... (To be Written)</title>
+          <title>Alle Klassen generieren...</title>
+
+          <indexterm><primary>Alle Klassen generieren</primary></indexterm>
+          <indexterm><primary>Tastenkürzel 
+          </primary><secondary>F7</secondary></indexterm>
+          <para>Tastenkürzel F7.</para>
+
+          <para>
+          	Diese Funktion verhält sich wie <literal>Markierte Klassen 
+          	generieren...</literal> (siehe 
+          	<xref linkend="s2.ref.menu_generate_selected_classes"/>) als wären 
+          	alle Klassen im aktuellen Diagramm markiert. 
+          </para>
+
+        </sect2>
+
+        <sect2>
+
+          <title>Gesamtes Projekt generieren... (Noch zu beschreiben)</title>
 
           <para />
 
@@ -13431,8 +13572,10 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Settings for Generate for Project... (To be 
-          Written)</title>
+          <title>
+          	Einstellungen zur Codegenerierung im Projekt... (Noch zu
+          	beschreiben)
+          </title>
 
           <para />
 
@@ -13442,94 +13585,121 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1 id="s1.ref.menu_critique">
 
-        <title>The Critique Menu</title>
+        <title>Das Menü Kritiken</title>
 
-        <para>This menu controls one of ArgoUML&apos;s unique 
-        features&mdash;the use of critics to guide the designer. The theory 
-        behind this is well described in Jason Robbins&apos; PhD 
-        dissertation 
-        <ulink url="http://argouml.tigris.org/docs/robbins_dissertation/">
-        http://argouml.tigris.org/docs/robbins_dissertation/</ulink>.</para>
+        <para>
+        	Dieses Menü steuert eines von ArgoUML&apos;s 
+        	Alleinstellungsmerkmalen; die Verwendung von Kritiken, um den 
+        	Designer anzuleiten. Die dahinterstehende Theorie ist ausführlich 
+        	in Jason Robbins&apos; PhD-Dissertation beschrieben 
+        	<ulink url="http://argouml.tigris.org/docs/robbins_dissertation/">
+        	http://argouml.tigris.org/docs/robbins_dissertation/</ulink>.
+        </para>
 
         <note>
 
-          <para>A word about terminology: The 
-          <emphasis>critics</emphasis> are background processes, which 
-          evaluate the current model according to various 
-          <quote>good</quote> design criteria. There is one critic for 
-          every design criterion.</para>
+          <para>
+          	Ein Wort zur Terminilogie: Die <emphasis>Kritiken</emphasis> sind 
+          	Hintergrundprozesse, die das aktuelle Modell anhand verschiedener 
+          	<quote>guter</quote> Designkriterien überprüfen. Es gibt jeweils 
+          	eine Kritik für jedes Designkriterium.
+          </para>
 
-          <para>The output of a critic is a 
-          <emphasis>critique</emphasis>&mdash;a statement about some aspect 
-          of the model that does not appear to follow good design 
-          practice.</para>
+          <para>
+          	Die Ausgabe einer Kritik ist eine <emphasis>kritische Beschreibung
+          	</emphasis>&mdash; eine Ausführung zu einigen Aspekten des Modelles, 
+          	die nicht der guten Designpraxis zu folgen scheinen. 
+          </para>
 
-          <para>Finally a critique will generally suggest how the bad 
-          design issue it has identified can be rectified, by raising a 
-          <emphasis>to-do item</emphasis>.</para>
+          <para>
+          	Zum Schluss wird die kritische Beschreibung generell durch ein 
+          	hochgestelltes <emphasis>"zu bearbeiten"-Element </emphasis> 
+          	empfehlen, wie der identifizierte, schlechte Designansatz berichtigt 
+          	werden kann.
+          </para>
 
         </note>
 
         <note>
 
-          <para>The critics run as asynchronous processes in parallel 
-          with the main ArgoUML tool. Changes typically take a second 
-          or two to propagate as the critics wake up.</para>
+          <para>
+          	Die Kritiken sind asynchrone Prozesse die parallel zum Hauptprozess 
+          	von ArgoUML ablaufen. Änderungen benötigen üblicherweise eine oder 
+          	zwei Sekunden bis die Kritiken verfügbar sind.
+          </para>
 
         </note>
 
         <sect2>
 
-          <title>Toggle Auto-Critique</title>
+          <title>Kritiken ein-/ausschalten</title>
 
-          <para>This is a check box, controlling whether the critics 
-          are running. By default it is checked. If unchecked, then all 
-          critics are disabled, and any to-do items generated by 
-          critics (the only others being those the designer has added 
-          by hand) are hidden in the to-do pane.</para>
+          <para>
+          	Dies ist ein Markierfeld, welches steuert, ob die Kritiken 
+          	eingeschaltet sind. Standardmäßig ist das Feld markiert. Ist es 
+          	nicht markiert, sind alle Kritiken ausgeschaltet und jedes, durch 
+          	die Kritiken generierte "zu bearbeiten"-Element (alle, außer den 
+          	vom Designer von Hand erstellten) wird im "Zu bearbeiten"-Fenster 
+          	versteckt.
+          </para>
 
         </sect2>
 
         <sect2 id="s2.ref.menu_design_issues">
 
-          <title>Design Issues...</title>
+          <title>Design-Wichtungen...</title>
 
-          <para>This menu entry brings up a dialog box controlling how 
-          critics associated with a particular design area are to be 
-          handled (see <xref linkend="fig.ref.menu_design_issues"/>
-          ).</para>
+          <para>
+          	Dieser Menüeintrag öffnet einen Dialog, der steuert, wie die mit 
+          	einem bestimmten Designbereich verknüpften Kritiken angewendet 
+          	werden (siehe <xref linkend="fig.ref.menu_design_issues"/>).
+          </para>
 
           <figure id="fig.ref.menu_design_issues">
 
-            <title>The dialog for <literal>
-            Design Issues...</literal>.</title>
+            <title>
+				Der Dialog für <literal>Design-Wichtungen...</literal>.
+			</title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_design_issues.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_design_issues.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
-          <para>ArgoUML categorizes critics according the the design 
-          issue they address. There are 16 such categories. The critics 
-          in each category are discussed in detail in the chapter on 
-          critics (<xref linkend="ch.ref.critics"/>).</para>
+          <para>
+          	ArgoUML kategorisiert Kritiken je nachdem wie die Designwichtungen 
+          	diese adressieren. Es gibt 16 solcher Kategorien. Die Kritiken in 
+          	jeder Kategorie werden detailliert im Kapitel über Kritiken (
+          	<xref linkend="ch.ref.critics"/>) diskutiert.
+          </para>
 
-          <para>The sliders may be set for each category to control the 
-          critics that trigger for that category. Setting a slider to 
-          <literal>Off</literal> will disable all critics in that 
-          category, and remove all associated to-do items from the 
-          to-do pane.</para>
+          <para>
+          	Die Schieberegler können für jede Kategorie eingestellt werden, um 
+          	die Kritiken zu steuern, die in dieser Kategorie ausgelöst werden. 
+          	Das verschieben eines Reglers auf <literal>Aus</literal> schaltet 
+          	alle Kritiken dieser Kategorie ab und entfernt alle damit verbundenen 
+          	"zu bearbeiten"-Elemente aus dem "Zu bearbeiten"-Fenster.
+          </para>
 
-          <para>Setting a slider to a higher priority value will enable 
-          all critics at or above that priority level within the design 
-          issue category (<literal>Off</literal> being the lowest 
-          priority).</para>
+          <para>
+          	Das Einstellen des Reglers auf einen höher priorisierten Wert, wird 
+          	alle auf oder über dieser Priorität befindlichen Kritiken innerhalb 
+          	der Design...kategorie freischalten (<literal>Aus</literal> ist die 
+          	niedrigste Priorität)
+          </para>
 
           <note>
 
-            <para>The sliders are set by default to <literal>
-            High</literal> for all design categories.</para>
+            <para>
+            	Die Regler sind für alle Designkategorien standardmäßig auf 
+            	<literal>Hoch</literal> eingestellt.
+            </para>
 
           </note>
 
@@ -13537,58 +13707,79 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Design Goals...</title>
+          <title>Design Ziele...</title>
 
-          <para>This menu entry brings up a dialog box controlling how 
-          design goals are to be handled (see 
-          <xref linkend="fig.ref.menu_design_goals"/>).</para>
+          <para>
+          	Dieser Menüeintrag öffnet einen Dialog, der steuert, wie Designziele 
+          	behandelt werden (siehe <xref linkend="fig.ref.menu_design_goals"/>).
+          </para>
 
           <figure id="fig.ref.menu_design_goals">
 
-            <title>The dialog for <literal>
-            Design Goals...</literal>.</title>
+            <title>
+            	Der Dialog für <literal>Design Ziele...</literal>.
+            </title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_design_goals.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_design_goals.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
-          <para>ArgoUML has the concept that the designer will have a 
-          number of design goals to be achieved (for example good 
-          structural representation, detailed behavioral representation 
-          etc). Critics are associated with one or more goals.</para>
+          <para>
+          	ArgoUML verfolgt das Konzept, dass Designer eine Anzahl von 
+          	Designzielen haben, die sie erreichen wollen (zum Beispiel eine 
+          	gute strukturelle Darstellung, eine detaillierte 
+          	Verhaltensdarstellung usw.). Kritiken sind mit einem oder mehreren 
+          	Zielen verknüpft.
+          </para>
 
-          <para>This dialog allows the user to specify the priority of 
-          each design goal.</para>
+          <para>
+          	Dieser Dialog erlaubt es dem Benutzer, die Priorität eines jeden 
+          	Designzieles zu spezifizieren.
+          </para>
 
-          <para>The sliders may be set for each design goal to control 
-          the critics that trigger for that goal. Setting a slider to 
-          zero will disable all critics in that goal, and remove all 
-          associated to-do items from the to-do pane.</para>
+          <para>
+          	Um die Kritiken, die das jeweilige Ziel beeinflussen zu steuern, 
+          	können die Schieberegler für jedes Designziel eingestellt werden. 
+          	Das Einstellen des Reglers auf Null, wird alle Kritiken dieses 
+          	Zieles ausschalten und alle damit verknüpften "Zu bearbeiten"-
+          	Elemente aus dem "Zu bearbeiten"-Fenster entfernen.
+          </para>
 
-          <para>Setting a slider to a higher value will enable all 
-          critics at or above that priority level within the design 
-          issue category (1 being the highest priority and 5 the 
-          lowest).</para>
+          <para>
+          	Die Einstellung eines Reglers auf einen höheren Wert wird alle 
+          	Kritiken auf oder über der Priorität innerhalb der 
+          	Designwichtungskategorie freigeben (1 ist die höchste und 5 die 
+          	niedrigste Priorität).
+          </para>
 
           <tip>
 
-            <para>It may be useful to think of this function as very 
-            similar to <literal>Design Issues...</literal> (see 
-            <xref linkend="s2.ref.menu_design_issues"/>), but with 
-            grouping of critics according to the outcomes of OOA&amp;D 
-            rather than grouping according to the structure of 
-            UML.</para>
+            <para>
+            	Es kann nützlich sein, über diese Funktion ähnlich zu denken wie 
+            	bei <literal>Design-Wichtungen</literal>  
+            	(siehe <xref linkend="s2.ref.menu_design_issues"/>), 
+            	aber mit der Gruppierung der Kritiken gemäß dem Ergebnis der 
+            	OOA&amp;D und nicht mit der Gruppierung gemäß der Struktur der 
+            	UML.
+            </para>
 
           </tip>
 
           <warning>
 
-            <para>The V0.20 version of ArgoUML provides a single design 
-            goal, <literal>Unspecified</literal>, with its slider set 
-            by default to priority 1. However it contains no critics 
-            and so has no effect.</para>
+            <para>
+            	Die Version 0.20 von ArgoUML enthält ein einziges Designziel mit 
+            	der Bezeichnung <literal>Nicht spezifiziert</literal>. Der 
+            	Regler ist standardmäßig auf die Priorität 1 eingestellt. Jedoch 
+            	enthält es keine Kritiken und hat somit keine Auswirkungen.
+            </para>
 
           </warning>
 
@@ -13596,151 +13787,194 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2 id="s2.ref.menu_browse_critics">
 
-          <title>Browse Critics...</title>
+          <title>Kritiken anzeigen...</title>
 
-          <para>This menu entry brings up a dialog box controlling the 
-          individual critics (see 
-          <xref linkend="fig.ref.menu_browse_critics"/>).</para>
+          <para>
+          	Dieser Menüeintrag öffnet einen Dialog, der die individuellen 
+          	Kritiken steuert (siehe 
+          	<xref linkend="fig.ref.menu_browse_critics"/>).
+          </para>
 
           <figure id="fig.ref.menu_browse_critics">
 
-            <title>The dialog for <literal>
-            Browse Critics...</literal>.</title>
+            <title>
+            	Der Dialog für <literal>Kritiken anzeigen...</literal>.
+            </title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_browse_critics.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_browse_critics.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
-          <para>This dialog controls the behavior of individual 
-          critics. To the left is a list of all the critics, to enable 
-          them to be switched on or off individually. For each critic 
-          there are three columns, labeled <literal>Active</literal>, 
-          <literal>Headline</literal> and <literal>Snoozed</literal>. 
-          The first of these is a check box, which may be toggled with 
-          button&nbsp;1 click. The second is the headline name of the 
-          critic, the third indicates if the critic has been snoozed 
-          from the to-do pane (see <xref linkend="ch.ref.todopane"/>. A 
-          critic is only really active if the box in the first column 
-          is checked <emphasis>and</emphasis> the critic has not been 
-          snoozed.</para>
+          <para>
+          	Dieser Dialog steuert das Verhalten der einzelnen Kritiken. Links 
+          	befindet sich eine Liste aller Kritiken, um diese individuell ein- 
+          	oder ausschalten zu können. Für jede Kritik gibt es drei Spalten, 
+          	beschriftet mit <literal>Aktiv</literal>, <literal>Titel</literal> 
+          	und <literal>deaktiviert</literal>. Die erste davon ist ein 
+          	Markierfeld, das mit Taste&nbsp;1-Klicks verändert werden kann. Die 
+          	zweite ist der Titel der Kritik und die dritte zeigt an, wenn die 
+          	Kritik im "Zu bearbeiten"-Fenster deaktiviert wurde (siehe 
+          	<xref linkend="ch.ref.todopane"/>. Eine Kritik ist nur dann wirklich 
+          	aktiv, wenn das Markierfeld in der ersten Spalte markiert ist 
+          	<emphasis>und</emphasis> die Kritik nicht deaktiviert wurde.
+          </para>
 
-          <para>Any critic for which the box in the first column is 
-          unchecked is inactive and will not trigger. In addition any 
-          to-do items associated with that critic will be removed from 
-          the to-do pane.</para>
+          <para>
+          	Jede Kritik, bei der das Markierfeld in der ersten Spalte nicht 
+          	markiert ist, ist inaktiv und wird nicht ausgelöst. Zusätzlich wird 
+          	jedes, mit dieser Kritik verknüpfte "Zu bearbeiten"-Element aus dem 
+          	"Zu bearbeiten"-Fenster entfernt.
+          </para>
 
-          <para>The V0.20 version of ArgoUML has a total of 90 critics, 
-          a few of which are incompletely implemented. They are 
-          described in detail by design issue category in the chapter 
-          on critics (see <xref linkend="ch.ref.critics"/>).</para>
+          <para>
+          	Die Version 0.20 von ArgoUML umfasst 90 Kritiken, einige davon sind 
+          	unvollständig implementiert. Sie sind je Designwichtungskategorie 
+          	im Kapitel Kritiken detailliert beschrieben (siehe 
+          	<xref linkend="ch.ref.critics"/>).
+		  </para>
 
-          <para>To the right of the list are a series of fields, titled 
-          <literal>Critic Details</literal>, giving detailed control 
-          over individual critics. Selecting a critic in the list on 
-          the left will populate the fields for that critic.</para>
+          <para>
+          	Rechts von der Liste gibt es eine Reihe von Feldern, mit 
+          	<literal>Details Kritik</literal> bezeichnet, die eine detaillierte 
+          	Kontrolle über die einzelnen Kritiken gibt. Das Markieren einer 
+          	Kritik in der linken Liste wird die Felder für diese Kritik befüllen.
+          </para>
 
-          <para>The first field on the right is titled <literal>Critic 
-          Class:</literal> and then the full name of the class in 
-          ArgoUML that implements the critic. This name can be used as 
-          unique identifier of the critique, e.g. in conversations 
-          about the critic.</para>
+          <para>
+          	Das erste Feld rechts ist mit <literal>Klasse:</literal> bezeichnet.
+          	Darauf folgt der vollständige Name der Klasse in ArgoUML, welche die 
+          	Kritik implementiert. Dieser Name kann aus eindeutiger Bezeichner 
+          	für diese Kritik verwendet werden, z.B. bei der Kommunikation über 
+          	diese Kritik.
+          </para>
 
-          <para>The first field below this title is a text box labeled 
-          <literal>Headline:</literal> giving the complete headline of 
-          the critic (which may be truncated in the list on the 
-          left).</para>
+          <para>
+          	Das erste Feld danach ist ein Textfeld mit der Beschriftung 
+          	<literal>Titel:</literal>. Dieses Textfeld beinhaltet den 
+          	vollständigen Titel der Kritik (der in der linken Liste abgeschnitten  
+          	sein kann).
+          </para>
 
           <note>
 
-            <para>In the headline you may see the text <literal>
-            &lt;ocl&gt;self&lt;/ocl&gt;</literal>, which will be 
-            replaced by the name of the model element in question when the 
-            critic is triggered.</para>
+            <para>
+            	Im Titel können Sie den Text <literal>&lt;ocl&gt;self&lt;/ocl&gt;
+            	</literal> sehen, der durch den Namen des in Frage kommenden 
+            	Modellelementes ersetzt wird, wenn die Kritik ausgelöst wird. 
+            </para>
 
           </note>
 
-          <para>The next field is a drop-down selector, labeled 
-          <literal>Priority:</literal>. The three options available are 
-          <literal>High</literal>, <literal>Medium</literal> and 
-          <literal>Low</literal> and specify the priority category of 
-          any to-do item generated by this critic. This does not alter 
-          the priority of the already existing todo items, only the 
-          newly generated ones. Changing the priority of a critic is 
-          not saved persistently.</para>
+          <para>
+          	Das nächste Feld ist ein mit <literal>Priorität</literal> 
+          	beschriftetes Pull-down-Menü. Die drei verfügbaren Optionen sind 
+          	<literal>Hoch</literal>, <literal>Mittel</literal> und <literal>
+          	Niedrig</literal> und spezifizieren die Prioritätskategorie eines 
+          	jeden "Zu bearbeiten"-Elementes dieser Kritik. Dies ändert nich die 
+          	Priorität bereits existierender "Zu bearbeiten"-Elemente. Nur die 
+          	neu generierten. Die Änderung der Priorität einer Kritik wird nicht 
+          	dauerhaft gespeichert.
+          </para>
 
-          <para>The next field is labeled <literal>MoreInfo:</literal> 
-          and contains a URL pointing to further information with a 
-          button to the right labeled <literal>Go</literal> to navigate 
-          to that URL.</para>
+          <para>
+          	Das nächste Feld ist mit <literal>Mehr Informationen:</literal> 
+          	beschriftet und enthält eine URL, die auf weitergehende Informationen 
+          	zeigt. Mit der rechts befindlichen Schaltfläche <literal>Gehe zu
+          	</literal> können Sie zu dieser URL springen.
+          </para>
 
           <warning>
 
-            <para>In the V0.20 release of ArgoUML there is no further 
-            information available, and the <literal>Go</literal> button 
-            is always grayed out and disabled.</para>
+            <para>
+            	In der Version 0.20 von ArgoUML sind keine weitergehende 
+            	Informationen verfügbar und die Schaltfläche <literal>Gehe zu
+            	</literal> ist deaktiviert.
+            </para>
 
           </warning>
 
-          <para>The next field is labeled <literal>
-          Description:</literal> and is a text area with a detailed 
-          explanation of what this critic means. If the text is too 
-          large for the area a scroll bar is provided to the 
-          right.</para>
+          <para>
+          	Das nächste Textfeld ist mit <literal>Beschreibung:</literal> 
+          	bezeichnet und ist ein Textbereich mit einer detaillierten 
+          	Beschreibung dessen, was die Kritik bedeutet. Ist der Text zu gross 
+          	für den Bereich, erscheint auf der rechten Seite ein Schieberegler.
+          </para>
 
           <note>
 
-            <para>In this text area you may see the text <literal>
-            &lt;ocl&gt;self&lt;/ocl&gt;</literal>, which will be 
-            replaced by the name of the model element in question when the 
-            critic is triggered.</para>
+            <para>
+            	In diesem Textbereich können Sie den Text <literal>
+            	&lt;ocl&gt;self&lt;/ocl&gt;</literal> vorfinden, der durch den 
+            	Namen des in Frage kommenden Modellelementes ersetzt wird, wenn 
+            	die Kritik ausgelöst wird.
+            </para>
 
           </note>
 
-          <para>The last field is a drop-down selector labeled <literal>
-          Use Clarifier</literal>, with three options, <literal>
-          Always</literal>, <literal>If Only One</literal> and <literal>
-          Never</literal>.</para>
+          <para>
+          	Das letzte Feld ist ein mit <literal>Verwende Kennzeichen:</literal> 
+          	beschriftetes Pull-down-Menü, mit drei Optionen: <literal>Immer
+          	</literal>, <literal>Wenn, nur eines</literal> und <literal>Nie
+          	</literal>.
+          </para>
 
-          <para>Clarifiers are the icons and wavy red underlines drawn 
-          on the actual diagrams to indicate the artefact to which the 
-          critic refers. The original intention was to make the mapping 
-          from critics to clarifiers somewhat customizable.</para>
+          <para>
+          	Kennzeichen sind Symbole und rote Wellenlinien in aktuellen 
+          	Diagrammen, um den Artefakt zu kennzeichnen, auf den sich die Kritik 
+          	bezieht. Die ursprüngliche Absicht war es, die Verbindung zwischen 
+          	den Kritiken und den Kennzeichen etwas flexibler zu machen.
+          </para>
 
-          <para>For example one user might make a <literal>Missing 
-          Name</literal> critic show a red underline, another user 
-          might turn off the clarifier, or have it draw a wavy green 
-          underline or a blue questionmark. Critics with their 
-          clarifier&apos;s disabled would still produce feedback that 
-          is listed in the to-do pane.</para>
+          <para>
+          	Ein Benutzer möchte z.B. die Kritik <literal>Fehlender Name
+          	</literal> mit einem roten Unterstrich angezeigt bekommen, ein 
+          	anderer Benutzer möchte die Kennzeichen ausschalten oder mit einer 
+          	grünen Wellenlinie oder einem blauen Fragezeichen bezeichnet haben. 
+          	Kritiken, bei denen die Kennzeichen ausgeschaltet sind, würden 
+          	immer noch im "Zu bearbeiten"-Fenster aufgelistetes Feedback 
+          	erzeugen.
+          </para>
 
           <caution>
 
-            <para>In the V0.20 release of ArgoUML this selector has no 
-            function whatsoever. It is for future development.</para>
+            <para>
+            	In der Release V0.20 von ArgoUML hat diese Auswahl keine 
+            	Funktion. Sie ist für die künftige Entwicklung.
+            </para>
 
           </caution>
 
-          <para>Underneath the fields are three buttons in a horizontal 
-          row.</para>
+          <para>
+          	Unterhalb der Felder befinden sich drei Schaltflächen in einer 
+          	horizontalen Reihe.
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><literal>Wake</literal>. It is possible to snooze a 
-              critic from the to-do pane (see 
-              <xref linkend="ch.ref.todopane"/>), which makes the 
-              critic inactive for a period. If the critic has been 
-              snoozed, this button is enabled and will wake the critic 
-              back up again. Otherwise it is grayed out.</para>
+              <para>
+              <literal>Aktivieren</literal>.
+              Es ist möglich, eine Kritik im "Zu bearbeiten"-Fenster zu 
+              deaktivieren ( siehe <xref linkend="ch.ref.todopane"/>), was die 
+              Kritik für eine bestimmte Zeit ausschaltet. Wenn die Kritik 
+              deaktiviert wurde, wird diese Schaltfläche aktiviert und wird 
+              die Kritik wieder aktivieren. Ansonsten ist sie deaktiviert. 
+              </para>
 
               <tip>
 
-                <para>You can tell a snoozed critic, because in the 
-                list on the left it will be indicated in the third 
-                column.</para>
+                <para>
+                	Sie können eine deaktivierte Kritik erkennen, da dies in der 
+                	linken Liste in der dritten Spalte angezeigt wird.
+                </para>
 
               </tip>
 
@@ -13748,14 +13982,17 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <para><literal>Configure</literal>. This button is for 
-              configuring the critic.</para>
+              <para>
+              	<literal>Konfigurieren</literal>.
+              	Diese Schaltfläche dient dem Konfigurieren der Kritik. 
+              </para>
 
               <caution>
 
-                <para>In the V0.20 version of ArgoUML this function is 
-                not implemented, and this button is always grayed out. 
-                It is for future development.</para>
+                <para>
+                	In der Version 0.20 von ArgoUML ist diese Funktion nicht 
+                	implementiert und diese Schaltfläche immer deaktiviert.
+                </para>
 
               </caution>
 
@@ -13763,36 +14000,45 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <para><literal>Edit Network</literal>. Right now critics 
-              are implemented in java code. That means end-users cannot 
-              add new critics.</para>
+              <para>
+              	<literal>Editiere Netzwerk</literal>.
+              	Jetzt sind die Kritiken in Java implementiert. Das bedeutet, 
+              	dass der Endanwender keine neuen Kritiken hinzufügen kann. 
+              </para>
 
-              <para>The idea of a critic network is that they would be 
-              a state machine like diagram with several steps. Each 
-              step would express a condition which, collectively with 
-              the other steps associated with that critic, articulates 
-              the <quote>rule</quote> that the critic is providing. If 
-              the rule fires, then remaining steps would define the 
-              steps of the wizard to help the user fix the 
-              problem.</para>
+              <para>
+              	Die Idee eines Kritik-Netzwerkes ist, dass es einen 
+              	Zustandsautomaten gibt, ähnlich einem Diagramm mit mehreren 
+              	Schritten. Jeder Schritt würde eine Bedingung ausdrücken, die 
+              	zusammen mit den Schritten mit dieser Kritik verknüpft wird und 
+              	die <quote>Regel</quote> beschreibt, welche die Kritik enthält. 
+              	Wenn die Regel geprüft wird, dann würden die verbleibenden 
+              	Schritte die Aktivitäten des Wizard definieren, um dem Anwender 
+              	beim Beheben des Problemes zu helfen.
+              </para>
 
-              <para>The ideas behind this are discussed in Chapter 4 of 
-              Jason Robbins PhD disseration (
-              <ulink url="http://argouml.tigris.org/docs/robbins_dissertation/diss4.html">http://argouml.tigris.org/docs/robbins_dissertation/diss4.html</ulink>. 
-              In particular look at Figure 1-6 in this chapter and the 
-              related discussion.</para>
+              <para>
+              	Die dahinter stehenden Ideen werden im Kapitel 4 von Jason 
+              	Robbins PhD Dissertation diskutiert (
+                <ulink url="http://argouml.tigris.org/docs/robbins_dissertation/diss4.html">http://argouml.tigris.org/docs/robbins_dissertation/diss4.html</ulink>. 
+                Einen Ausschnitt finden sie in den Bildern 1-6 in diesem 
+                Kapitel und der dazugehörigen Beschreibung.
+              </para>
 
-              <para>A suggested implementation is that the conditions 
-              could be written in OCL against the UML meta-model. A 
-              library of predefined conditions and steps would allow 
-              end-users to build new critics by combining those in 
-              novel ways.</para>
+              <para>
+              	Eine mögliche Implementierung ist, dass die Bedingungen gegen 
+              	das UML-Metamodell in OCL geschrieben werden können. Eine 
+              	Bibliothek vordefinierter Bedingungen und Schritte würde es dem 
+              	Endanwender erlauben, neue Kritiken durch deren Kombination zu 
+              	erzeugen.
+              </para>
 
               <caution>
 
-                <para>In the V0.20 version of ArgoUML this function is 
-                not implemented, and this button is always grayed out. 
-                It is for future development.</para>
+                <para>
+                	In der Version 0.20 von ArgoUML ist diese Funktion nicht 
+                	implementiert und diese Schaltfläche ist immer deaktiviert.
+                </para>
 
               </caution>
 
@@ -13800,9 +14046,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           </itemizedlist>
 
-          <para>Finally the bottom right of the dialog contains a 
-          button labeled <literal>OK</literal>. Button&nbsp;1 click here 
-          dismisses the dialog.</para>
+          <para>
+          	Die untere rechte Schaltfläche des Dialoges ist mit <literal>
+          	Schliessen</literal> beschriftet. Ein Taste&nbsp;1-Klick schliesst 
+          	den Dialog.
+          </para>
 
         </sect2>
 
@@ -13810,131 +14058,163 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1>
 
-        <title>The Tools Menu</title>
+        <title>Das Menü: Werkzeuge</title>
 
-        <para>This menu provides a generic menu attachment point for 
-        any plug-ins provided with ArgoUML. The standard system has no 
-        plug-in, and this menu entry 
-        is empty by 
-        default.</para>
+        <para>
+        	Dieses Menü enthält einen generieschen Menüerweiterungspunkt für die 
+        	in ArgoUML enthaltenen Plugins. Das Standardsystem hat kein Plugin 
+        	und dieser Menüeintrag ist standardmäßig leer.
+        </para>
 
       </sect1>
 
       <sect1>
 
-        <title>The Help Menu</title>
+        <title>Das Menü: Hilfe</title>
 
-        <para>This menu provides help on the use of ArgoUML. It has two 
-        entries.</para>
+        <para>
+        	Diese Menü enthält Hilfen für den Gebrauch von ArgoUML. Es hat 
+        	zwei Einträge.
+        </para>
 
         <sect2>
 
-          <title>System Information</title>
+          <title>Systeminformation</title>
 
-          <para>This menu entry brings up the system information 
-          dialog, see <xref linkend="fig.ref.menu_help_system_info"/>
+          <para>
+          	Dieses Menü öffnet den Dialog Systeminformation, siehe 
+          	<xref linkend="fig.ref.menu_help_system_info"/>
           </para>
 
           <figure id="fig.ref.menu_help_system_info">
 
-            <title>The dialog for <literal>
-            System Information</literal>.</title>
+            <title>Der Dialog für <literal>
+            Systeminformation</literal>.</title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_help_system_info.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_help_system_info.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
-          <para>Use this menu to describe the system that runs ArgoUML 
-          to the system manager or developer. Pressing the button 
-          <literal>Run Garbage Collector</literal> not only runs the 
-          Java gargage collector, but also refreshes the information 
-          shown. To facilitate copy and paste into (e.g.) an email, the 
-          button <literal>Copy Information to System 
-          Clipboard</literal> is foreseen. The <literal>
-          Cancel</literal> button dismisses the dialog box.</para>
+          <para>
+          	Verwenden Sie dieses Menü, um das System für den Systemmanager oder 
+          	Entwickler zu beschreiben auf dem ArgoUML läuft. Das Drücken der 
+          	Schaltfläche <literal>Starte Speicherbereinigung (GC)</literal> 
+          	startet nicht nur den Java Garbage Collector sondern aktualisiert 
+          	auch die dargestellten Informationen. Um das Kopieren und Einfügen 
+          	in (z.B.) eine E-Mail zu unterstützen, dafür ist die Schaltfläche 
+          	<literal>In Zwischenablage kopieren</literal> vorgesehen. Die 
+          	Schaltfläche <literal>Schliessen</literal> schließt den Dialog.
+          </para>
 
         </sect2>
 
         <sect2 id="s2.ref.menu_help_about">
 
-          <title>About ArgoUML</title>
+          <title>Über ArgoUML</title>
 
-          <para>This menu entry brings up the help window for ArgoUML 
-          (see <xref linkend="fig.ref.menu_help"/>).</para>
+          <para>
+          	Dieser Menüeintrag öffnet das Hilfefenster von ArgoUML (siehe 
+          	<xref linkend="fig.ref.menu_help"/>).
+		  </para>
 
           <figure id="fig.ref.menu_help">
 
-            <title>The help window for ArgoUML</title>
+            <title>Das Hilfefenster von ArgoUML</title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/menu_help.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/menu_help.png" format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
-          <para>The window has six tabs, which are selected by button&nbsp;1 
-          click. By default the first tab (<literal>Splash</literal>) 
-          is shown.</para>
+          <para>
+          	Das Fenster weist sechs Register auf, die durch einen Taste&nbsp;1-
+          	Klick ausgewählt werden können. Standardmäßig wird das erste 
+          	Register (<literal>Startfenster</literal>) angezeigt.
+		  </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><literal>Splash</literal>. This displays the 
-              picture shown when ArgoUML starts up, and the current 
-              version number.</para>
+              <para>
+              	<literal>Startfenster</literal>. 
+              	Dies zeigt das Bild und die aktuelle Versionsnummer, welche 
+              	angezeigt werden, wenn ArgoUML hochfährt.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Version</literal>. This provides version 
-              information on the various packages that make up ArgoUML, 
-              and some operating system and environment 
-              information.</para>
+              <para>
+              	<literal>Version</literal>. 
+              	Dieses Register enthält die Versionsinformationen von den 
+              	verschiedenen Paketen aus denen ArgoUML besteht, sowie einigen 
+              	Betriebssystem- und Umgebungsinformationen.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Credits</literal>. This details all those 
-              who have created ArgoUML, including contact details for 
-              the various module owners.</para>
+              <para>
+              	<literal>Anerkennung</literal>.
+              	Dieses Register führt alle auf, die ArgoUML erstellt haben, 
+              	einschliesslich der Kontaktdaten für die verschiedenen 
+              	Modul-Eigentümer. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Contact Info</literal>. This gives the 
-              major contact points for the ArgoUML project&mdash;the web 
-              site, and the developers mailing list.</para>
+              <para>
+              	<literal>Kontakt</literal>.
+              	Dieses Register enthält die Haupt-Kontaktdaten für ArgoUML-
+              	Projekt-Webseite und der Entwickler-Mail-Listen. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Report bugs</literal>. This gives 
-              information about how to deal with bugs in ArgoUML. It is 
-              important that all bugs are reported, and all cooperation 
-              is appreciated.</para>
+              <para>
+              	<literal>Fehler mitteilen</literal>.
+              	Dieses Register gibt Ihnen Informationen, wie Sie mit Fehlern 
+              	in ArgoUML umgehen sollen. Es ist wichtig, dass alle Fehler 
+              	erfasst und jede Kooperation gewürdigt wird. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Legal</literal>. A statement of the 
-              FreeBSD license which covers all the ArgoUML 
-              software.</para>
+              <para>
+              	<literal>Recht</literal>. 
+              	Ein Auszug der FreeBSD-Lizenz, der die gesamte ArgoUML-Software 
+              	unterliegt.
+              </para>
 
               <caution>
 
-                <para>The various documentation of the project are not 
-                all covered by FreeBSD (which is really meant for 
-                software). In particular this manual is covered by the 
-                OpenPub license (see <xref linkend="app.legal"/>
-                ).</para>
+                <para>
+                	Die verschiedenen Projektdokumentationen unterliegen nicht 
+                	alle der FreeBSD-Lizenz (wie es für die Software der Fall 
+                	ist). Im speziellen unterliegt dieses Handbuch der 
+                	OpenPub-Lizenz (siehe <xref linkend="app.legal"/>).
+                </para>
 
               </caution>
 
@@ -13950,26 +14230,30 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
     <chapter id="ch.ref.navpane">
 
-      <title>The Explorer</title>
+      <title>Der Explorer</title>
 
       <indexterm><primary>Explorer</primary></indexterm>
       <indexterm>
-      <primary>Navigation</primary><secondary>Tree</secondary></indexterm>
+      <primary>Navigation</primary><secondary>Baum</secondary></indexterm>
       <indexterm>
-      <primary>Navigation</primary><secondary>Pane</secondary></indexterm>
+      <primary>Navigation</primary><secondary>Fenster</secondary></indexterm>
       <indexterm>
-      <primary>Navigator</primary><secondary>Tree</secondary></indexterm>
+      <primary>Navigator</primary><secondary>Baum</secondary></indexterm>
       <indexterm>
-      <primary>Navigator</primary><secondary>Pane</secondary></indexterm>
-      <para>The Explorer was previously called Navigation Pane/Tree or 
-      sometimes Navigator Pane/Tree.</para>
+      <primary>Navigator</primary><secondary>Fenster</secondary></indexterm>
+      <para>
+      	Der Explorer wurde vorher Navigationsfenster/-baum genannt oder machmal 
+      	Navigatorfester/-baum.
+      </para>
 
       <sect1>
 
-        <title>Introduction</title>
+        <title>Einleitung</title>
 
-        <para><xref linkend="fig.ref.navigation_pane"/> shows the 
-        ArgoUML window, with the explorer highlighted.</para>
+        <para>
+        	<xref linkend="fig.ref.navigation_pane" />
+        	zeigt das ArgoUML-Fenster mit dem hervorgehobenen Explorer.
+        </para>
 
         <figure id="fig.ref.navigation_pane">
           <!-- This diagram shows the navigation overview. 
@@ -13977,23 +14261,33 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           window, but with all except the explorer grayed out. This was
           done using GIMP with selected areas using Filters->Color->Map->
           Color Range Mapping from black to black & white to HSV 0,0,75.-->
-          <title>Overview of the explorer</title>
+          <title>Überblick über den Explorer</title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/navigator_pane.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+          	<mediaobject>
+          		<imageobject>
+          			<imagedata align="center"
+          				fileref="images/reference/navigator_pane.png"
+          				format="PNG" />
+          		</imageobject>
+          	</mediaobject>
+          </screenshot>
         </figure>
 
-        <para>The explorer allows the user to view the structure of the 
-        model from a number of predefined perspectives. It also allows 
-        the user to define their own perspetives for custom exploring 
-        of the model.</para>
+        <para>
+        	Der Explorer erlaubt es dem Anwender, die Struktur des Modelles in 
+        	einer Anzahl von vordefinierten Perspektiven zu betrachten. Er 
+        	erlaubt es den Anwendern auch, ihre eigenen Perspektiven für das 
+        	benutzerspezifische Erkunden des Modelles zu definieren.
+        </para>
 
-        <para>An important feature, related to the cognitive psychology 
-        ideas behind ArgoUML is that not all model elements are necessarily 
-        shown in all perspectives. Rather, the perspectives are used to 
-        implement hiding of uninteresting parts of the model.</para>
+        <para>
+        	An important feature, related to the cognitive psychology
+        	ideas behind ArgoUML is that not all model elements are
+        	necessarily shown in all perspectives. Rather, the
+        	perspectives are used to implement hiding of uninteresting
+        	parts of the model.
+        </para>
 
       </sect1>
 
