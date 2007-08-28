@@ -15145,101 +15145,129 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         </para>
 
         <para>
- The pane has a tool bar at the top, and a single tab labeled
- <literal>As Diagram</literal> at the bottom, which has 
-        no function in the 0.20 version of ArgoUML. The main area shows 
-        the currently selected diagram, of which the name is shown in 
-        the window title bar.
+        	Das Fenster hat oben eine Werkzeugleiste und unten ein einziges 
+        	mit <literal>Als Diagramm</literal> beschriftetes Register, das in 
+        	Version 0.20 von ArgoUML keine Funktion hat. Der Hauptbereich zeigt 
+        	das aktuell ausgewählte Diagramm, dessen Name in der Titelzeile des 
+        	Fensters angezeigt wird.
         </para>
 
       </sect1>
 
       <sect1 id="s1.ref.edit_mouse">
 
-        <title>Mouse Behavior in the Editing Pane</title>
+        <title>Das Verhalten der Maus im Editierfenster</title>
 
-        <para>Behavior of the mouse in general, and the naming of the 
-        buttons is covered in the chapter on the overall user interface 
-        (see <xref linkend="ch.ref.ui"/>).</para>
+        <para>
+        	Das generelle Verhalten der Maus und die Benennung der Tasten ist 
+        	im Kapitel Überblick über die Anwenderschnittstelle ausgeführt (
+        	siehe <xref linkend="ch.ref.ui"/>).
+		</para>
 
         <sect2>
 
-          <title>Button&nbsp;1 Click</title>
+          <title>Taste&nbsp;1-Klick</title>
 
-          <para>In the tool bar of the editing pane, button&nbsp;1 click is 
-          used to select a tool for creating a new model element and adding 
-          it to the diagram (see double clicking for creating multiple 
-          model elements). For most tools, adding a new model element to the 
-          diagram is achieved by moving the mouse into the editing area 
-          and clicking again.</para>
+          <para>
+          	In der Werkzeugleiste des Editierfensters wird der Taste&nbsp;1-Klick 
+          	dazu verwendet, ein Werkzeug für das Erstellen eines neuen 
+          	Modellelementes auszuwählen und dieses dem Diagramm hinzuzufügen (
+          	siehe Doppelklicken zum Erstellen mehrerer Modellelemente). Das 
+          	Hinzufügen eines neuen Modellelementes zum Diagramm wird bei den 
+          	meisten Werkzeugen durch bewegen der Maus in den Editierbereich und 
+          	erneutes klicken bewerkstelligt.
+          </para>
 
-          <para>In the main editing area button&nbsp;1 click is used to 
-          select an individual model element.</para>
+          <para>
+          	Im Haupteditierbereich wird der Taste&nbsp;1-Klick dazu verwendet, 
+          	ein individuelles Modellelement zu markieren.
+          </para>
 
-          <para>Many model elements (e.g. actor, class) show special handles 
-          when selected and the mouse hovers over them. These are 
-          called <quote>Selection Action Buttons</quote>, see 
-          <xref linkend="s1.ref.edit_pane_selection_action_buttons"/>. 
-          They appear at the sides, top and bottom, and indicate a 
-          relationship type. Clicking on a Selection Action Button 
-          creates a new related model element, with the relation of the type 
-          that was indicated. If the shift key is pressed when hovering 
-          the mouse over a selected model element, sometimes different 
-          handles are shown, which stand for different relation 
-          types.</para>
+          <para>
+          	Viele Modellelemente (z.B. Akteur, Klasse) zeigen spezielle 
+          	Verhaltensweisen, wenn sie markiert sind und die Maus darüber fährt. 
+          	Diese werden <quote>Auswahl-Aktionsschaltflächen</quote> genannt, 
+          	siehe <xref linkend="s1.ref.edit_pane_selection_action_buttons"/>.
+          	Sie erscheinen an den Seiten, oben und unten und geben einen 
+          	Beziehungstyp an. Klicken auf eine Auswahl-Aktionsschaltfläche 
+          	erstellt eine neues Modellelement mit einer Beziehung des angezeigten 
+          	Typs. Wenn die Umschalttaste gedrückt ist, wenn die Maus über ein 
+          	markiertes Modellelement fährt, werden manchmal unterschiedliche 
+          	Griffe angezeigt. Sie stehen für unterschiedliche Beziehungstypen. 
+          </para>
 
-          <para>Where button&nbsp;2 click has been used to bring up a 
-          context sensitive pop-up menu (see below), button&nbsp;1 click is 
-          used to select the menu entry required. The pop-up menu will 
-          be removed by any button&nbsp;1 click outside of the menu 
-          area.</para>
+          <para>
+          	Wo der Taste&nbsp;2-Klick verwendet wurde, um ein kontextsensitives 
+          	Popup-Menü zu öffnen (siehe unten), wird der Taste&nbsp;1-Klick 
+          	dazu verwendet, den gewünschten Menüeintrag auszuwählen. Das 
+          	Popup-Menü wird durch einen beliebigen Taste&nbsp;1-Klick ausserhalb 
+          	des Menübereiches entfernt.
+          </para>
 
-          <para>There are various more detailed effects, which are 
-          discussed under the descriptions of the various tools (see 
-          <xref linkend="s1.ref.edit_pane_tool_bar"/>).</para>
+          <para>
+          	Es gibt verschiedene noch detailliertere Effekte, die in den 
+          	Beschreibungen der verschiedenen Werkzeuge diskutiert werden (siehe 
+	        <xref linkend="s1.ref.edit_pane_tool_bar"/>).
+          </para>
 
         </sect2>
 
         <sect2 id="s2.ref.edit_button1_double_click">
 
-          <title>Button&nbsp;1 Double Click</title>
+          <title>Taste&nbsp;1-Doppelklick</title>
 
-          <para>When used on the tool bar with a tool to add a 
-          model element, the selected model element will be added multiple times 
-          to the drawing area, once for each further button click, 
-          until the tool is again selected or another tool 
-          chosen.</para>
+          <para>
+          	Wenn dies in der Werkzeugleiste mit einem Werkzeug zum Hinzufügen 
+          	eines Modellelementes verwendet wird, wird das markierte 
+          	Modellelement dem Zeichenbereich mehrmals hinzugefügt. Einmal für 
+          	jeden weiteren Tastenklick, bis das Werkzeug erneut markiert oder 
+          	ein anderes Werkzeug ausgewählt wird.
+          </para>
 
-          <para>When used within the drawing area on a model element that 
-          has sub-components, double click will select the 
-          sub-component for editing (creating it if necessary).</para>
+          <para>
+          	Wenn er innerhalb des Zeichenbereiches auf einem Modellelement mit 
+          	Subkomponenten verwendet wird, wird der Doppelklick die Subkomponente 
+          	zum Editieren auswählen (wenn notwendig, wird eine erstellt).
+          </para>
 
-          <para>For example double clicking over an operation 
-          compartment of a class will select the operation. Or create 
-          one if there is none yet.</para>
+          <para>
+          	Das Doppelklicken über einem Operationsbereich einer Klasse wird 
+          	die Operation auswählen. Oder eine erstellen, sofern noch keine 
+          	vorhanden ist.
+          </para>
 
-          <para>A special use is with package model elements on the class 
-          diagram. A double click on a package will navigate to the 
-          class diagram associated with a package (the first created if 
-          there is more than one), or will offer to create one for you 
-          if there is none. See 
-          <xref linkend="fig.ref.edit_add_class_diagram"/></para>
+          <para>
+          	Eine spezielle Anwendung gibt es mit Paket-Modellelementen im 
+          	Klassendiagramm. Ein Doppelklick auf ein Paket bringt Sie zu dem 
+          	mit einem Paket verknüpften Klassendiagramm (das erste wird erstellt, 
+          	wenn es mehr als eines gibt) oder bietet Ihnen an, eines für Sie zu 
+          	erstellen, wenn keines vorhanden ist. Siehe 
+          	<xref linkend="fig.ref.edit_add_class_diagram"/>
+          </para>
 
           <figure id="fig.ref.edit_add_class_diagram">
 
-            <title>The dialog for adding a new class diagram</title>
+            <title>
+            	Der Dialog für das Hinzufügen eines neuen
+            	Klassendiagrammes
+            </title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/edit_add_class_diagram.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/edit_add_class_diagram.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
         </sect2>
 
         <sect2>
 
-          <title>Button&nbsp;1 Motion</title>
+          <title>Taste&nbsp;1-Bewegung</title>
 
           <!-- This has never worked AFAIK!
           <para>When adding a model element using the toolbar, button&nbsp;1 
@@ -15249,100 +15277,124 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           button&nbsp;1 up.</para>
           -->
 
-          <para>Where the model element being added is some form of 
-          connector its termination point is shown with button&nbsp;1 up 
-          over the terminating model element. button&nbsp;1 click may be used in 
-          the space between model elements to create articulation points in 
-          the connector. This is particularly useful where connectors 
-          must loopback on themselves.</para>
+          <para>
+          	Wo das Modellelement hinzugefügt wurde, wird mit dem Taste&nbsp;1-
+          	Klick über dem abschliessenden Modellelement eine besondere Form 
+          	eines Verbinders mit seinem Endpunkt angezeigt. Der Taste&nbsp;1-
+          	Klick darf auch im Raum zwischen den Modellelementen verwendet 
+          	werden, um Verbindungspunkte an einem Verbinder zu erstellen. 
+          	Dies ist immer dann nützlich, wo Verbinder auf sich selbst erstellt 
+          	werden müssen.
+          </para>
 
-          <para>Over graphical model elements button&nbsp;1 motion will move the 
-          model element to a new position.</para>
+          <para>
+          	Über grafischen Modellelementen wird die Taste&nbsp;1-Bewegung 
+          	das Modellelement an eine neue Position bewegen.
+          </para>
 
-          <para>Graphical model elements that are selected show handles at 
-          the corners or ends, and these can be used for 
-          re-sizing.</para>
+          <para>
+          	Grafische, markierte Modellelemente zeigen Griffe an den Ecken oder 
+          	Enden an. Diese können für Größenänderungen verwendet werden.
+          </para>
 
-          <para>Some model elements (e.g. actor, class) show special handles 
-          (called <quote>Selection Action Buttons</quote>, see 
-          <xref linkend="s1.ref.edit_pane_selection_action_buttons"/>) 
-          at the sides, top and bottom, which can be dragged to form 
-          types of relationship with other model elements.</para>
+          <para>
+          	Einige Modellelemente (z.B. Akteur, Klasse) zeigen spezielle Griffe 
+          	(<quote>Auswahl-Aktionsschaltflächen</quote>, siehe 
+          	<xref linkend="s1.ref.edit_pane_selection_action_buttons"/>) 
+          	an den Seiten, oben und unten an, die gezogen werden können, um 
+          	Beziehungstypen zwischen anderen Modellelementen zu bilden.
+          </para>
 
-          <para>Where the model element is some form of connector between 
-          other items, button&nbsp;1 motion other than at a handle will 
-          cause a new handle to be created, allowing the connector to 
-          be articulated at that point. This only works when the 
-          connecting line is not straight angled. Such new handles can 
-          be removed by moving them to the end of the connector.</para>
+          <para>
+          	Wo das Modellelement eine Form von Verbinder zwischen anderen 
+          	Elementen ist, verursacht die Taste&nbsp;1-Bewegung neben den Griffen 
+          	die Erstellung eines neuen Griffes, der es dem Verbinder erlaubt, 
+          	sich mit diesem Punkt zu verbinden. Dies funktioniert nur, wenn die 
+          	verbindende Linie nicht gerade rechtwinklig ist. Solche neuen Griffe 
+          	können durch das Bewegen auf das Ende des Verbinders entfernt werden.
+          </para>
 
-          <para>There are various more detailed effects, which are 
-          discussed under the descriptions of the various tools (see 
-          <xref linkend="s1.ref.edit_pane_tool_bar"/>).</para>
-
-        </sect2>
-
-        <sect2>
-
-          <title>Shift and Strg modifiers with Button&nbsp;1</title>
-
-          <para>Where multiple selections are to be made, the CTRL key 
-          is used with button&nbsp;1 to <emphasis>add</emphasis> unselected 
-          model elements to the current selection. Where a model element is 
-          already selected, it is removed from the current 
-          selection.</para>
-
-          <para>Clicking Button&nbsp;1 while the SHIFT key is pressed, 
-          invokes the broom tool, which causes the selected model elements 
-          (and any others swept up with them) to be moved with the 
-          broom tool (see <xref linkend="s2.ref.edit_layout"/>).</para>
+          <para>
+          	Es gibt verschiedene noch detailliertere Effekt, die in den 
+          	Beschreibungen der verschiedenen Werkzeuge diskutiert werden (siehe 
+          	<xref linkend="s1.ref.edit_pane_tool_bar"/>).
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Alt with Button&nbsp;1 motion</title>
+          <title>Umschalt- und Strg-Taste und die Taste&nbsp;1</title>
 
-          <para>Button&nbsp;1 down anywhere in the diagram while the ALT key 
-          is pressed, allows to scroll the canvas in all directions 
-          with button&nbsp;1 motion.</para>
+          <para>
+          	Wo mehrere Markierungen zu erstellen sind, wird die Strg-Taste mit 
+          	der Taste&nbsp;1 verwendet, um unmarkierte Modellelemente den 
+          	aktuell markierten <emphasis>hinzuzufügen</emphasis>. Wo ein 
+          	Modellelement bereits markiert ist, wird es aus der aktuellen 
+          	Markierung entfernt.
+          </para>
 
-        </sect2>
-
-        <sect2>
-
-          <title>Button&nbsp;2 Actions</title>
-
-          <para>When used over model elements in the the editing pane, this 
-          will display a context dependent pop-up menu. Menu entries 
-          are highlighted (but not selected) and sub-menus exposed by 
-          subsequent mouse motion (without any buttons). Menu entry 
-          selection is with button&nbsp;1 or button&nbsp;2. See 
-          <xref linkend="s1.ref.edit_pane_pop_up"/> for details of the 
-          specific pop-up menus.</para>
-
-          <para>In case multiple elements are selected, the pop-up menu 
-          only appears if all the items are of the same kind. 
-          In this case, the 
-          functions apply to all selected elements.</para>
+          <para>
+          	Klicken auf die Taste&nbsp;1 während die Umschalttaste gedrückt ist, 
+          	aktiviert das Werkzeug Besen. Dieses veranlasst, dass die markierten 
+          	Modellelemente (und alles andere mitbewegt wird) durch den Besen 
+          	verschoben wird (siehe <xref linkend="s2.ref.edit_layout"/>).
+		  </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Button&nbsp;2 Double Click</title>
+          <title>Alt Gr mit Taste&nbsp;1-Bewegung</title>
 
-          <para>This has no effect other than that of button&nbsp;2 single 
-          click.</para>
+          <para>
+          	Das Drücken der Taste&nbsp;1 im Diagramm, während die "ALT Gr"-Taste 
+          	gedrückt ist, erlaubt es, die Leinwand mit der Taste&nbsp;1-
+          	Bewegung in alle Richtungen zu scrollen.
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Button&nbsp;2 Motion</title>
+          <title>Taste&nbsp;2-Aktionen</title>
 
-          <para>This is used to select items in a context sensitive 
-          menu popped up by use of button&nbsp;2 click.</para>
+          <para>
+          	Wenn sie über Modellelementen im Editierfenster verwendet wird, wird 
+          	ein kontextabhäniges Popup-Menü erscheinen. Die Menüeinträge sind 
+          	aktiviert (aber nicht ausgewählt) und die Untermenüs werden durch 
+          	die fortgesetzte Mausbewegung aufgeblendet (ohne irgend eine Taste). 
+          	Die Menüeinträge werden mit Taste&nbsp;1 oder Taste&nbsp;2 ausgewählt. 
+          	Details über die spezifischen Popup-Menüs siehe 
+          	<xref linkend="s1.ref.edit_pane_pop_up"/>.
+          </para>
+
+          <para>
+          	Für den Fall, dass mehrere Elemente markiert sind, erscheint das 
+          	Popup-Menü nur, wenn alle Elemente von der gleichen Art sind. In 
+          	diesem Fall, wirken die Funktionen auf alle markierten Elemente.
+          </para>
+
+        </sect2>
+
+        <sect2>
+
+          <title>Taste&nbsp;2-Doppelklick</title>
+
+          <para>
+          	Dies hat keinen anderen Effekt als der einfache Taste&nbsp;2-Klick.
+          </para>
+
+        </sect2>
+
+        <sect2>
+
+          <title>Taste&nbsp;2-Bewegung</title>
+
+          <para>
+          	Sie wird verwendet, um Elemente in einem mit Hilfe eines 
+          	Taste&nbsp;2-Klicks geöffneten kontextsensitiven Menü zu markieren.
+          </para>
 
         </sect2>
 
@@ -15350,30 +15402,38 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1 id="s1.ref.edit_pane_keyboard">
 
-        <title>Keyboard Behavior in the Editing Pane</title>
+        <title>Das Verhalten der Tastatur im Editierfenster</title>
 
-        <para>Many keyboard shortcuts can be used when the editing pane
-        is active, mainly to change the selection or to move across the
-        model elements.</para>
+        <para>
+        	Viele Tastenkürzel können verwendet werden, wenn das Editierfenster 
+        	aktiv ist. Hauptsächlich, um die Markierung zu ändern oder sich 
+        	durch die Modellelemente zu bewegen.
+        </para>
 
         <sect2>
 
-          <title>Nudging a model element</title>
+          <title>Schrittweises bewegen eines Modellelementes</title>
 
-          <para>You can nudge a fig by selecting an element and using
-          arrow keys. Keeping the shift or the alt key pressed will produce
-          a wider movement.</para>
+          <para>
+          	Sie können ein Gebilde durch das markieren eines Elementes und die 
+          	Verwendung der Pfeiltasten schrittweise bewegen. Das gedrückt 
+          	halten der Umschalt- oder Alt-Taste wird eine grössere Bewegung 
+          	produzieren.
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Moving across the model elements</title>
+          <title>Durch die Modellelemente bewegen</title>
 
-          <para>You can select the model element nearer to the selected one by 
-          using the arrow keys while clicking the right button of the mouse.
-          You can also select the next model element using the tab key, or the
-          previous using the ctrl+tab keys.</para>
+          <para>
+          	Sie können das dem markierten am nächsten stehende Modellelement 
+          	markieren, indem Sie die Pfeiltasten verwenden, während Sie die 
+          	rechte Maustaste anklicken. Sie können auch das nächste Modellelement 
+          	mit Hilfe der Tab-Taste markieren oder das vorhergehende mit Hilfe 
+          	der Strg+Tab-Tasten.
+          </para>
 
         </sect2>
 
@@ -15381,105 +15441,143 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       
       <sect1 id="s1.ref.edit_pane_tool_bar">
 
-        <title>The tool bar</title>
+        <title>Die Werkzeugleiste</title>
 
-        <para>The toolbar at the top of the editing pane provides the 
-        main functions of the pane. The default tool is the <literal>
-        Select</literal> tool (<guiicon><inlinemediaobject><imageobject>
-        <imagedata align="center" fileref="images/icons/select.gif"
-         format="GIF"/></imageobject></inlinemediaobject></guiicon>). 
-        In general button&nbsp;1 click on any tool selects a tool for one 
-        use, before reverting to the default tool, and button&nbsp;1 double 
-        click selects a tool for repeated use.</para>
+        <para>
+        	Die Werkzeugleiste im oberen Bereich des Editierfensters enthält die 
+        	Hauptfunktionen des Fensters. Das Standardwerkzeug ist das <literal>
+        	Auswahl</literal>-Werkzeug (
+        	<guiicon>
+        		<inlinemediaobject>
+        			<imageobject>
+        				<imagedata align="center"
+        					fileref="images/icons/select.gif" format="GIF" />
+        			</imageobject>
+        		</inlinemediaobject>
+        	</guiicon>).
+        	Generell wählt ein Taste&nbsp;1-Klick auf irgendein Werkzeug dieses 
+        	für die einmalige Verwendung aus, bevor es zum Standardwerkzeug 
+        	zurückkehrt. Und ein Taste&nbsp;1-Doppelklick wählt ein Werkzeug für 
+        	die wiederholte Nutzung aus.  
+        </para>
 
-        <para>The tools fall into four categories.</para>
+        <para>Die Werkzeuge fallen in vier Kategorien.</para>
 
         <itemizedlist>
 
           <listitem>
 
-            <para><emphasis>Layout tools.</emphasis> Provide assistance 
-            in laying out model elements on the diagram.</para>
+            <para>
+            	<emphasis>Layout-Werkzeuge.</emphasis>
+            	Geben Unterstützung bei der Anordnung der Modellelemente im 
+            	Diagramm.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><emphasis>Annotation tools.</emphasis> Used to 
-            annotate model elements on the diagram.</para>
+            <para>
+            	<emphasis>Kommentierungswerkzeuge.</emphasis>
+            	Werden zum Kommentieren von Modellelementen im Diagramm verwendet.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><emphasis>Drawing tools.</emphasis> Used to add 
-            general graphic objects to diagrams.</para>
+            <para>
+            	<emphasis>Zeichen-Werkzeuge.</emphasis>
+            	Werden zum Hinzufügen grafischer Objekte in Diagrammen verwendet.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><emphasis>Diagram specific tools.</emphasis> Used to 
-            add UML model elements specific to a particular diagram type to 
-            the diagram.</para>
+            <para>
+            	<emphasis>Diagrammspezifische Werkzeuge.</emphasis>
+            	Werden zum Hinzufügen von diagrammspezifischen 
+            	UML-Modellelementen in das Diagramm verwendet.
+            </para>
 
           </listitem>
 
         </itemizedlist>
         
-        <para>Some of the tools that are generally not all used so often, 
-        are combined in a dropdown, 
-        to take less space on the toolbar. 
-        See e.g. <xref linkend="fig.ref.edit_graphical_tools"/>.
-        Press the symbol at the right of the tool to pop it open.
-        These drop-down tools remember their last used tool persistently. 
-        This means that when ArgoUML starts, 
-        they show the last tool that was activated 
-        the previous time ArgoUML was run.
+        <para>
+        	Einige Werkzeuge, die normalerweise nicht so oft verwendet werden, 
+        	sind in ein Pulldown-Menü aufgenommen worden, damit sie in der 
+        	Werkzeugleiste weniger Platz beanspruchen. Siehe z.B. 
+			<xref linkend="fig.ref.edit_graphical_tools"/>.
+			Das Drücken des Symboles auf der rechten Seite des Werkzeuges öffnet 
+			das Pulldown-Menü. Diese Pulldown-Werkzeuge erinnern sich dauerhaft, 
+			welches Werkzeug zuletzt verwendet wurde. Das heißt, wenn ArgoUML 
+			startet zeigen sie das zuletzt aktivierte Werkzeug an.
         </para>
 
         <sect2 id="s2.ref.edit_layout">
 
-          <title>Layout Tools</title>
+          <title>Layout-Werkzeuges</title>
 
-          <para>The following two tools are provided in all diagrams in 
-          this category.</para>
+          <para>
+          	Die folgenden beiden Werkzeuge werden in allen Diagrammen dieser 
+          	Kategorie vorausgesetzt.
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/select.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Select</literal>. This tool provides for general 
-              selection of model elements on the diagram. Button&nbsp;1 click 
-              will select a model element. CTRL with button&nbsp;1 can be used 
-              to select (or deselect) multiple model elements. Button&nbsp;1 
-              motion will move selected 2D items or add and move a new 
-              control point on a link. Button&nbsp;1 motion on a selected 
-              component&apos;s control point will stretch that 
-              component&apos;s shape.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/select.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Auswählen</literal>. 
+	              Dieses Werkzeug sorgt für die generelle Auswahl von 
+	              Modellelementen im Diagramm. Der Taste&nbsp;1-Klick wird ein 
+	              Modellelement markieren. Strg und die Taste&nbsp;1 kann dazu 
+	              verwendet werden, mehrere Modellelemente zu markieren (oder 
+	              die Markierung aufzuheben). Die Taste&nbsp;1-Bewegung wird 
+	              markierte 2D-Elemente bewegen oder hinzufügen und bewegen 
+	              eines neuen Griffes auf einer Verknüpfung. Die 
+	              Taste&nbsp;1-Bewegung auf einem markierten Griff einer 
+	              Komponente wird die Form der Komponente dehnen. 
+			  </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center" fileref="images/icons/broom.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <emphasis>Broom</emphasis>. Button&nbsp;1 motion with this 
-              tool provide a <quote>broom</quote> which will sweep all 
-              model elements along. This is a very shortcut way of lining 
-              things up.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/broom.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <emphasis>Besen</emphasis>. Die Taste&nbsp;1-Bewegung mit 
+	              diesem Werkzeug liefert einen <quote>Besen</quote>, 
+	              der alle Modellelemente mitnimmt. Dies ist ein sehr schneller 
+	              Weg, Dinge auszurichten. 
+              </para>
 
-              <para>The Broom can also be invoked by using SHIFT with 
-              button&nbsp;1 motion when the <literal>Select</literal> tool 
-              is in use.</para>
+              <para>
+              	Der Besen kann auch durch die Umschalttaste mit der 
+              	Taste&nbsp;1-Bewegung ausgelöst werden, wenn das Werkzeug 
+              	<literal>Auswählen</literal> aktiv ist.
+              </para>
 
-              <para>The Broom is discussed at length in its own 
-              chapter, see <xref linkend="s1.ref.edit_pane_broom"/>
+              <para>
+              	Der Besen wird ausführlich in seinem eigenen Kapitel diskutiert, 
+              	siehe <xref linkend="s1.ref.edit_pane_broom"/>
               </para>
 
             </listitem>
@@ -15488,9 +15586,11 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <tip>
 
-            <para>Additional control of model element layout is provided 
-            through the <literal>Arrange</literal> menu (see 
-            <xref linkend="s1.ref.menu_arrange"/>).</para>
+            <para>
+            	Zusätzliche Beeinflussungsmöglichkeiten des Modellelementelayout 
+            	sind über das Menü <literal>Anordnen</literal> verfügbar (siehe  
+            	<xref linkend="s1.ref.menu_arrange"/>).
+            </para>
 
           </tip>
 
@@ -15498,62 +15598,88 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Annotation Tools</title>
+          <title>Kommentierungs-Werkzeug</title>
 
-          <para>The annotation tool <literal>Comment</literal> (
-          <guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center" fileref="images/icons/note.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon>) 
-          is used to add a comment to a selected UML model element.</para>
+          <para>
+          	  Das Kommentierungs-Werkzeug <literal>Kommentar</literal> (
+	          <guiicon>
+	          	<inlinemediaobject>
+	          		<imageobject>
+	          			<imagedata align="center"
+	          				fileref="images/icons/note.gif" format="GIF" />
+	          		</imageobject>
+	          	</inlinemediaobject>
+	          </guiicon>)
+	          wird dazu verwendt, einen Kommentar zu einem markierten UML-
+	          Modellelement hinzuzufügen. 
+          </para>
 
           <caution>
 
-            <para>Unlike most other tools you use the <literal>
-            Select</literal> tool to select a model element, and then 
-            button&nbsp;1 click on <literal>Comment</literal> to create the 
-            comment. If no element is selected when the comment tool is 
-            clicked, then the comment is created and put at the left 
-            top corner.</para>
+            <para>
+            	Wie bei den meisten anderen Werkzeugen verwenden Sie das 
+            	Werkzeug <literal>Auswählen</literal>, um ein Modellelement zu 
+            	markieren und dann den Taste&nbsp;1-Klick auf <literal>Kommentar
+            	</literal>, um einen Kommentar zu erstellen. Wenn kein Element 
+            	markiert ist, wenn das Werkzeug Kommentar angeklickt wird, dann 
+            	wird der Kommetar erstellt und in die linke obere Ecke plaziert.
+            </para>
 
           </caution>
 
-          <para>The comment is created alongside the selected model element, 
-          empty by default. The text can be selected with button&nbsp;1 
-          double-click and edited from the keyboard.</para>
+          <para>
+          	Der Kommetar wird neben dem markierten Modellelement erstellt und 
+          	ist standardmäßig leer. Die Texteingabe kann mit einem Taste&nbsp;1-
+          	Doppelklick aktiviert und der Text anschliessend mit Hilfe 
+          	der Tastatur eingegeben werden.
+          </para>
 
-          <para>The UML standard allows comments to be attached to any 
-          model element.</para>
+          <para>
+          	Der UML-Standard erlaubt es, Kommentare zu jedem Modellelement 
+          	hinzuzufügen.
+          </para>
 
-          <para>You can link any comment to aditional elements using 
-          the <literal>CommentLink</literal> (
-          <guiicon><inlinemediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/icons/commentlink.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon>) 
-          tool.</para>
+          <para>
+          	Sie können jeden Kommentar mit weiteren Elementen mit Hilfe des 
+          	Werkzeuges <literal>Neue Kommentar-Verknüpfung</literal> (
+	          <guiicon>
+	          	<inlinemediaobject>
+	          		<imageobject>
+	          			<imagedata align="center"
+	          				fileref="images/icons/commentlink.gif" format="GIF" />
+	          		</imageobject>
+	          	</inlinemediaobject>
+	          </guiicon>) 
+          	verbinden.
+          </para>
 
         </sect2>
 
         <sect2 id="s2.ref.edit_pane_drawing_tools">
 
-          <title>Drawing Tools</title>
+          <title>Zeichen-Werkzeuge</title>
 
-          <para>These are a series of tools for providing graphical 
-          additions to diagrams. Although they are not UML model elements, 
-          the UML standard provides for such decoration to improve the 
-          readability of diagrams.</para>
+          <para>
+          	Dies sind eine Reihe von Werkzeugen, die grafische Zusätze zu 
+          	Diagrammen liefern. Obwohl sie keine UML-Modellelemente sind, erlaubt 
+          	der UML-Standard solche Ausschmückungen, um die Lesbarkeit der 
+          	Diagramme zu verbessern.
+          </para>
 
           <tip>
 
-            <para>These drawing tools provide a useful way to partially 
-            support some of the UML features (such as general purpose 
-            notes) that are missing from the current release of 
-            ArgoUML.</para>
+            <para>
+            	Diese Zeichen-Werkzeuge stellen einen nützlichen Weg dar, 
+            	einige der in der aktuellen Release von ArgoUML fehlenden 
+            	UML-Eigenschaften (wie z.B. generelle Zweck-Hinweise )teilweise 
+            	zu unterstützen.
+            </para>
 
           </tip>
 
-          <para>Eight tools are provided, all grouped into one 
-          drop-down widget. See 
+          <para>
+          Eight tools are provided, all grouped into one drop-down
+          widget. See
           <xref linkend="fig.ref.edit_graphical_tools"/>. Button&nbsp;1 
           click on the diagram will place an instance of the graphical 
           item of the same size as the last one placed. The size can be 
@@ -15563,7 +15689,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           the diagram, graphical elements can be dragged with the 
           <literal>Select</literal> tool and button&nbsp;1 and re-sized by 
           button&nbsp;1 motion on the handles after they have been 
-          selected.</para>
+          selected.
+          </para>
 
           <figure id="fig.ref.edit_graphical_tools">
 
