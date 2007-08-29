@@ -15678,119 +15678,178 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           </tip>
 
           <para>
-          Eight tools are provided, all grouped into one drop-down
-          widget. See
-          <xref linkend="fig.ref.edit_graphical_tools"/>. Button&nbsp;1 
-          click on the diagram will place an instance of the graphical 
-          item of the same size as the last one placed. The size can be 
-          controlled by button&nbsp;1 motion during placement. One side or 
-          end of the element will be at button&nbsp;1 down, the other side 
-          or end at button&nbsp;1 up. In general after they are placed on 
-          the diagram, graphical elements can be dragged with the 
-          <literal>Select</literal> tool and button&nbsp;1 and re-sized by 
-          button&nbsp;1 motion on the handles after they have been 
-          selected.
+          	Acht Werkzeuge sind vorhanden, alle in einem Pulldown-Menü gruppiert. 
+          	Siehe <xref linkend="fig.ref.edit_graphical_tools"/>. Ein 
+          	Taste&nbsp;1-Klick auf das Diagramm wird eine Instanz des grafischen 
+          	Elementes in der gleichen Größe wie das letzte plazieren. Die 
+          	Größe kann durch eine Taste&nbsp;1-Bewegung während des Plazierens 
+          	eingestellt werden. Eine Seite oder Ende des Elementes wird durch 
+          	Taste&nbsp;1-gedrückt die andere Seite oder Ende durch Taste&nbsp;1-
+          	loslassen beeinflusst. Nachdem sie im Diagramm plaziert wurden, 
+          	können die grafischen Elemente mit dem Werkzeug <literal>Auswählen
+          	</literal> und der Taste&nbsp;1 verschoben und in der Größe durch 
+          	eine Taste&nbsp;1-Bewegung über die Griffe nach dem markieren 
+          	verändert werden.
           </para>
 
           <figure id="fig.ref.edit_graphical_tools">
 
-            <title>The drawing tools selector.</title>
+            <title>Die Zeichen-Werkzeuge auswählen.</title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/edit_graphical_tools.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+            				fileref="images/reference/edit_graphical_tools.png"
+            				format="PNG" />
+            		</imageobject>
+            	</mediaobject>
+            </screenshot>
           </figure>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/rectangle.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Rectangle</literal>. Provides a rectangle.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/rectangle.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+              	<literal>Rechteck</literal>. Erzeugt ein Rechteck.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/rounded_rectangle.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Rounded Rectangle</literal>. Provides a 
-              rectangle with rounded corners. There is no control over 
-              the degree of rounding.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/rounded_rectangle.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Abgerundetes Rechteck</literal>. Erzeugt ein Rechteck 
+	              mit abgerundeten Ecken. Der Grad der Rundung kann nicht 
+	              eingestellt werden. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/circle.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Circle</literal>. Provides a circle.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/circle.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Kreis</literal>. Erzeugt einen Kreis.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center" fileref="images/icons/line.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Line</literal>. Provides a line.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/line.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Gerade</literal>. Erzeugt eine Gerade.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center" fileref="images/icons/text.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Text</literal>. Provides a text box. The text is 
-              entered by selecting the box and typing. Text is centered 
-              horizontally and after typing, the box will shrink to the 
-              size of the text. However it can be re-sized by dragging 
-              on the corners.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/text.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Text</literal>. Erzeugt ein Textfeld. Der Text wird 
+	              durch markieren des Feldes und schreiben eingegeben. Der 
+	              Text wird nach der Eingabe horizontal zentriert. Das Feld 
+	              passt sich an die Größe des Textes an. Es kann jedoch in der 
+	              Größe durch ziehen an den Ecken verändert werden.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/polygon.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Polygon</literal>. Provides a polygon. The 
-              points of the polygon are selected by button&nbsp;1 click and 
-              the polygon closed with button&nbsp;1 double click (which will 
-              link the final point to the first point).</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/polygon.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Polygon</literal>. Erzeugt ein Polygon. Die Punkte 
+	              des Polygons werden durch Taste&nbsp;1-Klicks markiert. Das 
+	              Polygon wird durch einen Taste&nbsp;1-Doppelklick 
+	              abgeschlossen (dies verbindet den letzten mit dem ersten 
+	              Punkt).
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/spline.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Spline</literal>. Provide an open spline. The 
-              control points of the spline are selected with button&nbsp;1 
-              and the last point selected with button&nbsp;1 double 
-              click.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/spline.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Segmentierte Linie</literal>. Erzeugt eine 
+	              segmentierte Linie. Die Punkte der segmentierten Linie werden 
+	              mit Taste&nbsp;1-Klicks markiert und der letzte Punkt mit 
+	              einem Taste&nbsp;1-Doppelklick ausgewählt.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center" fileref="images/icons/ink.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Ink</literal>. Provide a polyline. The points 
-              are provided by button&nbsp;1 motion.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/ink.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Punktierte Linie</literal>. Erzeugt eine punktierte 
+	              Linie. Die Punkte werden durch eine Taste&nbsp;1-Bewegung 
+	              erzeugt. 
+              </para>
 
             </listitem>
 
@@ -15800,142 +15859,208 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Use Case Diagram Specific Tools</title>
+          <title>Anwendungsfalldiagrammspezifische Werkzeuge</title>
 
-          <para>Several tools are provided specific to UML model elements on 
-          use case diagrams. The detailed properties of these model elements 
-          are described in the section on use case diagram model elements 
-          (see <xref linkend="ch.ref.entusecase"/>).</para>
+          <para>
+          	Verschiedene Werkzeuge sind speziell für UML-Modellelemente in 
+          	Anwendungsfalldiagrammen vorhanden. Die detaillierten Eigenschaften 
+          	dieser Modellelemente sind im Abschnitt über Modellelemente von 
+          	Anwendungsfalldiagrammen beschrieben (siehe 
+			<xref linkend="ch.ref.entusecase"/>).
+		  </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center" fileref="images/icons/actor.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Actor</literal>. Add an actor to the diagram. 
-              For convenience, when the mouse is over a selected actor 
-              it displays two handles to left and right which may be 
-              dragged to form association relationships.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/actor.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Akteur</literal>. Für dem Diagramm einen Akteur 
+	              hinzu. Wenn sich die Maus über einem markierten Akteur 
+	              befindet, werden aus Gründen des Komforts links und rechts 
+	              zwei Griffe angezeigt, die gezogen werden können, um 
+	              Assoziationsbeziehungen herzustellen.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/use_case.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Use Case</literal>. Add a use case to the 
-              diagram. For convenience, when the mouse is over a 
-              selected use case it displays two handles to left and 
-              right which may be dragged to form association 
-              relationships and two handles top and bottom which may be 
-              dragged to form generalization and specialization 
-              relationships respectively.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/use_case.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Anwendungsfall</literal>. Fügt dem Diagramm einen 
+	              Anwendungsfall hinzu. Wenn sich die Maus über einem markierten 
+				  Anwendungsfall befindet, werden aus Gründen des Komforts links 
+				  und rechts zwei Griffe angezeigt, die gezogen werden können, 
+				  um Assoziationsbeziehungen herzustellen und zwei Griffe oben 
+				  und unten, die gezogen werden können, um Generalisierungen und 
+				  Spezialisierungen herzustellen.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/association_plain.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Association</literal>. Add an association 
-              between two model elements selected using button&nbsp;1 motion 
-              (from the first model element to the second). There are 6 
-              types of association offered here, see 
-              <xref linkend="fig.ref.edit_association_tools"/>: 
-              <literal>association</literal>, <literal>
-              aggregation</literal> and <literal>composition</literal>, 
-              and all these three can be <literal>
-              bidirectional</literal> or <literal>
-              unidirectional</literal>.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/association_plain.gif"
+	             				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Assoziation</literal>. Fügt zwischen zwei 
+	              Modellelementen eine Assoziation mit Hilfe einer Taste&nbsp;1-
+	              Bewegung ein (vom ersten bis zum zweiten Modellelement). Es 
+	              werden hier 6 Assoziationstypen angeboten, siehe 
+	              <xref linkend="fig.ref.edit_association_tools"/>: 
+	              <literal>Assoziation</literal>, <literal>
+	              Aggregation</literal> und <literal>Komposition</literal>, 
+	              und all diese drei können <literal>
+	              bidirektional</literal> oder <literal>
+	              unidirektional</literal> sein.
+              </para>
 
               <figure id="fig.ref.edit_association_tools">
 
-                <title>The association tool selector.</title>
+                <title>Die Assoziations-Werkzeuge auswählen.</title>
 
-                <screenshot><mediaobject><imageobject>
-                <imagedata align="center"
-                 fileref="images/reference/edit_association_tools.png"
-                 format="PNG"/></imageobject></mediaobject></screenshot>
+                <screenshot>
+                	<mediaobject>
+                		<imageobject>
+                			<imagedata align="center"
+                				fileref="images/reference/edit_association_tools.png"
+                				format="PNG" />
+                		</imageobject>
+                	</mediaobject>
+                </screenshot>
               </figure>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/dependency.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Dependency</literal>. Add a dependency between 
-              two model elements selected using button&nbsp;1 motion (from the 
-              dependent model element).</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/dependency.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Abhängigkeit</literal>. Fügt eine Abhängigkeit 
+	              zwischen zwei Modellelementen mit Hilfe der Taste&nbsp;1-
+	              Bewegung ein (vom abhängigen Modellelement).
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/generalization.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Generalization</literal>. Add a generalization 
-              between two model elements selected using button&nbsp;1 motion 
-              (from the child to the parent).</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/generalization.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Generalisierung</literal>. Fügt eine Generalisierung 
+	              zwischen zwei Modellelementen mit Hilfe der Taste&nbsp;1-
+	              Bewegung ein (vom Kind zu den Eltern).
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/extend.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Extend</literal>. Add an extend relationship 
-              between two model elements selected using button&nbsp;1 motion 
-              (from the extended to the extending use case).</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/extend.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Extend</literal>. Fügt eine Extend-Beziehung 
+	              zwischen zwei Modellelementen mit Hilfe der Taste&nbsp;1-
+	              Bewegung ein (vom erweiterten zum zu erweiternden 
+	              Anwendungsfall). 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/include.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Include</literal>. Add an include relationship 
-              between two model elements selected using button&nbsp;1 motion 
-              (from the including to the included use case).</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/include.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Include</literal>. Fügt eine Include-Beziehung  
+	              zwischen zwei Modellelementen mit Hilfe der Taste&nbsp;1-
+	              Bewegung ein (vom einschliessenden zum eingeschlossenen 
+	              Anwendungsfall). 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/extension_point.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Add Extension Point</literal>. Add an extension 
-              point to a selected use case. The extension point is 
-              given the default name <literal>newEP</literal> and 
-              location <literal>loc</literal>. Where the extension 
-              point compartment is displayed, the extension point may 
-              be edited by button&nbsp;1 double click and using the 
-              keyboard, or by selecting with button&nbsp;1 click (after the 
-              use case has been selected) and using the property tab. 
-              Otherwise it may be edited through its property tab, 
-              selected through the property tab of the owning use 
-              case.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/extension_point.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Erweiterungspunkt hinzufügen</literal>. Einen 
+	              Erweiterungspunkt zu einem markierten Anwendungsfall 
+	              hinzufügen. Dem Erweiterungspunkt wird der Standardname 
+	              <literal>neuerEP</literal> gegeben und der Ort <literal>ort
+	              </literal>. Wo ein Erweiterungspunktbereich angezeigt wird, 
+	              kann der Erweiterungspunkt mit Hilfe eines Taste&nbsp;1-
+	              Doppelklicks und der Tastatur, oder durch markieren mit einem 
+	              Taste&nbsp;1-Klick (nachdem der Anwendungsfall markiert wurde) 
+	              und Verwendung des Registers Eigenschaften editiert werden. 
+	              Ansonsten kann es über sein Register Eigenschaften editiert 
+	              werden, welches über das Register Eigenschaften des 
+	              besitzenden Anwendungsfalles ausgewählt wird.
+              </para>
 
               <note>
 
-                <para>This tool is grayed out except when a use case is 
-                selected.</para>
+                <para>
+                	Dieses Werkzeug ist deaktiviert, es sei denn, ein 
+                	Anwendungsfall ist markiert.
+                </para>
 
               </note>
 
@@ -15947,7 +16072,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Class Diagram Specific Tools</title>
+          <title>Klassendiagrammspezifische Werkzeuge</title>
 
           <para>Several tools are provided specific to UML model elements on 
           class diagrams. The detailed properties of these model elements 
