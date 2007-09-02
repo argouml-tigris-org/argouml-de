@@ -16074,182 +16074,271 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>Klassendiagrammspezifische Werkzeuge</title>
 
-          <para>Several tools are provided specific to UML model elements on 
-          class diagrams. The detailed properties of these model elements 
-          are described in the section on class diagram model elements (see 
-          <xref linkend="ch.ref.entclass"/>).</para>
+          <para>
+          	Einige Werkzeuge sind speziell für UML-Modellelemente in 
+          	Klassendiagrammen gedacht. Die detaillierten Eigenschaften dieser 
+          	Modellelemente sind im Abschnitt über Klassendiagramm-Modellelemente 
+          	beschrieben (siehe <xref linkend="ch.ref.entclass"/>).
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/package.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Package</literal>. Add a package to the 
-              diagram.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center" fileref="images/icons/class.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Class</literal>. Add a class to the diagram. For 
-              convenience, when the mouse is over a selected class it 
-              displays two handles to left and right which may be 
-              clicked or
-              dragged to form association relationships (or composition 
-              in case SHIFT has been pressed) and two handles top and 
-              bottom which may be dragged or clicked
-              to form generalization and 
-              specialization relationships respectively.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/association_plain.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Association</literal>. Add an association 
-              between two model elements selected using button&nbsp;1 motion 
-              (from the first model element to the second). There are 2 
-              types of association offered here, <literal>
-              bidirectional</literal> or <literal>
-              unidirectional</literal>.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/aggregation_plain.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Aggregation</literal>. Add an aggregation
-              between two model elements selected using button&nbsp;1 motion 
-              (from the first model element to the second). There are 2
-              types of aggregation offered here, <literal>
-              bidirectional</literal> or <literal>
-              unidirectional</literal>.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/composition_plain.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Composition</literal>. Add an composition 
-              between two model elements selected using button&nbsp;1 motion 
-              (from the first model element to the second). There are 2 
-              types of composition offered here, <literal>
-              bidirectional</literal> or <literal>
-              unidirectional</literal>.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/association_end.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Association-end</literal>. Add 
-              another end to an already existing association 
-              using button&nbsp;1 (from the 
-              association middle to a class, or vice versa).
-              This is the way to create so-calld N-ary associations.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/generalization.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Generalization</literal>. Add a generalization 
-              between two model elements selected using button&nbsp;1 (from the 
-              child to the parent).</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/interface.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Interface</literal>. Add an interface to the 
-              diagram. For convenience, when the mouse is over a 
-              selected interface it displays a handle at the bottom 
-              which may be dragged to form a realization relationship 
-              (the target being the realizing class).</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/realization.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Realization</literal>. Add a realization between 
-              a class and an interface selected using button&nbsp;1 motion 
-              (from the realizing class to the realized 
-              interface).</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/dependency.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Dependency</literal>. Add a dependency between 
-              two model elements selected using button&nbsp;1 motion (from the 
-              dependent model element). There are also 2 special types of 
-              dependency offered here, <literal>Permission</literal> (
-              <guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/permission.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon>) 
-              and <literal>Usage</literal> (
-              <guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center" fileref="images/icons/usage.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon>).
-               A <literal>Permission</literal> is created by default 
-               with stereotype <literal>Import</literal>, and is used to import
-               elements from one package into another.
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/package.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Paket</literal>. Fügt dem Diagramm ein Paket hinzu.
               </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/attribute.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Attribute</literal>. Add a new attribute to the 
-              currently selected class. The attribute is given the 
-              default name <literal>newAttr</literal> of type <literal>
-              int</literal> and may be edited by button&nbsp;1 double click 
-              and using the keyboard, or by selecting with button&nbsp;1 
-              click (after the class has been selected) and using the 
-              property tab.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/class.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Klasse</literal>. Fügt dem Diagramm eine Klasse hinzu. 
+	              Wenn sich die Maus über einer markierten Klasse befindet, 
+	              werden links und rechts zwei Griffe angezeigt, die angeklickt 
+	              oder gezogen werden können, um eine Assoziations-Beziehung 
+	              herzustellen (oder eine Komposition, sofern die Umschalt-Taste 
+	              gedrückt wurde) und oben und unten zwei Griffe, die angeklickt 
+	              oder gezogen werden können, um eine Generalisierungs- und 
+	              Spezialisierungs-Beziehung herzustellen.
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/association_plain.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Assoziation</literal>. Fügt zwischen zwei 
+	              Modellelemente mit Hilfe einer Taste&nbsp;1-Bewegung eine 
+	              Assoziation ein (vom ersten Modellelement zum zweiten). Es 
+	              werden hier 2 Typen von Assoziationen angeboten, die 
+	              <literal>bidirektionale</literal> oder die <literal>
+	              unidirektionale</literal>.
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/aggregation_plain.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Aggregation</literal>. Fügt zwischen zwei 
+	              Modellelemente mit Hilfe einer Taste&nbsp;1-Bewegung eine 
+	              Aggregation ein (vom ersten Modellelement zum zweiten). Es 
+	              werden hier 2 Typen von Aggregationen angeboten, die 
+	              <literal>bidirektionale</literal> oder die <literal>
+	              unidirektionale</literal>.
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/composition_plain.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Komposition</literal>. Fügt zwischen zwei 
+	              Modellelemente mit Hilfe einer Taste&nbsp;1-Bewegung eine 
+	              Komposition ein (vom ersten Modellelement zum zweiten). Es 
+	              werden hier 2 Typen von Kompositionen angeboten, die 
+	              <literal>bidirektionale</literal> oder die <literal>
+	              unidirektionale</literal>.
+
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/association_end.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Assoziationsende</literal>. Fügt mit Hilfe der 
+	              Taste&nbsp;1 ein anderes Ende zu einer bereits existierenden 
+	              Assoziation ein (von der Assoziation einer Klasse, oder 
+	              umgekehrt). Auf diesem Weg werden sogenannte N-wertige 
+	              Assoziationen erstellt. 
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/generalization.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Generalisierung</literal>. Fügt mit Hilfe der 
+	              Taste&nbsp;1 zwischen zwei Modellelementen eine Generalisierung 
+	              ein (vom Kind zum Vater). 
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/interface.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Schnittstelle</literal>. Fügt in das Diagramm eine 
+	              Schnittstelle ein. Wenn sich die Maus über einer markierten 
+	              Schnittstelle befindet, wird unten ein Griff angezeigt, der 
+	              gezogen werden kann, um eine Realisierungs-Beziehung 
+	              herzustellen (das Ziel wird die zu realisierende Klasse). 
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/realization.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Realisierung</literal>. Fügt eine Realisierung mit 
+	              Hilfe einer Taste&nbsp;1-Bewegung zwischen eine Klasse und 
+	              einer Schnittstelle ein (von der realisierenden Klasse zur 
+	              realisierten Schnittstelle).
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/dependency.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Abhängigkeit</literal>. Fügt eine Abhängigkeit mit 
+	              Hilfe einer Taste&nbsp;1-Bewegung  zwischen zwei 
+	              Modellelementen ein (vom abhängigen Modellelement). Es werden 
+	              hier auch 2 spezielle Typen von Abhängigkeiten angeboten, 
+	              <literal>Erlaubnis</literal>
+	              Add a dependency between 
+	              two model elements selected using button&nbsp;1 motion (from the 
+	              dependent model element). There are also 2 special types of 
+	              dependency offered here, <literal>Permission</literal> (
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/permission.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>) 
+	              und <literal>Verwendung</literal> (
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/usage.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>).
+	              Eine <literal>Erlaubnis</literal> wird standardmäßig mit dem 
+	              Stereotyp <literal>Import</literal> erstellt und wird 
+	              verwendet, um Elemente von einem Paket in ein anderes zu 
+	              importieren.
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/attribute.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Attribut</literal>. Fügt ein Attribut zu der aktuell 
+	              markierten Klasse hinzu. Das Attribut erhält den Standardnamen 
+	              <literal>neuesAttr</literal> vom Typ <literal>int</literal> 
+	              und kann durch einen Taste&nbsp;1-Doppelklick und der Tastatur 
+	              editiert werden oder durch auswählen mit einem Taste&nbsp;1-
+	              Klick (nachdem die Klasse markiert wurde) und anschliessender 
+	              Nutzung des Registers Eigenschaften.
+              </para>
 
               <note>
 
-                <para>This tool is grayed out except when a class is 
-                selected.</para>
+                <para>
+                	Dieses Werkzeug ist deaktiviert, außer wenn eine Klasse 
+                	markiert ist.
+                </para>
 
               </note>
 
@@ -16257,23 +16346,31 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/operation.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Operation</literal>. Add a new operation to the 
-              currently selected class or interface. The operation is 
-              given the default name <literal>newOperation</literal> 
-              with no arguments and return type <literal>void</literal> 
-              and may be edited by button&nbsp;1 double click and using the 
-              keyboard, or by selecting with button&nbsp;1 click (after the 
-              class has been selected) and using the property 
-              tab.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/operation.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Operation</literal>. Fügt der aktuell markierten 
+	              Klasse oder Schnittstelle eine Operation hinzu. Die Operation 
+	              erhält den Standardnamen <literal>neueOperation</literal> ohne 
+	              Argumente und dem Rückgabewert <literal>void</literal> und 
+	              kann mit Hilfe eines Taste&nbsp;1-Doppelklicks und der 
+	              Tastatur editiert werden, oder durch auswählen mit einem 
+	              Taste&nbsp;1-Klick (nachdem die Klasse markiert wurde) und der 
+	              Nutzung des Registers Eigenschaften.
+              </para>
 
               <note>
 
-                <para>This tool is grayed out except when a class or 
-                interface is selected.</para>
+                <para>
+                	Dieses Werkzeug ist deaktiviert, es sei denn, eine Klasse 
+                	oder eine Schnittstelle ist markiert.
+                </para>
 
               </note>
 
@@ -16281,49 +16378,67 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/associationclass.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Association Class</literal>. 
-              Add a new association class 
-              between two model elements selected using button&nbsp;1 motion 
-              (from the first model element to the second).</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/associationclass.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Assoziationsklasse</literal>. Fügt eine neue 
+	              Assoziationsklasse mit Hilfe einer Taste&nbsp;1-Bewegung 
+	              zwischen zwei Modellelemente ein (vom ersten Modellelement 
+	              zum zweiten).
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/datatype.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Datatype</literal>. 
-              Add a datatype to the 
-              diagram. For convenience, when the mouse is over a 
-              selected datatype it displays handles 
-              at the top and at the bottom 
-              which may be clicked or dragged 
-              to form a generalization relationship 
-              (the target being another datatype).
-              There are 2 other elements available here, 
-              <guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/enumeration.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Enumeration</literal>
-              and
-              <guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/stereotype.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Stereotype</literal>.
-              These two have similar handles, 
-              except the one at the top of a stereotype: 
-              when clicked, it creates a metaclass, 
-              connected by a dependency marked with &laquo;stereotype&raquo;.
-              This eases the creation of "stereotype declaration" diagrams - 
-              see the literature on the subject.
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/datatype.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Datentyp</literal>. Fügt in das Diagramm einen 
+	              Datentyp ein. Wenn sich eine Maus über einem markierten 
+	              Datentyp befindet werden oben und unten Griffe angezeigt, die 
+	              angeklickt oder gezogen werden können, um eine 
+	              Generalisierungs-Beziehung herzustellen (das Ziel kann ein 
+	              anderer Datentyp sein). Es sind hier 2 andere Elemente 
+	              verfügbar, 
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/enumeration.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon> 
+	              <literal>Aufzählung</literal>
+	              und
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/stereotype.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon> 
+	              <literal>Stereotyp</literal>.
+	              Diese haben identische Griffe, außer dem oben an einem 
+	              Stereotyp  befindlichen: wenn er angeklickt wird, erstellt er 
+	              eine Metaklasse, die über eine mit &laquo;stereotype&raquo; 
+	              markierte Abhängigkeit verknüpft ist. Dies erleichtert die 
+	              Erstellung von "Stereotyp-Deklarations"-Diagrammen - näheres 
+	              entnehmen Sie bitte der Literatur.
               </para>
 
             </listitem>
@@ -16334,108 +16449,155 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Sequence Diagram Specific Tools</title>
+          <title>Sequenzdiagrammspezifische Werkzeuge</title>
 
-          <para>Seven tools are provided specific to UML model elements on 
-          sequence diagrams. The detailed properties of these model elements 
-          are described in the section on sequence diagram model elements 
-          (see <xref linkend="ch.ref.entseq"/>).</para>
+          <para>
+          	Sieben Werkzeuge sind speziell für UML-Modellelemente in 
+          	Sequenzdiagrammen vorhanden. Die detaillierten Eigenschaften dieser 
+          	Modellelemente sind im Abschnitt über Sequenzdiagramm-Modellelemente 
+          	beschrieben (siehe <xref linkend="ch.ref.entseq"/>).
+		  </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/classifierrole_sd.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>ClassifierRole</literal>. Add a classifierrole to the 
-              diagram.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/call_action.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Message with Call Action</literal>. 
-              Add a call message 
-              between two classifierroles selected using button&nbsp;1 motion (from 
-              the originating classifierrole to the receiving classifierrole).
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/classifierrole_sd.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Klassifizierte Rolle</literal>. Fügt dem Diagramm 
+	              eine klassifizierte Rolle hinzu. 
               </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/return_action.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Message with Return Action</literal>. 
-              Add a return message 
-              between two classifierroles selected using button&nbsp;1 motion (from 
-              the originating classifierrole to the receiving classifierrole).
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/call_action.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Nachricht mit Aufruf einer Aktion</literal>. Fügt 
+	              eine Aufruf-Nachricht zwischen zwei klassifizierten Rollen 
+	              mit Hilfe einer Taste&nbsp;1-Bewegung ein (von der 
+	              verursachenden klassifizierten Rolle zur empfangenden 
+	              klassifizierten Rolle).
               </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/create_action.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Message with Create Action</literal>. 
-              Add a create message 
-              between two classifierroles selected using button&nbsp;1 motion (from 
-              the originating classifierrole to the receiving classifierrole).
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/return_action.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Nachricht mit Antwort-Aktion</literal>. Fügt eine 
+	              Antwort-Nachricht mit Hilfe einer Taste&nbsp;1-Bewegung 
+	              zwischen zwei klassifizierten Rollen ein (von der 
+	              verursachenden klassifizierten Rolle zur empfangenden 
+	              klassifizierten Rolle).
               </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/destroy_action.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Message with Destroy Action</literal>. 
-              Add a destroy message 
-              between two classifierroles selected using button&nbsp;1 motion (from 
-              the originating classifierrole to the receiving classifierrole).
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/create_action.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Nachricht mit einer Erzeugen-Aktion</literal>. Fügt 
+	              eine Erzeugungs-Nachricht mit Hilfe einer Taste&nbsp;1-Bewegung 
+	              zwischen zwei klassifizierten Rollen ein (von der 
+	              verursachenden klassifizierten Rolle zur empfangenden 
+	              klassifizierten Rolle).
               </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/sequence_expand.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Add Vertical Space to Diagram</literal>.  
-              Add vertical space to a diagram by moving all messages
-              below this down.  Click the mouse at the point where you 
-              want the space to be added and drag down the screen vertically
-              the distance which matches the height of the space you'd 
-              like to have added.
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/destroy_action.gif"
+	              				format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>Nachricht mit Destruktions-Aktion</literal>. Fügt eine 
+              Destruktions-Nachricht mit Hilfe einer Taste&nbsp;1-Bewegung 
+              zwischen zwei klassifizierten Rollen ein (von der verursachenden 
+              klassifizierten Rolle zur empfangenden klassifizierten Rolle).
               </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/sequence_contract.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Remove Vertical Space in Diagram</literal>. 
-              Remove vertical space from diagram and move all elements
-              below up vertically.  Click and drag the mouse vertically
-              over the space that you want deleted.
+              <para>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/sequence_expand.gif"
+              				format="GIF" />
+              		</imageobject>
+              	</inlinemediaobject>
+              </guiicon>
+              <literal>Vertikalen Zwischenraum in Diagramm einfügen</literal>. 
+              Fügen Sie vertikalen Zwischenraum in ein Diagramm ein, indem Sie 
+              alle nachfolgenden Nachrichten nach unten 
+              verschieben. Klicken Sie mit der Maus auf den Punkt, wo Sie den 
+              Zwischenraum einfügen wollen und ziehen Sie auf dem Bildschirm 
+              vertikal um den Abstand nach unten, der der Höhe des gewünschten 
+              hinzuzufügenden Zwischenraumes entspricht.
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/sequence_contract.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Vertikalen Zwischenraum im Diagramm entfernen
+	              </literal>. Entfernt den vertikalen Zwischenraum im Diagramm 
+	              und bewegt alle nachfolgenden Elemente vertikal nach oben. 
+	              Klicken und ziehen Sie die Maus vertikal über den Zwischenraum, 
+	              den Sie löschen wollen.
               </para>
 
             </listitem>
@@ -16446,84 +16608,121 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Collaboration Diagram Specific Tools</title>
+          <title>Kollaborationsdiagrammspezifische Werkzeuge</title>
 
-          <para>Three tools are provided specific to UML model elements on 
-          collaboration diagrams. The detailed properties of these 
-          model elements are described in the section on collaboration 
-          diagram model elements (see <xref linkend="ch.ref.entcollab"/>
-          ).</para>
+          <para>
+          	Drei Werkzeuge sind speziell für UML-Modellelemente in 
+          	Kollaborationsdiagrammen vorhanden. Die detaillierten Eigenschaften 
+          	dieser Modellelemente sind im Abschnitt über Kollaborationsdiagramm-
+          	Modellelemente beschrieben (siehe <xref linkend="ch.ref.entcollab"/>
+          	).
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/classifier_role.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Classifier Role</literal>. Add a classifier role 
-              to the diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/classifier_role.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Klassifizierte Rolle</literal>. Fügt dem Diagramm 
+	              eine klassifizierte Rolle hinzu.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/association_plain.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Association Role</literal>. Add an association 
-              role between two classifier roles selected using button&nbsp;1 
-              motion (from the originating classifier role to the 
-              receiving classifier role). There are 6 types of 
-              association roles offered here, see 
-              <xref linkend="fig.ref.edit_association_tools"/>: 
-              <literal>association</literal>, <literal>
-              aggregation</literal> and <literal>composition</literal>, 
-              and all these three can be <literal>
-              bidirectional</literal> or <literal>
-              unidirectional</literal>.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/association_plain.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Assoziation</literal>. Fügt eine 
+	              Assoziation mit Hilfe einer Taste&nbsp;1-Bewegung 
+	              zwischen zwei klassifizierten Rollen ein (von der 
+	              verursachenden Rolle zur empfangenden Rolle). Es werden hier 
+	              6 Typen von Assoziationen angeboten, siehe 
+	              <xref linkend="fig.ref.edit_association_tools"/>: 
+	              <literal>Assoziation</literal>, <literal>
+	              Aggregation</literal> und <literal>Komposition</literal>, 
+	              und all diese drei können <literal>
+	              bidirektional</literal> oderr <literal>
+	              unidirektional</literal> sein.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/generalization.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Generalization</literal>. Add a generalization 
-              between two model elements selected using button&nbsp;1 (from the 
-              child to the parent).</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/generalization.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Generalisierung</literal>. Fügt eine Generalisierung 
+	              zwischen zwei Modellelementen ein, die mit der Taste&nbsp;1 
+	              markiert wurden (von Kind zum Vater).
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/dependency.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Dependency</literal>. Add a dependency between 
-              two model elements selected using button&nbsp;1 motion (from the 
-              dependent model element).</para>
+              <para>
+	            <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/dependency.gif" format="GIF" />
+	              		</imageobject>
+              		</inlinemediaobject>
+              	</guiicon>
+              	<literal>Abhängigkeit</literal>. Fügt eine Abhängigkeit 
+              	zwischen zwei Modellelementen ein, die mit einer Taste&nbsp;1-
+              	Bewegung markiert wurden (vom abhängigen Modellelement). 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/message.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Add Message</literal>. Add a message to the 
-              selected association role.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/message.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Nachricht hinzufügen</literal>. Fügt zum markierten 
+	              Assoziatationstyp eine Nachricht hinzu. 
+              </para>
 
               <note>
 
-                <para>This tool is grayed out except when an 
-                association role is selected.</para>
+                <para>
+                	Dieses Werkzeug ist deaktiviert, es sei denn, eine 
+                	Assoziation ist markiert.
+                </para>
 
               </note>
 
@@ -16535,98 +16734,148 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Statechart Diagram Specific Tools</title>
+          <title>Zustandsdiagrammspezifische Werkzeuge</title>
 
-          <para>Eleven tools are provided specific to UML model elements on 
-          statechart diagrams. The detailed properties of these model elements 
-          are described in the section on statechart diagram model elements 
-          (see <xref linkend="ch.ref.entstate"/>).</para>
+          <para>
+          	Elf Werkzeuge speziell für UML-Modellelemente in Zustandsdiagrammen 
+          	sind vorhanden. Die detaillierten Eigenschaften dieser Modellelemente 
+          	sind im Abschnitt Zustandsdiagramm-Modellelemente beschrieben (siehe 
+          	<xref linkend="ch.ref.entstate"/>).
+		  </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center" fileref="images/icons/state.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Simple State</literal>. Add a simple state to the 
-              diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/state.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Zustand</literal>. Fügt dem Diagramm einen 
+	              Zustand hinzu. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/composite_state.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Composite State</literal>. Add a composite state 
-              to the diagram. All model elements that are subsequently 
-              placed on the diagram on top of the composite state will 
-              form part of that composite state.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/composite_state.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Zusammengesetzter Zustand</literal>. Fügt dem Diagramm 
+	              einen zusammengesetzten Zustand hinzu. Alle Modellelemente 
+	              die nachfolgend im Diagramm auf dem zusammengesetzten Zustand 
+	              plaziert werden, werden Teil des zusammengesetzten Zustandes. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/transition.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Transition</literal>. Add a transition between 
-              two states selected using button&nbsp;1 motion (from the 
-              originating state to the receiving state).</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/transition.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Transition (Übergang)</literal>. Fügt eine Transition 
+	              (einen Übergang) mit Hilfe einer Taste&nbsp;1-Bewegung 
+	              zwischen zwei Zuständen ein (von dem verursachenden Zustand zu 
+	              dem empfangenden Zustand). 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/synchstate.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Synch State</literal>. Add a synchstate to the 
-              diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/synchstate.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Synchronistations-Zustand</literal>. Fügt dem 
+	              Diagramm einen Synchronisations-Zustand hinzu. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/submachinestate.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Submachine State</literal>. Add a submachinestate to the 
-              diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/submachinestate.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Teilautomatenzustand</literal>. Fügt dem Diagramm 
+	              einen Teilautomatenzustand hinzu. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/stubstate.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Stub State</literal>. Add a stubstate to the 
-              diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/stubstate.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Teilzustand</literal>. Fügt dem Diagramm einen 
+	              Teilzustand hinzu. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/initial_state.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Initial</literal>. Add an initial pseudostate to 
-              the diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/initial_state.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Startzustand</literal>. Fügt in das Diagramm einen 
+	              Pseudo-Startzustand ein. 
+              </para>
 
               <caution>
 
-                <para>There is nothing to stop you adding more than one 
-                initial state to a diagram or composite state. However 
-                to do so is meaningless, and one of the critics will 
-                complain.</para>
+                <para>
+                	Es gibt nichts zu stoppen, wenn Sie dem Diagramm mehr als 
+                	einen Startzustand oder zusammengesetzten Zustand hinzufügen. 
+                	So etwas zu tun ist bedeutungslos und es wird eine der 
+                	Kritiken erscheinen.
+                </para>
 
               </caution>
 
@@ -16634,87 +16883,71 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/final_state.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Final State</literal>. Add a final state to the 
-              diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/final_state.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Endzustand</literal>. Fügt in das Diagramm einen 
+	              Endzustand ein. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/junction.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Junction</literal>. Add a junction pseudostate 
-              to the diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/junction.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Kreuzung</literal>. Fügt in das Diagramm einen 
+	              Pseudo-Kreuzungszustand ein. 
+              </para>
 
               <caution>
 
-                <para>A well formed junction should have at least one incoming 
-                transition and at least one outgoing. ArgoUML does not 
-                enforce this, but an ArgoUML critic will complain about 
-                any junction that does not follow this rule.</para>
+                <para>
+                	Eine wohlgeformte Kreuzung sollte mindestens eine kommende 
+                	und mindestens ein ausgehende Transition haben. ArgoUML 
+                	erzwingt dies nicht, aber es erscheint eine Kritik bei 
+                	jeder Kreuzung, die dieser Regel nicht folgt.
+                </para>
 
               </caution>
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/branch.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Choice</literal>. Add a choice pseudostate to 
-              the diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/branch.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Entscheidung</literal>. Fügt in das Diagramm einen 
+	              Entscheidungs-Pseudozustand ein. 
+              </para>
 
               <caution>
 
-                <para>A well formed choice should have at least one incoming 
-                transition and at least one outgoing. ArgoUML does not 
-                enforce this, but an ArgoUML critic will complain about 
-                any choice that does not follow this rule.</para>
-
-              </caution>
-
-            </listitem>
-
-            <listitem>
-
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center" fileref="images/icons/fork.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Fork</literal>. Add a fork pseudostate to the 
-              diagram.</para>
-
-              <caution>
-
-                <para>A well formed fork should have exactly one incoming 
-                transition and two or more outgoing. ArgoUML does not 
-                enforce this, but an ArgoUML critic will complain about 
-                any fork that does not follow this rule.</para>
-
-              </caution>
-
-            </listitem>
-
-            <listitem>
-
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center" fileref="images/icons/join.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Join</literal>. Add a join pseudostate to the 
-              diagram.</para>
-
-              <caution>
-
-                <para>A well formed join should have exactly one outgoing 
-                transition and two or more incoming. ArgoUML does not 
-                enforce this, but an ArgoUML critic will complain about 
-                any join that does not follow this rule.</para>
+                <para>
+                	Eine wohlgeformte Entscheidung sollte mindestens eine kommende 
+                	und mindestens ein ausgehende Transition haben. ArgoUML 
+                	erzwingt dies nicht, aber es erscheint eine Kritik bei 
+                	jeder Entscheidung, die dieser Regel nicht folgt.
+                </para>
 
               </caution>
 
@@ -16722,73 +16955,156 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/shallow_history.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Shallow History</literal>. Add a shallow history 
-              pseudostate to the diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/fork.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Gabelung</literal>. Fügt in das Diagramm einen 
+	              Gabelungs-Pseudozustand ein. 
+              </para>
+
+              <caution>
+
+                <para>
+                	Eine wohlgeformte Gabelung sollte genau eine kommende 
+                	und und zwei oder mehr ausgehende Transitionen haben. ArgoUML 
+                	erzwingt dies nicht, aber es erscheint eine Kritik bei 
+                	jeder Gabelung, die dieser Regel nicht folgt.
+                </para>
+
+              </caution>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/deep_history.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Deep History</literal>. Add a deep history 
-              pseudostate to the diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/join.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Vereinigung</literal>. Fügt in das Diagramm einen 
+	              Vereinigungs-Pseudozustand ein. 
+              </para>
+
+              <caution>
+
+                <para>
+                	Eine wohlgeformte Vereinigung sollte genau eine kommende 
+                	und zwei oder mehr ausgehende Transitionen haben. ArgoUML 
+                	erzwingt dies nicht, aber es erscheint eine Kritik bei 
+                	jeder Vereinigung, die dieser Regel nicht folgt.
+                </para>
+
+              </caution>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+	          	<guiicon>
+	              	<inlinemediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+              				fileref="images/icons/shallow_history.gif"
+              				format="GIF" />
+              		</imageobject>
+              	   </inlinemediaobject>
+                </guiicon>
+              	<literal>Flache Historie</literal>. Fügt in ein Diagramm 
+              	eine flache Historie ein. 
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/deep_history.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Tiefgehende Historie</literal>. Fügt in das Diagramm 
+	              eine tiefgehende Historie ein. 
+              </para>
 
             </listitem>
             
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/call_event.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Call Event</literal>. Add a Call Event as trigger
-              to a transition.
-              There are 4 types of 
-              events offered here: 
-              <literal>Call Event</literal>, <literal>
-              Change Event</literal>, 
-              <literal>Signal Event</literal> and <literal>
-              Time Event</literal>.</para>
+              <para>
+	          	  <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/call_event.gif" format="GIF" />
+	              		</imageobject>
+              	    </inlinemediaobject>
+              	  </guiicon>
+	              <literal>Aufruf-Ereignis</literal>. Fügt einer Transition 
+	              ein Aufruf-Ereignis als Trigger hinzu. Es werden hier 4 
+	              Ereignisarten angeboten: 
+	              <literal>Aufruf-Ereignis</literal>, <literal>
+	              Änderungs-Ereignis</literal>, 
+	              <literal>Signal-Ereignis</literal> und <literal>
+	              Zeit-Ereignis</literal>.
+	              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/guard.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Guard</literal>. Add a guard 
-              to a transition.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/guard.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Wächter</literal>. Fügt einer Transition einen 
+	              Wächter hinzu. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/call_action.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Call Action</literal>. Add a call action 
-              (i.e. the effect)
-              to a transition.
-              There are 7 types of 
-              actions offered here: 
-              <literal>Call Action</literal>, 
-              <literal>Create Action</literal>, 
-              <literal>Destroy Action</literal>, 
-              <literal>Return Action</literal>, 
-              <literal>Send Action</literal>, 
-              <literal>Terminate Action</literal>, 
-              <literal>Uninterpreted Action</literal> and 
-              <literal>Action Sequence</literal>.
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/call_action.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Aufruf-Aktion</literal>. Fügt einer Transition 
+	              (z.B. einem Effekt) eine Aufruf-Aktion hinzu. Es werden hier 
+	              7 Arten von Aktionen angeboten: 
+	              <literal>Aufruf-Aktion</literal>, 
+	              <literal>Erzeugungs-Aktion</literal>, 
+	              <literal>Zerstören-Aktion</literal>, 
+	              <literal>Antwort-Aktion</literal>, 
+	              <literal>Sende-Aktion</literal>, 
+	              <literal>Beenden-Aktion</literal>, 
+	              <literal>Uninterpretierte Aktion</literal> und 
+	              <literal>Aktionsfolge</literal>.
               </para>
 
             </listitem>
@@ -16799,7 +17115,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Activity Diagram Specific Tools</title>
+          <title>Aktivitätsdiagrammspezifische Werkzeuge</title>
 
           <para>Seven tools are provided specific to UML model elements on 
           activity diagrams. The detailed properties of these model elements 
