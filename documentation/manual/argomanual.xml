@@ -17117,52 +17117,74 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <title>Aktivitätsdiagrammspezifische Werkzeuge</title>
 
-          <para>Seven tools are provided specific to UML model elements on 
-          activity diagrams. The detailed properties of these model elements 
-          are described in the section on activity diagram model elements 
-          (see <xref linkend="ch.ref.entactiv"/>).</para>
+          <para>
+            Es sind sieben Werkzeuge vorhanden, die speziell für UML-
+            Modellelemente in Aktivitätsdiagrammen geschaffen wurden. Die 
+            detaillierten Eigenschaften dieser Modellelemente werden im Abschnitt 
+            Modellelemente in Aktivitätsdiagrammen beschrieben (siehe  
+			<xref linkend="ch.ref.entactiv"/>).
+		  </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/action_state.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Action State</literal>. Add an action state to 
-              the diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/action_state.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Aktion</literal>. Sie fügen dem Diagramm eine 
+	              Aktion hinzu.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/transition.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Transition</literal>. Add a transition between 
-              two action states selected using button&nbsp;1 motion (from 
-              the originating action state to the receiving action 
-              state).</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/transition.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Transition</literal>. Sie fügen mit Hilfe einer 
+	              Taste&nbsp;1-Bewegung eine Transition zwischen zwei markierten 
+	              Aktionen ein (von der verursachenden 
+	              Aktion zur empfangenden Aktion).
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/initial_state.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Initial</literal>. Add an initial pseudostate to 
-              the diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/initial_state.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Startknoten</literal>. Sie fügen dem Diagramm einen 
+	              Startknoten hinzu. 
+              </para>
 
               <caution>
 
-                <para>There is nothing to stop you adding more than one 
-                initial state to a diagram. However to do so is 
-                meaningless, and one of the critics will 
-                complain.</para>
+                <para>
+                	Es gibt nichts, was Sie daran hindert, dem Diagramm mehr 
+                	als einen Startknoten hinzuzufügen. Wenn Sie es doch tun, 
+                	ist es bedeutunglos und es wird eine der Kritiken ausgelöst.
+                </para>
 
               </caution>
 
@@ -17170,30 +17192,47 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/final_state.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Final State</literal>. Add a final state to the 
-              diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/final_state.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Endknoten</literal>. Sie fügen dem Diagramm einen 
+	              Endknoten hinzu.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/junction.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Junction</literal>. Add a junction (decision) 
-              pseudostate to the diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/junction.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Entscheidungs-/Verbindungsknoten</literal>. Sie fügen 
+	              dem Diagramm einen Entscheidungs-/Verbindungsknoten 
+	              (Entscheidung) hinzu.
+              </para>
 
               <caution>
 
-                <para>A well formed junction should have one incoming 
-                transition and two or more outgoing. ArgoUML does not 
-                enforce this, but an ArgoUML critic will complain about 
-                any junction that does not follow this rule.</para>
+                <para>
+                	Ein wohlgeformter Entscheidungs-/Verbindungsknoten sollte 
+                	eine eingehende Transition und zwei oder mehrere ausgehende 
+                	Transitionen aufweisen. ArgoUML erzwingt dies nicht, aber 
+                	es wird eine ArgoUML-Kritik bei jedem Entscheidungs-/
+                	Verbindungsknoten ausgelöst, der dieser Regel nicht 
+                	entspricht.
+                </para>
 
               </caution>
 
@@ -17201,18 +17240,28 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center" fileref="images/icons/fork.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Fork</literal>. Add a fork pseudostate to the 
-              diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/fork.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Gabelung</literal>. Sie fügen dem Diagramm eine
+	              Gabelung hinzu.
+              </para>
 
               <caution>
 
-                <para>A well formed fork should have one incoming 
-                transition and two or more outgoing. ArgoUML does not 
-                enforce this, but an ArgoUML critic will complain about 
-                any fork that does not follow this rule.</para>
+                <para>
+                	Ein wohlgeformte Gabelung sollte eine eingehende Transition 
+                	und zwei oder mehrere ausgehende Transitionen aufweisen. 
+                	ArgoUML erzwingt dies nicht, aber es wird eine ArgoUML-
+                	Kritik bei jeder Gabelung ausgelöst, die dieser Regel nicht 
+                	entspricht.
+                </para>
 
               </caution>
 
@@ -17220,18 +17269,28 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center" fileref="images/icons/join.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Join</literal>. Add a join pseudostate to the 
-              diagram.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/join.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Vereinigung</literal>. Sie fügen dem Diagramm eine
+	              Vereinigung hinzu. 
+              </para>
 
               <caution>
 
-                <para>A well formed join should have one outgoing 
-                transition and two or more incoming. ArgoUML does not 
-                enforce this, but an ArgoUML critic will complain about 
-                any join that does not follow this rule.</para>
+                <para>
+                	Ein wohlgeformte Vereinigung sollte eine eingehende Transition 
+                	und zwei oder mehrere ausgehende Transitionen aufweisen. 
+                	ArgoUML erzwingt dies nicht, aber es wird eine ArgoUML-
+                	Kritik bei jeder Vereinigung ausgelöst, die dieser Regel nicht 
+                	entspricht.
+                </para>
 
               </caution>
 
@@ -17239,32 +17298,43 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
             
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/callstate.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>CallState</literal>. Add a callstate to the 
-              diagram. 
-              A call state is an action state that calls a single operation.
-              Hence, the name of the operation being called 
-              is put in the symbol, 
-              along with the name of the classifier that
-              hosts the operation in parentheses under it.
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/callstate.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Aufrufknoten</literal>. Sie fügen dem Diagramm einen 
+	              Aufrufknoten hinzu.
+	              Ein Aufrufknoten ist eine Aktion, die eine einzelne 
+	              Operation aufruft. Folglich wird der Name der aufzurufenden 
+	              Operation, zusammen mit dem in Klammern stehenden Namen des 
+	              Klassifizierers, der die Operation ausführt, in das Symbol 
+	              geschrieben.
               </para>
 
             </listitem>
             
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/objectflowstate.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>ObjectFlowState</literal>. Add a objectflowstate to the 
-              diagram.
-              An objectflowstate is 
-              an object that is input to or output from 
-              an action.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/objectflowstate.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Objektknoten</literal>. Sie fügen dem Diagramm einen 
+	              Objektknoten hinzu.
+	              Ein Objektknoten ist ein Objekt, das Eingabe oder 
+	              Ausgabe einer Aktion ist. 
+              </para>
 
             </listitem>
 
@@ -17274,17 +17344,22 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         <sect2>
 
-          <title>Deployment Diagram Specific Tools</title>
+          <title>Verteilungsdiagrammspezifische Werkzeuge</title>
 
-          <para>Ten tools are provided specific to UML model elements on 
-          deployment diagrams. The detailed properties of these 
-          model elements are described in the section on deployment diagram 
-          model elements (see <xref linkend="ch.ref.entdeploy"/>).</para>
+          <para>
+          	Zehn Werkzeuge sind speziell für UML-Modellelemente in 
+          	Verteilungsdiagrammen vorhanden. Die detaillierten Eigenschaften 
+          	dieser Modellelemente sind im Abschnitt über Modellelemente in 
+          	Verteilungsdiagrammen beschrieben (siehe 
+			<xref linkend="ch.ref.entdeploy"/>).
+ 		  </para>
 
           <note>
 
-            <para>Remember that ArgoUML&apos;s deployment diagrams are 
-            also used for component diagrams.</para>
+            <para>
+            	Erinnern Sie sich daran, dass ArgoUML&apos;s Verteilungsdiagramme 
+            	auch als Komponentendiagramme verwendet werden.
+            </para>
 
           </note>
 
@@ -17292,120 +17367,174 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center" fileref="images/icons/node.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Node</literal>. Add a node to the diagram. For 
-              convenience, when the mouse is over a selected node it 
-              displays four handles to left, right, top and bottom 
-              which may be dragged to form association 
-              relationships.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/node.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Knoten</literal>. Sie fügen dem Diagramm einen 
+	              Knoten hinzu. Befindet sich die Maus über einem markierten 
+	              Knoten, zeigt dieser vier Griffe, jeweils einer links, rechts, 
+	              oben und unten. Diese Griffe können auf andere Objekte gezogen 
+	              werden, um Assoziationen einzurichten. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/node_instance.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Node Instance</literal>. Add a node instance to 
-              the diagram. For convenience, when the mouse is over a 
-              selected node instance it displays four handles to left, 
-              right, top and bottom which may be dragged to form link 
-              relationships.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/node_instance.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Knoteninstanz</literal>. Sie fügen dem Diagramm eine 
+	              Knoteninstanz hinzu. Befindet sich die Maus über einer 
+	              markierten Knoteninstanz, zeigt diese vier Griffe, jeweils 
+	              einer links, rechts, oben und unten. Diese Griffe können auf 
+	              andere Objekte gezogen werden, um Verknüpfungen einzurichten.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/component.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Component</literal>. Add a component to the 
-              diagram. For convenience, when the mouse is over a 
-              selected component it displays four handles to left, 
-              right, top and bottom which may be dragged to form 
-              dependency relationships.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/component.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Komponente</literal>. Sie fügen dem Diagramm eine 
+	              Komponente hinzu. Befindet sich die Maus über einer markierten 
+	              Komponente, zeigt diese vier Griffe, jeweils einer links, rechts, 
+	              oben und unten. Diese Griffe können auf andere Objekte gezogen 
+	              werden, um Abhänigkeiten einzurichten.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/component_instance.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Component Instance</literal>. Add a component 
-              instance to the diagram. For convenience, when the mouse 
-              is over a selected component instance it displays four 
-              handles to left, right, top and bottom which may be 
-              dragged to form dependency relationships.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/component_instance.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Komponenteninstanz</literal>. Sie fügen dem Diagramm 
+	              eine Komponenteninstanz hinzu. Befindet sich die Maus über 
+	              einer markierten Komponenteninstanz, zeigt diese vier Griffe, 
+	              jeweils einer links, rechts, oben und unten. Diese Griffe 
+	              können auf andere Objekte gezogen werden, um Abhängigkeiten 
+	              einzurichten.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/generalization.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Generalization</literal>. Add a generalization 
-              between two model elements selected using button&nbsp;1 (from the 
-              child to the parent).</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/generalization.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Generalisierung</literal>. Sie fügen eine 
+	              Generalisierung zwischen zwei, mit der Taste&nbsp;1 markierten 
+	              Modellelementen ein (vom Kind zur Mutter).
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/realization.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Realization</literal>. Add a realization between 
-              a class and an interface selected using button&nbsp;1 motion 
-              (from the realizing class to the realized 
-              interface).</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/realization.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Realisierung</literal>. Sie fügen eine Realisierung 
+	              zwischen einer Klasse und einer Schnittstelle ein (von der 
+	              realisierenden Klasse zur realisierten Schnittstelle). 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/dependency.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Dependency</literal>. Add a dependency between 
-              two model elements selected using button&nbsp;1 motion (from the 
-              dependent model element).</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/dependency.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Abhängigkeit</literal>. Sie fügen eine Abhängigkeit 
+	              zwischen zwei Modellelementen ein (vom abhängigen 
+	              Modellelement).
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/association_plain.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Association</literal>. Add an association 
-              between two model elements (node, component, class or 
-              interface) selected using button&nbsp;1 motion (from the first 
-              model element to the second model element). There are 6 types of 
-              association offered here, see 
-              <xref linkend="fig.ref.edit_association_tools"/>: 
-              <literal>association</literal>, <literal>
-              aggregation</literal> and <literal>composition</literal>, 
-              and all these three can be <literal>
-              bidirectional</literal> or <literal>
-              unidirectional</literal>.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/association_plain.gif"
+	              				format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Assoziation</literal>. Sie fügen eine Assoziation 
+	              zwischen zwei Modellelementen (Knoten, Komponente, Klasse 
+	              oder Schnittstelle) ein (vom ersten Modellelement zum 
+	              zweiten Modellelement) Es gibt 6 Arten von Assoziationen, die 
+	              hier angeboten werden. Siehe  
+	              <xref linkend="fig.ref.edit_association_tools"/>: 
+	              <literal>Assoziation</literal>, <literal>
+	              Aggregation</literal> und <literal>Komposition</literal>, 
+	              und alle diese drei können <literal>
+	              bidirektional</literal> oder <literal>
+	              unidirektional</literal> sein.
+              </para>
 
               <caution>
 
-                <para>The constraint that associations between classes 
-                and interfaces must not be navigable 
-                <emphasis>from</emphasis> the interface still applies 
-                on deployment diagrams.</para>
+                <para>
+                	Die Randbedingung, dass Assoziationen zwischen Klassen und 
+                	Schnittstellen <emphasis>von</emphasis> der Schnittstelle 
+                	nicht navigierbar sein dürfen, gilt auch in 
+                	Verteilungsdiagrammen.
+                </para>
 
               </caution>
 
@@ -17413,25 +17542,40 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/object.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Object</literal>. Add an object to the diagram. 
-              For convenience, when the mouse is over a selected object 
-              it displays four handles to left, right, top and bottom, 
-              which may be dragged to form link relationships.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/object.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Objekt</literal>. Sie fügen dem Diagramm ein Objekt 
+	              hinzu. Befindet sich die Maus über 
+	              einem markierten Objekt, zeigt dieses vier Griffe, 
+	              jeweils einer links, rechts, oben und unten. Diese Griffe 
+	              können auf andere Objekte gezogen werden, um Verknüpfungen 
+	              einzurichten.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center" fileref="images/icons/link.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Link</literal>. Add a link between two model elements 
-              (node instance, component instance or object) selected 
-              using button&nbsp;1 motion.</para>
+              <para>
+	              <guiicon>
+	              	<inlinemediaobject>
+	              		<imageobject>
+	              			<imagedata align="center"
+	              				fileref="images/icons/link.gif" format="GIF" />
+	              		</imageobject>
+	              	</inlinemediaobject>
+	              </guiicon>
+	              <literal>Verknüpfung</literal>. Sie fügen eine Verknüpfung 
+	              zwischen zwei Modellelementen (Knoteninstanz, 
+	              Komponenteninstanz oder Objekt) ein. 
+              </para>
 
             </listitem>
 
@@ -17443,41 +17587,46 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
       <sect1 id="s1.ref.edit_pane_broom">
 
-        <title>The Broom</title>
+        <title>Der Besen</title>
 
-        <para>ArgoUML&apos;s broom alignment tool is specialized to 
-        support the needs of designers in achieving the kind of 
-        alignment used in UML diagrams. It is common for designers to 
-        roughly align objects as they are created or by using simple 
-        movement commands. The broom is an easy way to precisely align 
-        objects that are already roughly aligned. Furthermore, the 
-        broom&apos;s distribution options are suited to the needs of 
-        UML designers: making related objects appear evenly spaced, 
-        packing objects to save diagram space, and spreading objects 
-        out to make room for new objects. The broom also makes it easy 
-        to change from horizontal to vertical alignment or from 
-        left-alignment to right-alignment.</para>
+        <para>
+        	ArgoUML&apos;s Besen-Ausrichtungswerkzeug ist spezialisiert darauf, 
+        	die Bedürfnisse von Designern hinsichtlich der Ausrichtung von 
+        	Modellelementen in UML-Diagrammen zu unterstützen.
+        	Häufig richten Designer Objekte beim Erzeugen grob aus oder tun dies 
+        	über einfache Bewegungskommandos. Der Besen ist ein einfacher Weg, 
+        	grob ausgerichtete Objekte präzise auszurichten. Darüber hinaus sind 
+        	die Verteilungsoptionen des Besen&apos;s auf die Bedürfnisse von 
+        	Designern zugeschnitten: zusammengehörende Objekte haben einen gleich 
+        	grossen Zwischenraum, bündelt Objekte, um Diagrammplatz einzusparen, 
+        	und schafft Platz für neue Objekte. Der Besen macht es auch einfach, 
+        	von der horizontalen in die vertikale Ausrichtung oder von 
+        	linksbündiger zu rechtsbündiger Ausrichtung zu wechseln.
+        </para>
 
-        <para>The T-shaped icon in ArgoUML&apos;s diagram toolbar 
-        invokes the broom alignment tool. When the mouse button&nbsp;1 is 
-        pressed while in broom-mode, the designer&apos;s initial mouse 
-        movement orients the broom to face in one of four directions: 
-        north, south, east, or west. After that, mouse drag events 
-        cause the broom to advance in the chosen direction, withdraw, 
-        or grow in a lateral direction. Like a real-world push broom, 
-        the broom tool pushes diagram elements that come in contact 
-        with it. This has the effect of aligning objects along the face 
-        of the broom and provides immediate visual feedback (see the 
-        figure below). Unlike a real-world broom, moving backwards 
-        allows diagram elements to return to their original position. 
-        Growing the broom makes it possible to align objects that are 
-        not near each other. When the mouse button is released, the 
-        broom disappears and the moved objects are selected to make it 
-        easy to manipulate them further.</para>
+        <para>
+        	Das T-förmige Symbol in ArgoUML&apos;s Diagrammwerkzeugleiste ruft 
+        	das Besen-Ausrichtungswerkzeug auf. Wird die Maustaste&nbsp;1 im 
+        	Besenmodus gedrückt, wird die erste Mausbewegung des Designers den 
+        	Besen in einer der vier Richtungen: Norden, Süden, Osten oder 
+        	Westen ausrichten. Danach verursachen Mausbewegungen, dass der Besen 
+        	sich in die gewählte Richtung vorwärts, rückwärts oder seitwärts 
+        	bewegt. Wie ein Schieber in der realen Welt, verschiebt das Besen-
+        	Werkzeug Diagrammelemente, die mit ihm in Kontakt kommen. Dies hat 
+        	zur Folge, dass die Objekte entsprechend der Besenvorderseite 
+        	ausgerichtet werden und dies unmittelbar visualisiert wird (siehe 
+        	nachfolgendes Bild). Im Gegensatz zu einem Besen in der realen Welt, 
+        	erlaubt die Rückwärtsbewegung, dass Diagrammelemente in ihre 
+        	ursprüngliche Position zurückkehren können. Das Vergrößern des 
+        	Besens macht es möglich, Objekte, die nicht nahe beieinander sind, 
+        	auszurichten. Wird die Maustaste losgelassen, verschwindet der Besen 
+        	, die Objekte bleiben markiert, um diese weiterhin verändern zu 
+        	können. 
+        </para>
 
         <figure id="fig.ref.editpane_broom">
 
-          <title>The Broom.</title>
+          <title>Der Besen.</title>
 
           <informaltable frame="none">
 
@@ -17509,23 +17658,25 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
         </figure>
 
-        <para>If the designer presses the space bar while using the 
-        broom, objects on the face of the broom are distributed (i.e., 
-        spaced evenly). ArgoUML&apos;s broom supports three 
-        distribution modes: objects can be spaced evenly across the 
-        space that they use, objects can be packed together with only a 
-        small gap between them, or objects can be distributed evenly 
-        over the entire length of the broom&apos;s face. Repeatedly 
-        pressing the space bar cycles among these three distribution 
-        modes and displays a brief message indicating the operation 
-        just performed: Space evenly, Pack tightly, Spread out and 
-        Original.</para>
+        <para>
+        	Wenn der Designer die Leertaste während der Nutzung des Besens 
+        	drückt, werden die Objekte an der Vorderseite des Besens gleichmäßig 
+        	verteilt (z.B. gleichmäßiger Zwischenraum). ArgoUML&apos;s Besen 
+        	unterstützt drei Verteilungsmodi: Objekte können gleichmäßig auf den 
+        	Raum, den sie nutzen, verteilt werden, Objekte können gepackt werden, 
+        	nur mit einem kleinen Zwischenraum dazwischen, oder Objekte können 
+        	gleichmäßig über die gesamte Länge der Besenvorderseite verteilt 
+        	werden. Wiederholtes Drücken der Leertaste wechselt zwischen diesen 
+        	drei Verteilungsmodi und gibt eine Kurzinformation aus, welche 
+        	Operation gerade ausgeführt wird: Gleichmäßiger Zwischenraum, 
+        	komprimieren, spreizen und Ursprung.
+        </para>
 
       </sect1>
 
       <sect1 id="s1.ref.edit_pane_selection_action_buttons">
 
-        <title>Selection Action Buttons</title>
+        <title>Markier-Aktionsschaltflächen</title>
 
         <para>When the user selects a model element in a UML diagram, 
         several handles are drawn on it to indicate that it is selected 
