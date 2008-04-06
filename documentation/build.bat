@@ -7,7 +7,7 @@ rem checked out, use that instead of running build.bat
 rem
 
 setlocal
-set ANT_HOME=..\..\argouml\tools\apache-ant-1.6.5
+set ANT_HOME=..\..\argouml\tools\apache-ant-1.7.0
 
 :: Convert relative path to absolute
 pushd %ANT_HOME%

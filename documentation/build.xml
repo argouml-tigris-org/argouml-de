@@ -18,7 +18,7 @@
   <property file="${user.home}/argouml.build.properties"/>
   <property file="${override.build.properties}"/>
   <!-- Fallback definition for argo.src.dir - won't override current value -->
-  <property name="argo.src.dir" value="${argo.root.dir}/src_new"/>
+  <property name="argo.src.dir" value="${argo.root.dir}/src"/>
   <property file="${argo.src.dir}/default.properties"/>
   <!-- our defaults depend on and don't override main props, so they go 2nd -->
   <property file="default.properties"/>
@@ -326,22 +326,6 @@ To get it, call ant with target - docbook-xsl-get
 
     <echo message="Copying images for ${doc.prefix}.xml..."/>
 
-    <java classname="com.icl.saxon.StyleSheet"
-          fork="yes"
-	  taskname="saxon"
-          dir="${documentation.dir}/${doc.subdir}">
-      <classpath>
-        <path refid="saxon.classpath"/>
-      </classpath>
-      <arg value="${doc.prefix}-generated.xml"/>
-      <arg value="${imglist.xsl}"/>
-    </java>
-
-    <!-- Copy the image files to where we want them. Watch out for a nasty if
-         there are no images, so imglist.txt is empty. The entire documentation
-         tree would be copied in to the source directory! Quick fix is to
-         always have at least one file, "tip.png". --> 
-
     <copy todir="${documentation.dir}/${doc.subdir}">
       <fileset dir="${documentation.dir}"
          includes="images/tip.png"
@@ -387,11 +371,6 @@ To get it, call ant with target - docbook-xsl-get
       <param name="target.hs"  value="${doc.subdir}.hs"/>
     </antcall>
 
-    <!-- Delete the redundant images directory and list from the source
-         directory  -->
-
-    <delete dir="${documentation.dir}/${doc.subdir}/images"/>
-    <delete file="${documentation.dir}/${doc.subdir}/imglist.txt" quiet="true"/>
     <delete file="${documentation.dir}/${doc.subdir}/${doc.prefix}-generated.xml"/>
   </target>
   
