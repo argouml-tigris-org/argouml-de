@@ -20,6 +20,9 @@
   <!-- Fallback definition for argo.src.dir - won't override current value -->
   <property name="argo.src.dir" value="${argo.root.dir}/src"/>
   <property file="${argo.src.dir}/default.properties"/>
+
+  <property name="argo.tools.dir" location="${argo.root.dir}/tools"/>
+
   <!-- our defaults depend on and don't override main props, so they go 2nd -->
   <property file="default.properties"/>
 
@@ -256,9 +259,6 @@ To get it, call ant with target - docbook-xsl-get
     <property name="javahelp.xsl"
               value="../docbook-setup/create-javahelp.xsl"/>
 
-    <property name="imglist.xsl"
-              value="../docbook-setup/create-imglist.xsl"/>
-
 
     <!-- Copy and change 'antcall' task below for additional DocBook
          documents
@@ -325,12 +325,6 @@ To get it, call ant with target - docbook-xsl-get
          only those. -->
 
     <echo message="Copying images for ${doc.prefix}.xml..."/>
-
-    <copy todir="${documentation.dir}/${doc.subdir}">
-      <fileset dir="${documentation.dir}"
-         includes="images/tip.png"
-         includesfile="${documentation.dir}/${doc.subdir}/imglist.txt"/>
-    </copy>
 
     <!-- Now invoke each of the targets. They will only do anything if their
          trigger (generate-XXX) has been set true earlier. -->
