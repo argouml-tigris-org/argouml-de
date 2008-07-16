@@ -29,7 +29,7 @@
 <chapter id="running">
 	<title>ArgoUML Prinzipien</title>
 	<para>
-	Nach dem Start von ArgoUML, wird ein leeres Klassendiagramm angezeigt, in 
+	Nach dem Start von ArgoUML wird ein leeres Klassendiagramm angezeigt, in 
 	das Sie mehrere unterschiedliche Objekte hinzufügen können. ArgoUML 
 	arbeitet nach folgenden Prinzipien:
   </para>
@@ -101,7 +101,8 @@
       Nach dem Entfernen kann das Element erneut in das Diagramm ( oder in 
       ein anderes Diagramm) eingefügt werden. Sie markieren es hierfür im 
       Explorer und wählen über das Popup-Menü den Eintrag 
-      "Zum Diagramm hinzufügen" aus.
+      "Zum Diagramm hinzufügen" aus. Alternativ dazu können Sie Objekte vom 
+      Explorer in das Diagramm ziehen und dort loslassen.
     </para>
   </section>
 
