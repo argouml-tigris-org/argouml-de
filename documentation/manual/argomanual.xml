@@ -2,205 +2,200 @@
 <!DOCTYPE book PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" 
 "../docbook-setup/docbookx/docbookx.dtd">
 <!-- $Id: argomanual.xml 12020 2007-02-11 11:07:12Z mvw $ -->
-<!--
-Copyright (c) 1996-2007 The Regents of the University of California. All
-Rights Reserved. Permission to use, copy, modify, and distribute this
-software and its documentation without fee, and without a written
-agreement is hereby granted, provided that the above copyright notice
-and this paragraph appear in all copies.  This software program and
-documentation are copyrighted by The Regents of the University of
-California. The software program and documentation are supplied "AS
-IS", without any accompanying services from The Regents. The Regents
-does not warrant that the operation of the program will be
-uninterrupted or error-free. The end-user understands that the program
-was developed for research purposes and is advised not to rely
-exclusively on the program for any reason.  IN NO EVENT SHALL THE
-UNIVERSITY OF CALIFORNIA BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT,
-SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS,
-ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF
-THE UNIVERSITY OF CALIFORNIA HAS BEEN ADVISED OF THE POSSIBILITY OF
-SUCH DAMAGE. THE UNIVERSITY OF CALIFORNIA SPECIFICALLY DISCLAIMS ANY
-WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
-MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE
-PROVIDED HEREUNDER IS ON AN "AS IS" BASIS, AND THE UNIVERSITY OF
-CALIFORNIA HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT,
-UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
--->
-
-
+	<!--
+		Copyright (c) 1996-2007 The Regents of the University of California.
+		All Rights Reserved. Permission to use, copy, modify, and distribute
+		this software and its documentation without fee, and without a written
+		agreement is hereby granted, provided that the above copyright notice
+		and this paragraph appear in all copies. This software program and
+		documentation are copyrighted by The Regents of the University of
+		California. The software program and documentation are supplied "AS
+		IS", without any accompanying services from The Regents. The Regents
+		does not warrant that the operation of the program will be
+		uninterrupted or error-free. The end-user understands that the program
+		was developed for research purposes and is advised not to rely
+		exclusively on the program for any reason. IN NO EVENT SHALL THE
+		UNIVERSITY OF CALIFORNIA BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT,
+		SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS,
+		ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF
+		THE UNIVERSITY OF CALIFORNIA HAS BEEN ADVISED OF THE POSSIBILITY OF
+		SUCH DAMAGE. THE UNIVERSITY OF CALIFORNIA SPECIFICALLY DISCLAIMS ANY
+		WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
+		MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE SOFTWARE
+		PROVIDED HEREUNDER IS ON AN "AS IS" BASIS, AND THE UNIVERSITY OF
+		CALIFORNIA HAS NO OBLIGATIONS TO PROVIDE MAINTENANCE, SUPPORT,
+		UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
+	-->
 <book lang="de">
-
-  <bookinfo>
-
-    <date>5/17/2002</date>
-    <title>ArgoUML Anwenderhandbuch</title>
-
-    <subtitle>Eine Lern- und Referenzbeschreibung</subtitle>
-
-    <abstract>
-
-      <para>Diese Version des Handbuches beschreibt die Version  
-      @VERSION@ von ArgoUML.</para>
-
-    </abstract>
-
-    <authorgroup>
-
-      <author><firstname>Alejandro</firstname><surname>Ramirez</surname></author>
-
-      <author><firstname>Philippe</firstname><surname>Vanpeperstraete</surname></author>
-
-      <author><firstname>Andreas</firstname><surname>Rueckert</surname></author>
-
-      <author><firstname>Kunle</firstname><surname>Odutola</surname></author>
-
-      <author><firstname>Jeremy</firstname><surname>Bennett</surname></author>
-
-      <author><firstname>Linus</firstname><surname>Tolke</surname></author>
-
-      <author><firstname>Michiel</firstname><surname>van der 
-      Wulp</surname></author>
-
-      <author><firstname>Übersetzung: Harald</firstname><surname>Braun
-      </surname></author>
-      
-    </authorgroup>
-
-    <copyright>
-      <year>2004</year>
-      <year>2005</year>
-      <year>2006</year>
-      <year>2007</year>
-      <holder>Michiel van der Wulp</holder>
-    </copyright>
-    <copyright><year>2003</year><holder>Linus Tolke</holder></copyright>
-    <copyright><year>2001</year><year>2002</year><holder>Jeremy 
-    Bennett</holder></copyright>
-    <copyright><year>2001</year><holder>Kunle 
-    Odutola</holder></copyright>
-    <copyright><year>2000</year><holder>Philippe 
-    Vanpeperstraete</holder></copyright>
-    <copyright><year>2000</year><holder>Alejandro 
-    Ramirez</holder></copyright>
-    <copyright><year>2000</year><holder>Andreas 
-    Rueckert</holder></copyright>
-    <legalnotice>
-
-      <para>
-      Dieses Material darf nur nach den in der Open Publication Lizenz,
-      Version 1.0 oder höher beschriebenen Regeln und Bedingungen
-      weitergegeben werden. Eine Kopie dieser Lizenz finden Sie im
-      Abschnitt
-      <link linkend="app.legal">Open Publication License</link>. Die letzte 
-      Version ist unter <ulink url="http://www.opencontent.org/openpub/">
-      http://www.opencontent.org/openpub/</ulink> verfügbar.
-      </para>
-
-    </legalnotice>
-
-  </bookinfo>
-
-  <toc />
-  <preface>
-
-    <title>Vorwort</title>
-
-    <indexterm><primary>Design</primary></indexterm>
-
-    <para>
-    	Softwaredesign ist eine kognitiv herausfordernde Tätigkeit.
-    	Designer müssen die Entwürfe manuell eingeben, aber die primäre
-    	Schwierigkeit ist Entscheidungen zu treffen weniger Daten einzugeben. 
-    	Wenn Designer ihre Fähigkeiten Entscheidungen zu treffen verbesserten,
-    	würden bessere Entwürfe dabei herauskommen.
-    </para>
-
-    <para>
-    	Aktuelle CASE-Tools enthalten Automations- und grafische
-    	Anwender-Schnittstellen, welche die manuelle Arbeit der
-    	Designeingabe reduzieren und einen Entwurf in Programmcode
-    	transformieren. Sie unterstützen die Designer bei ihren
-    	Entscheidungen hauptsächlich durch die Visualisierung des
-    	Entwurfes und einfachen syntaktischen Überprüfungen. Darüber
-    	hinaus weisen viele CASE-Tools auch substantielle Vorteile im
-    	Bereich der Versionskontrolle und nebenläufiger
-    	Designmechanismen auf. Ein Bereich der Designunterstützung, der
-    	bisher noch nicht besonders gut unterstützt wurde, ist die Analyse von
-    	Designentscheidungen.
-    </para>
-
-    <para>
-    	Aktuelle CASE-Tools haben eine Anwenderschnittstelle (GUI), die
-    	es den Designern ermöglicht, auf alle, durch das Tool angebotenen
-    	Funktionen zuzugreifen. Und sie unterstützen den
-    	Entwurfsprozess, indem sie es dem Designer erlauben, Diagramme
-    	im Stil populärer Design-Methoden einzugeben. Üblicherweise
-    	enthalten sie aber keine Prozessunterstützung, die den Designer
-    	durch die Designschritte führt. Designer beginnen üblicherweise
-    	mit einer leeren Seite und müssen jeden Aspekt des Entwurfes aus
-    	dem Kopf ableiten.
-    </para>
-
-    <para>
-      ArgoUML ist eine domänenorientierte Desginumgebung mit kognitiver
-      Unterstützung des objektorientierten Entwurfes. ArgoUML enthält
-      einige der gleichen Automatismen wie kommerzielle CASE-Tools. Sein
-      Fokus liegt aber auf Funktionen, welche die kognitiven Bedürfnisse
-      von Designern befriedigen. Diese kognitiven Bedürfnisse werden
-      durch 3 kognitive Theorien beschrieben:
-      <orderedlist>
-
-        <listitem>
-
-          <para>Reflektion-während-Aktion;</para>
-          <indexterm><primary>Reflektion-während-Aktion</primary></indexterm>
-
-        </listitem>
-
-        <listitem>
-
-          <para>Opportunistisches Design; und</para>
-          <indexterm><primary>Opportunistisches Design</primary></indexterm>
-
-        </listitem>
-
-        <listitem>
-
-          <para>Verständnis und Problemlösung.</para>
-          <indexterm><primary>Verständnis</primary></indexterm>
-          <indexterm><primary>Problemlösung</primary></indexterm>
-
-        </listitem>
-
-      </orderedlist>
-
-    </para>
-
-    <para>
-    ArgoUML basiert direkt auf der UML 1.4-Spezifikation. Das zentrale 
-    Modell-Repository ist eine Implementierung der Java Metadaten Schnittstelle 
-    (JMI=Java Metadata Interface), welche MOF direkt unterstützt und die 
-    maschinenlesbare Version der UML 1.4-Spezifikation der OMG verwendet.
-	</para>
-
-    <para>
-    Darüber hinaus ist es unser Ziel, eine verständliche Unterstützung
-    <indexterm><primary>XMI</primary></indexterm>
-    für OCL (die Object Constraint Language) und XMI (dem XML Model 
-    Interchange format) bereitzustellen.
-    </para>
-
-    <para>
-    ArgoUML wurde ursprünglich durch eine kleine Gruppe als Forschungsprojekt 
-    entwickelt. ArgoUML hat viele Funktionen, die es sehr speziell machen. 
-    Aber es implementiert nicht all die Funktionen, die kommerzielle CASE-Tools 
-    enthalten.
-	</para>
-
-    <para>
-    Die aktuelle Version (@VERSION@) von ArgoUML implementiert alle  
-    Diagrammtypen des
-    <ulink url="http://www.omg.org/cgi-bin/doc?formal/01-09-67">UML&nbsp;1.4 
+	<bookinfo>
+		<date>5/17/2002</date>
+		<title>ArgoUML Anwenderhandbuch</title>
+		<subtitle>Eine Lern- und Referenzbeschreibung</subtitle>
+		<abstract>
+			<para>Diese Version des Handbuches beschreibt die Version
+				@VERSION@ von ArgoUML.</para>
+		</abstract>
+		<authorgroup>
+			<author>
+				<firstname>Alejandro</firstname>
+				<surname>Ramirez</surname>
+			</author>
+			<author>
+				<firstname>Philippe</firstname>
+				<surname>Vanpeperstraete</surname>
+			</author>
+			<author>
+				<firstname>Andreas</firstname>
+				<surname>Rueckert</surname>
+			</author>
+			<author>
+				<firstname>Kunle</firstname>
+				<surname>Odutola</surname>
+			</author>
+			<author>
+				<firstname>Jeremy</firstname>
+				<surname>Bennett</surname>
+			</author>
+			<author>
+				<firstname>Linus</firstname>
+				<surname>Tolke</surname>
+			</author>
+			<author>
+				<firstname>Michiel</firstname>
+				<surname>van der Wulp</surname>
+			</author>
+			<author>
+				<firstname>Übersetzung: Harald</firstname>
+				<surname>Braun</surname>
+			</author>
+		</authorgroup>
+		<copyright>
+			<year>2004</year>
+			<year>2005</year>
+			<year>2006</year>
+			<year>2007</year>
+			<holder>Michiel van der Wulp</holder>
+		</copyright>
+		<copyright>
+			<year>2003</year>
+			<holder>Linus Tolke</holder>
+		</copyright>
+		<copyright>
+			<year>2001</year>
+			<year>2002</year>
+			<holder>Jeremy Bennett</holder>
+		</copyright>
+		<copyright>
+			<year>2001</year>
+			<holder>Kunle Odutola</holder>
+		</copyright>
+		<copyright>
+			<year>2000</year>
+			<holder>Philippe Vanpeperstraete</holder>
+		</copyright>
+		<copyright>
+			<year>2000</year>
+			<holder>Alejandro Ramirez</holder>
+		</copyright>
+		<copyright>
+			<year>2000</year>
+			<holder>Andreas Rueckert</holder>
+		</copyright>
+		<legalnotice>
+			<para>
+				Dieses Material darf nur nach den in der Open Publication Lizenz,
+				Version 1.0 oder höher beschriebenen Regeln und Bedingungen
+				weitergegeben werden. Eine Kopie dieser Lizenz finden Sie im
+				Abschnitt
+				<link linkend="app.legal">Open Publication License</link>
+				. Die letzte Version ist unter
+				<ulink url="http://www.opencontent.org/openpub/"> http://www.opencontent.org/openpub/</ulink>
+				verfügbar.
+			</para>
+		</legalnotice>
+	</bookinfo>
+	<toc />
+	<preface>
+		<title>Vorwort</title>
+		<indexterm>
+			<primary>Design</primary>
+		</indexterm>
+		<para> Softwaredesign ist eine kognitiv herausfordernde Tätigkeit.
+			Designer müssen die Entwürfe manuell eingeben, aber die primäre
+			Schwierigkeit ist Entscheidungen zu treffen weniger Daten einzugeben.
+			Wenn Designer ihre Fähigkeiten Entscheidungen zu treffen
+			verbesserten, würden bessere Entwürfe dabei herauskommen.</para>
+		<para> Aktuelle CASE-Tools enthalten Automations- und grafische
+			Anwender-Schnittstellen, welche die manuelle Arbeit der Designeingabe
+			reduzieren und einen Entwurf in Programmcode transformieren. Sie
+			unterstützen die Designer bei ihren Entscheidungen hauptsächlich
+			durch die Visualisierung des Entwurfes und einfachen syntaktischen
+			Überprüfungen. Darüber hinaus weisen viele CASE-Tools auch
+			substantielle Vorteile im Bereich der Versionskontrolle und
+			nebenläufiger Designmechanismen auf. Ein Bereich der
+			Designunterstützung, der bisher noch nicht besonders gut unterstützt
+			wurde, ist die Analyse von Designentscheidungen.</para>
+		<para> Aktuelle CASE-Tools haben eine Anwenderschnittstelle (GUI), die
+			es den Designern ermöglicht, auf alle, durch das Tool angebotenen
+			Funktionen zuzugreifen. Und sie unterstützen den Entwurfsprozess,
+			indem sie es dem Designer erlauben, Diagramme im Stil populärer
+			Design-Methoden einzugeben. Üblicherweise enthalten sie aber keine
+			Prozessunterstützung, die den Designer durch die Designschritte
+			führt. Designer beginnen üblicherweise mit einer leeren Seite und
+			müssen jeden Aspekt des Entwurfes aus dem Kopf ableiten.</para>
+		<para>
+			ArgoUML ist eine domänenorientierte Desginumgebung mit kognitiver
+			Unterstützung des objektorientierten Entwurfes. ArgoUML enthält
+			einige der gleichen Automatismen wie kommerzielle CASE-Tools. Sein
+			Fokus liegt aber auf Funktionen, welche die kognitiven Bedürfnisse
+			von Designern befriedigen. Diese kognitiven Bedürfnisse werden durch
+			3 kognitive Theorien beschrieben:
+			<orderedlist>
+				<listitem>
+					<para>Reflektion-während-Aktion;</para>
+					<indexterm>
+						<primary>Reflektion-während-Aktion
+						</primary>
+					</indexterm>
+				</listitem>
+				<listitem>
+					<para>Opportunistisches Design; und</para>
+					<indexterm>
+						<primary>Opportunistisches Design</primary>
+					</indexterm>
+				</listitem>
+				<listitem>
+					<para>Verständnis und Problemlösung.</para>
+					<indexterm>
+						<primary>Verständnis</primary>
+					</indexterm>
+					<indexterm>
+						<primary>Problemlösung</primary>
+					</indexterm>
+				</listitem>
+			</orderedlist>
+		</para>
+		<para> ArgoUML basiert direkt auf der UML 1.4-Spezifikation. Das
+			zentrale Modell-Repository ist eine Implementierung der Java
+			Metadaten Schnittstelle (JMI=Java Metadata Interface), welche MOF
+			direkt unterstützt und die maschinenlesbare Version der UML
+			1.4-Spezifikation der OMG verwendet.</para>
+		<para>
+			Darüber hinaus ist es unser Ziel, eine verständliche Unterstützung
+			<indexterm>
+				<primary>XMI</primary>
+			</indexterm>
+			für OCL (die Object Constraint Language) und XMI (dem XML Model
+			Interchange format) bereitzustellen.
+		</para>
+		<para> ArgoUML wurde ursprünglich durch eine kleine Gruppe als
+			Forschungsprojekt entwickelt. ArgoUML hat viele Funktionen, die es
+			sehr speziell machen. Aber es implementiert nicht all die Funktionen,
+			die kommerzielle CASE-Tools enthalten.</para>
+		<para>
+			Die aktuelle Version (@VERSION@) von ArgoUML implementiert alle
+			Diagrammtypen des
+			<ulink url="http://www.omg.org/cgi-bin/doc?formal/01-09-67">UML&nbsp;1.4 
     Standard</ulink> (ArgoUML-Versionen vor 0.20 implementierten den
     <ulink url="http://www.omg.org/cgi-bin/doc?formal/00-03-01">UML&nbsp;1.3 
     Standard</ulink>). Sie ist in Java geschrieben und läuft auf jedem 
@@ -2358,12 +2353,12 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           <sect3 id="tut.menu.toolbars">
 
-            <title>Die Menü- und die Werkzeugleisten</title>
+            <title>Die Menü- und die Symbolleisten</title>
 
             <indexterm><primary>Menüleiste</primary></indexterm>
-            <indexterm><primary>Werkzeugleiste</primary></indexterm>
+            <indexterm><primary>Symbolleiste</primary></indexterm>
             <para>
-              Die Menüleiste und die Werkzeugleisten ermöglichen Ihnen den 
+              Die Menüleiste und die Symbolleisten ermöglichen Ihnen den 
               Zugriff auf alle Features von ArgoUML.
               Menü- und Werkzeugoptionen sind per Konvention abgeblendet, wenn 
               sie nicht verfügbar (ausgeschaltet) sind und Menüelemente, die 
@@ -2496,11 +2491,14 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
 
                     <para>
-                      <emphasis>Datei=&gt;Eigenschaften.</emphasis>
-                      Sie können die Notation auch im Dialog Eigenschaften 
-                      ändern.
-                      Klicken Sie auf 
-                      <emphasis>Datei=&gt;Eigenschaften...</emphasis> und 
+                      <emphasis>Datei=&gt;Projekt-Einstellungen.</emphasis>
+                      Im Dialog Projekt-Einstellungen ist es möglich, die 
+                      projektspezifischen Einstellungen zu konfigurieren. Er 
+                      enthält Register für den Anwender, die Profile, die 
+                      Notationen und die Darstellung der Diagramme. Um zum 
+                      Beispiel die Sprach-Notation im Dialog Projekt-Einstellungen 
+                      zu ändern klicken Sie auf
+                      <emphasis>Datei=&gt;Projekt-Einstellungen...</emphasis> und 
                       wählen Sie den Register Notationen aus.
                       Stellen Sie die Notation auf UML1.4 ein.
                       Markieren Sie alle Optionen und klicken Sie auf Übernehmen 
@@ -2808,7 +2806,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               <listitem>
               <para>
                 <emphasis>Ansicht=&gt;Zoom.</emphasis>
-                Als Ausnahme zur generellen Regel arbeitet das Werkzeugleisten-
+                Als Ausnahme zur generellen Regel arbeitet das Symbolleisten-
                 Equivalent von <emphasis>Ansicht=&gt;Zoom</emphasis> nicht auf 
                 die gleiche Art und Weise wie das entsprechende Menüelement.
                 Durch das Hervorheben von <emphasis>Ansicht=&gt;Zoom </emphasis> 
@@ -10890,7 +10888,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           			</imageobject>
           		</inlinemediaobject>
           	</guiicon>
-          	Eigenschaften
+          	Projekteinstellungen
           </title>
 
           <para>
@@ -10907,7 +10905,7 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
           <figure id="fig.ref.menu_properties_user">
 
             <title>
-            	Der Dialog Eigenschaften: Das Register Benutzer.
+            	Der Dialog Projekteinstellungen: Das Register Benutzer.
             </title>
 
             <screenshot>
@@ -10957,10 +10955,45 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 
           </itemizedlist>
 
-          <figure id="fig.ref.menu_properties_notations">
+          <figure id="fig.ref.menu_properties_profiles">
 
+             <title>Der Dialog Projekteinstellungen &ndash; Das Register Profile.</title>
+
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+             				fileref="images/reference/properties-profiles.gif"
+             				format="GIF"/>
+             		</imageobject>
+             	</mediaobject>
+             </screenshot>
+          </figure>
+          
+          <para>
+          	Im Register Profile können Sie die folgenden Einstellungen ändern:
+          </para>
+          
+          <itemizedlist>
+          	<listitem>
+          		<para>
+          			Den Typ der &ldquo;Stereotype Darstellung&rdquo; für das 
+          			Projekt; diese kann als Text, mit kleinen oder großen 
+          			Symbolen erscheinen. 
+          		</para>
+          	</listitem>
+          	<listitem>
+          		<para>
+          			Die im Projekt konfigurierten UML-Profile &ndash; die 
+          			Modellelemente dieser UML-Profile können im Projekt 
+          			referenziert werden.
+          		</para>
+          	</listitem>
+         </itemizedlist>
+
+          <figure float="1" id="fig.ref.menu_properties_notations">
             <title>
-            	Der Dialog Eigenschaften: Das Register Notationen.
+            	Der Dialog Projekteinstellungen: &ndash; Das Register Notationen.
             </title>
 
             <screenshot>
@@ -11096,6 +11129,26 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
               </listitem>
 
         </itemizedlist>
+          
+          <figure float="1" id="fig.ref.menu_properties_diagram_appearance">
+
+            <title>Der Dialog Projekteinstellungen &ndash; Das Register Diagramm-Darstellung.</title>
+
+            <screenshot>
+            	<mediaobject>
+            		<imageobject>
+            			<imagedata align="center"
+             				fileref="images/reference/properties-diagram-appearance.gif"
+             				format="GIF"/>
+             			</imageobject>
+             		</mediaobject>
+             	</screenshot>
+          </figure>
+          
+          <para>
+          	Im Register Diagramm-Darstellung können Sie die im Diagramm 
+          	verwendete Schriftart ändern.
+	   	  </para>
 
         </sect2>
 
@@ -11983,6 +12036,60 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
 	                unterstützt.
 	            </para>
 
+              </listitem>
+
+            </itemizedlist>
+
+          </sect3>
+
+          <sect3 id="s3.ref.menu_settings_profiles">
+
+            <title>Das Register Profile</title>
+
+            <para>
+            	In diesen Register kann der Anwender die Einstellungen der 
+            	ArgoUML-Anwendung bezüglich der Profile ändern.
+	    	</para>
+
+            <figure float="1">
+
+              <title>Der Dialog <literal>Einstellungen - 
+              Profile</literal>.</title>
+
+              <screenshot>
+              	<mediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+               				fileref="images/reference/menu_settings_profiles.png"
+               				format="PNG"/>
+               			</imageobject>
+               		</mediaobject>
+               	</screenshot>
+            </figure>
+
+            <itemizedlist>
+
+              <listitem>
+              	<para>
+              		<literal>Stereotyp-Darstellung</literal> &ndash; Auswahl, 
+              		um Stereotypen als Text, kleine oder große Symbole darzustellen.
+              	</para>
+              </listitem>
+
+              <listitem>
+              	<para>
+              		<literal>Standard-XMI-Verzeichnisse</literal> &ndash; erlaubt 
+              		dem Anwender, die Verzeichnisse zu konfigurieren, in denen 
+              		ArgoUML die benutzerdefinierten Profile finden kann.
+              	</para>
+              </listitem>
+
+              <listitem>
+              	<para>
+              		<literal>Standard-Profiles</literal> &ndash; Auswahl, welches 
+              		Profil von den verfügbaren Profilen als Standard für neue 
+              		Projekte festgelegt wurde.
+              	</para>
               </listitem>
 
             </itemizedlist>
@@ -17659,7 +17766,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         </figure>
 
         <para>
-        	Wenn der Designer die Leertaste während der Nutzung des Besens 
+        	Wenn der Designer die <emphasis>Leertaste</emphasis> während der 
+        	Nutzung des Besens 
         	drückt, werden die Objekte an der Vorderseite des Besens gleichmäßig 
         	verteilt (z.B. gleichmäßiger Zwischenraum). ArgoUML&apos;s Besen 
         	unterstützt drei Verteilungsmodi: Objekte können gleichmäßig auf den 
@@ -17672,13 +17780,28 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         	komprimieren, spreizen und Ursprung.
         </para>
 
+        
+        <para>
+        	Wenn der Designer die Taste <emphasis>Enter</emphasis> während der 
+        	Nutzung des Besens drückt, wird der Besen rot (anstelle des normalen 
+        	blau) und es werden keine Objekte während der Vorwärtsbewegung des 
+        	Besens mitgenommen. Dies wirkt wie das Anheben des Besens. Durch 
+        	erneutes Drücken der Taste Enter kehrt man in den normalen Modus 
+        	zurück.
+        </para>
+        
+        <para>
+        	Das Betätigen der Taste <emphasis>Tab</emphasis> arbeitet genauso 
+        	wie die Taste Enter.
+        </para>
       </sect1>
 
       <sect1 id="s1.ref.edit_pane_selection_action_buttons">
 
         <title>Markier-Aktionsschaltflächen</title>
 
-        <para>When the user selects a model element in a UML diagram, 
+        <para>
+        When the user selects a model element in a UML diagram, 
         several handles are drawn on it to indicate that it is selected 
         and to provide user interface affordances to resize the node. 
         ArgoUML also displays some <quote>selection-action 
@@ -17686,7 +17809,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
         below for some examples of the handles and 
         <quote>selection-action buttons</quote>. The two figures for a 
         class differ because for creating the second one, the shift key 
-        has been depressed.</para>
+        has been depressed.
+        </para>
 
         <figure id="fig.ref.editpane_selection_action_buttons">
 
@@ -44201,8 +44325,8 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       overloading. To enable us to apply these constructs in our models 
       and be capable of taking advantage of it for code generation and 
       C++ notation in UML diagrams, the C++ module uses conventions in 
-      the use of the extension features of UML, tagged values and 
-      stereotypes.</para>
+      the use of the extension features of UML, such as tagged values, 
+      stereotypes and data types.</para>
 
       <para>Since UML and C++ are object oriented, there is an obvious 
       correspondence between the UML model elements and C++ structural 
@@ -44211,7 +44335,24 @@ UPDATES, ENHANCEMENTS, OR MODIFICATIONS.
       not be described here, since it is assumed that an ArgoUML user 
       that wants to model for C++ has basic knowledge of both C++ and 
       UML.</para>
-
+      
+      <para>The C++ module comes with a UML profile for C++, which defines 
+      <link linkend="s1.ref.stereotype"><literal>Stereotypes</literal></link> 
+      and <link linkend="s1.ref.tagdefinition"><literal>Tagged 
+      Definitions</literal></link> 
+      which enable the modeling of C++ specific constructs, such as pointers 
+      and references.
+      It also includes 
+      <link linkend="s1.ref.datatype"><literal>Data Types</literal></link> 
+      that model the C++ built-in types, such as 
+      <literal>unsigned long int</literal>.
+      </para>
+      
+      <para>To have these constructs available in our model, we need to 
+      configure the UML profile for C++ in the model explicitly via the Project
+      Properties dialog, in the Profiles tab
+      (see <xref linkend="s2.ref.menu_properties"/>).
+      </para>
       <para>Tagged values are one of the main means by which we can 
       define code generation behavior. They have a name - the tag - and 
       a value, and are applied to model elements.</para>
