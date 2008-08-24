@@ -17948,53 +17948,78 @@
 
       <sect1>
 
-        <title>Erläuterungen</title>
+        <title>Erläuterungen (Clarifiers)</title>
 
-        <para>A key feature of ArgoUML are the critics, which run in 
-        parallel with the main ArgoUML tool. When they find a problem, 
-        they typically raise a to-do item, and also highlight the 
-        problem on the editing pane. The graphical techniques used for 
-        highlighting are called <emphasis>Clarifiers</emphasis></para>
+        <para>
+        	Eine Schlüsseleigenschaft von ArgoUML sind die Kritiken, die parallel 
+        	zum ArgoUML-Werkzeug arbeiten. Wenn diese ein Problem finden, 
+        	erzeugen sie ein Zu-Bearbeiten-Element und heben das Problem im 
+        	Editierfenster hervor. Die für das Hervorheben verwendete grafische 
+        	Technik wird <emphasis>Erläuterungen</emphasis> genannt.
+        </para>
 
         <itemizedlist>
 
           <listitem>
 
-            <para>Note icon (<guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center" fileref="images/icons/note.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon>). 
-            Displayed at the top left of a model element indicates a critic 
-            of that model element. Moving the mouse over the icon will pop 
-            up the critic headline.</para>
+            <para>
+            	Hinweis-Symbol (
+            	<guiicon>
+            		<inlinemediaobject>
+            			<imageobject>
+            				<imagedata align="center" fileref="images/icons/note.gif"
+             						   format="GIF"/>
+             			</imageobject>
+             		</inlinemediaobject>
+             	</guiicon>).
+            Wird in der oberen linken Ecke eines Modellelementes angezeigt und 
+            signalisiert eine Kritik zu diesem Modellelement. Das Bewegen der 
+            Maus über dieses Symbol blendet die Überschrift der Kritik ein. 
+		    </para>
 
           </listitem>
 
           <listitem>
 
-            <para>Colored wavy line (
-            <guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/wavy_line.png"
-             format="PNG"/></imageobject></inlinemediaobject></guiicon>). 
-            Used for critics specific to sub-components of graphical 
-            model elements. For example to underline attributes with a 
-            problem within a class.</para>
+            <para>
+            	Farbige Wellen-Linie (
+            	<guiicon>
+            		<inlinemediaobject>
+            			<imageobject>
+            				<imagedata align="center"
+             						   fileref="images/reference/wavy_line.png"
+             						   format="PNG"/>
+             			</imageobject>
+             		</inlinemediaobject>
+             	</guiicon>). 
+             	Wird für Kritiken verwendet, die spezifisch für Subkomponenten 
+             	von grafischen Modellelementen sind. Zum Beispiel unterstreichen 
+             	sie die Attribute einer Klasse mit einem Problem.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para>Solid colored line (
-            <guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/solid_line.png"
-             format="PNG"/></imageobject></inlinemediaobject></guiicon>). 
-            Not seen in ordinary editing, but used when a to-do item is 
-            highlighted from the to-do pane (see 
-            <xref linkend="ch.ref.todopane"/>) by button&nbsp;1 double 
-            click. The solid line is used to show all the model elements 
-            affected by the critic, for example all stimuli that are 
-            out of order.</para>
+            <para>
+            	Durchgehende farbige Linie (
+            	<guiicon>
+            		<inlinemediaobject>
+            			<imageobject>
+            				<imagedata align="center"
+             						   fileref="images/reference/solid_line.png"
+             						   format="PNG"/>
+             				</imageobject>
+             			</inlinemediaobject>
+             		</guiicon>). 
+             	Nicht sichtbar beim normalen editieren, wird aber verwendet, 
+             	wenn ein Zu-Bearbeiten-Element im Zu-Bearbeiten-Fenster 
+             	(siehe <xref linkend="ch.ref.todopane"/>) durch einen 
+             	Taste&nbsp;1 Doppelklick hervorgehoben wird.
+             	Die durchgehende Linie kennzeichnet alle von der Kritik 
+             	betroffenen Modellelemente. Zum Beispiel alle Stimuli, die sich 
+             	außerhalb der Reihenfolge befinden.
+			</para>
 
           </listitem>
 
@@ -18004,65 +18029,82 @@
 
       <sect1>
 
-        <title>The Drawing Grid</title>
+        <title>Das Zeichengitter</title>
 
-        <para>The editing pane is provided with a background grid which 
-        can be set in various styles or turned off altogether through 
-        the menu (see <xref linkend="s2.ref.menu_adjust_grid"/>).</para>
+        <para>
+        	Das Editierfenster ist mit einem Hintergrundgitter ausgestattet, 
+        	das auf verschiedene Arten über das Menü (siehe 
+        	<xref linkend="s2.ref.menu_adjust_grid"/>) eingestellt oder auch 
+        	ausgeschaltet werden kann.
+        </para>
 
-        <para>Whatever grid is actually displayed, placement of items 
-        on the diagram is always controlled by the setting for grid 
-        snap, which ranges from 4 to 32 pixels (see 
-        <xref linkend="s2.ref.menu_grid_snap"/>).</para>
+        <para>
+        	Welches Gitter auch immer aktuell eingestellt ist, das Plazieren 
+        	der Elemente im Diagramm wird immer durch die Einstellungen der 
+        	Gitterrastung bestimmt, die sich im Bereich zwischen 4 und 32 
+        	Pixeln bewegt. (siehe 
+        	<xref linkend="s2.ref.menu_grid_snap"/>).
+        </para>
 
       </sect1>
 
       <sect1>
 
-        <title>The Diagram Tab</title>
+        <title>Der Reiter Diagramm</title>
 
-        <para>At the bottom of the editing pane is a small tab labeled 
-        as <literal>As Diagram</literal>. The concept is that a UML 
-        diagram can be displayed in a number of ways, for example as a 
-        graphical diagram or as a table. Each representation would have 
-        its own tab and be selected by button&nbsp;1 click on the tab.</para>
+        <para>
+        	Unterhalb des Editierfensters befindet sich ein kleiner Reiter, der 
+        	mit <literal>Als Diagramm</literal> beschriftet ist. Das Konzept ist, 
+        	daß ein UML-Diagramm auf unterschiedliche Art und Weise dargestellt 
+        	werden kann. Zum Beispiel als grafisches Diagramm oder als Tabelle. 
+        	Jede Darstellung hätte seinen eigenen Reiter und kann durch einen 
+        	Taste&nbsp;1-Klick auf den Reiter ausgewählt werden.
+        </para>
 
-        <para>Earlier versions of ArgoUML did implement a tabular 
-        representation, but the current release only supports a diagram 
-        representation, so this tab does not have any function.</para>
+        <para>
+        	Frühere Versionen von ArgoUML implementierten eine tabellarische 
+        	Darstellung, das aktuelle Release aber unterstützt nur die 
+        	Diagramm-Darstellung, so daß dieser Reiter keinerlei Funktion hat.
+        </para>
 
       </sect1>
 
       <sect1 id="s1.ref.edit_pane_pop_up">
 
-        <title>Pop-Up Menus</title>
+        <title>Pop-Up Menü's</title>
 
-        <para>Within the editing pane, button&nbsp;2 click over a model element 
-        will bring up a pop-up menu with a variable number of main 
-        entries, many with a sub-menu.</para>
+        <para>
+        	Ein Taste&nbsp;2-Klick über einem Modellelement im Editierfenster 
+        	öffnet ein Pop-up-Menü mit Menüelementen, viele davon mit einem 
+        	Untermenü.
+        </para>
 
         <sect2>
 
-          <title>Critiques</title>
+          <title>Kritiken</title>
 
-          <para>This sub-menu gives list of all the critics that have 
-          triggered for this model element. Selection of a menu entry causes 
-          that entry to be highlighted in the to-do pane and its 
-          detailed explanation to be placed in the <literal>
-          ToDoItem</literal> tab of the details pane. A solid colored 
-          line indicates the offending element.</para>
+          <para>
+          	Dieses Untermenü gibt eine Liste aller Kritiken aus, die von diesem 
+          	Modellelement ausgelöst wurden. Die Auswahl eines der Menüeinträge 
+          	bewirkt, daß der Eintrag im Zu-Bearbeiten-Fenster hervorgehoben 
+          	und die ausführliche Erläuterung im Detailfenster des 
+          	<literal>Zu-Bearbeiten</literal>-Reiters plaziert wird. Eine 
+          	durchgezogene farbige Linie markiert das entsprechende Element. 
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Ordering</title>
+          <title>Reihenfolge</title>
 
-          <para>This menu controls the ordering of overlapping 
+          <para>
+          This menu controls the ordering of overlapping 
           model elements on the diagram. It is equivalent to the <literal>
           Reorder</literal> sub-menu of the <literal>Arrange</literal> 
           menu (see <xref linkend="s2.ref.menu_reorder"/>). There are 
-          four entries.</para>
+          four entries.
+          </para>
 
           <itemizedlist>
 
