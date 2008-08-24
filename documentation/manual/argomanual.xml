@@ -29,6 +29,13 @@
 <book lang="de">
 	<bookinfo>
 		<date>5/17/2002</date>
+	    <mediaobject>
+	      <imageobject>
+	        <imagedata fileref="images/argologo200x190_on_ffffff.png" 
+	                format="PNG"/>
+	      </imageobject>
+	    </mediaobject>
+    
 		<title>ArgoUML Anwenderhandbuch</title>
 		<subtitle>Eine Lern- und Referenzbeschreibung</subtitle>
 		<abstract>
@@ -74,6 +81,7 @@
 			<year>2005</year>
 			<year>2006</year>
 			<year>2007</year>
+			<year>2008</year>
 			<holder>Michiel van der Wulp</holder>
 		</copyright>
 		<copyright>
@@ -17798,24 +17806,26 @@
 
       <sect1 id="s1.ref.edit_pane_selection_action_buttons">
 
-        <title>Markier-Aktionsschaltflächen</title>
+        <title>Auswahl-Aktionsschaltflächen</title>
 
         <para>
-        When the user selects a model element in a UML diagram, 
-        several handles are drawn on it to indicate that it is selected 
-        and to provide user interface affordances to resize the node. 
-        ArgoUML also displays some <quote>selection-action 
-        buttons</quote> around the selected model element. See the figure 
-        below for some examples of the handles and 
-        <quote>selection-action buttons</quote>. The two figures for a 
-        class differ because for creating the second one, the shift key 
-        has been depressed.
+        	Wenn der Anwender ein Modellelement in einem UML-Diagramm markiert, 
+        	dann werden mehrere Griffe dargestellt, um anzuzeigen, dass es 
+        	markiert ist und um die Anwenderschnittstelle mit der Fähigkeit zu 
+        	versehen, die Größe des Knotens zu verändern.
+        	ArgoUML zeigt auch einige <quote>Auswahl-Aktionsschaltflächen</quote> 
+        	entlang des markierten Modellelementes an. In den nachfolgenden 
+        	Bildern sehen Sie einige Beispiele von Griffen und <quote>Auswahl-
+        	Aktionsschaltflächen</quote>. Die beiden Bilder für eine Klasse 
+        	unterscheiden sich, weil beim Erzeugen der zweiten Klasse die 
+        	Umschalt-Taste gedrückt wurde.
         </para>
 
         <figure id="fig.ref.editpane_selection_action_buttons">
 
-          <title>Some examples of <quote>Selection Action 
-          Buttons</quote>.</title>
+          <title>
+			Einige Beispiele für <quote>Auswahl-Aktionsschaltflächen</quote>.
+		  </title>
 
           <informaltable frame="none">
 
@@ -17823,27 +17833,76 @@
 
               <tbody>
 
-                <row><entry><screenshot><mediaobject><imageobject>
-                <imagedata align="center"
-                 fileref="images/reference/edit_selection_action_buttons1.png"
-                 format="PNG"/></imageobject></mediaobject></screenshot></entry><entry><screenshot><mediaobject><imageobject>
-                <imagedata align="center"
-                 fileref="images/reference/edit_selection_action_buttons2.png"
-                 format="PNG"/></imageobject></mediaobject></screenshot></entry><entry><screenshot><mediaobject><imageobject>
-                <imagedata align="center"
-                 fileref="images/reference/edit_selection_action_buttons3.png"
-                 format="PNG"/></imageobject></mediaobject></screenshot></entry></row>
-
-                <row><entry><screenshot><mediaobject><imageobject>
-                <imagedata align="center"
-                 fileref="images/reference/edit_selection_action_buttons4.png"
-                 format="PNG"/></imageobject></mediaobject></screenshot></entry><entry><screenshot><mediaobject><imageobject>
-                <imagedata align="center"
-                 fileref="images/reference/edit_selection_action_buttons5.png"
-                 format="PNG"/></imageobject></mediaobject></screenshot></entry><entry><screenshot><mediaobject><imageobject>
-                <imagedata align="center"
-                 fileref="images/reference/edit_selection_action_buttons6.png"
-                 format="PNG"/></imageobject></mediaobject></screenshot></entry></row>
+                <row>
+					<entry>
+						<screenshot>
+							<mediaobject>
+								<imageobject>
+									<imagedata align="center"
+										fileref="images/reference/edit_selection_action_buttons1.png"
+										format="PNG" />
+								</imageobject>
+							</mediaobject>
+						</screenshot>
+					</entry>
+					<entry>
+						<screenshot>
+							<mediaobject>
+								<imageobject>
+									<imagedata align="center"
+										fileref="images/reference/edit_selection_action_buttons2.png"
+										format="PNG" />
+								</imageobject>
+							</mediaobject>
+						</screenshot>
+					</entry>
+					<entry>
+						<screenshot>
+							<mediaobject>
+								<imageobject>
+									<imagedata align="center"
+										fileref="images/reference/edit_selection_action_buttons3.png"
+										format="PNG" />
+								</imageobject>
+							</mediaobject>
+						</screenshot>
+					</entry>
+				</row>
+				<row>
+					<entry>
+						<screenshot>
+							<mediaobject>
+								<imageobject>
+									<imagedata align="center"
+										fileref="images/reference/edit_selection_action_buttons4.png"
+										format="PNG" />
+								</imageobject>
+							</mediaobject>
+						</screenshot>
+					</entry>
+					<entry>
+						<screenshot>
+							<mediaobject>
+								<imageobject>
+									<imagedata align="center"
+										fileref="images/reference/edit_selection_action_buttons5.png"
+										format="PNG" />
+								</imageobject>
+							</mediaobject>
+						</screenshot>
+					</entry>
+					<entry>
+						<screenshot>
+							<mediaobject>
+								<imageobject>
+									<imagedata align="center"
+										fileref="images/reference/edit_selection_action_buttons6.png"
+										format="PNG" />
+								</imageobject>
+							</mediaobject>
+						</screenshot>
+					</entry>
+				</row>
 
               </tbody>
 
@@ -17853,38 +17912,43 @@
 
         </figure>
 
-        <para>Selection-action buttons offer common operations on the 
-        selected object. For example, a class node has a button at 
-        12-o&apos;clock for adding a superclass, one at 6-o&apos;clock 
-        for adding a subclass, and buttons at 3-o&apos;clock and 
-        9-o&apos;clock for adding associations. These buttons support a 
-        &quot;click or drag&quot; interaction: a single click creates a 
-        new related class at a default position relative to the 
-        original class and creates a generalization or association; a 
-        drag from the button to an existing class creates only the 
-        generalization or association; and, a drag to an empty space in 
-        the diagram creates a new class at the mouse position and the 
-        generalization or association. ArgoUML provides some automated 
-        layout support so that clicking the subclass button will 
-        position the new classes so that they do not overlap.</para>
+        <para>
+        	Auswahl-Aktionsschaltflächen bieten häufig erforderliche Operationen 
+        	auf das markierte Objekt an. Zum Beispiel: Eine Klasse hat eine 
+        	Schaltfläche bei 12 Uhr, um eine Superklasse hinzufügen zu können; 
+        	eine bei 6 Uhr, um eine Subklasse hinzuzufügen und Schaltflächen bei 
+        	der 3 Uhr- und 9 Uhr-Position, um Assoziationen hinzufügen zu können.
+        	Diese Schaltflächen unterstützen eine &quot;Klick und Ziehen&quot;-
+        	Interaktion: Ein einziger Klick erzeugt eine neue verknüpfte Klasse 
+        	an der Standardposition, relativ zur Originalklasse und erzeugt eine 
+        	Vererbung oder eine Assoziation; das Ziehen von der Schaltfläche zu 
+        	einer existierenden Klasse erzeugt nur eine Vererbung oder 
+        	Assoziation; und das Ziehen in einen leeren Raum des Diagrammes 
+        	erzeugt eine neue Klasse an der Mausposition mit der Vererbung oder 
+        	Assoziation. ArgoUML enthält eine automatische Layout-Unterstützung, 
+        	so daß das Klicken auf die Schaltfläche Subklasse die neue Klasse 
+        	an einer Stelle positioniert, so dass sie sich nicht überlappen.
+        </para>
 
-        <para>Selection-action buttons are transparent. They have a 
-        visibly recognizable rectangular shape and size and they 
-        contain an icon that is the same as the icon used for the 
-        corresponding type of design element on the standard toolbar. 
-        However, these icons are unfilled line drawings with many 
-        transparent pixels. This allows selection-action buttons to be 
-        overlaid onto the drawing area without overly obscuring the 
-        diagram itself. Also, the buttons are only drawn when the mouse 
-        is over the selected model element; if any part of the diagram is 
-        obscured, the mouse can simply be moved away to get a clearer 
-        view of the diagram.</para>
+        <para>
+        	Auswahl-Aktionsschaltflächen sind transparent. Sie haben einen 
+        	sichtbaren rechteckigen Rahmen und enthalten ein Symbol, welches dem 
+        	Symbol des entsprechenden Designelementes in der Standard-Symbolleiste 
+        	entspricht. Diese Symbole sind jedoch ungefüllte Zeilen-Symbole mit
+        	vielen transparenten Pixeln. Dies erlaubt es, daß 
+        	Auswahl-Aktionsschaltflächen die Zeichenfläche überlappen, ohne das 
+        	Diagramm zu verdecken. Aus diesem Grund werden die 
+        	Schaltflächen nur angezeigt, wenn sich die Maus über dem Symbol 
+        	des markierten Modellelementes befindet; wenn ein Teil des 
+        	Diagrammes verdeckt ist, kann die Maus einfach fortbewegt werden, um 
+        	eine klarere Sicht auf das Diagramm zu erhalten. 
+        </para>
 
       </sect1>
 
       <sect1>
 
-        <title>Clarifiers</title>
+        <title>Erläuterungen</title>
 
         <para>A key feature of ArgoUML are the critics, which run in 
         parallel with the main ArgoUML tool. When they find a problem, 
