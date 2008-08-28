@@ -18099,60 +18099,87 @@
           <title>Reihenfolge</title>
 
           <para>
-          This menu controls the ordering of overlapping 
-          model elements on the diagram. It is equivalent to the <literal>
-          Reorder</literal> sub-menu of the <literal>Arrange</literal> 
-          menu (see <xref linkend="s2.ref.menu_reorder"/>). There are 
-          four entries.
+          	Dieses Menü steuert die Reihenfolge der sich überlappenden 
+          	Modellelemente im Diagramm. Es entspricht dem Untermenü 
+          	<literal>Reihenfolge</literal> des Menüs <literal>Anordnen</literal>
+			(siehe <xref linkend="s2.ref.menu_reorder"/>). Es enthält vier 
+			Einträge.
           </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/forward.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Forward</literal>. The selected model elements are 
-              moved one step forward in the ordering hierarchy with 
-              respect to other model elements they overlap.</para>
+              <para>
+              	<guiicon>
+              		<inlinemediaobject>
+              			<imageobject>
+              				<imagedata align="center"
+               						   fileref="images/icons/forward.gif"
+               						   format="GIF"/>
+               			</imageobject>
+               		</inlinemediaobject>
+               	</guiicon> 
+                <literal>Nach vorne</literal>. Das markierte Modellelement wird 
+                hinsichtlich der es überlappenden Modellelemente in der 
+                Reihenfolgenhierarchie eine Ebene nach oben bewegt.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/backward.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Backward</literal>. The selected model elements are 
-              moved one step back in the ordering hierarchy with 
-              respect to other model elements they overlap.</para>
+              <para>
+              	<guiicon>
+              		<inlinemediaobject>
+              			<imageobject>
+              				<imagedata align="center"
+               						   fileref="images/icons/backward.gif"
+               						   format="GIF"/>
+               			</imageobject>
+               		</inlinemediaobject>
+               	</guiicon> 
+              	<literal>Nach hinten</literal>. Das markierte Modellelement wird 
+                hinsichtlich der es überlappenden Modellelemente in der 
+                Reihenfolgenhierarchie eine Ebene nach unten bewegt.</para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/to_front.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>To Front</literal>. The selected model elements are 
-              moved to the front of any other model elements they 
-              overlap.</para>
+              <para>
+              	<guiicon>
+              		<inlinemediaobject>
+              			<imageobject>
+              				<imagedata align="center"
+               						   fileref="images/icons/to_front.gif"
+               						   format="GIF"/>
+               			</imageobject>
+               		</inlinemediaobject>
+               	</guiicon> 
+              	<literal>In den Vordergrund</literal>. Das markierte 
+              	Modellelement wird hinsichtlich der es überlappenden anderen 
+              	Modellelemente an die vorderste Stelle bewegt. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/to_back.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>To Back</literal>. The selected model elements are 
-              moved to the back of any other model elements they 
-              overlap.</para>
+              <para>
+              	<guiicon>
+              		<inlinemediaobject>
+              			<imageobject>
+              				<imagedata align="center"
+               						   fileref="images/icons/to_back.gif"
+               						   format="GIF"/>
+               			</imageobject>
+               		</inlinemediaobject>
+               	</guiicon> 
+                <literal>In den Hintergrund</literal>. Das markierte 
+                Modellelement wird hinsichtlich der es überlappenden anderen
+                Modellelemente an die hinterste Stelle bewegt. 
+              </para>
 
             </listitem>
 
@@ -18162,67 +18189,91 @@
 
         <sect2>
 
-          <title>Add</title>
+          <title>Hinzufügen</title>
 
-          <para>This sub-menu only appears for model elements that can have 
-          notes attached (class, interface, object, state, pseudostate) 
-          or have operations or attributes added (class, interface). 
-          There are at most three entries.</para>
+          <para>
+          	Dieses Untermenü erscheint nur bei Modellelementen, denen 
+          	Erläuterungen hinzugefügt werden können (Klassen, Schnittstellen, 
+          	Objekte, Zustände, Pseudozustände) oder denen Methoden oder Attribute 
+          	hinzugefügt wurden (Klassen, Schnittstellen).
+          	Es hat meistens drei Einträge. 
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/attribute.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Attribute</literal>. Only appears where the 
-              selected model element is a class. Creates a new attribute on 
-              the model element.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/operation.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Operation</literal>. Only appears where the 
-              selected model element is a class or interface. Creates a new 
-              operation on the model element.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center" fileref="images/icons/note.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Comment</literal>. Attaches a new comment to 
-              the selected model element.</para>
-
-            </listitem>
-
-            <listitem>
-
-              <para><literal>Add All Relations</literal>. 
-              Only appears where the 
-              selected model element is a class or interface. 
-              Makes all relations visible that exist in the model and
-              that are connected to the selected model element.
+              <para>
+              	<guiicon>
+              		<inlinemediaobject>
+              			<imageobject>
+              				<imagedata align="center"
+               						   fileref="images/icons/attribute.gif"
+               					       format="GIF"/>
+               			</imageobject>
+               		</inlinemediaobject>
+               	</guiicon> 
+              	<literal>Neues Attribut</literal>. Erscheint nur, wenn das 
+              	markierte Modellelement eine Klasse ist. Es erzeugt ein neues 
+              	Attribut im Modellelement. 
               </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Remove all Relations</literal>. 
-              Only appears where the 
-              selected model element is a class or interface.
-              Removes all connected relations from the diagram 
-              (without removing them from the model).
+              <para>
+              	<guiicon>
+              		<inlinemediaobject>
+              			<imageobject>
+              				<imagedata align="center"
+               						   fileref="images/icons/operation.gif"
+               						   format="GIF"/>
+               			</imageobject>
+               		</inlinemediaobject>
+               	</guiicon> 
+              	<literal>Neue Methode</literal>. Erscheint nur, wenn das 
+              	markierte Modellelement eine Klasse oder eine Schnittstelle ist. 
+              	Erzeugt eine neue Methode im Modellelement. 
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+              	<guiicon>
+              		<inlinemediaobject>
+              			<imageobject>
+              				<imagedata align="center" fileref="images/icons/note.gif"
+               						   format="GIF"/>
+               			</imageobject>
+               		</inlinemediaobject>
+               	</guiicon> 
+              	<literal>Neuer Kommentar</literal>. Fügt zu dem markierten 
+              	Modellelement einen Kommentar hinzu. 
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+              	<literal>Alle Assoziationen hinzufügen</literal>.
+              	Erscheint nur, wenn das markierte Element eine Klasse oder eine 
+              	Schnittstelle ist. Macht alle im Modell existierenden Beziehungen 
+              	sichtbar, die mit dem markierten Modellelement verknüpft sind.
+              </para>
+
+            </listitem>
+
+            <listitem>
+
+              <para>
+              	<literal>Alle Assoziationen entfernen</literal>.
+              	Erscheint nur, wenn das markierte Modellelement eine Klasse oder 
+              	eine Schnittstelle ist. Entfernt alle verknüpften Beziehungen 
+              	aus dem Diagramm (ohne sie aus dem Modell zu entfernen). 
               </para>
 
             </listitem>
@@ -18232,148 +18283,180 @@
 
         <sect2>
 
-          <title>Show</title>
+          <title>Darstellung</title>
 
-          <para>This sub-menu only appears with certain model elements. It 
-          is completely context dependent. There are many possible 
-          entries, depending on the selected model element and its 
-          state.</para>
+          <para>
+          	Dieses Untermenü erscheint nur bei bestimmten Modellelementen. Es 
+          	ist vollständig kontextabhängig. Es gibt viele mögliche Einträge, je 
+          	nach markiertem Modellelement und dessen Zustand.
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><literal>Hide Extension Point 
-              Compartment</literal>. Only appears when the extension 
-              point compartment of a use case is displayed. Hides the 
-              compartment.</para>
+              <para>
+              	<literal>Erweiterungspunkte ausblenden</literal>. 
+              	Erscheint nur, wenn der Erweiterungspunkt eines 
+              	Anwendungsfalles eingeblendet ist. Blendet den Erweiterungspunkt 
+              	aus.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Show Extension Point 
-              Compartment</literal>. Only appears when the extension 
-              point compartment of a use case is hidden. Displays the 
-              compartment.</para>
+              <para>
+              	<literal>Erweiterungspunkte einblenden</literal>. 
+              	Erscheint nur, wenn der Erweiterungspunkt eines 
+              	Anwendungsfalles ausgeblendet ist. Blendet den Erweiterungspunkt 
+              	ein.
+			  </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Hide All Compartments</literal>. Only 
-              appears when both attribute and operation compartments 
-              are displayed on a class or object. Hides both 
-              compartments.</para>
+              <para>
+              	<literal>Alles ausblenden</literal>. 
+              	Erscheint nur, wenn Attribut- und Methoden-Bereiche einer 
+              	Klasse oder eines Objektes angezeigt werden. Verbirgt beide 
+              	Bereiche.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Show All Compartments</literal>. Only 
-              appears when both attribute and operation compartments 
-              are hidden on a class or object. Displays both 
-              compartments.</para>
+              <para>
+              	<literal>Alles einblenden</literal>. 
+              	Erscheint nur, wenn Attribut- und Methoden-Bereiche einer 
+              	Klasse oder eines Objektes ausgeblendet sind. Blendet beide 
+              	Bereiche ein. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Hide Attribute Compartment</literal>. Only 
-              appears when the attribute compartment of a class or 
-              object is displayed. Hides the compartment.</para>
+              <para>
+              	<literal>Attribute ausblenden</literal>. 
+              	Erscheint nur, wenn die Attribute einer Klasse oder eines 
+              	Objektes eingeblendet sind. Blendet die Attribute aus. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Show Attribute Compartment</literal>. Only 
-              appears when the attribute compartment of a class or 
-              object is hidden. Displays the compartment.</para>
+              <para>
+              	<literal>Attribute einblenden</literal>. 
+              	Erscheint nur, wenn die Attribute einer Klasse oder eines 
+              	Objektes ausgeblendet sind. Blendet die Attribute ein. 
+               </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Hide Operation Compartment</literal>. Only 
-              appears when the operation compartment of a class or 
-              object is displayed. Hides the compartment.</para>
+              <para>
+              	<literal>Operationen ausblenden</literal>. 
+              	Erscheint nur, wenn die Operationen einer Klasse oder eines 
+              	Objektes eingeblendet sind. Blendet die Operationen aus. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Show Operation Compartment</literal>. Only 
-              appears when the operation compartment of a class or 
-              object is hidden. Displays the compartment.</para>
+              <para>
+              	<literal>Operationen einblenden</literal>. 
+              	Erscheint nur, wenn die Operationen einer Klasse oder eines 
+              	Objektes ausgeblendet sind. Blendet die Operationen ein. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Hide Enumeration Literal Compartment</literal>. Only 
-              appears when the enumeration literal compartment 
-              of an enumeration 
-              is displayed. Hides the compartment.</para>
+              <para>
+              	<literal>Aufzählung ausblenden</literal>. 
+              	Erscheint nur, wenn die Aufzählung eingeblendet ist. Blendet die 
+              	Aufzählung aus. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Show Enumeration Literal Compartment</literal>. Only 
-              appears when the enumeration literal compartment of an enumeration
-              is hidden. Displays the compartment.</para>
+              <para>
+              	<literal>Aufzählung einblenden</literal>. 
+              	Erscheint nur, wenn die Aufzählung ausgeblendet ist. Blendet 
+              	die Aufzählung ein. 
+              </para>
 
             </listitem>
             
             <listitem>
 
-              <para><literal>Show All Edges</literal>. Only appears on 
-              a class. Displays all associations (to shown model elements) 
-              that are not shown yet. This is the same function as the 
-              &quot;add to Diagram&quot; on the asociation in the 
-              explorer context menu. currently.</para>
+              <para>
+              	<literal>Alle Kanten einblenden</literal>. 
+              	Erscheint nur bei Klassen. Blendet alle Assoziationen ein (zu 
+              	angezeigten Modellelementen) die aktuell nicht eingeblendet sind. 
+              	Dies ist die selbe Funktion wie &quot;Zum Diagramm hinzufügen
+              	&quot; einer Assoziation im Explorer-Kontextmenü. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Hide All Edges</literal>. Only appears on 
-              a class. Hides all associations. This is the same 
-              function as <quote>Remove from Diagram</quote> on all the 
-              associations of this class.</para>
+              <para>
+              	<literal>Alle Kanten ausblenden</literal>. Erscheint nur bei 
+              	Klassen.  Blendet alle Assoziationen aus. Dies ist die gleiche 
+              	Funktion wie die Funktion <quote>Aus Diagramm entfernen</quote>
+              	auf alle Assoziationen dieser Klasse. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Hide Stereotype</literal>. Only appears 
-              when the Stereotype of a package is displayed. Hides the 
-              stereotype.</para>
+              <para>
+              	<literal>Stereotypen ausblenden</literal>. Erscheint nur, wenn 
+                die Stereotypen eines Paketes eingeblendet sind. Blendet die 
+                Stereotypen aus. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Show Stereotype</literal>. Only appears 
-              when the Stereotype of a package is hidden. Displays the 
-              stereotype.</para>
+              <para>
+              	<literal>Stereotypen einblenden</literal>. Erscheint nur, wenn 
+              	die Stereotypen eines Paketes ausgeblendet sind. Blendet die 
+              	Stereotypen ein. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Hide Visibility</literal>. Only appears 
-              when the visibility of a package is displayed. Hides the 
-              visibility.</para>
+              <para>
+              	<literal>Sichtbarkeit ausblenden</literal>. Erscheint nur, wenn 
+              	die Sichtbarkeit eines Paketes eingeblendet ist. Blendet die 
+              	Sichtbarkeit aus. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Show Visibility</literal>. Only appears 
-              when the visibility of a package is hidden. Displays the 
-              visibility.</para>
+              <para>
+              	<literal>Sichtbarkeit einblenden</literal>. Erscheint nur, wenn 
+              	die Sichtbarkeit eines Paketes ausgeblendet ist. Blendet die 
+              	Sichtbarkeit ein. 
+              </para>
 
             </listitem>
           </itemizedlist>
@@ -18382,45 +18465,58 @@
 
         <sect2>
 
-          <title>Modifiers</title>
+          <title>Modifikatoren</title>
 
-          <para>This sub-menu only appears with class, interface, 
-          package and use case model elements. It is used to set or clear 
-          the values of the various modifiers available.</para>
+          <para>
+          	Dieses Untermenü erscheint nur bei Klassen, Schnittstellen, Paketen 
+          	und Anwendungsfall-Modellelementen. Es wird verwendet, um die 
+          	Werte verschiedener verfügbarer Modifikatoren einzustellen oder 
+          	zu löschen. 
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><literal>Abstract</literal>. Set for an abstract 
-              model element.</para>
+              <para>
+              	<literal>Abstrakt</literal>. Wird bei einem abstrakten 
+              	Modellelement eingestellt. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Leaf</literal>. Set for a final model element, 
-              i.e. one with no sub-model elements.</para>
+              <para>
+              	<literal>Blatt</literal>. Wird bei einem abschliessendem 
+              	Modellelement gesetzt. Zum Beispiel eines ohne Sub-Modellelemente.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Root</literal>. Set for a root model element, 
-              i.e. one with no super-model elements.</para>
+              <para>
+              	<literal>Wurzel</literal>. Wird bei einem Wurzel-Modellelement 
+                gesetzt. Zum Beispiel eines ohne übergeordnetes Modellelement. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Active</literal>. Set for a model element with 
-              dynamic behavior.</para>
+              <para>
+              	<literal>Aktiv</literal>. Wird bei einem Modellelement mit
+              	dynamischem Verhalten gesetzt. 
+              </para>
 
               <note>
 
-                <para>This really ought to be set automatically for 
-                model elements with state machines or activity 
-                diagrams.</para>
+                <para>
+                	Dies sollte natürlich automatisch bei Modellelementen 
+                	mit Zustandsautomaten oder Aktivitätsdiagrammen gesetzt 
+                	werden.
+                </para>
 
               </note>
 
@@ -18432,15 +18528,17 @@
 
         <sect2>
 
-          <title>Multiplicity</title>
+          <title>Kardinalität</title>
 
-          <para>This sub-menu only appears with association model elements, 
-          when clicking at one end of the association. It is used to 
-          control the multiplicity at the end of the association 
-          nearest the mouse click point. There are only four entries, a 
-          sub-set of the range of multiplicities that are available 
-          through the property sheet of a association end (see 
-          <xref linkend="s1.ref.association_end_use_case"/>).</para>
+          <para>
+          	Dieses Untermenü erscheint nur bei Assoziations-Modellelementen, 
+          	beim Anklicken eines Assoziationsendes. Es wird dazu verwendet, 
+          	die Kardinalität am dem Assoziationsende zu steuern, das dem 
+          	Mausklick am nächsten liegt. Es gibt nur vier Einträge, eine 
+          	Untermenge einer Menge von Kardinalitäten, die über die 
+          	Eigenschaftstabelle eines Assoziationsendes verfügbar sind (siehe 
+          	<xref linkend="s1.ref.association_end_use_case"/>).
+          </para>
 
           <itemizedlist>
 
@@ -18476,33 +18574,38 @@
 
           <title>Aggregation</title>
 
-          <para>This sub-menu only appears with association model elements, 
-          when clicking at one end of the association. It is used to 
-          control the aggregation at the end of the association nearest 
-          the mouse click point. There are three entries.</para>
+          <para>
+          	Dieses Untermenü erscheint nur bei Assoziations-Modellelementen, 
+          	beim Anklicken eines Assoziationsendes. Es wird dazu verwendet, die 
+          	Aggregation an dem Assoziationsende zu steuern, das dem Mausklick 
+          	am nächsten liegt. Es gibt drei Einträge.
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><literal>none</literal>. Remove any 
-              aggregation.</para>
+              <para>
+              	<literal>keine</literal>. Entfernt alle Aggregationen.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>aggregate</literal>. Make this end a 
-              shared aggregation (loosely known as an 
-              <quote>aggregation</quote>).</para>
+              <para>
+              	<literal>Aggregation</literal>. Macht dieses Ende zu einer 
+              	Aggregation (gewöhnlich als <quote>Aggregation</quote> 
+              bekannt).
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>composite</literal>. Make this end a 
-              composite aggregation (loosely known as a 
-              <quote>composition</quote>).</para>
+              <para><literal>Komposition</literal>. Macht dieses Ende zu 
+              einer untrennbaren Aggregation (gewöhnlich als  
+              <quote>Komposition</quote> bekannt).</para>
 
             </listitem>
 
@@ -18510,9 +18613,10 @@
 
           <caution>
 
-            <para>UML requires that an end with a composition 
-            relationship must have a multiplicity of 1 (the 
-            default).</para>
+            <para>
+            	UML fordert, dass ein Ende einer Komposition die Kardinalität 1 
+            	aufweisen muss (der Standard).
+            </para>
 
           </caution>
 
@@ -18520,39 +18624,45 @@
 
         <sect2>
 
-          <title>Navigability</title>
+          <title>Navigierbarkeit</title>
 
-          <para>This sub-menu only appears with association model elements, 
-          when clicking at one end of the association. It is used to 
-          control the navigability of the association. There are three 
-          entries.</para>
+          <para>
+          	Dieses Untermenü erscheint nur bei Assoziations-Modellelementen beim 
+          	Anklicken auf ein Assoziationsende. Es wird verwendet, um die 
+          	Navigierbarkeit der Assoziation zu steuern. Es gibt drei Einträge.
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><literal>bidirectional</literal>. Make the 
-              association navigable in both directions.</para>
+              <para>
+              	<literal>bidirektional</literal>. Macht die Assoziation in 
+              	beide Richtungen navigierbar. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>&lt;class1&gt; to 
-              &lt;class2&gt;</literal>. Make the association navigable 
-              only from &lt;class1&gt; to &lt;class2&gt;. In other 
-              words &lt;class1&gt; can reference &lt;class2&gt; but not 
-              the other way round.</para>
+              <para>
+              	<literal>&lt;Klasse1&gt; nach &lt;Klasse2&gt;</literal>. Macht 
+              	die Assoziation nur von &lt;Klasse1&gt; nach &lt;Klasse2&gt; 
+              	navigierbar. Mit anderen Worten, &lt;Klasse1&gt; kann die 
+              	&lt;Klasse2&gt; referenzieren, aber nicht umgekehrt.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>&lt;class2&gt; to 
-              &lt;class1&gt;</literal>. Make the association navigable 
-              only from &lt;class2&gt; to &lt;class1&gt;. In other 
-              words &lt;class2&gt; can reference &lt;class1&gt; but not 
-              the other way round.</para>
+              <para>
+              	<literal>&lt;Klasse2&gt; nach 
+              &lt;Klasse1&gt;</literal>. Macht 
+              	die Assoziation nur von &lt;Klasse2&gt; nach &lt;Klasse1&gt; 
+              	navigierbar. Mit anderen Worten, &lt;Klasse2&gt; kann die 
+              	&lt;Klasse1&gt; referenzieren, aber nicht umgekehrt.
+              </para>
 
             </listitem>
 
@@ -18560,22 +18670,28 @@
 
           <note>
 
-            <para>UML does permit an association to be non-navigable in 
-            both directions. ArgoUML will allow this, but you will have 
-            to set each of the association ends navigation property, 
-            reached from the property tab of the association - and the 
-            diagram does not show any arrows in this case.</para>
+            <para>
+            	UML erlaubt keine nicht-navigierbaren Assoziation in beide 
+            	Richtungen. ArgoUML wird dies zulassen, aber Sie müssen die 
+            	Navigationseigenschaft aller über den Reiter Eigenschaften der 
+            	Assoziation erreichbaren Assoziationsenden einstellen - und das 
+            	Diagramm wird in diesem Fall keine Pfeile anzeigen.  
+            </para>
 
-            <para>This is considered bad design practice (it will 
-            trigger a critic in ArgoUML), so is only of theoretical 
-            interest.</para>
+            <para>
+              Dies wird als schlechte Design-Praxis betrachtet (es wird in 
+              ArgoUML eine Kritik auslösen), so dass dies nur von theoretischem 
+              Interesse ist.
+            </para>
 
           </note>
 
           <note>
 
-            <para>UML does not permit navigability from an interface to 
-            a class. ArgoUML does not prevent this.</para>
+            <para>
+            	UML erlaubt keine Navigierbarkeit von einer Schnittstelle zu 
+            	einer Klasse. ArgoUML verhindert dies nicht.
+            </para>
 
           </note>
 
@@ -18587,124 +18703,145 @@
 
         <title>Notation</title>
 
-        <para>Notation is the textual representation 
-        on the diagram of a modelelement or its properties.
+        <para>
+        	Eine Notation ist die textuelle Darstellung in einem Diagramm eines 
+        	Modellelementes oder seiner Eigenschaften.
         </para>
 
         <sect2>
-        <title>Notation Languages</title>
-        <para>ArgoUML supports showing notation in different languages.
-        By default, all text is shown in UML notation, 
-        but the menus contain an item to select between
-        Java and UML.
-        With plugin modules, 
-        it is even possible to select other languages, 
-        such as C++.
+        <title>Notation Sprachen</title>
+        <para>
+          ArgoUML unterstützt die Darstellung der Notation in unterschiedlichen 
+          Sprachen. Standardmäßig wird jeder Text in UML-Notation dargestellt, 
+          Menüs erhalten jedoch einen Eintrag um zwischen UML und Java 
+		  auswählen zu können.
+		  Über Plugin-Module ist es auch möglich andere Sprachen auszuwählen; 
+		  wie zum Beispiel C++.
         </para>
         
-        <para><xref linkend="fig.ref.notation_uml"/>
-        shows a class in UML notation, while
-        <xref linkend="fig.ref.notation_java"/>
-        shows the same class in Java notation. 
+        <para>
+        	<xref linkend="fig.ref.notation_uml"/>
+        	zeigt eine Klasse in UML-Notation, während
+        	<xref linkend="fig.ref.notation_java"/>
+        	die gleiche Klasse in Java-Notation darstellt.
         </para>
 
         <figure id="fig.ref.notation_uml">
 
-          <title>A class in UML notation</title>
+          <title>Eine Klasse in UML-Notation</title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/notation_uml.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+          	<mediaobject>
+          		<imageobject>
+          			<imagedata align="center"
+           					   fileref="images/reference/notation_uml.png"
+           					   format="PNG"/>
+           		</imageobject>
+           	</mediaobject>
+           </screenshot>
         </figure>
         
         <figure id="fig.ref.notation_java">
 
-          <title>A class in Java notation</title>
+          <title>Eine Klasse in Java-Notation</title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/notation_java.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+          	<mediaobject>
+          		<imageobject>
+          			<imagedata align="center"
+           					   fileref="images/reference/notation_java.png"
+           					   format="PNG"/>
+           		</imageobject>
+           	</mediaobject>
+          </screenshot>
         </figure>
 
         </sect2>
 
         <sect2>
-        <title>Notation Editing on the diagram</title>
+        <title>Editieren im Diagramm</title>
 
-        <para>Most text shown on a diagram may be edited by
-        double-clicking button&nbsp;1 on the text. 
-        This causes a edit box to be shown, 
-        with the previous text selected,
-        ready for amending.</para>
+        <para>
+          Der in einem Diagramm gezeigte Text kann durch einen Doppelklick auf 
+          den Text editiert werden. Dies blendet ein Editierfenster mit dem 
+          zuvor markierten Text auf, in dem der Text geändert werden kann.
+        </para>
 
-        <para>Also, the status bar of ArgoUML 
-        (i.e. the small area at the bottom of the ArgoUML window),
-        shows an help text that indicates the syntax of the text to be entered.
-        Text entry can be concluded by pressing F2, 
-        or for single-line fields, by pressing the enter key.
-        Additionally, editing can be concluded by 
-        clicking somewhere in the diagram outside the edit area.
+        <para>
+          Zusätzlich zeigt die Statuszeile von ArgoUML (z.B. der kleine Bereich 
+          unten im ArgoUML-Fenster) einen Hilfetext an, der die Syntax des 
+          einzugebenden Textes beschreibt. Die Texteingabe kann durch Drücken 
+          der Taste F2, oder bei einzeiligen Felder durch Drücken der Taste 
+          Return abgeschlossen werden.
+          Zusätzlich kann das Editieren durch Anklicken eines Bereiches 
+          ausserhalb des Diagrammes beendet werden.
         </para>
         
-        <para>Editing notation on the diagram is a very powerful way
-        to enter a lot of model-information in a very compact way. 
-        It is e.g. possible to create an operation, 
-        its stereotype,
-        all parameters and their types, 
-        and operation properties (visibility, concurrency), all
-        at once by typing:</para>
+        <para>
+          Das Editieren im Diagramm ist eine sehr leistungsfähige Art und Weise 
+          eine Menge Modellinformationen auf kompakte Art einzugeben. Es ist 
+          zum Beispiel möglich, eine Operation, den Stereotypen, alle Parameter 
+          und deren Typen, sowie die Eigenschaften der Operationen (Sichtbarkeit, 
+          Gleichzeitigkeit) auf einmal einzugeben:
+        </para>
         
-        <programlisting>+Order(customerID : int,items : List) : void {sequential}</programlisting>
+        <programlisting>+Auftrag(kundenID : int,positionen : List) : void {sequential}</programlisting>
         
-        <para>An association (e.g. between two classes) is showing many
-        texts close to its middle and ends, 
-        so it deserves some extra explanation.
-        <xref linkend="fig.ref.notation_association"/> shows two associations
-        to clarify the following:
+        <para>
+          Eine Assoziation (z.B. zwischen zwei Klassen) zeigt viele Texte in der 
+          Nähe seiner Mitte und der Enden an, die zusätzliche Erläuterungen 
+          liefern.
+          <xref linkend="fig.ref.notation_association"/> zeigt zwei 
+          Assoziationen, um folgendes zu erläutern:
         </para>
 
         <figure id="fig.ref.notation_association">
 
-          <title>A couple of associations with adornments</title>
+          <title>Eine Menge von Assoziationen mit Eingabefeldern</title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/notation_association.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+          	<mediaobject>
+          		<imageobject>
+          			<imagedata align="center"
+           					   fileref="images/reference/notation_association.png"
+           					   format="PNG"/>
+           		</imageobject>
+           	</mediaobject>
+           </screenshot>
         </figure>        
 
-        <para>The association on the right shows that 
-        invisible fields where text can be entered
-        become visible once the modelelement is selected.
-        The fields are indicated by blue rectangles - 
-        double-click on them with mouse button&nbsp;1 to start editing.</para>
+        <para>
+          Die rechte Assoziation zeigt, dass unsichtbare Felder in die Text 
+          eingegeben werden kann sichtbar werden, wenn das Modellelement markiert 
+          wird. Die Felder sind als blaue Rechtecke gekennzeichnet - ein 
+          Doppelklick auf diese Felder mit der rechten Maustaste&nbsp;1 ermöglicht 
+          das Editieren.
+        </para>
         
-        <para>The visibility (the +, -, # or ~) is shown 
-        together with the association-end name, 
-        but it is not shown 
-        for an unnamed association end.</para>
+        <para>
+          Die Sichtbarkeit (das +, -, # oder ~) wird im Zusammenhang mit dem 
+          Namen des Assoziationsendes angezeigt. Bei unbenannten 
+          Assoziationsenden wird sie nicht angezeigt.
+        </para>
         
-        <para>Likewise, the multiplicity is not shown if it is 1, 
-        unless the setting 
-        <literal>Show "1" multiplicities</literal>
-        in the menu 
-        <literal>File=&gt;Properties</literal>
-        is checked.</para>
+        <para>
+          Die Kardinalität wird nicht angezeigt, wenn sie 1 ist, es sei denn, 
+          die Einstellung <literal>"1" Kardinalitäten anzeigen</literal> im Menü 
+          <literal>Datei=&gt;Projekteigenschaften</literal> ist markiert.
+        </para>
         
-        <para>The example figure does not demonstrate this, but 
-        stereotypes of an association are shown on the diagram, 
-        but are not editable. 
-        And stereotypes of association-ends are shown
-        together with the association-end name.
+        <para>
+          Das Beispiel-Bild demonstriert dies nicht, weil Stereotypen einer 
+          Assoziation im Diagramm angezeigt werden, aber nicht editierbar sind.
+          Und Stereotypen von Assoziationsenden werden zusammen mit dem Namen 
+          des Assoziationsendes angezeigt.
         </para>
         
         </sect2>
 
         <sect2>
-        <title>Notation Parsing</title>
-        <para>(to be written)</para>
+        <title>Parsen</title>
+        <para>(noch zu beschreiben)</para>
         <!-- TODO: Describe all Notation providers' syntax. -->
         </sect2>
 
@@ -18714,11 +18851,11 @@
 
     <chapter id="ch.ref.detpane">
 
-      <title>The Details Pane</title>
+      <title>Das Fenster Details</title>
 
       <sect1>
 
-        <title>Introduction</title>
+        <title>Einleitung</title>
 
         <para><xref linkend="fig.ref.details_pane"/> shows the ArgoUML 
         window, with the details pane highlighted.</para>
