@@ -18851,164 +18851,223 @@
 
     <chapter id="ch.ref.detpane">
 
-      <title>Das Fenster Details</title>
+      <title>Der Bereich Details</title>
 
       <sect1>
 
         <title>Einleitung</title>
 
-        <para><xref linkend="fig.ref.details_pane"/> shows the ArgoUML 
-        window, with the details pane highlighted.</para>
+        <para>
+        	<xref linkend="fig.ref.details_pane"/> zeigt das ArgoUML-Fenster mit
+        	dem hervorgehobenen Bereich Details.
+        </para>
 
         <figure id="fig.ref.details_pane">
 
-          <title>Overview of the details pane</title>
+          <title>Überblick über den Bereich Details</title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/details_pane.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+          	<mediaobject>
+          		<imageobject>
+          			<imagedata align="center"
+           					   fileref="images/reference/details_pane.png"
+           					   format="PNG"/>
+           		</imageobject>
+           	</mediaobject>
+          </screenshot>
         </figure>
 
-        <para>For any model element within the system, this pane is where 
-        all its associated data is viewed and entered.</para>
+        <para>
+        	Für jedes Modellelement innerhalb des Systems, werden alle mit ihm 
+        	verknüpften Daten innerhalb dieses Bereiches  angezeigt und 
+        	eingegeben.
+        </para>
 
-        <para>The Pane has a series of tabs at the top, which are 
-        selected by button&nbsp;1 click The body of a tab is a menu of items 
-        to be checked, selected or entered specific to the particular 
-        tab selected.</para>
+        <para>
+          Der Bereich enthält eine Reihe von Registern, die mit einem 
+          Taste&nbsp;1-Klick ausgewählt werden. Der Rumpf des Reiters ist ein 
+          Menü von Einträgen, die je nach ausgewähltem Register markiert, 
+          ausgewählt oder eingegeben werden, .
+        </para>
 
-        <para>Of these, the <literal>Properties</literal> Tab is by far 
-        the most complex, with a different presentation for each 
-        model element within the system. The detailed descriptions of the 
-        properties tab for each model element are the subject of separate 
-        chapters covering the model elements that may appear on the various 
-        diagrams (see <xref linkend="ch.ref.entities"/> through 
-        <xref linkend="ch.ref.entdeploy"/>).</para>
+        <para>
+          Von diesen, ist das Register <literal>Eigenschaften</literal> das 
+          komplexeste. Mit unterschiedlichen Darstellungen für jedes 
+          Modellelement im System. Die detaillierte Beschreibung des Registers 
+          Eigenschaften für jedes Modellelement ist Inhalt separater Kapitel, 
+          welche die Modellelemente beschreiben, die in den verschiedenen 
+          Diagrammen erscheinen können (siehe  <xref linkend="ch.ref.entities"/> 
+          bis <xref linkend="ch.ref.entdeploy"/>).
+        </para>
 
       </sect1>
 
       <sect1 id="s1.ref.to_do">
 
-        <title>To Do Item Tab</title>
+        <title>Das Register &quot;Zu Bearbeiten&quot;</title>
 
-        <para>This tab provides control over the various to-do items 
-        created by the user, or raised automatically by the ArgoUML 
-        critics (discussed in more detail in the section on the 
-        <literal>Critique</literal> menu&mdash;see 
-        <xref linkend="s1.ref.menu_critique"/>). 
-        <xref linkend="fig.ref.details_to_do"/> shows a typical pane. 
-        The to-do item is selected with button&nbsp;1 in the to-do pane (see 
-        <xref linkend="ch.ref.todopane"/>) or by using the <literal>
-        Critiques</literal> context sensitive pop-up menu on the 
-        editing pane.</para>
+        <para>
+          Dieses Register erlaubt die Steuerung über die verschiedenen, vom 
+          Anwender erzeugten Zu-Bearbeiten-Einträge oder automatisch von ArgoUML 
+          generierten Kritiken (wird detaillierter im Abschnitt <literal>
+          Kritiken</literal>-Menü diskutiert. Siehe 
+          <xref linkend="s1.ref.menu_critique"/>). 
+          <xref linkend="fig.ref.details_to_do"/> zeigt einen typischen 
+          Ausschnitt. 
+          Das Zu-Bearbeiten-Element wird mit der Taste&nbsp;1 im Detailbereich 
+          markiert (siehe <xref linkend="ch.ref.todopane"/>) oder mit Hilfe des 
+          kontextsensitiven Popup-Menüs <literal>Kritiken</literal> im 
+          Editierfenster. 
+        </para>
 
         <figure id="fig.ref.details_to_do">
 
-          <title>Example of the <literal>To Do Item</literal> tab on 
-          the properties pane</title>
+          <title>Beispiel eines <literal>Zu-Bearbeiten-Elementes</literal></title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/details_to_do.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+          	<mediaobject>
+          		<imageobject>
+          			<imagedata align="center"
+           					   fileref="images/reference/details_to_do.png"
+           					   format="PNG"/>
+           		</imageobject>
+           	</mediaobject>
+          </screenshot>
         </figure>
 
-        <para>Customization of the critics behaviour is possible 
-        through the <literal>Browse critics...</literal> menu (see 
-        <xref linkend="s2.ref.menu_browse_critics"/>).</para>
+        <para>
+          Benutzerspezifische Anpassungen des Verhaltens von Kritiken ist über 
+          das <literal>Kritiken anzeigen...</literal>-Menü möglich (siehe
+          <xref linkend="s2.ref.menu_browse_critics"/>).
+        </para>
 
-        <para>The body of the tab describes the problem found by the 
-        critic and outlines how it can be fixed. To the left are four 
-        buttons.</para>
+        <para>
+          Der Rumpf des Registers beschreibt das Problem und beschreibt, wie es 
+          gelöst werden kann. Links befinden sich vier Schaltflächen.
+        </para>
 
         <itemizedlist>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/new_to_do_item.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>New To Do Item...</literal> This launches a dialog 
-            box (see <xref linkend="fig.ref.details_new_to_do"/>), 
-            which allows you to create your own to-do item, with its 
-            own headline (which appears in the to-do pane), priority 
-            for the to-do pane, reference URL and detailed description 
-            for further information.</para>
+            <para>
+              <guiicon>
+              	<inlinemediaobject>
+              		<imageobject>
+            			<imagedata align="center"
+             					   fileref="images/icons/new_to_do_item.gif"
+             					   format="GIF"/>
+             		</imageobject>
+             	</inlinemediaobject>
+              </guiicon> 
+              <literal>Neue Kritik...</literal> Öffnet ein Dialogfenster (siehe  
+              <xref linkend="fig.ref.details_new_to_do"/>), das es Ihnen erlaubt, 
+              Ihre eigene Kritik zu schreiben, mit eigener Überschrift (die im 
+              Zu-Bearbeiten-Bereich erscheint), eigener Priorität für den 
+              Zu-Bearbeiten-Bereich, Referenz-URL und detaillierter Beschreibung 
+              für weitere Informationen.
+            </para>
 
             <figure id="fig.ref.details_new_to_do">
 
-              <title>Dialog box for <literal>
-              New To Do Item</literal></title>
+              <title>Dialogfenster für <literal>
+              Neue Kritik</literal></title>
 
-              <screenshot><mediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/reference/details_new_to_do.png"
-               format="PNG"/></imageobject></mediaobject></screenshot>
+              <screenshot>
+              	<mediaobject>
+              		<imageobject>
+              			<imagedata align="center"
+               					   fileref="images/reference/details_new_to_do.png"
+               					   format="PNG"/>
+               		</imageobject>
+               	</mediaobject>
+              </screenshot>
             </figure>
 
           </listitem>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/resolve_item.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>Resolve Item...</literal> This pops up a dialog 
-            allowing the user to resolve the selected to-do item (see 
-            <xref linkend="fig.ref.details_resolve_to_do"/>). This is 
-            an important dialog, because it allows you to deal with 
-            to-do items in ways other than the recommendation of the 
-            to-do item (which is the whole point of their being 
-            advisory).</para>
+            <para>
+              <guiicon>
+              	<inlinemediaobject>
+              	  <imageobject>
+            		<imagedata align="center"
+             				   fileref="images/icons/resolve_item.gif"
+                			   format="GIF"/>
+                  </imageobject>
+                 </inlinemediaobject>
+              </guiicon> 
+              <literal>Kritik auflösen...</literal> Öffnet einen Dialog, der 
+              es dem Anwender ermöglicht, das markierte Zu-Bearbeiten-Element 
+              aufzulösen (siehe <xref linkend="fig.ref.details_resolve_to_do"/>). 
+              Dies ist ein wichtiger Dialog, weil er es erlaubt, die 
+              Zu-Bearbeiten-Elemente auf andere Art und Weise zu behandeln, wie 
+              im Zu-Bearbeiten-Element empfohlen (was der Grund ihrer Existenz 
+              ist). 
+            </para>
 
-            <para>This dialog box is intended to be used for the 
-            following reasons: deleting todo items that were manually 
-            created, preventing a single critic to trigger on a single 
-            object, and dismissing categories of todo items by lowering 
-            design concerns or design goals.</para>
+            <para>
+              Dieses Dialogfenster ist für folgende Fälle gedacht: Löschen von 
+              Zu-Bearbeiten-Elementen, die manuell erzeugt wurden, verhindern, 
+              dass sich eine Kritik nur auf ein Objekt bezieht und auflösen von 
+              ganzen Kategorien von Zu-Bearbeiten-Elementen durch herabstufen 
+              von Designbedingungen oder Designzielen. 
+            </para>
 
             <figure id="fig.ref.details_resolve_to_do">
 
-              <title>Dialog box for <literal>
-              Resolve Item</literal></title>
+              <title>Dialogfenster für <literal>
+              Kritik auflösen</literal></title>
 
-              <screenshot><mediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/reference/details_resolve_to_do.png"
-               format="PNG"/></imageobject></mediaobject></screenshot>
+              <screenshot>
+              	<mediaobject>
+              	  <imageobject>
+              		<imagedata align="center"
+               				   fileref="images/reference/details_resolve_to_do.png"
+               				   format="PNG"/>
+               	  </imageobject>
+               	</mediaobject>
+              </screenshot>
             </figure>
 
-            <para>At the top are three radio-buttons, of which by 
-            default the last is selected, labeled 1) <literal>It is not 
-            relevant to my goals</literal>, 2) <literal>It is not of 
-            concern at the moment</literal>, and 3) <literal>Reason 
-            given below</literal>. If you choose the third of these you 
-            should enter a reason in the main text box.</para>
+            <para>
+              Oben befinden sich drei Auswahlfelder, von denen das letzte 
+              standardmäßig markiert ist. Sie sind wie folgt bezeichnet: 
+              1) <literal>es ist für meine Ziele nicht relevant</literal>, 2) 
+              <literal>es ist Momentan nicht von Belang</literal> und 3) 
+              <literal>die Gründe sind nachfolgend beschrieben</literal>.
+              Wenn Sie die 3. Option auswählen, sollten Sie die Gründe in dem 
+              nachfolgendem Textbereich beschreiben.
+            </para>
 
             <tip>
 
-              <para>If you wish to resolve a to-do item (that is 
-              generated by a critic) by following its recommendations, 
-              just make the recommended changes and the to-do item will 
-              disappear of its own accord. There is no need to use this 
-              dialog.</para>
+              <para>
+                Wenn Sie ein Zu-Bearbeiten-Element auflösen wollen (das durch 
+                eine Kritik generiert wurde) indem Sie dessen Empfehlung folgen, 
+                dann führen Sie die empfohlenen Änderungen durch und das Zu-
+                Bearbeiten-Element wird von selbst verschwinden. Es gibt dann 
+                keine Notwendigkeit, diesen Dialog zu verwenden.
+              </para>
 
             </tip>
 
             <warning>
 
-              <para>The V0.20 version of ArgoUML implementation is 
-              incomplete: The reason given is not stored when the 
-              project is saved. And there is no way to retrieve todo 
-              items that were resolved. So, it is not usefull to give a 
-              reason at all.</para>
+              <para>
+                Die Version V0.20 der ArgoUML-Implementierung ist unvollständig: 
+                Die angegebenen Gründe werden beim Speichern des Projektes nicht 
+                mitgespeichert. Und es gibt keinen Weg, die aufgelösten 
+                Zu-Bearbeiten-Elemente wiederherzustellen. Aus diesem Grund ist 
+                es aktuell nicht ratsam eine Begründung einzugeben.
+              </para>
 
-              <para>When a todo item generated by a critic is resolved, 
-              then there is no way to undo this (unless by re-creating 
-              the object that triggered the critic).</para>
+              <para>
+                Wenn eine generiertes Zu-Bearbeiten-Element aufgelöst wird, dann 
+                gibt es keinen Weg dies ungeschehen zu machen (es sei denn, 
+                durch erneutes erzeugen des Kritik-auslösenden Objektes).
+              </para>
 
             </warning>
 
@@ -19016,27 +19075,40 @@
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/snooze_critic.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>Snooze Critic</literal> This suspends the activity 
-            of the critic that generated the current to-do item. The 
-            to-do item (and all others generated by the critic) will 
-            disappear from the to-do pane.</para>
+            <para>
+              <guiicon>
+              	<inlinemediaobject>
+              	  <imageobject>
+            		<imagedata align="center"
+             				   fileref="images/icons/snooze_critic.gif"
+             				   format="GIF"/>
+             	  </imageobject>
+             	</inlinemediaobject>
+              </guiicon> 
+              <literal>Kritik deaktivieren</literal> Dies unterdrückt die 
+              Aktivität der Kritik, die das aktuelle Zu-Bearbeiten-Element 
+              generiert. Das Zu-Bearbeiten-Element (und alle anderen von der 
+              Kritik generierten Zu-Bearbeiten-Elemente) werden aus dem Bereich 
+              Zu-Bearbeiten verschwinden.
+            </para>
 
-            <para>The critic will wake up after a period of time. 
-            Initially this period is 10 minutes, but it doubles on each 
-            successive application of the Snooze button. The critic can 
-            be awakened explicitly through the <literal>
-            Critique &gt; Browse Critics...</literal> menu (see 
-            <xref linkend="s2.ref.menu_browse_critics"/>).</para>
+            <para>
+              Die Kritik wird nach einer gewissen Zeit wieder aufleben. Zu Beginn 
+              ist diese Periode auf 10 Minuten eingestellt, aber sie wird bei 
+              jedem Anklicken der Schaltfläche verdoppelt. Die Kritik kann 
+              ausdrücklich durch <literal>Kritiken &gt; Kritiken anzeigen...
+              </literal> wieder zum Leben erweckt werden (siehe 
+              <xref linkend="s2.ref.menu_browse_critics"/>).
+            </para>
 
             <tip>
 
-              <para>Some common critics can fire the whole time as you 
-              build a big diagram. Some users find it useful to snooze 
-              these critics until the diagram has been completed.</para>
+              <para>
+                Einige Kritiken können während der gesamten Erstellungszeit eines 
+                grossen Diagrammes erscheinen. Einige Anwender finden es daher 
+                nützlich, diese Kritiken zu deaktivieren bis das Diagramm 
+                vollständig ist.
+              </para>
 
             </tip>
 
@@ -19046,52 +19118,68 @@
 
         <sect2>
 
-          <title>Wizards</title>
+          <title>Assistenten</title>
 
-          <para>Some of the more common critics have a 
-          <quote>wizard</quote> available to help in fixing the 
-          problem. The wizard comprises a series of pages (one or more) 
-          in the <literal>ToDo Item</literal> tab that step you through 
-          the changes. Start the wizard by clicking the 
-          <literal>Next&gt;</literal> button.
+          <para>
+            Einige der am häufigsten vorkommenden Kritiken haben einen 
+          <quote>Assistenten</quote>, der dabei hilft, das Problem zu lösen.
+          Der Assistent umfasst im <literal>Zu-Bearbeiten-Element</literal> eine 
+          Reihe von Seiten (eine oder mehrere), die Sie Schritt für Schritt 
+          durch die Änderungen führen. Sie starten den Assistenten durch 
+          Anklicken der Schaltfläche <literal>Weiter &gt;&gt;</literal>.
           </para>
 
           <figure id="fig.ref.details_wizard">
 
-            <title>Example of a <literal>Wizard</literal></title>
+            <title>Beispiel eines <literal>Assistenten</literal></title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/details_wizard.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+              <mediaobject>
+              	<imageobject>
+            	  <imagedata align="center"
+             				 fileref="images/reference/details_wizard.png"
+             				 format="PNG"/>
+             	</imageobject>
+              </mediaobject>
+            </screenshot>
           </figure>
 
-          <para>The wizard is driven through the first three buttons at 
-          the bottom of the <literal>ToDo Item</literal> tab.</para>
+          <para>
+            Der Assistent wird durch die ersten drei Schaltflächen im unteren 
+            Bereich des <literal>Zu-Bearbeiten-Elementes</literal> gesteuert.
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><literal>&lt;Back</literal>. This will take you back to 
-              the previous step in the wizard. Grayed out if this is 
-              the first step.</para>
+              <para>
+                <literal>&lt;&lt; Zurück</literal>. Dies bringt Sie in der 
+                vorhergehenden Schritt des Assistenten zurück. Die Schaltfläche 
+                ist deaktiviert, wenn es sich um den 1. Schritt handelt. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Next&gt;</literal>. This will take you back to 
-              the next step in the wizard. Grayed out if this is the 
-              last step.</para>
+              <para>
+                <literal>Weiter &gt;&gt;</literal>. Dies bringt Sie zum 
+                nächsten Schritt des Assistenten. Wenn es sich um den letzten 
+                Schritt des Assistenten handelt, ist diese Schaltfläche 
+                deaktiviert. 
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Finish</literal>. This will commit the 
-              changes you have made through the wizard in previous 
-              steps, and/or use the defaults for all next steps.</para>
+              <para>
+                <literal>Fertigstellen</literal>. Dieser Schritt vollzieht die 
+                von Ihnen im Assistenten in den vorhergehenden Schritten 
+                vorgenommenen Änderungen und/oder verwendet die Standardwerte 
+                für alle folgenden Schritte. 
+              </para>
 
             </listitem>
 
@@ -19099,29 +19187,35 @@
 
           <note>
 
-            <para>Not all to-do items have wizards. If there is no 
-            wizard all three buttons will remain grayed out.</para>
+            <para>
+              Nicht alle Zu-Bearbeiten-Elemente haben Assistenten. Wenn es 
+              keinen Assistenten gibt, sind alle drei Schaltflächen deaktiviert.
+            </para>
 
           </note>
           
           <para>
-          The ArgoUML wizards are <emphasis>non-modal</emphasis>, i.e. 
-          once started, you may select other todo items, 
-          or do some other actions, and all the while the wizard will
-          remeber where it was, so if you return to the todo item,
-          the wizard will indicate the same step it was on when you left it.
+            Die ArgoUML-Assistenten sind <emphasis>nicht-model</emphasis>, d.h. 
+            einmal gestartet, können Sie andere Zu-Bearbeiten-Elemente auswählen 
+            oder andere Aktionen ausführen. Und dies alles, während sich der 
+            Assistent daran erinnert, wo er war. Sie können somit zu diesem 
+            Zu-Bearbeiten-Element zurückkehren und der Assistent wird mit dem 
+            gleichen Schritt fortfahren, in dem er war, bevor Sie ihn verlassen 
+            haben.
           </para>
 
         </sect2>
 
         <sect2>
 
-          <title>The Help Button</title>
+          <title>Die Schaltfläche Hilfe</title>
 
-          <para>There is one remaining button at the bottom of the 
-          <literal>To Do Item</literal> tab, labeled <literal>
-          Help</literal>. This will fire up a browser to a URL with 
-          further help.</para>
+          <para>
+            Es gibt noch eine verbliebene Schaltfläche im unteren Bereich des  
+            Registers <literal>Zu-Bearbeiten-Element</literal>, mit <literal>
+            Hilfe</literal> bezeichnet. Diese wird künftig einen Browser öffnen, 
+            mit einer URL für eine weitergehende Hilfe.
+          </para>
 
           <!--warning>
 
@@ -19137,98 +19231,130 @@
 
       <sect1 id="s1.ref.proptab">
 
-        <title>Properties Tab</title>
+        <title>Das Register Eigenschaften</title>
 
-        <para>Through this tab, the properties of model elements selected in 
-        the explorer or editing pane may be set. The properties of an 
-        model element may be displayed in one of the following ways:</para>
+        <para>
+          Über dieses Register werden die Eigenschaften eines im Explorer oder 
+          im Editierbereich markierten Modellelementes eingestellt. Die 
+          Eigenschaften eines Modellelementes können auf folgende Art und Weise 
+          angezeigt werden:
+        </para>
 
         <orderedlist>
 
           <listitem>
 
-            <para>Selection of the model element in the explorer or editing 
-            panes, followed by selection of the properties tab in the 
-            details pane; or</para>
+            <para>
+              Markieren des Modellelementes im Explorer oder im Editierbereich, 
+              gefolgt von der Auswahl des Registers Eigenschaften im Bereich 
+              Details; oder
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para>Navigation buttons cause different model elements to be 
-            selected. I.e. the <literal>Go Up</literal> button on the 
-            properties tab, the <literal>Navigate Back</literal> and 
-            <literal>Navigate Forward</literal> buttons in the main 
-            tool bar, and the various menu-items under <literal>Edit - 
-            Select</literal>.</para>
+            <para>
+              Über die Navigationsschaltflächen werden unterschiedliche 
+              Modellelemente markiert. Zum Beispiel, die Schaltfläche 
+              <literal>Nach oben</literal> im Register Eigenschaften, die 
+              Schaltflächen <literal>Zurück</literal> und <literal>Vorwärts
+              </literal> in der Symbolleiste und die verschiedenen Menüeinträge 
+              unter <literal>Bearbeiten - Markieren</literal>.
+            </para>
 
           </listitem>
 
         </orderedlist>
 
-        <para><xref linkend="fig.ref.details_properties"/> shows a 
-        typical properties tab for a model element in ArgoUML (in this case 
-        a class).</para>
+        <para>
+          <xref linkend="fig.ref.details_properties"/> zeigt ein typisches 
+          Register Eigenschaften für ein Modellelement in ArgoUML (in diesem 
+          Fall eine Klasse).
+        </para>
 
         <figure id="fig.ref.details_properties">
 
-          <title>A typical <literal>Properties</literal> tab on the 
-          details pane</title>
+          <title>
+            Ein typisches Register <literal>Eigenschaften</literal> im 
+            Bereich Details
+          </title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/details_properties.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+            <mediaobject>
+              <imageobject>
+          		<imagedata align="center"
+           				   fileref="images/reference/details_properties.png"
+           				   format="PNG"/>
+           	  </imageobject>
+           	</mediaobject>
+          </screenshot>
         </figure>
 
-        <para>At the top left is the icon and name of the type of 
-        model element (i.e. the UML metaclass, not the actual name of this 
-        particular model element). In this example the property tab is for a 
-        class.</para>
+        <para>
+          Oben links befindet sich das Symbol und der Name des Modellelement-Typs 
+          (z.B. die UML-Metaklasse, nicht der aktuelle Name dieses bestimmten 
+          Modellelementes). In diesem Beispiel ist es das Register Eigenschaften 
+          für eine Klasse.
+        </para>
 
-        <para>To the right of this is a toolbar of icons relevant to 
-        this property tab. The first one is always navigation <literal>
-        Go up</literal>. The last is always <literal>Delete</literal> 
-        to delete the selected model element from the model. The ones in 
-        between depend on the model element.</para>
+        <para>
+          Rechts davon befindet sich eine Symbolleiste mit Symbolen, die in 
+          diesem Register Eigenschaften relevant sind. Das Erste ist immer die 
+          Schaltfläche <literal>Nach oben</literal>. Das Letzte ist immer die 
+          Schaltfläche <literal>Löschen</literal>, um das markierte Modellelement 
+          aus dem Modell zu löschen. Die Symbole dazwischen, hängen vom jeweiligen 
+          Modellelement ab. 
+        </para>
 
-        <para>The remainder of the tab comprises fields, laid out in 
-        two or three columns. Each field has a label to its left. The 
-        fields may be text boxes, text areas, drop down selectors, 
-        radio boxes and check boxes. In most (but not all cases) the 
-        values can be changed. In the case of text boxes this is 
-        sometimes by just typing the required value.</para>
+        <para>
+          Der Rest des Registers enthält Felder, die in zwei oder drei Spalten 
+          angeordnet sind. Jedes Feld ist links davon bezeichnet. Die Felder 
+          können Textfelder, Textbereiche, DropDown-Felder, Auswahlfelder oder 
+          Markierfelder sein. In den meisten (aber nicht in allen Fällen) Fällen 
+          können die Werte geändert werden. Bei Textfeldern ist dies manchmal nur
+          das Eingeben des erforderlichen Wertes.
+        </para>
 
-        <para>However for many text boxes and text areas, data entry is 
-        via a context sensitive pop-up menu (using button&nbsp;2 click), 
-        which offers options to add a new entry, delete an entry or 
-        move entries up and down (in text areas with multiple 
-        entries).</para>
+        <para>
+          Jedoch bei vielen Textfeldern und Textbereichen erfolgt die 
+          Dateneingabe über ein kontextsensitives Popup-Menü (mit Hilfe des 
+          Taste&nbsp;2-Klicks), welches die Optionen anbietet, um neue Einträge 
+          hinzuzufügen, einen Eintrag zu löschen oder Einträge nach oben oder 
+          nach unten zu bewegen (in Textbereichen mit Mehrfach-Einträgen).
+        </para>
 
-        <para>The first field is almost always a text field <literal>
-        Name</literal>, where the name of the specific model element can be 
-        entered. The remaining fields vary depending on the model element 
-        selected.</para>
+        <para>
+          Das erste Feld ist meist immer ein Textfeld mit der Bezeichnung 
+          <literal>Name</literal>, wo der Name des spezifischen Modellelementes 
+          eingegeben werden kann. Die verbleibenden Felder variieren, je nach 
+          markiertem Modellelement.
+        </para>
 
-        <para>The detailed property sheets for all ArgoUML model elements 
-        are discussed in separate chapters for each of the diagram 
-        types (use case diagram (<xref linkend="ch.ref.entusecase"/>, 
-        class diagram (<xref linkend="ch.ref.entclass"/>, sequence 
-        diagram (<xref linkend="ch.ref.entseq"/>, statechart diagram (
-        <xref linkend="ch.ref.entstate"/>, collaboration diagram (
-        <xref linkend="ch.ref.entcollab"/>, activity diagram (
-        <xref linkend="ch.ref.entactiv"/>, deployment diagram (
-        <xref linkend="ch.ref.entdeploy"/>). Property sheets for 
-        model elements that are common to all diagram types have their own 
-        chapter (<xref linkend="ch.ref.entities"/>).</para>
+        <para>
+          Die detaillierten Eigenschaftstabellen für alle ArgoUML-Modellelemente 
+          werden in separaten Kapiteln für jeden Diagrammtyp diskutiert (
+          Anwendungsfalldiagramm (<xref linkend="ch.ref.entusecase"/>, 
+          Klassendiagramm (<xref linkend="ch.ref.entclass"/>, Sequenzdiagramm 
+          (<xref linkend="ch.ref.entseq"/>, Zustandsdiagramm (
+          <xref linkend="ch.ref.entstate"/>, Kollaborationsdiagramm (
+          <xref linkend="ch.ref.entcollab"/>, Aktivitätsdiagramm (
+          <xref linkend="ch.ref.entactiv"/>, Verteilungsdiagramm (
+          <xref linkend="ch.ref.entdeploy"/>). Eigenschaftstabellen für 
+          Modellelemente, die sehr häufig in allen Diagrammtypen erscheinen, 
+          haben ihr eigenes Kapitel (<xref linkend="ch.ref.entities"/>).
+        </para>
 
         <caution>
 
-          <para>ArgoUML will always try to squeeze all fields on to the 
-          property sheet. If the size of the property tab is too small, 
-          it may become unusable. The solution is to either enlarge the 
-          property tab by enlarging the main window, or by moving the 
-          dividers to left and top.</para>
+          <para>
+            ArgoUML wird immer versuchen, alle Felder auf dem Register 
+            Eigenschaften auszugeben. Ist die Größe des Registers Eigenschaften 
+            zu klein, wird es unhandlich. Die Lösung ist, entweder das Register 
+            Eigenschaften durch vergrößern des Hauptfensters oder durch 
+            verschieben der Bereichsteiler nach links und nach oben ebenfalls zu 
+            vergrößern 
+          </para>
 
         </caution>
 
@@ -19236,104 +19362,131 @@
 
       <sect1 id="s2.ref.documentation_tab">
 
-        <title>Documentation Tab</title>
+        <title>Das Register Dokumentation</title>
 
-        <para>Within the UML&nbsp;1.4 standard, all model elements are children 
-        of the <literal>Element</literal> metaclass. The <literal>
-        Element</literal> metaclass defines a tagged value <literal>
-        documentation</literal> for comment, description or explanation 
-        of the element to which it is attached. Since this tagged value 
-        applies to every model element, it is given its own tab in the 
-        details pane, rather than being part of the <literal>
-        Tagged Values</literal> tab.</para>
+        <para>
+          Innerhalb des UML&nbsp;1.4-Standards sind alle Modellelemente 
+          Subelemente der Metaklasse <literal>Element</literal>. Die Metaklasse 
+          <literal>Element</literal> definiert einen gekennzeichneten Wert 
+          <literal>Dokumentation</literal> für einen Kommentar, eine Beschreibung 
+          oder eine Erläuterung eines jeden Elementes. Da dieser gekennzeichnete 
+          Wert zu jedem Modellelement gehört, hat er sein eigenes Register im 
+          Bereich Details erhalten und nicht im Bereich 
+          <literal>Eigenschaftswerte</literal>.
+        </para>
 
-        <para><xref linkend="fig.ref.details_documentation"/> shows a 
-        typical documentation tab for a model element in ArgoUML.</para>
+        <para>
+          <xref linkend="fig.ref.details_documentation"/> zeigt ein typisches 
+          Register Dokumentation für ein Modellelement in ArgoUML.
+        </para>
 
         <figure id="fig.ref.details_documentation">
 
-          <title>A typical <literal>Documentation</literal> tab on the 
-          details pane</title>
+          <title>Ein typisches Register <literal>Dokumentation</literal> im 
+          Bereich Details</title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/details_documentation.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+            <mediaobject>
+              <imageobject>
+          		<imagedata align="center"
+           				   fileref="images/reference/details_documentation.png"
+           				   format="PNG"/>
+           	  </imageobject>
+           	</mediaobject>
+          </screenshot>
         </figure>
 
-        <para>As you can see, many more fields have been added 
-        to the Documentation field alone. The other fields 
-        similarly store their information under tagged values:
-        <literal>author</literal>,
-        <literal>version</literal>, 
-        <literal>since</literal>, 
-        <literal>deprecated</literal>, 
-        <literal>see</literal>.
+        <para>
+          Wie Sie sehen können, wurden sehr viel mehr Felder dem 
+          Dokumentationsfeld hinzugefügt. Die anderen Felder speichern Ihre 
+          Informationen gewöhnlich unter Eigenschaftswerte: 
+          <literal>Autor</literal>,
+          <literal>Version</literal>, 
+          <literal>Seit</literal>, 
+          <literal>Veraltet</literal>, 
+          <literal>Siehe</literal>.
         </para>
         
-        <para>The fields on this tab are the same for all 
-        model elements.</para>
+        <para>
+          Die Felder in diesem Register sind für alle Modellelemente die 
+          gleichen.
+        </para>
 
-        <para>Since UML comments are a kind of documentation, 
-        they are also shown on this tab, with name and body.</para>
+        <para>
+          Da UML-Kommentare eine Art von Dokumentation sind, werden sie auch in 
+          diesem Register mit ihrem Namen und Erläuterungen angezeigt.
+        </para>
 
         <itemizedlist>
 
           <listitem>
 
-            <para><literal>Author:</literal> A text box for the author 
-            of the documentation.</para>
+            <para>
+              <literal>Autor:</literal> Ein Textfeld für den Autor der 
+              Dokumentation.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><literal>Version:</literal> A text box for the 
-            version of the documentation.</para>
+            <para>
+              <literal>Version:</literal> Ein Textfeld für die Version dieser 
+              Dokumentation. 
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><literal>Since:</literal> A text box to show how long 
-            the documentation has been valid.</para>
+            <para>
+              <literal>Seit:</literal> Ein Textfeld, das angibt, seit wann die 
+              Dokumentation gültig ist. 
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><literal>Deprecated:</literal> A check box to 
-            indicate whether this model element is deprecated (i.e. planned 
-            for removal in future versions of the design model).</para>
+            <para>
+              <literal>Veraltet:</literal> Ein Markierfeld, das angibt, ob das 
+              Modellelement veraltet ist (z.B. soll in künftigen Versionen des 
+              Designmodelles entfernt werden).
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><literal>See:</literal> Pointers to documentation 
-            outside the system.</para>
+            <para>
+              <literal>Siehe:</literal> Referenzen auf Dokumentationen ausserhalb 
+              dieses Systems. 
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><literal>Documentation:</literal> Literal text of any 
-            documentation.</para>
+            <para>
+              <literal>Dokumentation:</literal> Der Text einer Dokumentation.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><literal>Comment Name:</literal> 
-            The names of all comments attached to the modelelement.
+            <para>
+              <literal>Kommentarbezeichnung:</literal> Die Namen aller 
+              Kommentare, die diesem Modellelement hinzugefügt wurden.
             </para>
 
           </listitem>
           
           <listitem>
 
-            <para><literal>Body:</literal> 
-            The bodies of all comments attached to this modelelement.
+            <para>
+              <literal>Kommentar:</literal> 
+              Die diesem Modellelement hinzugefügten Kommentare.
             </para>
 
           </listitem>
@@ -19342,10 +19495,12 @@
 
         <tip>
 
-          <para>ArgoUML is not primarily a documentation system. For 
-          model elements that require heavy documentation, notably use 
-          cases, the use of the <literal>See:</literal> field to point 
-          to external documents is more practical.</para>
+          <para>
+            ArgoUML ist primär kein Dokumentationssystem. Bei Modellelementen, 
+            die eine umfangreiche Dokumentation erfordern, zum Beispiel 
+            Anwendungsfälle, verwenden Sie das Feld <literal>Siehe:</literal>, 
+            um auf externe Dokumente zu verweisen. Dies ist praktischer.
+          </para>
 
         </tip>
 
@@ -19353,122 +19508,150 @@
 
       <sect1>
 
-        <title>Presentation Tab</title>
+        <title>Das Register Darstellung</title>
 
-        <para>This tab provides some limited control over the graphical 
-        representation of model elements in the diagram in the editing 
-        pane.</para>
+        <para>
+          Dieses Register enthält eine begrenzte Steuerung der grafischen 
+          Darstellung von Modellelementen im Diagramm des Editierbereiches. 
+        </para>
 
-        <para>Model elements that do not have any specific direct graphical 
-        representation on the screen (beyond their textual description) 
-        do not have style tabs of their own. For example the style 
-        sheet of an operation on a class will be downlighted.</para>
+        <para>
+          Modellelemente, die keine spezifische grafische Repräsentation auf 
+          dem Bildschirm (neben ihrer Textbeschreibung) haben, weisen keine 
+          Register Darstellung auf. Die Darstellungs-Tabelle einer Operation 
+          einer Klasse, zum Beispiel, wird deaktiviert.  
+        </para>
 
-        <para>Style sheets vary a little from model element to model element, but 
-        <xref linkend="fig.ref.details_style"/> shows a typical style 
-        tab for a model element in ArgoUML (in this case a class).</para>
+        <para>
+          Darstellungstabellen variieren etwas von Modellelement zu Modellelement, 
+          aber <xref linkend="fig.ref.details_style"/> zeigt ein typisches 
+          Register Darstellung für ein Modellelement in ArgoUML (in diesem Fall 
+          eine Klasse).
+        </para>
 
         <figure id="fig.ref.details_style">
 
-          <title>A typical <literal>Presentation</literal> tab on the 
-          details pane</title>
+          <title>
+            Eine typisches Register <literal>Darstellung</literal> im 
+            Bereich Details
+          </title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/details_style.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+            <mediaobject>
+              <imageobject>
+          		<imagedata align="center"
+           				   fileref="images/reference/details_style.png"
+           				   format="PNG"/>
+           	  </imageobject>
+           	</mediaobject>
+          </screenshot>
         </figure>
 
-        <para>There may be further fields in some cases, e.g. for a 
-        package, but most fields are common to many model elements.</para>
+        <para>
+          In einigen Fällen können weitere Felder vorhanden sein, z.B. für ein 
+          Paket. Aber die meisten Felder sind den Modellelementen gemeinsam.
+        </para>
 
         <itemizedlist>
 
           <listitem>
-            <para><literal>Path</literal>
-              This checkbox allow to display or hide the path  
-              in front of the name of the modelelement. 
-              It is shown in UML notation with <literal>::</literal>
-              seperators. E.g. the ArgoUML Main class would be shown as: 
+            <para>
+              <literal>Pfad</literal>
+              Dieses Markierfeld erlaubt es, den Pfad vor dem Namen des 
+              Modellelementes auszugeben oder nicht. Er wird in der UML-Notation 
+              durch <literal>::</literal>-Trenner dargestellt. Zum Beispiel würde 
+              die Klasse Main von ArgoUML wie folgt angezeigt:
               <literal>org::argouml::application::Main</literal>.
             </para>
           </listitem>
 
           <listitem>
-            <para><literal>Attributes</literal>
-            This checkbox allows to hide or show the attributes compartment of 
-            a class.
+            <para>
+              <literal>Attribute</literal>
+              Dieses Markierfeld erlaubt es, den Attributbereich einer Klasse 
+              ein- und auszublenden.
             </para>
           </listitem>
 
           <listitem>
-            <para><literal>Operation</literal>
-            This checkbox allows to hide or show the operations compartment of 
-            a class or interface.
+            <para>
+              <literal>Operation</literal>
+              Dieses Markierfeld erlaubt es, den Operationsbereich einer Klasse 
+              oder einer Schnittstelle ein- und auszublenden.
             </para>
           </listitem>
 
           <listitem>
-            <para><literal>Stereotype</literal>
-            This checkbox allows to reveal or hide the stereotypes of 
-            a package, shown above the name.
+            <para>
+              <literal>Stereotyp</literal>
+              Dieses Markierfeld erlaubt es, die über dem Namen dargestellten 
+              Stereotypen eines Paketes ein- und auszublenden.
             </para>
           </listitem>
 
           <listitem>
-            <para><literal>Visibility</literal>
-            This checkbox allows to hide the visibility of 
-            a package. 
-            The visibility is shown in UML notation as +, -, # or ~.
+            <para>
+              <literal>Sichtbarkeit</literal>
+              Dieses Markierfeld erlaubt es, die Sichtbarkeit eines Paketes ein- 
+              und auszublenden.
+              Die Sichtbarkeit wird in der UML-Notation als  +, -, # oder ~ 
+              dargestellt.
             </para>
           </listitem>
 
           <listitem>
-            <para><literal>Extension Points</literal>
-            This checkbox allows to reveal or hide 
-            the extensions points compartment of 
-            a usecase.
+            <para>
+              <literal>Erweiterungspunkte</literal>
+              Das Markierfeld erlaubt es Ihnen, die Erweiterungspunkte von 
+              Anwendungsfällen ein- und auszublenden.
             </para>
           </listitem>
 
           <listitem>
-            <para><literal>Bounds:</literal> This defines the corners 
-            of the bounding box for a 2D model element. It comprises four 
-            numbers separated by commas. These four numbers are 
-            respectively: i) the X coordinate of the upper left corner 
-            of the box; ii) the Y coordinate of the upper left corner 
-            of the box; iii) the width of the box; and iv) the height 
-            of the box. All units are pixels on the editing pane.</para>
+            <para>
+              <literal>Begrenzung:</literal> Sie definiert die Ecken des 
+              2D-Modellelementes. Es besteht aus vier, durch Kommas separierte 
+              Nummern. Diese vier Nummern sind: i) die X-Koordinate der linken 
+              oberen Ecke; ii) die Y-Koordinate der linken oberen Ecke; iii) 
+              die Breite des Feldes und iv) die Höhe des Feldes. Alle Einheiten 
+              sind Pixel im Editierbereiches. 
+            </para>
 
-            <para>This field has no effect on 1D model elements that link 
-            other model elements (associations, generalizations etc), since 
-            their position is constrained by their connectedness. In 
-            this case the field is downlighted.</para>
-
-          </listitem>
-
-          <listitem>
-
-            <para><literal>Fill:</literal> This drop-down selector 
-            specifies the fill color for 2D model elements. It is not 
-            present for line model elements. Selecting <literal>No 
-            Fill</literal> makes the model element transparant. Selecting 
-            <literal>Custom</literal> allows to create other colors 
-            then the ones listed. It causes the color selector dialog 
-            box to appear, see 
-            <xref linkend="fig.ref.details_style_colorpicker1"/>.</para>
+            <para>
+              Dieses Feld hat bei 1D-Modellelementen, die andere Modellelemente 
+              verbinden (Assoziationen, Vererbungen, usw.) keine Auswirkung, da 
+              deren Position durch ihre Verbindungspartner bestimmt wird. In 
+              diesem Fall ist dieses Feld deaktiviert.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><literal>Line:</literal> This drop-down selector 
-            specifies the line color for model elements. Selecting <literal>
-            No Fill</literal> makes the model element transparant. Selecting 
-            <literal>Custom</literal> allows to create other colors 
-            then the ones listed. It causes the color selector dialog 
-            box to appear, see 
-            <xref linkend="fig.ref.details_style_colorpicker1"/>.</para>
+            <para>
+              <literal>Füllfarbe:</literal> Diese DropDown-Auswahl bestimmt die 
+              Füllfarbe der 2D-Modellelemente. Sie ist bei Linien-Modellelementen 
+              nicht vorhanden. Die Auswahl <literal>Keine Füllfarbe</literal> 
+              macht das Modellelement transparent. Die Auswahl <literal>
+              Benutzerdefiniert</literal> erlaubt es andere Farben auszuwählen, 
+              als die derzeit aufgelisteten. Die Auswahl dieses Eintrages öffnet 
+              den Farbauswahl-Dialog, siehe 
+              <xref linkend="fig.ref.details_style_colorpicker1"/>.
+            </para>
+
+          </listitem>
+
+          <listitem>
+
+            <para>
+              <literal>Linienfarbe:</literal> Diese DropDown-Auswahl bestimmt die 
+              Linienfarbe der Modellelemente. Die Auswahl <literal>Keine 
+              Linienfarbe</literal> macht das Modellelement transparent. Die 
+              Auswahl <literal>Benutzerdefiniert</literal> erlaubt es andere 
+              Farben auszuwählen, als die derzeit aufgelisteten. Die Auswahl 
+              dieses Eintrages öffnet den Farbauswahl-Dialog, siehe
+              <xref linkend="fig.ref.details_style_colorpicker1"/>.
+            </para>
 
           </listitem>
 
@@ -19476,220 +19659,291 @@
 
         <figure id="fig.ref.details_style_colorpicker1">
 
-          <title>The <literal>Custom Fill/Line Color</literal> dialog 
-          box</title>
+          <title>
+            Der Dialog <literal>Benutzerdefinierte Füll-/Linienfarbe</literal>
+          </title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/details_style_colorpicker1.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+            <mediaobject>
+              <imageobject>
+          		<imagedata align="center"
+           				   fileref="images/reference/details_style_colorpicker1.png"
+           				   format="PNG"/>
+           		</imageobject>
+           	  </mediaobject>
+           	</screenshot>
         </figure>
 
         <figure id="fig.ref.details_style_colorpicker2">
 
-          <title>The <literal>Custom Fill/Line Color</literal> dialog 
-          box</title>
+          <title>
+            Der Dialog <literal>Benutzerdefinierte Füll-/Linienfarbe</literal> 
+          </title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/details_style_colorpicker2.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+            <mediaobject>
+              <imageobject>
+          		<imagedata align="center"
+           				   fileref="images/reference/details_style_colorpicker2.png"
+           				   format="PNG"/>
+           	  </imageobject>
+           	</mediaobject>
+          </screenshot>
         </figure>
 
         <figure id="fig.ref.details_style_colorpicker3">
 
-          <title>The <literal>Custom Fill/Line Color</literal> dialog 
-          box</title>
+          <title>
+            Der Dialog <literal>Benutzerdefinierte Füll-/Linienfarbe</literal> 
+          </title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/details_style_colorpicker3.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+          	<mediaobject>
+          	  <imageobject>
+          		<imagedata align="center"
+           				   fileref="images/reference/details_style_colorpicker3.png"
+           				   format="PNG"/>
+           	  </imageobject>
+           	</mediaobject>
+          </screenshot>
         </figure>
 
       </sect1>
 
       <sect1>
 
-        <title>Source Tab</title>
+        <title>Das Register Quellcode</title>
 
-        <para>This tab shows the source code that 
-        will be generated for this model element, in the selected language. 
-        ArgoUML generates the code e.g. for classes and interfaces. 
-        The code shown here, may be saved in the indicated files 
-        with the aid of the functions in the Generation menu.
+        <para>
+          Dieses Register zeigt den Quellcode, der für dieses Modellelement in 
+          der ausgewählten Sprache generiert wurde. ArgoUML generiert den Code 
+          zum Beispiel für Klassen und Schnittstellen. Der hier gezeigte Code 
+          kann in den angezeigten Dateien mit Hilfe der Funktionen im Menü 
+          Generieren gespeichert werden. 
         </para>
 
         <figure id="fig.ref.details_source">
 
-          <title>The Source Tab of a class.</title>
+          <title>Das Register Quellcode einer Klasse.</title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/details_source.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+            <mediaobject>
+              <imageobject>
+          		<imagedata align="center"
+           				   fileref="images/reference/details_source.png"
+           				   format="PNG"/>
+           	  </imageobject>
+           	</mediaobject>
+          </screenshot>
         </figure>
         
-        <para>Any code you add will be lost - that 
-        is not the intention of ArgoUML - use an IDE instead.
+        <para>
+          Jeder von Ihnen hinzugefügte Code geht verloren - das ist nicht die 
+          Absicht von ArgoUML - verwenden Sie stattdessen eine IDE.
         </para>
         
-        <para>The dropdown at the right allows selection of the output file. 
-        This function is not very useful for languages 
-        that generate all code for a class within one file,
-        but serves its purpose for e.g. C++, where a .h and .cpp file
-        are generated. See the figure below.</para>
+        <para>
+          Das rechte Auswahlfeld erlaubt die Auswahl der Ausgabedatei. Diese 
+          Funktion ist nicht sehr sinnvoll für Sprachen, die den gesamten Code 
+          einer Klasse in einer Datei speichern, aber sie erfüllt seinen Zweck 
+          für z.B. C++, wo eine .h und .cpp-Datei generiert wird. Sie 
+          nachfolgendes Bild.
+        </para>
          
         <figure id="fig.ref.details_source_cpp">
 
-          <title>A C++ example.</title>
+          <title>Ein C++ Beispiel.</title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/details_source_cpp.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+            <mediaobject>
+              <imageobject>
+                <imagedata align="center"
+           				   fileref="images/reference/details_source_cpp.png"
+           				   format="PNG"/>
+           		</imageobject>
+           	  </mediaobject>
+           	</screenshot>
         </figure>
         
       </sect1>
 
       <sect1 id="s1.ref.details_constraints">
 
-        <title>Constraints Tab</title>
+        <title>Das Register Randbedingungen</title>
 
-        <para>Constraints are one of the extension mechanisms provided 
-        for UML. ArgoUML is equipped with a powerful constraint editor 
-        based on the <emphasis>Object Constraint Language 
-        (OCL)</emphasis> defined in the UML&nbsp;1.4 standard.</para>
+        <para>
+          Randbedingungen sind einer der in UML enthaltenen 
+          Erweiterungsmechanismen. ArgoUML ist mit einem leistungsfähigen 
+          Randbedingungseditor ausgerüstet, der auf der im UML&nbsp;1.4-Standard 
+          definierten <emphasis>Objekt Randbedingungssprache (Object Constraint 
+          Language; OCL)</emphasis> basiert.
+        </para>
 
         <caution>
 
-          <para>The OCL editor implementation for ArgoUML V0.24 
-          doesn&apos;t support OCL constraints for elements other than 
-          Classes and Features.</para>
+          <para>
+            Die OCL-Editorimplementierung für ArgoUML V0.24 unterstützt keine 
+            OCL-Randbedingungen außer Klassen und Eigenschaften.
+          </para>
 
-          <para>This is something of a general restriction of OCL. 
-          Although the UML specification claims that there may be a 
-          constraint for every model element, the OCL specification 
-          only defines classes/interfaces and operations as allowable 
-          contexts.</para>
+          <para>
+            Dies ist machmal eine sehr starke Einschränkung von OCL. Obwohl die 
+            UML-Spezifikation bestimmt, dass es für jedes Modellelement 
+            Randbedingungen geben kann, spezifiziert die OCL-Spezifikation diese 
+            nur für Klassen/Schnittstellen und Operationen im zulässigen Kontext.
+          </para>
 
-          <para>It is not before OCL 2.0 that a more general definition 
-          of allowable contexts is introduced. The key issue is that 
-          for each context definition you need to define what is the 
-          contextualClassifier, i.e., the classifier that will be 
-          associated with the self keyword. The creators of the OCL 
-          specification claim that this is not an issue for the OCL 
-          specification, but rather for UML or some integration task 
-          force. Conversely, it seems that the UML specification people 
-          seem to expect this to be defined in the OCL specification 
-          (which is why we did a first step in that direction in OCL 
-          2.0).</para>
+          <para>
+            Vor OCL 2.0 wird keine generellere Definition von erlaubten Kontexten 
+            eingeführt. Der Schlüssel ist, dass Sie für jede benötigte 
+            Kontextdefinition einen kontextspezifischen Klassifizierer definieren 
+            müssen. Zum Beispiel einen Klassifizierer, der mit dem gleichen 
+            Schlüsselwort verknüpft wird. Die Ersteller der OCL-Spezifikation 
+            führen aus, dass dies kein Fehler der OCL-Spezifikation ist, aber 
+            selbst für UML einige Integrationsschritte erfordert. Es sieht so 
+            aus, das die Personen, die UML spezifizierten dachten, das dies in 
+            OCL spezifiziert wird (aus diesem Grund tun wir einen ersten Schritt 
+            in Richtung OCL 2.0). 
+          </para>
 
-          <para>So, to cut a long story short, it appeared that the 
-          simplest solution for ArgoUML at the moment would be to 
-          enable the OCL property panel only for those model elements 
-          for which there actually exists a definition of the 
-          contextualClassifier in OCL 1.4. These are (s. above) 
-          Class/Interface and Feature.</para>
+          <para>
+            Um die Geschichte abzukürzen, scheint es so, dass es im Moment die 
+            einfachste Lösung für ArgoUML ist, den OCL-Eigenschaftsbereich nur 
+            für solche Modellelemente freizugeben, für die es aktuell eine 
+            Definition der kontextsensitiven Klassifizierer in der OCL 1.4 gibt. 
+            Dies sind (siehe oben) Klassen/Schnittstellen und Eigenschaften.
+          </para>
 
         </caution>
 
-        <para>The standard pre-defines a small number of constraints 
-        (for example the <literal>xor</literal> constraint over a set 
-        of associations indicating that only one may be manifest for 
-        any particular instance).</para>
+        <para>
+          Der Standard definierte eine kleine Anzahl von Randbedingungen vor (
+          zum Beispiel die Bedingung <literal>xor</literal> über einen Satz von 
+          Assoziationen, was anzeigt, dass nur einer in einer bestimmten Instanz 
+          bekannt ist).
+        </para>
 
-        <para>The standard also envisages a number of circumstances 
-        where general purpose constraints may be useful:</para>
+        <para>
+          Der Standard hat auch eine Anzahl von Umständen im Auge, in denen 
+          generelle Randbedingungen hilfreich sein können:
+        </para>
 
         <itemizedlist>
 
           <listitem>
 
-            <para>To specify invariants on classes and types in the 
-            class model;</para>
+            <para>
+              Um zu kennzeichenen, dass sich Klassen und Typen im Klassenmodell 
+              nicht ändern (Invarianz);
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para>To specify type invariants for stereotypes;</para>
+            <para>
+              Um zu kennzeichnen, dass sich Typen von Stereotypen nicht 
+              ändern (Invarianz);
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para>To describe pre-conditions and post-conditions on operations 
-            and methods;</para>
+            <para>
+              Um Vor- und Nachbedingungen in Operationen und Methoden 
+              zu beschreiben;
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para>To describe guards;</para>
+            <para>Um Wächter zu beschreiben;</para>
 
           </listitem>
 
           <listitem>
 
-            <para>As a navigation language; and</para>
+            <para>Als Sprachnavigation; und</para>
 
           </listitem>
 
           <listitem>
 
-            <para>To specify constraints on operations.</para>
+            <para>um Bedingungen in Operationen zu spezifizieren.</para>
 
           </listitem>
 
         </itemizedlist>
 
-        <para><xref linkend="fig.ref.details_constraints"/> shows a 
-        typical constraint tab for a model element in ArgoUML (in this case 
-        a class).</para>
+        <para>
+          <xref linkend="fig.ref.details_constraints"/> zeigt ein typisches 
+          Register Randbedingungen für ein Modellelement in ArgoUML (in diesem 
+          Fall eine Klasse). 
+        </para>
 
         <figure id="fig.ref.details_constraints">
 
-          <title>A typical <literal>Constraints</literal> tab on the 
-          details pane</title>
+          <title>
+            Ein typisches Register <literal>Randbedingungen</literal> im 
+            Bereich Details
+          </title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/details_constraints.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+            <mediaobject>
+              <imageobject>
+          		<imagedata align="center"
+           				   fileref="images/reference/details_constraints.png"
+           				   format="PNG"/>
+           	  </imageobject>
+           	</mediaobject>
+          </screenshot>
         </figure>
 
-        <para>Along the top of the tab are a series of icons.</para>
+        <para>
+          Im oberen Bereich des Registers befinden sich eine Reihe von Symbolen.
+		</para>
 
         <itemizedlist>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/new_constraint.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>New Constraint</literal>. This creates a new 
-            constraint and launches the constraint editor in the 
-            <literal>Constraints tab</literal> for that new constraint 
-            (see <xref linkend="s2.ref.details_constraint_editor"/>). 
-            The new constraint is created with a context declaration 
-            for the currently selected model element.</para>
+            <para>
+              <guiicon>
+                <inlinemediaobject>
+                  <imageobject>
+                    <imagedata align="center"
+             				   fileref="images/icons/new_constraint.gif"
+             				   format="GIF"/>
+             	  </imageobject>
+             	</inlinemediaobject>
+              </guiicon> 
+              <literal>Neue Randbedingung</literal>. Erzeugt eine neue 
+              Randbedingung und startet den Bedingungseditor im <literal>
+              Register Randbedingung</literal> für diese neue Randbedingung (
+              siehe <xref linkend="s2.ref.details_constraint_editor"/>).
+              Die neue Randbedingung wird mit einer Kontextdeklaration für das 
+              aktuell markierte Modellelement erstellt. 
+            </para>
 
             <warning>
 
-              <para>It seems logical, that when a new constraint is 
-              created, it needs to be edited. But ArgoUML V0.24 fails 
-              to start the OCL editor upon creation; you have to do 
-              this by primo selecting the new constraint first, secundo 
-              rename it, and tertio press the <literal>Edit 
-              Constraint</literal> button. It is essental for 
-              successfully creating a constraint to follow these 4 
-              steps accurately: create, select, rename, edit. The step 
-              to rename is necessary, because the validity check will 
-              refuse the constraint if its name differs from the name 
-              mentioned in the constraint text. For the same reason, 
-              renaming a constraint afterwards is impossible.</para>
+              <para>
+                Es scheint logisch, dass eine neue erstellte Randbedingung 
+                editiert werden muss. Aber ArgoUML V0.24 läuft beim Starten des 
+                OCL-Editors auf einen Fehler; sie müssen dies wie folgt tun: 
+                Erstens: die neue Randbedingung zuerst markieren, Zweitens: 
+                diese umbenennen und Drittens: die Schaltfläche <literal>
+                Bearbeiten Randbedingung</literal> drücken. Es ist wesentlich 
+                für das erfolgreiche Erzeugen einer Randbedingung diesen vier 
+                Schritt akkurat zu folgen: erzeugen, markieren, umbenennen und 
+                editieren. Der Schritt des Umbenennens ist notwendig, weil die 
+                Gültigkeitsprüfung diese Randbedingung ablehnt, weil ihr Name 
+                von dem im Randbedingungstext benannten Namen abweicht. Aus dem 
+                gleichen Grund ist eine spätere Umbenennung einer Bedingung 
+                nicht möglich. 
+              </para>
 
             </warning>
 
@@ -19697,19 +19951,27 @@
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/delete_constraint.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>Delete Constraint</literal>. The constraint 
-            currently selected in the <literal>
-            Constraint Name</literal> box (see below) is deleted.</para>
+            <para>
+              <guiicon>
+                <inlinemediaobject>
+                  <imageobject>
+             		<imagedata align="center"
+             				   fileref="images/icons/delete_constraint.gif"
+             				   format="GIF"/>
+             	  </imageobject>
+             	</inlinemediaobject>
+              </guiicon> 
+              <literal>Bedingung löschen</literal>. Die aktuell im Feld 
+              <literal>Name der Bedingung</literal> markierte Bedingung (siehe 
+              unten) wird gelöscht. 
+            </para>
 
             <caution>
 
-              <para>In V0.24 of ArgoUML this button is not downlighted 
-              when it is not functional, i.e. when no constraint is 
-              selected.</para>
+              <para>
+                In der V0.24 von ArgoUML wird diese Schaltfläche nicht deaktiviert, 
+                wenn sie inaktiv ist, z.B., wenn keine Bedingung markiert ist.
+              </para>
 
             </caution>
 
@@ -19717,21 +19979,29 @@
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/edit_constraint.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>Edit Constraint</literal>. This launches the 
-            constraint editor in the <literal>Constraints</literal> tab 
-            (see <xref linkend="s2.ref.details_constraint_editor"/>). 
-            The editor is invoked on the constraint currently selected 
-            in the <literal>Constraint Name</literal> box.</para>
+            <para>
+              <guiicon>
+                <inlinemediaobject>
+                  <imageobject>
+            		<imagedata align="center"
+             				   fileref="images/icons/edit_constraint.gif"
+             				   format="GIF"/>
+             	  </imageobject>
+             	</inlinemediaobject>
+               </guiicon> 
+              <literal>Bedingung editieren</literal>. Dies startet den 
+              Bedingungseditor im Register <literal>Randbedingungen</literal> 
+              (siehe <xref linkend="s2.ref.details_constraint_editor"/>).
+              Der Editor wird mit dem aktuell im Feld <literal>Name Bedingung
+              </literal> markierten Randbedingung aufgerufen. 
+            </para>
 
             <caution>
 
-              <para>In V0.24 of ArgoUML this button is not downlighted 
-              when it is not functional, i.e. when no constraint is 
-              selected.</para>
+              <para>
+                In der V0.24 von ArgoUML wird diese Schaltfläche nicht deaktiviert, 
+                wenn sie inaktiv ist, z.B., wenn keine Bedingung markiert ist.
+              </para>
 
             </caution>
 
@@ -19739,38 +20009,52 @@
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/configure_constraints.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>Configure Constraint Editor</literal>. This a 
-            dialog to configure options in the constraint editor (see 
-            <xref linkend="fig.ref.details_constraints_dialog"/>
-            ).</para>
+            <para>
+              <guiicon>
+                <inlinemediaobject>
+                  <imageobject>
+            		<imagedata align="center"
+             				   fileref="images/icons/configure_constraints.gif"
+             				   format="GIF"/>
+             	  </imageobject>
+             	</inlinemediaobject>
+              </guiicon> 
+              <literal>Bedingungseditor konfigurieren</literal>. Dies ist ein 
+              Dialog, um die Optionen des Bedingungseditors zu konfigurieren 
+              (siehe <xref linkend="fig.ref.details_constraints_dialog"/>).
+            </para>
 
             <figure id="fig.ref.details_constraints_dialog">
 
-              <title>Dialog box for configuring constraints</title>
+              <title>Dialog zum Konfigurieren von Bedingungen</title>
 
-              <screenshot><mediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/reference/details_constraints_dialog.png"
-               format="PNG"/></imageobject></mediaobject></screenshot>
+              <screenshot>
+                <mediaobject>
+                  <imageobject>
+              		<imagedata align="center"
+               				   fileref="images/reference/details_constraints_dialog.png"
+               				   format="PNG"/>
+               	  </imageobject>
+               	</mediaobject>
+              </screenshot>
             </figure>
 
-            <para>The dialog box has a check box for the following 
-            option.</para>
+            <para>
+              Der Dialog hat ein Markierfeld für die folgende Option.
+            </para>
 
             <itemizedlist>
 
               <listitem>
 
-                <para><literal>Check type conformance of OCL 
+                <para>
+                  <literal>Check type conformance of OCL 
                 constraints</literal>. OCL is strictly typed. At the 
                 early stages of design it may be helpful to disable 
                 type checking, rather than follow through all the 
                 detailed specification needed to get type 
-                consistency.</para>
+                consistency.
+                </para>
 
               </listitem>
 
