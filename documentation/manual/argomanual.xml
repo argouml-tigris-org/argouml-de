@@ -20048,132 +20048,180 @@
               <listitem>
 
                 <para>
-                  <literal>Check type conformance of OCL 
-                constraints</literal>. OCL is strictly typed. At the 
-                early stages of design it may be helpful to disable 
-                type checking, rather than follow through all the 
-                detailed specification needed to get type 
-                consistency.
+                  <literal>Typkonformität von OCL-Bedingungen prüfen 
+                  </literal>. OCL ist strikt typisiert. Zu frühen 
+                  Designzeitpunkten kann es hilfreich sein, die Typprüfung 
+                  auszuschalten. Dies ist besser, als allen benötigten, 
+                  detaillierten Spezifikationen zu folgen, die erforderlich sind 
+                  um Typkonsistenz zu erreichen. 
                 </para>
 
               </listitem>
 
             </itemizedlist>
 
-            <para>At the bottom are two buttons, labeled <literal>
-            OK</literal> (to accept the option changes) and <literal>
-            Cancel</literal> (to discard the changes).</para>
+            <para>
+              Am unteren Ende befinden sich zwei Schaltflächen, die mit 
+              <literal>OK</literal> (um die Optionsänderungen zu akzeptieren) 
+              und <literal>Abbrechen</literal> (um die Änderungen rückgängig 
+              zu machen).
+            </para>
 
           </listitem>
 
         </itemizedlist>
 
-        <para>The main body of the constraints tab comprises two boxes, 
-        a smaller to the left and a larger one to the right. The two 
-        are separated by two small arrow buttons which control the size 
-        of the boxes.</para>
+        <para>
+          Der Rumpf des Registers Randbedingungen enthält zwei Felder, ein 
+          kleineres auf der linken Seite und ein grösseres auf der rechten Seite. 
+          Die beiden sind durch zwei kleine Pfeil-Schaltflächen getrennt, 
+          welche die Grösse der Felder steuern.
+        </para>
 
         <itemizedlist>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/constraints_left.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>Shrink Left</literal>. Button&nbsp;1 click on this icon 
-            shrinks the box on the left. Its effect may be reversed by 
-            use of the <literal>Shrink Right</literal> button (see 
-            below).</para>
+            <para>
+              <guiicon>
+                <inlinemediaobject>
+                  <imageobject>
+            	    <imagedata align="center"
+             				   fileref="images/icons/constraints_left.gif"
+             				   format="GIF"/>
+             	  </imageobject>
+             	</inlinemediaobject>
+              </guiicon> 
+              <literal>Linkes Feld verkleinern</literal>. Ein Taste&nbsp;1-Klick 
+              auf dieses Symbol verkleinert das linke Feld. Dieser 
+              Effekt kann durch die Schaltfläche <literal>Rechtes Feld 
+              verkleinern</literal> aufgehoben werden (siehe unten). 
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><guiicon><inlinemediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/icons/constraints_right.gif"
-             format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-            <literal>Shrink Right</literal>. Button&nbsp;1 click on this 
-            icon shrinks the box on the right. Its effect may be 
-            reversed by use of the <literal>Shrink Left</literal> 
-            button (see above).</para>
+            <para>
+              <guiicon>
+                <inlinemediaobject>
+                  <imageobject>
+            		<imagedata align="center"
+             				   fileref="images/icons/constraints_right.gif"
+             				   format="GIF"/>
+             	  </imageobject>
+             	</inlinemediaobject>
+              </guiicon> 
+              <literal>Rechtes Feld verkleinern</literal>. Ein Taste&nbsp;1-Klick 
+              auf dieses Symbol verkleinert das rechte Feld. Dieser 
+              Effekt kann durch die Schaltfläche <literal>Linkes Feld verkleinern
+              </literal> aufgehoben werden (siehe oben).
+			</para>
 
           </listitem>
 
         </itemizedlist>
 
-        <para>Finer control can be achieved by using button&nbsp;1 motion to 
-        drag the dividing bar to left and right.</para>
+        <para>
+          Eine feiner abgestimmte Steuerung kann durch eine Taste&nbsp;1-
+          Bewegung erfolgen, indem Sie die Trennungsleiste nach links und nach 
+          rechts verschieben.
+        </para>
 
-        <para>The box on the left is titled <literal>Constraint 
-        Name</literal> and lists all the constraints (if any) so far 
-        defined for the selected model element. A constraint may be selected 
-        by button&nbsp;1 click.</para>
+        <para>
+          Das linke Feld ist mit <literal>Name Bedingung</literal> bezeichnet 
+          und listet alle Bedingungen auf (wenn es welche gibt) so weit sie 
+          für das markierte Modellelement definiert wurden. Eine Bedingung kann 
+          durch einen Taste&nbsp;1-Klick markiert werden.
+        </para>
 
-        <para>The box on the right is labeled <literal>
-        Preview</literal> and contains the text of the constraint. This 
-        box only shows some contents if a constraint is selected. Where 
-        a constraint is too large for the box, a scroll bar is provided 
-        to the right.</para>
+        <para>
+          Das rechte Feld ist mit <literal>Vorschau</literal> bezeichnet und 
+          enthält den Text der Bedingung. Dieses Feld zeigt nur einen Inhalt an, 
+          wenn eine Bedingung markiert wurde. Ist eine Bedingung für das Feld 
+          zu groß, erscheint rechts eine Scrollleiste.
+        </para>
 
         <sect2 id="s2.ref.details_constraint_editor">
 
-          <title>The Constraint Editor</title>
+          <title>Der Bedingungs-Editor</title>
 
-          <para>This is invoked through the use of the <literal>
-          Edit Constraint</literal> button on the main <literal>
-          Constraints</literal> tab. The constraint editor takes up the 
-          whole tab (see 
-          <xref linkend="fig.ref.details_constraint_editor"/>).</para>
+          <para>
+            Dieser wird durch die Schaltfläche <literal>Editiere Bedingung
+            </literal> im Register <literal>Bedingungen</literal> aufgerufen. 
+            Der Bedingungseditor nimmt das ganze Register ein (siehe 
+            <xref linkend="fig.ref.details_constraint_editor"/>).
+          </para>
 
           <figure id="fig.ref.details_constraint_editor">
 
-            <title>Dialog box for configuring constraints</title>
+            <title>Dialog für das Konfigurieren der Bedingungen</title>
 
-            <screenshot><mediaobject><imageobject>
-            <imagedata align="center"
-             fileref="images/reference/details_constraint_editor.png"
-             format="PNG"/></imageobject></mediaobject></screenshot>
+            <screenshot>
+              <mediaobject>
+                <imageobject>
+            	  <imagedata align="center"
+             				 fileref="images/reference/details_constraint_editor.png"
+             				 format="PNG"/>
+             	</imageobject>
+              </mediaobject>
+            </screenshot>
           </figure>
 
-          <para>Along the top of the tab are a series of icons.</para>
+          <para>
+            Im oberen Bereich des Registers befinden sich eine Reihe von 
+            Symbolen.
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/cancel_edit_constraint.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Cancel Edit Constraint</literal>. This exits the 
-              constraint editor without saving any changes and returns 
-              to the main <literal>Constraints</literal> tab.</para>
+              <para>
+                <guiicon>
+                  <inlinemediaobject>
+                    <imageobject>
+              		  <imagedata align="center"
+               					 fileref="images/icons/cancel_edit_constraint.gif"
+               					 format="GIF"/>
+               		</imageobject>
+               	  </inlinemediaobject>
+               	</guiicon> 
+                <literal>Editieren abbrechen</literal>. Dies beendet den 
+                Bedingungseditor ohne die Änderungen abzuspeichern und kehrt 
+                zum Haupt-<literal>Bedingungen</literal>-Register zurück.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/check_constraint.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Check OCL Syntax</literal>. This button invokes 
-              a full syntax check of the OCL written in the editor. If 
-              the syntax is valid, the constraint is saved, and control 
-              returns to the main <literal>Constraints</literal> tab. 
-              If the syntax is not valid, a dialog box explains the 
-              problem.</para>
+              <para>
+                <guiicon>
+                  <inlinemediaobject>
+                    <imageobject>
+              		  <imagedata align="center"
+               					 fileref="images/icons/check_constraint.gif"
+               					 format="GIF"/>
+               		</imageobject>
+               	  </inlinemediaobject>
+               	</guiicon> 
+                <literal>Prüfe OCL-Syntax</literal>. Diese Schaltfläche ruft 
+                eine vollständige Syntaxprüfung der im Editor geschriebenen OCL 
+                auf. Ist die Syntax gültig, wird die Bedingung gespeichert und 
+                kehrt zum Haupt-<literal>Bedingungen</literal>-Register zurück. 
+                Wenn die Syntax ungültig ist, erläutert ein Dialogfenster das 
+                Problem. 
+              </para>
 
               <warning>
 
-                <para>Whether type checking is included should be 
-                configurable with the <literal>
-                Configure Constraint Editor</literal> button (see 
-                below). But ArgoUML V0.20 does always check, and 
-                refuses to accept any constraint with the slightest 
-                error.</para>
+                <para>
+                  Ob die Typprüfung eingebunden wird, sollte mit der Schaltfläche 
+                  <literal>Bedingungseditor konfigurieren</literal> einstellbar 
+                  sein (siehe unten). ArgoUML V0.20 prüft aber immer und lehnt 
+                  jede Bedingung mit dem kleinsten Fehler ab.
+                </para>
 
               </warning>
 
@@ -20181,112 +20229,138 @@
 
             <listitem>
 
-              <para><guiicon><inlinemediaobject><imageobject>
-              <imagedata align="center"
-               fileref="images/icons/configure_constraints.gif"
-               format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Configure Constraint Editor</literal>. This a 
-              dialog to configure options in the constraint editor. It 
-              is also available in the main <literal>
-              Constraints</literal> tab and is discussed in detail 
-              there (see <xref linkend="s1.ref.details_constraints"/>
-              ).</para>
+              <para>
+                <guiicon>
+                  <inlinemediaobject>
+                    <imageobject>
+              		  <imagedata align="center"
+               					 fileref="images/icons/configure_constraints.gif"
+               					 format="GIF"/>
+               		</imageobject>
+               	  </inlinemediaobject>
+               	</guiicon> 
+                <literal>Bedingungseditor konfigurieren</literal>. Dies ist 
+                ein Dialog, um die Optionen des Bedingungseditors zu 
+                konfigurieren. Er ist auch im Haupt-<literal>Bedingungen
+                </literal>-Register verfügbar und wird dort detailliert 
+                beschrieben (siehe <xref linkend="s1.ref.details_constraints"/>
+                ).
+              </para>
 
             </listitem>
 
           </itemizedlist>
 
-          <para>To the right of the toolbar is a check box labeled 
-          <literal>Syntax Assistant</literal> (unchecked by default), 
-          which will enable the syntax assistant in the constraint 
-          editor.</para>
+          <para>
+            Rechts von der Symbolleiste befindet sich ein Markierfeld, das als 
+            <literal>Syntaxunterstützung</literal> bezeichnet ist (standardmäßig 
+            nicht markiert). Dieses schaltet die Syntaxunterstützung im 
+            Bedingungseditor ein.
+          </para>
 
-          <para>If the syntax assistant is enabled, six drop down menus 
-          are provided in a row immediately below the toolbar. These 
-          provide standard templates for OCL that, when selected, will 
-          be inserted into the constraint being edited.</para>
+          <para>
+            Wenn die Syntaxunterstützung eingeschaltet ist, erscheinen sechs 
+            DropDown-Menüs in einer Zeile unmittelbar unterhalb der Symbolleiste. 
+            Diese enthalten Standardtemplates für OCL, die in die editierte 
+            Bedingung eingefügt werden, sofern sie ausgewählt werden.
+          </para>
 
-          <para>The syntax assistant can be made floating in a separate 
-          window by button&nbsp;1 motion on the small divider area to the 
-          left of the row of drop-down menus.</para>
+          <para>
+            Die Syntaxunterstützung kann in ein separates Fenster gebracht 
+            werden, indem man mit einer Taste&nbsp;1-Bewegung des kleinen, links 
+            befindlichen Trenners die Zeile mit den DropDown-Menüs aus dem 
+            Fenster bewegt. 
+          </para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para><literal>General</literal>. General OCL 
-              constructors. Entries: <literal>inv</literal> (inserts an 
-              invariant); <literal>pre</literal> (inserts a 
-              pre-condition); <literal>post</literal> (inserts a 
-              post-condition); <literal>self</literal> (inserts a 
-              self-reference); <literal>@pre</literal> (inserts a 
-              reference to a value at the start of an operation); and 
-              <literal>result</literal> (inserts a reference to a 
-              previous result).</para>
+              <para>
+                <literal>Allgemein</literal>. Allgemeine OCL 
+                Konstrukte. Einträge: <literal>inv</literal> (fügt eine Invarianz  
+                ein); <literal>pre</literal> (fügt eine Vorbedingung ein); 
+                <literal>post</literal> (fügt eine Nachbedingung ein); 
+                <literal>self</literal> (fügt eine Referenz auf sich selbst ein); 
+                <literal>@pre</literal> (fügt eine Referenz auf einen Wert beim 
+                Start einer Operation ein); und 
+                <literal>result</literal> (fügt eine Referenz auf ein 
+                vorhergehendes Ergebnis ein).
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Basic Operators</literal>. Relational 
-              operators and parentheses. Entries: <literal>=</literal>; 
-              <literal>&lt;&gt;</literal>; <literal>&lt;</literal>; 
-              <literal>&gt;</literal>; <literal>&lt;=</literal>; 
-              <literal>&gt;=</literal>; and <literal>
-              ()</literal>.</para>
+              <para>
+                <literal>Operatoren</literal>. Relationale Operatoren und  
+                Klammern. Einträge: <literal>=</literal>; 
+                <literal>&lt;&gt;</literal>; <literal>&lt;</literal>; 
+                <literal>&gt;</literal>; <literal>&lt;=</literal>; 
+                <literal>&gt;=</literal>; und <literal>
+                ()</literal>.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Numbers</literal>. Arithmetic operators 
-              and functions. Entries: <literal>+</literal>; <literal>
-              -</literal>; <literal>*</literal>; <literal>/</literal>; 
-              <literal>mod</literal>; <literal>div</literal>; <literal>
-              abs</literal>; <literal>max</literal>; <literal>
-              min</literal>; <literal>round</literal>; and <literal>
-              floor</literal>.</para>
+              <para>
+                <literal>Nummern</literal>. Arithmetische Operatoren und  
+                Funktionen. Einträge: <literal>+</literal>; <literal>
+                -</literal>; <literal>*</literal>; <literal>/</literal>; 
+                <literal>mod</literal>; <literal>div</literal>; <literal>
+                abs</literal>; <literal>max</literal>; <literal>
+                min</literal>; <literal>round</literal>; und <literal>
+                floor</literal>.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Strings</literal>. String functions. 
-              Entries: <literal>concat</literal>; <literal>
-              size</literal>; <literal>toLower</literal>; <literal>
-              toUpper</literal>; and <literal>
-              substring</literal>.</para>
+              <para>
+                <literal>Zeichenketten</literal>. Funktionen für Zeichenketten. 
+                Einträge: <literal>concat</literal>; <literal>
+                size</literal>; <literal>toLower</literal>; <literal>
+                toUpper</literal>; und <literal>
+                substring</literal>.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Booleans</literal>. Logical functions. 
-              Entries: <literal>or</literal>; <literal>and</literal>; 
-              <literal>xor</literal>; <literal>not</literal>; <literal>
-              implies</literal>; and <literal>
-              if then else</literal>.</para>
+              <para>
+                <literal>Booleans</literal>. Logische Funktionen. 
+                Einträge: <literal>or</literal>; <literal>and</literal>; 
+                <literal>xor</literal>; <literal>not</literal>; <literal>
+                implies</literal>; und <literal>
+                if then else</literal>.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para><literal>Collections</literal>. Operators and 
-              functions on collections&mdash;bags, sets and sequences. The 
-              large number of functions are organized into 
-              sub-groups.</para>
+              <para>
+                <literal>Sammlungen</literal>. Operatoren und 
+                Funktionen für Sammlungs&mdash;Mengen , Sätzen und Sequenzen. 
+                Die grosse Anzahl von Funktionen ist in Untergruppen unterteilt.
+              </para>
 
               <itemizedlist>
 
                 <listitem>
 
-                  <para><literal>General</literal>. Functions that 
-                  apply to all types of collection. Entries: <literal>
-                  Collection {}</literal> (insert a new collection); 
-                  <literal>Set {}</literal> (insert a a new set); 
-                  <literal>Bag {}</literal> (insert a new bag); 
-                  <literal>Sequence {}</literal> (insert a new 
-                  sequence); <literal>size</literal>; <literal>
+                  <para>
+                    <literal>Allgemein</literal>. Funktionen, die auf alle 
+                    Sammlungstypen anwendbar sind. Einträge: <literal>
+                    Collection {}</literal> (fügt eine neue Sammlung ein); 
+                  <literal>Set {}</literal> (fügt einen neuen Satz ein); 
+                  <literal>Bag {}</literal> (fügt eine neue Menge ein); 
+                  <literal>Sequence {}</literal> (fügt eine neue Sequenz ein); 
+                  <literal>size</literal>; <literal>
                   count</literal>; <literal>isEmpty</literal>; <literal>
                   notEmpty</literal>; <literal>includes</literal>; 
                   <literal>includesAll</literal>; <literal>
@@ -20296,27 +20370,32 @@
                   <literal>reject</literal>; <literal>union</literal>; 
                   <literal>intersection</literal>; <literal>
                   including</literal>; <literal>excluding</literal>; 
-                  and <literal>sum</literal>.</para>
+                  und <literal>sum</literal>.
+                  </para>
 
                 </listitem>
 
                 <listitem>
 
-                  <para><literal>Sets</literal>. Operators and 
-                  functions that apply only to sets. Entries: <literal>
-                  -</literal> (set difference); and <literal>
-                  symmetricDifference</literal>.</para>
+                  <para>
+                    <literal>Sätze</literal>. Operatoren und Funktionen die nur
+                    auf Sätze anwendbar sind. Einträge: <literal>
+                    -</literal> (set difference); und <literal>
+                    symmetricDifference</literal>.
+                  </para>
 
                 </listitem>
 
                 <listitem>
 
-                  <para><literal>Sequences</literal>. Functions that 
-                  apply to sequences. Entries: <literal>
-                  first</literal>; <literal>last</literal>; <literal>
-                  at</literal>; <literal>append</literal>; <literal>
-                  prepend</literal>; and <literal>
-                  subSequence</literal>.</para>
+                  <para>
+                    <literal>Sequenzen</literal>. Funktionen, die nur auf  
+                    Sequenzen anwendbar sind. Einträge: <literal>
+                    first</literal>; <literal>last</literal>; <literal>
+                    at</literal>; <literal>append</literal>; <literal>
+                    prepend</literal>; und <literal>
+                    subSequence</literal>.
+                  </para>
 
                 </listitem>
 
@@ -20326,15 +20405,18 @@
 
           </itemizedlist>
 
-          <para>The remainder of the tab comprises a writable text area 
-          containing the text to be edited. The mouse buttons have 
-          their standard behavior within an editable text area (see 
-          <xref linkend="s1.ref.mouse"/>).</para>
+          <para>
+            Der Rest des Registers beinhaltet ein beschreibbares Textfeld, 
+            welches den zu editierenden Text enthält. Die Maus-Schaltflächen 
+            weisen innerhalb des editierbaren Textfeldes ihr Standardverhalten 
+            auf (siehe <xref linkend="s1.ref.mouse"/>).
+          </para>
 
-          <para>In addition, cut, copy and paste operations may be 
-          invoked through the keyboard shortcuts <literal>
-          Strg-X</literal>, <literal>Strg-C</literal> and <literal>
-          Strg-V</literal> respectively.</para>
+          <para>
+            Zusätzlich können Ausschneiden-, Kopieren- und Einfügen-Operationen 
+            über die Tastenkürzel <literal>Strg-X</literal>, <literal>Strg-C
+            </literal> und <literal>Strg-V</literal> aufgerufen werden.
+          </para>
 
           <!--warning>
 
@@ -20352,44 +20434,50 @@
       </sect1>
       
       <sect1>
-      <title>Stereotype Tab</title>
+      <title>Das Register Stereotypen</title>
       
-      <para>This tab shows the available and applied stereotypes for the 
-      currently selected modelelement. 
-      It consists of 2 panels and 2 buttons.
-      The buttons allow to move the stereotypes
-      from one list to the other.
+      <para>
+        Dieses Register zeigt die verfügbaren und anwendbaren Stereotypen für 
+        das aktuell markierte Modellelement. Es besteht aus zwei Feldern und 
+        zwei Schaltflächen. Die Schaltflächen erlauben es, die Stereotypen von 
+        einer Liste in die andere zu bewegen.
       </para>
       
       <figure id="fig.ref.detpane_stereotype">
 
-          <title>An example of a stereotype tab for a class.</title>
+          <title>Ein Beispiel eines Registers Stereotypen für eine Klasse.</title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/detpane_stereotype.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+            <mediaobject>
+              <imageobject>
+               <imagedata align="center"
+           				  fileref="images/reference/detpane_stereotype.png"
+           				  format="PNG"/>
+           	  </imageobject>
+           	</mediaobject>
+          </screenshot>
         </figure>
         
-        <para>In the lists, between <literal>[]</literal> 
-        the baseclass of the stereotypes is shown.
-        E.g. in the figure above, 
-        the <literal>thread [Classifier]</literal> stereotype 
-        may be applied to all types of classifiers, 
-        such as Class, UseCase,...
+        <para>
+          In den Listen, zwischen <literal>[]</literal> wird die Basisklasse 
+          der Stereotypen angezeigt. Zum Beispiel in dem obigen Bild kann der 
+          Stereotyp <literal>thread[Classifier]</literal> auf alle Typen von 
+          Klassifizierern wie Klassen, Anwendungsfälle, ... angewendet werden.
         </para>
         
       </sect1>
 
       <sect1>
 
-        <title>Tagged Values Tab</title>
+        <title>Das Register Eigenschaftswerte</title>
 
-        <para>Tagged values are another extension mechanism provided by 
+        <para>
+        Tagged values are another extension mechanism provided by 
         UML. The user can define name-value pairs to be associated with 
         model elements which define properties of that model element. The names 
         are known as <emphasis>tags</emphasis>. UML pre-defines a 
-        number of tags that are useful for many of its model elements.</para>
+        number of tags that are useful for many of its model elements.
+        </para>
 
         <note>
 
