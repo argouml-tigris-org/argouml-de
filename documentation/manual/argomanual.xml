@@ -20472,97 +20472,114 @@
         <title>Das Register Eigenschaftswerte</title>
 
         <para>
-        Tagged values are another extension mechanism provided by 
-        UML. The user can define name-value pairs to be associated with 
-        model elements which define properties of that model element. The names 
-        are known as <emphasis>tags</emphasis>. UML pre-defines a 
-        number of tags that are useful for many of its model elements.
+          Eigenschaftswerte sind ein anderer Erweiterungsmechanismus der in UML
+          enthalten ist. Der Anwender kann Name-Wert-Paare definieren, die mit 
+          Modellelementen verknüpft sind und die Eigenschaften dieses Modelles 
+          definieren. Die Namen sind als <emphasis>tags</emphasis> bekannt. UML 
+          definiert eine Anzahl von Tags vor, die für viele seiner Modellelemente 
+          nützlich sind.
         </para>
 
         <note>
 
-          <para>The tag <literal>documentation</literal> is defined for 
-          the top UML metaclass, <literal>Element</literal> and is so 
-          available to all model elements. In ArgoUML documentation values 
-          are provided through the <literal>Documentation</literal> 
-          tab, rather than by using the <literal>
-          Tagged Values</literal> tab.</para>
+          <para>
+            Die Tag-<literal>Dokumentation</literal> ist für die Top-UML-
+            Metaklasse <literal>Element</literal> definiert und ist so in allen 
+            Modellelementen verfügbar. In ArgoUML sind Dokumentationswerte im 
+            Register <literal>Dokumentation</literal> enthalten, so dass diese 
+            nicht mit Hilfe der <literal>Eigenschaftswerte</literal> definiert 
+            werden müssen. 
+          </para>
 
         </note>
 
-        <para>The <literal>Tagged Values</literal> tab in ArgoUML 
-        comprises a two column table, with a combo-box on 
-        the left to select the tagdefinition
-        and an editable box on the right for 
-        the associated value. There is always at least one empty row 
-        available for any new tag. 
+        <para>
+          Das Register <literal>Eigenschaftswerte</literal> in ArgoUML umfasst 
+          eine zweispaltige Tabelle mit einem Kombinationsfeld links, um die Tag-
+          Definition in einem editierbaren Feld auszuwählen und rechts für 
+          den damit verknüpften Wert. Es gibt immer mindestens eine leere Zeile, 
+          die für einen neuen Tag bereit steht. 
         </para>
         
-        <para>The button at the top of this tab allows creation of a new 
-        tagdefinition. 
-        After clicking this button, go to the properties tab first
-        to set the name of the new tagdefinition. 
-        <!-- Why does ArgoUML not do this? TODO: Create issue. -->
+        <para>
+          Die Schaltfläche oben in diesem Register erlaubt das Erzeugen einer 
+          neuen Tag-Definition. Nach dem Anklicken dieser Schaltfläche gehen Sie 
+          zuerst in das Register Eigenschaften, um den Namen der neuen Tag-
+          Definition festzulegen.
+          <!-- Why does ArgoUML not do this? TODO: Create issue. -->
         </para>
 
-        <para>The mouse buttons have their 
-        standard behavior within the editable value area (see 
-        <xref linkend="s1.ref.mouse"/>).
-        In addition, 
-        when in the value field,
-        cut, copy and paste operations may be 
-        invoked through the keyboard shortcuts <literal>
-        Strg-X</literal>, <literal>Strg-C</literal> and <literal>
-        Strg-V</literal> respectively.</para>
+        <para>
+          die Maus-Schaltflächen weisen ihr Standardverhalten innerhalb des 
+          editierbaren Wertebereiches auf (siehe <xref linkend="s1.ref.mouse"/>).
+          Zusätzlich können Sie auch die Tastenkürzel <literal>
+          Strg-X</literal>, <literal>Strg-C</literal> und <literal>
+          Strg-V</literal> in einem Wertefeld aufrufen.
+        </para>
 
       </sect1>
 
       <sect1>
 
-        <title>Checklist Tab</title>
+        <title>Das Register Checkliste</title>
 
-        <para>Conducting design reviews and inspections is one of the 
-        most effective ways of detecting errors during software 
-        development. A design review typically consists of a small 
-        number of designers, implementers, or other project 
-        stakeholders holding a meeting to review a software development 
-        artifact. Many development organizations have developed 
-        checklists of common design problems for use in design review 
-        meetings. Recent research indicated that reviewers inspecting 
-        code without meeting, makeing use of these checklists, are just 
-        as effective as design review meetings.</para>
+        <para>
+          Das Durchführen von Designreviews und Inspektionen ist eine der 
+          effektivsten Arten Fehler während der Softwareentwicklung zu entdecken.
+          Ein Designreview besteht typischerweise aus einer kleinen Zahl von 
+          Designern, Implementierern oder anderen Projektbeteiligter, die eine  
+          Besprechung durchführen, um ein Stück Softwareentwicklung zu reviewen.
+          Viele Entwicklungsorganisationen haben Checklisten  von häufigen 
+          Designproblemen für solche Reviews entwickelt. Die Vergangenheit zeigt 
+          auf, dass die Reviewer den Code ohne Besprechung mit Hilfe dieser 
+          Checklisten überprüfen und dies genauso effektiv ist, wie die Design-
+          Reviews in Form einer Besprechung. 
+        </para>
 
-        <para>Hence, a checklist feature has been added to ArgoUML, 
-        that is much in the spirit of design review checklists. 
-        However, ArgoUML&apos;s checklists are integrated into the 
-        design tool user interface and the design task.</para>
+        <para>
+          Aus diesem Grund wurden ArgoUML Checklisten hinzugefügt, die den 
+          Gedanken von der Design-Review-Checkliste unterstützen. Jedoch, sind 
+          die ArgoUML-Checklisten in die Anwenderschnittstelle des Design-
+          werkzeuges und in die Designarbeit integriert. 
+        </para>
 
-        <para>A software designer using ArgoUML can see a review 
-        checklist for any design element. The <quote>Checklist</quote> 
-        tab presents a list of check-off items that is appropriate to 
-        the currently selected design element. For example, when a 
-        class is selected in a design diagram, the checklist tab shows 
-        items that prompt critical thinking about classes. See the 
-        figure below. Designers may check off items as they consider 
-        them. Checked items are kept in the list to show what has 
-        already been considered, while unchecked items prompt the 
-        designer to consider new design issues. ArgoUML supplies many 
-        different checklists with many possible items.</para>
+        <para>
+          Ein Softwaredesigner, der ArgoUML verwendet, kann für jedes 
+          Designelement eine Checkliste sehen. Das Register <quote>Checkliste
+          </quote> präsentiert eine Liste von unmarkierten Elementen, die zum 
+          aktuell markierten Designelement gehören. Zum Beispiel, wenn eine 
+          Klasse in einem Designdiagramm markiert ist, zeigt das Register 
+          Checklisten Elemente, die zum kritischen Nachdenken über diese Klasse 
+          anregen. Siehe nachfolgendes Bild. Designer können Elemente als 
+          betrachtet markieren. Markierte Elemente verbleiben in der Liste, um 
+          darzustellen, dass Sie bereits betrachtet wurden, während unmarkierte 
+          Elemente den Designer auffordern, über diesen neuen Designaspekt 
+          nachzudenken. ArgoUML unterstützt unterschiedliche Checklisten mit 
+          vielen möglichen Elementen.
+        </para>
 
         <figure id="fig.ref.detpane_checklist">
 
-          <title>An example of a checklist for a class.</title>
+          <title>Ein Beispiel für eine Checkliste einer Klasse.</title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/detpane_checklist.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+            <mediaobject>
+              <imageobject>
+          		<imagedata align="center"
+           				   fileref="images/reference/detpane_checklist.png"
+           				   format="PNG"/>
+           	  </imageobject>
+           	</mediaobject>
+          </screenshot>
         </figure>
 
         <caution>
 
-          <para>In the V0.22 release of ArgoUML, this tab is not 
-          completely implemented. E.g. the checks are not saved.</para>
+          <para>
+            In der Release V0.22 von ArgoUML ist dieses Register nicht 
+            vollständig implementiert. Zum Beispiel werden die Markierungen 
+            nicht gespeichert.
+          </para>
 
         </caution>
 
@@ -20572,107 +20589,147 @@
 
     <chapter id="ch.ref.todopane">
 
-      <title>The To-Do Pane</title>
+      <title>Der Bereich Zu-Bearbeiten</title>
 
       <sect1>
 
-        <title>Introduction</title>
+        <title>Einleitung</title>
 
-        <para><xref linkend="fig.ref.todo_pane"/> shows the ArgoUML 
-        window with the to-do pane highlighted.</para>
+        <para>
+          <xref linkend="fig.ref.todo_pane"/> zeigt das ArgoUML-Fenster mit dem 
+          hervorgehobenen Bereich Zu-Bearbeiten.
+        </para>
 
         <figure id="fig.ref.todo_pane">
 
-          <title>Overview of the to-do pane</title>
+          <title>Überblick über den Bereich Zu-Bearbeiten</title>
 
-          <screenshot><mediaobject><imageobject>
-          <imagedata align="center"
-           fileref="images/reference/todo_pane.png"
-           format="PNG"/></imageobject></mediaobject></screenshot>
+          <screenshot>
+            <mediaobject>
+              <imageobject>
+                <imagedata align="center"
+           				   fileref="images/reference/todo_pane.png"
+           				   format="PNG"/>
+           	  </imageobject>
+           	</mediaobject>
+          </screenshot>
         </figure>
 
-        <para>This pane provides access to the advice that comes from 
-        the critics processes running within ArgoUML.</para>
+        <para>
+          Dieser Bereich hat Zugriff auf die Ergebnisse des Kritikenprozesses, 
+          der innerhalb von ArgoUML abläuft.
+        </para>
 
-        <para>A selector box at the top allows a choice of how the data 
-        is presented, a button allows the display of the hierarchy to 
-        be changed, and there is an indicator of the number of to-do 
-        items identified.</para>
+        <para>
+          Ein Auswahlfeld oben erlaubt die Einstellung, wie die Daten dargestellt 
+          werden, eine Schaltfläche erlaubt es, die Darstellung der Hierarchie 
+          zu ändern und es gibt eine Anzeige, wie viele Zu-Bearbeiten-Elemente 
+          identifiziert wurden.
+        </para>
 
-        <para>More information on critics can be found in the 
-        discussion of the <literal>Critique</literal> menu (see 
-        <xref linkend="s1.ref.menu_critique"/>).</para>
+        <para>
+          Mehr Informationen über Kritiken können Sie in der Diskussion des 
+          <literal>Kritiken</literal>-Menüs (siehe 
+          <xref linkend="s1.ref.menu_critique"/>) finden.
+        </para>
 
       </sect1>
 
       <sect1 id="s1.ref.todo_mouse">
 
-        <title>Mouse Behavior in the To-Do Pane</title>
+        <title>Das Verhalten der Maus im Bereich Zu-Bearbeiten</title>
 
-        <para>Behavior of the mouse in general, and the naming of the 
-        buttons is covered in the chapter on the overall user interface 
-        (see <xref linkend="ch.ref.ui"/>).</para>
+        <para>
+          Das generelle Verhalten der Maus und die Benennung der Tasten ist im 
+          Kapitel über die gesamte Anwenderschnittstelle ausgeführt (siehe 
+          <xref linkend="ch.ref.ui"/>).
+        </para>
 
         <sect2>
 
-          <title>Button&nbsp;1 Click</title>
+          <title>Taste&nbsp;1-Klick</title>
 
-          <para>This action is generally used to select an item for 
-          subsequent operations.</para>
+          <para>
+            Diese Aktion wird generell dazu verwendet, ein Element für darauf 
+            folgende Operationen zu markieren.
+          </para>
 
-          <para>Within the hierarchical display, elements which have 
-          sub-hierarchies may be indicated by <guiicon>
-          <inlinemediaobject><imageobject><imagedata align="center"
-           fileref="images/icons/hierarchy_closed.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          when the hierarchy is hidden and <guiicon>
-          <inlinemediaobject><imageobject><imagedata align="center"
-           fileref="images/icons/hierarchy_open.gif"
-           format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-          when the hierarchy is open.</para>
+          <para>
+            Innerhalb der hierarchischen Anzeige, können Elemente mit Unter-
+            Hierarchien durch 
+            <guiicon>
+          	  <inlinemediaobject>
+          	    <imageobject>
+          	      <imagedata align="center"
+           					 fileref="images/icons/hierarchy_closed.gif"
+           					 format="GIF"/>
+           		</imageobject>
+           	  </inlinemediaobject>
+           	</guiicon>
+           	angezeigt werden, wenn die Hierarchie versteckt und  
+            <guiicon>
+          	  <inlinemediaobject>
+          	    <imageobject>
+          	      <imagedata align="center"
+           					 fileref="images/icons/hierarchy_open.gif"
+           					 format="GIF"/>
+           		</imageobject>
+           	  </inlinemediaobject>
+           	</guiicon>
+           	wenn die Hierarchie geöffnet ist. 
+          </para>
 
-          <para>When these icons are displayed, the display of the 
-          hierarchy is toggled by button&nbsp;1 click on these icons.</para>
+          <para>
+            Wenn diese Symbole angezeigt werden, wechselt die Anzeige der 
+            Hierarchie bei jedem Taste&nbsp;1-Klick auf diese Symbole.
+          </para>
 
-          <para>Button&nbsp;1 click over the headline of any to-do item will 
-          cause its details to be shown in the <literal>
-          To Do Item</literal> tab of the details pane. That tab is 
-          automatically selected if it is not currently visible.</para>
+          <para>
+            Ein Taste&nbsp;1-Klick über der Überschrift eines Zu-Bearbeiten-
+            Elementes wird dessen Details im Register <literal>Zu-Bearbeiten-
+            Element</literal> des Bereiches Details anzeigen. Dieses Register 
+            wird automatisch ausgewählt, wenn es aktuell nicht sichtbar ist.
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Button&nbsp;1 Double Click</title>
+          <title>Taste&nbsp;1-Doppelklick</title>
 
-          <para>When applied to the folder icon alongside a hierarchy 
-          category, this will cause the display of that hierarchy to be 
-          toggled.</para>
+          <para>
+            Wenn dies auf ein Verzeichnissymbol in der Hierarchie ausgeführt 
+            wird, wird sich die Darstellung dieser Hierarchie ändern.
+          </para>
 
-          <para>When applied to a headline, button&nbsp;1 double click will 
-          show the diagram for the model element to which the to-do item 
-          applies in the editing pane and select the model element on the 
-          diagram using an appropriate clarifier (the model element may be 
-          highlighted, underlined with a wavy line or surrounded by a 
-          colored box as appropriate).</para>
-
-        </sect2>
-
-        <sect2>
-
-          <title>Button&nbsp;2 Actions</title>
-
-          <para>There are no button&nbsp;2 functions in the to-do 
-          pane.</para>
+          <para>
+            Wenn dies auf eine Überschrift ausgeführt wird, wird der Taste&nbsp;
+            1-Doppelklick das Diagramm für das Modellelement anzeigen, zu dem 
+            das Zu-Bearbeiten-Element gehört und das Modellelement im Diagramm 
+            mit Hilfe des entsprechenden Elementes markieren (das Modellelement 
+            kann hervorgehoben, mit einer Wellenlinie unterstrichen oder mit 
+            einem farbigem Rahmen umgeben sein).
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Button&nbsp;2 Double Click</title>
+          <title>Taste&nbsp;2-Aktionen</title>
 
-          <para>There are no button&nbsp;2 functions in the to-do 
-          pane.</para>
+          <para>
+            Es gibt keine Taste&nbsp;2-Funktionen im Bereich Zu-Bearbeiten.
+          </para>
+
+        </sect2>
+
+        <sect2>
+
+          <title>Taste&nbsp;2-Doppelklick</title>
+
+          <para>
+            Es gibt keine Taste&nbsp;2-Funktionen im Bereich Zu-Bearbeiten.
+          </para>
 
         </sect2>
 
@@ -20680,63 +20737,73 @@
 
       <sect1>
 
-        <title>Presentation Selection</title>
+        <title>Auswahl der Darstellung</title>
 
-        <para>At the top of the pane is a drop-down selector 
-        controlling how the to-do items are presented. The to-do items 
-        may be presented in six different ways. This setting is not 
-        stored persistently, i.e. it is on its default vallue when 
-        ArgoUML is started.</para>
+        <para>
+          Oben im Bereich befindet sich ein Kombinationsfeld, was die Darstellung 
+          der Zu-Bearbeiten-Elemente steuert. Die Zu-Bearbeiten-Elemente können 
+          auf sechs unterschiedliche Arten dargestellt werden. Diese Einstellung 
+          wird nicht dauerhaft gespeichert. Zum Beispiel ist sie auf den 
+          Standardwert beim Start von ArgoUML eingestellt. 
+        </para>
 
         <itemizedlist>
 
           <listitem>
 
-            <para><literal>By Priority</literal>. This is the default 
-            setting. The to-do items are organized into three 
-            hierarchies by priority: <literal>High</literal>, <literal>
-            Medium</literal> and <literal>Low</literal>. The priority 
-            associated with the to-do items generated by a particular 
-            critic may be altered through the <literal>
-            Critique &gt; Browse Critics...</literal> menu (see 
-            <xref linkend="s2.ref.menu_browse_critics"/>).</para>
+            <para>
+              <literal>Nach Priorität</literal>. Dies ist die 
+              Standardeinstellung. Die Zu-Bearbeiten-Elemente werden nach 
+              Priorität in drei Hierarchien organisiert: <literal>Hoch</literal>, 
+              <literal>Mittel</literal> und <literal>Niedrig</literal>. 
+              Die Priorität, die mit den durch eine bestimmte Kritik generierten 
+              Zu-Bearbeiten-Elementen verknüpft sind, können über das Menü 
+              <literal>Kritiken &gt; Kritiken anzeigen...</literal> geändert 
+              werden (siehe <xref linkend="s2.ref.menu_browse_critics"/>).
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><literal>By Decision</literal>. The to-do items are 
-            organized into 17 hierarchies by design issue: <literal>
-            Uncategorized</literal>, <literal>
-            Class Selection</literal>, <literal>Behavior</literal>, 
-            <literal>Naming</literal>, <literal>Storage</literal>, 
-            <literal>Inheritance</literal>, <literal>
-            Containment</literal>, <literal>
-            Planned Extensions</literal>, <literal>
-            State Machines</literal>, <literal>
-            Design Patterns</literal>, <literal>
-            Relationships</literal>, <literal>Instantiation</literal>, 
-            <literal>Modularity</literal>, <literal>
-            Expected Usage</literal>, <literal>Methods</literal>, 
-            <literal>Code Generation</literal> and <literal>
-            Stereotypes</literal>. The details of the critics in each 
-            category are discussed in 
-            <xref linkend="s2.ref.menu_design_issues"/>.</para>
+            <para>
+              <literal>Nach Entscheidung</literal>. Die Zu-Bearbeiten-Elemente 
+              sind in 17 Hierarchien anhand von Designmerkmalen organisiert: 
+              <literal>Unkategorisiert</literal>, <literal>
+              Klassenauswahl</literal>, <literal>Verhalten</literal>, 
+              <literal>Benennung</literal>, <literal>Speicher</literal>, 
+              <literal>Vererbung</literal>, <literal>
+              Containment</literal>, <literal>
+              Geplante Erweiterungen</literal>, <literal>
+              Zustandsautomaten</literal>, <literal>
+              Design Patterns</literal>, <literal>
+              Beziehungen</literal>, <literal>Instantiation</literal>, 
+              <literal>Modularität</literal>, <literal>
+              Expected Usage</literal>, <literal>Methoden</literal>, 
+              <literal>Codegenerierung</literal> und <literal>
+              Stereotypen</literal>. Die Details der Kritiken in jeder 
+              Kategorie werden in <xref linkend="s2.ref.menu_design_issues"/> 
+              diskutiert.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><literal>By Goal</literal>. ArgoUML has a concept 
-            that critics may be grouped according to the user goals 
-            they affect. This presentation groups the to-do items into 
-            hierarchies by goal.</para>
+            <para>
+              <literal>Nach Ziel</literal>. ArgoUML verfolgt das Konzept, dass 
+              Kritiken entsprechend der sie beeinflussenden Benutzerziele 
+              gruppiert werden. Diese Darstellung gruppiert die Zu-Bearbeiten-
+              Elemente in einer Hierarchie entsprechend der Ziele.
+            </para>
 
             <caution>
 
-              <para>In the current release of ArgoUML there is only one 
-              goal, <literal>Unspecified</literal> and all to-do items 
-              will appear under this heading.</para>
+              <para>
+                In der aktuellen Release von ArgoUML gibt es nur ein Ziel 
+                <literal>Unspezifiziert</literal>. Alle Zu-Bearbeiten-Elemente 
+                werden unter dieser Überschrift erscheinen.
+              </para>
 
             </caution>
 
@@ -20744,39 +20811,44 @@
 
           <listitem>
 
-            <para><literal>By Offender</literal>. The to-do items are 
-            organized into a hierarchy according to the model element that 
-            caused the problem. Todo items that were manually created 
-            with the &quot;New ToDo item&quot; button (i.e. not by a 
-            critic), are not listed here.</para>
+            <para>
+              <literal>Nach Problemen</literal>. Die Zu-Bearbeiten-Elemente 
+              werden hierarchisch entsprechend des Modellelementes organisiert, 
+              welches das Problem verursachte. Zu-Bearbeiten-Elemente, die 
+              manuell mit der Schaltfläche &quot;Neues Zu-Bearbeiten-Element&quot; 
+              erzeugt wurden (z.B. nicht durch eine Kritik) werden hier nicht 
+              aufgelistet.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><literal>By Poster</literal>. The to-do items are 
-            organized into a hierarchy according to which critic 
-            generated the to-do item. The class name of the critic is 
-            listed instead of just its headline name since the former 
-            is guaranteed to be a unique name.</para>
+            <para>
+              <literal>Nach Kurzbezeichnung</literal>. Die Zu-Bearbeiten-Elemente 
+              werden danach hierarchisch organisiert, welche Kritik das 
+              Zu-Bearbeiten-Element generierte. Der Klassenname der Kritik 
+              wird anstelle seiner Überschrift aufgelistet.
+            </para>
 
           </listitem>
 
           <listitem>
 
-            <para><literal>By Knowledge Type</literal>. ArgoUML has the 
-            concept that a critic reflects a deficiency in a category 
-            of knowledge. This presentation option groups the critics 
-            according to their knowledge category: <literal>
-            Designer&apos;s</literal>, <literal>Correctness</literal>, 
-            <literal>Completeness</literal>, <literal>
-            Consistency</literal>, <literal>Syntax</literal>, <literal>
-            Semantics</literal>, <literal>Optimization</literal>, 
-            <literal>Presentational</literal>, <literal>
-            Organizational</literal>, <literal>Experiencial</literal> 
-            and <literal>Tool</literal>. The former category 
-            (Designer&apos;s) contains the manually entered todo 
-            items.</para>
+            <para>
+              <literal>Nach Wissensgebiet</literal>. ArgoUML hat das Konzept, 
+              dass Kritiken einen Ausschnitt eines Wissensgebietes reflektieren.
+              Diese Darstellungsoptionen gruppieren die Kritiken entsprechend 
+              der Kategorie des Wissensgebietes: <literal>
+              Entwurf</literal>, <literal>Korrektheit</literal>, 
+              <literal>Vollständigkeit</literal>, <literal>
+              Konsistenz</literal>, <literal>Syntax</literal>, <literal>
+              Semantik</literal>, <literal>Optimierung</literal>, 
+              <literal>Darstellbarkeit</literal>, <literal>
+              Organisierbarkeit</literal>, <literal>Experiencial</literal> 
+              und <literal>Werkzeug</literal>. Die Hauptkategorie  
+              (Entwürfe) enthält die manuell eingegebenen Zu-Bearbeiten-Elemente.
+            </para>
 
           </listitem>
 
@@ -20786,12 +20858,15 @@
 
       <sect1>
 
-        <title>Item Count</title>
+        <title>Element-Zähler</title>
 
-        <para>To the right of the flat/hierarchical button is a count 
-        of the number of to-do items currently found. It will be 
-        highlighted in yellow when the number of to-do items grows 
-        above 50 todo items, and red when above 100.</para>
+        <para>
+          Rechts von der Schaltfläche flach/hierarchisch befindet sich ein 
+          Zähler, der die Anzahl der aktuell gefundenen Zu-Bearbeiten-Elemente 
+          ausgibt. Er wird gelb hervorgehoben, wenn die Anzahl der Zu-Bearbeiten-
+          Elemente auf über 50 Zu-Bearbeiten-Elemente anwächst und rot, wenn 
+          es über 100 sind.
+        </para>
 
       </sect1>
 
@@ -20799,11 +20874,11 @@
 
     <chapter id="ch.ref.critics">
 
-      <title>The Critics</title>
+      <title>Die Kritiken</title>
 
       <sect1>
 
-        <title>Introduction</title>
+        <title>Einleitung</title>
 
         <para>The key feature that distinguishes ArgoUML from other UML 
         CASE tools is its use of concepts from cognitive psychology. 
