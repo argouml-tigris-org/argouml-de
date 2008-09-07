@@ -21430,71 +21430,89 @@
 
         <title>Speicher</title>
 
-        <para>Critics concerning attributes of classes.</para>
+        <para>Kritiken, die sich auf die Attribute von Klassen beziehen.</para>
 
-        <para>The current version of ArgoUML has the following critics 
-        in this category.</para>
+        <para>
+        	Die aktuelle Version von ArgoUML hat in dieser Kategorie die 
+        	folgenden Kritiken.
+        </para>
 
         <sect2>
 
-          <title>Revise Attribute Names to Avoid Conflict</title>
+          <title>
+          	Überarbeiten Sie die Attributnamen, um einen Konflikt zu vermeiden
+          </title>
 
-          <para>This critic is discussed under an earlier design issues 
-          category (see <xref linkend="critics.CrAttrNameConflict"/>
-          ).</para>
+          <para>
+          	Diese Kritik wurde in einer früheren Designmangel-Kategorie 
+          	diskutiert (siehe <xref linkend="critics.CrAttrNameConflict"/>).
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrNoInstanceVariables">
 
-          <title>Add Instance Variables to a Class</title>
+          <title>Fügen Sie Instanzvariablen zu einer Klasse hinzu</title>
 
-          <para>Suggestion that no instance variables have been 
-          specified for the given class. Such classes may be created to 
-          specify static attributes and methods, but by convention 
-          should then be given the stereotype <literal>
-          &laquo;utility&raquo;</literal>.</para>
+          <para>
+          	Hinweis, dass für die angegebene Klasse keine Instanzvariable 
+          	spezifiziert wurde. Solche Klassen können erzeugt werden, um 
+          	statische Attribute und Methoden zu spezifizieren, aber sie sollten 
+          	per Konvention das Stereotyp <literal>&laquo;utility&raquo;</literal> 
+          	erhalten.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrConstructorNeeded">
 
-          <title>Add a Constructor to a Class</title>
+          <title>Fügen Sie der Klasse einen Konstruktor hinzu</title>
 
-          <para>You have not yet defined a constructor for class 
-          <emphasis>class</emphasis>. Constructors initialize new 
-          instances such that their attributes have valid values. This 
-          class probably needs a constructor because not all of its 
-          attributes have initial values.</para>
+          <para>
+          	Sie haben bis jetzt keinen Konstruktor für die Klasse <emphasis>
+          	Klasse</emphasis> definiert. Konstruktoren initialisieren neue 
+          	Instanzen, sodaß deren Attribute gültige Werte aufweisen. Diese 
+          	Klasse benötigt wahrscheinlich einen Konstruktor, weil nicht alle 
+          	seiner Attribute initiale Werte aufweisen.
+          </para>
 
-          <para>Defining good constructors is key to establishing class 
-          invariants, and class invariants are a powerful aid in 
-          writing solid code.</para>
+          <para>
+          	Das Definieren guter Konstruktoren ist der Schlüssel für das 
+          	Einrichten unveränderlicher Klassen und unveränderliche Klassen sind 
+          	eine leistungsfähige Hilfe beim Schreiben soliden Codes.
+          </para>
 
-          <para>To fix this, add a constructor manually by clicking on 
-          <emphasis>class</emphasis> in the explorer and adding an 
-          operation using the context sensitive pop-up menu in the 
-          property tab, or select <emphasis>class</emphasis> where it 
-          appears on a class diagram and use the <literal>Add 
-          Operation</literal> tool.</para>
+          <para>
+          	Um dies zu beheben, fügen Sie manuell einen Konstruktor hinzu, indem 
+          	Sie im Explorer auf die <emphasis>Klasse</emphasis> klicken und eine 
+          	Operation mit Hilfe des kontextsensitiven Popup-Menüs des 
+          	Eigenschaftsregisters hinzufügen, oder die <emphasis>Klasse
+          	</emphasis> im Diagramm markieren und das Werkzeug <literal>
+          	Operation hinzufügen</literal> verwenden.
+          </para>
 
-          <para>In the UML 1.4 standard, a constructor is an operation 
-          with the stereotype &laquo;create&raquo;. Although not strictly standard, 
-          ArgoUML will also accept &laquo;Create&raquo; as a stereotype for 
-          constructors.</para>
+          <para>
+          	Im UML 1.4 Standard ist ein Konstruktor eine Operation mit dem 
+          	Stereotypen &laquo;create&raquo;. Obwohl kein strikter Standard, 
+          	wird ArgoUML auch &laquo;Create&raquo; als Stereotyp für 
+          	Konstruktoren akzeptieren.
+          </para>
 
-          <para>By convention in Java and C++ a constructor has the 
-          same name as the class, is not static, and returns no value. 
-          ArgoUML will also accept any operation that follows these 
-          conventions as a constructor even if it is not stereotyped 
-          &laquo;create&raquo;.</para>
+          <para>
+          	Gemäß Java und C++-Konvention hat ein Konstruktor den gleichen 
+          	Namen wie die Klasse, ist nicht statisch und gibt keinen Wert 
+          	zurück. ArgoUML wird auch jede Operation akzeptieren, die diesen 
+          	Konventionen eines Konstruktors folgt, auch wenn sie nicht den 
+          	Stereotypen &laquo;create&raquo; aufweist.
+          </para>
 
           <caution>
 
-            <para>Operators are created in ArgoUML with a default 
-            return parameter (named <literal>return</literal>). You 
-            will need to remove this parameter to meet the Java/C++ 
-            convention.</para>
+            <para>
+            	Operatoren werden in ArgoUML mit einem Standard-Rückgabeparameter 
+            	(<literal>return</literal> genannt) erzeugt. Sie müssen diesen 
+            	Parameter entfernen, um der Java/C++-Konvention zu entsprechen.
+            </para>
 
           </caution>
 
@@ -21502,21 +21520,26 @@
 
         <sect2 id="critics.CrTooManyAttr">
 
-          <title>Reduce Attributes on a Class</title>
+          <title>Reduzieren Sie die Zahl der Attribute in der Klasse</title>
 
-          <para>Suggestion that the class has too many attributes for a 
-          good design, and is at risk of becoming a design 
-          bottleneck.</para>
+          <para>
+          	Hinweis, dass die Klasse für ein gutes Design zu viele Attribute 
+          	aufweist und das Risiko eines Designengpaß in sich birgt. 
+          </para>
           
-          <para>The Wizard of this critic allows setting of the treshold, 
-          i.e. the maximum number of attributes 
-          allowed before this critic fires.  </para>
+          <para>
+          	Der Assistent dieser Kritik erlaubt das Einstellen eines 
+          	Schwellwertes, z.B. die maximal erlaubte Anzahl von Attributen 
+          	bevor diese Kritik ausgelöst wird.
+          </para>
 
           <caution>
-            <para>This number is not stored persistently, and
-            there is no way to reduce it after it has been set higher,
-            except by creating more attributes until the critic fires again.
-            Restarting ArgoUML resets this number to its default: 7.
+            <para>
+            	Diese Anzahl wird nicht dauerhaft gespeichert und es gibt keinen 
+            	Weg, diese zu reduzieren, nachdem sie hochgesetzt wurde. Es sei 
+            	denn, man erzeugt mehr Attribute, bis die Kritik erneut ausgelöst 
+            	wird. Der Neustart von ArgoUML setzt dieses Anzahl wieder auf 
+            	seinen Standardwert: 7.
             </para>
           </caution>
 
@@ -21526,43 +21549,54 @@
 
       <sect1 id="s1.ref.design_issues_planned_extensions">
 
-        <title>Planned Extensions</title>
+        <title>Geplante Erweiterungen</title>
 
-        <para>Critics concerning interfaces and subclasses.</para>
+        <para>Kritiken, die sich auf Schnittstellen und Subklassen beziehen.</para>
 
         <note>
 
-          <para>It is not clear why this category has the name 
-          <quote>Planned Extensions</quote>.</para>
+          <para>
+          	Es ist nicht klar, warum diese Kategorie den Namen <quote>Geplante 
+          	Erweiterungen</quote> hat.
+          </para>
 
         </note>
 
-        <para>The current version of ArgoUML has three critics in this 
-        category.</para>
+        <para>
+        	Die aktuelle Version von ArgoUML hat drei Kritiken in dieser 
+        	Kategorie.
+        </para>
 
         <sect2 id="critics.CrIntefaceAllPublic">
 
-          <title>Operations in Interfaces must be public</title>
+          <title>Operationen in Schnittstellen müssen public sein</title>
 
-          <para>Suggestion that there is no point in having non-public 
-          operations in Interfaces, since they must be visible to be 
-          realized by a class.</para>
+          <para>
+          	Hinweis, dass es keinen Punkt gibt, non-public Operationen in 
+          	Schnittstellen haben zu müssen, da sie in einer realisierten Klasse 
+          	sichtbar sein müssen. 
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrInterfaceOperOnly">
 
-          <title>Interfaces may only have operations</title>
+          <title>Schnittstellen dürfen nur Operationen haben</title>
 
-          <para>Suggestion that an interfaces has attributes defined. 
-          The UML standard defines interfaces to have operations.</para>
+          <para>
+          	Hinweis, dass in einer Schnittstelle Attribute definiert wurden. 
+          	Der UML-Standard definiert Schnittstellen nur mit Operationen.
+          </para>
 
           <caution>
 
-            <para>ArgoUML does not allow you to add attributes to 
-            interfaces, so this should never occur in the ArgoUML 
-            model. It might trigger if a project has been loaded with 
-            XMI created by another tool.</para>
+            <para>
+            	ArgoUML erlaubt es Ihnen nicht, Schnittstellen Attribute 
+            	hinzuzufügen, sodaß dies in einem ArgoUML-Modell niemals 
+            	auftreten sollte. Sie kann ausgelöst werden, wenn ein Projekt 
+            	mit XMI geladen wurde, die durch ein anderes Werkzeug 
+            	erzeugt wurde.
+            </para>
 
           </caution>
 
@@ -21570,11 +21604,13 @@
 
         <sect2 id="critics.CrSubclassReference">
 
-          <title>Remove Reference to Specific Subclass</title>
+          <title>Entferne die Referenz auf die spezifische Subklasse</title>
 
-          <para>Suggestion that in a good design, a class should not 
-          reference its subclasses directly through attributes, 
-          operations or associations.</para>
+          <para>
+          	Hinweis, dass eine Klasse in einem guten Design seine Subklassen 
+          	nicht direkt über Attribute, Operationen oder Assoziationen 
+          	referenzieren soll.
+          </para>
 
         </sect2>
 
@@ -21582,28 +21618,34 @@
 
       <sect1 id="s1.ref.design_issues_state_machines">
 
-        <title>State Machines</title>
+        <title>Zustandsautomaten</title>
 
-        <para>Critics concerning state machines.</para>
+        <para>Kritiken, die sich auf Zustandsautomaten beziehen.</para>
 
-        <para>ArgoUML has the following critics in this category.</para>
+        <para>ArgoUML hat die folgenden Kritiken in dieser Kategorie.</para>
 
         <sect2 id="critics.CrTooManyTransitions">
 
-          <title>Reduce Transitions on &lt;state&gt;</title>
+          <title>Reduzieren Sie die Anzahl der Transitionen im &lt;Zustand&gt;</title>
 
-          <para>Suggestion given state is involved in so many 
-          transitions it may be a maintenance bottleneck.</para>
+          <para>
+          	Hinweis, das der angegebene Zustand so viele Transitionen aufweist, 
+          	dass er zu einem Leistungsengpass werden dürfte.
+          </para>
                     
-          <para>The Wizard of this critic allows setting of the treshold, 
-          i.e. the maximum number of transitions 
-          allowed before this critic fires.  </para>
+          <para>
+          	Der Assistenz dieser Kritik erlaubt das Einstellen eines 
+          	Schwellwertes, z.B. die maximale Anzahl von Transitionen bevor 
+          	diese Kritik ausgelöst wird.
+          </para>
 
           <caution>
-            <para>This number is not stored persistently, and
-            there is no way to reduce it after it has been set higher,
-            except by creating more transition until the critic fires again.
-            Restarting ArgoUML resets this number to its default: 10.
+            <para>
+            	Diese Anzahl wird nicht dauerhaft gespeichert und es gibt keinen 
+            	Weg, diese zu reduzieren, nachdem sie hochgesetzt wurde. Es sei 
+            	denn, man erzeugt mehr Transitionen, bis die Kritik erneut ausgelöst 
+            	wird. Der Neustart von ArgoUML setzt dieses Anzahl wieder auf 
+            	seinen Standardwert: 10.
             </para>
           </caution>
           
@@ -21612,22 +21654,30 @@
 
         <sect2 id="critics.CrTooManyStates">
 
-          <title>Reduce States in machine &lt;machine&gt;</title>
+          <title>
+          	Reduzieren Sie die Anzahl der Zustände im Automaten &lt;Automat&gt;
+          </title>
 
-          <para>Suggestion that the given state machine has so many 
-          states as to be confusing and should be simplified (perhaps 
-          by breaking into several machines, or using a 
-          hierarchy).</para>
+          <para>
+          	Hinweis, dass der angegebene Zustandsautomat so viele Zustände 
+          	aufweist, daß er bereits Konfusion auslöst und vereinfacht ( 
+          	vielleicht durch unterteilen in mehrere Automaten, oder durch 
+          	Nutzung einer Hierarchie) werden sollte.
+          </para>
                     
-          <para>The Wizard of this critic allows setting of the treshold, 
-          i.e. the maximum number of states 
-          allowed before this critic fires.  </para>
+          <para>
+          	Der Assistenz dieser Kritik erlaubt die Einstellung eines 
+          	Schwellwertes, z.B. die maximale Anzahl von erlaubten Zuständen 
+          	bevor diese Kritik ausgelöst wird.
+          </para>
 
           <caution>
-            <para>This number is not stored persistently, and
-            there is no way to reduce it after it has been set higher,
-            except by creating more states until the critic fires again.
-            Restarting ArgoUML resets this number to its default: 20.
+            <para>
+            	Diese Anzahl wird nicht dauerhaft gespeichert und es gibt keinen 
+            	Weg, diese zu reduzieren, nachdem sie hochgesetzt wurde. Es sei 
+            	denn, man erzeugt mehr Zustände, bis die Kritik erneut ausgelöst 
+            	wird. Der Neustart von ArgoUML setzt dieses Anzahl wieder auf 
+            	seinen Standardwert: 20.
             </para>
           </caution>
           
@@ -21636,47 +21686,63 @@
 
         <sect2 id="critics.CrNoTransitions">
 
-          <title>Add Transitions to &lt;state&gt;</title>
+          <title>Fügen Sie dem &lt;Zustand&gt; Transitionen hinzu</title>
 
-          <para>Suggestion that the given state requires both incoming 
-          and outgoing transitions.</para>
+          <para>
+          	Hinweis, daß der angegebene Zustand ankommende und abgehende 
+          	Transitionen benötigt.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrNoIncomingTransitions">
 
-          <title>Add Incoming Transitions to &lt;model element&gt;</title>
+          <title>
+          	Fügen Sie ankommende Transitionen dem Modellelement 
+          	&lt;Modellelement&gt; hinzu
+          </title>
 
-          <para>Suggestion that the given state requires incoming 
-          transitions.</para>
+          <para>
+          	Hinweis, daß der angegebene Zustand ankommende Transitionen 
+          	benötigt.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrNoOutgoingTransitions">
 
-          <title>Add Outgoing Transitions from &lt;model element&gt;</title>
+          <title>
+          	Fügen Sie abgehende Transitionen dem Modellelement 
+          	&lt;Modellelement&gt; hinzu
+          </title>
 
-          <para>Suggestion that the given state requires outgoing 
-          transitions.</para>
+          <para>
+          	Hinweis, daß der angegebene Zustand abgehende Transitionen 
+          	benötigt.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrMultipleInitialStates">
 
-          <title>Remove Extra Initial States</title>
+          <title>Entfernen Sie den zusätzlichen Initialzustand</title>
 
-          <para>Suggestion that there is more than one initial state in 
-          the state machine or composite state, which is not permitted 
-          in UML.</para>
+          <para>
+          	Hinweis, daß es mehr als einen Initialzustand in dem 
+          	Zustandsautomaten oder dem zusammengesetzten Zustand gibt, was in 
+          	UML nicht erlaubt ist.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrNoInitialState">
 
-          <title>Place an Initial State</title>
+          <title>Fügen Sie einen initialen Zustand ein</title>
 
-          <para>Suggestion that there is no initial state in the state 
-          machine or composite state.</para>
+          <para>
+          	Hinweis, daß es keinen initialien Zustand in dem Zustandsautomaten 
+          	oder dem zusammengesetzten Zustand gibt.
+          </para>
 
         </sect2>
 
