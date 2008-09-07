@@ -20880,57 +20880,73 @@
 
         <title>Einleitung</title>
 
-        <para>The key feature that distinguishes ArgoUML from other UML 
-        CASE tools is its use of concepts from cognitive psychology. 
-        The theory behind this is well described in Jason Robbins&apos; 
-        PhD dissertation 
-        <ulink url="http://argouml.tigris.org/docs/robbins_dissertation/">
-        http://argouml.tigris.org/docs/robbins_dissertation/</ulink>.</para>
+        <para>
+        	Die Schlüsselfunktion, die ArgoUML von anderen UML-Werzeugen 
+        	unterscheidet, ist die Verwendung von Konzepten der kognitiven 
+        	Psychologie. Die dahinter stehende Theroie ist in Jason Robbins&apos;
+        	PhD Dissertation 
+        	<ulink url="http://argouml.tigris.org/docs/robbins_dissertation/">
+        	http://argouml.tigris.org/docs/robbins_dissertation/</ulink>
+        	beschrieben.
+        </para>
 
-        <para>Critics are one of the main ways in which these ideas are 
-        implemented. Running in the background they offer advice to the 
-        designer which may be accepted or ignored. A key point is that 
-        they do not <emphasis>impose</emphasis> a decision on the 
-        designer.</para>
+        <para>
+        	Kritiken sind einer der Hauptarten mit denen diese Ideen 
+        	implementiert wurden. Im Hintergrund laufend, bieten Sie dem 
+        	Designer Ratschläge an, die akzeptiert oder ignoriert werden 
+        	können. Der Schlüsselpunkt ist, dass sie keine Entscheidung des 
+        	Designers <emphasis>ausschliessen</emphasis>.
+        </para>
 
         <note>
 
-          <para>The critics are asynchronous processes that run in 
-          parallel with the main ArgoUML tool. Changes typically take a 
-          second or two to propagate as the critics wake up.</para>
+          <para>
+          	Die Kritiken sind asynchrone Prozesse, die parallel zu ArgoUML 
+          	ablaufen. Änderungen benötigen eine oder zwei Sekunden, bis die 
+          	Kritiken erneut erzeugt wurden.
+          </para>
 
         </note>
 
         <sect2>
 
-          <title>Terminology</title>
+          <title>Terminologie</title>
 
-          <para>The <emphasis>critics</emphasis> are background 
-          processes, which evaluate the current model according to 
-          various <quote>good</quote> design criteria. There is one 
-          critic for every design criterion.</para>
+          <para>
+          Die <emphasis>Kritiken</emphasis> sind Hintergrundprozesse, die das 
+          aktuelle Modell anhand verschiedener <quote>guter</quote> 
+          Designkriterien überprüfen. Es gibt eine Kritik für jedes 
+          Designkriterium. 
+          </para>
 
-          <para>The output of a critic is a 
-          <emphasis>critique</emphasis>&mdash;a statement about some aspect 
-          of the model that does not appear to follow good design 
-          practice.</para>
+          <para>
+          	Die Ausgabe einer Kritik ist eine <emphasis>Kritik</emphasis>&mdash; 
+          	eine Anweisung über einige Aspekte des Modelles, die nicht der 
+          	guten Designpraxis folgen.
+          </para>
 
-          <para>Finally a critique will generally suggest how the bad 
-          design issue it has identified can be rectified, by raising a 
-          <emphasis>to-do item</emphasis>.</para>
+          <para>
+          	Natürlich wird eine Kritik nur vorschlagen, wie der gefundene 
+          	Designmangel behoben werden kann, in dem es ein <emphasis>
+          	Zu-Bearbeiten-Element</emphasis> erzeugt.
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Design Issues</title>
+          <title>Design-Mangel</title>
 
-          <para>ArgoUML categorizes critics according the the design 
-          issue they address (some critics may be in more than one 
-          category). At present there are 16 such categories.</para>
+          <para>
+          	ArgoUML kategorisiert Kritiken entsprechend der von ihnen 
+          	adressierten Designmängel (einige Kritiken können in mehr als 
+          	einer Kategorie erscheinen). Aktuell gibt es 16 solcher Kategorien.
+          </para>
 
-          <para>Within this manual the descriptions of critics are 
-          grouped in sections by design issue.</para>
+          <para>
+          	In diesen Handbuch sind die Beschreibungen der Kritiken entsprechend 
+          	ihres Designmangels in Abschnitten gruppiert.
+          </para>
 
         </sect2>
 
@@ -20938,59 +20954,71 @@
 
       <sect1 id="s1.ref.design_issues_uncategorized">
 
-        <title>Uncategorized</title>
+        <title>Unkategorisiert</title>
 
-        <para>These are critics that do not fit into any other 
-        category.</para>
+        <para>
+        	Diese Kritiken passen zu keiner der anderen Kategorien.
+        </para>
 
-        <para>ArgoUML has no critics in this category. Maybe some will 
-        be added in later versions.</para>
+        <para>
+        	ArgoUML hat keine Kritik mit dieser Kategorie. Vielleicht werden 
+        	einige in späteren Versionen hinzugefügt.
+        </para>
 
       </sect1>
 
       <sect1 id="s1.ref.design_issues_class_selection">
 
-        <title>Class Selection</title>
+        <title>Klassenauswahl</title>
 
-        <para>These are critics concerning how classes are chosen and 
-        used.</para>
+        <para>
+        	Dies sind Kritiken, die sich darauf beziehen, wie Klassen ausgewählt 
+        	und verwendet wurden.
+        </para>
 
-        <para>ArgoUML has the following critics in this category.</para>
+        <para>ArgoUML hat die folgenden Kritiken in dieser Kategorie.</para>
 
         <sect2 id="critics.CrNonAggDataType">
 
-          <title>Wrap DataType</title>
+          <title>Datentyp verbergen</title>
 
-          <para>DataTypes are not full classes within UML 1.4. They can 
-          only have enumeration literals as values, and only support 
-          <literal>query</literal> operations (that is operations that 
-          do not change the DataType&apos;s state).</para>
+          <para>
+          	Datentypen sind innerhalb von UML 1.4 keine vollständigen Klassen. 
+          	Sie können nur Aufzählungsliterale als Werte haben und nur 
+          	<literal>Abfrage</literal>-Operationen unterstützen (Das sind 
+          	Operationen, die nicht den Zustand des Datentyps verändern).
+          </para>
 
-          <para>DataTypes cannot be associated with classes, unless the 
-          DataType is part of a composite (black diamond) aggregation. 
-          Such an association relects the tight binding of a collection 
-          of DataType instances to a class instance. In effect such a 
-          DataType is an attribute of the class with 
-          multiplicity.</para>
+          <para>
+          	Datentypen können nicht mit Klassen assoziiert werden, es sei denn, 
+          	der Datentyp ist Teil einer Komposition (schwarzer Diamant). So 
+          	eine Assoziation reflektiert die feste Verbindung einer Sammlung 
+          	von Datentyp-Instanzen zu einer Klasseninstanz. In der Konsequenz 
+          	ist so ein Datentyp ein Attribut der Klasse mit einer Kardinalität.
+          </para>
 
-          <para>Good OOA&amp;D depends on careful choices about which 
-          entities to represent as full objects and which to represent 
-          as attributes of objects.</para>
+          <para>
+          	Eine gute OOA&amp;D hängt von der richtigen Auswahl der Entities ab, 
+          	welche die vollständigen Objekte und welche die Attribute von 
+          	Objekten repräsentieren. 
+          </para>
 
-          <para>There are two options to fix this problem.</para>
+          <para>Es gibt zwei Optionen, um dieses Problem zu lösen.</para>
 
           <itemizedlist>
 
             <listitem>
 
-              <para>Replace the DataType with a full class.</para>
+              <para>Ersetze den Datentyp durch eine ganze Klasse.</para>
 
             </listitem>
 
             <listitem>
 
-              <para>or change the association aggregation to composite 
-              relationship at the DataType end.</para>
+              <para>
+              	oder ändere die Aggregation in eine Komposition am Ende das 
+              	Datentyps.
+              </para>
 
             </listitem>
 
@@ -21000,26 +21028,31 @@
 
         <sect2 id="critics.CrTooManyClasses">
 
-          <title>Reduce Classes in namespace &lt;namespace&gt;</title>
+          <title>
+          	Veringere die Anzahl der Klassen im Namensraum &lt;Namensraum&gt;
+          </title>
 
-          <para>Suggestion to improve understandability by having fewer 
-          classes in one namespace. If one namespace 
-          (such as the model, a package, or a class) 
-          has too many classes
-          it may become very difficult for humans to 
-          understand. Defining an understandable set of
-          namespaces 
-          is an important part of your design.</para>
+          <para>
+          	Ein Vorschlag, die Verständlichkeit durch weniger Klassen in einem 
+          	Namensraum zu verbessern. Wenn ein Namensraum (wie ein Modell, ein 
+          	Paket, oder eine Klasse) zu viele Klassen aufweist, wird es für 
+          	Menschen sehr schwierig dies zu verstehen. Einen verständlichen Satz 
+          	von Namensräumen zu definieren ist ein wichtiger Teil Ihres Designs.
+          </para>
           
-          <para>The Wizard of this critic allows setting of the treshold, 
-          i.e. the maximum number of classes
-          allowed before this critic fires.  </para>
+          <para>
+          	Der Assistent dieser Kritik erlaubt das Setzen eines Schwellwertes, 
+          	z.B. die maximale Anzahl von Klassen, ab der die Kritik ausgelöst 
+          	wird.
+          </para>
 
           <caution>
-            <para>This number is not stored persistently, and
-            there is no way to reduce it after it has been set higher,
-            except by creating more classes until the critic fires again.
-            Restarting ArgoUML resets this number to its default: 20.
+            <para>
+            	Diese Anzahl wird nicht dauerhaft gespeichert und es gibt keinen 
+            	Weg, diese zu reduzieren, nachdem sie hochgesetzt wurde. Es sei 
+            	denn, man erzeugt mehr Klassen, bis die Kritik erneut ausgelöst 
+            	wird. Der Neustart von ArgoUML setzt dieses Anzahl wieder auf 
+            	seinen Standardwert: 20.
             </para>
           </caution>
 
@@ -21027,10 +21060,12 @@
 
         <sect2 id="critics.CrNodesOverlap">
 
-          <title>Clean Up Diagram</title>
+          <title>Diagramm aufräumen</title>
 
-          <para>Suggestion that the diagram could be improved by moving 
-          model elements that are overlapping.</para>
+          <para>
+          	Vorschlag, dass das Diagramm verbessert werden sollte, indem man 
+          	sich überlappende Modellelemente auseinander zieht.
+          </para>
 
         </sect2>
 
@@ -21038,33 +21073,40 @@
 
       <sect1 id="s1.ref.design_issues_naming">
 
-        <title>Naming</title>
+        <title>Benennung</title>
 
-        <para>These are critics concerning the naming of model elements. The 
-        current version of ArgoUML has 18 critics in this 
-        category.</para>
+        <para>
+        	Dies sind Kritiken, die sich auf die Benennung von Modellelementen 
+        	beziehen. Die aktuelle Version von ArgoUML hat 18 Kritiken in dieser 
+        	Kategorie.
+        </para>
 
         <sect2 id="critics.CrAssocNameConflict">
 
-          <title>Resolve Association Name Conflict</title>
+          <title>Löse Assoziations-Namenskonflikt auf</title>
 
-          <para>Suggestion that two association names in the same 
-          namespace have the same name. This is not permitted in 
-          UML.</para>
+          <para>
+          	Hinweis, dass zwei Assoziationen im gleichen Namensraum den 
+          	gleichen Namen haben. Dies ist in UML nicht erlaubt.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrAttrNameConflict">
 
-          <title>Revise Attribute Names to Avoid Conflict</title>
+          <title>Überarbeite die Attributnamen, um einen Konflikt zu vermeiden</title>
 
-          <para>Suggestion that two attribute names of a class have the 
-          same name. This is not permitted in UML.</para>
+          <para>
+          	Hinweis, dass zwei Attribute einer Klasse den gleichen Namen 
+          	haben. Dies ist in UML nicht erlaubt.
+          </para>
 
           <note>
 
-            <para>The problem may be caused by inheritance of an 
-            attribute through a generalization relationship.</para>
+            <para>
+            	Das Problem kann durch vererben eines Attributes über eine 
+            	Vererbungsbeziehung verursacht werden.
+            </para>
 
           </note>
 
@@ -21072,50 +21114,61 @@
 
         <sect2 id="critics.CrOperNameConflict">
 
-          <title>Change Names or Signatures in a model element</title>
+          <title>Ändere Namen oder Signaturen in einem Modellelement</title>
 
-          <para>Two operations in &lt;model element&gt; have the same 
-          signature. This means their name is the same, and the list of 
-          parameters has the same type.</para>
+          <para>
+          	Zwei Operationen in einem &lt;Modellelement&gt; haben die gleiche 
+          	Signatur. Das heißt, die Namen sind gleich und die Liste der 
+          	Parameter hat den gleichen Typ.
+          </para>
 
-          <para>Where there are conflicting signatures, correct code 
-          cannot be generated for mainstream OO languages. It also 
-          leads to very unclear semantics of the design.</para>
+          <para>
+          	Wo es Signaturkonflikte gibt, kann kein korrekter Code in den 
+          	hauptsächlich verwendeten OO-Sprachen generiert werden. Es führt 
+          	auch zu einer sehr unklaren Semantik des Designs. 
+          </para>
 
-          <para>In comparing signatures, this critic considers:</para>
+          <para>Beim Vergleichen von Signaturen betrachtet die Kritik:</para>
 
           <orderedlist>
 
             <listitem>
 
-              <para>the name;</para>
+              <para>den Namen;</para>
 
             </listitem>
 
             <listitem>
 
-              <para>the list of in, out and in-out parameter types 
-              <emphasis>in order</emphasis>; and</para>
+              <para>
+              	die Liste der Ein-, Aus- und Ein-Ausgabeparamtertypen in 
+              	ihrer <emphasis>Reihenfolge</emphasis>;
+              </para>
 
             </listitem>
 
           </orderedlist>
 
-          <para>Only if these all match in both type and order, will 
-          the signatures be considered as the same.</para>
+          <para>
+          	Nur wenn diese sowohl in Typ und Reihenfolge übereinstimmen, wird 
+          	die Signatur als gleich betrachtet.
+          </para>
 
-          <para>This follows the line of Java/C++ in ignoring the 
-          return parameters for the signature. This 
-          <emphasis>may</emphasis> be unsatisfactory for some 
-          functional OO languages.</para>
+          <para>
+          	Dies folgt der Linie von Java/C++, welche die Rückgabeparameter 
+          	bei der Signatur ignorieren. Dies <emphasis>kann</emphasis> bei 
+          	einigen funktionalen OO-Sprachen unvorteilhaft sein.
+          </para>
 
           <note>
 
-            <para>Some purists would argue that the comparison should 
-            really differentiate between in, out and in-out parameters. 
-            However no practical programming language can do this when 
-            resolving an overloaded method invocation, so this critic 
-            lumps them all together.</para>
+            <para>
+            	Einige Puristen würden argumentieren, dass der Vergleich 
+            	zwischen Ein-, Aus- und Ein-Ausgabeparametern differenzieren 
+            	sollte. Jedoch kann keine praktische Programmiersprache so etwas 
+            	tun, wenn sie einen überladenen Methodenaufruf auflöst. Aus 
+            	diese Grund behandelt diese Kritik sie alle pauschal.
+            </para>
 
           </note>
 
@@ -21123,118 +21176,146 @@
 
         <sect2 id="critics.CrDupRoleNames">
 
-          <title>Duplicate End (Role) Names for an Association</title>
+          <title>Doppelte End- (Rollen-) Namen in einer Assoziation</title>
 
-          <para>The specified association has two (or more) ends 
-          (roles) with the same name. One of the well-formedness rules 
-          in UML 1.4 for associations, is that all end (role) names 
-          must be unique.</para>
+          <para>
+          	Die angegebene Assoziation hat zwei (oder mehrere) Enden (Rollen) 
+          	mit dem gleichen Namen. Eine der wohlgeformten Regeln für 
+          	Assoziationen in UML 1.4 ist, dass alle Enden (Rollen)-Namen 
+          	eindeutig sein müssen. 
+          </para>
 
-          <para>This ensures that there can be unambiguous reference to 
-          the ends of the association.</para>
+          <para>
+          	Dies stellt sicher, dass es keine mehrdeutige Referenz auf die 
+          	Enden einer Assoziation geben kann.
+          </para>
 
-          <para>To fix this, manually select the association and change 
-          the names of one or more of the offending ends (roles) using 
-          the button&nbsp;2 pop-up menu or the property sheet.</para>
+          <para>
+          	Um dies zu beheben, markieren Sie die Assoziation manuell und ändern 
+          	die Namen von einer oder mehreren der betroffenen Enden (Rollen) mit 
+          	Hilfe des Taste&nbsp;2-Popup-Menüs oder der Eigenschaftstabelle.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrNameConflictAC">
 
-          <title>Role name conflicts with member</title>
+          <title>Rollenname steht im Konflikt mit einem Element</title>
 
-          <para>A suggestions that good design avoids role names for 
-          associations that clash with attributes or operations of the 
-          source class. Roles may be realized in the code as attributes 
-          or operations, causing code generation problems.</para>
+          <para>
+          	Ein Hinweis, dass ein gutes Design Rollenname für Assoziationen 
+          	verhindert, die mit Attributen oder Operationen der Quellklasse 
+          	kollidieren. Rollen können im Code als Attribute oder Operationen 
+          	realisiert werden, die dann Codegenerierungsprobleme auslösen.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrMissingClassName">
 
-          <title>Choose a Name (Classes and Interfaces)</title>
+          <title>Einen Namen auswählen (Klassen und Schnittstellen)</title>
 
-          <para>The class or interface concerned has been given no name 
-          (it will appear in the model as <literal>Unnamed</literal>). 
-          Suggestion that good design requires that all interfaces and 
-          classes are named.</para>
+          <para>
+          	Der betrachteten Klasse oder Schnittstelle wurde kein Name gegeben 
+          	(sie wird im Modell als <literal>Unbenannt</literal> erscheinen). 
+          	Hinweis, dass gutes Design fordert, dass alle Schnittstellen und 
+          	Klassen benannt werden.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrDisambigClassName">
 
-          <title>Choose a Unique Name for a model element (Classes and 
-          Interfaces)</title>
+          <title>
+          	Wählen Sie einen eindeutigen Namen für ein Modellelement aus 
+          	(Klassen und Schnittstellen)
+          </title>
 
-          <para>Suggestion that the class or interface specified has 
-          the same name as another (in the namespace), which is bad 
-          design and will prevent valid code generation.</para>
+          <para>
+          	Hinweis, dass die angegebene Klasse oder Schnittstelle den gleichen 
+          	Namen wie eine andere (im Namensraum) aufweist. Dies ist schlechtes 
+          	Design und wird eine gültige Codegenerierung verhindern.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrMissingAttrName">
 
-          <title>Choose a Name (Attributes)</title>
+          <title>Wählen Sie einen Namen aus (Attribute)</title>
 
-          <para>The attribute concerned has been given no name (it will 
-          appear in the model as <literal>(Unnamed Attribute)</literal>). 
-          Suggestion that good design requires that all attributes are 
-          named.</para>
+          <para>
+          	Das betrachtete Attribut hat keinen Namen erhalten (es wird im Modell 
+          	als <literal>(Unbenanntes Attribute)</literal> erscheinen). 
+          	Hinweis, dass gutes Design fordert, dass alle Attribute benannt 
+          	werden.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrMissingOperName">
 
-          <title>Choose a Name (Operations)</title>
+          <title>Wählen Sie einen Namen aus (Operationen)</title>
 
-          <para>The operation concerned has been given no name (it will 
-          appear in the model as <literal>(Unnamed Operation)</literal>). 
-          Suggestion that good design requires that all operations are 
-          named.</para>
+          <para>
+          	Die betrachtete Operation hat keinen Namen erhalten (sie wird im 
+          	Modell als <literal>(Unbenannte Operation)</literal> erscheinen). 
+          	Hinweis, dass gutes Design fordert, dass alle Operationen benannt 
+          	werden.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrMissingStateName">
 
-          <title>Choose a Name (States)</title>
+          <title>Wählen Sie einen Namen aus (Zustände)</title>
 
-          <para>The state concerned has been given no name (it will 
-          appear in the model as <literal>(Unnamed State)</literal>). 
-          Suggestion that good design requires that all states are 
-          named.</para>
+          <para>
+          	Das betrachtete Zustand hat keinen Namen erhalten (es wird im Modell 
+          	als <literal>(Unbenannter Zustand)</literal> erscheinen). 
+          	Hinweis, dass gutes Design fordert, dass alle Zustände benannt 
+          	werden.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrDisambigStateName">
 
-          <title>Choose a Unique Name for a (State related) 
-          model element</title>
+          <title>Wählen Sie einen eindeutigen Namen für ein (zustandsbehaftetes) 
+          Modellelement aus. </title>
 
-          <para>Suggestion that the state specified has the same name 
-          as another (in the current statechart diagram), which is bad 
-          design and will prevent valid code generation.</para>
+          <para>
+          	Hinweis, dass der angegebene Zustand den gleichen Namen wie ein 
+          	anderer aufweist (im aktuellen Zustandsdiagramm). Dies ist 
+          	schlechtes Design und wird die gültige Codegenerierung verhindern.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrNameConfusion">
 
-          <title>Revise Name to Avoid Confusion</title>
+          <title>Ändern Sie den Namen, um eine Konfusion zu verhindern</title>
 
-          <para>Two names in the same namespace have very similar names 
-          (differing only by one character). Suggestion this could 
-          potentially lead to confusion.</para>
+          <para>
+          	Zwei Namen im gleichen Namensraum haben sehr ähnliche Namen (sie 
+          	unterscheiden sich nur durch ein Zeichen voneinander). Hinweis, dass 
+          	dies potentiell zu einer Konfusion führt.
+          </para>
 
           <caution>
 
-            <para>This critic can be particularly annoying, since at 
-            times it is useful and good design to have a series of 
-            model elements <literal>var1</literal>, <literal>var2</literal> 
-            etc.</para>
+            <para>
+            	Diese Kritik kann manchmal störend sein, da es manchmal nützlich 
+            	und gutes Design ist, eine Serie von Modellelemente <literal>
+            	var1</literal>, <literal>var2</literal> usw. zu haben.
+            </para>
 
-            <para>It is important to remember that critics offer 
-            guidance, and are not always correct. ArgoUML lets you 
-            dismiss the resulting to-do items through the to-do pane 
-            (see <xref linkend="ch.ref.todopane"/>).</para>
+            <para>
+            	Es ist wichtig sich daran zu erinnern, dass Kritiken Anleitungen 
+            	anbieten, die nicht immer korrekt sein müssen. ArgoUML läßt es 
+            	zu, dass Sie die entsprechenden Zu-Bearbeiten-Elemente über den 
+            	Zu-Bearbeiten-Bereich verlassen (siehe 
+            	<xref linkend="ch.ref.todopane"/>).
+            </para>
 
           </caution>
 
@@ -21242,44 +21323,59 @@
 
         <sect2 id="critics.CrIllegalName">
 
-          <title>Choose a Legal Name</title>
+          <title>Wählen Sie einen legalen Namen aus</title>
 
-          <para>All model element names in ArgoUML must use only letters, 
-          digits and underscore characters. This critic suggests an 
-          entity has not met this requirement.</para>
+          <para>
+          	Alle Modellelementnamen in ArgoUML dürfen nur aus Buchstaben, 
+          	Ziffern und Unterstrichen bestehen. Diese Kritik weist Sie darauf hin, 
+          	dass eine Entität nicht dieser Anforderung entspricht.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrReservedName">
 
-          <title>Change a model element to a Non-Reserved Word</title>
+          <title>
+          	Ändern Sie den Namen des Modellelementes in ein 
+            nicht-reserviertes Wort
+          </title>
 
-          <para>Suggestion that this model element&apos;s name is the same 
-          as a reserved word in UML (or within one character of one), 
-          which is not permitted.</para>
+          <para>
+          	Hinweis, dass der Name dieses Modellelementes dem Namen eines in 
+          	UML resevierten Wortes entspricht (or within one character of one). 
+          	Dies ist nicht erlaubt.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrUnconventionalOperName">
 
-          <title>Choose a Better Operation Name</title>
+          <title>Wählen Sie einen besseren Namen für die Operation aus</title>
 
-          <para>Suggestion that an operation has not followed the 
-          naming convention that operation names begin with lower case 
-          letters.</para>
+          <para>
+          	Hinweis, dass der Name einer Operation nicht der Namenskonvention 
+          	entspricht, dass Namen von Operationen mit einem Kleinbuchstaben 
+          	beginnen.
+          </para>
 
           <caution>
 
-            <para>Following the Java and C++ convention most designers 
-            give their constructors the same name as the class, which 
-            begins with an upper case character. In ArgoUML, this will 
-            trigger this critic, unless the constructor is stereotyped 
-            <literal>&laquo;create&raquo;</literal>.</para>
+            <para>
+            	Der Java und C++-Konvention folgend, geben die meisten Designer 
+            	Ihren Konstruktoren den gleichen Namen wie der Klasse, die mit 
+            	einem Grossbuchstaben gebinnt. In ArgoUML wird dies diese 
+            	Kritik auslösen, es sei denn, der Konstruktor erhält den 
+            	Stereotyp <literal>&laquo;create&raquo;</literal>
+            .
+            </para>
 
-            <para>It is important to remember that critics offer 
-            guidance, and are not always correct. ArgoUML lets you 
-            dismiss the resulting to-do items through the to-do pane 
-            (see <xref linkend="ch.ref.todopane"/>).</para>
+            <para>
+            	Es ist wichtig sich daran zu erinnern, dass Kritiken Anleitungen 
+            	anbieten, die nicht immer korrekt sein müssen. ArgoUML läßt es 
+            	zu, dass Sie die entsprechenden Zu-Bearbeiten-Elemente über den 
+            	Zu-Bearbeiten-Bereich verlassen (siehe 
+            	<xref linkend="ch.ref.todopane"/>).
+            </para>
 
           </caution>
 
@@ -21287,25 +21383,30 @@
 
         <sect2 id="critics.CrUnconventionalAttrName">
 
-          <title>Choose a Better Attribute Name</title>
+          <title>Wählen Sie einen besseren Attributnamen aus</title>
 
-          <para>Suggestion that an attribute has not followed the 
-          naming convention that attribute names begin with lower case 
-          letters.</para>
+          <para>
+          	Hinweis, dass ein Attribut nicht der Namenskonvention entspricht, 
+          	dass Namen von Attributen mit einem Kleinbuchstaben beginnen.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrUnconventionalClassName">
 
-          <title>Capitalize Class Name</title>
+          <title>Klassenname groß schreiben</title>
 
-          <para>Suggestion that a class has not followed the naming 
-          convention that classes begin with upper case letters.</para>
+          <para>
+          	Hinweis, dass eine Klasse nicht der Namenskonvention entspricht, dass 
+          	Klassen mit einem Großbuchstaben beginnen.
+          </para>
 
           <note>
 
-            <para>Although not triggering this critic, the same 
-            convention should apply to interfaces.</para>
+            <para>
+            	Obwohl sie diese Kritik nicht auslöst, sollte die gleiche 
+            	Konvention auf Schnittstellen angewendet werden.
+            </para>
 
           </note>
 
@@ -21313,11 +21414,13 @@
 
         <sect2 id="critics.CrUnconventionalPackName">
 
-          <title>Revise Package Name</title>
+          <title>Paketname überarbeiten</title>
 
-          <para>Suggestion that a package has not followed the naming 
-          convention of using lower case letters with periods used to 
-          indicated sub-packages.</para>
+          <para>
+          	Hinweis, dass ein Paket nicht der Namenskonvention entspricht, dass 
+          	Kleinbuchstaben mit Punkten verwendet werden, um Subpakete zu 
+          	kennzeichnen.
+          </para>
 
         </sect2>
 
@@ -21325,7 +21428,7 @@
 
       <sect1 id="s1.ref.design_issues_storage">
 
-        <title>Storage</title>
+        <title>Speicher</title>
 
         <para>Critics concerning attributes of classes.</para>
 
