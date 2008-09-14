@@ -10794,7 +10794,9 @@
               	<xref linkend="s3.ref.menu_settings_notations"/> im 
               	Notationsregister des Dialoges Einstellungen, der die Standard-
               	Notation für neue Projekte definiert. Diese Einstellung wird 
-              	in der Datei <filename>argouml.properties</filename> gespeichert.
+              	in der Datei <filename>argouml.user.properties</filename> im 
+              	Verzeichnis <filename>.argouml</filename> des User-Home-
+              	Verzeichnisses gespeichert.
               </para>
 
             </listitem>
@@ -11848,27 +11850,6 @@
                 </para>
 
               </listitem>
-<!--  
-              <listitem>
-
-                <para>
-					<literal>${argo.root}</literal>. Der vollständige Pfad zum 
-					Programm ArgoUML. Z.B. zur Datei <literal>argouml.jar
-					</literal>.
-                </para>
-
-              </listitem>
-
-              <listitem>
-
-                <para>
-                	<literal>${argo.home}</literal>. Das ArgoUML-Homeverzeichnis, 
-                	das die von ArgoUML benötigten &quot;jar&quot;-Dateien 
-                	beinhaltet.
-                </para>
-
-              </listitem>
--->
               <listitem>
 
                 <para>
@@ -12104,6 +12085,21 @@
 
           </sect3>
 
+          <sect3 id="s3.ref.menu_settings_configure_shortcuts">
+            <title>Das Register Tastenkombinationen konfigurieren</title>
+            <para>(Noch zu beschreiben)</para>
+            <figure float="1">
+
+              <title>Der Dialog für <literal>Einstellungen - 
+              Tastenkombinationen konfigurieren</literal>.</title>
+
+              <screenshot><mediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/reference/menu_settings_configure_shortcuts.png"
+               format="PNG"/></imageobject></mediaobject></screenshot>
+            </figure>
+
+          </sect3>
           <sect3 id="s3.ref.menu_settings_notations">
 
             <title>Register Notation</title>
@@ -12161,6 +12157,25 @@
               </listitem>
 
               <listitem>
+              
+                <para>
+                	<literal>Die Namen der Knoten fettgedruckt darstellen</literal>.
+                </para>
+
+                <para>
+                	Diese Eigenschaft veranlasst, dass die Namen jedes Knotens 
+                	(z.B. etwas mit einem geschlossenen Polygon gezeichnet) 
+                	fettgedruckt dargestellt werden.
+                </para>
+                
+                <para>
+                	Es gibt keine Semantik, fettgedruckte Namen darzustellen, 
+                	aber ihr Diagramm wird schöner aussehen.
+                </para>
+
+              </listitem>
+
+              <listitem>
 
                 <para>
 					<literal>Französische Anführungszeichen</literal>
@@ -12185,6 +12200,18 @@
                 	werden, können Sie immer reale französische Anführungszeichen 
                 	(wenn Ihre Tastatur dies unterstützt) oder deren &lt;&lt;
                 	&gt;&gt;-Äquivalente eingeben.
+                </para>
+
+              </listitem>
+
+              <listitem>
+              
+                <para><literal>Zeige Assoziationsnamen</literal>.</para>
+
+                <para>
+                	Diese Eigenschaft veranlasst, dass die Namen jeder 
+                	Assoziation versteckt werden, sofern sie nicht markiert 
+                	wurden.
                 </para>
 
               </listitem>
@@ -12273,6 +12300,58 @@
               </listitem>
 
               <listitem>
+                <para><literal>Zeige "1"-Kardinalitäten</literal>.</para>
+
+                <para>
+                	Diese Eigenschaft erlaubt es dem Anwender auszuwählen, ob er 
+                	alle Kardinalitäten, die "1" sind darstellen will oder 
+                	nicht...
+                </para>
+                
+                <para>
+                	Manche Menschen betrachten eine nicht dargestellte 
+                	Kardinalität als "undefiniert", so dass es der 
+                	einzige Weg ist, zwischen einer Kardinalität von 1 und einer 
+                	undefinierten Kardinalität zu unterscheiden, indem man 
+                	dieses Markierfeld markiert.
+                </para>
+
+              </listitem>
+
+              <listitem>
+
+                <para>
+                	<literal>Verstecke Pfeilspitzen bei bi-direktionalen 
+                	Assoziationen.</literal>.
+                </para>
+
+                <para>
+                	Der UML-Standard definiert unterschiedliche Arten, die 
+                	Navigierbarkeit von Assoziationen in Diagrammen darzustellen.
+                	Darstellungsoption 1 ist es, alle Pfeile anzuzeigen (z.B. 
+                	sie können nur in eine bestimmte Richtung navigieren, wenn 
+                	ein Pfeil dargestellt wird). Darstellungsoption 2 ist, keine 
+                	Pfeile anzuzeigen und Darstellungsoption 3 ist, nur dann 
+                	einen Pfeil anzuzeigen, wenn die Assoziation gerichtet (
+                	unidirektional) ist.
+                </para>
+                
+                <para>
+                	Vor der Version 0.26, konnte ArgoUML nur die 
+                	Darstellungsoption 3 verwenden. Aktuell kann der Anwender 
+                	zwischen der Option 1 und 3 auswählen. Die Option 2 wird 
+                	nicht unterstützt. 
+                </para>
+
+                <para>
+                	In der Vergangenheit wurde die Option 3 sehr häufig in anderen 
+                	UML-Werkzeugen verwendet, aber neuerdings wird die Option 1 
+                	häufiger eingesetzt.
+                </para>
+
+              </listitem>
+
+              <listitem>
 
                 <para>
                 	<literal>Standard-Schattenbreite</literal>
@@ -12291,9 +12370,26 @@
 
           </sect3>
 
+
+          <sect3 id="s3.ref.menu_settings_diagram_appearance">
+            <title>Das Register Diagramm-Darstellung</title>
+            <para>(Noch zu beschreiben)</para>
+            <figure float="1">
+
+              <title>Der Dialog für <literal>Einstellungen - 
+              Diagramm-Darstellung</literal>.</title>
+
+              <screenshot><mediaobject><imageobject>
+              <imagedata align="center"
+               fileref="images/reference/menu_settings_diagram_appearance.png"
+               format="PNG"/></imageobject></mediaobject></screenshot>
+            </figure>
+
+          </sect3>
+          
           <sect3 id="s3.ref.menu_settings_modules">
 
-            <title>Register Module</title>
+            <title>Das Register Module</title>
 
             <para>
             	Dieses Register zeigt eine Liste der installierten Module an, 
@@ -12430,8 +12526,8 @@
           <warning>
 
             <para>
-            	Die Version 0.22 von ArgoUML aktualisiert den Dialog nicht 
-            	unmittelbar, wenn Änderungen in den Diagrammen vorgenommen 
+            	Die Version 0.26 von ArgoUML aktualisiert den Dialog nicht 
+            	sofort, wenn Änderungen in den Diagrammen vorgenommen 
             	werden: Änderung des Namens, hinzufügen von Diagrammen, löschen 
             	von Diagrammen.<!-- This is issue 2475. -->
             </para>
@@ -12473,15 +12569,15 @@
             </screenshot>
           </figure>
 
-          <para>
+          <!--  <para>
           	Oben im Dialog befinden sich die vier Register <literal>Name und 
           	Ort</literal>, <literal>Zuletzt geändert</literal>, <literal>
           	Gekennzeichnete Werte</literal> und <literal>Randbedingungen
           	</literal>. Bis auf das erste sind alle in V0.22 von ArgoUML 
           	deaktiviert (weil sie noch nicht implementiert sind), so dass das  
-	        <!-- This is issue 2501 -->
 	        erste Register immer markiert ist.
-          </para>
+          </para> -->
+	        <!-- This is issue 2501 -->
 
           <para>
           	Das Register <literal>Name und Ort</literal> definiert die 
@@ -12663,8 +12759,8 @@
             <para>
             	Dieser Dialog ist nicht modal, was es erlaubt, dass er während 
             	des editierens des Modelles geöffnet bleiben kann. Aber die 
-            	Implementierung der Version 0.22 von ArgoUML aktualisiert diesen 
-            	Dialog nicht unmittelbar, wenn Änderungen an den gefundenen 
+            	Implementierung der Version 0.26 von ArgoUML aktualisiert diesen 
+            	Dialog nicht sofort, wenn Änderungen an den gefundenen 
             	Modellelementen vorgenommen werden: Änderungen des Namens des 
             	Modellelementes, Änderung des Diagrammnamens. Das Löschen eines 
             	Diagrammes stoppt nicht die Möglichkeit danach zu suchen.
@@ -12874,6 +12970,17 @@
 
         </sect2>
 
+        
+        <sect2>
+          <title>Symbolleisten</title>
+          
+          <para>
+          	Dieses Menü erlaubt es dem Anwender beliebige Symbolleisten zu 
+          	verbergen oder anzuzeigen. Standardmäßig werden alle angezeigt.
+          </para>
+          
+        </sect2>
+        
         <sect2>
 
         	<title>XML-Quelltext</title>
@@ -13554,7 +13661,8 @@
 
           <para>
           	Diese Funktion arbeitet aktuell nur bei Klassendiagrammen. Bei allen 
-          	anderen Diagrammtypen ist dieses Menüelement deaktiviert.
+          	anderen Diagrammtypen führt dieses Menüelement nichts aus.
+          	<!--(it should be downlighted)-->.
           </para>
 
         </sect2>
@@ -13949,7 +14057,7 @@
           </para>
 
           <para>
-          	Die Version 0.20 von ArgoUML umfasst 90 Kritiken, einige davon sind 
+          	Die Version 0.26 von ArgoUML umfasst 90 Kritiken, einige davon sind 
           	unvollständig implementiert. Sie sind je Designwichtungskategorie 
           	im Kapitel Kritiken detailliert beschrieben (siehe 
           	<xref linkend="ch.ref.critics"/>).
@@ -14008,7 +14116,7 @@
           <warning>
 
             <para>
-            	In der Version 0.20 von ArgoUML sind keine weitergehende 
+            	In der Version 0.26 von ArgoUML sind keine weitergehende 
             	Informationen verfügbar und die Schaltfläche <literal>Gehe zu
             	</literal> ist deaktiviert.
             </para>
@@ -14060,14 +14168,14 @@
           <caution>
 
             <para>
-            	In der Release V0.20 von ArgoUML hat diese Auswahl keine 
+            	In der Release V0.26 von ArgoUML hat diese Auswahl keine 
             	Funktion. Sie ist für die künftige Entwicklung.
             </para>
 
           </caution>
 
           <para>
-          	Unterhalb der Felder befinden sich drei Schaltflächen in einer 
+          	Unterhalb der Felder befinden sich zwei Schaltflächen in einer 
           	horizontalen Reihe.
           </para>
 
@@ -14098,64 +14206,11 @@
             <listitem>
 
               <para>
-              	<literal>Konfigurieren</literal>.
-              	Diese Schaltfläche dient dem Konfigurieren der Kritik. 
+              	<literal>Erweitert</literal>. Diese Schaltfläche veranlasst 
+              	ArgoUML einige zusätzliche Spalten in der Tabelle der Kritiken 
+              	anzuzeigen. Sie erlauben eine detailliertere Untersuchung der 
+              	Eigenschaften einer Kritik.
               </para>
-
-              <caution>
-
-                <para>
-                	In der Version 0.20 von ArgoUML ist diese Funktion nicht 
-                	implementiert und diese Schaltfläche immer deaktiviert.
-                </para>
-
-              </caution>
-
-            </listitem>
-
-            <listitem>
-
-              <para>
-              	<literal>Editiere Netzwerk</literal>.
-              	Jetzt sind die Kritiken in Java implementiert. Das bedeutet, 
-              	dass der Endanwender keine neuen Kritiken hinzufügen kann. 
-              </para>
-
-              <para>
-              	Die Idee eines Kritik-Netzwerkes ist, dass es einen 
-              	Zustandsautomaten gibt, ähnlich einem Diagramm mit mehreren 
-              	Schritten. Jeder Schritt würde eine Bedingung ausdrücken, die 
-              	zusammen mit den Schritten mit dieser Kritik verknüpft wird und 
-              	die <quote>Regel</quote> beschreibt, welche die Kritik enthält. 
-              	Wenn die Regel geprüft wird, dann würden die verbleibenden 
-              	Schritte die Aktivitäten des Wizard definieren, um dem Anwender 
-              	beim Beheben des Problemes zu helfen.
-              </para>
-
-              <para>
-              	Die dahinter stehenden Ideen werden im Kapitel 4 von Jason 
-              	Robbins PhD Dissertation diskutiert (
-                <ulink url="http://argouml.tigris.org/docs/robbins_dissertation/diss4.html">http://argouml.tigris.org/docs/robbins_dissertation/diss4.html</ulink>. 
-                Einen Ausschnitt finden sie in den Bildern 1-6 in diesem 
-                Kapitel und der dazugehörigen Beschreibung.
-              </para>
-
-              <para>
-              	Eine mögliche Implementierung ist, dass die Bedingungen gegen 
-              	das UML-Metamodell in OCL geschrieben werden können. Eine 
-              	Bibliothek vordefinierter Bedingungen und Schritte würde es dem 
-              	Endanwender erlauben, neue Kritiken durch deren Kombination zu 
-              	erzeugen.
-              </para>
-
-              <caution>
-
-                <para>
-                	In der Version 0.20 von ArgoUML ist diese Funktion nicht 
-                	implementiert und diese Schaltfläche ist immer deaktiviert.
-                </para>
-
-              </caution>
 
             </listitem>
 
@@ -21748,57 +21803,68 @@
 
         <sect2 id="critics.CrNoTriggerOrGuard">
 
-          <title>Add Trigger or Guard to Transition</title>
+          <title>Einer Transition ein Signal oder einen Wächter hinzufügen</title>
 
-          <para>Suggestion that a transition is missing either a 
-          trigger or guard, one at least of which is required for it to 
-          be taken.</para>
+          <para>
+          	Hinweis, dass eine Transition entweder ein Signal oder einen 
+          	Wächter vermisst. Einer davon ist mindestens notwendig.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrInvalidJoin">
 
-          <title>Change Join Transitions</title>
+          <title>Ändere Vereinigungs-Transitionen</title>
 
-          <para>Suggestion that the join pseudostate has an invalid 
-          number of transitions. Normally there should be one outgoing 
-          and two or more incoming.</para>
+          <para>
+          	Hinweis, dass der Pseudozustand "Vereinigen" eine ungültige Anzahl 
+          	von Transitionen aufweist. Normalerweise sollten es eine abgehende 
+          	und zwei oder mehrere ankommende sein.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrInvalidFork">
 
-          <title>Change Fork Transitions</title>
+          <title>Ändere Gabelungs-Transitionen</title>
 
-          <para>Suggestion that the fork pseudostate has an invalid 
-          number of transitions. Normally there should be one incoming 
-          and two or more outgoing.</para>
+          <para>
+          	Hinweis, dass der Pseudozustand "Gabelung" eine ungültige Anzahl 
+          	von Transitionen aufweist. Normalerweise sollten es eine ankommende 
+          	und zwei oder mehrere abgehende sein.	
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrInvalidBranch">
 
-          <title>Add Choice/Junction Transitions</title>
+          <title>Entscheidungs-/Kreuzungstransitionen hinzufügen</title>
 
-          <para>Suggestion that the branch (choice or junction) 
-          pseudostate has an invalid number of transitions. Normally 
-          there should be at least one incoming transition and at least 
-          one outgoing transition.</para>
+          <para>
+          	Hinweis, dass der Pseudozustands-Zweig (Entscheidung oder Kreuzung) 
+          	eine ungültige Zahl von Transitionen aufweist. Normalerweise 
+          	sollten es mindestens eine ankommende Transition und mindestens 
+          	eine abgehende Transition sein. 
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrNoGuard">
 
-          <title>Add Guard to Transition</title>
+          <title>Einer Transition Wächter hinzufügen</title>
 
-          <para>Suggestion that the transition requires a guard.</para>
+          <para>
+          	Hinweis, dass die Transition einen Wächter benötigt.
+          </para>
 
           <caution>
 
-            <para>It is not clear that this is a valid critic. It is 
-            perfectly acceptable to have a transition without a 
-            guard&mdash;the transition is always taken when the trigger is 
-            invoked.</para>
+            <para>
+            	Es ist nicht klar, ob dies eine gültige Kritik ist. Es ist 
+            	sicherlich akzeptabel, eine Transistion ohne Wächter zu haben 
+            	&mdash; die Transition wird immer genommen, wenn das Signal 
+            	ausgelöst wird.
+            </para>
 
           </caution>
 
@@ -21806,42 +21872,51 @@
 
         <sect2>
 
-          <title>Clean Up Diagram</title>
+          <title>Das Diagramm aufräumen</title>
 
-          <para>This critic is discussed under an earlier design issues 
-          category (see <xref linkend="critics.CrNodesOverlap"/>
-          ).</para>
+          <para>
+          	Diese Kritik wurde unter einer früheren Design-Kategorie diskutiert 
+          	( siehe <xref linkend="critics.CrNodesOverlap"/>).
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrZeroLengthEdge">
 
-          <title>Make Edge More Visible</title>
+          <title>Eine Kante sichtbarer machen</title>
 
-          <para>Suggestion that an edge model element such as an association 
-          or abstraction is so short it may be missed. Move the 
-          connected model elements apart to make the edge more 
-          visible.</para>
+          <para>
+          	Hinweis, dass ein Kanten-Modellelement, wie zum Beispiel eine 
+          	Assoziation oder Abstraktion so kurz ist, dass sie vermisst werden 
+          	könnte. Ziehen Sie die verbundenen Modellelemente auseinander, um 
+          	die Kanten sichtbarer zu machen.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrMultiComposite">
 
-          <title>Composite Association End with Multiplicity &gt; 
+          <title>Zusammengesetztes Assoziationsende mit der Kardinalität &gt; 
           1</title>
 
-          <para>An instance may not belong by composition to more than 
-          one composite instance. You must change the multiplicity at 
-          the composite end of the association to either 0..1 or 1..1 
-          (1) for your model to make sense.</para>
+          <para>
+          	Eine Instanz kann durch eine Komposition nicht zu mehr als 
+          	einer Kompositions-Instanz gehören. Sie müssen die Kardinalität 
+          	am zusammengesetzten Ende der Assoziation entweder auf 0..1 oder 
+          	1..1 (1) setzen, damit das Modell Sinn macht.
+          </para>
 
-          <para>Remember that composition is the stronger aggregation 
-          kind and aggregation is the weaker. The problem can be 
-          compared to a model where a finger can be an integral part of 
-          several hands at the same time.</para>
+          <para>
+          	Erinnern Sie sich, dass die Komposition die strengere Aggregationsart 
+          	ist und die Aggregation schwächer ist. Das Problem kann mit einem 
+          	Modell verglichen werden, in dem ein Finger der integrale Teil von 
+          	mehreren Händen gleichzeitig sein kann.
+          </para>
 
-          <para>This is the second well-formedness rule on 
-          AssociationEnd in UML 1.4.</para>
+          <para>
+          	Dies ist die zweite wohlgeformte Regel bei Assoziationsenden in 
+          	UML 1.4.
+          </para>
 
         </sect2>
 
@@ -21849,238 +21924,302 @@
 
       <sect1 id="s1.ref.design_issues_design_patterns">
 
-        <title>Design Patterns</title>
+        <title>Designmuster</title>
 
-        <para>Critics concerning design pattern usage in ArgoUML.</para>
+        <para>Kritiken über die Nutzung von Designmustern in ArgoUML.</para>
 
-        <para>These relate to the use of patterns as described by the 
-        so called <quote>Gang of Four</quote>. ArgoUML also uses this 
-        category for critics associated with deployment and sequence 
-        diagrams. The current version of ArgoUML has the following 
-        critics in this category.</para>
+        <para>
+          Diese beziehen sich auf die Nutzung von Mustern, wie sie durch die 
+          sogenannte <quote>Viererbande</quote> beschrieben wurden. ArgoUML 
+          nutzt diese Kategorie auch für Kritiken, die sich auf Verteilungs- 
+          und Sequenzdiagramme beziehen. Die aktuelle Version von ArgoUML hat 
+          die folgenden Kritiken in dieser Kategorie.
+        </para>
 
         <sect2 id="critics.CrConsiderSingleton">
 
-          <title>Consider using Singleton Pattern for 
-          &lt;class&gt;</title>
+          <title>
+          	Die Nutzung des Singleton-Musters für eine &lt;class&gt; in Betracht 
+          	ziehen.
+          </title>
 
-          <para>The <emphasis>class</emphasis> has no non-static 
-          attributes nor any associations that are navigable away from 
-          instances of this class. This means that every instance of 
-          this class will be identical to every other instance, since 
-          there will be nothing about the instances that can 
-          differentiate them.</para>
+          <para>
+          	Die <emphasis>Klasse</emphasis> hat keine nicht-statischen Attribute 
+          	noch Assoziationen, die von der Instanz dieser Klasse abgehen. Das 
+          	bedeutet, dass jede Instanz dieser Klasse identisch mit jeder anderen 
+          	Instanz sein wird, da es nichts über die Instanz gibt, was sie 
+          	voneinander unterscheidbar macht.
+          </para>
 
-          <para>Under these circumstances you should consider making 
-          explicit that you have exactly one instance of this class, by 
-          using the singleton Pattern. Using the singleton pattern can 
-          save time and memory space. Within ArgoUML this can be done 
-          by using the &laquo;singleton&raquo; stereotype on this class.</para>
+          <para>
+          	Unter diesen Umständen sollten sie in Betracht ziehen, dass Sie 
+          	genau eine Instanz dieser Klsse haben, indem Sie das Singleton-Muster 
+          	verwenden. Die Nutzung des Singleton-Musters kann Zeit und 
+          	Speicherplatz einsparen. Innerhalb von ArgoUML kann dies durch 
+          	Nutzung des Stereotyps &laquo;singleton&raquo; auf diese Klasse 
+          	umgesetzt werden.
+          </para>
 
-          <para>If it is not your intent to have a single instance, you 
-          should define instance variables (i.e. non-static attributes) 
-          and/or outgoing associations that will represent differences 
-          bewteen instances.</para>
+          <para>
+          	Wenn es nicht Ihre Absicht ist nur eine Instanz zu haben, sollten 
+          	Sie Instanzvariablen definieren (z.B. nicht-statische Attribute) 
+          	und/oder abgehende Assoziationen, welche die Unterschiede zwischen 
+          	den Instanzen repräsentieren. 
+          </para>
 
-          <para>Having specified <emphasis>class</emphasis> as a 
-          singleton, you need to define the class so there can only be 
-          a single instance. This will complete the information 
-          representation part of your design. To achieve this you need 
-          to do the following.</para>
+          <para>
+          	Wenn Sie eine <emphasis>Klasse</emphasis> als Singleton spezifiziert 
+          	haben, müssen Sie die Klasse so definieren, dass sie nur eine 
+          	Instanz haben kann. Dies wird die Informationsdarstellung Ihres 
+          	Designs vervollständigen. Um dies zu erreichen, müssen Sie folgendes 
+          	tun.
+          </para>
 
           <orderedlist>
 
             <listitem>
 
-              <para>You must define a static attribute (a class 
-              variable) holding the instance. This must therefore have 
-              <emphasis>class</emphasis> as its type.</para>
+              <para>
+              	Sie müssen ein statisches Attribut definieren (eine 
+              	Klassenvariable), welche die Instanz aufnimmt. Diese muss aus 
+              	diesem Grund den Typ <emphasis>Klasse</emphasis> aufweisen.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para>You must have only private constructors so that new 
-              instances cannot be made by other code. The creation of 
-              the single instance could be through a suitable helper 
-              operation, which invokes this private constructor just 
-              once.</para>
+              <para>
+              	Sie dürfen nur einen privaten Konstruktor haben, so dass keine 
+              	neuen Instanzen durch anderen Code erzeugt werden kann. Das 
+              	Erzeugen der einzigen Instanz kann durch eine passende 
+              	Hilfsoperation erfolgen, die diesen privaten Konstruktor genau 
+              	einmals aufruft.
+              </para>
 
             </listitem>
 
             <listitem>
 
-              <para>You must have at least one constructor to override 
-              the default constructor, so that the default constructor 
-              is not used to create multiple instances.</para>
+              <para>
+              	Sie müssen mindestens einen Konstruktor haben, um den 
+              	Standardkonstruktor zu überschreiben, so dass der 
+              	Standardkonstruktor nicht dazu verwendet wird mehrere Instanzen 
+              	zu erzeugen.
+              </para>
 
             </listitem>
 
           </orderedlist>
 
-          <para>For the definition of a constructor under the UML 1.4 
-          standard, and extensions to that definition accepted by 
-          ArgoUML see <xref linkend="critics.CrConstructorNeeded"/>
-          .</para>
+          <para>
+          Die Definition eines Konstruktors gemäß UML-Standard 1.4 und dessen 
+          Erweiterungen, so dass die Definition durch ArgoUML akzeptiert wird, 
+          siehe <xref linkend="critics.CrConstructorNeeded"/>.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrSingletonViolated">
 
-          <title>Singleton Stereotype Violated in &lt;class&gt;</title>
+          <title>Singleton Stereotyp-Verletzung in &lt;Klasse&gt;</title>
 
-          <para>This class is marked with the &laquo;singleton&raquo; stereotype, 
-          but it does not satisfy the constraints imposed on singletons 
-          (ArgoUML will also accept &laquo;Singleton&raquo; stereotype as defining 
-          a singleton). A singleton class can have at most one 
-          instance. This means that the class must meet the design 
-          criteria for a singleton (see 
-          <xref linkend="critics.CrConsiderSingleton"/>).</para>
+          <para>
+          	Diese Klasse ist mit dem &laquo;singleton&raquo;-Stereotyp versehen, 
+          	stimmt aber nicht mit den für Singletons geltenden Randbedingungen 
+          	überein (ArgoUML akzeptiert auch den Stereotyp &laquo;Singleton
+          	&raquo; beim Definieren eines Singletons). Eine Singletonklasse 
+          	kann maximal eine Instanz haben. Das bedeutet, dass die Klasse den 
+          	Designkriterien für ein Singleton entsprechen muss (siehe 
+          	<xref linkend="critics.CrConsiderSingleton"/>).
+          </para>
 
-          <para>Whenever you mark a class with a stereotype, the class 
-          should satisfy all constraints of the stereotype. This is an 
-          important part of making a self-consistent and understangle 
-          design. Using the singleton pattern can save time and memory 
-          space.</para>
+          <para>
+          	Immer, wenn Sie eine Klasse mit einem Stereotypen kennzeichnen, 
+          	sollte die Klasse allen Bedingungen dieses Stereotyps entsprechen. 
+          	Die ist ein wichtiger Teil bei der Erstellung eines konsitenten und 
+          	verständlichen Designs. Die Nutzung des Singletonmusters kann Zeit 
+          	und Speicherplatz einsparen.
+          </para>
 
-          <para>If you no longer want this class to be a singleton, 
-          remove the &laquo;singleton&raquo; stereotype by clicking on the class 
-          and selecting the blank selection on the stereotype drop-down 
-          within the properties tab.</para>
+          <para>
+          	Wenn Sie diese Klasse nicht länger als Singleton benötigen, entfernen 
+          	Sie den Stereotypen &laquo;singleton&raquo; indem Sie auf die Klasse 
+          	klicken und die leere Auswahl im Stereotyp-Kombinationsfeld des 
+          	Registers Eigenschaften auswählen. 
+          </para>
 
-          <para>To apply the singleton pattern you should follow the 
-          directions in <xref linkend="critics.CrConsiderSingleton"/>
-          .</para>
+          <para>
+          	Bei der Anwendung eines Singletonmusters sollten Sie den Anweisungen 
+          	in <xref linkend="critics.CrConsiderSingleton"/> folgen.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrNodeInsideElement">
 
-          <title>Nodes normally have no enclosers</title>
+          <title>Knoten haben normalerweise keine Hülle</title>
 
-          <para>A suggestion that nodes should not be drawn inside 
-          other model elements on the deployment diagram, since they 
-          represent an autonomous physical object.</para>
+          <para>
+          	Ein Hinweis, dass Knoten nicht innerhalb anderer Modellelemente im 
+          	Verteilungsdiagramm eingezeichnet werden sollten, da sie ein 
+          	autonomes physikalisches Objekt repräsentieren.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrNodeInstanceInsideElement">
 
-          <title>NodeInstances normally have no enclosers</title>
+          <title>Knoteninstanzen haben normalerweise keine Hülle</title>
 
-          <para>A suggestion that node instances should not be drawn 
-          inside other model elements on the deployment diagram, since they 
-          represent an autonomous physical object.</para>
+          <para>
+          	Ein Hinweis, dass Knoteninstanzen nicht innerhalb anderer 
+          	Modellelemente im Verteilungsdiagramm eingezeichnet werden sollten, 
+          	da sie ein autonomes physikalisches Objekt repräsentieren.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrComponentWithoutNode">
 
-          <title>Components normally are inside nodes</title>
+          <title>
+          	Komponenten befinden sich normalerweise innerhalb von Knoten
+          </title>
 
-          <para>A suggestion that components represent the logical 
-          entities within physical nodes, and so should be drawn within 
-          a node, where nodes are shown on the deployment 
-          diagram.</para>
+          <para>
+          	Ein Hinweis, dass Komponenten logische Entitäten innerhalb 
+          	physikalischer Knoten repräsentieren und innerhalb eines Knoten 
+          	eingezeichnet werden sollten, wobei Knoten in einem 
+          	Verteilungsdiagramm dargestellt werden.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrCompInstanceWithoutNode">
 
-          <title>ComponentInstances normally are inside nodes</title>
+          <title>
+          	Komponenteninstanzen befinden sich normalerweise innerhalb von Knoten
+          </title>
 
-          <para>A suggestion that component instances represent the 
-          logical entities within physical nodes, and so should be 
-          drawn within a node instance, where node instances are shown 
-          on the deployment diagram.</para>
+          <para>
+          	Ein Hinweis, dass Komponenteninstanzen logische Entitäten innerhalb 
+          	physikalischer Knoten repräsentieren und innerhalb einer 
+          	Knoteninstanz eingezeichnet werden sollten, wobei Knoteninstanzen 
+          	in einem Verteilungsdiagramm dargestellt werden.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrClassWithoutComponent">
 
-          <title>Classes normally are inside components</title>
+          <title>
+          	Klassen befinden sich normalerweise innerhalb von Komponenten
+          </title>
 
-          <para>A suggestion that classes, as model elements making up 
-          components, should be drawn within components on the 
-          deployment diagram.</para>
+          <para>
+          	Ein Hinweis, dass Klassen als Modellelemente Komponenten bilden und 
+          	innerhalb von Komponenten in Verteilungsdiagrammen eingezeichnet 
+          	werden sollten.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrInterfaceWithoutComponent">
 
-          <title>Interfaces normally are inside components</title>
+          <title>
+          	Schnittstellen befinden sich normalerweise innerhalb von Komponenten
+          </title>
 
-          <para>A suggestion that interfaces, as model elements making up 
-          components, should be drawn within components on the 
-          deployment diagram.</para>
+          <para>
+          	Ein Hinweis, dass Schnittstellen als Modellelemente Komponenten 
+          	bilden und innerhalb von Komponenten in Verteilungsdiagrammen 
+          	eingezeichnet werden sollten.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrObjectWithoutComponent">
 
-          <title>Objects normally are inside components</title>
+          <title>
+          	Objekte befinden sich normalerweise innerhalb von Komponenten
+          </title>
 
-          <para>A suggestion that objects, as instances of model elements 
-          making up components, should be drawn within components or 
-          component instances on the deployment diagram.</para>
+          <para>
+          	Ein Hinweis, dass Objekte als Instanzen von Modellelementen 
+          	Komponenten bilden, die innerhalb von Komponenten oder 
+          	Komponenteninstanzen in Verteilungsdiagrammen eingezeichnet werden 
+          	sollten.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrWrongLinkEnds">
 
-          <title>LinkEnds have not the same locations</title>
+          <title>Verknüpfungsenden haben nicht die gleiche Ebene</title>
 
-          <para>A suggestion that a link (e.g. association) connecting 
-          objects on a deployment diagram has one end in a component 
-          and the other in a component instance (since objects can be 
-          in either). This makes no sense.</para>
+          <para>
+          	Ein Hinweis, dass eine Verknüpfung (z.B. eine Assoziation), die 
+          	Objekte in einem Verteilungsdiagramm verbindet, ein Ende in einer 
+          	Komponente und das andere Ende in einer Komponenteninstanz (da 
+          	Objekte in beiden auftreten können) hat. Dies macht keinen Sinn. 
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrInstanceWithoutClassifier">
 
-          <title>Set classifier (Deployment Diagram)</title>
+          <title>Klassifizierung einstellen (Verteilungsdiagramm)</title>
 
-          <para>Suggestion that there is an instance (object) without 
-          an associated classifier (class, datatype) on a deployment 
-          diagram.</para>
+          <para>
+          	Hinweis, dass es in einem Verteilungsdiagramm eine Instanz (Objekt) 
+          	ohne eine verknüpfte Klassifizierung gibt (Klasse, Datentyp).
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrCallWithoutReturn">
 
-          <title>Missing return-actions</title>
+          <title>Return-Aktionen werden vermisst</title>
 
-          <para>Suggestion that a sequence diagram has a send or call 
-          action without a corresponding return action.</para>
+          <para>
+          	Hinweis, dass ein Sequenzdiagramm eine Sende- oder Aufrufaktion ohne 
+          	entsprechende Return-Aktion enthält.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrReturnWithoutCall">
 
-          <title>Missing call(send)-action</title>
+          <title>Vermisse Aufruf(Sende)-Aktion</title>
 
-          <para>Suggestion that a sequence diagram has a return action, 
-          but no preceding call or send action.</para>
+          <para>
+          	Hinweis, dass ein Sequenzdiagramm eine Return-Aktion enthält, aber 
+          	keine vorhergehende Aufruf- oder Sende-Aktion.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrLinkWithoutStimulus">
 
-          <title>No Stimuli on these links</title>
+          <title>Kein Auslöseimpuls bei diesen Verknüpfungen</title>
 
-          <para>Suggestion that a sequence diagram has a link 
-          connecting objects without an associated stimulus (without 
-          which the link is meaningless).</para>
+          <para>
+          	Hinweis, dass ein Sequenzdiagramm eine Objekte verbindende 
+          	Verknüpfung ohne verknüpften Auslöseimpuls aufweist (ohne den die 
+          	Verknüpfung bedeutungslos ist).
+          </para>
 
           <warning>
 
-            <para>Triggering this critic indicates a serious problem, 
-            since ArgoUML provides no mechanism for creating a link 
-            without a stimulus. It probably indicates that the diagram 
-            was created by loading a corrupt project, with an XMI file 
-            describing a link without a stimulus, possibly created by a 
-            tool other than ArgoUML.</para>
+            <para>
+            	Das Auslösen dieser Kritik weist auf schwerwiegendes Probleme hin, 
+            	da ArgoUML keine Mechanismen für das Erzeugen einer Verknüpfung 
+            	ohne einen Auslöseimpuls enthält. Es weist wahrscheinlich 
+            	darauf hin, dass das Diagramm durch Laden eines defekten 
+            	Projektes mit einer XMI-Datei erzeugt wurde, welche eine 
+            	Verknüpfung ohne Auslöseimpuls beschreibt. Diese wurde 
+            	möglicherweise durch ein anderes Werkzeug erzeugt.
+            </para>
 
           </warning>
 
@@ -22088,21 +22227,24 @@
 
         <sect2 id="critics.CrSeqInstanceWithoutClassifier">
 
-          <title>Set Classifier (Sequence Diagram)</title>
+          <title>Klassifizierung einstellen (Sequenzdiagramm)</title>
 
-          <para>Suggestion that there is an object without an 
-          associated classifier (class, datatype) on a sequence 
-          diagram.</para>
+          <para>
+          	Hinweis, dass es in einem Sequenzdiagramm ein Objekt ohne eine damit 
+          	verknüpfte Klassifizierung (Klasse, Datentyp) gibt.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrStimulusWithWrongPosition">
 
-          <title>Wrong position of these stimuli</title>
+          <title>Falsche Position dieses Auslöseimpulses</title>
 
-          <para>Suggestion that the initiation of send/call-return 
-          message exchanges in a sequence diagram does not properly 
-          initiate from left to right.</para>
+          <para>
+          	Hinweis, dass in einem Sequenzdiagramm die Initiierung eines 
+          	Sende/Aufruf-Return-Nachrichtaustausches nicht richtig von links 
+          	nach rechts initiiert wurde.
+          </para>
 
         </sect2>
 
@@ -22110,24 +22252,30 @@
 
       <sect1 id="s1.ref.design_issues_relationships">
 
-        <title>Relationships</title>
+        <title>Beziehungen</title>
 
-        <para>Critics concerning associations in ArgoUML.</para>
+        <para>Kritiken, die sich in ArgoUML auf Assoziationen beziehen.</para>
 
-        <para>The current version of ArgoUML has the following critics 
-        in this category.</para>
+        <para>
+        	Die aktuelle Version von ArgoUML hat die folgenden Kritiken in 
+        	dieser Kategorie.
+        </para>
 
         <sect2 id="critics.CrCircularAssocClass">
 
-          <title>Circular Association</title>
+          <title>Zirkuläre Assoziation</title>
 
-          <para>Suggestion that an association class has a role that 
-          refers back directly to itself, which is not permitted.</para>
+          <para>
+          	Hinweis, dass eine Assoziationsklasse eine Rolle aufweist, die auf 
+          	sich selbst verweist. Dies ist nicht erlaubt.
+          </para>
 
           <warning>
 
-            <para>This critic is meaningless in the V0.14 version of 
-            ArgoUML which does not support association classes.</para>
+            <para>
+            	Diese Kritik ist in der V0.14 von ArgoUML bedeutungslos, da 
+            	sie Assoziationsklassen nicht unterstützt.
+            </para>
 
           </warning>
 
@@ -22135,85 +22283,107 @@
 
         <sect2 id="critics.CrUnnavigableAssoc">
 
-          <title>Make &lt;association&gt; Navigable</title>
+          <title> &lt;Assoziation&gt; navigierbar machen</title>
 
-          <para>Suggestion that the association referred to is not 
-          navigable in either direction. This is permitted in the UML 
-          standard, but has no obvious meaning in any practical 
-          design.</para>
+          <para>
+          	Hinweis, dass die betreffende Assoziation in keine Richtung 
+          	navigierbar ist. Dies ist im UML-Standard erlaubt, aber es hat 
+          	in einem praktischen Design keinerlei Bedeutung.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrNavFromInterface">
 
-          <title>Remove Navigation from Interface via 
-          &lt;association&gt;</title>
+          <title>
+          	Entferne die Navigation von der Schnittstelle via 
+          	&lt;Assoziation&gt;
+          </title>
 
-          <para>Associations involving an interface can be not be 
-          navigable in the direction from the interface. This is 
-          because interfaces contain only operation declarations and 
-          cannot hold pointers to other objects.</para>
+          <para>
+          	Assoziationen die eine Schnittstelle beinhalten können nicht von 
+          	der Schnittstelle aus navigierbar sein. Dies ist so, weil 
+          	Schnittstellen nur Operationsdeklarationen enthalten und keine 
+          	Zeiger auf andere Objekte halten können.
+          </para>
 
-          <para>This part of the design should be changed before you 
-          can generate code from this design. If you do generate code 
-          before fixing this problem, the code will not match the 
-          design.</para>
+          <para>
+          	Dieser Teil des Designs sollte geändert werden, bevor Sie Code 
+          	von diesem Design generieren. Wenn Sie den Code generieren, bevor 
+          	Sie dieses Problem lösen, wird der Code nicht mit dem Design 
+          	übereinstimmen.
+          </para>
 
-          <para>To fix this, select the association and use the 
-          <literal>Properties</literal> tab to select in turn each 
-          association end that is <emphasis>not</emphasis> connected to 
-          the interface. Uncheck <literal>Navigable</literal> for each 
-          of these ends.</para>
+          <para>
+          	Um dies zu beheben markieren Sie die Assoziation und nutzen das 
+          	Register <literal>Eigenschaften</literal>, um nach und nach jedes 
+          	Assoziationsende auszuwählen, das <emphasis>nicht</emphasis> mit 
+          	der Schnittstelle verbunden ist. Entfernen Sie die Markierung 
+          	<literal>Navigierbar</literal> für jedes dieser Enden.
+          </para>
 
-          <para>The association should then appear with a stick 
-          arrowhead pointed towards the interface</para>
+          <para>
+          	Die Assoziation sollte dann mit einem Pfeil in Richtung der 
+          	Schnittstelle erscheinen.
+          </para>
 
-          <para>When an association between a class and interface is 
-          created in ArgoUML, it is by default navigable only from the 
-          class to the interface. However, ArgoUML does not prevent to 
-          change the navigability afterwards into a wrong situation. 
-          Which will cause this critic to be triggered.</para>
+          <para>
+          	Wenn eine Assoziation zwischen einer Klasse und einer Schnittstelle 
+          	in ArgoUML erzeugt wird, ist diese standardmäßig nur von der Klasse 
+          	zur Schnittstelle navigierbar. Jedoch verhindert es ArgoUML nicht, 
+          	wenn die Navigierbarkeit danach fehlerhaft geändert wird. Was diese 
+          	Kritik auslösen würde.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrNoAssociations">
 
-          <title>Add Associations to &lt;model element&gt;</title>
+          <title>Dem &lt;Modellelement&gt; eine Assoziation hinzufügen</title>
 
-          <para>Suggestion that the specified model element (actor, use case 
-          or class) has no associations connecting it to other 
-          model elements. This is required for the model element to be useful in 
-          a design.</para>
+          <para>
+          	Hinweis, dass das spezifizierte Modellelement (Akteur, Anwendungsfall 
+          	oder Klasse) keine verbindenden Assoziationen zu anderen 
+          	Modellelementen aufweist. Dies ist aber erforderlich, wenn das 
+          	Modellelement in einem Design nützlich sein soll.
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Remove Reference to Specific Subclass</title>
+          <title>Referenz auf ein spezifische Subklasse entfernen</title>
 
-          <para>This critic is discussed under an earlier design issues 
-          category (see <xref linkend="critics.CrSubclassReference"/>
-          ).</para>
+          <para>
+          	Diese Kritik wird unter einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrSubclassReference"/>).
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrTooManyAssoc">
 
-          <title>Reduce Associations on &lt;model element&gt;</title>
+          <title>Reduzieren Sie die Assoziationen des &lt;Modellelementes&gt;</title>
 
-          <para>Suggestion that the given model element (actor, use case, 
-          class or interface) has so many associations it may be a 
-          maintenance bottleneck.</para>
+          <para>
+          	Hinweis, dass das betreffende Modellelement (Akteur, Anwendungsfall, 
+          	Klasse oder Schnittstelle) so viele Assoziationen aufweist, dass 
+          	diese zu einem Wartungsengpass führen können.
+          </para>
           
-          <para>The Wizard of this critic allows setting of the treshold, 
-          i.e. the maximum number of associations 
-          allowed before this critic fires.  </para>
+          <para>
+          	Der Assistent dieser Kritik erlaubt das Einstellen eines 
+          	Schwellwertes, z.B. die maximale Anzahl von erlaubten Assoziationen 
+          	bevor diese Kritk ausgelöst wird.
+          </para>
 
           <caution>
-            <para>This number is not stored persistently, and
-            there is no way to reduce it after it has been set higher,
-            except by creating more associations until the critic fires again.
-            Restarting ArgoUML resets this number to its default: 7.
+            <para>
+            	Diese Zahl wird nicht dauerhaft gespeichert. Es gibt keinen 
+            	Weg sie zu reduzieren, nachdem sie nach oben gesetzt wurde. Es 
+            	sei denn, man erzeugt mehr Assoziationen bis die Kritik erneut 
+            	ausgelöst wird. Ein Restart von ArgoUML setzt diese Zahl auf 
+            	seinen Standard zurück: 7.
             </para>
           </caution>
 
