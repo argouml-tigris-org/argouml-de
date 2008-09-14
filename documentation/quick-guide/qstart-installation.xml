@@ -57,10 +57,11 @@ Mindest-Systemanforderungen:
 	<sect1>
 		<title>Installationsoptionen</title>		
 		<para>
-			Nachdem Sie jetzt einen Computer haben, auf dem ArgoUML installiert und gestartet werden kann, müssen 
-			Sie entscheiden, welche der Installationsoptionen für Sie die richtige ist. Sie können aus folgenden 
-			Optionen auswählen:
-
+			Nachdem Sie jetzt einen Computer haben, auf dem ArgoUML installiert 
+			und gestartet werden kann, müssen Sie entscheiden, welche der 
+			Installationsoptionen für Sie die richtige ist. Sie können aus 
+			folgenden Optionen auswählen:
+		</para>
 			<itemizedlist>
 				<listitem>
 					<para>
@@ -167,7 +168,6 @@ java -jar argouml.jar
 					</orderedlist>
 				</listitem>
 			</itemizedlist>
-		</para>
 	</sect1>
   
   <sect1>
@@ -252,7 +252,22 @@ ArgoUML Auswirkung haben:
   
   <sect1>
     <title>Die .zargo-Datei klickbar machen (unter Windows)</title>
-    <sect1info>
+    <para>
+    	Das Windows-Installationsprogramm für ArgoUML weist die Erweiterung 
+    	".zargo" der Anwendung ArgoUML zu, so dass ein Doppel- oder einfacher 
+    	Klick auf die ArgoUML-Projektdatei ArgoUML automatisch startet.
+    </para>
+    <para>
+    	Wird das Installationsprogramm jedoch nicht verwendet und eine der 
+    	anderen Installationsmethoden genutzt, dann müssen Sie Windows hierfür 
+    	manuell konfigurieren. In diesem Fall folgen Sie den nachstehenden 
+    	Erläuterungen.
+    </para>
+  
+  <sect2>
+    
+    <title>Die .zargo-Datei klickbar machen (unter Windows)</title>
+    <sect2info>
       <authorgroup>
         <author>
           <firstname>Ewan</firstname>
@@ -260,46 +275,78 @@ ArgoUML Auswirkung haben:
           <surname>Grantham</surname>
         </author>
       </authorgroup>
-    </sect1info>
+    </sect2info>
     <para>
-Dies funktioniert nur, wenn Sie die binäre Distribution installiert haben.    
-</para>
+		Dies funktioniert nur, wenn Sie die binäre Distribution installiert 
+		haben.    
+	</para>
     <para>
-Zuerst suchen Sie eine Zargo-Datei und klicken mit der rechten Maustaste auf 
-die Datei. Jetzt sollte das normale Windowsmenü erscheinen, einschliesslich 
-einer Öffnen oder Öffnen mit-Option.
-Jetzt geben Sie eine Beschreibung für die Datei wie z.B. "ArgoUML Modell" ein 
-und teilen Windows mit, diese Datei mit Notepad zu öffnen.
-Das ist nicht das was Sie wollen, aber es zwingt Windows, die .zargo-Erweiterung 
-als gültigen Dateityp zu aktzeptieren.
-</para>
+		Zuerst suchen Sie eine Zargo-Datei und klicken mit der rechten Maustaste 
+		auf die Datei. Jetzt sollte das normale Windowsmenü erscheinen, 
+		einschliesslich einer "Öffnen" oder "Öffnen mit"-Option.
+		Jetzt geben Sie eine Beschreibung für die Datei wie z.B. "ArgoUML Modell" 
+		ein und teilen Windows mit, diese Datei mit Notepad zu öffnen.
+		Das ist nicht das was Sie wollen, aber es zwingt Windows, die 
+		.zargo-Erweiterung als gültigen Dateityp zu aktzeptieren.
+	</para>
     <para>
-Öffnen Sie jetzt den Windows Explorer und wählen Sie das Menü Ansicht->Optionen 
-(oder unter Windows XP) Werkzeuge->Verzeichnisoptionen...) aus.
-Sie sollten jetzt einen Dialog mit zwei (oder mehreren) Tabulatoren sehen. Klicken 
-Sie auf "Dateitypen" und scrollen dann durch die Liste nach der von Ihnen 
-eingegebenen Beschreibung - in unserem Beispiel "ArgoUML Modell". Klicken Sie auf 
-diesen Dateityp und dann auf die "Bearbeiten"-Schaltfläche.
-</para>
+		Öffnen Sie jetzt den Windows Explorer und wählen Sie das Menü 
+		Ansicht->Optionen (oder unter Windows XP) 
+		Werkzeuge->Verzeichnisoptionen...) aus. Sie sollten jetzt einen Dialog 
+		mit zwei (oder mehreren) Tabulatoren sehen. Klicken Sie auf "Dateitypen" 
+		und scrollen dann durch die Liste nach der von Ihnen eingegebenen 
+		Beschreibung - in unserem Beispiel "ArgoUML Modell". Klicken Sie auf 
+		diesen Dateityp und dann auf die "Bearbeiten"-Schaltfläche.
+	</para>
     <para>
-Nun klicken Sie auf "Öffnen" und dann auf die "Bearbeiten"-Schaltfläche. Es öffnet 
-sich ein Dialogfenster mit einer Eingabezeile für den Applikationsaufruf. Dieser 
-enthält aktuell den Eintrag zum Öffnen der Datei mit Hilfe von Notepad. Ersetzen 
-Sie diese Zeile mit:    
+		Nun klicken Sie auf "Öffnen" und dann auf die "Bearbeiten"-Schaltfläche. 
+		Es öffnet sich ein Dialogfenster mit einer Eingabezeile für den 
+		Applikationsaufruf. Dieser enthält aktuell den Eintrag zum Öffnen der 
+		Datei mit Hilfe von Notepad. Ersetzen Sie diese Zeile mit:    
 <command>
 "C:\Program Files\Java\j2re1.4.0_01\bin\javaw.exe" -jar "c:\ArgoUML\argouml.jar" "%L"
 </command>
-</para>
+	</para>
     <para>
-Ersetzen Sie den Pfad auf den Pfade Ihrer <filename>javaw.exe</filename> und 
-<filename>argouml.jar</filename> Dateien, wenn Sie sich an anderer Stelle 
-befinden.
-Klicken Sie 3 mal auf OK (drei Schaltflächen auf drei unterschiedlichen 
-Dialogebenen).
-</para>
-<para>Der Parameter %L in der obigen Kommandozeile wird anstelle von %l 
-benötigt, weil dies Dateierweiterungen von mehr als 3 Zeichen ermöglicht.
-</para>
+		Ersetzen Sie den Pfad auf den Pfade Ihrer <filename>javaw.exe</filename> 
+		und <filename>argouml.jar</filename> Dateien, wenn Sie sich an anderer 
+		Stelle befinden.
+		Klicken Sie 3 mal auf OK (drei Schaltflächen auf drei unterschiedlichen 
+		Dialogebenen).
+	</para>
+	<para>
+		Der Parameter %L in der obigen Kommandozeile wird anstelle von %l 
+		benötigt, weil dies Dateierweiterungen von mehr als 3 Zeichen ermöglicht.
+	</para>
+  </sect2>
+  <sect2>
+    <title>Die .zargo-Datei klickbar machen (unter Windows Vista)</title>
+    <sect2info>
+      <authorgroup>
+        <author>
+          <firstname>Allan</firstname>
+          <surname>Todd</surname>
+        </author>
+      </authorgroup>
+    </sect2info>
+
+    <para>
+      1) Erzeugen Sie eine Batch-Datei "runargo.bat" in Ihrem ArgoUML-
+      Verzeichnis, die wie folgt aussieht: :
+      <command>
+        @echo off</command>
+      <command>
+        cd "C:\ArgoUML"</command>
+      <command>
+        start javaw -cp "argouml.jar" org.argouml.application.Main %1 /B</command>
+      Ersetzen Sie "C:\ArgoUML" mit dem entsprechenden Pfad.
+    </para>
+
+    <para>
+      2) Verknüpfen Sie Ihre .zargo-Dateien mit dieser Batch-Datei (nur einen 
+      Doppelklick auf eine .zargo-Datei ausführen und den Anweisungen folgen).
+    </para>
+  </sect2>
   </sect1>
 
 </chapter>
