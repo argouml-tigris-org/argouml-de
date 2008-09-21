@@ -22363,7 +22363,9 @@
 
         <sect2 id="critics.CrTooManyAssoc">
 
-          <title>Reduzieren Sie die Assoziationen des &lt;Modellelementes&gt;</title>
+          <title>
+          	Reduzieren Sie die Assoziationen des &lt;Modellelementes&gt;
+          </title>
 
           <para>
           	Hinweis, dass das betreffende Modellelement (Akteur, Anwendungsfall, 
@@ -22391,11 +22393,12 @@
 
         <sect2>
 
-          <title>Make Edge More Visible</title>
+          <title>Kanten sichtbarer machen</title>
 
-          <para>This critic is discussed under an earlier design issues 
-          category (see <xref linkend="critics.CrZeroLengthEdge"/>
-          ).</para>
+          <para>
+          	Diese Kritik wird in einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrZeroLengthEdge"/>).
+          </para>
 
         </sect2>
 
@@ -22403,49 +22406,69 @@
 
       <sect1 id="s1.ref.design_issues_instantiation">
 
-        <title>Instantiation</title>
+        <title>Instanzen bilden</title>
 
-        <para>Critics concerning instantiation of classifiers in 
-        ArgoUML.</para>
+        <para>
+        	Kritiken, die sich auf das Bilden von Instanzen bei Klassifizierern 
+        	in ArgoUML beziehen.
+        </para>
 
-        <para>The current version of ArgoUML has no critics in this 
-        category.</para>
+        <para>
+        	Die aktuelle Version von ArgoUML hat keine Kritiken in dieser 
+        	Kategorie.
+        </para>
 
       </sect1>
 
       <sect1 id="s1.ref.design_issues_modularity">
 
-        <title>Modularity</title>
+        <title>Modularität</title>
 
-        <para>Critics concerning modular development in ArgoUML.</para>
+        <para>
+        	Kritiken, die sich auf die modulare Entwicklung in ArgoUML 
+        	beziehen.
+		</para>
 
-        <para>The current version of ArgoUML has the following critics 
-        in this category.</para>
+        <para>
+        	Die aktuelle Version von ArgoUML hat die folgenden Kritiken in 
+        	dieser Kategorie.
+        </para>
 
         <sect2 id="critics.CrCrossNamespaceAssoc">
 
-          <title>Classifier not in Namespace of its Association</title>
+          <title>
+          	Der Klassifizierer befindet sich nicht im Namensraum seiner 
+          	Assoziation.
+          </title>
 
-          <para>One of the well-formedness rules in UML 1.4 for 
-          associations, is that all the classifiers attached to the 
-          ends of the association should belong to the same namespace 
-          as the association.</para>
+          <para>
+          	Eine der wohlgeformten Regeln in UML 1.4 für Assoziationen lautet, 
+          	dass alle Klassifizierer, die den Enden einer Assoziation zugewiesen 
+          	werden, zum gleichen Namensraum gehören müssen wie die Assoziation.
+          </para>
 
-          <para>If this were not the case, there would be no naming, by 
-          which each end could refer to all the others.</para>
+          <para>
+          	Wenn dies nicht der Fall wäre, würde es keine Bezeichnung geben, 
+          	über das jedes Ende alle anderen referenzieren kann.
+          </para>
 
-          <para>This critic is triggered when an association does not 
-          meet this criterion. The solution is to delete the 
-          association, and recreate it on a diagram, whose namespace 
-          includes those of all the attached classifiers.</para>
+          <para>
+          	Diese Kritik wird ausgelöst, wenn eine Assoziation nicht mit diesem 
+          	Kriterium übereinstimmt. Die Lösung ist, die Assoziation zu löschen 
+          	und im Diagramm neu zu erzeugen, sodass der Namensraum alle 
+          	zugewiesenen Klassifizierer enthält.
+          </para>
 
           <caution>
 
-            <para>In the current implementation of ArgoUML this critic 
-            does not handle hierarchical namespaces. As a consequence 
-            it will trigger for associations where the immediate 
-            namespaces of the attached classifiers is different, even 
-            though they are part of the same namespace hierarchy.</para>
+            <para>
+            	Diese Kritik kann in der aktuellen Implementierung von ArgoUML 
+            	keine hierarchischen Namensräume verarbeiten. Als Konsequenz 
+            	daraus, wird die Kritik für Assoziationen ausgelöst, bei denen 
+            	der sich unmittelbare Namensraum der zugewiesenen Klassifizierer 
+            	von dem der Assoziation unterscheidet, auch wenn sie Teil der 
+            	gleichen Namensraumhierarchie sind. 
+            </para>
 
           </caution>
 
@@ -22453,17 +22476,19 @@
 
         <sect2 id="critics.CrEmptyPackage">
 
-          <title>Add Elements to Package &lt;package&gt;</title>
+          <title>Fügen Sie Elemente zum Paket &lt;Paket&gt; hinzu.</title>
 
-          <para>Suggestion that the specified package has no content. 
-          Good design suggests packages are created to put things 
-          in.</para>
+          <para>
+          	Hinweis, dass das angegebene Paket keinen Inhalt hat. Gutes Desgin 
+          	weist Pakete auf, die erzeugt wurden, Dinge hinein zu tun.
+          </para>
 
           <note>
 
-            <para>This will always trigger when you first create a 
-            package, since you cannot create one that is not 
-            empty!</para>
+            <para>
+            	Diese Kritik wird immer ausgelöst, wenn Sie erstmalig ein Paket 
+            	erzeugen, da Sie kein Paket erzeugen können, das nicht leer ist.
+            </para>
 
           </note>
 
@@ -22473,21 +22498,26 @@
 
       <sect1 id="s1.ref.design_issues_expected_usage">
 
-        <title>Expected Usage</title>
+        <title>Erwartete Verwendung</title>
 
-        <para>Critics concerning generally accepted good practice in 
-        ArgoUML.</para>
+        <para>
+        	Kritiken, die sich auf eine generell akzeptierte, gute Praxis 
+        	beziehen.
+        </para>
 
-        <para>The current version of ArgoUML has one critic in this 
-        category.</para>
+        <para>
+        	Die aktuelle Version von ArgoUML hat eine Kritik in dieser 
+        	Kategorie.
+        </para>
 
         <sect2>
 
-          <title>Clean Up Diagram</title>
+          <title>Diagramm aufräumen</title>
 
-          <para>This critic is discussed under an earlier design issues 
-          category (see <xref linkend="critics.CrNodesOverlap"/>
-          ).</para>
+          <para>
+          	Diese Kritik wird in einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrNodesOverlap"/>).
+          </para>
 
         </sect2>
 
@@ -22495,59 +22525,74 @@
 
       <sect1 id="s1.ref.design_issues_methods">
 
-        <title>Methods</title>
+        <title>Methoden</title>
 
-        <para>Critics concerning operations in ArgoUML.</para>
+        <para>Kritiken, die sich auf Operationen in ArgoUML beziehen.</para>
 
-        <para>The current version of ArgoUML has the following critics 
-        in this category.</para>
+        <para>
+        	Die aktuelle Version von ArgoUML hat die folgenden Kritiken in 
+        	dieser Kategorie.
+        </para>
 
         <sect2>
 
-          <title>Change Names or Signatures in &lt;model element&gt;</title>
+          <title>Ändere Namen oder Signaturen im &lt;Modellelement&gt;</title>
 
-          <para>This critic is discussed under an earlier design issues 
-          category (see <xref linkend="critics.CrOperNameConflict"/>
-          ).</para>
+          <para>
+          	Diese Kritik wird in einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrOperNameConflict"/>).
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrClassMustBeAbstract">
 
-          <title>Class Must be Abstract</title>
+          <title>Die Klasse muß abstrakt sein</title>
 
-          <para>Suggestion that a class that inherits or defines 
-          abstract operations must be marked abstract.</para>
+          <para>
+          	Hinweis, dass eine Klasse, die abstrakte Operationen erbt oder 
+          	definiert als abstrakte Klasse bezeichnet sein muß.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrNoOperations">
 
-          <title>Add Operations to &lt;class&gt;</title>
+          <title>Fügen Sie der &lt;Klasse&gt; Operationen hinzu</title>
 
-          <para>Suggestion that the specified class has no operations 
-          defined. This is required for the class to be useful in a 
-          design.</para>
+          <para>
+          	Hinweis, dass in der angegebenen Klasse keine Operationen definiert 
+          	wurden. Dies ist für die Klasse aber erforderlich, damit sie im 
+          	Design einen Nutzen hat.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrTooManyOper">
 
-          <title>Reduce Operations on &lt;model element&gt;</title>
+          <title>
+          	Reduzieren Sie die Anzahl der Operationen im &lt;Modellelement&gt;
+          </title>
 
-          <para>Suggestion that the model element (class or interface) has 
-          too many operations for a good design, and is at risk of 
-          becoming a design bottleneck.</para>
+          <para>
+          	Hinweis; dass das Modellelement (Klasse oder Schnittstelle) zu viele 
+          	Operationen aufweist, um gutem Design zu entsprechen. Darüber hinaus 
+          	beinhaltet es das Risiko, zum Design-Wartungsengpaß zu werden.
+          </para>
           
-          <para>The Wizard of this critic allows setting of the treshold, 
-          i.e. the maximum number of operations 
-          allowed before this critic fires.  </para>
+          <para>
+          	Der Assistent dieser Kritik erlaubt das Setzen eines Schwellwertes, 
+          	z.B. die maximale Anzahl von erlaubten Operationen bevor diese 
+          	Kritik ausgelöst wird.
+          </para>
 
           <caution>
-            <para>This number is not stored persistently, and
-            there is no way to reduce it after it has been set higher,
-            except by creating more operations until the critic fires again.
-            Restarting ArgoUML resets this number to its default: 20.
+            <para>
+            	Diese Anzahl wird nicht dauerhaft gespeichert. Es gibt keinen 
+            	Weg diese Anzahl zu reduzieren, nachdem sei einmal hochgesetzt 
+            	wurde. Außer, Sie erzeugen weitere Operationen bis diese 
+            	Kritik erneut ausgelöst wird. Der Neustart von ArgoUML setzt 
+            	diese Anzahl auf den Standardwert: 20 zurück. 
             </para>
           </caution>
 
@@ -22557,21 +22602,26 @@
 
       <sect1 id="s1.ref.design_issues_code_generation">
 
-        <title>Code Generation</title>
+        <title>Code-Generierung</title>
 
-        <para>Critics concerning code generation in ArgoUML.</para>
+        <para>
+        	Kritiken, die sich auf die Code-Generierung in ArgoUML beziehen.
+        </para>
 
-        <para>The current version of ArgoUML has one critic in this 
-        category.</para>
+        <para>
+        	Die aktuelle Version von ArgoUML hat eine Kritik in dieser 
+        	Kategorie.
+        </para>
 
         <sect2 id="critics.CrMultipleInheritance">
 
-          <title>Change Multiple Inheritance to interfaces</title>
+          <title>Ändern Sie die Mehrfachvererbung in Schnittstellen</title>
 
-          <para>Suggestion that a class has multiple generalizations, 
-          which is permitted by UML, but cannot be generated into Java 
-          code, because Java does not support multiple 
-          inheritance.</para>
+          <para>
+          	Hinweis, dass eine Klasse mehrere Vererbungen aufweist, was in UML 
+          	erlaubt ist, aber nicht in Java-Code umgesetzt werden kann, da Java 
+          	keine Mehrfachvererbung unterstützt.
+          </para>
 
         </sect2>
 
@@ -22579,48 +22629,62 @@
 
       <sect1 id="s1.ref.design_issues_stereotypes">
 
-        <title>Stereotypes</title>
+        <title>Stereotypen</title>
 
-        <para>Critics concerning stereotypes in ArgoUML.</para>
+        <para>Kritiken, die sich auf Stereotypen in ArgoUML beziehen.</para>
 
-        <para>The current version of ArgoUML has no critics in this 
-        category.</para>
+        <para>
+        	Die aktuelle Version von ArgoUML hat keine Kritiken in dieser 
+        	Kategorie.
+        </para>
 
       </sect1>
 
       <sect1 id="s1.ref.design_issues_inheritance">
 
-        <title>Inheritance</title>
+        <title>Vererbung</title>
 
-        <para>Critics concerning generalization and specialization in 
-        ArgoUML.</para>
+        <para>
+        	Kritiken, die sich mit der Generalisierung und Spezialisierung in 
+        	ArgoUML befassen.
+        </para>
 
-        <para>The current version of ArgoUML has the following critics 
-        in this category.</para>
+        <para>
+        	Die aktuelle Version von ArgoUML hat die folgenden Kritiken in 
+        	dieser Kategorie.
+        </para>
 
         <sect2>
 
-          <title>Revise Attribute Names to Avoid Conflict</title>
+          <title>
+          	Überprüfen Sie die Attributnamen, um einen Konflikt zu vermeiden.
+          </title>
 
-          <para>This critic is discussed under an earlier design issues 
-          category (see <xref linkend="critics.CrAttrNameConflict"/>
-          ).</para>
+          <para>
+          	Diese Kritik wird unter einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrAttrNameConflict"/>).
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrCircularInheritance">
 
-          <title>Remove &lt;class&gt;&apos;s Circular 
-          Inheritance</title>
+          <title>
+          	Entfernen Sie die zirkuläre Vererbung der Klasse &lt;Klasse&gt;
+          </title>
 
-          <para>Suggestion that a class inherits from itself, through a 
-          chain of generalizations, which is not permitted.</para>
+          <para>
+          	Hinweis, dass eine Klasse über eine Kette von Vererbungen von sich 
+          	selbst erbt, was nicht erlaubt ist.
+          </para>
 
           <caution>
 
-            <para>This critic is marked inactive by default in the 
-            current release of ArgoUML (the only one so marked). It 
-            will not trigger unless made active.</para>
+            <para>
+            	Diese Kritik ist in der aktuellen Release von ArgoUML 
+            	standardmäßig als inaktiv markiert (die einzige so markierte 
+            	Kritik). Sie wird nicht ausgelöst, bis sie aktiviert wird.
+            </para>
 
           </caution>
 
@@ -22628,38 +22692,47 @@
 
         <sect2>
 
-          <title>Class Must be Abstract</title>
+          <title>Die Klasse muß abstrakt sein</title>
 
-          <para>This critic is discussed under an earlier design issues 
-          category (see <xref linkend="critics.CrClassMustBeAbstract"/>
-          ).</para>
+          <para>
+          	Diese Kritik wird in einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrClassMustBeAbstract"/>).
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrFinalSubclassed">
 
-          <title>Remove final keyword or remove subclasses</title>
+          <title>
+          	Entfernen Sie das Schlüsselwort final oder entfernen Sie Subklassen
+          </title>
 
-          <para>Suggestion that a class that is final has 
-          specializations, which is not permitted in UML.</para>
+          <para>
+          	Hinweis, das eine als final deklarierte Klasse Spezialisierungen 
+          	aufweist, was in UML nicht erlaubt ist. 
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrIllegalGeneralization">
 
-          <title>Illegal Generalization</title>
+          <title>Illegale Generalisierung</title>
 
-          <para>Suggestion that there is a generalization between 
-          model elements of different UML metaclasses, which is not 
-          permitted.</para>
+          <para>
+          	Hinweis, dass es eine Generalisierung zwischen Modellelementen 
+          	unterschiedlicher UML-Metaklassen gibt, was nicht erlaubt ist.
+          </para>
 
           <caution>
 
-            <para>It is not clear that such a generalization can be 
-            created within ArgoUML. It probably indicates that the 
-            diagram was created by loading a corrupt project, with an 
-            XMI file describing such a generalization, possibly created 
-            by a tool other than ArgoUML.</para>
+            <para>
+            	Es ist nicht klar, wie so eine Generalisierung in ArgoUML 
+            	erzeugt werden könnte. Wahrscheinlich zeigt sie auf, dass das 
+            	Diagramm durch Laden eines defekten Projektes, mit einer XMI-
+            	Datei erzeugt wurde, die so eine Generalisierung beschreibt.
+            	Wahrscheinlich wurde diese durch ein anderes Tool als ArgoUML 
+            	erzeugt.
+            </para>
 
           </caution>
 
@@ -22667,52 +22740,66 @@
 
         <sect2 id="critics.CrAlreadyRealizes">
 
-          <title>Remove Unneeded Realizes from &lt;class&gt;</title>
+          <title>
+          	Enferne unnötige Realisierungen aus der Klasse &lt;Klasse&gt;
+          </title>
 
-          <para>Suggestion that the specified class has a realization 
-          relationship both directly and indirectly to the same 
-          interface (by realization from two interfaces, one of which 
-          is a generalization of the other for example). Good design 
-          deprecates such duplication.</para>
+          <para>
+          	Hinweis, das die angegebene Klasse eine realisierte, direkte und 
+          	indirekte Beziehung auf die gleiche Schnittstelle hat (durch 
+          	Realisierung von zwei Schnittstellen, eine davon ist die 
+          	Generalisierung der anderen, zum Beispiel). Ein gutes Design 
+          	vermeidet solche Duplizierungen. 
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrUselessAbstract">
 
-          <title>Define Concrete (Sub)Class</title>
+          <title>Definiere eine konkrete (Sub-)Klasse</title>
 
-          <para>Suggestion that a class is abstract with no concrete 
-          subclasses, and so can never be realized.</para>
+          <para>
+          	Hinweis, dass eine Klasse als abstrakt deklariert ist, und keine 
+          	konkrete Subklassen aufweist, so dass sie niemals realisiert 
+          	(erzeugt) werden kann.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrUselessInterface">
 
-          <title>Define Class to Implement &lt;interface&gt;</title>
+          <title>
+          	Definieren Sie eine Klasse, um die Schnittstelle &lt;Schnittstelle&gt; 
+          	zu implementieren
+          </title>
 
-          <para>Suggestion that the interface referred to has no 
-          influence on the running system, since it is never 
-          implemented by a class.</para>
-
-        </sect2>
-
-        <sect2>
-
-          <title>Change Multiple Inheritance to interfaces</title>
-
-          <para>This critic is discussed under an earlier design issues 
-          category (see <xref linkend="critics.CrMultipleInheritance"/>
-          ).</para>
+          <para>
+          	Hinweis, dass die referenzierte Schnittstelle keine Auswirkung auf 
+          	das laufende System hat, da sie nicht durch eine Klasse 
+          	implementiert wurde.
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Make Edge More Visible</title>
+          <title>Ändere Mehrfachvererbung in Schnittstellen</title>
 
-          <para>This critic is discussed under an earlier design issues 
-          category (see <xref linkend="critics.CrZeroLengthEdge"/>
-          ).</para>
+          <para>
+          	Diese Kritik wird unter einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrMultipleInheritance"/>).
+          </para>
+
+        </sect2>
+
+        <sect2>
+
+          <title>Machen Sie die Kanten sichtbarer</title>
+
+          <para>
+          	Diese Kritik wird unter einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrZeroLengthEdge"/>).
+          </para>
 
         </sect2>
 
@@ -22722,105 +22809,130 @@
 
         <title>Containment</title>
 
-        <para>Critics concerning containment in ArgoUML, that is where 
-        one model element forms a component part of another.</para>
+        <para>
+        	Kritiken, die sich auf das Containment in ArgoUML beziehen. D.h., 
+        	wo ein Modellelement den Komponententeil eines anderen bildet.
+        </para>
 
-        <para>The current version of ArgoUML has the following critics 
-        in this category.</para>
+        <para>
+        	Die aktuelle Version von ArgoUML hat die folgenden Kritiken in 
+        	dieser Kategorie.
+        </para>
 
         <sect2 id="critics.CrCircularComposition">
 
-          <title>Remove Circular Composition</title>
+          <title>Entferne zirkuläre Komposition</title>
 
-          <para>Suggestion that there is a series of composition 
-          relationships (associations with black diamonds) that form a 
-          cycle, which is not permitted.</para>
+          <para>
+          	Hinweis, das es eine Reihe von Kompositionen (Assoziationen mit 
+          	einem schwarzen Diamanten) gibt, die einen Zirkelbezug bilden, was 
+          	nicht erlaubt ist.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrDupParamName">
 
-          <title>Duplicate Parameter Name</title>
+          <title>Duplizieren Sie den Parameternamen</title>
 
-          <para>Suggestion that a parameter list to an operation or 
-          event has two or more parameters with the same name, which is 
-          not permitted.</para>
+          <para>
+          	Hinweis, dass eine Parameterliste einer Operation oder eines 
+          	Ereignisses zwei oder mehr Parameter mit dem gleichen Namen aufweist, 
+          	was nicht erlaubt ist.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrMultipleAgg">
 
-          <title>Two Aggregate Ends (Roles) in Binary 
-          Association</title>
+          <title>
+          	Zwei Aggregatenden (Rollen) in binärer Assoziation
+          </title>
 
-          <para>Only one end (role) of a binary association can be 
-          aggregate or composite. This a well-formedness rule of the 
-          UML 1.4 standard.</para>
+          <para>
+          	Nur ein Ende (Rolle) einer binären Assoziation kann Aggregat oder 
+          	Komposition sein. Dies ist eine wohlgeformte Regel des UML 1.4-
+          	Standards.
+          </para>
 
-          <para>Aggregation and composition are used to indicate 
-          whole-part relationships, and by definition, the 
-          <quote>part</quote> end cannot be aggregate.</para>
+          <para>
+          	Aggregation und Komposition werden verwendet, um Ganzes-Teil-
+          	Beziehungen darzustellen und der <quote>Teil</quote> kann per 
+          	Definition kein Aggregat(Zusammenfassung) sein.
+          </para>
 
-          <para>To fix this, identify the <quote>part</quote> end of 
-          the association, and use the critic wizard (the <literal>
-          Next&gt;</literal> button, or manually set its aggregation to 
-          <literal>none</literal> using the button&nbsp;2 pop-up menu or the 
-          property sheet.</para>
+          <para>
+          	Um dies zu lösen, identifizieren Sie das <quote>Teil</quote>-Ende 
+          	der Assoziation und verwenden Sie im Kritikassistenten die 
+          	Schaltfläche <literal>Weiter &gt;</literal>, setzen seine 
+          	Aggregation manuell mit Hilfe des Taste&nbsp;2-Popup-Menüs oder des 
+          	Eigenschaftsregisters auf <literal>none</literal>.
+          </para>
 
-          <para>Composition (more correctly called composite 
-          aggregation) is used where there is a whole-part relationship 
-          that is one-to-one or one-to-many, and the lifetime of the 
-          part is inextricably tied to the lifetime of the whole. 
-          Instances of the whole will have responsibility for creating 
-          and destroying instances of the associated part. This also 
-          means that a class can only be a part in one composite 
-          aggregation.</para>
+          <para>
+          	Eine Komposition (korrekter verbundene Aggregation genannt) wird 
+          	verwendet, wenn es eine Ganzes-Teil-Beziehung gibt, die eins-zu-eins 
+          	oder eins-zu-viele sind und die Lebensdauer des Teils unauflösbar 
+          	von der Lebensdauer des Ganzen abhängt. Instanzen des Ganzen sind 
+          	für das Erzeugen und Löschen der Instanzen der verknpften Teile 
+          	verantwortlich. Das bedeutet auch, dass eine Klasse nur Teil einer 
+          	verbundenen Aggregation sein kann.
+          </para>
 
-          <para>An example of a composite aggregation might be a 
-          database of cars and their wheels. This is a one-to-four 
-          relationship, and the database entry for a wheel is 
-          associated with its car. When the car ceases to exist in the 
-          database, so do its wheels.</para>
+          <para>
+          	Ein Beispiel einer verbundenen Aggregation könnte eine Datenbank 
+          	von Autos mit deren Reifen sein. Dies ist eine eins-zu-vier-
+          	Beziehung und der Datenbankeintrag für einen Reifen ist mit seinem 
+          	Auto verknüpft. Wenn ein Auto in der Datenbank aufhört zu existieren, 
+          	dann trifft dies auch auf seine Reifen zu.
+          </para>
 
-          <para>Aggregation (more correctly called shared aggregation) 
-          is used where there is a whole-part relationship, that does 
-          not meet the criteria for a composite aggregation. An example 
-          might be a database of university courses and the students 
-          that attend them. There is a whole-part relationship between 
-          courses and students. However there is no lifetime 
-          relationship between students and course (a student continues 
-          to exist even after a course is finished) and the 
-          relationship is many-to-many.</para>
+          <para>
+          	Die Aggregation (korrekter aufgeteilte Aggregation genannt) wird 
+          	verwendet, wenn es eine Ganzes-Teil-Beziehung gibt, die nicht den 
+          	Kriterien für eine verbunden Aggregation übereinstimmt. Ein Beispiel 
+          	könnte eine Datenbank von Universitätskursen und den Studenten sein, 
+          	die diese belegen. Es gibt eine Ganzes-Teil-Beziehung zwischen den 
+          	Kursen und den Studenten. Jedoch gibt es keine Lebensdauerbeziehung 
+          	zwischen den Studenten und den Kursen (ein Student existiert weiter, 
+          	nachdem er den Kurs absolviert hat) und die Beziehung lautet 
+          	viele-zu-viele.
+          </para>
 
         </sect2>
 
         <sect2 id="critics.CrNWayAgg">
 
-          <title>Aggregate End (Role) in 3-way (or More) 
-          Association</title>
+          <title>Aggregatende (Rolle) in 3-Wege (oder mehr) Assoziation</title>
 
-          <para>Three-way (or more) associations can not have aggregate 
-          ends (roles). This a well-formedness rule of the UML 1.4 
-          standard.</para>
+          <para>
+          	Drei-Wege- (oder mehr) Assoziationen können keine Aggregatenden 
+          	(Rollen) haben. Dies ist eine wohlgeformte Regel des UML 1.4-
+          	Standards.
+          </para>
 
-          <para>Aggregation and composition are used to indicate 
-          whole-part relationships, and by definition can only apply to 
-          binary associations between model elements.</para>
+          <para>
+          	Aggregation und Komposition werden verwendet, um Ganzes-Teile-
+          	Beziehungen darzustellen. Diese können per Definition nur auf 
+          	binäre Assoziationen zwischen Modellelementen angewendet werden.
+          </para>
 
-          <para>To fix this, manually select the association, and set 
-          the aggregation of each of its ends (roles) to <literal>
-          none</literal> using the button&nbsp;2 pop-up menu or the property 
-          sheet.</para>
+          <para>
+          	Um dies zu lösen, markieren Sie die Assoziation manuell und setzen 
+          	Sie jedes Ende (Rolle) dieser Aggregation mit Hilfe des Taste&nbsp;2-
+          	Popup-Menüs oder dem Eigenschaftsregister auf <literal>none</literal>.
+          </para>
 
         </sect2>
 
         <sect2>
 
-          <title>Wrap DataType</title>
+          <title>Datentyp verbergen</title>
 
-          <para>This critic is discussed under an earlier design issues 
-          category (see <xref linkend="critics.CrNonAggDataType"/>
-          ).</para>
+          <para>
+          	Diese Kritik wird unter einer früheren Designkategorie diskutiert 
+          	(siehe <xref linkend="critics.CrNonAggDataType"/>).
+          </para>
 
         </sect2>
 
@@ -22832,73 +22944,80 @@
 
   <part>
 
-    <title>Model Reference</title>
+    <title>Modellreferenz</title>
 
     <chapter id="ch.ref.entities">
 
-      <title>Top Level Model Element Reference</title>
+      <title>Modellreferenz auf höchster Ebene</title>
 
       <sect1>
 
-        <title>Introduction</title>
+        <title>Einleitung</title>
 
-        <para>This chapter describes each model element that can be created 
-        within ArgoUML. The chapter covers top-level 
-        <quote>general</quote> model elements. The following chapters (see 
-        <xref linkend="ch.ref.entusecase"/> through 
-        <xref linkend="ch.ref.entdeploy"/>) cover each of the ArgoUML 
-        diagrams.</para>
+        <para>
+        	Dieses Kapitel beschreibt jedes Modellelement, dass innerhalb 
+        	von ArgoUML erzeugt werden kann. Das Kapitel deckt die <quote>
+        	generellen</quote> Modellelemente auf höchster Ebene ab. Die 
+        	folgenden Kapitel (siehe <xref linkend="ch.ref.entusecase"/> bis 
+        	<xref linkend="ch.ref.entdeploy"/>) decken jedes der ArgoUML-
+        	Diagramme ab.
+        </para>
 
-        <para>There is a close relationship between this material and 
-        the properties tab of the details pane (see 
-        <xref linkend="s1.ref.proptab"/>). That section covers 
-        properties in general, in this chapter they are linked to 
-        specific model elements.</para>
+        <para>
+        	Es gibt eine enge Beziehung zwischen diesem Material und dem 
+        	Register Eigenschaften des Detailfensters (siehe 
+        	<xref linkend="s1.ref.proptab"/>). Dieser Abschnitt deckt die 
+        	Eigenschaften im Allgemeinen ab, in diesem Kapitel werden sie mit 
+        	den spezifischen Modellelementen verknüpft.
+        </para>
 
       </sect1>
 
       <sect1 id="s1.ref.model">
 
-        <title>The Model</title>
+        <title>Das Modell</title>
 
-        <indexterm><primary>Model, The</primary></indexterm>
-        <para>The model is the top level model element within ArgoUML. In 
-        the UML meta-model it is a sub-class of package. In many 
-        respects within ArgoUML it behaves similarly to a package (see 
-        <xref linkend="s1.ref.package"/>).</para>
+        <indexterm><primary>Modell, Das</primary></indexterm>
+        <para>
+        	Das Modell ist in ArgoUML ein Modellelement auf höchster Ebene. Im 
+        	UML-Metamodell ist es eine Subklasse von package. In vielerlei 
+        	Hinsicht weist es innerhalb von ArgoUML Ähnlichkeiten mit einem 
+        	package auf (siehe <xref linkend="s1.ref.package"/>).
+        </para>
 
         <note>
 
-          <para>ArgoUML is restricted to one model within the 
-          tool.</para>
+          <para>
+          	ArgoUML ist auf ein Modell beschränkt.
+          </para>
 
         </note>
 
-        <para>Standard data types, classes and packages are loaded (the 
-        default, see <xref linkend="ch.ref.entbuiltin"/>) as 
-        sub-packages of the model. These sub-packages are not initially 
-        present in the model but are added to the model when 
-        used.</para>
+        <para>
+        	Standard-Datentypen, Klassen und Pakete werden (der Standard, siehe 
+        	<xref linkend="ch.ref.entbuiltin"/>) als Sub-Pakete des Modells 
+        	geladen. Diese Subpakete sind im Modell zu Beginn nicht präsent, 
+        	werden aber zum Modell hinzugefügt, wenn sie verwendet werden. 
+        </para>
 
         <sect2>
 
-          <title>Model Details Tabs</title>
+          <title>Die Register Modelldetails</title>
 
-          <indexterm><primary>Model Details Tabs</primary></indexterm>
-          <indexterm><primary>Details Tabs</primary><secondary>for 
-          Model</secondary></indexterm>
-          <para>The details tabs that are active for the model are as 
-          follows.</para>
+          <indexterm><primary>Modelldetails Register</primary></indexterm>
+          <indexterm><primary>Details Register</primary><secondary>für das  
+          Modell</secondary></indexterm>
+          <para>Die Details-Register sind für das Modell wie folgt aktiv.</para>
 
           <variablelist>
 
             <varlistentry>
 
-              <term><literal>ToDoItem</literal></term>
+              <term><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
-                <para>Standard tab.</para>
+                <para>Standard-Register.</para>
 
               </listitem>
 
@@ -22906,14 +23025,14 @@
 
             <varlistentry>
 
-              <term><literal>Properties</literal></term>
+              <term><literal>Eigenschaften</literal></term>
 
               <listitem>
 
-                <para>See 
-                <xref linkend="s2.ref.model_property_toolbar"/> and 
+                <para>Siehe 
+                <xref linkend="s2.ref.model_property_toolbar"/> und 
                 <xref linkend="s2.ref.model_property_fields"/> 
-                below.</para>
+                unten.</para>
 
               </listitem>
 
@@ -22921,11 +23040,11 @@
 
             <varlistentry>
 
-              <term><literal>Documentation</literal></term>
+              <term><literal>Dokumentation</literal></term>
 
               <listitem>
 
-                <para>Standard tab. See 
+                <para>Standard-Register. Siehe 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
 
               </listitem>
@@ -22934,15 +23053,15 @@
 
             <varlistentry>
 
-              <term><literal>Stereotype</literal></term>
+              <term><literal>Stereotypen</literal></term>
 
               <listitem>
 
-                <para>Standard tab. 
-                This contains a a list of the stereotypes 
-                applied to this model, and a list of
-                available stereotypes that may be applied to the model.
-                </para>
+                <para>Standard-Register.
+                Dies enthält eine Liste von Stereotypen, die diesem Modell 
+                zugeordnet sind und eine Liste der verfügbaren 
+                Stereotypen, die auf dieses Modell angewendet werden können. 
+               </para>
 
               </listitem>
 
@@ -22950,29 +23069,35 @@
 
             <varlistentry>
 
-              <term><literal>Tagged Values</literal></term>
+              <term><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
-                <para>Standard tab. In the UML meta-model, <literal>
-                Model</literal> has the following standard tagged 
-                values defined.</para>
+                <para>
+                	Standard-Register. Im UML-Metamodell hat das <literal>
+                	Modell</literal> die folgenden Standard-Eigenschaftswerte 
+                	definiert.
+                </para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para><literal>derived</literal> (from the 
-                    superclass, <literal>ModelElement</literal>).</para>
+                    <para><literal>derived</literal> (von der Superklasse, 
+                    <literal>Modellelement</literal>).</para>
 
-                    <para>Values <literal>true</literal>, meaning the 
-                    class is redundant &mdash; it can be formally derived 
-                    from other elements, or <literal>false</literal> 
-                    meaning it cannot.</para>
+                    <para>
+                    	Werte <literal>true</literal>, bedeutet: die Klasse 
+                    	ist redundant &mdash; sie kann formal von anderen Elementen 
+                    	abgeleitet werden oder, <literal>false</literal> bedeutet: 
+                    	sie kann nicht von anderen Elementen abgeleitet werden.
+                    </para>
 
-                    <para>Derived models have their value in analysis 
-                    to introduce useful names or concepts, and in 
-                    design to avoid re-computation.</para>
+                    <para>
+                    	Abgeleitete Modelle haben ihren Wert in der Analyse, um 
+                    	nützliche Namen oder Konzepte einzuführen und im Design, 
+                    	um eine Nachverarbeitung zu verhindern.
+                    </para>
 
                   </listitem>
 
@@ -22988,7 +23113,7 @@
 
         <sect2 id="s2.ref.model_property_toolbar">
 
-          <title>Model Property Toolbar</title>
+          <title>Symbolleiste Modelleigenschaften</title>
 
           <variablelist>
 
@@ -22998,15 +23123,19 @@
               <imagedata align="center"
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Go up</literal></term>
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
-                <para>Navigate up through the composition structure of the 
-                model.</para>
+                <para>
+                	Navigiert durch die zusammengesetzte Struktur des Modelles 
+                	nach oben.
+                </para>
 
-                <para>Since the model is the top package nothing can 
-                happen, and this button is allways downlighted.</para>
+                <para>
+                	Das das Modell das oberste Paket ist, kann nichts passieren. 
+                	Aus diesem Grund ist die Schaltfläche immer deaktiviert.
+                </para>
 
               </listitem>
 
@@ -23018,25 +23147,29 @@
               <imagedata align="center"
                fileref="images/icons/package.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Package</literal></term>
+              <literal>Neues Paket</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Add Package</primary></indexterm>
-                <indexterm><primary>New Package</primary></indexterm>
-                <indexterm><primary>Create 
-                New</primary><secondary>Package</secondary></indexterm>
-                <para>This creates a new Package (see 
-                <xref linkend="s1.ref.package"/>) within the model 
-                (which appears on no diagram), navigating immediately 
-                to the properties tab for that package.</para>
+                <indexterm><primary>Paket hinzufügen</primary></indexterm>
+                <indexterm><primary>Neues Paket</primary></indexterm>
+                <indexterm><primary>Neu erzeugen 
+                </primary><secondary>Package</secondary></indexterm>
+                <para>
+                	Dies erzeugt eine neues Paket (siehe 
+                	<xref linkend="s1.ref.package"/>) innerhalb des Modelles 
+                	(das in keinem Diagramm erscheint), und springt sofort in 
+                	das Register Eigenschaften des Paketes.
+                </para>
 
                 <tip>
 
-                  <para>While it can make sense to create Packages of 
-                  the model this way, it is usually a lot clearer to 
-                  create them within diagrams where you want 
-                  them.</para>
+                  <para>
+                  	Da es Sinn machen kann, Pakete für diese Modell auf diese 
+                  	Weise zu erzeugen, ist es gewöhnlich deutlich klarer, diese 
+                  	innerhalb der Diagramme zu erzeugen, wenn Sie welche 
+                  	benötigen.
+                  </para>
 
                 </tip>
 
@@ -23050,18 +23183,20 @@
               <imagedata align="center"
                fileref="images/icons/datatype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New DataType</literal></term>
+              <literal>Neuer Datentyp</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Add DataType</primary></indexterm>
-                <indexterm><primary>New DataType</primary></indexterm>
-                <indexterm><primary>Create 
-                New</primary><secondary>DataType</secondary></indexterm>
-                <para>This creates a new DataType (see 
-                <xref linkend="s1.ref.datatype"/>) within the model 
-                (which appears on no diagram), navigating immediately 
-                to the properties tab for that DataType.</para>
+                <indexterm><primary>Datentyp hinzufügen</primary></indexterm>
+                <indexterm><primary>Neuer Datentyp</primary></indexterm>
+                <indexterm><primary>Neu erzeugen 
+                </primary><secondary>Datentyp</secondary></indexterm>
+                <para>
+                	Dies erzeugt einen neuen Datentyp (siehe 
+                <xref linkend="s1.ref.datatype"/>) innerhalb des Modelles 
+                (der in keinem Diagramm erscheint) und springt sofort in das 
+                Register Eigenschaften dieses Datentyps. 
+                </para>
 
               </listitem>
 
@@ -23073,18 +23208,20 @@
               <imagedata align="center"
                fileref="images/icons/enumeration.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Enumeration</literal></term>
+              <literal>Neue Aufzählung</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Add Enumeration</primary></indexterm>
-                <indexterm><primary>New Enumeration</primary></indexterm>
-                <indexterm><primary>Create 
-                New</primary><secondary>Enumeration</secondary></indexterm>
-                <para>This creates a new Enumeration (see 
-                <xref linkend="s1.ref.enumeration"/>) within the model 
-                (which appears on no diagram), navigating immediately 
-                to the properties tab for that Enumeration.</para>
+                <indexterm><primary>Aufzählung hinzufügen</primary></indexterm>
+                <indexterm><primary>Neue Aufzählung</primary></indexterm>
+                <indexterm><primary>Neu erzeugen 
+                </primary><secondary>Aufzählung</secondary></indexterm>
+                <para>
+                	Dies erzeugt eine neue Aufzählung (siehe 
+                <xref linkend="s1.ref.enumeration"/>) innerhalb des Modelles 
+                (die in keinem Diagramm erscheint) und springt sofort in das 
+                Register Eigenschaften dieser Aufzählung. 
+                </para>
 
               </listitem>
 
@@ -23096,18 +23233,20 @@
               <imagedata align="center"
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Stereotype</literal></term>
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Add Stereotype</primary></indexterm>
-                <indexterm><primary>New Stereotype</primary></indexterm>
-                <indexterm><primary>Create 
-                New</primary><secondary>Stereotype</secondary></indexterm>
-                <para>This creates a new Stereotype (see 
-                <xref linkend="s1.ref.stereotype"/>) within the model, 
-                navigating immediately to the properties tab for that 
-                stereotype.</para>
+                <indexterm><primary>Stereotyp hinzufügen</primary></indexterm>
+                <indexterm><primary>Neuer Stereotyp</primary></indexterm>
+                <indexterm><primary>Neu erzeugen 
+                </primary><secondary>Stereotyp</secondary></indexterm>
+                <para>
+                	Dies erzeugt einen neuen Stereotypen (siehe 
+                 	<xref linkend="s1.ref.stereotype"/>) innerhalb des Modelles 
+                 	und springt sofort in das Register Eigenschaften dieses 
+                 	Stereotypen. 
+                </para>
 
               </listitem>
 
@@ -23119,12 +23258,14 @@
               <imagedata align="center"
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Delete</literal></term>
+              <literal>Löschen</literal></term>
 
               <listitem>
 
-                <para>This tool is always downlighted, since it is 
-                meaningless to delete the model!</para>
+                <para>
+                	Dieses Symbol ist immer deaktiviert, da es keinen Sinn 
+                	macht, das Modell zu löschen!
+                </para>
 
               </listitem>
 
@@ -23136,7 +23277,7 @@
 
         <sect2 id="s2.ref.model_property_fields">
 
-          <title>Property Fields For The Model</title>
+          <title>Eigenschaftsfelder des Modelles</title>
 
           <variablelist>
 
@@ -23146,20 +23287,24 @@
 
               <listitem>
 
-                <indexterm><primary>Model Name</primary></indexterm>
-                <indexterm><primary>Name</primary><secondary>of 
-                Model</secondary></indexterm>
-                <para>Text box. The name of the model. The name of a 
-                model, like all packages, is by convention all lower 
-                case.</para>
+                <indexterm><primary>Name des Modelles</primary></indexterm>
+                <indexterm><primary>Name</primary><secondary>von  
+                Modell</secondary></indexterm>
+                <para>
+                	Textfeld. Name des Modelles. Der Name des Modelles, wie 
+                	alle anderen Pakete, wird per Konvention in Kleinbuchstaben 
+                	geschrieben.
+                </para>
 
                 <note>
 
-                  <para>The default name supplied to a new model by 
-                  ArgoUML, <literal>untitledModel</literal>, is thus 
-                  erroneous and guarantees that ArgoUML always starts 
-                  up with at least one problem being reported by the 
-                  design critics.</para>
+                  <para>
+                  	Der Standardname, der einem neuen Modell in ArgoUML 
+                  	zugwiesen wird ist <literal>unbenanntesModell</literal>. Er 
+                  	ist daher fehlerfrei und garantiert, dass ArgoUML immer 
+                  	mit mindestens einem Problem startet, was durch die Design-
+                  	Kritiken ausgestellt wird. 
+                  </para>
 
                 </note>
 
@@ -23169,24 +23314,28 @@
 
             <varlistentry>
 
-              <term><literal>Stereotype</literal></term>
+              <term><literal>Stereotyp</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Model 
-                Stereotype</primary></indexterm>
-                <indexterm><primary>Stereotype</primary><secondary>of 
-                Model</secondary></indexterm>
-                <para>Drop down selector. Model is provided by default 
-                with the UML standard stereotypes for model (
-                <literal>systemModel</literal> and <literal>
-                metamodel</literal>) and package (
-                <literal>facade</literal>, <literal>
-                framework</literal>, <literal>stub</literal>).</para>
+                <indexterm><primary>Modell 
+                Stereotyp</primary></indexterm>
+                <indexterm><primary>Stereotyp</primary><secondary>von  
+                Modell</secondary></indexterm>
+                <para>
+                	DropDown-Auswahl. Das Modell ist standardmäßig mit den 
+                	UML-Standard-Stereotypen für Modelle (
+                	<literal>systemModel</literal> und <literal>
+                	metamodel</literal>) und dem Paket (
+                	<literal>facade</literal>, <literal>
+                	framework</literal>, <literal>stub</literal>) ausgestattet.
+                </para>
 
-                <para>Stereotyping models is a useful thing, although 
-                it is of limited value in ArgoUML where you have only a 
-                single model.</para>
+                <para>
+                	Das stereotypisieren von Modellen ist nützlich, obwohl es 
+                	in ArgoUML nur von eingeschränktem Wert ist, da Sie nur ein 
+                	einziges Modell haben.
+                </para>
 
               </listitem>
 
@@ -23194,7 +23343,7 @@
 
             <varlistentry>
 
-              <term><literal>Navigate Stereotype</literal></term>
+              <term><literal>Stereotypen steuern</literal></term>
 
               <listitem>
 
@@ -23202,8 +23351,8 @@
                 <imagedata align="center"
                  fileref="images/icons/navigate_stereotype.gif"
                  format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-                icon. If a stereotype has been selected, this will 
-                navigate to the stereotype property panel (see 
+                Symbol. Wenn ein Stereotyp markiert wurde, wird dieser über das  
+                Stereotyp-Eigenschaftsfenster gesteuert (siehe 
                 <xref linkend="s1.ref.stereotype"/>).</para>
 
               </listitem>
@@ -23212,18 +23361,19 @@
 
             <varlistentry>
 
-              <term><literal>Namespace</literal></term>
+              <term><literal>Namensraum</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Model 
-                Namespace</primary></indexterm>
-                <indexterm><primary>Namespace</primary><secondary>of 
-                Model</secondary></indexterm>
-                <para>Text box. Records the namespace for the model. 
-                This is the package hierarchy. However since the model 
-                is at the top of the hierarchy in ArgoUML, this box is 
-                always empty.</para>
+                <indexterm><primary>Modell- 
+                Namensraum</primary></indexterm>
+                <indexterm><primary>Namensraum</primary><secondary> von  
+                Modell</secondary></indexterm>
+                <para>
+                	Textfeld. Nimmt den Namensraum des Modelles auf. Dies ist 
+                	die Pakethierarchie. Da sich das Modell an der Spitze der 
+                	Hierarchie befindet, ist dieses Feld immer leer. 
+                </para>
 
               </listitem>
 
@@ -23231,22 +23381,26 @@
 
             <varlistentry>
 
-              <term><literal>Visibility</literal></term>
+              <term><literal>Sichtbarkeit</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Model 
-                Visibility</primary></indexterm>
-                <indexterm><primary>Visibility</primary><secondary>of 
-                Model</secondary></indexterm>
-                <para>Radio box, with entries <literal>
+                <indexterm><primary>Modell- 
+                Sichtbarkeit</primary></indexterm>
+                <indexterm><primary>Sichtbarkeit</primary><secondary>von  
+                Modell</secondary></indexterm>
+                <para>
+                	Auswahlbereich mit den Einträgen <literal>
                 public</literal>, <literal>private</literal>,  
-                <literal>protected</literal>, and 
-                <literal>package</literal>.</para>
+                <literal>protected</literal> und 
+                <literal>package</literal>.
+                </para>
 
-                <para>Records the visibility for the model. Since 
-                ArgoUML only permits one model, this has no meaningful 
-                use.</para>
+                <para>
+                	Zeichnet die Sichtbarkeit des Modelles auf. Da ArgoUML nur 
+                	ein Modell erlaubt, hat diese Eigenschaft keine besondere 
+                	Bedeutung.
+                </para>
 
               </listitem>
 
@@ -23254,48 +23408,58 @@
 
             <varlistentry>
 
-              <term><literal>Modifiers</literal></term>
+              <term><literal>Modifizierer</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Model 
-                Modifiers</primary></indexterm>
-                <indexterm><primary>Modifiers</primary><secondary>of 
-                Model</secondary></indexterm>
-                <para>Check box, with entries <literal>
-                Abstract</literal>, <literal>Leaf</literal> and 
-                <literal>Root</literal>.</para>
+                <indexterm><primary>Modell- 
+                Modifizierer</primary></indexterm>
+                <indexterm><primary>Modifizierer</primary><secondary>von  
+                Modell</secondary></indexterm>
+                <para>
+                	Markier-Bereich mit den Einträgen <literal>
+                Abstract</literal>, <literal>Leaf</literal> und 
+                <literal>Root</literal>.
+                </para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para><literal>abstract</literal> is used to 
-                    declare that this model cannot be instantiated, but 
-                    must always be specialized.</para>
+                    <para>
+                    	<literal>abstract</literal> wird verwendet, um zu 
+                    	deklarieren, dass dieses Modell nicht instantiiert 
+                    	werden kann. Aber es muß immer spezialisiert werden.
+                    </para>
 
-                    <para>The meaning of <literal>abstract</literal> 
-                    applied to a model is not that clear. It might mean 
-                    that the model contains interfaces or abstract 
-                    classes without realizations. Since ArgoUML only 
-                    permits one model, this is not a meaningful box to 
-                    check.</para>
+                    <para>
+                    	Die Bedeutung von <literal>abstract</literal>, wenn es 
+                    	auf ein Modell angewendet wird ist nicht klar. Es 
+                    	könnte bedeuten, dass das Modell Schnittstellen oder 
+                    	abstrakteKlassen ohne Realiserung enthält. Da ArgoUML 
+                    	nur ein Modell erlaubt, ist das markieren dieses 
+                    	Feldes bedeutungslos.
+                    </para>
 
                   </listitem>
 
                   <listitem>
 
-                    <para><literal>Leaf</literal> indicates that this 
-                    model can have no further subpackages, while 
-                    <literal>root</literal> indicates it is the top 
-                    level model.</para>
+                    <para>
+                    	<literal>Leaf</literal> gibt an, dass diese Modell keine 
+                    	weiteren Subpakete haben darf, während <literal>root
+                    	</literal> angibt, das es das Modell auf oberster Ebene 
+                    	ist.
+                    </para>
 
-                    <para>Within ArgoUML <literal>root</literal> only 
-                    meaningfully applies to the Model, since all 
-                    packages sit within the model. In the absence of 
-                    the <literal>topLevel</literal> stereotype, this 
-                    could be used to emphasize that the Model is at the 
-                    top level.</para>
+                    <para>
+                    	Innerhalb von ArgoUML kann <literal>root</literal> nur 
+                    	auf das Modell sinnvoll angewendet werden, da alle 
+                    	Pakete sich innerhalb des Modelles befinden. In 
+                    	Abwesenheit des Stereotypen <literal>topLevel</literal>, 
+                    	kann dies dazu verwendet werden, herauszustellen dass 
+                    	das Modell sich auf der obersten Ebene befindet.
+                    </para>
 
                   </listitem>
 
@@ -23307,18 +23471,22 @@
 
             <varlistentry>
 
-              <term><literal>Generalizations</literal></term>
+              <term><literal>Generalisierungen</literal></term>
 
               <listitem>
 
-                <para>Text area. Lists any model that 
-                <emphasis>generalizes</emphasis> this model.</para>
+                <para>
+                	Textbereich. Listet jedes Modell auf, das dieses Modell 
+                	<emphasis>generalisiert</emphasis>.
+                </para>
 
                 <note>
 
-                  <para>Since there is only one model in ArgoUML there 
-                  is no sensible specialization or generalization that 
-                  could be created.</para>
+                  <para>
+                  	Da es in ArgoUML nur ein Modell gibt, gibt es keine 
+                  	Spezialisierung oder Generalisierung, die erzeugt werden 
+                  	könnte.
+                  </para>
 
                 </note>
 
@@ -23328,18 +23496,22 @@
 
             <varlistentry>
 
-              <term><literal>Specializations</literal></term>
+              <term><literal>Spezialisierung</literal></term>
 
               <listitem>
 
-                <para>Text box. Lists any specialized model (i.e. for 
-                which this model is a generalization.</para>
+                <para>
+                	Textbereich. Listet jedes spezialisiertes Modell auf (z.B. 
+                	für welches Modell diese Modell eine Generalisierung ist).
+                </para>
 
                 <note>
 
-                  <para>Since there is only one model in ArgoUML there 
-                  is no sensible specialization or generalization that 
-                  could be created.</para>
+                  <para>
+                  	Da es in ArgoUML nur ein Modell gibt, gibt es keine 
+                  	Spezialisierung oder Generalisierung, die erzeugt werden 
+                  	könnte.
+                  </para>
 
                 </note>
 
@@ -23349,22 +23521,25 @@
 
             <varlistentry>
 
-              <term><literal>Owned Elements</literal></term>
+              <term><literal>Eigene Elemente</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Model Owned 
-                Elements</primary></indexterm>
-                <indexterm><primary>Owned 
-                Elements</primary><secondary>of 
-                Model</secondary></indexterm>
-                <para>Text area. A listing of the top level packages, 
-                classes, interfaces, datatypes, actors, use cases, 
-                associations, generalizations, and stereotypes within 
-                the model.</para>
+                <indexterm><primary>Modell-eigene Elemente</primary></indexterm>
+                <indexterm><primary>Eigene 
+                Elemente</primary><secondary> von  
+                Modell</secondary></indexterm>
+                <para>
+                Textbereich. Eine Liste der Pakte, Klassen, Schnittstellen, 
+                Datentypen, Akteure, Anwendungsfälle, Assoziationen, 
+                Generalisierungen und Stereotypen innerhalb des Modelles auf 
+                oberster Ebene. 
+                </para>
 
-                <para>Button&nbsp;1 double click on any of the model elements 
-                yields navigating to that model element.</para>
+                <para>
+                	Ein Taste&nbsp;1-Klick auf jedes dieser Modellelemente 
+                	veranlasst, dass zu diesem Modellelement gesprungen wird.
+                </para>
 
               </listitem>
 
@@ -23378,7 +23553,7 @@
 
       <sect1 id="s1.ref.datatype">
 
-        <title>Datatype</title>
+        <title>Datatyp</title>
 
         <indexterm><primary>Datatype</primary></indexterm>
         <para>Datatypes can be thought of as simple classes. They have 
