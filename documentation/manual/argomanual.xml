@@ -15262,6 +15262,15 @@
 
         <sect2>
 
+          <title>Neuer Stereotyp</title>
+
+          <para>Dieser Eintrag im Popup-Menü ist verfügbar ...
+          (Noch zu beschreiben)</para>
+
+        </sect2>
+
+        <sect2>
+
           <title>Alle Klassen im Namensraum hinzufügen</title>
 
           <para>
@@ -23553,74 +23562,83 @@
 
       <sect1 id="s1.ref.datatype">
 
-        <title>Datatyp</title>
+        <title>Datentyp</title>
 
-        <indexterm><primary>Datatype</primary></indexterm>
-        <para>Datatypes can be thought of as simple classes. They have 
-        no attributes, and any operations on them must have no 
-        side-effects. A useful analogy is primitive datatypes in a 
-        language like Java. The integer <quote>3</quote> stands on its 
-        own&mdash;it has no inner structure. There are operations (for 
-        example addition) on the integers, but when I perform <literal>
-        3&nbsp;+&nbsp;4</literal> the result is a new number, <quote>3</quote> 
-        and <quote>4</quote> are unchanged by the exercise.</para>
+        <indexterm><primary>Datentyp</primary></indexterm>
+        <para>
+        	Datentypen kann man sich als einfache Klassen denken. Sie haben 
+        	keine Attribute und jede Operation von Ihnen darf keine Seiteneffekte 
+        	aufweisen. Eine nützliche Analogie sind primitive Datentypen in 
+        	einer Sprache wie Java. Die Integerzahl <quote>3</quote> steht für 
+        	sich selbst&mdash; sie hat keine innere Struktur. Es gibt 
+        	Operationen (z.B. Addition) auf Integerzahlen, aber wenn sie 
+        	<literal>3&nbsp;+&nbsp;4</literal> ausführen, ist das Ergebnis eine 
+        	neue Zahl, <quote>3</quote> und <quote>4</quote> bleiben in diesem 
+        	Beispiel unverändert.
+        </para>
 
-        <para>Within UML&nbsp;1.4, <literal>DataType</literal> is a 
-        sub-class of the <literal>Classifier</literal> metaclass. It 
-        embraces the predefined primitive types (
-        <literal>byte</literal>, <literal>char</literal>, <literal>
-        double</literal>, <literal>float</literal>, <literal>
-        int</literal>, <literal>long</literal> and <literal>
-        short</literal>), the predefined enumeration, <literal>
-        boolean</literal> and user defined <emphasis>enumeration 
-        types</emphasis>.</para>
+        <para>
+        	Innerhalb von UML&nbsp;1.4 ist ein <literal>Datentyp</literal> eine 
+        	Subklasse der Metaklasse <literal>Klassifizierer</literal>. Dieser 
+        	umfasst die vordefinierten primitiven Typen (<literal>byte</literal>
+        	, <literal>char</literal>, <literal>double</literal>, <literal>
+        	float</literal>, <literal>int</literal>, <literal>long</literal> und 
+        	<literal>short</literal>), die vordefinierte Aufzählung, <literal>
+        	boolean</literal> und die anwenderdefinierten <emphasis>enumeration 
+        	Typen</emphasis>.
+        </para>
 
         <note>
 
-          <para>Also <literal>void</literal> is implemented as a 
-          datatype within ArgoUML</para>
+          <para>
+          	Auch <literal>void</literal> ist als Datentyp innerhalb von ArgoUML 
+          	definiert.
+          </para>
 
         </note>
 
-        <para>Within ArgoUML new datatypes may be created using the 
-        <literal>New datatype</literal> button on the property tabs of 
-        the model and packages (in which case the new datatype is 
-        restricted in scope to the package), as well as the properties 
-        tab for datatype. 
-        Datatypes can also be created with the tool 
-        in the diagram toolbar of a class diagram.</para>
+        <para>
+        	Innerhalb von ArgoUML können neue Datentypen mit Hilfe der 
+        	Schaltfläche <literal>Neuer Datentyp</literal> im Register 
+        	Eigenschaften des Modelles und Paketen (in diesem Fall ist der 
+        	neue Datentyp auf den Scope des Paktes beschränkt), als auch im 
+        	Register Eigenschaften für Datentypen erzeugt werden.
+        	Datentypen können auch mit dem Symbol in der Diagrammsymbolleiste 
+        	eines Klassendiagrammes erzeugt werden.
+        </para>
 
-        <para>The UML&nbsp;1.4 standard 
-        allows user defined datatypes to be placed on 
-        class diagrams to define their inheritence structure. 
-        This is also possible in ArgoUML.
-        It is represented on the diagram by a box with two compartments, of
-        which the top one is marked with 
-        <literal>&laquo;datatype&raquo;</literal>, 
-        and contains the name. 
-        The lower one contains operations.
+        <para>
+        	Der UML&nbsp;1.4-Standard erlaubt das Plazieren von 
+        	benutzerdefinierten Datentypen in Klassendiagrammen, um deren 
+        	Vererbungsstruktur zu definieren.
+        	Dies ist auch in ArgoUML möglich.
+        	Er wird im Diagramm durch einen Rahmen mit zwei Bereichen dargestellt, 
+        	wobei der oberste mit <literal>&laquo;Datentyp&raquo;</literal> 
+        	gekennzeichnet ist und den Namen enthält.
+        	Der untere enthält die Operationen.
         </para>
 
         <sect2>
 
-          <title>Datatype Details Tabs</title>
+          <title>Register Datentyp-Details</title>
 
-          <indexterm><primary>Datatype Details 
-          Tabs</primary></indexterm>
-          <indexterm><primary>Details Tabs</primary><secondary>for 
-          Datatype</secondary></indexterm>
-          <para>The details tabs that are active for datatypes are as 
-          follows.</para>
+          <indexterm><primary>Register Datatyp-Details 
+          </primary></indexterm>
+          <indexterm><primary>Register Details</primary><secondary>für 
+          Datatyp</secondary></indexterm>
+          <para>
+          	Die Register Details, die für Datentypen aktiv sind, sind folgende:
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
-              <term><literal>ToDoItem</literal></term>
+              <term><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
-                <para>Standard tab.</para>
+                <para>Standard-Register.</para>
 
               </listitem>
 
@@ -23628,18 +23646,18 @@
 
             <varlistentry>
 
-              <term><literal>Properties</literal></term>
+              <term><literal>Eigenschaften</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Datatype 
-                Properties</primary></indexterm>
-                <indexterm><primary>Properties</primary><secondary>of 
-                Datatype</secondary></indexterm>
-                <para>See 
-                <xref linkend="s2.ref.datatype_property_toolbar"/> and 
+                <indexterm><primary>Datatyp- 
+                Eigenschaften</primary></indexterm>
+                <indexterm><primary>Eigenschaften</primary><secondary>von 
+                Datatypen</secondary></indexterm>
+                <para>Siehe 
+                <xref linkend="s2.ref.datatype_property_toolbar"/> und 
                 <xref linkend="s2.ref.datatype_property_fields"/> 
-                below.</para>
+                unten.</para>
 
               </listitem>
 
@@ -23647,11 +23665,11 @@
 
             <varlistentry>
 
-              <term><literal>Documentation</literal></term>
+              <term><literal>Dokumentation</literal></term>
 
               <listitem>
 
-                <para>Standard tab. See 
+                <para>Standard-Register. Siehe 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
 
               </listitem>
@@ -23660,13 +23678,15 @@
 
             <varlistentry>
 
-              <term><literal>Source</literal></term>
+              <term><literal>Quelldatei</literal></term>
 
               <listitem>
 
-                <para>Standard tab. Unused. One would expect a class 
-                declaration for the new datatype to support code 
-                generation.</para>
+                <para>
+                	Standard-Register. Nicht im Einsatz. Es würde eine 
+                	Klassendeklaration für den neuen Datentyp erwarten, um die 
+                	Code-Generierung zu ermöglichen. 
+                </para>
 
               </listitem>
 
@@ -23674,36 +23694,40 @@
 
             <varlistentry>
 
-              <term><literal>Tagged Values</literal></term>
+              <term><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Datatype Tagged 
-                Values</primary></indexterm>
-                <indexterm><primary>Tagged 
-                Values</primary><secondary>of 
-                Datatype</secondary></indexterm>
-                <para>Standard tab. In the UML metamodel, <literal>
-                Datatype</literal> has the following standard tagged 
-                values defined.</para>
+                <indexterm><primary>Datatyp Eigenschaftswerte 
+                </primary></indexterm>
+                <indexterm><primary>Eigenschaftswerte 
+                </primary><secondary>von  
+                Datatypen</secondary></indexterm>
+                <para>
+                	Standard-Register. Das UML-Metamodell hat die folgenden 
+                	Eigenschaftswerte für <literal>Datentyp</literal> definiert.
+                </para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para><literal>persistence</literal> (from the 
-                    superclass, <literal>Classifier</literal>). Values 
-                    <literal>transitory</literal>, indicating state is 
-                    destroyed when an instance is destroyed or <literal>
-                    persistent</literal>, marking state is preserved 
-                    when an instance is destroyed.</para>
+                    <para>
+                    	<literal>persistence</literal> (von der Superklasse 
+                    	, <literal>Classifier</literal>). Werte 
+                    	<literal>transitory</literal>, geben an, dass der Zustand 
+                    	gelöscht wird, wenn eine Instanz gelöscht oder <literal>
+                    	persistent</literal> wird, der markierte Zustand 
+                    	wird erhalten, wenn eine Instanz gelöscht wird.
+                    </para>
 
                     <tip>
 
-                      <para>Since user defined datatypes are 
-                      enumerations, they have no state to preserve, and 
-                      the value of this tagged value is 
-                      irrelevant.</para>
+                      <para>
+                      	Da benutzerdefinierte Datentypen Aufzählungen sind, 
+                      	haben sie keinen zu erhaltenden Zustand und der Wert 
+                      	dieses Eigenschaftswertes ist irrelevant.
+                      </para>
 
                     </tip>
 
@@ -23711,21 +23735,24 @@
 
                   <listitem>
 
-                    <para><literal>semantics</literal> (from the 
-                    superclass, <literal>Classifier</literal>). The 
-                    value is a specification of the semantics of the 
-                    datatype.</para>
+                    <para>
+                    <literal>semantics</literal> (von der Superklasse 
+                    , <literal>Classifier</literal>). Der Wert ist eine 
+                    Spezifikation der Semantik des Datentyps. 
+                    </para>
 
                   </listitem>
 
                   <listitem>
 
-                    <para><literal>derived</literal> (from the 
-                    superclass, <literal>ModelElement</literal>). 
-                    Values <literal>true</literal>, meaning the class 
-                    is redundant&mdash;it can be formally derived from other 
-                    elements, or <literal>false</literal> meaning it 
-                    cannot.</para>
+                    <para>
+                    <literal>derived</literal> (von der Superklasse 
+                    , <literal>Modell-Element</literal>). 
+                    Werte mit <literal>true</literal> bedeuten, dass die Klasse 
+                    redundant ist&mdash; sie kann formal von anderen Elementen 
+                    abgeleitet werden. <literal>false</literal> bedeutet, dass 
+                    sie nicht abgeleitet werden kann. 
+                    </para>
 
                     <tip>
 
