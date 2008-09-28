@@ -23011,12 +23011,12 @@
 
         <sect2>
 
-          <title>Die Register Modelldetails</title>
+          <title>Detail-Register Modell</title>
 
-          <indexterm><primary>Modelldetails Register</primary></indexterm>
-          <indexterm><primary>Details Register</primary><secondary>für das  
+          <indexterm><primary>Detail-Register Modell</primary></indexterm>
+          <indexterm><primary>Detail-Register</primary><secondary>für das  
           Modell</secondary></indexterm>
-          <para>Die Details-Register sind für das Modell wie folgt aktiv.</para>
+          <para>Folgende Detail-Register sind für das Modell aktiv.</para>
 
           <variablelist>
 
@@ -23620,14 +23620,14 @@
 
         <sect2>
 
-          <title>Register Datentyp-Details</title>
+          <title>Datentyp Detail-Register</title>
 
-          <indexterm><primary>Register Datatyp-Details 
+          <indexterm><primary>Datatyp Detail-Register
           </primary></indexterm>
-          <indexterm><primary>Register Details</primary><secondary>für 
+          <indexterm><primary>Detail-Register</primary><secondary>für 
           Datatyp</secondary></indexterm>
           <para>
-          	Die Register Details, die für Datentypen aktiv sind, sind folgende:
+          	Folgende Detail-Register sind für Datentypen aktiv:
           </para>
 
           <variablelist>
@@ -24182,76 +24182,73 @@
 
       <sect1 id="s1.ref.enumeration">
 
-        <title>Enumeration</title>
+        <title>Enumeration (Aufzählung)</title>
 
         <indexterm><primary>Enumeration</primary></indexterm>
-        <para>An enumeration is a primitive datatype 
-        that can have a fixed short list of values. 
-        It has no attributes, 
-        and any operations on them must have no 
-        side-effects. A useful analogy is the primitive datatype
-        boolean in a language like Java.
-        The boolean stands on its 
-        own&mdash;it has no inner structure. 
-        There are operations (for 
-        example logical xor) on the booleans, but when I perform <literal>
-        true xor true</literal> the result is a new boolean, 
-        and the original 2 booleans <quote>true</quote> 
-        are unchanged by the exercise.</para>
-
-        <para>Within UML&nbsp;1.4, <literal>Enumeration</literal> is a 
-        sub-class of the <literal>DataType</literal> metaclass.  
+        <para>
+        Eine Enumeration ist ein primitiver Datentyp, der eine begrenzten Anzahl 
+        von Werten in einer kurzen Liste aufweist. Sie hat keine Attribute und 
+        jede Operation darf keine Seiteneffekte haben. Eine nützliche Analogie 
+        dazu ist der primitive Datentyp boolean in einer Sprache wie Java. 
+        Boolean steht für sich selbst&mdash; und hat keine innere Struktur. Es 
+        gibt Operationen (z.B. das logische xor) für die Booleans, aber wenn ich 
+        <literal>true xor true</literal> ausführe, ist das Ergebnis ein neuer 
+        Boolean und die beiden Original-Boolean bleiben unverändert.
         </para>
 
-        <para>The big difference with other DataTypes, is that an
-        Enumeration has <literal>EnumerationLiteral</literal>s. 
-        E.g. the Enumeration <quote>boolean</quote> is defined as
-        having 2 EnumerationLiterals, <quote>true</quote> and
-        <quote>false</quote>.
+        <para>
+        	Innerhalb von UML&nbsp;1.4 ist <literal>Enumeration</literal> eine 
+        	Subklasse der Metaklasse <literal>Datentyp</literal>.
         </para>
 
-        <para>Within ArgoUML new enumerations may be created using the 
-        <literal>New Enumeration</literal> button on the property tabs of 
-        the model and packages (in which case the new enumeration is 
-        restricted in scope to the package), as well as the properties 
-        tab for datatype and enumeration. 
-        Enumerations can also be created with the tool 
-        in the diagram toolbar of a class diagram.
+        <para>
+        	Der große Unterschied zu anderen Datentypen ist, dass eine 
+        	Enumeration <literal>Enumeration-Literale</literal> aufweist. Z.B. 
+        	die Enumeration <quote>boolean</quote> ist mit zwei Enumeration-
+        	Literalen <quote>true</quote> und <quote>false</quote> definiert.
         </para>
 
-        <para>The UML&nbsp;1.4 standard allows user defined 
-          enumerations to be placed on class diagrams 
-          to define their inheritence structure. 
-          This is also possible in ArgoUML. 
-          It is represented on the diagram by a box 
-          with three compartments, 
-          of which the top one is marked with 
-          <literal>&laquo;enumeration&raquo;</literal>, 
-          and contains the name. 
-          The middle compartment shows the enumeration literals.
-          The lower one contains operations.
+        <para>
+        	Neue Enumerationen können in ArgoUML mit Hilfe der Schaltfläche 
+        	<literal>Neue Enumeration</literal> im Register Eigenschaften des 
+        	Modelles oder des Paketes (in diesem Fall ist die 
+        	neue Enumeration auf den Scope des Paketes beschränkt), wie auch im 
+        	Register Eigenschaften für Datentypen und Enumeration erzeugt werden. 
+        	Enumerationen können auch mit dem Symbol in der Diagramm-Symbolleiste 
+        	eines Klassendiagrammes erzeugt werden.
+        </para>
+
+        <para>
+        	Der UML&nbsp;1.4-Standard erlaubt es, benutzerdefinierte 
+        	Enumerationen in Klassendiagrammen zu plazieren, um deren 
+        	Vererbungsstruktur zu definieren. Dies ist auch in ArgoUML möglich. 
+        	Sie wird im Diagramm durch einen Rahmen mit drei Bereichen 
+        	dargestellt. Der oberste Bereich ist mit <literal>
+        	&laquo;enumeration&raquo;</literal> markiert und enthält den Namen. 
+        	Der mittlere Bereich zeigt die Enumerations-Literale. Der untere 
+        	enthält die Operationen.
         </para>
 
         <sect2>
 
-          <title>Enumeration Details Tabs</title>
+          <title>Enumeration Detail-Register</title>
 
-          <indexterm><primary>Enumeration Details 
-          Tabs</primary></indexterm>
-          <indexterm><primary>Details Tabs</primary><secondary>for 
+          <indexterm><primary>Enumeration Detail-Register</primary></indexterm>
+          <indexterm><primary>Detail-Register</primary><secondary>für 
           Enumeration</secondary></indexterm>
-          <para>The details tabs that are active for enumerations are as 
-          follows.</para>
+          <para>
+          	Folgende Detail-Register sind für Enumerationen aktiv. 
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
-              <term><literal>ToDoItem</literal></term>
+              <term><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
-                <para>Standard tab.</para>
+                <para>Standard-Register.</para>
 
               </listitem>
 
@@ -24259,18 +24256,18 @@
 
             <varlistentry>
 
-              <term><literal>Properties</literal></term>
+              <term><literal>Eigenschaften</literal></term>
 
               <listitem>
 
                 <indexterm><primary>Enumeration 
-                Properties</primary></indexterm>
-                <indexterm><primary>Properties</primary><secondary>of 
+                Eigenschaften</primary></indexterm>
+                <indexterm><primary>Eigenschaften</primary><secondary>von  
                 Enumeration</secondary></indexterm>
-                <para>See 
-                <xref linkend="s2.ref.enumeration_property_toolbar"/> and 
+                <para>Siehe 
+                <xref linkend="s2.ref.enumeration_property_toolbar"/> und 
                 <xref linkend="s2.ref.enumeration_property_fields"/> 
-                below.</para>
+                unten.</para>
 
               </listitem>
 
@@ -24278,11 +24275,11 @@
 
             <varlistentry>
 
-              <term><literal>Documentation</literal></term>
+              <term><literal>Dokumentation</literal></term>
 
               <listitem>
 
-                <para>Standard tab. See 
+                <para>Standard-Register. Siehe 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
 
               </listitem>
@@ -24291,11 +24288,11 @@
 
             <varlistentry>
 
-              <term><literal>Presentation</literal></term>
+              <term><literal>Darstellung</literal></term>
 
               <listitem>
 
-                <para>Standard tab. 
+                <para>Standard-Register. 
                 </para>
 
               </listitem>
@@ -24304,11 +24301,11 @@
 
             <varlistentry>
 
-              <term><literal>Source</literal></term>
+              <term><literal>Quelldatei</literal></term>
 
               <listitem>
 
-                <para>Standard tab. 
+                <para>Standard-Register. 
                 </para>
 
               </listitem>
@@ -24317,46 +24314,47 @@
 
             <varlistentry>
 
-              <term><literal>Stereotype</literal></term>
+              <term><literal>Stereotyp</literal></term>
 
               <listitem>
 
-                <para>Standard tab. The UML metamodel has the following 
-                stereotypes defined by default for a Classifier, 
-                which also apply to an Enumeration: 
+                <para>
+                	Standard-Register. Das UML-Metamodell hat standardmäßig 
+                	die folgenden Stereotypen für einen Klassifizierer definiert, 
+                	der auch auf eine Enumeration angewendet wird: 
                 </para>
                 
                 <itemizedlist>
 
                   <listitem>
-                    <para><literal>metaclass</literal> (from the 
-                    superclass, <literal>Classifier</literal>). 
+                    <para><literal>metaclass</literal> (von der 
+                    Superklasse, <literal>Classifier</literal>). 
                     <!-- TODO: Not present! -->
                     </para>
                   </listitem>
 
                   <listitem>
-                    <para><literal>powertype</literal> (from the 
-                    superclass, <literal>Classifier</literal>). 
+                    <para><literal>powertype</literal> (von der 
+                    Superklasse, <literal>Classifier</literal>). 
                     <!-- TODO: Not present! -->
                     </para>
                   </listitem>
 
                   <listitem>
-                    <para><literal>process</literal> (from the 
-                    superclass, <literal>Classifier</literal>). 
+                    <para><literal>process</literal> (von der 
+                    Superklasse, <literal>Classifier</literal>). 
                     </para>
                   </listitem>
 
                   <listitem>
-                    <para><literal>thread</literal> (from the 
-                    superclass, <literal>Classifier</literal>). 
+                    <para><literal>thread</literal> (von der 
+                    Superklasse, <literal>Classifier</literal>). 
                     </para>
                   </listitem>
 
                   <listitem>
-                    <para><literal>utility</literal> (from the 
-                    superclass, <literal>Classifier</literal>). 
+                    <para><literal>utility</literal> (von der 
+                    Superklasse, <literal>Classifier</literal>). 
                     </para>
                   </listitem>
 
@@ -24368,18 +24366,19 @@
 
             <varlistentry>
 
-              <term><literal>Tagged Values</literal></term>
+              <term><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Enumeration Tagged 
-                Values</primary></indexterm>
-                <indexterm><primary>Tagged 
-                Values</primary><secondary>of 
+                <indexterm><primary>Eigenschaftswerte Enumeration</primary></indexterm>
+                <indexterm><primary>Eigenschaftswerte 
+                </primary><secondary>von 
                 Enumeration</secondary></indexterm>
-                <para>Standard tab. In the UML metamodel, <literal>
-                Enumeration</literal> has no standard tagged 
-                values defined.</para>
+                <para>
+                	Standard-Register. Im UML-Metamodell sind für die <literal>
+                	Enumeration</literal> keine Standard-Eigenschaftswerte 
+                	definiert. 
+                </para>
 
 
               </listitem>
@@ -24392,11 +24391,11 @@
 
         <sect2 id="s2.ref.enumeration_property_toolbar">
 
-          <title>Enumeration Property Toolbar</title>
+          <title>Eigenschaftssymbolleiste Enumeration</title>
 
-          <indexterm><primary>Enumeration Property 
-          Toolbar</primary></indexterm>
-          <indexterm><primary>Property Toolbar</primary><secondary>for 
+          <indexterm><primary>Eigenschaftssymbolleiste Enumeration
+          </primary></indexterm>
+          <indexterm><primary>Eigenschaftssymbolleiste</primary><secondary>für 
           Enumeration</secondary></indexterm>
           <variablelist>
 
@@ -24406,11 +24405,11 @@
               <imagedata align="center"
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Go up</literal></term>
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
-                <para>Navigate up through the composition structure.</para>
+                <para>Geht in der zusammengesetzten Struktur nach oben.</para>
 
               </listitem>
 
@@ -24422,13 +24421,15 @@
               <imagedata align="center"
                fileref="images/icons/datatype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New datatype</literal></term>
+              <literal>Neuer Datentyp</literal></term>
 
               <listitem>
 
-                <para>This creates a new datatype (see 
-                <xref linkend="s1.ref.class_class"/>) within the same 
-                package as the current enumeration.</para>
+                <para>
+                	Erzeugt im gleichen Paket einen neuen Datentyp (siehe 
+                	<xref linkend="s1.ref.class_class"/>) als aktuelle 
+                	Enumeration. 
+                </para>
 
               </listitem>
 
@@ -24440,14 +24441,15 @@
               <imagedata align="center"
                fileref="images/icons/enumeration.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New enumeration</literal></term>
+              <literal>Neue Enumeration</literal></term>
 
               <listitem>
 
-                <para>This creates a new enumeration within the 
-                same namespace as the current enumeration, 
-                navigating immediately to the properties tab 
-                for new enumeration.</para>
+                <para>
+                	Erzeugt innerhalb des gleichen Namensraumes eine neue 
+                	Enumeration als aktuelle Enumeration und springt sofort in 
+                	das Register Eigenschaften der neuen Enumeration.
+                </para>
 
               </listitem>
 
@@ -24459,13 +24461,15 @@
               <imagedata align="center"
                fileref="images/icons/enumeration_literal.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New enumeration literal</literal></term>
+              <literal>Neues Enumerations-Literal</literal></term>
 
               <listitem>
 
-                <para>This creates a new enumeration literal within the 
-                enumeration, navigating immediately to the properties tab 
-                for that literal.</para>
+                <para>
+                	Erzeugt in der Enumeration ein neues Enumerations-Literal 
+                	und springt sofort in das Register Eigenschaften dieses 
+                	Literals.
+                </para>
 
               </listitem>
 
@@ -24477,13 +24481,14 @@
               <imagedata align="center"
                fileref="images/icons/operation.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Operation</literal></term>
+              <literal>Neue Operation</literal></term>
 
               <listitem>
 
-                <para>This creates a new operation within the enumeration, 
-                navigating immediately to the properties tab for that 
-                operation.</para>
+                <para>
+                	Erzeugt in der Enumeration eine neue Operation und springt 
+                	sofort in das Register Eigenschaften dieser Operation.
+                </para>
 
               </listitem>
 
@@ -24495,18 +24500,20 @@
               <imagedata align="center"
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Stereotype</literal></term>
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Add Stereotype</primary></indexterm>
-                <indexterm><primary>New Stereotype</primary></indexterm>
-                <indexterm><primary>Create 
-                New</primary><secondary>Stereotype</secondary></indexterm>
-                <para>This creates a new Stereotype (see 
-                <xref linkend="s1.ref.stereotype"/>) within the same 
-                package as the enumeration, navigating immediately to the 
-                properties tab for that stereotype.</para>
+                <indexterm><primary>Stereotyp hinzufügen</primary></indexterm>
+                <indexterm><primary>Neuer Stereotyp</primary></indexterm>
+                <indexterm><primary>Erzeuge 
+                neuen</primary><secondary>Stereotypen</secondary></indexterm>
+                <para>
+                	Erzeugt innerhalb des gleichen Paketes einen neuen 
+                	Stereotypen (siehe <xref linkend="s1.ref.stereotype"/>) 
+                	und springt sofort in das Register Eigenschaften dieses 
+                	Stereotypen. 
+                </para>
 
               </listitem>
 
@@ -24518,11 +24525,11 @@
               <imagedata align="center"
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Delete from Model</literal></term>
+              <literal>Aus Modell entfernen</literal></term>
 
               <listitem>
 
-                <para>This deletes the datatype from the model.</para>
+                <para>Entfernt den Datentyp aus dem Modell.</para>
 
               </listitem>
 
@@ -24534,11 +24541,10 @@
 
         <sect2 id="s2.ref.enumeration_property_fields">
 
-          <title>Property Fields For Enumeration</title>
+          <title>Eigenschaftsfelder für Enumerationen</title>
 
-          <indexterm><primary>Enumeration Property 
-          Fields</primary></indexterm>
-          <indexterm><primary>Property Fields</primary><secondary>for 
+          <indexterm><primary>Enumeration Eigenschaftsfelder</primary></indexterm>
+          <indexterm><primary>Eigenschaftsfelder</primary><secondary>für 
           Enumeration</secondary></indexterm>
           <variablelist>
 
@@ -24549,19 +24555,22 @@
               <listitem>
 
                 <indexterm><primary>Enumeration Name</primary></indexterm>
-                <indexterm><primary>Name</primary><secondary>of 
+                <indexterm><primary>Name</primary><secondary>der  
                 Enumeration</secondary></indexterm>
-                <para>Text box. The name of the enumeration. The primitive 
-                enumerations all have lower case names, but there is no 
-                formal convention.</para>
+                <para>
+                	Textfeld. Der Name der Enumeration. Die primitiven 
+                	Enumerationen haben alle Namen in Kleinbuchstaben. Hierfür 
+                	gibt es allerdings keine formale Konvention. 
+                </para>
 
                 <note>
 
-                  <para>The default name supplied for a newly created 
-                  datatype is the empty string <quote />. Enumerations 
-                  with empty string names will appear with the name 
-                  <literal>(Unnamed Enumeration)</literal> in the 
-                  explorer.</para>
+                  <para>
+                  	Der Standardname für einen neu erzeugten Datentyp ist ein 
+                  	leerer String <quote />. Enumerationen mit einem leeren 
+                  	String als Namen, wird mit dem Namen <literal>(Unbenannte 
+                  	Enumeration)</literal> im Explorer erscheinen.
+                  </para>
 
                 </note>
 
@@ -24571,14 +24580,14 @@
 
             <varlistentry>
 
-              <term><literal>Namespace</literal></term>
+              <term><literal>Namensraum</literal></term>
 
               <listitem>
 
-                <para>Drop down selector with navigation button. 
-                Allows changing the 
-                namespace for the enumeration. This is the composition 
-                hierarchy.</para>
+                <para>
+                	Ein Kombinationsfeld. Erlaubt das Ändern des Namensraumes 
+                	der Enumeration. Dies ist die zusammengesetzte Hierarchie.
+                </para>
 
               </listitem>
 
@@ -24586,34 +24595,40 @@
 
             <varlistentry>
 
-              <term><literal>Modifiers</literal></term>
+              <term><literal>Modifizierer</literal></term>
 
               <listitem>
 
                 <indexterm><primary>Enumeration 
-                Modifiers</primary></indexterm>
-                <indexterm><primary>Modifiers</primary><secondary>of 
+                Modifizierer</primary></indexterm>
+                <indexterm><primary>Modifizierer</primary><secondary>der  
                 Enumeration</secondary></indexterm>
-                <para>Check box, with entries <literal>
-                Abstract</literal>, <literal>Leaf</literal> and 
-                <literal>Root</literal>.</para>
+                <para>
+                	Markierfeld mit den Einträgen <literal>
+                	Abstract</literal>, <literal>Leaf</literal> und 
+                	<literal>Root</literal>.
+                </para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para><literal>Abstract</literal> is used to 
-                    declare that this enumeration cannot be instantiated, 
-                    but must always be specialized.</para>
+                    <para>
+                    	<literal>Abstract</literal> wird verwendet, um zu 
+                    	deklarieren, dass diese Enumeration nicht instantiiert 
+                    	werden kann, aber immer spezialisiert werden muss. 
+                    </para>
 
                   </listitem>
 
                   <listitem>
 
-                    <para><literal>Leaf</literal> indicates that this 
-                    enumeration can have no further sub-types, while 
-                    <literal>Root</literal> indicates it is a top level 
-                    enumeration.</para>
+                    <para>
+                    	<literal>Leaf</literal> zeigt an, dass diese Enumeration 
+                    	keine weiteren Subtypen haben kann, während <literal>
+                    	Root</literal> angibt, dass es sich um eine Enumeration 
+                    	auf oberster Ebene handelt. 
+                    </para>
 
                   </listitem>
 
@@ -24625,20 +24640,22 @@
 
             <varlistentry>
 
-              <term><literal>Visibility</literal></term>
+              <term><literal>Sichtbarkeit</literal></term>
 
               <listitem>
 
                 <indexterm><primary>Enumeration 
-                Visibility</primary></indexterm>
-                <indexterm><primary>Visibility</primary><secondary>of 
+                Sichtbarkeit</primary></indexterm>
+                <indexterm><primary>Sichtbarkeit</primary><secondary>der  
                 Enumeration</secondary></indexterm>
-                <para>Radio box, with entries <literal>
-                public</literal>, <literal>private</literal>, 
-                <literal>protected</literal>, and
-                <literal>package</literal>.</para>
+                <para>
+                	Auswahlfeld mit den Einträgen <literal>
+                	public</literal>, <literal>private</literal>, 
+                	<literal>protected</literal> und
+                	<literal>package</literal>.
+                </para>
 
-                <para>Records the visibility for the Enumeration.</para>
+                <para>Gibt die Sichtbarkeit der Enumeration wieder.</para>
 
               </listitem>
 
@@ -24646,23 +24663,26 @@
 
             <varlistentry>
 
-              <term><literal>Client Dependencies</literal></term>
+              <term><literal>Client-Abhängigkeiten</literal></term>
 
               <listitem>
 
-                <para>Text area. Lists any elements that depend on this 
-                enumeration. Button&nbsp;1 double click navigates to the 
-                selected modelelement. Button&nbsp;2 click brings up a pop up 
-                menu with following entry.</para>
+                <para>
+                	Textbereich. Listet jedes Element auf, dass von dieser 
+                	Enumeration abhängig ist. Taste&nbsp;1-Doppelklick geht zum 
+                	markierten Modellelement. Taste&nbsp;2-Klick öffnet ein 
+                	Popup-Menü mit den folgenden Einträgen.
+                </para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para><literal>Add...</literal>. 
-                    This brings up a dialog box 
-                    that allows to create dependencies 
-                    from other modelelements.</para>
+                    <para>
+                    	<literal>Hinzufügen...</literal>.
+                    	Öffnet ein Dialogfenster, das es erlaubt, Abhängigkeiten 
+                    	von anderen Modellelementen zu erzeugen. 
+                    </para>
 
                   </listitem>
 
@@ -24674,23 +24694,26 @@
 
             <varlistentry>
 
-              <term><literal>Supplier Dependencies</literal></term>
+              <term><literal>Liefer-Abhängigkeiten</literal></term>
 
               <listitem>
 
-                <para>Text area. Lists any elements that this enumeration 
-                depends on. Button&nbsp;1 double click navigates to the 
-                selected modelelement. Button&nbsp;2 click brings up a pop up 
-                menu with the following entry.</para>
+                <para>
+                	Textbereich. Listet jedes Element auf, von dem diese 
+                	Enumeration abhängt. Ein Taste&nbsp;1-Doppelklick geht zum 
+                	markierten Modellelement. Ein Taste&nbsp;2-Klick öffnet ein 
+                	Popup-Menü mit den folgenden Einträgen..
+                </para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para><literal>Add...</literal>. 
-                    This brings up a dialog box 
-                    that allows to create dependencies 
-                    to other modelelements.</para>
+                    <para>
+                    	<literal>Hinzufügen...</literal>.
+                    	Öffnet ein Dialogfenster, das es erlaubt, Abhängigkeiten 
+                    	auf andere Modellelemente zu erzeugen. 
+                    </para>
 
                   </listitem>
 
@@ -24702,12 +24725,12 @@
 
             <varlistentry>
 
-              <term><literal>Generalizations</literal></term>
+              <term><literal>Generalisierungen</literal></term>
 
               <listitem>
 
-                <para>Text area. Lists any enumeration that 
-                <emphasis>generalizes</emphasis> this enumeration.</para>
+                <para>Textbereich. Listet jede Enumeration auf, die diese 
+                Enumeration <literal>generalisiert</literal>.</para>
 
               </listitem>
 
@@ -24715,12 +24738,14 @@
 
             <varlistentry>
 
-              <term><literal>Specializations</literal></term>
+              <term><literal>Spezialisierungen</literal></term>
 
               <listitem>
 
-                <para>Text box. Lists any specialized enumerations (i.e. 
-                for which this enumeration is a generalization.</para>
+                <para>
+                	Textbereich. Listet jede spezialisierte Enumeration auf 
+                	(z.B. für wen diese Enumeration eine Generalisierung ist).
+                </para>
 
               </listitem>
 
@@ -24728,49 +24753,58 @@
 
             <varlistentry>
 
-              <term><literal>Operations</literal></term>
+              <term><literal>Operationen</literal></term>
 
               <listitem>
 
-                <para>Text area. Lists all the operations defined on 
-                this enumeration. Button&nbsp;1 double click navigates to the 
-                selected operation. Button&nbsp;2 click brings up a pop up 
-                menu with two entries.</para>
+                <para>
+                	Textbereich. Listet alle Operationen auf, die für diese 
+                	Enumeration definiert sind. Ein Taste&nbsp;1-Doppelklick 
+                	geht zu der markierten Operation. Ein Taste&nbsp;2-Klick 
+                	öffnet ein Popup-Menü mit zwei Einträgen.
+                </para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para><literal>Move Up</literal>. Only available 
-                    where there are two or more operations, and the 
-                    operation selected is not at the top. It is moved 
-                    up one.</para>
+                    <para>
+                    	<literal>Nach oben</literal>. Nur verfügbar, wenn zwei 
+                    	oder mehr Operationen gelistet sind und die markierte 
+                    	Operation sich nicht oben befindet. Sie wird um einen 
+                    	Schritt nach oben bewegt. 
+                    </para>
 
                   </listitem>
 
                   <listitem>
 
-                    <para><literal>Move Down</literal>. Only available 
-                    where there are two or more operations listed, and 
-                    the operation selected is not at the bottom. It is 
-                    moved down one.</para>
+                    <para>
+                    	<literal>Nach unten</literal>. Nur verfügbar, wenn zwei 
+                    	oder mehr Operationen gelistet sind und die markierte 
+                    	Operation sich nicht unten befindet. Sie wird um einen 
+                    	Schritt nach unten bewegt. 
+                    </para>
 
                   </listitem>
 
                 </itemizedlist>
 
-                <para>See <xref linkend="s1.ref.operation"/> for 
-                details of operations.</para>
+                <para>
+                	Details über Operationen, siehe 
+                	<xref linkend="s1.ref.operation"/>.</para>
 
                 <caution>
 
-                  <para>ArgoUML treats all operations as equivalent. 
-                  Any operations created here will use the same 
-                  mechanism as operations for classes. Remember that 
-                  operations on enumerations must have no side effects 
-                  (they are read-only). This means the <literal>
-                  query</literal> modifier <emphasis>must</emphasis> be 
-                  checked for all operations.</para>
+                  <para>
+                  	ArgoUML behandelt alle Operationen gleich. Jede, hier 
+                  	erzeugte Operation wird den gleichen Mechanismus wie 
+                  	Operationen für Klassen verwenden. Erinnern Sie sich, dass 
+                  	Operationen für Enumerationen keine Seiteneffekte haben 
+                  	dürfen (sie sind read-only). Das heißt, der Modifizierer 
+                  	<literal>query</literal> <emphasis>muss</emphasis> für alle 
+                  	Operationen markiert sein.
+                  </para>
 
                 </caution>
 
@@ -24780,36 +24814,42 @@
 
             <varlistentry>
 
-              <term><literal>Literals</literal></term>
+              <term><literal>Literale</literal></term>
 
               <listitem>
 
                 <indexterm><primary>Enumeration 
-                Literals</primary></indexterm>
-                <indexterm><primary>Literals</primary><secondary>of 
+                Literale</primary></indexterm>
+                <indexterm><primary>Literale</primary><secondary>von  
                 Enumeration</secondary></indexterm>
-                <para>Text area. Lists all the enumeration literals 
-                defined for this enumeration. Button&nbsp;1 double click 
-                navigates to the selected literal, button&nbsp;2 click 
-                brings up a pop up menu with two entries.</para>
+                <para>
+                	Textbereich. Listet alle Enumerations-Literale auf, die für 
+                	diese Enumeration definiert sind. Ein Taste&nbsp;1-
+                	Doppelklick geht zu dem markierten Literal, ein Taste&nbsp;2-
+                	Klick öffnet ein Popup-Menü mit zwei Einträgen.
+                </para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para><literal>Move Up</literal>. Only available 
-                    where there are two or more literals, and the 
-                    literal selected is not at the top. It is moved up 
-                    one.</para>
+                    <para>
+                    	<literal>Nach oben</literal>. Nur verfügbar, wenn es 
+                    	zwei oder mehr Literale gibt und sich das markierte 
+                    	Literal nicht ganz oben befindet. Es wird um einen 
+                    	Schritt nach oben bewegt. 
+                    </para>
 
                   </listitem>
 
                   <listitem>
 
-                    <para><literal>Move Down</literal>. Only available 
-                    where there are two or more literals listed, and 
-                    the literal selected is not at the bottom. It is 
-                    moved down one.</para>
+                    <para>
+                    	<literal>Nach unten</literal>. Nur verfügbar, wenn zwei 
+                    	oder mehr Literale aufgelistet sind und das markierte 
+                    	Literal sich nich ganz unten befindet. Es wird um einen 
+                    	Schritt nach unten bewegt. 
+                    </para>
 
                   </listitem>
 
@@ -24828,53 +24868,60 @@
       <sect1 id="s1.ref.enumeration-literal">
         <title>Enumeration Literal</title>
         <indexterm><primary>Enumeration Literal</primary></indexterm>
-        <para>An enumeration literal is one of the predefined values 
-        of an Enumeration.</para>
+        <para>
+        	Ein Enumerations-Literal ist eines der vordefinierten Werte einer 
+        	Enumeration.
+        </para>
       </sect1>
 
       <sect1 id="s1.ref.stereotype">
 
-        <title>Stereotype</title>
+        <title>Stereotyp</title>
 
-        <indexterm><primary>Stereotype</primary></indexterm>
-        <para>Stereotypes are the main extension mechanism of UML, 
-        providing a way to derive specializations of the standard 
-        metaclasses. <literal>Stereotype</literal> is a sub-class of 
-        <literal>GeneralizableElement</literal> in the UML metamodel. 
-        Stereotypes are supplemented by 
-        <emphasis>constraints</emphasis> and <emphasis>tagged 
-        values</emphasis>.</para>
+        <indexterm><primary>Stereotyp</primary></indexterm>
+        <para>
+        	Stereotypen sind der Haupterweiterungsmechanismus von UML. Er 
+        	enthält den Weg, um Spezialisierungen von den Standard-Metaklassen 
+        	abzuleiten. <literal>Stereotyp</literal> ist eine Subklasse von 
+        	<literal>GeneralisierbaresElement</literal> im UML-Metamodell. 
+        	Stereotypen werden durch <emphasis>Randbedingungen</emphasis> und 
+        	<emphasis>Eigenschaftswerte</emphasis> ergänzt.
+        </para>
 
-        <para>New stereotypes are added from the property tab of almost 
-        any model element. Properties of existing stereotypes can be reached 
-        by selecting the property tab for any model element with that 
-        stereotype and using the navigate button (
-        <guiicon><inlinemediaobject><imageobject>
-        <imagedata align="center"
-         fileref="images/icons/navigate_stereotype.gif"
-         format="GIF"/></imageobject></inlinemediaobject></guiicon>) 
-        within the property tab.</para>
+        <para>
+        	Neue Stereotypen werden von fast jedem Modellelement über das 
+        	Register Eigenschaften hinzugefügt. Eigenschaften existierender 
+        	Stereotypen können durch Auswahl des Registers Eigenschaften eines 
+        	jeden Modellelementes mit diesem Stereotypen mit Hilfe der 
+        	Navigationsschaltfläche erreicht werden (
+        	<guiicon><inlinemediaobject><imageobject>
+        	<imagedata align="center"
+         	fileref="images/icons/navigate_stereotype.gif"
+         	format="GIF"/></imageobject></inlinemediaobject></guiicon>) 
+        	im Register Eigenschaften.
+        </para>
 
         <sect2>
 
-          <title>Stereotype Details Tabs</title>
+          <title>Stereotyp Detail-Register</title>
 
-          <indexterm><primary>Stereotype Details 
-          Tabs</primary></indexterm>
-          <indexterm><primary>Details Tabs</primary><secondary>for 
-          Stereotype</secondary></indexterm>
-          <para>The details tabs that are active for stereotypes are as 
-          follows.</para>
+          <indexterm><primary>Stereotyp Detail-Register 
+          </primary></indexterm>
+          <indexterm><primary>Detail-Register</primary><secondary>für 
+          Stereotypen</secondary></indexterm>
+          <para>
+          	Die folgenden Detail-Register sind für Stereotypen aktiv.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
-              <term><literal>ToDoItem</literal></term>
+              <term><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
-                <para>Standard tab.</para>
+                <para>Standard-Register.</para>
 
               </listitem>
 
@@ -24882,14 +24929,14 @@
 
             <varlistentry>
 
-              <term><literal>Properties</literal></term>
+              <term><literal>Eigenschaften</literal></term>
 
               <listitem>
 
-                <para>See 
+                <para>Siehe 
                 <xref linkend="s2.ref.stereotype_property_toolbar"/> 
-                and <xref linkend="s2.ref.stereotype_property_fields"/> 
-                below.</para>
+                und <xref linkend="s2.ref.stereotype_property_fields"/> 
+                unten.</para>
 
               </listitem>
 
@@ -24897,11 +24944,11 @@
 
             <varlistentry>
 
-              <term><literal>Documentation</literal></term>
+              <term><literal>Dokumentation</literal></term>
 
               <listitem>
 
-                <para>Standard tab. See 
+                <para>Standard-Register. Siehe 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
 
               </listitem>
@@ -24910,16 +24957,18 @@
 
             <varlistentry>
 
-              <term><literal>Stereotype</literal></term>
+              <term><literal>Stereotyp</literal></term>
 
               <listitem>
 
-                <para>Standard tab.</para>
+                <para>Standard-Register.</para>
 
                 <warning>
 
-                  <para>Here you can set stereotypes of stereotypes, 
-                  not a very usefull thing to do.</para>
+                  <para>
+                  	Hier können Sie Stereotypen für Stereotypen einstellen, was 
+                  	nicht sehr sinnvoll ist.
+                  </para>
 
                 </warning>
 
@@ -24929,30 +24978,36 @@
 
             <varlistentry>
 
-              <term><literal>Tagged Values</literal></term>
+              <term><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
-                <para>Standard tab. In the UML metamodel, <literal>
-                Stereotype</literal> has the following standard tagged 
-                values defined.</para>
+                <para>
+                	Standard-Register. Im UML-Metamodell haben <literal>
+                	Stereotypen</literal> die folgenden Standard-
+                	Eigenschaftswerte definiert. 
+                </para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para><literal>derived</literal> (from the 
-                    superclass, <literal>ModelElement</literal>). 
-                    Values <literal>true</literal>, meaning the class 
-                    is redundant&mdash;it can be formally derived from other 
-                    elements, or <literal>false</literal> meaning it 
-                    cannot.</para>
+                    <para>
+                    	<literal>derived</literal> (von der  
+                    	Superklasse, <literal>ModelElement</literal>).
+                    	Der Wert <literal>true</literal> bedeutet, dass die 
+                    	Klasse redundant ist&mdash;sie kann formal von anderen 
+                    	Elementen abgeleitet sein. <literal>false</literal> 
+                    	bedeutet, dass sie es nicht kann. 
+                    </para>
 
                     <note>
 
-                      <para>This indicates any element with this 
-                      stereotype has the <literal>derived</literal> tag 
-                      set accordingly.</para>
+                      <para>
+                      	Dies zeigt jedes Element mit diesem Stereotypen an, 
+                      	dessen Eigenschaftswert entsprechend auf <literal>
+                      	derived</literal> gesetzt wurde.
+                      </para>
 
                     </note>
 
@@ -24962,12 +25017,13 @@
 
                 <caution>
 
-                  <para>Tagged values for a stereotype are rather 
-                  different to those for elements in the UML core 
-                  architecture, in that they apply to all model elements to 
-                  which the stereotype is applied, 
-                  <emphasis>not</emphasis> just the stereotype 
-                  itself.</para>
+                  <para>
+                  	Eigenschaftswerte für Stereotypen unterscheiden sich 
+                  	deutlich von denen für Elemente der UML-Core-Architektur, 
+                  	da Sie auf alle Modellelemente angewendet werden, dem dieser 
+                  	Stereotyp zugewiesen wurde und <emphasis>nicht</emphasis> 
+                  	nur auf den Stereotypen selbst.
+                  </para>
 
                 </caution>
 
@@ -24981,12 +25037,12 @@
 
         <sect2 id="s2.ref.stereotype_property_toolbar">
 
-          <title>Stereotype Property Toolbar</title>
+          <title>Stereotyp Eigenschaftssymbolleiste</title>
 
-          <indexterm><primary>Stereotype Property 
-          Toolbar</primary></indexterm>
-          <indexterm><primary>Property Toolbar</primary><secondary>for 
-          Stereotype</secondary></indexterm>
+          <indexterm><primary>Stereotyp Eigenschaftssymbolleiste
+          </primary></indexterm>
+          <indexterm><primary>Eigenschaftssymbolleiste</primary><secondary>für  
+          Stereotypen</secondary></indexterm>
           <variablelist>
 
             <varlistentry>
@@ -24995,12 +25051,11 @@
               <imagedata align="center"
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Go up</literal></term>
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
-                <para>Navigate up through the package structure of the 
-                model.</para>
+                <para>Geht in der Paketstruktur des Modelles nach oben.</para>
 
               </listitem>
 
@@ -25012,14 +25067,16 @@
               <imagedata align="center"
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Add stereotype</literal></term>
+              <literal>Stereotyp hinzufügen</literal></term>
 
               <listitem>
 
-                <para>This creates a new stereotype (see 
-                <xref linkend="s1.ref.stereotype"/>) within the model 
-                (which appears on no diagram), navigating immediately 
-                to the properties tab for that stereotype.</para>
+                <para>
+                	Erzeugt im Modell (das in keinem Diagramm erscheint) einen 
+                	neuen Stereotypen (siehe <xref linkend="s1.ref.stereotype"/>) 
+                	und springt sofort in das Register Eigenschaften dieses 
+                	Stereotypen. 
+                </para>
 
               </listitem>
 
@@ -25031,14 +25088,17 @@
               <imagedata align="center"
                fileref="images/icons/tag_definition.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Tag Definition</literal></term>
+              <literal>Neue Eigenschafts-Definition</literal></term>
 
               <listitem>
 
-                <para>This creates a new tag definition (see 
-                <xref linkend="s1.ref.tagdefinition"/>) within the model 
-                (which appears on no diagram), navigating immediately 
-                to the properties tab for that tagdefinition.</para>
+                <para>
+                	Erzeugt innerhalb des Modelles (das in keinem Diagramm 
+                	erscheint) eine neue Eigenschafts-Definition (siehe 
+                	<xref linkend="s1.ref.tagdefinition"/>) und springt sofort 
+                	in das Register Eigenschaften dieser Eigenschafts-
+                	Definition. 
+                </para>
 
               </listitem>
 
@@ -25050,11 +25110,11 @@
               <imagedata align="center"
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Delete</literal></term>
+              <literal>Löschen</literal></term>
 
               <listitem>
 
-                <para>This deletes the stereotype from the model.</para>
+                <para>Entfernt diesen Stereotypen aus dem Modell.</para>
 
               </listitem>
 
@@ -25066,12 +25126,12 @@
 
         <sect2 id="s2.ref.stereotype_property_fields">
 
-          <title>Property Fields For Stereotype</title>
+          <title>Eigenschaftsfelder für Stereotypen</title>
 
-          <indexterm><primary>Stereotype Property 
-          Fields</primary></indexterm>
-          <indexterm><primary>Property Fields</primary><secondary>for 
-          Stereotype</secondary></indexterm>
+          <indexterm><primary>Stereotyp Eigenschaftsfelder 
+          </primary></indexterm>
+          <indexterm><primary>Eigenschaftsfelder</primary><secondary>für 
+          Stereotypen</secondary></indexterm>
           <variablelist>
 
             <varlistentry>
@@ -25080,22 +25140,25 @@
 
               <listitem>
 
-                <indexterm><primary>Stereotype 
+                <indexterm><primary>Stereotyp- 
                 Name</primary></indexterm>
-                <indexterm><primary>Name</primary><secondary>of 
-                Stereotype</secondary></indexterm>
-                <para>Text box. The name of the stereotype. There is no 
-                convention for naming stereotypes, beyond starting them 
-                with a lower case letter. Even the standard UML 
-                stereotypes vary between all lower case (e.g. <literal>
-                metamodel</literal>), bumpy caps (e.g. <literal>
-                systemModel</literal>) and space separated (e.g. 
-                <literal>object model</literal>).</para>
+                <indexterm><primary>Name</primary><secondary>des 
+                Stereotypen</secondary></indexterm>
+                <para>
+                	Textfeld. Der Name des Stereotypen. Es gibt keine Konvention 
+                	für das Benennen von Stereotypen, außer dass sie mit einem 
+                	Kleinbuchstaben beginnen. Auch die Standard-UML-Stereotypen 
+                	variieren zwischen alles in Kleinbuchstaben (z.B. <literal>
+                	metamodel</literal>), verbundeneZeichen (z.B. <literal>
+                	systemModel</literal>) und leerzeichenseparierte (z.B.  
+                	<literal>object model</literal>).
+                </para>
 
                 <note>
 
-                  <para>ArgoUML does not enforce any naming convention 
-                  for stereotypes</para>
+                  <para>
+                  	ArgoUML erzwingt keine Namenskonvention für Stereotypen. 
+                  </para>
 
                 </note>
 
@@ -25105,17 +25168,18 @@
 
             <varlistentry>
 
-              <term><literal>Base Class</literal></term>
+              <term><literal>Basisklasse</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Stereotype Base 
-                Class</primary></indexterm>
-                <indexterm><primary>Base Class</primary><secondary>of 
-                Stereotype</secondary></indexterm>
-                <para>Drop down selector. Any stereotype must be 
-                derived from one of the metaclasses in the UML 
-                metamodel <!--
+                <indexterm><primary>Stereotyp Basisklasse
+                </primary></indexterm>
+                <indexterm><primary>Basisklasse</primary><secondary>von 
+                Stereotypen</secondary></indexterm>
+                <para>
+                	Kombinationsfeld. Jeder Stereotyp muss von einer der 
+                	Metaklassen des UML-Metamodelles  
+                <!--
                 <literal>Abstraction</literal>, <literal>
                 Actor</literal>, <literal>Association</literal>, 
                 <literal>AssociationEnd</literal>, <literal>
@@ -25136,10 +25200,11 @@
                 <literal>Permission</literal>, <literal>
                 Signal</literal>, <literal>Subsystem</literal> and 
                 <literal>Usage</literal>) -->
-                or the model element classes that 
-                derive from them. The stereotype will then be available 
-                to model elements that derive from that same metaclass or 
-                that model element.</para>
+                	oder der Modellelementklassen abgeleitet werden, die von 
+                	diesen abgeleitet sind. Der Stereotyp wird dann für die 
+                	Modellelemente verfügbar sein, die von der gleichen 
+                	Metaklasse oder von diesem Modellelement abgeleitet wurden. 
+                </para>
 
               </listitem>
 
@@ -25147,17 +25212,18 @@
 
             <varlistentry>
 
-              <term><literal>Namespace</literal></term>
+              <term><literal>Namensraum</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Stereotype 
-                Namespace</primary></indexterm>
-                <indexterm><primary>Namespace</primary><secondary>of 
-                Stereotype</secondary></indexterm>
-                <para>Drop down selector with navigation button. 
-                Records the namespace for the stereotype. 
-                This is the package hierarchy.</para>
+                <indexterm><primary>Stereotyp 
+                Namensraum</primary></indexterm>
+                <indexterm><primary>Namensraum</primary><secondary>von 
+                Stereotypen</secondary></indexterm>
+                <para>
+                	Kombinationsfeld. Gibt den Namensraum für diesen Stereotypen 
+                	wieder. Dies ist die Pakethierarchie.
+               </para>
  
               </listitem>
 
@@ -25165,35 +25231,42 @@
 
             <varlistentry>
 
-              <term><literal>Modifiers</literal></term>
+              <term><literal>Modifizierer</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Stereotype 
-                Modifiers</primary></indexterm>
-                <indexterm><primary>Modifiers</primary><secondary>of 
-                Stereotype</secondary></indexterm>
-                <para>Check box, with entries <literal>
-                Abstract</literal>, <literal>Leaf</literal> and 
-                <literal>Root</literal>.</para>
+                <indexterm><primary>Stereotyp 
+                Modifizierer</primary></indexterm>
+                <indexterm><primary>Modifizierer</primary><secondary>von  
+                Stereotypen</secondary></indexterm>
+                <para>
+                	Markierfeld mit den Einträgen <literal>
+                	Abstract</literal>, <literal>Leaf</literal> und 
+                	<literal>Root</literal>.
+                </para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para><literal>Abstract</literal> is used to 
-                    declare that model elements that use this stereotype 
-                    cannot be instantiated, but must always be 
-                    specialized.</para>
+                    <para>
+                    	<literal>Abstract</literal> wird verwendet, um zu 
+                    	deklarieren, dass Modellelemente, die diesen Stereotypen 
+                    	verwenden nicht instantiiert werden können, aber immer 
+                    	spezialisiert werden müssen.
+                    </para>
 
                   </listitem>
 
                   <listitem>
 
-                    <para><literal>Leaf</literal> indicates that 
-                    model elements that use this stereotype can have no 
-                    further sub-types, while <literal>Root</literal> 
-                    indicates it is a top level model element.</para>
+                    <para>
+                    	<literal>Leaf</literal> gibt an, dass Modellelemente, die 
+                    	diesen Stereotypen verwenden, keine weiteren Subtypen 
+                    	haben können, während <literal>Root</literal> angibt, 
+                    	dass es sich um ein Modellelement auf oberster Ebene 
+                    	handelt.
+                    </para>
 
                   </listitem>
 
@@ -25201,9 +25274,10 @@
 
                 <caution>
 
-                  <para>Remember that these modifiers apply to the 
-                  model elements using the stereotype, not just the 
-                  stereotype.
+                  <para>
+                  	Erinnern Sie sich, dass diese Modifizierer auf Modellelemente 
+                  	angewendet werden die Stereotypen verwenden, nicht auf die 
+                  	Stereotypen selbst.
                   <!-- TODO: MVW: I strongly doubt this. 
                   The standard says: "Tag definitions and constraints 
                   attached to a stereotype apply to all model elements 
@@ -25215,9 +25289,11 @@
 
                 <warning>
 
-                  <para>ArgoUML neither imposes, nor checks that 
-                  model elements using a stereotype adopt the 
-                  stereotype&apos;s modifiers.</para>
+                  <para>
+                  	Weder erzwingt ArgoUML, noch prüft es, dass Modellelemente, 
+                  	die Stereotypen verwenden, die Stereotyp-Modifizierer 
+                  	übernehmen.
+                  </para>
 
                 </warning>
 
@@ -25226,43 +25302,32 @@
             </varlistentry>
 
             <varlistentry>
-              <term><literal>Visibility</literal></term>
+              <term><literal>Sichtbarkeit</literal></term>
               <listitem>
-                <indexterm><primary>Stereotype 
-                Visibility</primary></indexterm>
-                <indexterm><primary>Visibility</primary><secondary>of 
-                Stereotype</secondary></indexterm>
-                <para>Radio box, with entries <literal>
-                public</literal>, <literal>private</literal>, 
-                <literal>protected</literal>, and
-                <literal>package</literal>.</para>
+                <indexterm><primary>Stereotyp 
+                Sichtbarkeit</primary></indexterm>
+                <indexterm><primary>Sichtbarkeit</primary><secondary>von 
+                Stereotypen</secondary></indexterm>
+                <para>
+                	Auswahlfeld mit den Einträgen <literal>
+                	public</literal>, <literal>private</literal>, 
+                	<literal>protected</literal> und
+                	<literal>package</literal>.
+                </para>
 
-                <para>Records the visibility for the stereotype.</para>
+                <para>Gibt die Sichtbarkeit für Stereotypen wieder.</para>
 
               </listitem>
             </varlistentry>
 
             <varlistentry>
 
-              <term><literal>Generalizations</literal></term>
+              <term><literal>Generalisierungen</literal></term>
 
               <listitem>
 
-                <para>Text area. Lists any stereotype that 
-                <emphasis>generalizes</emphasis> this stereotype.</para>
-
-              </listitem>
-
-            </varlistentry>
-
-            <varlistentry>
-
-              <term><literal>Specializations</literal></term>
-
-              <listitem>
-
-                <para>Text area. Lists any specialized stereotype (i.e. 
-                for which this stereotype is a generalization.</para>
+                <para>Textbereich. Listet jeden Stereotypen auf, der diesen 
+                Stereotypen <emphasis>generalisiert</emphasis>.</para>
 
               </listitem>
 
@@ -25270,12 +25335,12 @@
 
             <varlistentry>
 
-              <term><literal>Tag Definitions</literal></term>
+              <term><literal>Spezialisierungen</literal></term>
 
               <listitem>
 
-                <para>Text area. Lists any tag definitions 
-                that are defined for this stereotype.</para>
+                <para>Textbereich. Listet jeden spezialisierten Stereotypen auf 
+                (z.B. für den dieser Stereotyp eine Generalisierung ist).</para>
 
               </listitem>
 
@@ -25283,12 +25348,25 @@
 
             <varlistentry>
 
-              <term><literal>Extended Elements</literal></term>
+              <term><literal>Eigenschaftsdefinitionen</literal></term>
 
               <listitem>
 
-                <para>Text area. Lists all modelelements 
-                that are stereotyped by this stereotype.</para>
+                <para>Textbereich. Listet jede Eigenschaftsdefinition auf, die 
+                für diesen Stereotypen definiert ist.</para>
+
+              </listitem>
+
+            </varlistentry>
+
+            <varlistentry>
+
+              <term><literal>Erweiterte Elemente</literal></term>
+
+              <listitem>
+
+                <para>Textbereich. Listet alle Modellelemente auf, die mit diesem 
+                Stereotypen versehen wurden.</para>
 
               </listitem>
 
@@ -25302,15 +25380,15 @@
 
       <sect1 id="s1.ref.tagdefinition">
 
-        <title>Tag Definition</title>
+        <title>Eigenschaftsdefinition</title>
         
-        <para>(To Be Written)</para>
+        <para>(Noch zu beschreiben)</para>
         
       </sect1>
 
       <sect1 id="s1.ref.diagram_types">
 
-        <title>Diagram</title>
+        <title>Diagramm</title>
 
         <indexterm><primary>Diagram</primary></indexterm>
         <para>The UML standard specifies eight principal diagrams, all 
