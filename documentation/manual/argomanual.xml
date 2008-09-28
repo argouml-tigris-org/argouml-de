@@ -23756,10 +23756,12 @@
 
                     <tip>
 
-                      <para>While formally available, a derived 
-                      datatype does not have an obvious value, and so 
-                      datatypes should always be marked with <literal>
-                      derived=false</literal>.</para>
+                      <para>
+                      	Obwohl formal verfügbar, hat ein abgeleiteter Datentyp 
+                      	keinen bestimmten Wert und daher sollten Datentypen 
+                      	immer mit <literal>derived=false</literal> bezeichnet 
+                      	werden. 
+                      </para>
 
                     </tip>
 
@@ -23777,12 +23779,12 @@
 
         <sect2 id="s2.ref.datatype_property_toolbar">
 
-          <title>Datatype Property Toolbar</title>
+          <title>Datatyp Eigenschafts-Symbolleiste</title>
 
-          <indexterm><primary>Datatype Property 
-          Toolbar</primary></indexterm>
-          <indexterm><primary>Property Toolbar</primary><secondary>for 
-          Datatype</secondary></indexterm>
+          <indexterm><primary>Datatyp Eigenschafts- 
+          Symbolleiste</primary></indexterm>
+          <indexterm><primary>Eigenschafts-Symbolleiste</primary><secondary>für 
+          Datentypen</secondary></indexterm>
           <variablelist>
 
             <varlistentry>
@@ -23791,11 +23793,11 @@
               <imagedata align="center"
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Go up</literal></term>
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
-                <para>Navigate up through the package structure.</para>
+                <para>Geht in der Paketstruktur nach oben.</para>
 
               </listitem>
 
@@ -23807,19 +23809,23 @@
               <imagedata align="center"
                fileref="images/icons/datatype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New datatype</literal></term>
+              <literal>Neuer Datentyp</literal></term>
 
               <listitem>
 
-                <para>This creates a new datatype (see 
-                <xref linkend="s1.ref.class_class"/>) within the same 
-                package as the current datatype.</para>
+                <para>
+                	Erzeugt innerhalb des gleichen Paketes einen neuen Datentyp 
+                	(siehe <xref linkend="s1.ref.class_class"/>) als aktuellen 
+                	Datentyp.
+                </para>
 
                 <tip>
 
-                  <para>While it can make sense to create datatypes 
-                  this way, it can be clearer to create them within the 
-                  package or model where you want them.</para>
+                  <para>
+                  	Obwohl es Sinn machen kann, Datentypen auf diesem Weg zu 
+                  	erzeugen, kann es klarer sein, diese innerhalb eines Paketes 
+                  	oder Modelles, wo sie sie benötigen, zu erzeugen.
+                  </para>
 
                 </tip>
 
@@ -23833,19 +23839,20 @@
               <imagedata align="center"
                fileref="images/icons/enumeration.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Enumeration</literal></term>
+              <literal>Neue Aufzählung</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Add Enumeration</primary></indexterm>
-                <indexterm><primary>New Enumeration</primary></indexterm>
-                <indexterm><primary>Create 
-                New</primary><secondary>Enumeration</secondary></indexterm>
-                <para>This creates a new Enumeration (see 
-                <xref linkend="s1.ref.enumeration"/>) 
-                in the same package as the datatype, 
-                navigating immediately 
-                to the properties tab for that Enumeration.</para>
+                <indexterm><primary>Aufzählung hinzufügen</primary></indexterm>
+                <indexterm><primary>Neue Aufzählung</primary></indexterm>
+                <indexterm><primary>Erzeuge neue  
+                </primary><secondary>Aufzählung</secondary></indexterm>
+                <para>
+                	Erzeugt im gleichen Paket eine neue Aufzählung (siehe  
+                	<xref linkend="s1.ref.enumeration"/>)
+                	als Datentyp und springt sofort in das Register Eigenschaften 
+                	dieser Aufzählung. 
+                </para>
 
               </listitem>
 
@@ -23857,13 +23864,15 @@
               <imagedata align="center"
                fileref="images/icons/operation.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Operation</literal></term>
+              <literal>Neue Operation</literal></term>
 
               <listitem>
 
-                <para>This creates a new operation within the datatype, 
-                navigating immediately to the properties tab for that 
-                operation.</para>
+                <para>
+                	Erzeugt einen neue Operation innerhalb des Datentyps und 
+                	springt sofort in das Register Eigenschaften dieser 
+                	Operation.
+                </para>
 
               </listitem>
 
@@ -23875,18 +23884,20 @@
               <imagedata align="center"
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Stereotype</literal></term>
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Add Stereotype</primary></indexterm>
-                <indexterm><primary>New Stereotype</primary></indexterm>
-                <indexterm><primary>Create 
-                New</primary><secondary>Stereotype</secondary></indexterm>
-                <para>This creates a new Stereotype (see 
-                <xref linkend="s1.ref.stereotype"/>) within the same 
-                package as the datatype, navigating immediately to the 
-                properties tab for that stereotype.</para>
+                <indexterm><primary>Stereotyp hinzufügen</primary></indexterm>
+                <indexterm><primary>Neuer Stereotyp</primary></indexterm>
+                <indexterm><primary>Erzeuge  
+                neuen</primary><secondary>Stereotyp</secondary></indexterm>
+                <para>
+                	Erzeugt innerhalb des gleichen Paketes einen neuen 
+                	Stereotyp (siehe <xref linkend="s1.ref.stereotype"/>) 
+                	und springt sofort in das Register Eigenschaften dieses 
+                	Stereotyps. 
+                </para>
 
               </listitem>
 
@@ -23898,11 +23909,11 @@
               <imagedata align="center"
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Delete</literal></term>
+              <literal>Löschen</literal></term>
 
               <listitem>
 
-                <para>This deletes the datatype from the model.</para>
+                <para>Löscht den Datentyp aus dem Modell.</para>
 
               </listitem>
 
@@ -23914,12 +23925,12 @@
 
         <sect2 id="s2.ref.datatype_property_fields">
 
-          <title>Property Fields For Datatype</title>
+          <title>Datentyp-Eigenschaftsfelder</title>
 
-          <indexterm><primary>Datatype Property 
-          Fields</primary></indexterm>
-          <indexterm><primary>Property Fields</primary><secondary>for 
-          Datatype</secondary></indexterm>
+          <indexterm><primary>Datentyp-Eigenschaftsfelder
+          </primary></indexterm>
+          <indexterm><primary>Eigenschaftsfelder</primary><secondary>für  
+          Datentyp</secondary></indexterm>
           <variablelist>
 
             <varlistentry>
@@ -23928,20 +23939,23 @@
 
               <listitem>
 
-                <indexterm><primary>Datatype Name</primary></indexterm>
-                <indexterm><primary>Name</primary><secondary>of 
-                Datatype</secondary></indexterm>
-                <para>Text box. The name of the datatype. The primitive 
-                datatypes all have lower case names, but there is no 
-                formal convention.</para>
+                <indexterm><primary>Datentyp-Name</primary></indexterm>
+                <indexterm><primary>Name</primary><secondary>des  
+                Datentyps</secondary></indexterm>
+                <para>
+                Textfeld. Der Name des Datentyps. Die primitiven Datentypen 
+                haben alle kleingeschriebene Namen. Es gibt allerdings keine 
+                formale Konvention hierfür. 
+                </para>
 
                 <note>
 
-                  <para>The default name supplied for a newly created 
-                  datatype is the empty string <quote />. Datatypes 
-                  with empty string names will appear with the name 
-                  <literal>(Unnamed Datatype)</literal> in the 
-                  explorer.</para>
+                  <para>
+                  	Der Standardname neu erzeugter Datentypen ist ein leerer 
+                  	String <quote />. Datentypen mit leeren String-Namen 
+                  	erscheinen im Explorer unter <literal>(Unbenannte Datentypen)
+                  	</literal>.
+                  </para>
 
                 </note>
 
@@ -23951,14 +23965,14 @@
 
             <varlistentry>
 
-              <term><literal>Namespace</literal></term>
+              <term><literal>Namensraum</literal></term>
 
               <listitem>
 
-                <para>Drop down selector with navigate button. 
-                Allows changing the 
-                namespace for the datatype. This is the package 
-                hierarchy.</para>
+                <para>
+                	DropDown-Kombinationsfeld. Erlaubt die Änderung des 
+                	Namensraumes für den Datentyp. Dies ist die Pakethierarchie.
+                </para>
 
               </listitem>
 
@@ -23966,31 +23980,31 @@
 
             <varlistentry>
 
-              <term><literal>Modifiers</literal></term>
+              <term><literal>Modifizierer</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Datatype 
-                Modifiers</primary></indexterm>
-                <indexterm><primary>Modifiers</primary><secondary>of 
-                Datatype</secondary></indexterm>
-                <para>Check box, with entries <literal>
-                Abstract</literal>, <literal>Leaf</literal> and 
+                <indexterm><primary>Datatyp- 
+                Modifizierer</primary></indexterm>
+                <indexterm><primary>Modifizierer</primary><secondary>eines 
+                Datentyps</secondary></indexterm>
+                <para>Markierfeld, mit den Einträgen <literal>
+                Abstract</literal>, <literal>Leaf</literal> und 
                 <literal>Root</literal>.</para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para><literal>Abstract</literal> is used to 
-                    declare that this datatype cannot be instantiated, 
-                    but must always be specialized.</para>
+                    <para><literal>Abstract</literal> deklariert, dass dieser 
+                    Datentyp nicht instantiiert werden kann und daher immer 
+                    spezialisiert werden muss.</para>
 
                     <note>
 
-                      <para>ArgoUML provides no mechanism for 
-                      specializing datatypes, so this check box is of 
-                      little use.</para>
+                      <para>ArgoUML enthält keine Mechanismen, um Datentypen 
+                      zu spezialisieren, so dass dieses Markierfeld wenig 
+                      genutzt wird.</para>
 
                     </note>
 
@@ -23998,16 +24012,16 @@
 
                   <listitem>
 
-                    <para><literal>Leaf</literal> indicates that this 
-                    datatype can have no further sub-types, while 
-                    <literal>Root</literal> indicates it is a top level 
-                    datatype.</para>
+                    <para><literal>Leaf</literal> gibt an, dass der Datentyp 
+                    eine weiteren Subtypen haben kann, während <literal>Root
+                    </literal> angibt, dass es sich um einen Datentyp auf 
+                    oberster Ebene handelt. </para>
 
                     <tip>
 
-                      <para>You can define the specialization of 
-                      datatypes in a class diagram 
-                      by drawing generalizations between them.</para>
+                      <para>Sie können die Spezialisierung eines Datentyps in 
+                      einem Klassendiagramm definieren, indem Sie 
+                      Generalisierungen zwischen ihnen einzeichnen. </para>
 
                     </tip>
 
@@ -24021,20 +24035,20 @@
 
             <varlistentry>
 
-              <term><literal>Visibility</literal></term>
+              <term><literal>Sichtbarkeit</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Datatype 
-                Visibility</primary></indexterm>
-                <indexterm><primary>Visibility</primary><secondary>of 
-                Datatype</secondary></indexterm>
-                <para>Radio box, with entries <literal>
+                <indexterm><primary>Datatyp- 
+                Sichtbarkeit</primary></indexterm>
+                <indexterm><primary>Sichtbarkeit</primary><secondary>des 
+                Datentyps</secondary></indexterm>
+                <para>Auswahlfeld, mit den Einträgen <literal>
                 public</literal>, <literal>private</literal>, 
-                <literal>protected</literal>, and
+                <literal>protected</literal>, und
                 <literal>package</literal>.</para>
 
-                <para>Records the visibility for the Datatype.</para>
+                <para>Gibt die Sichtbarkeit des Datentyps an.</para>
 
               </listitem>
 
@@ -24042,17 +24056,17 @@
 
             <varlistentry>
 
-              <term><literal>Client Dependencies</literal></term>
+              <term><literal>Client-Abhängigkeiten</literal></term>
 
               <listitem>
 
-                <para>Text area. Lists any elements that depend on this 
-                datatype.</para>
+                <para>Textbereich. Listet jedes Element auf, das von diesem 
+                Datentyp abhängig ist.</para>
 
                 <caution>
 
-                  <para>It is not clear that dependencies between 
-                  datatypes makes much sense.</para>
+                  <para>Es ist nicht klar, dass Abhängigkeiten zwischen 
+                  Datentypen mehr Sinn machen.</para>
 
                 </caution>
 
@@ -24062,17 +24076,17 @@
 
             <varlistentry>
 
-              <term><literal>Supplier Dependencies</literal></term>
+              <term><literal>Liefer-Abhängigkeiten</literal></term>
 
               <listitem>
 
-                <para>Text area. Lists any elements that this datatype 
-                depends on.</para>
+                <para>Textbereich. Listet jedes Element auf von dem dieser 
+                Datentyp abhängt.</para>
 
                 <caution>
 
-                  <para>It is not clear that dependencies between 
-                  datatypes makes much sense.</para>
+                  <para>Es ist nicht klar, dass Abhängigkeiten zwischen 
+                  Datentypen mehr Sinn machen.</para>
 
                 </caution>
 
@@ -24082,12 +24096,12 @@
 
             <varlistentry>
 
-              <term><literal>Generalizations</literal></term>
+              <term><literal>Generalisierungen</literal></term>
 
               <listitem>
 
-                <para>Text area. Lists any datatype that 
-                <emphasis>generalizes</emphasis> this datatype.</para>
+                <para>Textbereich. Listet jeden Datentyp auf, der diesen 
+                Datentyp <emphasis>vererbt (generalisiert)</emphasis>.</para>
 
               </listitem>
 
@@ -24095,12 +24109,12 @@
 
             <varlistentry>
 
-              <term><literal>Specializations</literal></term>
+              <term><literal>Spezialisierungen</literal></term>
 
               <listitem>
 
-                <para>Text box. Lists any specialized datatype (i.e. 
-                for which this datatype is a generalization.</para>
+                <para>Textbereich. Listet jeden spezialisierten Datentyp auf 
+                (z.B. für den dieser Datentyp eine Generalisierung ist).</para>
 
               </listitem>
 
@@ -24108,49 +24122,51 @@
 
             <varlistentry>
 
-              <term><literal>Operations</literal></term>
+              <term><literal>Operationen</literal></term>
 
               <listitem>
 
-                <para>Text area. Lists all the operations defined on 
-                this datatype. Button&nbsp;1 double click navigates to the 
-                selected operation. button&nbsp;2 click brings up a pop up 
-                menu with two entries.</para>
+                <para>Textbereich. Listet alle Operationen auf, die zu diesem 
+                Datentyp definiert sind. Ein Taste&nbsp;1-Doppelklick springt 
+                zu der markierten Operation. Ein Taste&nbsp;2-Klick öffnet ein 
+                Popup-Menü mit zwei Einträgen.</para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para><literal>Move Up</literal>. Only available 
-                    where there are two or more operations, and the 
-                    operation selected is not at the top. It is moved 
-                    up one.</para>
+                    <para><literal>Nach oben</literal>. Nur verfügbar, wenn es 
+                    zwei oder mehr Operationen gibt und sich die markierte 
+                    Operation nicht ganz oben befindet. Sie wird um einen Schritt 
+                    nach oben bewegt.</para>
 
                   </listitem>
 
                   <listitem>
 
-                    <para><literal>Move Down</literal>. Only available 
-                    where there are two or more operations listed, and 
-                    the operation selected is not at the bottom. It is 
-                    moved down one.</para>
+                    <para><literal>Nach unten</literal>. Nur verfügbar, wenn es 
+                    zwei oder mehr Operationen gibt und sich die markierte 
+                    Operation nicht ganz unten befindet. Sie wird um einen 
+                    Schritt nach unten bewegt.</para>
 
                   </listitem>
 
                 </itemizedlist>
 
-                <para>See <xref linkend="s1.ref.operation"/> for 
-                details of operations.</para>
+                <para>Details über Operationen, siehe 
+                	<xref linkend="s1.ref.operation"/>.</para>
 
                 <caution>
 
-                  <para>ArgoUML treats all operations as equivalent. 
-                  Any operations created here will use the same 
-                  mechanism as operations for classes. Remember that 
-                  operations on datatypes must have no side effects 
-                  (they are read-only). This means the <literal>
-                  query</literal> modifier <emphasis>must</emphasis> be 
-                  checked for all operations.</para>
+                  <para>
+                  	ArgoUML behandelt alle Operationen gleich. Jede hier erzeugte 
+                  	Operation wird den gleichen Mechanismus wie Operationen in 
+                  	Klassen verwenden. Erinnern Sie sich, dass Operationen in 
+                  	Datentypen keine Seiteneffekte haben dürfen (sie sind 
+                  	read-only). Das heißt, der Modifizierer <literal>query
+                  	</literal> <emphasis>muss</emphasis> bei allen Operationen 
+                  	ausgewählt sein.
+                  </para>
 
                 </caution>
 
