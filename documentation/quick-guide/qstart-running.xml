@@ -26,17 +26,17 @@
 -->
 
 
-<chapter id="running">
-	<title>ArgoUML Prinzipien</title>
-	<para>
+<chapter id="running" lang="de">
+	<title lang="de">ArgoUML Prinzipien</title>
+	<para lang="de">
 	Nach dem Start von ArgoUML wird ein leeres Klassendiagramm angezeigt, in 
 	das Sie mehrere unterschiedliche Objekte hinzufügen können. ArgoUML 
 	arbeitet nach folgenden Prinzipien:
   </para>
 
-  <section>
-    <title>Projekt, Modell und Diagramm</title>
-    <para>
+  <section lang="de">
+    <title lang="de">Projekt, Modell und Diagramm</title>
+    <para lang="de">
       Die Dateioperationen speichern und öffnen ein 	
        <literal>Projekt</literal>. 
        Ein <literal>Projekt</literal> entspricht einem 
@@ -44,7 +44,7 @@
        Beispiel alles was Sie innerhalb des ArgoUML-Fensters 
        bearbeiten können.
     </para>
-    <para>
+    <para lang="de">
       Das <literal>Modell</literal> kann viele Objekte 
       (Modellelemente) enthalten, welche die vollständige 
       UML-Beschreibung des von Ihnen zu beschreibenden 
@@ -56,14 +56,14 @@
       Programmcode vom <literal>Modell</literal> generieren 
       zu können - Sie benötigen hierfür kein Diagramm.
      </para>
-    <para>
+    <para lang="de">
       Ein ArgoUML-<literal>Projekt</literal> enthält auch 
       alle Diagramminformationen, z.B. die zur Darstellung der 
       verschiedenen UML-Modellelemente benötigten Symbole 
       (Präsentation), deren Standorte, Farben, etc.
       Einige Modellelemente erscheinen in mehreren Diagrammen.
     </para>
-    <para>
+    <para lang="de">
       Daraus folgt, dass das Speichern und Öffnen von 
       Projekten all diese Informationen beinhaltet.
       Es gibt einen Weg, nur die Informationen eines 
@@ -75,9 +75,9 @@
     </para>
   </section>
 
-  <section>
-    <title>Objekte</title>
-    <para>
+  <section lang="de">
+    <title lang="de">Objekte</title>
+    <para lang="de">
       Sie wählen ein Objekt aus, indem Sie es mit der linken 
       Maustaste anklicken.
       Die Funktionlität von ArgoUML kann über das Menü der 
@@ -86,11 +86,11 @@
       erscheinen.
       Viele dieser Funktionen bearbeiten die ausgewählten Objekte.
     </para>
-    <para>
+    <para lang="de">
       Alle Diagramme haben oben Werkzeugleisten mit deren Hilfe 
       Objekte im Diagramm erzeugt werden können.
     </para>
-    <para>
+    <para lang="de">
       Die meisten Objekte können zu einem Diagramm hinzugefügt oder entfernt 
       werden ohne diese aus dem <literal>Modell</literal> zu löschen!
       Wenn Sie im Diagramm ein Objekt und dann den Menüeintrag 
@@ -106,34 +106,34 @@
     </para>
   </section>
 
-	<section>
-		<title>Überblick über das Fenster</title>
-		<para>
+	<section lang="de">
+		<title lang="de">Überblick über das Fenster</title>
+		<para lang="de">
 	  		Im oberen Bereich enthält das Fenster eine Menüzeile mit den 
 	  		verfügbaren Kommandos. Im Menü <literal>Datei</literal> 
 	  		können Sie das Projekt speichern oder ein anderes Projekt 
 	  		öffnen.
     	</para>
-		<para>
+		<para lang="de">
 		Der obere linke Teil des ArgoUML-Fensters zeigt ein Baummodell 
 		der Diagramme und Objekte an.
 		Diese Sicht kann an Ihre Bedürfnisse durch Filtern der dargestellten 
 		Objekte und deren angezeigter Struktur angepasst werden.
 	    </para>
-		<para>
+		<para lang="de">
 		Der obere rechte Teil von ArgoUML zeigt das aktuelle Diagramm.
 		Sie können die Objekte in den Diagrammen hin- und herziehen und Sie 
 		können Quick-Links verwenden, die erscheinen, wenn Sie die Maus über 
 		das markierte Objekt bewegen, um neue Objekte zu erzeugen, welche die 
 		bereits vorhandenen Objekte verbinden.
 	    </para>
-		<para>
+		<para lang="de">
 		Der untere rechte Teil enthält verschiedene Details des aktuell 
 		markierten Objektes: Sie markieren das Objekt in einem der darüber 
 		befindlichen Ebenen und wählen über die Tabulatoren aus, welche Details 
 		Sie überprüfen wollen.
     </para>
-		<para>
+		<para lang="de">
 		Der untere linke Teil enthält eine Liste aller "Noch zu bearbeiten"-
 		Elemente dieses Modelles.
     </para>

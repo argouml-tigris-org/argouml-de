@@ -56,29 +56,29 @@
 	Template last modified: May 4, 2001
 	
 -->
-<chapter id="CHAPTER-ID">
-	<chapterinfo>
+<chapter id="CHAPTER-ID" lang="de">
+	<chapterinfo lang="de">
 		<!-- 
 			===========================================================
 		   		Authors 
 			===========================================================	
 		-->
 		<!-- Repeat <author> block (and optional <address> and <email> elements) as needed for each "main" author -->	
-		<author>
-			<firstname>FIRSTNAME</firstname>
-			<surname>LASTNAME</surname>
+		<author lang="de">
+			<firstname lang="de">FIRSTNAME</firstname>
+			<surname lang="de">LASTNAME</surname>
 		</author>
-		<address><email>USERNAME@EMAIL.ADDRESS</email></address>
+		<address lang="de"><email>USERNAME@EMAIL.ADDRESS</email></address>
 	</chapterinfo>	
-	<title>Chapter Title</title>
+	<title lang="de">Chapter Title</title>
 	<!--
 		===========================================================
 			 Chapter "INTRODUCTION" section 
 		===========================================================
 	-->
-	<sect1>
-		<title>Introduction</title>
-		<para>
+	<sect1 lang="de">
+		<title lang="de">Introduction</title>
+		<para lang="de">
 				This section presents a...
 			</para>
 	</sect1>
@@ -89,8 +89,8 @@
 		===========================================================
 	-->
 	<sect1 id="CHAPTER-ID-SECTION-ID">
-		<title>Section Title</title>
-		<para>
+		<title lang="de">Section Title</title>
+		<para lang="de">
 			This is the text of this section...
 		</para>
 	</sect1>
@@ -99,9 +99,9 @@
 			 Chapter "SUMMARY" section 
 		===========================================================
 	-->
-	<sect1>
-		<title>Summary</title>
-		<para>
+	<sect1 lang="de">
+		<title lang="de">Summary</title>
+		<para lang="de">
 				In this section, we covered or learned that:
 			</para>
 	</sect1>

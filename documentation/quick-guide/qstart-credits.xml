@@ -56,14 +56,14 @@
 	Template last modified: May 4, 2001
 	
 -->
-<chapter id="credits">
-	<title>Credits</title>
+<chapter id="credits" lang="de">
+	<title lang="de">Credits</title>
 	<!-- 
 		===========================================================
 	   		Authors 
 		===========================================================	
 	-->
-	<para>Author:
+	<para lang="de">Autor:
 		<!-- Repeat <author> and [optional] <email> elements as needed for each "main" author -->
 		&author-kunle.odu;
 		&email-kunle.odu;

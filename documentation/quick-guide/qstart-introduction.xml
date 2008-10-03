@@ -35,8 +35,8 @@
 	Template last modified: May 4, 2001
 	
 -->
-<chapter id="introduction">
-	<chapterinfo>
+<chapter id="introduction" lang="de">
+	<chapterinfo lang="de">
 		<!-- 
 			===========================================================
 		   		Authors 
@@ -46,48 +46,48 @@
 		&author-kunle.odu;
 		&address-kunle.odu;
 	</chapterinfo>	
-	<title>Einleitung</title>
+	<title lang="de">Einleitung</title>
 	<!--
 		===========================================================
 			 Chapter "INTRODUCTION" section 
 		===========================================================
 	-->
-	<sect1>
-		<title>Willkommen zu &argo;</title>
-		<para>
+	<sect1 lang="de">
+		<title lang="de">Willkommen zu &argo;</title>
+		<para lang="de">
 			&argo; ist schon jetzt eine leistungsfähige, leicht zu verwendende, interaktive 
 			grafische Software-Design-Umgebung, die das Design, die Entwicklung und die 
 			Dokumentation von objektorientierten Software-Anwendungen unterstützt.
 		</para>
-		<para>
+		<para lang="de">
 			Wenn Sie mit der Familie von Softwareanwendungen vertraut sind, die Computer Aided Software 
 			Engineering (CASE) Tools genannt werden, sollten Sie mit &argo; sofort zurecht kommen.
 		</para>
-		<para>
+		<para lang="de">
 			Die Anwender von &argo; sind Software-Designer &amp; -Architekten, Software-Entwickler, 
 			Geschäftsprozess-Analytiker, System-Analytiker und andere in Analyse, Design und Entwicklung
 			von Softwareanwendungen involvierte Experten.
 		</para>
-		<para>
+		<para lang="de">
 			Haupteigenschaften:
 			<itemizedlist>
 				<listitem>
-					<para>
+					<para lang="de">
 Offene Standards: XMI, SVG und PGML
 					</para>
 				</listitem>
 				<listitem>
-					<para>
+					<para lang="de">
             durch die ausschliessliche Nutzung von Java 100% plattformunabhängig 
 					</para>
 				</listitem>
 				<listitem>
-					<para>
+					<para lang="de">
             Open Source, was Erweiterungen oder Anpassungen erlaubt.
 					</para>
 				</listitem>
 				<listitem>
-					<para>
+					<para lang="de">
             Kognitive Eigenschaften wie:
             Reflektion während der Aktionen, passendes Design, 
             Verständlichkeit und Problemlösung
@@ -102,9 +102,9 @@ Offene Standards: XMI, SVG und PGML
 												  discussed in this chapter
 		===========================================================
 	-->
-	<sect1>
-		<title>Über diese Kurzanleitung...</title>
-		<para>
+	<sect1 lang="de">
+		<title lang="de">Über diese Kurzanleitung...</title>
+		<para lang="de">
 			Diese Kurzanleitung - &document-title;  - soll es Ihnen 
 			ermöglichen, schnellstmöglichst mit &argo; arbeiten zu können.
 			Sie enthält Schritt-für-Schritt-Anweisungen zum Installieren und 
