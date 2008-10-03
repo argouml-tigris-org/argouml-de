@@ -61,46 +61,38 @@
 
 
 <book lang="de">
-	<title>
+	<title lang="de">
 		&document-title;
 	</title>
-	<bookinfo>
-
-    <mediaobject>
-      <imageobject>
-        <imagedata fileref="images/argologo200x190_on_ffffff.png" 
-                format="PNG"/>
-      </imageobject>
-    </mediaobject>
-    
-		<subtitle>
+	<bookinfo lang="de">
+		<subtitle lang="de">
 			&document-subtitle;
 		</subtitle>
-		<authorgroup>
+		<authorgroup lang="de">
 			&author-kunle.odu;
 			&author-anthony.ogu;
-			<author>
-				<firstname>Linus</firstname>
-				<surname>Tolke</surname>
+			<author lang="de">
+				<firstname lang="de">Linus</firstname>
+				<surname lang="de">Tolke</surname>
 			</author>
-			<author>
-				<firstname>Michiel</firstname>
-				<surname>van der Wulp</surname>
+			<author lang="de">
+				<firstname lang="de">Michiel</firstname>
+				<surname lang="de">van der Wulp</surname>
 			</author>
-			<author>
-				<firstname>Übersetzung: Harald</firstname>
-				<surname>Braun</surname>
+			<author lang="de">
+				<firstname lang="de">Übersetzung: Harald</firstname>
+				<surname lang="de">Braun</surname>
 			</author>
 		</authorgroup>
-		<copyright>
-			<year>2001</year>
-			<holder>Kunle Odutola</holder>
+		<copyright lang="de">
+			<year lang="de">2001</year>
+			<holder lang="de">Kunle Odutola</holder>
 		</copyright>
-		<copyright>
-			<year>2004-2008</year>
-			<holder>Michiel van der Wulp</holder>
+		<copyright lang="de">
+			<year lang="de">2004-2008</year>
+			<holder lang="de">Michiel van der Wulp</holder>
 		</copyright>
-		<legalnotice>
+		<legalnotice lang="de">
 			&open-content-license;
 		</legalnotice>
 	</bookinfo>
