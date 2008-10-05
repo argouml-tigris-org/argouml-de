@@ -27002,17 +27002,20 @@
 
               <listitem>
 
-                <indexterm><primary>Use Case Include 
-                Relationships</primary></indexterm>
-                <indexterm><primary>Include 
-                Relationship</primary><secondary>of Use 
-                Case</secondary></indexterm>
-                <para>Text box. Lists any use case that this use case 
-                includes.</para>
+                <indexterm><primary>Anwendungsfall Include- 
+                Beziehungen</primary></indexterm>
+                <indexterm><primary>Include- 
+                Beziehung</primary><secondary>eines Anwendungsfalles 
+                </secondary></indexterm>
+                <para>
+                	Textfeld. Listet jeden Anwendungsfall auf, der diesen 
+                	Anwendungsfall einschliesst.
+                </para>
 
-                <para>Where an include relationship has been created, 
-                button&nbsp;1 Double Click will navigate to that 
-                relationship.</para>
+                <para>
+                	Wo eine include-Beziehung erzeugt wurde, wird ein 
+                	Taste&nbsp;1-Doppelklick zu dieser Beziehung springen.
+                </para>
 
               </listitem>
 
@@ -27020,33 +27023,40 @@
 
             <varlistentry>
 
-              <term><literal>Attributes</literal></term>
+              <term><literal>Attribute</literal></term>
 
               <listitem>
 
-                <para>Text area. Lists all the attributes (see 
-                <xref linkend="s1.ref.attribute"/>) defined for this 
-                use case. Button&nbsp;1 double click navigates to the selected 
-                attribute. Button&nbsp;2 gives a pop up menu with two 
-                entries, which allow reordering the attributes.</para>
+                <para>
+                	Textbereich. Listet alle für diesen Anwendungsfall 
+                	definierten Attribute auf (siehe
+                	<xref linkend="s1.ref.attribute"/>). Ein Taste&nbsp;1-
+                	Doppelklick geht zu dem markierten Attribut. Ein Taste&nbsp;2-
+                	Klick öffnet ein Popup-Menü mit zwei Einträgen, die ein 
+                	Ändern der Attributreihenfolge erlauben.
+                </para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para><literal>Move Up</literal>. Only available 
-                    where there are two or more attributes listed, and 
-                    the attribute selected is not at the top. It moves 
-                    the attribute up one position.</para>
+                    <para>
+                    	<literal>Nach oben</literal>. Nur verfügbar, wenn zwei 
+                    	oder mehr Attribute gelistet werden und sich das 
+                    	markierte Attribut nicht ganz oben befindet. Es bewegt 
+                    	das Attribut um einen Schritt nach oben. 
+                    </para>
 
                   </listitem>
 
                   <listitem>
 
-                    <para><literal>Move Down</literal>. Only available 
-                    where there are two or more attributes listed, and 
-                    the attribute selected is not at the bottom. It 
-                    moves the attribute down one position.</para>
+                    <para>
+                    	<literal>Nach unten</literal>. Nur verfügbar, wenn zwei 
+                    	oder mehr Attribute gelistet werden und sich das 
+                    	markierte Attribut nicht ganz unten befindet. Es bewegt 
+                    	das Attribut um einen Schritt nach unten. 
+                    </para>
 
                   </listitem>
 
@@ -27058,7 +27068,7 @@
 
             <varlistentry>
 
-              <term><literal>Association Ends</literal></term>
+              <term><literal>Assoziationsenden</literal></term>
 
               <listitem>
 
