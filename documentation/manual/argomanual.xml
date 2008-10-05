@@ -24056,7 +24056,7 @@
 
             <varlistentry>
 
-              <term><literal>Client-Abhängigkeiten</literal></term>
+              <term><literal>Abhängig von</literal></term>
 
               <listitem>
 
@@ -24076,7 +24076,7 @@
 
             <varlistentry>
 
-              <term><literal>Liefer-Abhängigkeiten</literal></term>
+              <term><literal>Notwendig für</literal></term>
 
               <listitem>
 
@@ -24663,7 +24663,7 @@
 
             <varlistentry>
 
-              <term><literal>Client-Abhängigkeiten</literal></term>
+              <term><literal>Abhängig von</literal></term>
 
               <listitem>
 
@@ -24694,7 +24694,7 @@
 
             <varlistentry>
 
-              <term><literal>Liefer-Abhängigkeiten</literal></term>
+              <term><literal>Notwendig für</literal></term>
 
               <listitem>
 
@@ -25754,23 +25754,29 @@
 
         <title>Einleitung</title>
 
-        <para>This chapter describes each model element that can be created 
-        within a use case diagram. Note that some sub-model elements of 
-        model elements on the diagram may not actually themselves appear on 
-        the diagram.</para>
+        <para>
+        	Dieses Kapitel beschreibt jedes Modellelement, das innerhalb eines 
+        	Anwendungsfalldiagrammes erzeugt werden kann. Beachten Sie, dass 
+        	einige Sub-Modellelemente der Modellelemente nicht immer im Diagramm 
+        	erscheinen können.
+        </para>
 
-        <para>There is a close relationship between this material and 
-        the properties tab of the details pane (see 
-        <xref linkend="s1.ref.proptab"/>). That section covers 
-        properties in general, in this chapter they are linked to 
-        specific model elements.</para>
+        <para>
+        	Es gibt eine sehr enge Beziehung zwischen diesem Material und dem 
+        	Register Eigenschaften des Detailfensters (siehe 
+        	<xref linkend="s1.ref.proptab"/>). Dieser Abschnitt behandelt die 
+        	Eigenschaften im Allgemeinen, in diesem Kapitel sind sie mit den 
+        	spezifischen Modellelementen verknüpft. 
+        </para>
 
-        <para><xref linkend="fig.ref.use_case_diagram"/> shows a use 
-        case diagram with all typical model elements displayed.</para>
+        <para>
+        	<xref linkend="fig.ref.use_case_diagram"/> zeigt ein 
+        	Anwendungsfalldiagramm mit allen typischen Modellelementen. 
+        </para>
 
         <figure id="fig.ref.use_case_diagram">
 
-          <title>Typical model elements on a use case diagram.</title>
+          <title>Typische Modellelemente in einem Anwendungsfalldiagramm.</title>
 
           <screenshot><mediaobject><imageobject>
           <imagedata align="center"
@@ -25780,22 +25786,26 @@
 
         <sect2>
 
-          <title>ArgoUML Limitations Concerning Use Case 
-          Diagrams</title>
+          <title>ArgoUML-Einschränkungen, welche die Anwendungsfalldiagramme 
+          betreffen</title>
 
-          <para>Use case diagrams are now well supported within 
-          ArgoUML. There still are some minor limitations though,
-          especially with extension points.</para>
+          <para>
+          	Anwendungsfalldiagramme werden jetzt von ArgoUML gut unterstützt. 
+          	Es gibt aber einige kleinere Einschränkungen, speziell bei 
+          	Erweiterungspunkten.
+          </para>
 
           <note>
 
-            <para>Earlier versions of ArgoUML (0.9 and earlier) 
-            implemented extend and include relationships by using a 
-            stereotyped dependency relationship. Although such diagrams 
-            will show correctly on the diagram, they will not link 
-            correctly to the use cases, and should be replaced by 
-            proper extend and include relationships using the current 
-            system.</para>
+            <para>
+            	Frühere Versionen von ArgoUML (0.9 und früher) implementierten 
+            	extend- und include-Beziehungen mit Hilfe einer stereotypisierten 
+            	Abhängigkeitsbeziehung. Obwohl solche Diagramme korrekt im 
+            	Diagramm dargestellt werden, werden sie nicht richtig mit den 
+            	Anwendungsfällen verbunden, und Sie sollten diese durch die 
+            	richtigen extend- und include-Beziehungen im aktuellen System 
+            	ersetzen.
+            </para>
 
           </note>
 
@@ -25805,40 +25815,47 @@
 
       <sect1 id="s1.ref.actor">
 
-        <title>Actor</title>
+        <title>Akteur</title>
 
-        <indexterm><primary>Actor</primary></indexterm>
-        <indexterm><primary>External entity</primary></indexterm>
-        <para>An actor represents any external entity (human or 
-        machine) that interacts with the system, providing input, 
-        receiving output, or both.</para>
+        <indexterm><primary>Akteur</primary></indexterm>
+        <indexterm><primary>Externe Entität</primary></indexterm>
+        <para>
+        	Ein Akteur repräsentiert eine externe Entität (Mensch oder Maschine) 
+        	die mit dem System interagiert, die Eingabeinformationen gibt, 
+        	Ausgabeinformationen empfängt oder beides.
+        </para>
 
-        <para>Within the UML metamodel, actor is a sub-class of 
-        <literal>classifier</literal>.</para>
+        <para>
+        	Innerhalb des UML-Metamodelles ist der Akteur eine Subklasse von
+        	<literal>classifier</literal>.
+        </para>
 
-        <para>The actor is represented by a <quote>stick man</quote> 
-        figure on the diagram (see 
-        <xref linkend="fig.ref.use_case_diagram"/>).</para>
+        <para>
+        	Der Akteur wird durch ein <quote>Strichmännchen</quote> im Diagramm 
+        	repräsentiert (siehe
+        	<xref linkend="fig.ref.use_case_diagram"/>).
+        </para>
 
         <sect2>
 
-          <title>Actor Details Tabs</title>
+          <title>Akteur Detail-Register</title>
 
-          <indexterm><primary>Actor Details Tabs</primary></indexterm>
-          <indexterm><primary>Details Tabs</primary><secondary>for 
-          Actor</secondary></indexterm>
-          <para>The details tabs that are active for actors are as 
-          follows.</para>
+          <indexterm><primary>Akteur Detail-Register</primary></indexterm>
+          <indexterm><primary>Detail-Register</primary><secondary>für den 
+          Akteur</secondary></indexterm>
+          <para>
+          	Die folgenden Detail-Register sind für Akteure aktiv.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
-              <term><literal>ToDoItem</literal></term>
+              <term><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
-                <para>Standard tab.</para>
+                <para>Standard-Register.</para>
 
               </listitem>
 
@@ -25846,14 +25863,14 @@
 
             <varlistentry>
 
-              <term><literal>Properties</literal></term>
+              <term><literal>Eigenschaften</literal></term>
 
               <listitem>
 
-                <para>See 
-                <xref linkend="s2.ref.actor_property_toolbar"/> and 
+                <para>Siehe 
+                <xref linkend="s2.ref.actor_property_toolbar"/> und 
                 <xref linkend="s2.ref.actor_property_fields"/> 
-                below.</para>
+                unten.</para>
 
               </listitem>
 
@@ -25861,11 +25878,11 @@
 
             <varlistentry>
 
-              <term><literal>Documentation</literal></term>
+              <term><literal>Dokumentation</literal></term>
 
               <listitem>
 
-                <para>Standard tab. See 
+                <para>Standard-Register. Siehe 
                 <xref linkend="s2.ref.documentation_tab"/>.</para>
 
               </listitem>
@@ -25874,12 +25891,14 @@
 
             <varlistentry>
 
-              <term><literal>Presentation</literal></term>
+              <term><literal>Darstellung</literal></term>
 
               <listitem>
 
-                <para>Standard tab. The fill color is used for the 
-                stick man&apos;s head.</para>
+                <para>
+                	Standard-Register. Die Füllfarbe wird für den Kopf des 
+                	Strichmännchens verwendet.
+                </para>
 
               </listitem>
 
@@ -25887,12 +25906,14 @@
 
             <varlistentry>
 
-              <term><literal>Source</literal></term>
+              <term><literal>Quellcode</literal></term>
 
               <listitem>
 
-                <para>Standard tab. Usually, no code is provided for an 
-                actor, since it is external to the system.</para>
+                <para>
+                	Standard-Register. Normalerweise ist für einen Akteur kein 
+                	Code erforderlich, da er hinsichtlich des Systems extern ist.
+                </para>
 
               </listitem>
 
@@ -25900,11 +25921,11 @@
 
             <varlistentry>
 
-              <term><literal>Stereotype</literal></term>
+              <term><literal>Stereotyp</literal></term>
 
               <listitem>
 
-                <para>Standard tab.</para>
+                <para>Standard-Register.</para>
 
               </listitem>
 
@@ -25912,30 +25933,36 @@
 
             <varlistentry>
 
-              <term><literal>Tagged Values</literal></term>
+              <term><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
-                <para>Standard tab. In the UML metamodel, <literal>
-                Actor</literal> has the following standard tagged 
-                values defined.</para>
+                <para>
+                	Standard-Register. Im UML-Metamodell sind für den <literal>
+                	Akteur</literal> die folgenden Eigenschaftswerte definiert.
+                </para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para><literal>persistence</literal> (from the 
-                    superclass, <literal>Classifier</literal>). Values 
-                    <literal>transitory</literal>, indicating state is 
-                    destroyed when an instance is destroyed or <literal>
-                    persistent</literal>, marking state is preserved 
-                    when an instance is destroyed.</para>
+                    <para>
+                    	<literal>persistence</literal> (von der 
+                    	Superklasse <literal>Classifier</literal>). Der Wert  
+                    	<literal>transitory</literal> gibt an, dass der 
+                    	angezeigte Zustand gelöscht wird, wenn eine Instanz 
+                    	gelöscht oder <literal>persistent</literal> wird, ein 
+                    	markierter Zustand bleibt erhalten, wenn eine Instanz 
+                    	gelöscht wird.
+                    </para>
 
                     <tip>
 
-                      <para>Actors sit outside the system, and so their 
-                      internal behavior is of little concern, and this 
-                      tagged value is best ignored.</para>
+                      <para>
+                      	Akteure sitzen außerhalb des Systems, so dass deren 
+                      	internes Verhalten von geringem Interesse. Dieser 
+                      	Eigenschaftwert sollte am Besten ignoriert werden.
+                      </para>
 
                     </tip>
 
@@ -25943,28 +25970,29 @@
 
                   <listitem>
 
-                    <para><literal>semantics</literal> (from the 
-                    superclass, <literal>Classifier</literal>). The 
-                    value is a specification of the semantics of the 
-                    actor.</para>
+                    <para><literal>semantics</literal> (von der  
+                    Superklasse <literal>Classifier</literal>). Der Wert ist 
+                    eine Spezifikation der Semantik des Akteurs.</para>
 
                   </listitem>
 
                   <listitem>
 
-                    <para><literal>derived</literal> (from the 
-                    superclass, <literal>ModelElement</literal>). 
-                    Values <literal>true</literal>, meaning the actor 
-                    is redundant&mdash;it can be formally derived from other 
-                    elements, or <literal>false</literal> meaning it 
-                    cannot.</para>
+                    <para><literal>derived</literal> (von der  
+                    Superklasse <literal>ModelElement</literal>). 
+                    Der Wert <literal>true</literal>bedeutet, dass der Akteur 
+                    redundant ist&mdash; er kann formal von anderen Elementen 
+                    abgeleitet werden oder <literal>false</literal> bedeutet, 
+                    er kann es nicht.</para>
 
                     <note>
 
-                      <para>Derived actors have limited value, since 
-                      they sit outside the system being designed. They 
-                      may have their value in analysis to introduce 
-                      useful names or concepts.</para>
+                      <para>
+                      	Abgeleitete Akteure haben nur einen eingeschränkten 
+                      	Wert, da sie außerhalb des Systems designed wurden. 
+                      	Sie können Ihren Wert bei der Analyse haben, um 
+                      	nützliche Namen oder Konzepte einzuführen.
+                      </para>
 
                     </note>
 
@@ -25978,11 +26006,11 @@
 
             <varlistentry>
 
-              <term><literal>Checklist</literal></term>
+              <term><literal>Checkliste</literal></term>
 
               <listitem>
 
-                <para>Standard tab for a Classifier.</para>
+                <para>Standard-Register für einen Classifier.</para>
 
               </listitem>
 
@@ -25994,7 +26022,7 @@
 
         <sect2 id="s2.ref.actor_property_toolbar">
 
-          <title>Actor Property Toolbar</title>
+          <title>Akteur Eigenschaftssymbolleiste</title>
 
           <variablelist>
 
@@ -26004,12 +26032,12 @@
               <imagedata align="center"
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Go up</literal></term>
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
-                <para>Navigate up through the package structure of the 
-                model.</para>
+                <para>Geht in der Paketstruktur des Modelles einen Schritt 
+                nach oben.</para>
 
               </listitem>
 
@@ -26020,23 +26048,27 @@
               <term><guiicon><inlinemediaobject><imageobject>
               <imagedata align="center" fileref="images/icons/actor.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Add Actor</literal></term>
+              <literal>Akteur hinzufügen</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Add Actor</primary></indexterm>
-                <indexterm><primary>New Actor</primary></indexterm>
-                <indexterm><primary>Create 
-                New</primary><secondary>Actor</secondary></indexterm>
-                <para>This creates a new actor within the model, (but 
-                not within the diagram), navigating immediately to the 
-                properties tab for that actor.</para>
+                <indexterm><primary>Akteur hinzufügen</primary></indexterm>
+                <indexterm><primary>Neuer Akteur</primary></indexterm>
+                <indexterm><primary>Erzeuge  
+                neuen</primary><secondary>Akteur</secondary></indexterm>
+                <para>
+                	Erzeugt einen neuen Akteur im Modell (aber nicht im Diagramm) 
+                	und springt unmittelbar in das Register Eigenschaften 
+                	dieses Akteurs.
+                </para>
 
                 <tip>
 
-                  <para>This method of creating a new actor may be 
-                  confusing. It is much better to create an actor on 
-                  the diagram.</para>
+                  <para>
+                  	Diese Methode, einen neuen Akteur zu erzeugen, kann 
+                  	irritierend sein. Es ist besser, einen Akteur im Diagramm 
+                  	zu erzeugen.
+                  </para>
 
                 </tip>
 
@@ -26049,24 +26081,29 @@
               <term><guiicon><inlinemediaobject><imageobject>
               <imagedata align="center" fileref="images/icons/reception.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Reception</literal></term>
+              <literal>Neuer Signaleingang</literal></term>
             
               <listitem>
 
-                <indexterm><primary>Add Reception</primary></indexterm>
-                <indexterm><primary>New Reception</primary></indexterm>
-                <indexterm><primary>Create 
-                New</primary><secondary>Reception</secondary></indexterm>
+                <indexterm><primary>Signaleingang hinzufügen</primary></indexterm>
+                <indexterm><primary>Neuer Signaleingang</primary></indexterm>
+                <indexterm><primary>Erzeuge  
+                neuen</primary><secondary>Signaleingang</secondary></indexterm>
 
-                <para>This creates a new reception within the model,(but 
-                not within the diagram), navigating immediately to the 
-                properties tab for that rception.</para>
+                <para>
+                	Erzeugt innerhalb des Modelles einen neuen Signaleingang 
+                	(aber nicht innerhalb des Diagrammes) und springt 
+                	unmittelbar in das Register Eigenschaften dieses 
+                	Signaleinganges.
+                </para>
 
                 <tip>
 
-                  <para>A reception is a declaration that the actor
-                  handles a signal, but the actual handling 
-                  is specified by a state machine.</para>
+                  <para>
+                  	Ein Signaleingang ist eine Deklaration, dass der Akteur ein 
+                  	Signal verarbeitet. Die aktuelle Verarbeitung wird aber 
+                  	mit einem Zustandsautomaten spezifiziert.
+                  </para>
 
                 </tip>
 
@@ -26080,20 +26117,21 @@
               <imagedata align="center"
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Delete</literal></term>
+              <literal>Löschen</literal></term>
 
               <listitem>
 
-                <para>This deletes the selected actor from the 
-                model.</para>
+                <para>Entfernt den markierten Akteur aus dem Modell.</para>
 
                 <warning>
 
-                  <para>This is a deletion from the model 
-                  <emphasis>not</emphasis> just the diagram. To delete 
-                  an actor from the diagram, but keep it within the 
-                  model, use the main menu <literal>Remove From 
-                  Diagram</literal> (or press the Delete key).</para>
+                  <para>
+                  	Dies ist eine Löschung aus dem Modell, <emphasis>nicht
+                  	</emphasis> aus dem Diagramm. Um einen Akteur aus einem 
+                  	Diagramm zu entfernen, ihn aber im Modell zu erhalten, 
+                  	verwenden Sie das Hauptmenü <literal>Aus Diagramm entfernen
+                  	</literal> (oder drücken Sie die Taste Entf).
+                  </para>
 
                 </warning>
 
@@ -26107,7 +26145,7 @@
 
         <sect2 id="s2.ref.actor_property_fields">
 
-          <title>Property Fields For Actor</title>
+          <title>Eigenschaftsfelder für einen Akteur</title>
 
           <variablelist>
 
@@ -26117,20 +26155,23 @@
 
               <listitem>
 
-                <indexterm><primary>Actor Name</primary></indexterm>
-                <indexterm><primary>Name</primary><secondary>of 
-                Actor</secondary></indexterm>
-                <para>Text box. The name of the actor. The diagram 
-                shows this name below the stick man figure. Since an 
-                actor is a classifier, it would be conventional to 
-                Capitalize the first letter (and initial letters of any 
-                component words), e.g. <literal>
-                RemoteSensor</literal>.</para>
+                <indexterm><primary>Akteur Name</primary></indexterm>
+                <indexterm><primary>Name</primary><secondary>des 
+                Akteurs</secondary></indexterm>
+                <para>
+                	Textfeld. Der Name des Akteurs. Das Diagramm zeigt diesen 
+                	Namen unterhalb des Strichmännchens an. Da ein Akteur ein 
+                	Classifier ist, entspräche es der Konvention den ersten 
+                	Buchstaben als Großbuchstabe (und die ersten Buchstaben der 
+                	zusammengesetzten Wörter) zu schreiben. Z.B. <literal>
+                	RemoteSensor</literal>.
+                </para>
 
                 <note>
 
-                  <para>ArgoUML does not enforce any naming convention 
-                  for actors</para>
+                  <para>
+                  	ArgoUML erzwingt keine Namenskonventionen für Akteure.
+                  </para>
 
                 </note>
 
@@ -26140,17 +26181,18 @@
 
             <varlistentry>
 
-              <term><literal>Namespace</literal></term>
+              <term><literal>Namensraum</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Actor 
-                Namespace</primary></indexterm>
-                <indexterm><primary>Namespace</primary><secondary>of 
-                Actor</secondary></indexterm>
-                <para>Text box with navigation button. 
-                Records the namespace for the actor. 
-                This is the package hierarchy.</para>
+                <indexterm><primary>Akteur 
+                Namensraum</primary></indexterm>
+                <indexterm><primary>Namensraum</primary><secondary>des  
+                Akteurs</secondary></indexterm>
+                <para>
+                	Textfeld mit Navigationsschaltfläche. Nimmt den Namensraum 
+                	für einen Akteur auf. Dies ist die Pakethierarchie.
+                </para>
 
               </listitem>
 
@@ -26158,34 +26200,39 @@
 
             <varlistentry>
 
-              <term><literal>Modifiers</literal></term>
+              <term><literal>Modifizierer</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Actor 
-                Modifiers</primary></indexterm>
-                <indexterm><primary>Modifiers</primary><secondary>of 
-                Actor</secondary></indexterm>
-                <para>Check box, with entries <literal>
-                Abstract</literal>, <literal>Leaf</literal> and 
-                <literal>Root</literal>.</para>
+                <indexterm><primary>Akteur 
+                Modifizierer</primary></indexterm>
+                <indexterm><primary>Modifizierer</primary><secondary>des  
+                Akteurs</secondary></indexterm>
+                <para>
+                	Markierfeld mit den Einträgen <literal>
+                Abstract</literal>, <literal>Leaf</literal> und 
+                <literal>Root</literal>.
+                </para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para><literal>Abstract</literal> is used to 
-                    declare that this actor cannot be instantiated, but 
-                    must always be specialized.</para>
+                    <para>
+                    	<literal>Abstract</literal> wird verwendet, um zu 
+                    	deklarieren, dass der Akteur nicht instanziiert werden 
+                    	kann, aber immer spezialisiert werden muss.
+                    </para>
 
                     <caution>
 
-                      <para>While actors can be specialized and 
-                      generalized, it is not clear that an abstract 
-                      actor has any meaning. Perhaps it might be used 
-                      to indicate an actor that does not itself 
-                      interact with a use case, but whose children 
-                      do.</para>
+                      <para>
+                      	Da Akteure spezialisiert und generalisiert werden können, 
+                      	ist nicht klar, ob ein abstrakter Akteur eine Bedeutung 
+                      	hat. Vielleicht könnte er dazu verwendet werden, dass 
+                      	der Akteur mit einem Anwendungsfall nicht selbst 
+                      	interagiert, aber es seine Kinder tun.
+                      </para>
 
                     </caution>
 
@@ -26193,10 +26240,12 @@
 
                   <listitem>
 
-                    <para><literal>leaf</literal> indicates that this 
-                    actor can have no further children, while <literal>
-                    Root</literal> indicates it is a top level actor 
-                    with no parent.</para>
+                    <para>
+                    	<literal>leaf</literal> gibt an, dass dieser Akteur 
+                    	keine weiteren Kinder haben kann, während <literal>
+                    	Root</literal> angibt, dass es sich um einen Akteur auf 
+                    	oberster Ebene ohne Eltern handelt.
+                    </para>
 
                   </listitem>
 
@@ -26208,20 +26257,24 @@
 
             <varlistentry>
 
-              <term><literal>Generalizations</literal></term>
+              <term><literal>Generalisierungen</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Actor 
-                Generalizations</primary></indexterm>
+                <indexterm><primary>Akteur 
+                Generalisierungen</primary></indexterm>
                 <indexterm>
-                <primary>Generalizations</primary><secondary>of 
-                Actor</secondary></indexterm>
-                <para>Text area. Lists any actor that 
-                <emphasis>generalizes</emphasis> this actor.</para>
+                <primary>Generalisierungen</primary><secondary>des  
+                Akteur</secondary></indexterm>
+                <para>
+                	Textbereich. Listet jeden Akteur auf, der diesen Akteur 
+                	<emphasis>generalisiert</emphasis>.
+                </para>
 
-                <para>Button&nbsp;1 double click navigates to the 
-                generalization and opens its property tab.</para>
+                <para>
+                	Ein Taste&nbsp;1-Doppelklick springt zur Generalisierung und 
+                	öffnet dessen Register Eigenschaften.
+                </para>
 
               </listitem>
 
@@ -26229,22 +26282,26 @@
 
             <varlistentry>
 
-              <term><literal>Specializations</literal></term>
+              <term><literal>Spezialisierungen</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Actor 
-                Specializations</primary></indexterm>
+                <indexterm><primary>Akteur 
+                Spezialisierungen</primary></indexterm>
                 <indexterm>
-                <primary>Specializations</primary><secondary>of 
-                Actor</secondary></indexterm>
-                <para>Text box. Lists any specialized actor (i.e. for 
-                which this actor is a generalization. The specialized 
-                actors can communicate with the same use case instances 
-                as this actor.</para>
+                <primary>Spezialisierungen</primary><secondary>des  
+                Akteurs</secondary></indexterm>
+                <para>
+                	Textfeld. Listet jeden spezialisierten Akteur auf (z.B. für 
+                	den dieser Akteur eine Generalisierung ist). Die 
+                	spezialisierten Akteure können mit der gleichen 
+                	Anwendungsfallinstanz kommunizieren, wie dieser Akteur. 
+                </para>
 
-                <para>Button&nbsp;1 double click navigates to the 
-                generalization and opens its property tab.</para>
+                <para>
+                	Ein Taste&nbsp;1-Doppelklick springt zur Generalisierung 
+                	und öffnet dessen Register Eigenschaften.
+                </para>
 
               </listitem>
 
@@ -26252,20 +26309,24 @@
 
             <varlistentry>
 
-              <term><literal>Association Ends</literal></term>
+              <term><literal>Assoziationsenden</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Actor Association 
-                Ends</primary></indexterm>
-                <indexterm><primary>Association 
-                Ends</primary><secondary>of 
-                Actor</secondary></indexterm>
-                <para>Text area. Lists any association ends of 
-                associations connected to this actor.</para>
+                <indexterm><primary>Akteur Assoziationsenden
+                </primary></indexterm>
+                <indexterm><primary>Assoziationsenden
+                </primary><secondary>des  
+                Akteurs</secondary></indexterm>
+                <para>
+                	Textbereich. Listet jedes Assoziationsende der mit diesem 
+                	Akteur verbundenen Assoziationen auf.
+                </para>
 
-                <para>Button&nbsp;1 double click navigates to the selected 
-                entry.</para>
+                <para>
+                	Ein Taste&nbsp;1-Doppelklick springt zu dem markierten 
+                	Eintrag.
+                </para>
 
               </listitem>
 
@@ -26279,51 +26340,61 @@
 
       <sect1 id="s1.ref.use_case">
 
-        <title>Use Case</title>
+        <title>Anwendungsfall</title>
 
-        <indexterm><primary>Use Case</primary></indexterm>
-        <para>A use case represents a complete meaningful 
-        <quote>chunk</quote> of activity by the system in relation to 
-        its external users (actors), human or machine. It represents 
-        the primary route through which requirements are captured for 
-        the system under construction</para>
+        <indexterm><primary>Anwendungsfall</primary></indexterm>
+        <para>
+        	Ein Anwendungsfall repräsentiert eine vollständig abgeschlossene 
+        	Aktivitäts-<quote>Folge</quote> des Systems in Beziehung zu seinem 
+        	externen Anwender (Akteure), Mensch oder Maschine. Er repräsentiert 
+        	den primären Weg der Anforderungen, die für das zu konstruierende 
+        	System erfasst wurden.
+        </para>
 
-        <para>Within the UML metamodel, use case is a sub-class of 
-        <literal>classifier</literal>.</para>
+        <para>
+        	Innerhalb des UML-Metamodelles ist der Anwendungsfall eine Subklasse 
+        	von <literal>classifier</literal>.
+        </para>
 
-        <para>The use case icon is an oval (see 
-        <xref linkend="fig.ref.use_case_diagram"/>). It may be split in 
-        two, with the lower compartment showing extension points</para>
+        <para>
+        	Das Symbol für einen Anwendungsfall ist ein Oval (siehe 
+	        <xref linkend="fig.ref.use_case_diagram"/>). Es kann in zwei, 
+	        Bereiche aufgeteilt sein, wobei der untere Bereich Erweiterungspunkte 
+	        darstellt. 
+	   </para>
 
         <caution>
 
-          <para>By default ArgoUML does not show the extension point 
-          compartment. It may be revealed by the context sensitive 
-          <literal>Show</literal> menu (using button&nbsp;2 click), or from 
-          the Presentation tab.</para>
+          <para>
+          	Standardmäßig zeigt ArgoUML den Erweiterungspunkt-Bereich nicht an. 
+          	Er kann mit Hilfe des kontextsensitiven Menüs <literal>
+          	Erweiterungspunkte anzeigen</literal> (Taste&nbsp;2-Klick verwenden),
+          	oder über das Register Darstellung zur Anzeige gebracht werden.
+          </para>
 
         </caution>
 
         <sect2>
 
-          <title>Use Case Details Tabs</title>
+          <title>Anwendungsfall Detail-Register</title>
 
-          <indexterm><primary>Use Case Details 
-          Tabs</primary></indexterm>
-          <indexterm><primary>Details Tabs</primary><secondary>for Use 
-          Case</secondary></indexterm>
-          <para>The details tabs that are active for use cases are as 
-          follows.</para>
+          <indexterm><primary>Anwendungsfall Detail-Register 
+          </primary></indexterm>
+          <indexterm><primary>Detail-Register</primary><secondary>für  
+          Anwendungsfälle</secondary></indexterm>
+          <para>
+          	Die folgenden Detail-Register sind für die Anwendungsfälle aktiv.
+          </para>
 
           <variablelist>
 
             <varlistentry>
 
-              <term><literal>ToDoItem</literal></term>
+              <term><literal>Zu-Bearbeiten-Element</literal></term>
 
               <listitem>
 
-                <para>Standard tab.</para>
+                <para>Standard-Register.</para>
 
               </listitem>
 
@@ -26331,14 +26402,14 @@
 
             <varlistentry>
 
-              <term><literal>Properties</literal></term>
+              <term><literal>Eigenschaften</literal></term>
 
               <listitem>
 
-                <para>See 
-                <xref linkend="s2.ref.use_case_property_toolbar"/> and 
+                <para>Siehe 
+                <xref linkend="s2.ref.use_case_property_toolbar"/> und 
                 <xref linkend="s2.ref.use_case_property_fields"/> 
-                below.</para>
+                unten.</para>
 
               </listitem>
 
@@ -26346,12 +26417,14 @@
 
             <varlistentry>
 
-              <term><literal>Documentation</literal></term>
+              <term><literal>Dokumentation</literal></term>
 
               <listitem>
 
-                <para>Standard tab. See 
-                <xref linkend="s2.ref.documentation_tab"/>.</para>
+                <para>
+                Standard-Register. Siehe 
+                <xref linkend="s2.ref.documentation_tab"/>.
+                </para>
 
               </listitem>
 
@@ -26359,16 +26432,20 @@
 
             <varlistentry>
 
-              <term><literal>Presentation</literal></term>
+              <term><literal>Darstellung</literal></term>
 
               <listitem>
 
-                <para>Standard tab. The Fill color is used for the use 
-                case oval.</para>
+                <para>
+                	Standard-Register. Die Füllfarbe wird für das Anwendungsfall-
+                	Oval verwendet.
+                </para>
 
-                <para>The <literal>Display: Extension Points</literal> 
-                check box is used to control whether an extension point 
-                compartment is displayed.</para>
+                <para>
+                	Das Markierfeld <literal>Anzeige: Erweiterungspunkte
+                	</literal> steuert, ob der Erweiterungspunkt-Bereich 
+                	dargestellt wird. 
+                </para>
 
               </listitem>
 
@@ -26376,25 +26453,27 @@
 
             <varlistentry>
 
-              <term><literal>Source</literal></term>
+              <term><literal>Quellcode</literal></term>
 
               <listitem>
 
-                <para>Standard tab. It would not be usual to provide 
-                any code for a use case, since it is primarily a 
-                vehicle for capturing requirements about the system 
-                under construction, not creating the solution.</para>
+                <para>
+                	Standard-Register. Es wäre ungewöhnlich, wenn dieses Code 
+                	für den Anwendungsfall enthielte, da der Anwendungsfall 
+                	primär ein Vehikel für die Erfassung von Anforderungen über 
+                	das zu entwickelnde System ist und keine Lösung erzeugt.
+                </para>
 
               </listitem>
 
             </varlistentry>
             <varlistentry>
 
-              <term><literal>Stereotype</literal></term>
+              <term><literal>Stereotyp</literal></term>
 
               <listitem>
 
-                <para>Standard tab.</para>
+                <para>Standard-Register.</para>
 
               </listitem>
 
@@ -26402,32 +26481,40 @@
 
             <varlistentry>
 
-              <term><literal>Tagged Values</literal></term>
+              <term><literal>Eigenschaftswerte</literal></term>
 
               <listitem>
 
-                <para>Standard tab. In the UML metamodel, <literal>
-                UseCase</literal> has the following standard tagged 
-                values defined.</para>
+                <para>
+                	Standard-Register. Im UML-Metamodell sind für den 
+                	<literal>Anwendungsfall</literal> folgende Eigenschaftswerte 
+                	definiert.
+                </para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para><literal>persistence</literal> (from the 
-                    superclass, <literal>Classifier</literal>). Values 
-                    <literal>transitory</literal>, indicating state is 
-                    destroyed when an instance is destroyed or <literal>
-                    persistent</literal>, marking state is preserved 
-                    when an instance is destroyed.</para>
+                    <para>
+                    <literal>persistence</literal> (von der  
+                    Superklasse <literal>Classifier</literal>). Der Wert  
+                    <literal>transitory</literal>, gibt an, dass der angezeigte 
+                    Zustand gelöscht wird, wenn die Instanz gelöscht oder 
+                    <literal>persistent</literal> gespeichert wird, der 
+                    markierte Zustand bleibt erhalten, wenn die Instanz gelöscht 
+                    wird.
+                    </para>
 
                     <tip>
 
-                      <para>In general the instantiation of use cases 
-                      is not a major aspect of any design method (they 
-                      are mostly concerned with requirements capture. 
-                      For most OOA&amp;D methodologies, this tag can 
-                      safely be ignored.</para>
+                      <para>
+                      	Im Allgemeinen ist die Instanziierung von 
+                      	Anwendungsfällen nicht der Hauptaspekt einer 
+                      	Designmethode (sie betreffen häufig die 
+                      	Anforderungserfassung). In den meisten OOA&amp;D-
+                      	Methoden kann diese Eigenschaft sicherlich ignoriert 
+                      	werden.
+                      </para>
 
                     </tip>
 
@@ -26435,27 +26522,31 @@
 
                   <listitem>
 
-                    <para><literal>semantics</literal> (from the 
-                    superclass, <literal>Classifier</literal>). The 
-                    value is a specification of the semantics of the 
-                    use case.</para>
+                    <para>
+                    	<literal>semantics</literal> (von der  
+           				Superklasse <literal>Classifier</literal>). Der Wert 
+           				ist eine Spezifikation der Semantik des Anwendungsfalles.
+                    </para>
 
                   </listitem>
 
                   <listitem>
 
-                    <para><literal>derived</literal> (from the 
-                    superclass, <literal>ModelElement</literal>). 
-                    Values <literal>true</literal>, meaning the use 
-                    case is redundant&mdash;it can be formally derived from 
-                    other elements, or <literal>false</literal> meaning 
-                    it cannot.</para>
+                    <para>
+                    	<literal>derived</literal> (von der  
+                    	Superklasse <literal>ModelElement</literal>). 
+                    	Der Wert <literal>true</literal> bedeutet, dass der 
+                    	Anwendungsfall redundant ist&mdash; er kann formal von 
+                    	anderen Elementen abgeleitet werden, oder <literal>
+                    	false</literal> bedeutet, dass er es nicht kann.
+                    </para>
 
                     <note>
 
-                      <para>Derived use cases still have their value in 
-                      analysis to introduce useful names or 
-                      concepts.</para>
+                      <para>
+                      	Abgeleitete Anwendungsfälle haben ihren Wert in der 
+                      	Analyse, um nützliche Namen oder Konzepte einzuführen.
+                      </para>
 
                     </note>
 
@@ -26469,11 +26560,11 @@
 
             <varlistentry>
 
-              <term><literal>Checklist</literal></term>
+              <term><literal>Checkliste</literal></term>
 
               <listitem>
 
-                <para>Standard tab for a Classifier.</para>
+                <para>Standard-Register für einen Classifier.</para>
 
               </listitem>
 
@@ -26485,7 +26576,7 @@
 
         <sect2 id="s2.ref.use_case_property_toolbar">
 
-          <title>Use Case Property Toolbar</title>
+          <title>Anwendungsfall Eigenschaftssymbolleiste</title>
 
           <variablelist>
 
@@ -26495,12 +26586,14 @@
               <imagedata align="center"
                fileref="images/icons/navigate_up.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Go up</literal></term>
+              <literal>Nach oben</literal></term>
 
               <listitem>
 
-                <para>Navigate up through the package structure of the 
-                model.</para>
+                <para>
+                	Geht in der Paketstruktur des Modelles einen Schritt  
+                	nach oben.
+                </para>
 
               </listitem>
 
@@ -26512,23 +26605,28 @@
               <imagedata align="center"
                fileref="images/icons/use_case.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New use case</literal></term>
+              <literal>Neuer Anwendungsfall</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Add Use Case</primary></indexterm>
-                <indexterm><primary>New Use Case</primary></indexterm>
-                <indexterm><primary>Create New</primary><secondary>Use 
-                Case</secondary></indexterm>
-                <para>This creates a new use case within the model, 
-                (but not within the diagram), and shows immediately the 
-                properties tab for that use case.</para>
+                <indexterm><primary>Anwendungsfall hinzufügen</primary></indexterm>
+                <indexterm><primary>Neuer Anwendungsfall</primary></indexterm>
+                <indexterm><primary>Erzeuge neuen</primary><secondary>
+                Anwendungsfall</secondary></indexterm>
+                <para>
+                	Erzeugt innerhalb des Modelles einen neuen Anwendungsfall 
+                	(aber nicht innerhalb des Diagrammes) und zeigt 
+                	unmittelbar das Register Eigenschaften dieses 
+                	Anwendungsfalles. 
+                </para>
 
                 <tip>
 
-                  <para>This method of creating a new use case can be 
-                  confusing. It is much better to create a new use case 
-                  on the diagram of your choice.</para>
+                  <para>
+                  	Diese Methode, einen Anwendungsfall zu erzeugen kann 
+                  	irritierend sein. Es ist viel besser, einen neuen 
+                  	Anwendungsfall im Diagramm Ihrer Wahl zu erzeugen.
+                  </para>
 
                 </tip>
 
@@ -26542,21 +26640,24 @@
               <imagedata align="center"
                fileref="images/icons/extension_point.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New extension point</literal></term>
+              <literal>Neuer Erweiterungspunkt</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Add Extension 
-                Point</primary></indexterm>
-                <indexterm><primary>New Extension 
-                Point</primary></indexterm>
-                <indexterm><primary>Create 
-                New</primary><secondary>Extension 
-                Point</secondary></indexterm>
-                <para>This creates a new use extension point within the 
-                namespace of the current use case, with the current use 
-                case as its associated use case, navigating immediately 
-                to the properties tab for that extension point.</para>
+                <indexterm><primary>Erweiterungspunkt  
+                hinzufügen</primary></indexterm>
+                <indexterm><primary>Neuer Erweiterungspunkt 
+                </primary></indexterm>
+                <indexterm><primary>Erzeuge neuen 
+                </primary><secondary>Erweiterungspunkt 
+                </secondary></indexterm>
+                <para>
+                	Erzeugt einen neuen Erweiterungspunkt innerhalb des 
+                	Namensraumes des aktuellen Anwendungsfalles, mit dem 
+                	aktuellen Anwendungsfall als seinen mit ihm verbundenen 
+                	Anwendungsfall. Er springt sofort in das Register 
+                	Eigenschaften dieses Erweiterungspunktes.
+                </para>
 
               </listitem>
 
@@ -26568,13 +26669,14 @@
               <imagedata align="center"
                fileref="images/icons/attribute.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Attribute</literal></term>
+              <literal>Neues Attribut</literal></term>
 
               <listitem>
-                <para>This creates a new attribute within the 
-                current use case, 
-                navigating immediately 
-                to the properties tab for that attribute.</para>
+                <para>
+                	Erzeugt innerhalb des aktuellen Anwendungsfalles ein neues 
+                	Attribut und springt unmittelbar in das Register 
+                	Eigenschaften dieses Attributes.
+                </para>
               </listitem>
             </varlistentry>
             
@@ -26584,13 +26686,14 @@
               <imagedata align="center"
                fileref="images/icons/operation.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Operation</literal></term>
+              <literal>Neue Operation</literal></term>
 
               <listitem>
-                <para>This creates a new operation within the 
-                current use case, 
-                navigating immediately 
-                to the properties tab for that operation.</para>
+                <para>
+                	Erzeugt innerhalb des aktuellen Anwendungsfalles eine neue 
+                	Operation und springt unmittelbar in das Register 
+                	Eigenschaften dieser Operation.
+                </para>
               </listitem>
             </varlistentry>
             
@@ -26600,13 +26703,14 @@
               <imagedata align="center"
                fileref="images/icons/reception.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Reception</literal></term>
+              <literal>Neuer Signaleingang</literal></term>
 
               <listitem>
-                <para>This creates a new reception within the 
-                current use case, 
-                navigating immediately 
-                to the properties tab for that reception.</para>
+                <para>
+                	Erzeugt innerhalb des aktuellen Anwendungsfalles einen neuen 
+                	Signaleingang und springt unmittelbar in das Register 
+                	Eigenschaften dieses Signaleinganges.
+                </para>
               </listitem>
             </varlistentry>
             
@@ -26616,13 +26720,14 @@
               <imagedata align="center"
                fileref="images/icons/stereotype.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>New Stereotype</literal></term>
+              <literal>Neuer Stereotyp</literal></term>
 
               <listitem>
-                <para>This creates a new stereotype within the 
-                current use case, 
-                navigating immediately 
-                to the properties tab for that stereotype.</para>
+                <para>
+                	Erzeugt innerhalb des aktuellen Anwendungsfalles einen neuen 
+                	Stereotyp und springt unmittelbar in das Register 
+                	Eigenschaften dieses Stereotyps.
+                </para>
               </listitem>
             </varlistentry>
 
@@ -26632,20 +26737,23 @@
               <imagedata align="center"
                fileref="images/icons/property_delete.gif"
                format="GIF"/></imageobject></inlinemediaobject></guiicon> 
-              <literal>Delete</literal></term>
+              <literal>Löschen</literal></term>
 
               <listitem>
 
-                <para>This deletes the selected use case from the 
-                model.</para>
+                <para>
+                	Entfernt den markierten Anwendungsfall aus dem Modell.
+                </para>
 
                 <warning>
 
-                  <para>This is a deletion from the model 
-                  <emphasis>not</emphasis> just the diagram. To delete 
-                  a use case from the diagram, but keep it within the 
-                  model, use the main menu <literal>Remove From 
-                  Diagram</literal> (or press the Delete key).</para>
+                  <para>
+                  	Dies ist eine Löschung aus dem Modell, <emphasis>nicht
+                  	</emphasis> nur aus dem Diagramm. Um einen Anwendungsfall 
+                  	aus einem Diagramm zu löschen, ihn aber im Modell zu erhalten, 
+                  	verwenden Sie das Hauptmenü <literal>Aus Diagramm entfernen
+                  	</literal> (oder drücken Sie die Taste Entf).
+                  </para>
 
                 </warning>
 
@@ -26659,7 +26767,7 @@
 
         <sect2 id="s2.ref.use_case_property_fields">
 
-          <title>Property Fields For Use Case</title>
+          <title>Eigenschaftsfelder für einen Anwendungsfall</title>
 
           <variablelist>
 
@@ -26669,20 +26777,25 @@
 
               <listitem>
 
-                <indexterm><primary>Use Case Name</primary></indexterm>
-                <indexterm><primary>Name</primary><secondary>of Use 
-                Case</secondary></indexterm>
-                <para>Text box. The name of the use case. Since a use 
-                case is a classifier, it would be conventional to 
-                Capitalize the first letter (and initial letters of any 
-                component words), e.g. <literal>RemoteSensor</literal>. 
-                The name is shown inside the oval representation of the 
-                use case on the diagram.</para>
+                <indexterm><primary>Anwendungsfall Name</primary></indexterm>
+                <indexterm><primary>Name</primary><secondary>des  
+                Anwendungsfalles</secondary></indexterm>
+                <para>
+                	Textfeld. Der Name des Anwendungsfalles. Da ein 
+                	Anwendungsfall ein Klassifizierer ist, entspräche es der 
+                	Konvention den ersten Buchstaben als Großbuchstabe (und die 
+                	ersten Buchstaben der zusammengesetzten Wörter) zu 
+                	schreiben. Z.B. <literal>RemoteSensor</literal>. 
+                	Der Name wird innerhalb der ovalen Darstellung des 
+                	Anwendungsfalle im Diagramm angezeigt.
+                </para>
 
                 <note>
 
-                  <para>ArgoUML does not enforce any naming convention 
-                  for use cases</para>
+                  <para>
+                  	ArgoUML erzwingt keine Namenskonventionen für 
+                  	Anwendungsfälle.
+                  </para>
 
                 </note>
 
@@ -26692,17 +26805,18 @@
 
             <varlistentry>
 
-              <term><literal>Namespace</literal></term>
+              <term><literal>Namensraum</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Use Case 
-                Namespace</primary></indexterm>
-                <indexterm><primary>Namespace</primary><secondary>of 
-                Use Case</secondary></indexterm>
-                <para>Text box with navigation button. 
-                Records the namespace for the use case. 
-                This is the package hierarchy.</para>
+                <indexterm><primary>Anwendungsfall  
+                Namensraum</primary></indexterm>
+                <indexterm><primary>Namensraum</primary><secondary>eines   
+                Anwendungsfalles</secondary></indexterm>
+                <para>
+                	Textfeld mit Navigationsschaltfläche. Nimmt den Namensraum 
+                	des Anwendungsfalles auf. Dies ist die Pakethierarchie.
+                </para>
 
               </listitem>
 
@@ -26710,34 +26824,40 @@
 
             <varlistentry>
 
-              <term><literal>Modifiers</literal></term>
+              <term><literal>Modifizierer</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Use Case 
-                Modifiers</primary></indexterm>
-                <indexterm><primary>Modifiers</primary><secondary>of 
-                Use Case</secondary></indexterm>
-                <para>Check box, with entries <literal>
-                Abstract</literal> <literal>Leaf</literal> and <literal>
-                Root</literal>.</para>
+                <indexterm><primary>Anwendungsfall  
+                Modifizierer</primary></indexterm>
+                <indexterm><primary>Modifizierer</primary><secondary>eines  
+                Anwendungsfalles</secondary></indexterm>
+                <para>
+                	Markierfeld mit den Einträgen <literal>
+                	Abstract</literal> <literal>Leaf</literal> und <literal>
+                	Root</literal>.
+                </para>
 
                 <itemizedlist>
 
                   <listitem>
 
-                    <para><literal>Abstract</literal> is used to 
-                    declare that this actor cannot be instantiated, but 
-                    must always be specialized. .</para>
+                    <para>
+                    	<literal>Abstract</literal> wird verwendet, um zu 
+                    	deklarieren, dass der Anwendungsfall nicht instanziiert 
+                    	werden kann, aber immer spezialisiert werden muss.
+                    </para>
 
                   </listitem>
 
                   <listitem>
 
-                    <para><literal>Leaf</literal> indicates that this 
-                    use case can have no further children, while 
-                    <literal>Root</literal> indicates it is a top level 
-                    use case with no parent.</para>
+                    <para>
+                    	<literal>leaf</literal> gibt an, dass dieser 
+                    	Anwendungsfall keine weiteren Kinder haben kann, während 
+                    	<literal>Root</literal> angibt, dass es sich um einen 
+                    	Anwendungsfall auf oberster Ebene ohne Eltern handelt.
+                    </para>
 
                   </listitem>
 
@@ -26749,20 +26869,26 @@
 
             <varlistentry>
 
-              <term><literal>Client Dependencies</literal></term>
+              <term><literal>Abhängig von</literal></term>
 
               <listitem>
 
-                <para>Text area. Lists the <quote>depending</quote> 
-                ends of the relationship, i.e. the end that makes use 
-                of the other end.</para>
+                <para>
+                	Textbereich. Listet die <quote>abhängigen</quote> Enden 
+                	einer Beziehung auf, z.B. das Ende, das ein anderes Ende 
+                	benutzt.
+                </para>
 
-                <para>Button&nbsp;1 double click navigates to the dependency 
-                and opens its property tab.</para>
-                <para>Button&nbsp;2 click shows a pop-up menu with one entry
-                <literal>Add...</literal> that
-                opens a dialog box where you can add and remove 
-                depending modelelements.</para>
+                <para>
+                	Ein Taste&nbsp;1-Doppelklick springt zur Abhängigkeit und 
+                	öffnet dessen Register Eigenschaften.
+                </para>
+                <para>
+                	Ein Taste&nbsp;2-Klick gibt ein Popup-Menü mit einem Eintrag 
+                	<literal>...hinzufügen</literal> aus, das ein Dialogfenster 
+                	öffnet, in dem Sie abhängige Modellelemente hinzufügen oder 
+                	entfernen können.
+                </para>
 
               </listitem>
 
@@ -26770,20 +26896,26 @@
 
             <varlistentry>
 
-              <term><literal>Supplier Dependencies</literal></term>
+              <term><literal>Notwendig für</literal></term>
 
               <listitem>
 
-                <para>Text area. Lists the <quote>supplying</quote> 
-                ends of the relationship, i.e. the end supplying what 
-                is needed by the other end.</para>
+                <para>
+                	Textbereich. Listet die <quote>notwendigen</quote> Enden 
+                	der Beziehung auf, z.B. die Enden, die für das andere Ende 
+                	notwendig sind.
+                </para>
 
-                <para>Button&nbsp;1 double click navigates to the dependency 
-                and opens its property tab.</para>
-                <para>Button&nbsp;2 click shows a pop-up menu with one entry
-                <literal>Add...</literal> that
-                opens a dialog box where you can add and remove 
-                dependent modelelements.</para>
+                <para>
+                	Ein Taste&nbsp;1-Doppelklick springt zu der Abhängigkeit und 
+                	öffnet dessen Register Eigenschaften.
+                </para>
+                <para>
+                	Ein Taste&nbsp;2-Klick zeigt ein Popup-Menü mit einem Eintrag 
+                	<literal>...hinzufügen</literal> an, das ein Dialogfenster 
+                	öffnet, indem sie die notwendigen Modellelemente hinzufügen 
+                	oder entfernen können.
+                </para>
               </listitem>
 
             </varlistentry>
@@ -26791,20 +26923,23 @@
             <varlistentry>
 
               <term><literal>
-              <anchor id="ref.use_case_generalization"/>Generalizations</literal></term>
+              <anchor id="ref.use_case_generalization"/>Generalisierungen</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Use Case 
-                Generalization</primary></indexterm>
+                <indexterm><primary>Anwendungsfall  
+                Generalisierung</primary></indexterm>
                 <indexterm>
-                <primary>Generalizations</primary><secondary>of Use 
-                Case</secondary></indexterm>
-                <para>Text area. Lists use cases which are 
-                generalizations of this one. Will be set whenever a 
-                generalization is created on the from this Use Case. 
-                Button&nbsp;1 Double Click on a generalization will navigate 
-                to that generalization.</para>
+                <primary>Generalisierung</primary><secondary>des  
+                Anwendungsfalles</secondary></indexterm>
+                <para>
+                	Textbereich. Listet alle Anwendungsfälle auf, die 
+                	Generalisierungen dieses Anwendungsfalles sind. Wird immer 
+                	gesetzt, wenn eine Generalisierung von diesem Anwendungsfall 
+                	erzeugt wurde. Ein Taste&nbsp;1-Doppelklick auf eine 
+                	Generalisierung wird einen Sprung zu dieser Generalisierung 
+                	auslösen.
+                </para>
 
               </listitem>
 
@@ -26812,20 +26947,25 @@
 
             <varlistentry>
 
-              <term><literal>Specializations</literal></term>
+              <term><literal>Spezialisierungen</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Use Case 
-                Specialization</primary></indexterm>
+                <indexterm><primary>Anwendungsfall  
+                Spezialisierung</primary></indexterm>
                 <indexterm>
-                <primary>Specializations</primary><secondary>of Use 
-                Case</secondary></indexterm>
-                <para>Text box. Lists any specialized use case (i.e. 
-                for which this use case is a generalization.</para>
+                <primary>Spezialisierungen</primary><secondary>von  
+                Anwendungsfällen</secondary></indexterm>
+                <para>
+                	Textfeld. Listet jeden spezialisierten Anwendungsfall auf 
+                	( z. B. für den dieser Anwendungsfall eine Generalisierung 
+                	ist).
+                </para>
 
-                <para>Button&nbsp;1 double click navigates to the 
-                generalization and opens its property tab.</para>
+                <para>
+                	Ein Taste&nbsp;1-Doppelklick springt zur Spezialisierung und 
+                	öffnet dessen Register Eigenschaften.
+                </para>
 
               </listitem>
 
@@ -26833,21 +26973,24 @@
 
             <varlistentry>
 
-              <term><literal>Extends</literal></term>
+              <term><literal>Erweitert</literal></term>
 
               <listitem>
 
-                <indexterm><primary>Use Case Extend 
-                Relationships</primary></indexterm>
-                <indexterm><primary>Extend 
-                Relationship</primary><secondary>of Use 
-                Case</secondary></indexterm>
-                <para>Text box. Lists any class that is extended by 
-                this use case.</para>
+                <indexterm><primary>Anwendungsfall Erweitert- 
+                Beziehung</primary></indexterm>
+                <indexterm><primary>Erweitert- 
+                Beziehung</primary><secondary>des  
+                Anwendungsfalles</secondary></indexterm>
+                <para>
+                	Textfeld. Listet alle Klassen auf, die durch diesen 
+                	Anwendungsfall erweitert werden.
+                </para>
 
-                <para>Where an extends relationship has been created, 
-                button&nbsp;1 double click will navigate to that 
-                relationship.</para>
+                <para>
+                	Wo eine Erweitert-Beziehung erzeugt wurde, wird ein 
+                	Taste&nbsp;1-Doppelklick zu dieser Beziehung springen.
+                </para>
 
               </listitem>
 
