@@ -47,7 +47,7 @@ etc.
     <property name="build.dir" value="build"/>
 
     <property name="argo.root.dir" value="../argouml"/>
-    <property name="argo.build.dir" value="${argo.root.dir}/build"/>
+    <property name="argo.build.dir" value="${argo.root.dir}/src/argouml-build/build"/>
 	<property name="argo-de.root.dir" value="../argouml-de"/>
   	<property name="argo-de.www.dir" value="${argo-de.root.dir}/www"/>
 
