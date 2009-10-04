@@ -94,7 +94,7 @@ etc.
   <!-- =================================================================== -->
   <target name="install" depends="jar"
           description="Copy the ${result.jar} file to the ArgoUML directory.">
-    <copy todir="${argo.build.dir}/ext">
+    <copy todir="${argo.root.dir}/build/ext">
       <fileset dir="${build.dir}" includes="${result.jar}"/>
     </copy>
   </target>
